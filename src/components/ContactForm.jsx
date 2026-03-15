@@ -3,23 +3,26 @@ import { useForm } from 'react-hook-form'
 import { motion, AnimatePresence } from 'framer-motion'
 
 // ─── CONFIGURATION ──────────────────────────────────────────────────────────
-// 1. Go to https://formspree.io and create a free account
-// 2. Create a new form and copy your Form ID (looks like: xkndvpzq)
-// 3. Replace the placeholder below with your actual Form ID
-const FORMSPREE_ID = 'YOUR_FORMSPREE_ID'
+// Using FormSubmit.co — sends submissions to info@soundcheckinsights.com
+// First submission triggers a confirmation email — click to activate.
+const FORMSUBMIT_EMAIL = 'info@soundcheckinsights.com'
 // ────────────────────────────────────────────────────────────────────────────
 
-export default function ContactForm({ dark = false, fields = 'contact', buttonLabel = 'Send Message →' }) {
+export default function ContactForm({ dark = false, fields = 'contact', buttonLabel = 'Send Message →', formName = 'contact' }) {
   const [status, setStatus] = useState('idle') // idle | submitting | success | error
   const { register, handleSubmit, reset, formState: { errors } } = useForm()
 
   const onSubmit = async (data) => {
     setStatus('submitting')
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch(`https://formsubmit.co/ajax/${FORMSUBMIT_EMAIL}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify({
+          ...data,
+          _subject: `[Soundcheck] ${formName} form — ${data.name}`,
+          _template: 'table',
+        }),
       })
       if (res.ok) {
         setStatus('success')
