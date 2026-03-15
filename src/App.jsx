@@ -11,6 +11,7 @@ import Resources from './pages/Resources'
 import Partner from './pages/Partner'
 import OurPartners from './pages/OurPartners'
 import Contact from './pages/Contact'
+import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -34,6 +35,7 @@ function Layout() {
           <Route path="/partner" element={<Partner />} />
           <Route path="/our-partners" element={<OurPartners />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/articles/us-market-assumptions" element={<USMarketAssumptions />} />
         </Routes>
       </AnimatePresence>
       <Footer />
