@@ -36,19 +36,19 @@ export default function Partner() {
 
           {/* Sidebar */}
           <FadeIn delay={0.15}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 2, background: 'var(--navy)', borderRadius: 4, overflow: 'hidden' }}>
               {/* What happens next */}
-              <div style={{ background: 'var(--navy)', padding: '14px 20px' }}>
+              <div style={{ background: 'rgba(255,255,255,0.06)', padding: '14px 20px' }}>
                 <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)' }}>What Happens Next</span>
               </div>
               <StaggerContainer>
                 {nextSteps.map(s => (
                   <StaggerItem key={s.num}>
-                    <div style={{ display: 'grid', gridTemplateColumns: '36px 1fr', gap: 12, alignItems: 'flex-start', background: 'rgba(6,15,30,0.04)', padding: '16px 18px', marginBottom: 2 }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: '36px 1fr', gap: 12, alignItems: 'flex-start', background: 'rgba(255,255,255,0.04)', padding: '16px 18px', marginBottom: 2 }}>
                       <div style={{ width: 36, height: 36, background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700, color: '#fff', flexShrink: 0, borderRadius: '50%' }}>{s.num}</div>
                       <div>
-                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--navy)', marginBottom: 3 }}>{s.title}</div>
-                        <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: '#666', lineHeight: 1.55 }}>{s.body}</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500, color: '#fff', marginBottom: 3 }}>{s.title}</div>
+                        <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.55)', lineHeight: 1.55 }}>{s.body}</div>
                       </div>
                     </div>
                   </StaggerItem>
@@ -56,7 +56,7 @@ export default function Partner() {
               </StaggerContainer>
 
               {/* Founder card */}
-              <div style={{ background: 'var(--navy)', padding: '24px', borderTop: '2px solid var(--orange)', marginTop: 2 }}>
+              <div style={{ padding: '24px', borderTop: '2px solid var(--orange)', marginTop: 2 }}>
                 <div style={{ display: 'flex', gap: 14, alignItems: 'center', marginBottom: 14 }}>
                   <div style={{ width: 44, height: 44, background: 'var(--orange)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: '#fff', flexShrink: 0, borderRadius: '50%' }}>VK</div>
                   <div>
@@ -70,9 +70,9 @@ export default function Partner() {
               </div>
 
               {/* Direct */}
-              <div style={{ background: 'rgba(6,15,30,0.04)', padding: '18px 20px', border: '1px solid rgba(6,15,30,0.08)', marginTop: 2 }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(0,0,0,0.35)', marginBottom: 8 }}>💬 Prefer to talk first?</div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: '#666', marginBottom: 12 }}>Reach out directly or connect on LinkedIn.</p>
+              <div style={{ background: 'rgba(255,255,255,0.06)', padding: '18px 20px', marginTop: 2 }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.35)', marginBottom: 8 }}>Prefer to talk first?</div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', marginBottom: 12 }}>Reach out directly or connect on LinkedIn.</p>
                 <a href="mailto:valter.klug@chameleon.co" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)', paddingBottom: 1 }}>
                   valter.klug@chameleon.co →
                 </a>
