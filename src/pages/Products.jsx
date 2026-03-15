@@ -9,8 +9,8 @@ const products = [
     for: 'International Brands · Market Entry',
     name: 'Market Summary & International Expansion Assessment',
     desc: 'Research-grade US market entry intelligence for established international brands. Proprietary EVC Score, competitive landscape, regulatory snapshot, distribution channel map, and a strategic roadmap — all under your brand in 14 days.',
-    price: 'US$5,000',
-    delivery: 'Fixed fee · 14-day delivery · White-label included · 1 revision',
+    price: 'Suggested price: US$5k+',
+    delivery: '14-day delivery · White-label included · 1 revision',
     featured: true,
     deliverables: [
       'EVC Score (Expansion Viability Coefficient) — 10-dimension proprietary scoring',
@@ -33,8 +33,8 @@ const products = [
     for: 'Founders · Pre-Launch',
     name: 'Idea Validation',
     desc: 'Market intelligence for founders testing a business concept before committing capital. A go/no-go recommendation grounded in real data — delivered in 7 days.',
-    price: 'US$2,500',
-    delivery: 'Fixed fee · 7-day delivery · White-label included',
+    price: 'Suggested price: US$2.5k+',
+    delivery: '7-day delivery · White-label included',
     deliverables: [
       'Market Demand Signals — search volume, consumer interest, category trends',
       'Competitive Gap Analysis — who\'s doing this, how well, and where white space exists',
@@ -49,8 +49,8 @@ const products = [
     for: 'New Companies · Setup Stage',
     name: 'Business Plan Development',
     desc: 'A complete, research-backed business plan for companies in setup or pre-launch — built for investor conversations, lender requirements, and operational clarity.',
-    price: 'US$5,000',
-    delivery: 'Fixed fee · 14-day delivery · White-label included · 1 revision',
+    price: 'Suggested price: US$5k+',
+    delivery: '14-day delivery · White-label included · 1 revision',
     deliverables: [
       'Market Analysis — category size, growth drivers, target segments, customer personas',
       'Competitive Landscape — direct competitors, positioning, differentiation strategy',
@@ -65,8 +65,8 @@ const products = [
     for: 'Agencies · Consultancies · Marketing Depts',
     name: 'AI Virtual Focus Groups',
     desc: 'Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Delivered in days.',
-    price: 'From US$1,500/session',
-    delivery: 'Persona setup US$1,500 · 1–7 day delivery · White-label included',
+    price: 'Suggested price: US$1.5k+/session',
+    delivery: '1–7 day delivery · White-label included',
     deliverables: [
       '3–10 custom AI personas based on exact target demographics',
       'Moderated discussion transcript — no loudest-voice bias',
@@ -87,8 +87,8 @@ const products = [
     for: 'VC · PE · Investment',
     name: 'Funding Vetting',
     desc: 'Intelligence assessment for VC and PE firms evaluating investment targets. Proprietary Funding Viability Score with dimensional analysis, red flags, and IC-ready deck.',
-    price: 'US$1,500 setup + US$3,500/report',
-    delivery: 'Self-serve platform · 14-day delivery · Volume discounts available',
+    price: 'Suggested price: US$5k+/report',
+    delivery: '14-day delivery · Volume discounts available',
     deliverables: [
       'Funding Viability Score (0–100%) — Pass / High Risk / Conditional Invest / Strong Invest',
       '5-Dimension Analysis — Market Opportunity, Competitive Moat, Operational Health, Revenue Quality, Investment Risk',
@@ -154,7 +154,7 @@ export default function Products() {
         <div className="page-hero-inner">
           <span className="sc-label">Research Products</span>
           <h1 className="page-h1">Intelligence your agency deploys.<br />Results your clients remember.</h1>
-          <p className="page-sub">Five fixed-scope, fixed-price products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 7 days.</p>
+          <p className="page-sub">Five fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 7 days. You set the price for your clients.</p>
         </div>
       </section>
 
