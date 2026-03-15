@@ -73,8 +73,11 @@ export default function Partner() {
               <div style={{ background: 'rgba(255,255,255,0.06)', padding: '18px 20px', marginTop: 2 }}>
                 <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.35)', marginBottom: 8 }}>Prefer to talk first?</div>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', marginBottom: 12 }}>Reach out directly or connect on LinkedIn.</p>
-                <a href="mailto:valter.klug@chameleon.co" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)', paddingBottom: 1 }}>
-                  valter.klug@chameleon.co →
+                <a href="mailto:info@soundcheckinsights.com" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)', paddingBottom: 1, display: 'block', marginBottom: 8 }}>
+                  info@soundcheckinsights.com →
+                </a>
+                <a href="https://www.linkedin.com/in/valterklug/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)', paddingBottom: 1 }}>
+                  LinkedIn →
                 </a>
               </div>
             </div>

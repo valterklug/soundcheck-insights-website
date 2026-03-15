@@ -187,7 +187,7 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
             style={{ background: 'rgba(232,71,42,0.1)', borderColor: 'rgba(232,71,42,0.3)', color: '#ff9080' }}
             initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
           >
-            Something went wrong. Please email directly: <a href="mailto:valter.klug@chameleon.co" style={{ color: '#E8472A' }}>valter.klug@chameleon.co</a>
+            Something went wrong. Please email directly: <a href="mailto:info@soundcheckinsights.com" style={{ color: '#E8472A' }}>info@soundcheckinsights.com</a>
           </motion.div>
         )}
       </AnimatePresence>

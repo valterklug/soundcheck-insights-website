@@ -37,14 +37,14 @@ export default function Contact() {
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 14 }}>Prefer to reach out directly? We're reachable by email or LinkedIn.</p>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 0', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
                   <span style={{ opacity: 0.5, fontSize: 14 }}>✉</span>
-                  <a href="mailto:valter.klug@chameleon.co" style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'var(--teal-2)', textDecoration: 'none', transition: 'opacity 0.2s' }}
+                  <a href="mailto:info@soundcheckinsights.com" style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'var(--teal-2)', textDecoration: 'none', transition: 'opacity 0.2s' }}
                     onMouseEnter={e => e.target.style.opacity = '0.7'}
                     onMouseLeave={e => e.target.style.opacity = '1'}
-                  >valter.klug@chameleon.co</a>
+                  >info@soundcheckinsights.com</a>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 0' }}>
                   <span style={{ opacity: 0.5, fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700 }}>in</span>
-                  <a href="https://linkedin.com/in/valterklug" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'var(--teal-2)', textDecoration: 'none', transition: 'opacity 0.2s' }}
+                  <a href="https://www.linkedin.com/in/valterklug/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'var(--teal-2)', textDecoration: 'none', transition: 'opacity 0.2s' }}
                     onMouseEnter={e => e.target.style.opacity = '0.7'}
                     onMouseLeave={e => e.target.style.opacity = '1'}
                   >Valter Klug on LinkedIn</a>
