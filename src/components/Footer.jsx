@@ -32,7 +32,6 @@ export default function Footer() {
           }}>
             AI-powered market intelligence platform for agencies and consultancies.<br /><br />
             Founded by Valter Klug<br />
-            Affiliated with Chameleon Collective<br />
             Miami, FL
           </p>
         </div>
