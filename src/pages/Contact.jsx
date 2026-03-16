@@ -22,7 +22,7 @@ export default function Contact() {
               Send us a message
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: '#666', lineHeight: 1.65, marginBottom: 32 }}>
-              No commitment required. Response within 1 business day.
+              No commitment required. Response within 2 business days.
             </p>
             <ContactForm fields="contact" buttonLabel="Send Message →" />
           </FadeIn>

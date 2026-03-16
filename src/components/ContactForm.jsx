@@ -69,13 +69,6 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
 
       {/* Company */}
       <div className="form-group">
-        <label className={labelClass}>Company / Agency</label>
-        <input
-          type="text"
-          className={fieldClass}
-          placeholder="Your company or agency name"
-          {...register('company')}
-        />
       </div>
 
       {/* Topic selector */}
@@ -108,11 +101,11 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         <>
           <div className="form-grid">
             <div className="form-group">
-              <label className={labelClass}>Agency Name</label>
-              <input type="text" className={fieldClass} placeholder="Your Agency" {...register('agencyName')} />
+              <label className={labelClass}>Company Name</label>
+              <input type="text" className={fieldClass} placeholder="Your Company" {...register('agencyName')} />
             </div>
             <div className="form-group">
-              <label className={labelClass}>Agency Size</label>
+              <label className={labelClass}>Company Size</label>
               <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('agencySize')}>
                 <option value="">Select team size</option>
                 <option>Solo / 1 person</option>
@@ -171,7 +164,7 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         {status === 'submitting' ? 'Sending…' : buttonLabel}
       </button>
       <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: dark ? 'rgba(255,255,255,0.25)' : '#999', marginTop: 10 }}>
-        No commitment required. Response within 1 business day.
+        No commitment required. Response within 2 business days.
       </p>
 
       {/* Status messages */}

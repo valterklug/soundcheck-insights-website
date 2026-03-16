@@ -17,7 +17,7 @@ export default function Partner() {
         <div className="page-hero-inner">
           <span className="sc-label">Partner with Us</span>
           <h1 className="page-h1">Add Soundcheck to your practice.<br />Start with one report.</h1>
-          <p className="page-sub">Tell us about your agency or consultancy. We'll walk you through platform access, pricing, and how to run your first report — typically on an existing client within your first week.</p>
+          <p className="page-sub">Tell us about your company. We'll walk you through platform access, pricing, and how to run your first report — typically on an existing client within your first week.</p>
         </div>
       </section>
 
@@ -26,10 +26,10 @@ export default function Partner() {
           {/* Form */}
           <FadeIn>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 400, color: 'var(--navy)', letterSpacing: '-0.01em', marginBottom: 8 }}>
-              Tell us about your agency
+              Tell us about your company
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: '#666', lineHeight: 1.65, marginBottom: 32 }}>
-              Every access request is reviewed personally by Valter. If there's a fit, you'll hear back within one business day.
+              Every access request is reviewed personally by Valter. If there's a fit, you'll hear back within two business days.
             </p>
             <ContactForm fields="partner" buttonLabel="Submit Partnership Inquiry →" />
           </FadeIn>
