@@ -5,10 +5,10 @@ const partners = [
   {
     cat: 'Marketing Strategy · Fractional CMO',
     icon: '🎯',
-    name: 'Valter Klug — Chameleon Collective',
+    name: 'Valter Klug — Soundcheck Insights',
     url: 'https://sambarock.us',
     urlLabel: 'sambarock.us',
-    desc: 'If you need marketing leadership, brand strategy, US market expansion strategy, or a fractional CMO — Valter is the right conversation. He operates through Chameleon Collective and leads engagements directly. 25+ years across Brazil, the UK, and the US.',
+    desc: 'If you need marketing leadership, brand strategy, US market expansion strategy, or a fractional CMO — Valter is the right conversation. He leads engagements directly with 25+ years of experience across Brazil, the UK, and the US.',
     when: 'Marketing leadership gaps, brand positioning for US launch, fractional CMO, campaign strategy, international brand expansion from Brazil or LATAM to the US.',
     featured: true,
   },
@@ -29,6 +29,15 @@ const partners = [
     urlLabel: 'itscompany.com.br',
     desc: 'For brands moving product between Brazil and the US — import/export operations, customs clearance, freight management, and supply chain logistics. The operational backbone behind market entry.',
     when: 'Import/export of physical goods, customs clearance, freight management, supply chain setup.',
+  },
+  {
+    cat: 'Fulfillment · 3PL · Warehousing',
+    icon: '📦',
+    name: 'Connection Group USA',
+    url: 'https://www.connectiongroupusa.com',
+    urlLabel: 'connectiongroupusa.com',
+    desc: 'For international companies that need hands-on fulfillment and logistics operations in the US — warehousing, order fulfillment, shipping, and 3PL services. While ITS handles the strategic planning and customs side, Connection Group is the operational partner that stores, picks, packs, and ships your product once it lands.',
+    when: 'US warehousing and storage, order fulfillment, 3PL operations, pick-and-pack, domestic shipping, e-commerce logistics.',
   },
   {
     cat: 'Franchise Expansion',
