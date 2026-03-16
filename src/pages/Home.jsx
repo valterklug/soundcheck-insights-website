@@ -98,11 +98,11 @@ function NetworkViz() {
 
 /* ── PRODUCTS DATA ──────────────────────────────────────────────────── */
 const products = [
-  { num:'01', for:'International Brands · Market Entry', name:'Market Summary & International Expansion Assessment', desc:'EVC Score, competitive landscape, regulatory snapshot, distribution channel map, and 12-month roadmap.', price:'US$5,000', delivery:'Fixed fee · 14-day delivery', featured:true },
-  { num:'02', for:'Founders · Pre-Launch', name:'Idea Validation', desc:'Market demand signals, competitive gap analysis, target customer profile, and go/no-go recommendation.', price:'US$2,500', delivery:'Fixed fee · 7-day delivery' },
-  { num:'03', for:'New Companies · Setup Stage', name:'Business Plan Development', desc:'Full business plan with market analysis, competitive landscape, go-to-market, and revenue projections.', price:'US$5,000', delivery:'Fixed fee · 14-day delivery' },
-  { num:'04', for:'Agencies · Consultancies · Marketing Depts', name:'AI Virtual Focus Groups', desc:'AI-generated persona panels that mirror your client\'s exact target audience. No recruiting. No scheduling.', price:'From US$1,500/session', delivery:'Persona setup $1,500 · 1–7 day delivery' },
-  { num:'05', for:'VC · PE · Investment', name:'Funding Vetting', desc:'Proprietary Funding Viability Score, 5-dimension analysis, red flag report, and IC-ready deck.', price:'$1,500 setup + $3,500/report', delivery:'14-day delivery · Volume discounts' },
+  { num:'01', for:'International Brands · Market Entry', name:'Market Summary & International Expansion Assessment', desc:'EVC Score, competitive landscape, regulatory snapshot, distribution channel map, and 12-month roadmap.', delivery:'14-day delivery · White-label included', featured:true },
+  { num:'02', for:'Founders · Pre-Launch', name:'Idea Validation', desc:'Market demand signals, competitive gap analysis, target customer profile, and go/no-go recommendation.', delivery:'7-day delivery · White-label included' },
+  { num:'03', for:'New Companies · Setup Stage', name:'Business Plan Development', desc:'Full business plan with market analysis, competitive landscape, go-to-market, and revenue projections.', delivery:'14-day delivery · White-label included' },
+  { num:'04', for:'Agencies · Consultancies · Marketing Depts', name:'AI Virtual Focus Groups', desc:'AI-generated persona panels that mirror your client\'s exact target audience. No recruiting. No scheduling.', delivery:'1–7 day delivery · White-label included' },
+  { num:'05', for:'VC · PE · Investment', name:'Funding Vetting', desc:'Proprietary Funding Viability Score, 5-dimension analysis, red flag report, and IC-ready deck.', delivery:'14-day delivery · Volume discounts available' },
 ]
 
 export default function Home() {
@@ -263,8 +263,7 @@ export default function Home() {
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>
                       <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 20 }}>{p.desc}</p>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, fontWeight: 500, color: '#fff' }}>{p.price}</div>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginTop: 3 }}>{p.delivery}</div>
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                     </div>
                   </Link>
                 </HoverCard>
@@ -281,8 +280,7 @@ export default function Home() {
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>
                       <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 20 }}>{p.desc}</p>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, fontWeight: 500, color: '#fff' }}>{p.price}</div>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginTop: 3 }}>{p.delivery}</div>
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                     </div>
                   </Link>
                 </HoverCard>
