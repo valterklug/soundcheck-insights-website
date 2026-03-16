@@ -258,7 +258,7 @@ export default function Home() {
               <StaggerItem key={p.num}>
                 <HoverCard>
                   <Link to="/products" style={{ display: 'block', textDecoration: 'none', cursor: 'pointer' }}>
-                    <div style={{ background: p.featured ? 'rgba(0,196,212,0.04)' : 'rgba(255,255,255,0.03)', border: `1px solid ${p.featured ? 'rgba(0,196,212,0.22)' : 'rgba(255,255,255,0.06)'}`, borderTop: `3px solid ${p.featured ? 'var(--teal)' : 'transparent'}`, padding: '32px 28px', height: '100%', transition: 'border-color 0.2s' }}>
+                    <div style={{ background: p.featured ? 'rgba(0,196,212,0.04)' : 'rgba(255,255,255,0.03)', border: `1px solid ${p.featured ? 'rgba(0,196,212,0.22)' : 'rgba(255,255,255,0.06)'}`, borderTop: `3px solid ${p.featured ? 'var(--teal)' : 'transparent'}`, padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>
@@ -275,7 +275,7 @@ export default function Home() {
               <StaggerItem key={p.num}>
                 <HoverCard>
                   <Link to="/products" style={{ display: 'block', textDecoration: 'none' }}>
-                    <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '32px 28px', height: '100%', transition: 'border-color 0.2s' }}>
+                    <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>
