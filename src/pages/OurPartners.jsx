@@ -5,10 +5,10 @@ const partners = [
   {
     cat: 'Marketing Strategy · Fractional CMO',
     icon: '🎯',
-    name: 'Valter Klug — Soundcheck Insights',
+    name: 'Valter Klug — Chameleon Collective',
     url: 'https://sambarock.us',
     urlLabel: 'sambarock.us',
-    desc: 'If you need marketing leadership, brand strategy, US market expansion strategy, or a fractional CMO — Valter is the right conversation. He leads engagements directly with 25+ years of experience across Brazil, the UK, and the US.',
+    desc: 'If you need marketing leadership, brand strategy, US market expansion strategy, or a fractional CMO — Valter is the right conversation. He operates through Chameleon Collective and leads engagements directly. 25+ years across Brazil, the UK, and the US.',
     when: 'Marketing leadership gaps, brand positioning for US launch, fractional CMO, campaign strategy, international brand expansion from Brazil or LATAM to the US.',
     featured: true,
   },
