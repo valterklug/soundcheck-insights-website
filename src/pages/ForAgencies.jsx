@@ -8,10 +8,10 @@ export default function ForAgencies() {
       <section className="page-hero" style={{borderBottom:"3px solid var(--orange)"}}>
         <div className="page-hero-inner">
           <span className="sc-label">For Agencies & Consultancies</span>
-          <h1 className="page-h1">Add a <span className="text-orange">$230–$1,500+/hour</span> revenue line to your practice. No new headcount.</h1>
+          <h1 className="page-h1">Add a <span className="text-orange">$400–$1,250+/hour</span> revenue line to your practice. No new headcount.</h1>
           <p className="page-sub">Soundcheck is a market intelligence platform you operate for your clients. Your expertise validates the AI output. You set the price. You own the relationship.</p>
           <div style={{display:"flex",gap:8,flexWrap:"wrap",marginTop:24}}>
-            {[["⏱","6–10h","per report"],["💰","$3,000–$10,000+","per engagement"],["🏷","White-label","ready"],["🔍","You validate","the output"]].map(([i,v,l])=>(
+            {[["⏱","2–10h","per report"],["💰","$3,000–$5,000+","per engagement"],["🏷","White-label","ready"],["🔍","You validate","the output"]].map(([i,v,l])=>(
               <div key={v} className="chip">{i} <strong>{v}</strong> {l}</div>
             ))}
           </div>
@@ -28,16 +28,49 @@ export default function ForAgencies() {
             <p style={{fontFamily:"Inter,sans-serif",fontSize:"0.9375rem",color:"rgba(255,255,255,0.5)",lineHeight:1.75}}>That&apos;s what your client is paying for.</p>
           </FadeIn>
           <FadeIn delay={0.15}>
-            <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"rgba(255,255,255,0.25)",marginBottom:14}}>Real Economics · Per Report</div>
-            {[["Platform fee","$500–$1,500"],["Your time investment","6–10 hours"],["Effective hourly rate","$230–$1,500+/h"],["What you charge your client","$3,000–$10,000+"]].map(([l,v])=>(
-              <div key={l} style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"14px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",marginBottom:2}}>
-                <span style={{fontFamily:"Inter,sans-serif",fontSize:13,color:"rgba(255,255,255,0.45)"}}>{l}</span>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:14,fontWeight:500,color:"#fff"}}>{v}</span>
+            <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"rgba(255,255,255,0.25)",marginBottom:14}}>Real Economics · Per Report (on a $5,000 engagement)</div>
+            {/* Two-tier header */}
+            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:0}}>
+              <div style={{padding:"12px 18px",background:"rgba(255,255,255,0.01)"}}></div>
+              <div style={{padding:"12px 18px",background:"rgba(0,196,212,0.06)",border:"1px solid rgba(0,196,212,0.15)",textAlign:"center"}}>
+                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--teal)"}}>Self-Serve</div>
+                <div style={{fontFamily:"Inter,sans-serif",fontSize:10,color:"rgba(255,255,255,0.3)",marginTop:2}}>You run the platform</div>
+              </div>
+              <div style={{padding:"12px 18px",background:"rgba(232,71,42,0.06)",border:"1px solid rgba(232,71,42,0.15)",textAlign:"center"}}>
+                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--orange)"}}>Full-Service</div>
+                <div style={{fontFamily:"Inter,sans-serif",fontSize:10,color:"rgba(255,255,255,0.3)",marginTop:2}}>We help end-to-end</div>
+              </div>
+            </div>
+            {/* Table rows */}
+            {[
+              ["Soundcheck fee","20% of client price","Up to 50% of client price"],
+              ["On a $5k engagement","$1,000","$2,500"],
+              ["Your time investment","6–10 hours","2–4 hours"],
+              ["Effective hourly rate","$400–$667/h","$625–$1,250/h"],
+            ].map(([l,v1,v2])=>(
+              <div key={l} style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:0,marginBottom:1}}>
+                <div style={{padding:"13px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",display:"flex",alignItems:"center"}}>
+                  <span style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.45)"}}>{l}</span>
+                </div>
+                <div style={{padding:"13px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:500,color:"#fff"}}>{v1}</span>
+                </div>
+                <div style={{padding:"13px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:500,color:"#fff"}}>{v2}</span>
+                </div>
               </div>
             ))}
-            <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"18px 18px",background:"var(--orange)",marginTop:2}}>
-              <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:600,color:"#fff"}}>Your margin per report</span>
-              <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:22,fontWeight:300,color:"#fff"}}>$2,500–$8,500+</span>
+            {/* Margin row */}
+            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:0,marginTop:2}}>
+              <div style={{padding:"16px 18px",background:"var(--orange)",display:"flex",alignItems:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:600,color:"#fff"}}>Your margin</span>
+              </div>
+              <div style={{padding:"16px 18px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:20,fontWeight:300,color:"#fff"}}>$4,000</span>
+              </div>
+              <div style={{padding:"16px 18px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:20,fontWeight:300,color:"#fff"}}>$2,500</span>
+              </div>
             </div>
           </FadeIn>
         </div>
@@ -102,7 +135,7 @@ export default function ForAgencies() {
 
       <section className="cta-strip">
         <FadeIn>
-          <h2 className="cta-strip-h2">Start with one report.<br/>See what $1,500+/hour feels like.</h2>
+          <h2 className="cta-strip-h2">Start with one report.<br/>See what $400+/hour feels like.</h2>
           <p className="cta-strip-sub">Most operators run their first report on an existing client.</p>
         </FadeIn>
         <div className="cta-actions">

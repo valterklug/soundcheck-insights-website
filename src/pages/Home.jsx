@@ -302,7 +302,7 @@ export default function Home() {
           <FadeIn>
             <span className="sc-label sc-label-orange">The Business Case</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,2.8vw,2.2rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 18 }}>
-              A $230–$1,500+/hour<br />revenue line. No new headcount.
+              A $400–$1,250+/hour<br />revenue line. No new headcount.
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 24 }}>
               The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.
@@ -310,13 +310,13 @@ export default function Home() {
             <Link to="/for-agencies" className="text-link">Full Economics Breakdown →</Link>
           </FadeIn>
           <FadeIn delay={0.15}>
-            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: 14 }}>Real Economics · Per Report</div>
+            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: 14 }}>Real Economics · Per Report (on a $5,000 engagement)</div>
             <div>
               {[
-                ['Platform fee (what you pay Soundcheck)','$500–$1,500'],
-                ['Your time investment','6–10 hours'],
-                ['Effective hourly rate','$230–$1,500+/h'],
-                ['What you charge your client','$3,000–$10,000+'],
+                ['Soundcheck fee (Self-Serve)','20% · $1,000'],
+                ['Soundcheck fee (Full-Service)','Up to 50% · $2,500'],
+                ['Your time (Self-Serve / Full-Service)','6–10h / 2–4h'],
+                ['Effective hourly rate','$400–$1,250+/h'],
               ].map(([l,v])=>(
                 <div key={l} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '14px 18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', marginBottom: 2 }}>
                   <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)' }}>{l}</span>
@@ -325,7 +325,7 @@ export default function Home() {
               ))}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '18px 18px', background: 'var(--orange)', marginTop: 2 }}>
                 <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 600, color: '#fff' }}>Your margin per report</span>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 22, fontWeight: 300, color: '#fff' }}>$2,500–$8,500+</span>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 22, fontWeight: 300, color: '#fff' }}>$2,500–$4,000</span>
               </div>
             </div>
           </FadeIn>
@@ -335,7 +335,7 @@ export default function Home() {
       {/* ── CTA ──────────────────────────────────────────────────────── */}
       <section className="cta-strip">
         <FadeIn>
-          <h2 className="cta-strip-h2">Start with one report.<br />See what $1,500+/hour feels like.</h2>
+          <h2 className="cta-strip-h2">Start with one report.<br />See what $400+/hour feels like.</h2>
           <p className="cta-strip-sub">Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.</p>
         </FadeIn>
         <div className="cta-actions">

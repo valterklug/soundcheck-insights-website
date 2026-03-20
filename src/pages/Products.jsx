@@ -33,7 +33,7 @@ const products = [
     for: 'Founders · Pre-Launch',
     name: 'Idea Validation',
     desc: 'Market intelligence for founders testing a business concept before committing capital. A go/no-go recommendation grounded in real data — delivered in 7 days.',
-    price: 'Suggested price: US$2.5k+',
+    price: 'Suggested price: US$3k+',
     delivery: '7-day delivery · White-label included',
     deliverables: [
       'Market Demand Signals — search volume, consumer interest, category trends',
@@ -65,7 +65,7 @@ const products = [
     for: 'Agencies · Consultancies · Marketing Depts',
     name: 'AI Virtual Focus Groups',
     desc: 'Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Delivered in days.',
-    price: 'Suggested price: US$1.5k+/session',
+    price: 'Persona Definition: US$3k · Focus Group Session: US$2k+',
     delivery: '1–7 day delivery · White-label included',
     deliverables: [
       '3–10 custom AI personas based on exact target demographics',
