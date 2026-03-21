@@ -108,7 +108,7 @@ export default function ForInvestors() {
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">
           <span className="sc-label">For Investors · VC & PE Firms</span>
-          <h1 className="page-h1">Your pipeline is full.<br />Your team's time isn't.</h1>
+          <h1 className="page-h1">Your pipeline is full.<br />Your team's availability isn't.</h1>
           <p className="page-sub" style={{ maxWidth: 600 }}>
             The average PE firm evaluates 80 companies before closing one. Most of the ones that get filtered don't get filtered early enough.
             Soundcheck gives you a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.
