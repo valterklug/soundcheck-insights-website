@@ -88,7 +88,7 @@ function NetworkViz() {
       <motion.text x="46" y="340" fill="white" fontSize="13" fontFamily="IBM Plex Sans,sans-serif" fontWeight="400"
         initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2}}>14 days</motion.text>
       <motion.text x="46" y="357" fill="rgba(255,255,255,0.35)" fontSize="10" fontFamily="IBM Plex Sans,sans-serif"
-        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.25}}>30–50 page analysis</motion.text>
+        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.25}}>100+ page analysis</motion.text>
       {/* Orbit ring */}
       <motion.circle cx="240" cy="220" r="52" fill="none" stroke="rgba(0,196,212,0.1)" strokeWidth="1" strokeDasharray="6 4"
         initial={{opacity:0}} animate={{opacity:1,rotate:360}} transition={{opacity:{delay:0.5},rotate:{duration:30,repeat:Infinity,ease:'linear'}}}/>
@@ -98,11 +98,11 @@ function NetworkViz() {
 
 /* ── PRODUCTS DATA ──────────────────────────────────────────────────── */
 const products = [
-  { num:'01', for:'International Brands · Market Entry', name:'Market Summary & International Expansion Assessment', desc:'EVC Score, competitive landscape, regulatory snapshot, distribution channel map, and 12-month roadmap.', delivery:'14-day delivery · White-label included', featured:true },
+  { num:'01', for:'International Brands · Market Entry', name:'International Expansion Viability Report', desc:'CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages.', delivery:'14-day delivery · White-label included', featured:true, link:'/expansion-report' },
   { num:'02', for:'Founders · Pre-Launch', name:'Idea Validation', desc:'Market demand signals, competitive gap analysis, target customer profile, and go/no-go recommendation.', delivery:'7-day delivery · White-label included' },
   { num:'03', for:'New Companies · Setup Stage', name:'Business Plan Development', desc:'Full business plan with market analysis, competitive landscape, go-to-market, and revenue projections.', delivery:'14-day delivery · White-label included' },
   { num:'04', for:'Agencies · Consultancies · Marketing Depts', name:'AI Virtual Focus Groups', desc:'AI-generated persona panels that mirror your client\'s exact target audience. No recruiting. No scheduling.', delivery:'1–7 day delivery · White-label included' },
-  { num:'05', for:'VC · PE · Investment', name:'Funding Vetting', desc:'Proprietary Funding Viability Score, 5-dimension analysis, red flag report, and IC-ready deck.', delivery:'14-day delivery · Volume discounts available' },
+  { num:'05', for:'VC · PE · Investors', name:'Funding Vetting Analysis', desc:'Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict.', delivery:'7-day delivery · Volume discounts available', link:'/for-investors' },
 ]
 
 export default function Home() {
@@ -119,7 +119,7 @@ export default function Home() {
             >
               <span style={{ width: 7, height: 7, borderRadius: '50%', background: 'var(--teal)', display: 'block', animation: 'pulse 2s infinite' }}/>
               <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--teal)' }}>
-                Market Intelligence Platform · For Agencies & Consultancies
+                Market Intelligence Platform · For Agencies, Consultancies & Investors
               </span>
             </motion.div>
             <motion.h1
@@ -189,7 +189,7 @@ export default function Home() {
           <StaggerContainer>
             {[
               {icon:'⏱',title:'Research takes too long',text:'A junior team needs 3–4 weeks to produce what Soundcheck delivers in under 5 days.'},
-              {icon:'💸',title:'Traditional research costs too much',text:'Research firms charge $15K–$50K. Your clients can\'t justify it. You can\'t margin it.'},
+              {icon:'💸',title:'Traditional research costs too much',text:'Research firms charge $50K–$100K+. Your clients can\'t justify it. You can\'t margin it.'},
               {icon:'🤝',title:'You have the client, not the infrastructure',text:'You have the relationship and the expertise. You just need the research engine.'},
               {icon:'🏷',title:'Most research tools aren\'t white-label',text:'Soundcheck is operator-facing — you deliver under your brand. Always.'},
             ].map(({icon,title,text})=>(
@@ -257,7 +257,7 @@ export default function Home() {
             {products.slice(0,3).map(p=>(
               <StaggerItem key={p.num}>
                 <HoverCard>
-                  <Link to="/products" style={{ display: 'block', textDecoration: 'none', cursor: 'pointer' }}>
+                  <Link to={p.link || '/products'} style={{ display: 'block', textDecoration: 'none', cursor: 'pointer' }}>
                     <div style={{ background: p.featured ? 'rgba(0,196,212,0.04)' : 'rgba(255,255,255,0.03)', border: `1px solid ${p.featured ? 'rgba(0,196,212,0.22)' : 'rgba(255,255,255,0.06)'}`, borderTop: `3px solid ${p.featured ? 'var(--teal)' : 'transparent'}`, padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
@@ -274,7 +274,7 @@ export default function Home() {
             {products.slice(3).map(p=>(
               <StaggerItem key={p.num}>
                 <HoverCard>
-                  <Link to="/products" style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link to={p.link || '/products'} style={{ display: 'block', textDecoration: 'none' }}>
                     <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
