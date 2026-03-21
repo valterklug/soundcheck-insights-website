@@ -166,7 +166,7 @@ export default function ExpansionReport() {
             <a href="#whats-inside" className="btn btn-glass" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', color: '#fff', padding: '12px 24px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, display: 'inline-flex', alignItems: 'center', borderRadius: 4, textDecoration: 'none', transition: 'all 0.2s' }}>See What's Inside →</a>
           </div>
           <div style={{ display: 'flex', gap: 40, marginTop: 40, flexWrap: 'wrap' }}>
-            {[['40+', 'PAGES', 'sourced research and strategy'], ['14', 'DAYS', 'from intake to delivery'], ['US$5k+', '', 'white-label included']].map(([num, label, sub]) => (
+            {[['100+', 'PAGES', 'sourced research and strategy'], ['14', 'DAYS', 'from intake to delivery'], ['US$5k+', '', 'white-label included']].map(([num, label, sub]) => (
               <div key={sub} style={{ display: 'flex', flexDirection: 'column' }}>
                 <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: num.length > 3 ? 24 : 36, fontWeight: 300, color: 'var(--teal)', lineHeight: 1 }}>{num}</div>
                 {label && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginTop: 4 }}>{label}</div>}
@@ -401,7 +401,7 @@ export default function ExpansionReport() {
               <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 28px', height: '100%' }}>
                 <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 500, color: '#fff', marginBottom: 14 }}>Full Intelligence Report</div>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, marginBottom: 16 }}>
-                  40+ pages covering all 8 sections. Professional .docx format, white-labeled under your brand. Every claim sourced, every number benchmarked, every recommendation actionable.
+                  100+ pages covering all 8 sections. Professional .docx format, white-labeled under your brand. Every claim sourced, every number benchmarked, every recommendation actionable.
                 </p>
                 {['8-section structure with MECE coverage', 'Confidence-labeled claims throughout', 'TAM/SAM/SOM with dual-approach sizing', 'Competitive landscape with 6 to 10 benchmarks', '12-month roadmap with go/no-go gates', 'Assumptions log for full transparency'].map(t => (
                   <div key={t} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '6px 0' }}>

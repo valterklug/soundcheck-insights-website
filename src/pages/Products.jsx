@@ -8,7 +8,7 @@ const products = [
     num: '01',
     for: 'International Brands · Market Entry',
     name: 'International Expansion Viability Report',
-    desc: 'Decision-grade market entry intelligence for international brands. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 40+ pages, white-labeled, in 14 days.',
+    desc: 'Decision-grade market entry intelligence for international brands. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages, white-labeled, in 14 days.',
     price: 'Suggested price: US$5k+',
     delivery: '14-day delivery · White-label included · 1 revision',
     featured: true,
@@ -20,7 +20,7 @@ const products = [
       'Market & Category Intelligence — TAM/SAM/SOM, Porter\'s Five Forces, competitive benchmarking, buyer landscape',
       'Strategic Entry & Growth Plan — 12-month roadmap with unit economics and go/no-go gates',
       'Risks & Watchpoints — scored, ranked, and mitigated',
-      '40+ Page Report + Visual Executive Summary (white-labeled)',
+      '100+ Page Report + Visual Executive Summary (white-labeled)',
     ],
     sample: {
       type: 'evc',
