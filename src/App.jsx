@@ -11,6 +11,7 @@ import Resources from './pages/Resources'
 import Partner from './pages/Partner'
 import OurPartners from './pages/OurPartners'
 import ForInvestors from './pages/ForInvestors'
+import ExpansionReport from './pages/ExpansionReport'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
@@ -33,6 +34,7 @@ function Layout() {
           <Route path="/for-agencies" element={<ForAgencies />} />
           <Route path="/for-investors" element={<ForInvestors />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/expansion-report" element={<ExpansionReport />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/partner" element={<Partner />} />
           <Route path="/our-partners" element={<OurPartners />} />
