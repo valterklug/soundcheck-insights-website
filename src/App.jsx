@@ -10,6 +10,7 @@ import Products from './pages/Products'
 import Resources from './pages/Resources'
 import Partner from './pages/Partner'
 import OurPartners from './pages/OurPartners'
+import ForInvestors from './pages/ForInvestors'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
@@ -30,6 +31,7 @@ function Layout() {
           <Route path="/" element={<Home />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/for-agencies" element={<ForAgencies />} />
+          <Route path="/for-investors" element={<ForInvestors />} />
           <Route path="/products" element={<Products />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/partner" element={<Partner />} />

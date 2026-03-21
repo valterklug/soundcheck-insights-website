@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Brief — Fieldwire Health</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    background: #040C18;
+    color: #FFFFFF;
+    min-height: 100vh;
+    padding: 32px 24px;
+  }
+
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(217,119,6,0.2), 0 24px 64px rgba(0,0,0,0.6);
+  }
+
+  .header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 28px; background: #0F2040;
+    border-bottom: 1px solid rgba(217,119,6,0.2);
+  }
+
+  .header-left { display: flex; align-items: center; gap: 14px; }
+
+  .logo-mark {
+    width: 38px; height: 38px; background: #E8472A; border-radius: 7px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 800; color: white; letter-spacing: -1px; flex-shrink: 0;
+  }
+
+  .logo-text { display: flex; flex-direction: column; gap: 2px; }
+  .logo-brand { font-size: 10px; font-weight: 700; color: #00C4D4; letter-spacing: 0.14em; text-transform: uppercase; }
+  .logo-product { font-size: 12.5px; font-weight: 500; color: #A8BDD0; }
+
+  .header-company { text-align: center; }
+  .company-name { font-size: 21px; font-weight: 800; color: #FFFFFF; letter-spacing: -0.02em; }
+  .company-meta { font-size: 11px; color: #6B8098; margin-top: 3px; }
+
+  .header-right { text-align: right; }
+  .meta-label { font-size: 10px; font-weight: 700; color: #6B8098; text-transform: uppercase; letter-spacing: 0.09em; }
+  .meta-value { font-size: 12px; color: #A8BDD0; margin-top: 2px; }
+
+  /* ── VERDICT BAR — CONDITIONAL ── */
+  .verdict-bar {
+    padding: 15px 28px; display: flex; align-items: center; gap: 18px;
+    background: linear-gradient(135deg, #1C1200 0%, #251800 100%);
+    border-left: 4px solid #D97706;
+  }
+
+  .verdict-pill {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 18px; border-radius: 100px;
+    font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+    flex-shrink: 0;
+    background: rgba(217,119,6,0.12); color: #FBBF24; border: 1px solid rgba(217,119,6,0.3);
+  }
+
+  .verdict-dot { width: 7px; height: 7px; border-radius: 50%; background: #FBBF24; }
+  .verdict-rationale { font-size: 13px; color: #A8BDD0; font-style: italic; flex: 1; line-height: 1.45; }
+
+  /* ── MIDDLE ROW ── */
+  .middle-row {
+    display: grid; grid-template-columns: 38% 1fr;
+    border-top: 1px solid rgba(217,119,6,0.08);
+  }
+
+  .opportunity-panel {
+    padding: 22px 28px; background: #0A1628;
+    border-right: 1px solid rgba(255,255,255,0.05);
+    display: flex; flex-direction: column; justify-content: center; gap: 12px;
+  }
+
+  .panel-label { font-size: 10px; font-weight: 700; color: #00C4D4; letter-spacing: 0.13em; text-transform: uppercase; }
+  .opportunity-text { font-size: 14.5px; font-weight: 500; color: #FFFFFF; line-height: 1.6; }
+
+  .opportunity-tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 10px; background: rgba(217,119,6,0.08); border: 1px solid rgba(217,119,6,0.22);
+    border-radius: 4px; font-size: 10.5px; font-weight: 600; color: #FBBF24;
+    width: fit-content; margin-top: 2px;
+  }
+
+  .signals-panel { padding: 18px 22px; background: #060F1E; display: flex; flex-direction: column; }
+  .signals-header { font-size: 10px; font-weight: 700; color: #00C4D4; letter-spacing: 0.13em; text-transform: uppercase; margin-bottom: 12px; }
+
+  .signal-row {
+    display: flex; align-items: flex-start; gap: 11px;
+    padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+  .signal-row:last-child { border-bottom: none; }
+
+  .signal-icon { font-size: 15px; flex-shrink: 0; width: 18px; line-height: 1.35; }
+  .signal-icon.strong { color: #00C4D4; }
+  .signal-icon.unclear { color: #D97706; }
+  .signal-icon.weak { color: #E8472A; }
+
+  .signal-info { flex: 1; min-width: 0; }
+
+  .signal-name {
+    font-size: 11.5px; font-weight: 600; color: #FFFFFF;
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  }
+
+  .signal-rating-text { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; flex-shrink: 0; }
+  .signal-rating-text.strong { color: #00C4D4; }
+  .signal-rating-text.unclear { color: #D97706; }
+  .signal-rating-text.weak { color: #E8472A; }
+
+  .signal-rationale { font-size: 10.5px; color: #6B8098; margin-top: 2px; line-height: 1.45; }
+
+  /* ── WHAT WE HEARD ── */
+  .heard-section { padding: 18px 28px; background: #0A1628; border-top: 1px solid rgba(255,255,255,0.05); }
+  .heard-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 12px; }
+
+  .quote-card {
+    background: #060F1E; border: 1px solid rgba(0,196,212,0.12); border-radius: 7px;
+    padding: 14px 16px 12px; display: flex; flex-direction: column; gap: 10px; position: relative;
+  }
+
+  .quote-card::before {
+    content: '"'; position: absolute; top: 4px; left: 10px;
+    font-size: 32px; color: rgba(0,196,212,0.15); font-family: Georgia, serif; line-height: 1;
+  }
+
+  .quote-text { font-size: 11.5px; color: #A8BDD0; font-style: italic; line-height: 1.55; padding-top: 12px; }
+
+  .quote-source {
+    font-size: 10px; font-weight: 700; color: #00C4D4; text-transform: uppercase; letter-spacing: 0.07em;
+    margin-top: auto; padding-top: 6px; border-top: 1px solid rgba(0,196,212,0.10);
+  }
+
+  .quote-card.contradiction { border-color: rgba(232,71,42,0.25); background: #0D0805; }
+  .quote-card.contradiction::before { color: rgba(232,71,42,0.18); }
+  .quote-card.contradiction .quote-source { color: #E8472A; border-color: rgba(232,71,42,0.12); }
+
+  /* ── BOTTOM PANEL — CONDITIONAL ── */
+  .bottom-panel { padding: 18px 28px; background: #060F1E; border-top: 1px solid rgba(255,255,255,0.05); }
+
+  .conditional-label { font-size: 10px; font-weight: 700; color: #D97706; letter-spacing: 0.13em; text-transform: uppercase; }
+
+  .conditional-gate {
+    margin-top: 12px; padding: 14px 18px;
+    background: rgba(217,119,6,0.06); border: 1px solid rgba(217,119,6,0.22); border-radius: 7px;
+    display: flex; gap: 16px; align-items: flex-start;
+    margin-bottom: 14px;
+  }
+
+  .gate-icon {
+    width: 32px; height: 32px; flex-shrink: 0;
+    background: rgba(217,119,6,0.12); border: 1px solid rgba(217,119,6,0.25); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+
+  .gate-content { flex: 1; }
+
+  .gate-title {
+    font-size: 10px; font-weight: 700; color: #FBBF24;
+    text-transform: uppercase; letter-spacing: 0.09em; margin-bottom: 6px;
+  }
+
+  .gate-text { font-size: 12px; color: #FCD34D; line-height: 1.55; }
+
+  .gate-outcome {
+    margin-top: 8px; font-size: 11px; color: #A8BDD0;
+    padding-top: 7px; border-top: 1px solid rgba(217,119,6,0.15);
+    display: flex; gap: 16px;
+  }
+
+  .outcome-item { display: flex; align-items: center; gap: 5px; }
+
+  .outcome-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .outcome-dot.green { background: #00C4D4; }
+  .outcome-dot.red { background: #E8472A; }
+
+  .questions-grid { display: flex; flex-direction: column; gap: 7px; }
+
+  .question-item {
+    display: flex; align-items: flex-start; gap: 12px;
+    padding: 9px 14px; background: #0A1628; border-radius: 6px;
+    border: 1px solid rgba(0,196,212,0.09);
+  }
+
+  .question-num { font-size: 11px; font-weight: 800; color: #00C4D4; flex-shrink: 0; width: 20px; font-family: 'JetBrains Mono', monospace; }
+  .question-text { font-size: 11.5px; color: #A8BDD0; line-height: 1.5; }
+
+  /* Consultant note */
+  .consultant-note {
+    margin-top: 10px; padding: 9px 14px;
+    background: rgba(232,71,42,0.05); border-left: 3px solid #E8472A;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .consultant-note-label {
+    font-size: 9px; font-weight: 700; color: #E8472A;
+    text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px;
+  }
+
+  .consultant-note-text { font-size: 11px; color: #FCA5A5; font-style: italic; line-height: 1.45; }
+
+  /* ── FOOTER ── */
+  .footer {
+    padding: 11px 28px; background: #0F2040;
+    border-top: 1px solid rgba(217,119,6,0.15);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+
+  .footer-left { font-size: 10px; color: #6B8098; font-family: 'JetBrains Mono', 'Courier New', monospace; letter-spacing: 0.04em; }
+  .footer-center { font-size: 10px; color: #4A5568; text-align: center; }
+  .footer-right { font-size: 10px; font-weight: 700; color: #00C4D4; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="logo-mark">SI</div>
+      <div class="logo-text">
+        <div class="logo-brand">Soundcheck Insights</div>
+        <div class="logo-product">Funding Vetting Analysis</div>
+      </div>
+    </div>
+    <div class="header-company">
+      <div class="company-name">Fieldwire Health</div>
+      <div class="company-meta">Healthcare SaaS · Clinical Workflow Automation</div>
+    </div>
+    <div class="header-right">
+      <div class="meta-label">Prepared for</div>
+      <div class="meta-value">Calloway Health Ventures</div>
+      <div class="meta-value" style="margin-top:5px; font-size:11px; color:#4A5568;">March 20, 2026</div>
+    </div>
+  </div>
+
+  <!-- VERDICT BAR — CONDITIONAL -->
+  <div class="verdict-bar">
+    <div class="verdict-pill">
+      <div class="verdict-dot"></div>
+      Conditional
+    </div>
+    <div class="verdict-rationale">
+      Strong founder, real moat, and credible market — but an undisclosed CMS reimbursement rule change threatens the core revenue model and must be independently verified before advancing.
+    </div>
+  </div>
+
+  <!-- MIDDLE ROW -->
+  <div class="middle-row">
+
+    <div class="opportunity-panel">
+      <div class="panel-label">The Opportunity</div>
+      <div class="opportunity-text">
+        Fieldwire automates prior authorization and clinical documentation for mid-size hospital systems, cutting admin time by an average of 11 hours per clinician per week — addressing a workforce crisis that is measurable, urgent, and getting worse.
+      </div>
+      <div class="opportunity-tag">
+        ◐ Series A · $3.6M ARR · 22 health system customers
+      </div>
+    </div>
+
+    <div class="signals-panel">
+      <div class="signals-header">6 Signal Assessment</div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">Market Reality <span class="signal-rating-text strong">Strong</span></div>
+          <div class="signal-rationale">Clinical admin burden is independently documented as $13.2B annual cost to US health systems. CMS digitization mandates accelerate adoption timeline. Category pull is structural.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon unclear">◐</div>
+        <div class="signal-info">
+          <div class="signal-name">Revenue Quality <span class="signal-rating-text unclear">Unclear</span></div>
+          <div class="signal-rationale">Gross margin 71%, NRR 108% plausible but not independently reconstructed. Customer confirmed strong renewal intent — however CMS rule exposure could alter 40% of contract structures if confirmed.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">Defensibility <span class="signal-rating-text strong">Strong</span></div>
+          <div class="signal-rationale">EHR integration layer (Epic, Cerner, Meditech) took 18 months to build. Customer scored essentiality 9/10 and confirmed no viable replacement without 12+ month rebuild. Moat is structural.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">Founder Clarity <span class="signal-rating-text strong">Strong</span></div>
+          <div class="signal-rationale">CEO is former Epic implementation lead — domain depth is genuine and specific. Proactively disclosed the CMS rule concern in Interview 1 without prompting. High credibility signal.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon unclear">◐</div>
+        <div class="signal-info">
+          <div class="signal-name">No Deal-Killers <span class="signal-rating-text unclear">Flagged</span></div>
+          <div class="signal-rationale">CMS reimbursement rule change (effective Q3 2026) could reclassify prior auth automation billing for ~40% of customer contracts. CEO disclosed proactively; impact range is $0 to significant depending on final guidance.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">Exit Logic <span class="signal-rating-text strong">Coherent</span></div>
+          <div class="signal-rationale">Three named acquirers: Epic (workflow extension), Waystar (RCM integration), Optum (enterprise health ops). Waystar acquired Recondo at 6.8x ARR in 2023. Math works at current entry valuation.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WHAT WE HEARD -->
+  <div class="heard-section">
+    <div class="panel-label">What We Heard</div>
+    <div class="heard-grid">
+
+      <div class="quote-card">
+        <div class="quote-text">I want to be transparent about something — there's a CMS guidance update coming in Q3 that could affect how some of our customers bill for this. We're watching it closely. It may be nothing. It may require some contract restructuring.</div>
+        <div class="quote-source">CEO — Interview 1, proactive disclosure</div>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-text">Our hospitalists were spending three hours a day on prior auth before Fieldwire. That's not an exaggeration. I can't imagine going back — it would be a clinical staffing crisis for us all over again.</div>
+        <div class="quote-source">CMO, Regional Health System — Interview 2</div>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-text">CEO disclosed CMS rule change unprompted — a strong credibility signal. Customer confirmed the product's essentiality independently. These two interviews are the most consistent pair in this evaluation.</div>
+        <div class="quote-source">Corroboration — Interviews 1 & 2</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOTTOM PANEL — CONDITIONAL -->
+  <div class="bottom-panel">
+    <div class="conditional-label">Advance If Confirmed</div>
+
+    <div class="conditional-gate">
+      <div class="gate-icon">⚖</div>
+      <div class="gate-content">
+        <div class="gate-title">Condition to Verify Before Advancing</div>
+        <div class="gate-text">
+          Obtain independent regulatory counsel review of CMS Prior Authorization and Patient Access Final Rule (CMS-0057-F) and its applicability to Fieldwire's current billing structure. Determine whether the Q3 2026 effective date creates a material revenue risk, a manageable contract renegotiation, or no practical impact given the company's specific coding and documentation model.
+        </div>
+        <div class="gate-outcome">
+          <div class="outcome-item">
+            <div class="outcome-dot green"></div>
+            <span>If no material impact: <strong style="color:#00C4D4;">ADVANCE</strong> — all other signals support continuation</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot red"></div>
+            <span>If &gt;25% revenue at risk: <strong style="color:#E8472A;">STOP</strong> — structural model risk</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="questions-grid">
+      <div class="question-item">
+        <div class="question-num">01</div>
+        <div class="question-text">Reconstruct monthly ARR for last 18 months from billing exports and independently verify NRR — stated 108% is plausible but not yet confirmed from a third-party source.</div>
+      </div>
+      <div class="question-item">
+        <div class="question-num">02</div>
+        <div class="question-text">Conduct a technical audit of the EHR integration layer with an independent health IT advisor — the moat claim rests on the depth and exclusivity of Epic/Cerner certification, which cannot be assumed without verification.</div>
+      </div>
+    </div>
+
+    <div class="consultant-note">
+      <div class="consultant-note-label">Consultant Note</div>
+      <div class="consultant-note-text">Signal 2 (Revenue Quality) adjusted from Strong to Unclear by consultant. AI rated Strong based on customer corroboration and stated NRR — adjusted down because CMS rule exposure creates a scenario where 40% of contracts could require restructuring. Evidence is otherwise clean; this is a conditional adjustment pending regulatory verification.</div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-left">RPT-FWHL-20260320</div>
+    <div class="footer-center">Confidential · For Calloway Health Ventures only · This brief does not constitute investment advice</div>
+    <div class="footer-right">soundcheckinsights.com</div>
+  </div>
+
+</div>
+</body>
+</html>

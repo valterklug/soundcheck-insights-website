@@ -84,23 +84,23 @@ const products = [
   },
   {
     num: '05',
-    for: 'VC · PE · Investment',
-    name: 'Funding Vetting',
-    desc: 'Intelligence assessment for VC and PE firms evaluating investment targets. Proprietary Funding Viability Score with dimensional analysis, red flags, and IC-ready deck.',
-    price: 'Suggested price: US$5k+/report',
-    delivery: '14-day delivery · Volume discounts available',
+    for: 'VC · PE · Investors',
+    name: 'Funding Vetting Analysis',
+    desc: 'Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team\'s time before you spend it.',
+    price: 'US$4,500 per company',
+    delivery: '7-day delivery from completed interviews · Volume discounts available',
+    cta: { label: 'See How It Works →', to: '/for-investors' },
     deliverables: [
-      'Funding Viability Score (0–100%) — Pass / High Risk / Conditional Invest / Strong Invest',
-      '5-Dimension Analysis — Market Opportunity, Competitive Moat, Operational Health, Revenue Quality, Investment Risk',
-      'Red Flag Assessment — risks, assumptions, and deal-breaker conditions',
-      'Competitive Landscape Map for target company',
-      '30–50 Page Report + IC-Ready Deck',
+      'Pre-Interview Research — independent market and competitive scan before any call',
+      'Full Intelligence Report — 10-section evidence record from both interviews',
+      'Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict',
+      'Open Questions — what your team should verify before proceeding',
+      'Consultant Debrief — 30-minute call to walk through the findings',
     ],
     sample: {
-      type: 'evc',
-      score: '72%',
-      verdict: 'Conditional Invest',
-      bars: [['Market Opportunity', 81], ['Competitive Moat', 68], ['Revenue Quality', 70]],
+      type: 'signal',
+      verdict: 'ADVANCE',
+      signals: [['Market Reality', 'Strong'], ['Revenue Quality', 'Strong'], ['No Deal-Killers', 'Flagged']],
     },
   },
 ]
@@ -128,6 +128,30 @@ function EvcSample({ data }) {
           <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, color: 'rgba(255,255,255,0.3)', width: 28, textAlign: 'right' }}>{pct}%</div>
         </div>
       ))}
+    </div>
+  )
+}
+
+function SignalSample({ data }) {
+  const colors = { Strong: 'var(--teal)', Flagged: '#D97706', Weak: 'var(--orange)' }
+  const icons = { Strong: '●', Flagged: '◐', Weak: '○' }
+  return (
+    <div style={{ background: 'rgba(6,15,30,0.8)', border: '1px solid rgba(0,196,212,0.15)', padding: '18px 20px', marginTop: 16 }}>
+      <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--teal)', display: 'block', marginBottom: 10 }}>
+        Sample Output · Signal Brief
+      </span>
+      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(0,196,212,0.8)', marginBottom: 4 }}>VERDICT:</div>
+      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 28, fontWeight: 300, color: '#fff', lineHeight: 1, marginBottom: 14 }}>{data.verdict}</div>
+      {data.signals.map(([label, rating]) => (
+        <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, color: colors[rating] || 'var(--teal)', flexShrink: 0 }}>{icons[rating] || '●'}</div>
+          <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', flex: 1 }}>{label}</div>
+          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, color: colors[rating] || 'var(--teal)', textTransform: 'uppercase', letterSpacing: '0.07em' }}>{rating}</div>
+        </div>
+      ))}
+      <Link to="/samples/signal-brief-advance" target="_blank" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, color: 'var(--teal)', marginTop: 12, display: 'inline-block', textDecoration: 'none', borderBottom: '1px solid rgba(0,196,212,0.3)' }}>
+        View Full Sample →
+      </Link>
     </div>
   )
 }
@@ -182,8 +206,8 @@ export default function Products() {
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                       </div>
-                      <Link to="/contact" className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
-                        Brief This Product →
+                      <Link to={p.cta?.to || '/contact'} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
+                        {p.cta?.label || 'Brief This Product →'}
                       </Link>
                     </div>
                   </div>
@@ -221,6 +245,7 @@ export default function Products() {
                               ))}
                             </div>
                             {p.sample?.type === 'evc' && <EvcSample data={p.sample} />}
+                            {p.sample?.type === 'signal' && <SignalSample data={p.sample} />}
                             {p.sample?.type === 'personas' && <PersonaSample data={p.sample} />}
                           </div>
                         </motion.div>

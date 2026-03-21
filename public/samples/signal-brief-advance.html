@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Brief — Vero Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    background: #040C18;
+    color: #FFFFFF;
+    min-height: 100vh;
+    padding: 32px 24px;
+  }
+
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(0,196,212,0.15), 0 24px 64px rgba(0,0,0,0.6);
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 28px;
+    background: #0F2040;
+    border-bottom: 1px solid rgba(0,196,212,0.2);
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo-mark {
+    width: 38px;
+    height: 38px;
+    background: #E8472A;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -1px;
+    flex-shrink: 0;
+  }
+
+  .logo-text { display: flex; flex-direction: column; gap: 2px; }
+
+  .logo-brand {
+    font-size: 10px;
+    font-weight: 700;
+    color: #00C4D4;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .logo-product { font-size: 12.5px; font-weight: 500; color: #A8BDD0; }
+
+  .header-company { text-align: center; }
+
+  .company-name {
+    font-size: 21px;
+    font-weight: 800;
+    color: #FFFFFF;
+    letter-spacing: -0.02em;
+  }
+
+  .company-meta { font-size: 11px; color: #6B8098; margin-top: 3px; }
+
+  .header-right { text-align: right; }
+
+  .meta-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #6B8098;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+  }
+
+  .meta-value { font-size: 12px; color: #A8BDD0; margin-top: 2px; }
+
+  /* ── VERDICT BAR ── */
+  .verdict-bar {
+    padding: 15px 28px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: linear-gradient(135deg, #071A0E 0%, #0B2214 100%);
+    border-left: 4px solid #00C4D4;
+  }
+
+  .verdict-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 18px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    background: rgba(0,196,212,0.12);
+    color: #00C4D4;
+    border: 1px solid rgba(0,196,212,0.28);
+  }
+
+  .verdict-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #00C4D4;
+  }
+
+  .verdict-rationale {
+    font-size: 13px;
+    color: #A8BDD0;
+    font-style: italic;
+    flex: 1;
+    line-height: 1.45;
+  }
+
+  /* ── MIDDLE ROW ── */
+  .middle-row {
+    display: grid;
+    grid-template-columns: 38% 1fr;
+    border-top: 1px solid rgba(0,196,212,0.08);
+  }
+
+  /* ── OPPORTUNITY ── */
+  .opportunity-panel {
+    padding: 22px 28px;
+    background: #0A1628;
+    border-right: 1px solid rgba(0,196,212,0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .panel-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #00C4D4;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .opportunity-text {
+    font-size: 14.5px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 1.6;
+  }
+
+  .opportunity-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    background: rgba(0,196,212,0.08);
+    border: 1px solid rgba(0,196,212,0.18);
+    border-radius: 4px;
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #00C4D4;
+    width: fit-content;
+    margin-top: 2px;
+  }
+
+  /* ── SIGNALS ── */
+  .signals-panel {
+    padding: 18px 22px;
+    background: #060F1E;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .signals-header {
+    font-size: 10px;
+    font-weight: 700;
+    color: #00C4D4;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .signal-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 7px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .signal-row:last-child { border-bottom: none; }
+
+  .signal-icon {
+    font-size: 15px;
+    flex-shrink: 0;
+    width: 18px;
+    line-height: 1.35;
+  }
+
+  .signal-icon.strong { color: #00C4D4; }
+  .signal-icon.unclear { color: #D97706; }
+  .signal-icon.weak { color: #E8472A; }
+
+  .signal-info { flex: 1; min-width: 0; }
+
+  .signal-name {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .signal-rating-text {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    flex-shrink: 0;
+  }
+
+  .signal-rating-text.strong { color: #00C4D4; }
+  .signal-rating-text.unclear { color: #D97706; }
+  .signal-rating-text.weak { color: #E8472A; }
+
+  .signal-rationale {
+    font-size: 10.5px;
+    color: #6B8098;
+    margin-top: 2px;
+    line-height: 1.45;
+  }
+
+  /* ── WHAT WE HEARD ── */
+  .heard-section {
+    padding: 18px 28px;
+    background: #0A1628;
+    border-top: 1px solid rgba(0,196,212,0.08);
+  }
+
+  .heard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .quote-card {
+    background: #060F1E;
+    border: 1px solid rgba(0,196,212,0.12);
+    border-radius: 7px;
+    padding: 14px 16px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+  }
+
+  .quote-card::before {
+    content: '"';
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    font-size: 32px;
+    color: rgba(0,196,212,0.15);
+    font-family: Georgia, serif;
+    line-height: 1;
+  }
+
+  .quote-text {
+    font-size: 11.5px;
+    color: #A8BDD0;
+    font-style: italic;
+    line-height: 1.55;
+    padding-top: 12px;
+  }
+
+  .quote-source {
+    font-size: 10px;
+    font-weight: 700;
+    color: #00C4D4;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-top: auto;
+    padding-top: 6px;
+    border-top: 1px solid rgba(0,196,212,0.10);
+  }
+
+  .quote-card.contradiction {
+    border-color: rgba(232,71,42,0.22);
+    background: #0D0805;
+  }
+
+  .quote-card.contradiction::before { color: rgba(232,71,42,0.18); }
+  .quote-card.contradiction .quote-source { color: #E8472A; border-color: rgba(232,71,42,0.12); }
+
+  /* ── BOTTOM PANEL ── */
+  .bottom-panel {
+    padding: 18px 28px;
+    background: #060F1E;
+    border-top: 1px solid rgba(0,196,212,0.08);
+  }
+
+  .questions-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 12px;
+  }
+
+  .question-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 9px 14px;
+    background: #0A1628;
+    border-radius: 6px;
+    border: 1px solid rgba(0,196,212,0.09);
+  }
+
+  .question-num {
+    font-size: 11px;
+    font-weight: 800;
+    color: #00C4D4;
+    flex-shrink: 0;
+    width: 20px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .question-text {
+    font-size: 11.5px;
+    color: #A8BDD0;
+    line-height: 1.5;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    padding: 11px 28px;
+    background: #0F2040;
+    border-top: 1px solid rgba(0,196,212,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    font-size: 10px;
+    color: #6B8098;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    letter-spacing: 0.04em;
+  }
+
+  .footer-center {
+    font-size: 10px;
+    color: #4A5568;
+    text-align: center;
+  }
+
+  .footer-right {
+    font-size: 10px;
+    font-weight: 700;
+    color: #00C4D4;
+    letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <div class="logo-mark">SI</div>
+      <div class="logo-text">
+        <div class="logo-brand">Soundcheck Insights</div>
+        <div class="logo-product">Funding Vetting Analysis</div>
+      </div>
+    </div>
+    <div class="header-company">
+      <div class="company-name">Vero Analytics</div>
+      <div class="company-meta">B2B SaaS · Supply Chain Intelligence</div>
+    </div>
+    <div class="header-right">
+      <div class="meta-label">Prepared for</div>
+      <div class="meta-value">Meridian Ventures</div>
+      <div class="meta-value" style="margin-top:5px; font-size:11px; color:#4A5568;">March 20, 2026</div>
+    </div>
+  </div>
+
+  <!-- VERDICT BAR -->
+  <div class="verdict-bar">
+    <div class="verdict-pill">
+      <div class="verdict-dot"></div>
+      Advance
+    </div>
+    <div class="verdict-rationale">
+      Four signals are strong, NRR is independently corroborated, and the moat is structural — continue to deeper diligence with focus on revenue concentration and the CFO gap.
+    </div>
+  </div>
+
+  <!-- MIDDLE ROW -->
+  <div class="middle-row">
+
+    <!-- OPPORTUNITY -->
+    <div class="opportunity-panel">
+      <div class="panel-label">The Opportunity</div>
+      <div class="opportunity-text">
+        Vero gives mid-market manufacturers real-time visibility into supplier risk before disruptions become shutdowns — replacing reactive spreadsheet workflows with a live intelligence layer their ops teams actually use daily.
+      </div>
+      <div class="opportunity-tag">
+        <span>●</span> Series A · $2.8M ARR · 47 customers
+      </div>
+    </div>
+
+    <!-- SIGNALS -->
+    <div class="signals-panel">
+      <div class="signals-header">6 Signal Assessment</div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">
+            Market Reality
+            <span class="signal-rating-text strong">Strong</span>
+          </div>
+          <div class="signal-rationale">Supply chain intelligence category growing 34% YoY; post-2021 disruption demand pull is structural, not cyclical. Independent TAM of $4.2B confirmed.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">
+            Revenue Quality
+            <span class="signal-rating-text strong">Strong</span>
+          </div>
+          <div class="signal-rationale">Customer independently confirmed expanding spend (+40% in 14 months). Gross margin 74%, improving. Top 3 customers = 28% of ARR — concentration manageable.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">
+            Defensibility
+            <span class="signal-rating-text strong">Strong</span>
+          </div>
+          <div class="signal-rationale">Proprietary supplier dataset (3 years, 180K entities) compounds with each customer. Customer scored essentiality 9/10 and confirmed switching would require rebuilding 18 months of history.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">
+            Founder Clarity
+            <span class="signal-rating-text strong">Strong</span>
+          </div>
+          <div class="signal-rationale">CEO knew CAC ($8,400), payback (11 months), and top 3 loss reasons unprompted. Proactively disclosed Q3 sales hire failure and the fix. No defensive answers under pressure.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon unclear">◐</div>
+        <div class="signal-info">
+          <div class="signal-name">
+            No Deal-Killers
+            <span class="signal-rating-text unclear">Flagged</span>
+          </div>
+          <div class="signal-rationale">No CFO — CEO managing finances. Cap table clean. One customer (Hartwell Group) at 19% of ARR with renewal in 6 months — needs independent verification before term sheet.</div>
+        </div>
+      </div>
+
+      <div class="signal-row">
+        <div class="signal-icon strong">●</div>
+        <div class="signal-info">
+          <div class="signal-name">
+            Exit Logic
+            <span class="signal-rating-text strong">Coherent</span>
+          </div>
+          <div class="signal-rationale">Three named acquirers (SAP, Coupa, E2open) with specific integration rationale. Comparable: E2open acquired Logility at 7.2x ARR in 2022. Math works at current entry.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- WHAT WE HEARD -->
+  <div class="heard-section">
+    <div class="panel-label">What We Heard</div>
+    <div class="heard-grid">
+
+      <div class="quote-card">
+        <div class="quote-text">We lost the Carver deal because our UI looked dated next to Resilinc. We hired a designer in January and that's now the first thing buyers comment on positively.</div>
+        <div class="quote-source">CEO — Interview 1, loss debrief question</div>
+      </div>
+
+      <div class="quote-card">
+        <div class="quote-text">If Vero disappeared tomorrow I'd have a serious problem — we built our supplier review process around their alerts. Moving would mean starting our history over from scratch.</div>
+        <div class="quote-source">VP Operations — Interview 2, essentiality question</div>
+      </div>
+
+      <div class="quote-card contradiction">
+        <div class="quote-text">CEO claimed NRR of 118% — customer confirmed 40% spend increase in 14 months and two additional seat expansions. Corroborated, not contradicted.</div>
+        <div class="quote-source">Corroboration — Interviews 1 & 2</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BOTTOM PANEL — ADVANCE variant -->
+  <div class="bottom-panel">
+    <div class="panel-label">If You Advance — 3 Questions Still to Answer</div>
+    <div class="questions-grid">
+
+      <div class="question-item">
+        <div class="question-num">01</div>
+        <div class="question-text">Reconstruct monthly revenue for last 24 months from billing system exports and independently verify Hartwell Group contract renewal terms — their 19% ARR concentration and 6-month renewal window is the only structural risk not yet resolved.</div>
+      </div>
+
+      <div class="question-item">
+        <div class="question-num">02</div>
+        <div class="question-text">Conduct a CFO-level financial review or require a fractional CFO hire as a close condition — CEO is managing a 74% gross margin business and $2.8M ARR without financial leadership, which creates reporting risk at Series A scale.</div>
+      </div>
+
+      <div class="question-item">
+        <div class="question-num">03</div>
+        <div class="question-text">Validate the supplier dataset's proprietary depth with a technical audit — the moat claim rests entirely on 180K entity coverage being non-replicable. Confirm data sourcing agreements, exclusivity, and refresh methodology before pricing the defensibility premium into valuation.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-left">RPT-VERO-20260320</div>
+    <div class="footer-center">Confidential · For Meridian Ventures only · This brief does not constitute investment advice</div>
+    <div class="footer-right">soundcheckinsights.com</div>
+  </div>
+
+</div>
+</body>
+</html>
