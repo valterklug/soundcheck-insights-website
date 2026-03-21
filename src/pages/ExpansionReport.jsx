@@ -157,7 +157,7 @@ export default function ExpansionReport() {
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">
           <span className="sc-label">Product Deep-Dive · International Expansion</span>
-          <h1 className="page-h1">40+ pages of market intelligence.<br />One clear decision.</h1>
+          <h1 className="page-h1">Reduce the Trial and Error<br />of Your International Expansion</h1>
           <p className="page-sub" style={{ maxWidth: 640 }}>
             The Soundcheck International Expansion Viability Report answers the question every brand asks before entering a new market: is this real, and if so, how? Not a data dump. A decision-grade document with sourced evidence, a proprietary viability score, three strategic paths, and a 12-month roadmap your team can execute on Day 1.
           </p>
