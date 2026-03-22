@@ -31,19 +31,27 @@ const products = [
   },
   {
     num: '02',
-    for: 'Founders · Pre-Launch',
-    name: 'Idea Validation',
-    desc: 'Market intelligence for founders testing a business concept before committing capital. A go/no-go recommendation grounded in real data — delivered in 7 days.',
-    price: 'Suggested price: US$3k+',
-    delivery: '7-day delivery · White-label included',
+    for: 'Entrepreneurs · Founders · Serial Entrepreneurs',
+    name: 'Idea Validation Analysis',
+    tagline: 'Know if your idea has a market before you spend a dollar building it.',
+    desc: 'Fill out a 10-minute form describing your idea. Soundcheck\'s AI runs independent market research, analyzes the competition, sizes the opportunity, and estimates what your target customer would pay. You receive a full analysis and a one-page Summary Card in 48 hours.',
+    price: 'US$799 per analysis',
+    delivery: '48-hour delivery after form submission · Fully automated',
+    cta: { label: 'Validate Your Idea →', to: '/idea-validation' },
     deliverables: [
-      'Market Demand Signals — search volume, consumer interest, category trends',
-      'Competitive Gap Analysis — who\'s doing this, how well, and where white space exists',
-      'Target Customer Profile — demographics, behaviors, willingness-to-pay signals',
-      'Opportunity Sizing Estimate — addressable market and Year 1–3 revenue range',
-      'Go / No-Go Recommendation — with key conditions for a successful launch',
-      '1-Page Brief + Executive Summary',
+      'Problem Validation — is this a Tier 1 problem with real market demand?',
+      'Market Sizing — TAM, SAM, SOM for your target geography',
+      'Competition Reality Check — who already solves this and where the whitespace is',
+      'Customer & WTP Analysis — who would buy this and how much they\'d pay',
+      'IVS Score + Next Steps — Idea Viability Score (0 to 100) and 3 specific actions',
     ],
+    sample: {
+      type: 'ivs',
+      score: 68,
+      tier: 'Worth Exploring',
+      sub: 'Promising. Key uncertainties remain.',
+      bars: [['Problem Validity', 80], ['Market Opportunity', 65], ['Competitive Whitespace', 50], ['Customer Demand Signals', 70], ['Idea Differentiation', 55]],
+    },
   },
   {
     num: '03',
@@ -157,6 +165,41 @@ function SignalSample({ data }) {
   )
 }
 
+function IvsSample({ data }) {
+  const barColor = (pct) => pct >= 70 ? 'var(--teal)' : pct >= 40 ? '#D97706' : 'var(--orange)'
+  return (
+    <div style={{ background: 'rgba(6,15,30,0.8)', border: '1px solid rgba(0,196,212,0.15)', padding: '18px 20px', marginTop: 16 }}>
+      <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--teal)', display: 'block', marginBottom: 10 }}>
+        Sample Output · Idea Validation Analysis
+      </span>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, marginBottom: 2 }}>
+        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 32, fontWeight: 300, color: '#fff', lineHeight: 1 }}>{data.score}</div>
+        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 300, color: 'rgba(255,255,255,0.25)' }}>/ 100</div>
+      </div>
+      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, color: 'var(--teal)', marginBottom: 2 }}>{data.tier}</div>
+      <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, color: 'rgba(255,255,255,0.3)', marginBottom: 14 }}>{data.sub}</div>
+      {data.bars.map(([label, pct]) => (
+        <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 6 }}>
+          <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, color: 'rgba(255,255,255,0.3)', width: 150, flexShrink: 0 }}>{label}</div>
+          <div style={{ flex: 1, height: 3, background: 'rgba(255,255,255,0.07)', borderRadius: 2 }}>
+            <motion.div
+              style={{ height: 3, background: barColor(pct), borderRadius: 2 }}
+              initial={{ width: 0 }}
+              whileInView={{ width: `${pct}%` }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+            />
+          </div>
+          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, color: 'rgba(255,255,255,0.3)', width: 28, textAlign: 'right' }}>{pct}%</div>
+        </div>
+      ))}
+      <Link to="/idea-validation#sample" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, color: 'var(--teal)', marginTop: 12, display: 'inline-block', textDecoration: 'none', borderBottom: '1px solid rgba(0,196,212,0.3)' }}>
+        View Full Sample Report →
+      </Link>
+    </div>
+  )
+}
+
 function PersonaSample({ data }) {
   return (
     <div style={{ marginTop: 16, display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -200,7 +243,8 @@ export default function Products() {
                     <div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.18)', marginBottom: 6 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 12 }}>{p.for}</div>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', lineHeight: 1.25, marginBottom: 16 }}>{p.name}</div>
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', lineHeight: 1.25, marginBottom: p.tagline ? 6 : 16 }}>{p.name}</div>
+                      {p.tagline && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, fontStyle: 'italic', color: 'rgba(255,255,255,0.55)', lineHeight: 1.4, marginBottom: 16 }}>{p.tagline}</div>}
                     </div>
                     <div>
                       <div style={{ background: 'rgba(255,255,255,0.04)', padding: '12px 14px', marginBottom: 12 }}>
@@ -246,6 +290,7 @@ export default function Products() {
                               ))}
                             </div>
                             {p.sample?.type === 'evc' && <EvcSample data={p.sample} />}
+                            {p.sample?.type === 'ivs' && <IvsSample data={p.sample} />}
                             {p.sample?.type === 'signal' && <SignalSample data={p.sample} />}
                             {p.sample?.type === 'personas' && <PersonaSample data={p.sample} />}
                           </div>
