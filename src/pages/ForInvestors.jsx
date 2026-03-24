@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: 'What\'s the turnaround if we need it faster?',
-    a: 'Standard is 7 business days from the date both interviews are completed. Rush delivery (3 business days) is available for an additional US$1,500 — subject to availability. Contact us before briefing to confirm.',
+    a: 'Standard is 7 business days from the date both interviews are completed. Rush delivery (3 business days) is available for an additional US$1,000 — subject to availability. Contact us before briefing to confirm.',
   },
   {
     q: 'Do you offer volume pricing?',
@@ -107,10 +107,10 @@ export default function ForInvestors() {
       {/* Section 1 — Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">
-          <span className="sc-label">For Investors · VC & PE Firms</span>
+          <span className="sc-label">For Venture Capital Firms</span>
           <h1 className="page-h1">Your pipeline is full.<br />Your team's availability isn't.</h1>
           <p className="page-sub" style={{ maxWidth: 600 }}>
-            The average PE firm evaluates 80 companies before closing one. Most of the ones that get filtered don't get filtered early enough.
+            The average VC firm sees hundreds of deals a year. Most of the ones that get filtered don't get filtered early enough.
             Soundcheck gives you a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 28 }}>
@@ -118,7 +118,7 @@ export default function ForInvestors() {
             <a href="#samples" className="btn btn-glass" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', color: '#fff', padding: '12px 24px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, display: 'inline-flex', alignItems: 'center', borderRadius: 4, textDecoration: 'none', transition: 'all 0.2s' }}>View Sample Signal Briefs →</a>
           </div>
           <div style={{ display: 'flex', gap: 40, marginTop: 40, flexWrap: 'wrap' }}>
-            {[['7', 'BUSINESS DAYS', 'from interviews to Signal Brief'], ['2', 'INTERVIEWS', 'founder team + real customer, independently'], ['US$4,500', '', 'per company evaluated']].map(([num, label, sub]) => (
+            {[['7', 'BUSINESS DAYS', 'from interviews to Signal Brief'], ['2', 'INTERVIEWS', 'founder team + real customer, independently'], ['US$3,000', '', 'per company evaluated']].map(([num, label, sub]) => (
               <div key={sub} style={{ display: 'flex', flexDirection: 'column' }}>
                 <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: num.length > 2 ? 24 : 36, fontWeight: 300, color: 'var(--teal)', lineHeight: 1 }}>{num}</div>
                 {label && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginTop: 4 }}>{label}</div>}
@@ -139,10 +139,10 @@ export default function ForInvestors() {
             </h2>
             <div style={{ maxWidth: 680 }}>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 14 }}>
-                Pitch decks are prepared for the best possible impression. Founders know how to answer standard questions. Reference calls go through the company's own contacts. By the time you discover the revenue isn't as clean as the deck suggests, or that the founder can't explain why they're losing deals, or that the company's most loyal-sounding customer is actively evaluating alternatives — you've already spent 15 hours.
+                Pitch decks are prepared for the best possible impression. Founders know how to answer standard questions. Reference calls go through the company's own contacts. By the time you discover the revenue isn't as clean as the deck suggests, or that the founder can't explain why they're losing deals, or that their most loyal-sounding customer is actively evaluating alternatives, your associates have already spent 15+ hours.
               </p>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75 }}>
-                Soundcheck runs two structured interviews independently — one with the leadership team, one with a real customer we select from a list the company provides. We find where their stories don't match. We deliver the verdict before your team invests.
+                Soundcheck runs two structured interviews independently — one with the leadership team, one with a real customer we select from a list the company provides. We find where their stories don't match. You get the verdict before your team invests.
               </p>
             </div>
           </FadeIn>
@@ -150,7 +150,7 @@ export default function ForInvestors() {
             {[
               ['What we replace', 'The unstructured first-round conversations your analysts are already having — just structured, documented, and with an independent customer source added.'],
               ['What we don\'t replace', 'Full due diligence. Legal review. Financial audits. Technical assessments. Soundcheck is the filter before the filter — not the close.'],
-              ['What it costs to skip this', '15–20 analyst hours per company that fails in round two. Multiply that by your pipeline volume.'],
+              ['What it costs to skip this', '15–20 associate hours per company that fails in round two. Multiply that by your deal flow volume.'],
             ].map(([title, text]) => (
               <StaggerItem key={title}>
                 <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 28px', height: '100%' }}>
@@ -267,19 +267,19 @@ export default function ForInvestors() {
         </div>
       </section>
 
-      {/* Section 6 — VC vs PE */}
+      {/* Section 6 — Where Soundcheck Fits */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
-            <span className="sc-label">Built for your workflow</span>
+            <span className="sc-label">Built for your deal flow</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', marginBottom: 48, lineHeight: 1.1 }}>
-              Works for both sides of the table.
+              Where Soundcheck fits in your process.
             </h2>
           </FadeIn>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }} className="grid-2">
             <FadeIn>
               <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 28px', height: '100%' }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 500, color: '#fff', marginBottom: 14 }}>Venture Capital Firms</div>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 500, color: '#fff', marginBottom: 14 }}>Early-Stage Funds</div>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, marginBottom: 20 }}>
                   You move fast and evaluate volume. Soundcheck fits between initial screening and the first internal deep-dive — the moment when a company passes the pitch test but hasn't been stress-tested by anyone outside the firm.
                 </p>
@@ -294,12 +294,12 @@ export default function ForInvestors() {
             </FadeIn>
             <FadeIn delay={0.1}>
               <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 28px', height: '100%' }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 500, color: '#fff', marginBottom: 14 }}>Private Equity Firms</div>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 500, color: '#fff', marginBottom: 14 }}>Growth-Stage Funds</div>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, marginBottom: 20 }}>
-                  You evaluate 80 companies per close. The ones that reach partner level without passing an early structural filter are the expensive ones. Soundcheck surfaces fixable problems — and the unfixable ones — before your team's time is committed.
+                  At Series B and beyond, the pitch gets more polished but the fundamentals don't always keep up. Soundcheck surfaces discrepancies between what the founder says and what a real customer confirms, before your partners commit time.
                 </p>
                 <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: 10 }}>Best for:</div>
-                {['Lower-middle-market and growth-stage evaluation', 'Add-on acquisition triage', 'First-pass validation before engaging your full diligence team', 'Situations where the company\'s own references can\'t be trusted at face value'].map(t => (
+                {['Series B+ evaluation and follow-on decisions', 'Deals where the deck looks strong but references feel curated', 'Sectors outside your partners\' primary expertise', 'First-pass validation before engaging the full diligence team'].map(t => (
                   <div key={t} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
                     <div style={{ color: 'var(--teal)', flexShrink: 0, fontSize: 10, marginTop: 3 }}>●</div>
                     <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.5 }}>{t}</div>

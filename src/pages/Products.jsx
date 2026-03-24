@@ -93,10 +93,10 @@ const products = [
   },
   {
     num: '05',
-    for: 'VC · PE · Investors',
+    for: 'Venture Capital Firms',
     name: 'Funding Vetting Analysis',
     desc: 'Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team\'s time before you spend it.',
-    price: 'US$4,500 per company',
+    price: 'US$3,000 per company',
     delivery: '7-day delivery from completed interviews · Volume discounts available',
     cta: { label: 'See How It Works →', to: '/for-investors' },
     deliverables: [

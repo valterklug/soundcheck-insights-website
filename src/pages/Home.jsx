@@ -102,7 +102,7 @@ const products = [
   { num:'02', for:'Entrepreneurs · Founders · Serial Entrepreneurs', name:'Idea Validation Analysis', desc:'Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.', delivery:'48-hour delivery · Fully automated', link:'/idea-validation' },
   { num:'03', for:'New Companies · Setup Stage', name:'Business Plan Development', desc:'Full business plan with market analysis, competitive landscape, go-to-market, and revenue projections.', delivery:'14-day delivery · White-label included' },
   { num:'04', for:'Agencies · Consultancies · Marketing Depts', name:'AI Virtual Focus Groups', desc:'AI-generated persona panels that mirror your client\'s exact target audience. No recruiting. No scheduling.', delivery:'1–7 day delivery · White-label included' },
-  { num:'05', for:'VC · PE · Investors', name:'Funding Vetting Analysis', desc:'Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict.', delivery:'7-day delivery · Volume discounts available', link:'/for-investors' },
+  { num:'05', for:'Venture Capital Firms', name:'Funding Vetting Analysis', desc:'Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.', delivery:'7-day delivery · Volume discounts available', link:'/for-investors' },
 ]
 
 export default function Home() {
