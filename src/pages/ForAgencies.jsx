@@ -86,6 +86,7 @@ export default function ForAgencies() {
               ["🏷","100% White-Label Ready","Every deliverable comes without Soundcheck branding. Your logo, your brand, your client relationship. Always."],
               ["📐","Client-Ready Presentation Deck","Alongside the full report, every engagement includes a presentation-ready deck structured for your client briefing."],
               ["🧠","Operator Onboarding","Valter walks every new operator through the full workflow personally — including the first report briefing, validation, and delivery."],
+              ["📈","US Growth Roadmap (White-Label)","Market analysis, competitive intelligence, ranked growth levers, and a 90-day action plan for US small and mid-size businesses. B2B services and CPG segments. Delivered under your brand in 14 days."],
               ["📬","Monthly Intelligence Briefing","Operator-only market intelligence updates — category shifts, methodology improvements, and research signals."],
             ].map(([icon,t,d])=>(
               <StaggerItem key={t}>

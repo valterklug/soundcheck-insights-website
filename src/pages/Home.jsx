@@ -102,7 +102,8 @@ const products = [
   { num:'02', for:'Entrepreneurs · Founders · Serial Entrepreneurs', name:'Idea Validation Analysis', desc:'Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.', delivery:'48-hour delivery · Fully automated', link:'/idea-validation' },
   { num:'03', for:'New Companies · Setup Stage', name:'Business Plan Development', desc:'Full business plan with market analysis, competitive landscape, go-to-market, and revenue projections.', delivery:'14-day delivery · White-label included' },
   { num:'04', for:'Agencies · Consultancies · Marketing Depts', name:'AI Virtual Focus Groups', desc:'AI-generated persona panels that mirror your client\'s exact target audience. No recruiting. No scheduling.', delivery:'1–7 day delivery · White-label included' },
-  { num:'05', for:'Venture Capital Firms', name:'Funding Vetting Analysis', desc:'Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.', delivery:'7-day delivery · Volume discounts available', link:'/for-investors' },
+  { num:'05', for:'US Small & Mid-Size Businesses', name:'US Growth Roadmap', desc:'Market analysis, competitive intelligence, ranked growth levers, investment estimates, and a 90-day action plan. For B2B services and CPG brands that have stalled.', delivery:'14-day delivery · White-label included', link:'/growth-roadmap' },
+  { num:'06', for:'Venture Capital Firms', name:'Funding Vetting Analysis', desc:'Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.', delivery:'7-day delivery · Volume discounts available', link:'/for-investors' },
 ]
 
 export default function Home() {
@@ -248,9 +249,9 @@ export default function Home() {
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
-            <span className="sc-label">Five Products</span>
+            <span className="sc-label">Six Products</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.4rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 48, maxWidth: 640 }}>
-              Five reports you can offer<br />your clients starting today.
+              Six reports you can offer<br />your clients starting today.
             </h2>
           </FadeIn>
           <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2, marginBottom: 2 }} className="prod-grid">
@@ -270,7 +271,7 @@ export default function Home() {
               </StaggerItem>
             ))}
           </StaggerContainer>
-          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: 2 }} className="prod-grid-2">
+          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2 }} className="prod-grid-2">
             {products.slice(3).map(p=>(
               <StaggerItem key={p.num}>
                 <HoverCard>
@@ -293,7 +294,7 @@ export default function Home() {
             </div>
           </FadeIn>
         </div>
-        <style>{`@media(max-width:900px){.prod-grid,.prod-grid-2{grid-template-columns:1fr!important}}`}</style>
+        <style>{`@media(max-width:900px){.prod-grid,.prod-grid-2{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.prod-grid-2{grid-template-columns:repeat(3,1fr)!important}}`}</style>
       </section>
 
       {/* ── ECONOMICS ────────────────────────────────────────────────── */}

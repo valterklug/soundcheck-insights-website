@@ -93,6 +93,28 @@ const products = [
   },
   {
     num: '05',
+    for: 'US Small & Mid-Size Businesses',
+    name: 'US Growth Roadmap',
+    tagline: 'Reignite growth with ranked moves, clear investment estimates, and a 90-day action plan.',
+    desc: 'For B2B service companies and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, company differentiation audit, ranked growth levers with investment estimates, and a 90-day action plan. Two segments: B2B Services & Manufacturing, and Consumer Packaged Goods.',
+    price: 'Suggested price: US$5k+',
+    delivery: '14-day delivery · White-label included · 1 revision',
+    cta: { label: 'See Full Report Details →', to: '/growth-roadmap' },
+    deliverables: [
+      'Market & Category Analysis — category size, growth trajectory, demand signals, channel dynamics',
+      'Competitive Landscape — 5–10 competitors mapped in a competitive matrix with whitespace analysis',
+      'Company Differentiation Analysis — honest audit of positioning, defensible claims, and repositioning angles',
+      'Top 3–5 Growth Levers (Ranked) — each with hypothesis, investment required, expected ROI, and go/no-go gate',
+      'Investment Estimates & ROI Framework — per-lever cost breakdown with conservative, base, and optimistic scenarios',
+      '90-Day Action Plan — specific, assigned, measurable actions across 30/60/90-day milestones',
+      'In-Depth Report (40–60+ pages) + Executive Presentation & Q&A',
+    ],
+    sample: {
+      type: 'growth',
+    },
+  },
+  {
+    num: '06',
     for: 'Venture Capital Firms',
     name: 'Funding Vetting Analysis',
     desc: 'Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team\'s time before you spend it.',
@@ -200,6 +222,37 @@ function IvsSample({ data }) {
   )
 }
 
+function GrowthSample() {
+  const levers = [
+    ['Channel Optimization', 85, 'High'],
+    ['Competitive Repositioning', 70, 'High'],
+    ['Pricing Architecture', 65, 'Medium'],
+    ['New Segment Penetration', 55, 'Medium'],
+  ]
+  return (
+    <div style={{ background: 'rgba(6,15,30,0.8)', border: '1px solid rgba(0,196,212,0.15)', padding: '18px 20px', marginTop: 16 }}>
+      <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--teal)', display: 'block', marginBottom: 10 }}>
+        Sample Output · Growth Levers (Ranked)
+      </span>
+      {levers.map(([label, impact, priority]) => (
+        <div key={label} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+          <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, color: 'rgba(255,255,255,0.3)', width: 150, flexShrink: 0 }}>{label}</div>
+          <div style={{ flex: 1, height: 3, background: 'rgba(255,255,255,0.07)', borderRadius: 2 }}>
+            <motion.div
+              style={{ height: 3, background: priority === 'High' ? 'var(--teal)' : '#D97706', borderRadius: 2 }}
+              initial={{ width: 0 }}
+              whileInView={{ width: `${impact}%` }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+            />
+          </div>
+          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 600, color: priority === 'High' ? 'var(--teal)' : '#D97706', textTransform: 'uppercase', letterSpacing: '0.07em', width: 50, textAlign: 'right' }}>{priority}</div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
 function PersonaSample({ data }) {
   return (
     <div style={{ marginTop: 16, display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -222,7 +275,7 @@ export default function Products() {
         <div className="page-hero-inner">
           <span className="sc-label">Research Products</span>
           <h1 className="page-h1">Intelligence your agency deploys.<br />Results your clients remember.</h1>
-          <p className="page-sub">Five fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 7 days. You set the price for your clients.</p>
+          <p className="page-sub">Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 7 days. You set the price for your clients.</p>
         </div>
       </section>
 
@@ -293,6 +346,7 @@ export default function Products() {
                             {p.sample?.type === 'ivs' && <IvsSample data={p.sample} />}
                             {p.sample?.type === 'signal' && <SignalSample data={p.sample} />}
                             {p.sample?.type === 'personas' && <PersonaSample data={p.sample} />}
+                            {p.sample?.type === 'growth' && <GrowthSample />}
                           </div>
                         </motion.div>
                       )}
