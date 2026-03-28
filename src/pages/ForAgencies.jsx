@@ -86,7 +86,6 @@ export default function ForAgencies() {
               ["🏷","100% White-Label Ready","Every deliverable comes without Soundcheck branding. Your logo, your brand, your client relationship. Always."],
               ["📐","Client-Ready Presentation Deck","Alongside the full report, every engagement includes a presentation-ready deck structured for your client briefing."],
               ["🧠","Operator Onboarding","Valter walks every new operator through the full workflow personally — including the first report briefing, validation, and delivery."],
-              ["📈","US Growth Roadmap (White-Label)","Market analysis, competitive intelligence, ranked growth levers, and a 90-day action plan for US small and mid-size businesses. B2B services and CPG segments. Delivered under your brand in 14 days."],
               ["📬","Monthly Intelligence Briefing","Operator-only market intelligence updates — category shifts, methodology improvements, and research signals."],
             ].map(([icon,t,d])=>(
               <StaggerItem key={t}>
@@ -102,7 +101,69 @@ export default function ForAgencies() {
         <style>{"@media(max-width:900px){.offer-grid{grid-template-columns:1fr!important}.section-pad{padding:60px 24px!important}}"}</style>
       </section>
 
-      <section style={{background:"var(--navy)",padding:"80px 60px",borderTop:"1px solid rgba(232,71,42,0.12)"}} className="section-pad">
+      <section style={{background:"var(--navy)",padding:"80px 60px",borderTop:"1px solid rgba(0,196,212,0.12)"}} className="section-pad">
+        <div style={{maxWidth:1200,margin:"0 auto"}}>
+          <FadeIn>
+            <span className="sc-label">White-Label Products</span>
+            <h2 style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:"clamp(1.5rem,3vw,2.2rem)",fontWeight:300,letterSpacing:"-.015em",marginBottom:16,lineHeight:1.1}}>Three products you can deliver<br/>under your brand today.</h2>
+            <p style={{fontFamily:"Inter,sans-serif",fontSize:"0.9375rem",color:"rgba(255,255,255,0.5)",lineHeight:1.75,marginBottom:48,maxWidth:680}}>Each product is designed for white-label delivery. Your brand, your cover page, your client relationship. You set the price and keep the margin.</p>
+          </FadeIn>
+          <StaggerContainer style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:2}} className="offer-grid">
+            {[
+              {
+                num:"01",
+                name:"International Expansion Viability Report",
+                audience:"International Brands · Market Entry",
+                desc:"Decision-grade market entry intelligence. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages.",
+                delivery:"14-day delivery",
+                price:"Suggested client price: US$5k+",
+                link:"/expansion-report",
+                color:"var(--teal)",
+              },
+              {
+                num:"02",
+                name:"US Growth Roadmap",
+                audience:"US Small & Mid-Size Businesses",
+                desc:"For B2B services and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan.",
+                delivery:"14-day delivery",
+                price:"Suggested client price: US$5k+",
+                link:"/growth-roadmap",
+                color:"var(--orange)",
+              },
+              {
+                num:"03",
+                name:"AI Virtual Focus Groups",
+                audience:"Agencies · Consultancies · Marketing Depts",
+                desc:"Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Reusable panels.",
+                delivery:"1–7 day delivery",
+                price:"Persona Definition: US$3k · Session: US$2k+",
+                link:"/products",
+                color:"var(--teal)",
+              },
+            ].map(p=>(
+              <StaggerItem key={p.num}>
+                <Link to={p.link} style={{textDecoration:"none",display:"block",height:"100%"}}>
+                  <div style={{background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.06)",borderTop:`3px solid ${p.color}`,padding:"32px 28px",height:"100%",display:"flex",flexDirection:"column",transition:"border-color 0.2s",cursor:"pointer"}}>
+                    <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.18em",textTransform:"uppercase",color:"rgba(255,255,255,0.18)",marginBottom:8}}>{p.num}</div>
+                    <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.12em",textTransform:"uppercase",color:p.color,marginBottom:14}}>{p.audience}</div>
+                    <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:500,color:"#fff",marginBottom:12,lineHeight:1.25}}>{p.name}</div>
+                    <p style={{fontFamily:"Inter,sans-serif",fontSize:13,color:"rgba(255,255,255,0.4)",lineHeight:1.65,marginBottom:20,flex:1}}>{p.desc}</p>
+                    <div style={{marginTop:"auto"}}>
+                      <div style={{background:"rgba(255,255,255,0.04)",padding:"12px 14px",marginBottom:12}}>
+                        <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:400,color:"#fff",marginBottom:3}}>{p.price}</div>
+                        <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.1em",textTransform:"uppercase",color:"rgba(255,255,255,0.2)"}}>{p.delivery} · White-label included</div>
+                      </div>
+                      <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:p.color,borderBottom:`1px solid ${p.color}44`}}>See Full Details →</span>
+                    </div>
+                  </div>
+                </Link>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      <section style={{background:"var(--navy-2)",padding:"80px 60px",borderTop:"1px solid rgba(232,71,42,0.12)"}} className="section-pad">
         <div style={{maxWidth:1200,margin:"0 auto"}}>
           <FadeIn><span className="sc-label">Right Fit</span>
           <h2 style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:"clamp(1.5rem,3vw,2.2rem)",fontWeight:300,letterSpacing:"-.015em",marginBottom:48,lineHeight:1.1}}>Who this is built for.</h2></FadeIn>
