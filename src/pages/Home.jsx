@@ -127,8 +127,8 @@ export default function Home() {
               initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}
               style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(2.2rem, 5vw, 4rem)', fontWeight: 300, letterSpacing: '-0.025em', lineHeight: 1.0, marginBottom: 22 }}
             >
-              The AI does the research.<br />
-              <span style={{ color: 'var(--teal-2)' }}>You</span> deliver<br />the intelligence.
+              AI does the research.<br />
+              <span style={{ color: 'var(--teal-2)' }}>You</span> augment it<br />with your expertise.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
