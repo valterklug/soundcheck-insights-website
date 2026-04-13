@@ -35,7 +35,7 @@ const steps = [
     num: '04',
     title: 'Full Intelligence Report + Signal Brief',
     body: 'The AI generates a 10-section evidence record from both interviews. The consultant adds their observation notes and signs the Signal Brief — a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence and the 3 questions your team should answer next.',
-    meta: 'Signal Brief: primary deliverable · Full Report: available on request',
+    meta: 'Signal Brief + Full Intelligence Report · Both delivered as standard',
   },
 ]
 
@@ -107,11 +107,11 @@ export default function ForInvestors() {
       {/* Section 1 — Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">
-          <span className="sc-label">For Venture Capital Firms</span>
+          <span className="sc-label">For Investors</span>
           <h1 className="page-h1">Your pipeline is full.<br />Your team's availability isn't.</h1>
           <p className="page-sub" style={{ maxWidth: 600 }}>
             The average VC firm sees hundreds of deals a year. Most of the ones that get filtered don't get filtered early enough.
-            Soundcheck gives you a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.
+            Soundcheck gives venture capital firms, growth equity funds, angel syndicates, and corporate venture arms a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 28 }}>
             <Link to="/contact" className="btn btn-primary">Request an Engagement →</Link>

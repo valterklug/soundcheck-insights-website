@@ -55,18 +55,16 @@ const products = [
   },
   {
     num: '03',
-    for: 'New Companies · Setup Stage',
+    for: 'Entrepreneurs · Investors · Immigration Applicants',
     name: 'Business Plan Development',
-    desc: 'A complete, research-backed business plan for companies in setup or pre-launch — built for investor conversations, lender requirements, and operational clarity.',
-    price: 'Suggested price: US$5k+',
-    delivery: '14-day delivery · White-label included · 1 revision',
+    tagline: 'A business plan built for the reader who decides.',
+    desc: 'Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder\'s Internal. Every claim sourced. Every projection documented.',
+    price: 'US$5,000+ per plan',
+    delivery: '10-14 day delivery · White-label included · 1 revision',
+    cta: { label: 'See Full Plan Details →', to: '/business-plan' },
     deliverables: [
-      'Market Analysis — category size, growth drivers, target segments, customer personas',
-      'Competitive Landscape — direct competitors, positioning, differentiation strategy',
-      'Go-To-Market Strategy — channel priorities, launch sequencing, acquisition strategy',
-      'Revenue Projections Framework — 3-year model, conservative/base/optimistic scenarios',
-      'Investor-Ready Narrative — problem, solution, market, traction, team, ask',
-      'Full Document + Executive Pitch Deck',
+      'Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data',
+      'Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask',
     ],
   },
   {
@@ -93,21 +91,17 @@ const products = [
   },
   {
     num: '05',
-    for: 'US Small & Mid-Size Businesses',
+    for: 'B2B Services · CPG Brands · US Market',
     name: 'US Growth Roadmap',
-    tagline: 'Reignite growth with ranked moves, clear investment estimates, and a 90-day action plan.',
-    desc: 'For B2B service companies and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, company differentiation audit, ranked growth levers with investment estimates, and a 90-day action plan. Two segments: B2B Services & Manufacturing, and Consumer Packaged Goods.',
-    price: 'Suggested price: US$5k+',
+    tagline: 'You\'re selling. You\'re not growing. That\'s a fixable problem.',
+    desc: 'For B2B service companies and CPG brands that have stalled in the US market. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan. Proprietary GPS Score (0 to 100) across Market Opportunity, Competitive Position, and Internal Readiness.',
+    price: 'US$5,000+ per report',
     delivery: '14-day delivery · White-label included · 1 revision',
     cta: { label: 'See Full Report Details →', to: '/growth-roadmap' },
     deliverables: [
-      'Market & Category Analysis — category size, growth trajectory, demand signals, channel dynamics',
-      'Competitive Landscape — 5–10 competitors mapped in a competitive matrix with whitespace analysis',
-      'Company Differentiation Analysis — honest audit of positioning, defensible claims, and repositioning angles',
-      'Top 3–5 Growth Levers (Ranked) — each with hypothesis, investment required, expected ROI, and go/no-go gate',
-      'Investment Estimates & ROI Framework — per-lever cost breakdown with conservative, base, and optimistic scenarios',
-      '90-Day Action Plan — specific, assigned, measurable actions across 30/60/90-day milestones',
-      'In-Depth Report (40–60+ pages) + Executive Presentation & Q&A',
+      'In-Depth Growth Report — 40-60+ pages, 8-section DMAIC-inspired structure, GPS Score, ranked growth levers, 90-day action plan',
+      'Executive Presentation & Q&A — condensed visual presentation for leadership with live walkthrough',
+      '1-Page Action Sheet — specific, assigned actions for the first week with one success metric for Day 30',
     ],
     sample: {
       type: 'growth',
@@ -115,18 +109,15 @@ const products = [
   },
   {
     num: '06',
-    for: 'Venture Capital Firms',
+    for: 'Venture Capital Firms · Growth Equity · Angel Syndicates · Corporate Venture',
     name: 'Funding Vetting Analysis',
     desc: 'Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team\'s time before you spend it.',
     price: 'US$3,000 per company',
     delivery: '7-day delivery from completed interviews · Volume discounts available',
     cta: { label: 'See How It Works →', to: '/for-investors' },
     deliverables: [
-      'Pre-Interview Research — independent market and competitive scan before any call',
-      'Full Intelligence Report — 10-section evidence record from both interviews',
-      'Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict',
-      'Open Questions — what your team should verify before proceeding',
-      'Consultant Debrief — 30-minute call to walk through the findings',
+      'Full Intelligence Report — 10-section evidence record from both interviews with contradiction log',
+      'Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict with sourced evidence',
     ],
     sample: {
       type: 'signal',
@@ -275,7 +266,7 @@ export default function Products() {
         <div className="page-hero-inner">
           <span className="sc-label">Research Products</span>
           <h1 className="page-h1">Intelligence your agency deploys.<br />Results your clients remember.</h1>
-          <p className="page-sub">Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 7 days. You set the price for your clients.</p>
+          <p className="page-sub">Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 48 hours. You set the price for your clients.</p>
         </div>
       </section>
 

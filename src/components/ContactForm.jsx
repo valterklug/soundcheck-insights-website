@@ -86,7 +86,8 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
             <option value="brief-validation">Brief — Idea Validation</option>
             <option value="brief-bizplan">Brief — Business Plan Development</option>
             <option value="brief-focusgroups">Brief — AI Virtual Focus Groups</option>
-            <option value="brief-funding">Brief — Funding Vetting (VC/PE)</option>
+            <option value="brief-growthmap">Brief — US Growth Roadmap</option>
+            <option value="brief-funding">Brief — Funding Vetting (Investor)</option>
             <option value="pricing">Pricing &amp; availability</option>
             <option value="brand">I'm a brand (not an agency)</option>
             <option value="press">Press / media</option>

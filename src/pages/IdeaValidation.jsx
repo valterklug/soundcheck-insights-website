@@ -52,8 +52,8 @@ const faqs = [
     a: "The report shows you the full dimension breakdown and every piece of evidence behind each score. If you think a dimension was scored incorrectly because the AI missed a key data point or competitor, you can contact us and we'll review the specific section. Material factual errors are corrected at no charge.",
   },
   {
-    q: 'Is the report available in Portuguese?',
-    a: 'Yes. Select Portuguese (Brazilian) at the end of the intake form and the full report and Summary Card will be delivered in PT-BR. Same price, same timeline.',
+    q: 'What languages is the report available in?',
+    a: 'English is the default. Portuguese (Brazilian), Spanish, and Italian are also available. Select your preferred language at the end of the intake form and the full report and Summary Card will be delivered in that language. Same price, same timeline.',
   },
 ]
 
@@ -249,7 +249,7 @@ export default function IdeaValidation() {
             <div style={{ marginTop: 2, background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.15)', padding: '36px 32px', textAlign: 'center' }}>
               <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 32, fontWeight: 300, color: '#fff', marginBottom: 4 }}>US$799 <span style={{ fontSize: 14, color: 'rgba(255,255,255,0.3)' }}>per idea</span></div>
               <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', marginBottom: 6 }}>48-hour delivery from form submission</div>
-              <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.3)', marginBottom: 20 }}>Includes: Full Idea Validation Analysis + Idea Summary Card, delivered as PDF · Available in English and Portuguese (Brazilian)</div>
+              <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.3)', marginBottom: 20 }}>Includes: Full Idea Validation Analysis + Idea Summary Card, delivered as PDF · Available in English, Portuguese (Brazilian), Spanish, and Italian</div>
               <Link to="/contact" className="btn btn-primary" style={{ fontSize: 14 }}>Validate My Idea →</Link>
             </div>
           </FadeIn>

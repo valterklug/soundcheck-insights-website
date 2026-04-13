@@ -14,6 +14,7 @@ import ForInvestors from './pages/ForInvestors'
 import ExpansionReport from './pages/ExpansionReport'
 import GrowthRoadmap from './pages/GrowthRoadmap'
 import IdeaValidation from './pages/IdeaValidation'
+import BusinessPlan from './pages/BusinessPlan'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
@@ -39,6 +40,7 @@ function Layout() {
           <Route path="/expansion-report" element={<ExpansionReport />} />
           <Route path="/growth-roadmap" element={<GrowthRoadmap />} />
           <Route path="/idea-validation" element={<IdeaValidation />} />
+          <Route path="/business-plan" element={<BusinessPlan />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/partner" element={<Partner />} />
           <Route path="/our-partners" element={<OurPartners />} />
