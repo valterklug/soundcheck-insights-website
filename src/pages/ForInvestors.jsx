@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
+import SEO from '../components/SEO'
+import { faqSchema } from '../seoConfig'
 
 const signals = [
   { num: '1', name: 'Market Reality', desc: 'Is the opportunity real and is the timing right now — not in theory?' },
@@ -104,6 +106,13 @@ export default function ForInvestors() {
 
   return (
     <PageWrapper>
+      <SEO
+        title="For Investors — Funding Vetting Analysis"
+        description="Structured triage for your deal pipeline. Two independent interviews, contradiction analysis, and a one-page ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company. 7-day delivery."
+        path="/for-investors"
+        image="/og/og-for-investors.png"
+        schema={faqSchema(faqs)}
+      />
       {/* Section 1 — Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
+import SEO from '../components/SEO'
+import { faqSchema } from '../seoConfig'
 
 const reportSections = [
   {
@@ -188,6 +190,13 @@ export default function BusinessPlan() {
 
   return (
     <PageWrapper>
+      <SEO
+        title="Business Plan Development"
+        description="Professional, audience-specific business plans built from structured intake and independent research. 6 configurations. US$5,000+. 10-14 day delivery."
+        path="/business-plan"
+        image="/og/og-business-plan.png"
+        schema={faqSchema(faqs)}
+      />
       {/* Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">

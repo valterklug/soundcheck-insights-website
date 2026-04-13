@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
+import SEO from '../components/SEO'
+import { faqSchema } from '../seoConfig'
 
 const dimensions = [
   { pts: '25', name: 'Problem Validity', desc: 'Is this a Tier 1 problem — urgent, frequent, and costly to the people who have it?' },
@@ -62,6 +64,13 @@ export default function IdeaValidation() {
 
   return (
     <PageWrapper>
+      <SEO
+        title="Idea Validation Analysis"
+        description="Know if your idea has a market before you spend a dollar building it. IVS Score (0-100), market sizing, competitive analysis. US$799. 48-hour delivery."
+        path="/idea-validation"
+        image="/og/og-idea-validation.png"
+        schema={faqSchema(faqs)}
+      />
       {/* Section 1 — Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">

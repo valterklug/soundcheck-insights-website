@@ -3,6 +3,8 @@ import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import SEO from './components/SEO'
+import seoConfig from './seoConfig'
 import Home from './pages/Home'
 import HowItWorks from './pages/HowItWorks'
 import ForAgencies from './pages/ForAgencies'
@@ -24,11 +26,19 @@ function ScrollToTop() {
   return null
 }
 
+function RouteSEO() {
+  const { pathname } = useLocation()
+  const config = seoConfig[pathname]
+  if (!config) return null
+  return <SEO path={pathname} {...config} />
+}
+
 function Layout() {
   const location = useLocation()
   return (
     <>
       <ScrollToTop />
+      <RouteSEO />
       <Nav />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>

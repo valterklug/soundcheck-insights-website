@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
+import SEO from '../components/SEO'
+import { faqSchema } from '../seoConfig'
 
 /* ── REPORT SECTIONS ─────────────────────────────────────────────── */
 const reportSections = [
@@ -180,6 +182,13 @@ export default function GrowthRoadmap() {
 
   return (
     <PageWrapper>
+      <SEO
+        title="US Growth Roadmap"
+        description="For B2B service companies and CPG brands that have stalled. GPS Score (0-100), ranked growth levers with investment estimates, and a 90-day action plan. US$5,000+."
+        path="/growth-roadmap"
+        image="/og/og-growth-roadmap.png"
+        schema={faqSchema(faqs)}
+      />
       {/* Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--orange)' }}>
         <div className="page-hero-inner">

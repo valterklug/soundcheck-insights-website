@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
+import SEO from '../components/SEO'
+import { faqSchema } from '../seoConfig'
 
 const reportSections = [
   {
@@ -153,6 +155,13 @@ export default function ExpansionReport() {
 
   return (
     <PageWrapper>
+      <SEO
+        title="International Expansion Viability Report"
+        description="Decision-grade market entry intelligence for international brands. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages in 14 days."
+        path="/expansion-report"
+        image="/og/og-expansion-report.png"
+        schema={faqSchema(faqs)}
+      />
       {/* Hero */}
       <section className="page-hero" style={{ borderBottom: '3px solid var(--teal)' }}>
         <div className="page-hero-inner">
