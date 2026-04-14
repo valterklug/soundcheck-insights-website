@@ -45,7 +45,7 @@
       }
     ],
     "problemLabel": "El Problema",
-    "problemTitle": "La investigación es la capacidad menos monetizada en su práctica.",
+    "problemTitle": "La investigación es la capacidad menos monetizada en su consultoría.",
     "problemDesc1": "Las agencias entregan estrategia, campañas y ejecución. Pero la capa de inteligencia — análisis de mercado, evaluación de viabilidad, mapeo competitivo — se externaliza a alto costo o se omite completamente.",
     "problemDesc2": "El resultado: los clientes toman decisiones costosas sin evidencia. Las agencias dejan trabajo facturable sobre la mesa.",
     "problemCards": [
@@ -72,7 +72,7 @@
     ],
     "howLabel": "Cómo Funciona",
     "howTitle1": "Usted es el experto.",
-    "howTitle2": "Nosotros somos el motor.",
+    "howTitle2": "Somos su motor.",
     "howDesc": "Soundcheck no es una agencia de investigación. Es una plataforma que usted opera. La IA agrega, mapea y califica. Usted valida con su criterio profesional y entrega bajo su marca.",
     "howLink": "Ver el proceso completo →",
     "howSteps": [
@@ -94,10 +94,10 @@
       {
         "num": "04",
         "title": "Usted entrega bajo su marca",
-        "tag": "Su marca · Your credit · Your next contract"
+        "tag": "Su marca · Su crédito · Su próximo contrato"
       }
     ],
-    "productsLabel": "Six Productos",
+    "productsLabel": "Seis Productos",
     "productsTitle": "Seis informes que puede ofrecer\na sus clientes a partir de hoy.",
     "products": [
       {
@@ -143,7 +143,7 @@
       {
         "num": "06",
         "for": "Firmas de Capital de Riesgo · Inversores",
-        "name": "Análisis de Evaluación de Financiamiento",
+        "name": "Análisis de Inversión en Negocios",
         "desc": "Dos entrevistas estructuradas, validación de clientes independiente y un Signal Brief con veredicto AVANCE / CONDICIONAL / DETENER. USD 3,000 por empresa.",
         "delivery": "Entrega en 7 días · Descuentos por volumen disponibles",
         "link": "/for-investors"
@@ -155,14 +155,14 @@
     "economicsTitle2": "sin nueva dotación de personal.",
     "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Su rol es capturar el brief, aplicar su criterio profesional y presentar los hallazgos con el contexto estratégico que solo usted puede proporcionar.",
     "economicsLink": "Desglose Completo de Economía →",
-    "economicsHeader": "Economía Real · Por Informe (en un compromiso de US$5.000)",
+    "economicsHeader": "Economía Real · Por Informe (en un proyecto de US$5.000)",
     "economicsRows": [
       [
-        "Tarifa de Soundcheck (Auto-Servicio)",
+        "Costo Soundcheck (Auto-Servicio)",
         "20% · US$1.000"
       ],
       [
-        "Tarifa de Soundcheck (Servicio Completo)",
+        "Costo Soundcheck (Servicio Completo)",
         "Hasta 50% · US$2.500"
       ],
       [
@@ -170,7 +170,7 @@
         "6–10h / 2–4h"
       ],
       [
-        "Tasa horaria efectiva",
+        "Costo/hora efectivo",
         "US$400–US$1.250+/h"
       ]
     ],
@@ -205,7 +205,7 @@
       }
     ],
     "phasesLabel": "Las Cuatro Fases",
-    "phasesTitle": "De solicitud a informe listo para cliente en 14 días.",
+    "phasesTitle": "De briefing a informe listo para el cliente en hasta 14 días.",
     "phases": [
       {
         "num": "Fase 01",
@@ -256,7 +256,7 @@
       "Juicio profesional y lectura del mercado",
       "Narrativa estratégica y marco de recomendaciones",
       "Puntuación de confianza e identificación de brechas",
-      "Su marca and your client relationship"
+      "Su marca y su relación con el cliente"
     ],
     "deliverables": [
       {
@@ -277,18 +277,18 @@
       {
         "icon": "🏷",
         "title": "Etiquetado Blanco",
-        "sub": "Su marca throughout"
+        "sub": "Su marca en todo"
       }
     ],
     "ctaTitle": "¿Listo para ejecutar su primer informe?",
     "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato.",
-    "ctaButton1": "Request Plataforma Access",
-    "ctaButton2": "Explore the 5 Productos"
+    "ctaButton1": "Solicitar Acceso a la Plataforma",
+    "ctaButton2": "Explorar los 6 Productos"
   },
   "forAgencies": {
-    "heroLabel": "Para Agencias & Consultancies",
+    "heroLabel": "Para Agencias y Consultorías",
     "heroTitle1": "Añada una ",
-    "heroTitle2": "US$400–US$1.250+/hour",
+    "heroTitle2": "$400–$1,250+/hora",
     "heroTitle3": " línea de ingresos a su práctica. Sin nueva dotación.",
     "heroSub": "Soundcheck es una plataforma de inteligencia de mercado que usted opera para sus clientes. Su experiencia valida los resultados de la IA. Usted establece el precio. Usted es dueño de la relación.",
     "chips": [
@@ -314,7 +314,7 @@
       }
     ],
     "businessCaseLabel": "El Caso de Negocio",
-    "businessCaseTitle": "Así es como funciona en la práctica hoy.",
+    "businessCaseTitle": "Así es como funciona en la práctica:",
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
@@ -325,12 +325,12 @@
     "fullServiceDesc": "Nosotros lo ayudamos de extremo a extremo",
     "economicsRows": [
       [
-        "Honorario de Soundcheck",
+        "Costo Soundcheck",
         "20% del precio del cliente",
         "Hasta 50% del precio del cliente"
       ],
       [
-        "En un compromiso de $5k",
+        "En un proyecto de US$5k",
         "$1,000",
         "$2,500"
       ],
@@ -340,7 +340,7 @@
         "2–4 horas"
       ],
       [
-        "Tasa horaria efectiva",
+        "Costo/hora efectivo",
         "$400–$667/h",
         "$625–$1,250/h"
       ]
@@ -349,11 +349,11 @@
     "marginSelfServe": "$4,000",
     "marginFullService": "$2,500",
     "operatorLabel": "Lo que obtiene como operador",
-    "operatorTitle": "Todo lo que necesita para entregar inteligencia\nal nivel de una firma de investigación.",
+    "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
       {
         "icon": "🔑",
-        "title": "Plataforma Access",
+        "title": "Acceso a la Plataforma",
         "desc": "Panel de control para enviar resúmenes, rastrear el progreso de informes y descargar resultados finalizados. Diseñado específicamente para flujos de trabajo de agencias."
       },
       {
@@ -382,9 +382,9 @@
         "desc": "Actualizaciones de inteligencia de mercado exclusivas para operadores: cambios de categoría, mejoras metodológicas y señales de investigación."
       }
     ],
-    "whiteLabelLabel": "White-Label Productos",
-    "whiteLabelTitle": "Tres productos que puede entregar\nbajo su marca hoy.",
-    "whiteLabelSub": "Each product is designed for white-label delivery. Su marca, your cover page, your client relationship. You set the price and keep the margin.",
+    "whiteLabelLabel": "Productos White-Label",
+    "whiteLabelTitle": "Tres productos que puede entregar de inmediato con su marca.",
+    "whiteLabelSub": "Cada producto está diseñado para entrega white-label. Su marca, su portada, su relación con el cliente. Usted define el precio y conserva el margen.",
     "whiteLabelProducts": [
       {
         "num": "01",
@@ -414,7 +414,7 @@
     "seeFullDetails": "Ver detalles completos →",
     "whiteLabel": "Marca blanca incluida",
     "rightFitLabel": "Ajuste correcto",
-    "rightFitTitle": "Para quién está construido esto.",
+    "rightFitTitle": "Para quién fue creado Soundcheck",
     "worksWell": "Esto funciona bien para usted si:",
     "worksWellItems": [
       "Usted atiende a clientes que toman decisiones de entrada al mercado o inversión",
@@ -438,9 +438,9 @@
     "ctaButton": "Solicitar Acceso a la Plataforma →"
   },
   "products": {
-    "heroLabel": "Research Productos",
-    "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes recuerdan.",
-    "heroSub": "Seis productos de alcance fijo diseñados para ser propuestos, entregados e implementados bajo la marca de su agencia, en tan solo 48 horas. Usted establece el precio para sus clientes.",
+    "heroLabel": "Productos de Investigación",
+    "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes no olvidarán.",
+    "heroSub": "Seis paquetes de productos diseñados para ser presentados, entregados e implementados bajo la marca de su agencia — en hasta 48 horas. Usted define cuánto cobrar a sus clientes.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -460,7 +460,7 @@
         "num": "01",
         "for": "Marcas Internacionales · Entrada al Mercado",
         "name": "Informe de Viabilidad de Expansión Internacional",
-        "desc": "Inteligencia de entrada al mercado de grado decisivo para marcas internacionales. Puntuación CVE propia, panorama competitivo, descripción regulatoria, mapa de canales de distribución, tres caminos estratégicos y una hoja de ruta de 12 meses. 100+ páginas, marca blanca, en 14 días.",
+        "desc": "Inteligencia de mercado para expansión internacional de marcas. Porcentaje de probabilidad de éxito (CVE), análisis competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta de 12 meses. 100+ páginas, white-label, entregado en 14 días.",
         "price": "Precio sugerido: US$5k+",
         "delivery": "Entrega en 14 días · Marca blanca incluida · 1 revisión",
         "ctaLabel": "Ver Detalles Completos del Informe →",
@@ -480,7 +480,7 @@
         "for": "Emprendedores · Fundadores · Emprendedores Seriales",
         "name": "Análisis de Validación de Ideas",
         "tagline": "Sepa si su idea tiene mercado antes de gastar un dólar construyéndola.",
-        "desc": "Complete un formulario de 10 minutos describiendo su idea. La IA de Soundcheck ejecuta investigación de mercado independiente, analiza la competencia, calcula el tamaño de la oportunidad y estima lo que su cliente objetivo pagaría. Recibe un análisis completo y una Tarjeta Resumen de una página en 48 horas.",
+        "desc": "Complete un formulario en 10 minutos describiendo su idea. La IA de Soundcheck ejecuta una investigación de mercado independiente, analiza la competencia, dimensiona la oportunidad y estima cuánto pagaría su cliente objetivo. Recibe un análisis completo y un resumen de una página en 48 horas.",
         "price": "US$799 por análisis",
         "delivery": "Entrega en 48 horas después del envío del formulario · Completamente automatizado",
         "ctaLabel": "Valide Su Idea →",
@@ -544,11 +544,11 @@
       {
         "num": "06",
         "for": "Empresas de Capital de Riesgo · Capital de Crecimiento · Sindicatos de Ángeles · Venture Corporativo",
-        "name": "Análisis de Evaluación de Financiamiento",
-        "desc": "Dos entrevistas estructuradas — una con el equipo fundador, otra con un cliente real. Soundcheck ejecuta investigación independiente, identifica contradicciones entre ambas entrevistas y entrega un veredicto de una página AVANZAR / CONDICIONAL / DETENER con la evidencia detrás de él. Sepa qué empresas merecen el tiempo de su equipo antes de gastarlo.",
+        "name": "Análisis de Inversión en Negocios",
+        "desc": "Dos entrevistas estructuradas — una con el equipo fundador, otra con un cliente real. Soundcheck ejecuta investigación independiente, identifica contradicciones entre ambas entrevistas y entrega un veredicto de una página (AVANZAR / CONDICIONAL / DETENER) con justificaciones. Sepa qué empresas merecen el tiempo de su equipo antes de invertirlo.",
         "price": "US$3,000 por empresa",
         "delivery": "Entrega en 7 días desde entrevistas completadas · Descuentos por volumen disponibles",
-        "ctaLabel": "See Cómo Funciona →",
+        "ctaLabel": "Ver Cómo Funciona →",
         "deliverables": [
           "Informe de Inteligencia Completo — registro de evidencia de 10 secciones de ambas entrevistas con registro de contradicciones",
           "Signal Brief — veredicto de una página AVANZAR / CONDICIONAL / DETENER con evidencia documentada"
@@ -559,15 +559,15 @@
   },
   "forInvestors": {
     "heroLabel": "Para Inversionistas",
-    "heroTitle": "Su cartera está llena.\nLa disponibilidad de su equipo no lo está.",
-    "heroSub": "La firma de capital de riesgo promedio ve cientos de transacciones al año. La mayoría de las que se filtran no se filtran lo suficientemente pronto. Soundcheck proporciona a firmas de capital de riesgo, fondos de capital de crecimiento, sindicatos de ángeles y unidades de capital de riesgo corporativo un veredicto de triaje estructurado y documentado: AVANZAR, CONDICIONAL o DETENER, antes de que su equipo dedique horas significativas a una empresa que no debería pasar de la ronda uno.",
-    "requestEngagement": "Solicitar una participación →",
-    "viewSamples": "Ver resúmenes de señal de muestra →",
+    "heroTitle": "Su pipeline no deja de crecer.\nLa disponibilidad de su equipo, no.",
+    "heroSub": "En promedio, una firma de VC analiza cientos de oportunidades al año. La mayoría de las que se filtran no se filtran lo suficientemente pronto. Soundcheck ofrece a firmas de capital de riesgo, fondos de crecimiento, sindicatos de angel investors e inversionistas corporativos una triaje estructurada y documentada, con veredicto — AVANZAR, CONDICIONAL, o DETENER — antes de que su equipo invierta horas significativas en una empresa que no debería pasar de la primera ronda.",
+    "requestEngagement": "Solicitar una reunión →",
+    "viewSamples": "Ver ejemplos de Signal Briefs →",
     "heroStats": [
       {
         "num": "7",
         "label": "DÍAS HÁBILES",
-        "sub": "desde entrevistas hasta Signal Brief"
+        "sub": "de las entrevistas al Signal Brief"
       },
       {
         "num": "2",
@@ -582,8 +582,8 @@
     ],
     "problemLabel": "El costo real",
     "problemTitle": "La mayoría del filtrado temprano ocurre informalmente. Ese es el problema.",
-    "problemDesc1": "Los pitch decks se preparan para la mejor impresión posible. Los fundadores saben cómo responder preguntas estándar. Las llamadas de referencia se realizan a través de los propios contactos de la empresa. Para cuando descubre que los ingresos no son tan limpios como sugiere el deck, o que el fundador no puede explicar por qué está perdiendo transacciones, o que su cliente más leal está evaluando activamente alternativas, sus asociados ya han invertido más de 15 horas.",
-    "problemDesc2": "Soundcheck ejecuta dos entrevistas estructuradas de forma independiente: una con el equipo de liderazgo, otra con un cliente real que seleccionamos de una lista que proporciona la empresa. Encontramos dónde sus historias no coinciden. Usted obtiene el veredicto antes de que su equipo invierta.",
+    "problemDesc1": "Los pitch decks se preparan para causar la mejor impresión posible. Los emprendedores saben cómo responder preguntas estándar. Las listas de referencia incluyen contactos cercanos a la empresa. Para cuando descubre que los ingresos no son tan limpios como sugiere el deck, o que el fundador no puede explicar por qué está perdiendo dinero, o que su cliente más leal está evaluando alternativas, sus analistas ya han desperdiciado más de 15 horas.",
+    "problemDesc2": "Soundcheck ejecuta dos entrevistas de forma independiente — una con el equipo de liderazgo, otra con un cliente real que seleccionamos aleatoriamente de una lista que la empresa proporciona. Identificamos si sus historias no coinciden. Usted recibe el veredicto antes de que su equipo invierta.",
     "problemCards": [
       {
         "title": "Lo que reemplazamos",
@@ -724,7 +724,7 @@
       },
       {
         "q": "¿Cuál es el tiempo de respuesta si lo necesitamos más rápido?",
-        "a": "Standard is 7 business days from the date both interviews are completed. Rush delivery (3 business days) is available for an additional US$1,000 — subject to availability. Contacto us before briefing to confirm."
+        "a": "El estándar es 7 días hábiles a partir de la fecha en que ambas entrevistas se completan. La entrega acelerada (3 días hábiles) está disponible por un adicional de US$1,000 — sujeto a disponibilidad. Contáctenos antes del briefing para confirmar."
       },
       {
         "q": "¿Ofrecen precios por volumen?",
@@ -754,11 +754,11 @@
     "seePartners": "Ver todos los socios →"
   },
   "partner": {
-    "heroLabel": "Asociarse Con Nosotros",
-    "heroTitle": "Añada Soundcheck a su práctica.\nComience con un informe.",
-    "heroSub": "Cuéntenos sobre su empresa. Lo guiaremos a través del acceso a la plataforma, precios y cómo ejecutar su primer informe, típicamente en un cliente existente dentro de su primera semana.",
-    "formTitle": "Cuéntenos sobre su empresa",
-    "formSub": "Cada solicitud de acceso es revisada personalmente por Valter. Si hay un ajuste, escuchará en dos días hábiles.",
+    "heroLabel": "Sea Nuestro Socio",
+    "heroTitle": "Añada Soundcheck a su oferta de servicios.",
+    "heroSub": "Cuéntenos sobre su empresa. Lo guiaremos y le daremos acceso a nuestra plataforma, explicaremos la metodología de precios, y cómo ejecutar su primer informe (generalmente para uno de sus clientes existentes).",
+    "formTitle": "Sobre su empresa",
+    "formSub": "Cada solicitud de acceso es analizada personalmente por Valter Klug. Si hay compatibilidad, nos pondremos en contacto en un plazo de dos días hábiles.",
     "submitButton": "Enviar consulta de asociación →",
     "whatHappens": "Lo que sucede a continuación",
     "steps": [
@@ -769,34 +769,34 @@
       },
       {
         "num": "02",
-        "title": "Llamada de descubrimiento (30 min)",
-        "body": "Recorreremos la plataforma, sus tipos de clientes y qué producto tiene más sentido para comenzar."
+        "title": "Discovery Call (30 min)",
+        "body": "Lo guiaremos por la plataforma, analizaremos sus clientes y recomendaremos qué producto tiene más sentido para comenzar."
       },
       {
         "num": "03",
-        "title": "Primer informe — práctica en vivo",
-        "body": "La mayoría de los operadores ejecutan su primer informe en un cliente existente. Usted verá el flujo de trabajo completo en la práctica."
+        "title": "Primer informe — practicando",
+        "body": "La mayoría de los socios ejecutan su primer informe en un cliente existente. Usted verá el flujo de trabajo completo en la práctica."
       },
       {
         "num": "04",
-        "title": "Plataforma access confirmed",
-        "body": "Términos simples y claros. Pago por informe para comenzar, o acceso mensual. Sin contrato a largo plazo."
+        "title": "Acceso a la plataforma",
+        "body": "Pague por un informe para comenzar, o cierre un paquete mensual."
       }
     ],
-    "valterQuote": "\"Construí esta plataforma ejecutando cada informe yo mismo primero. Reviso cada solicitud de acceso de plataforma personalmente, y guío a los nuevos operadores a través de su primer informe.\"",
+    "valterQuote": "\"Construí esta plataforma ejecutando cada informe personalmente. Analizo cada solicitud de acceso a la plataforma — y guío a nuevos operadores en la elaboración de su primer informe.\"",
     "preferTalk": "¿Prefiere hablar primero?",
     "reachOut": "Comuníquese directamente o conéctese en LinkedIn."
   },
   "ourPartners": {
     "heroLabel": "Nuestra red de socios",
-    "heroTitle": "Lo señalaremos hacia\nel experto correcto.",
+    "heroTitle": "Lo dirigiremos al\nespecialista correcto.",
     "heroSub": "Soundcheck Insights se enfoca en inteligencia de mercado e investigación. Si lo que necesita está fuera de ese alcance, aquí hay socios de confianza con los que trabajamos directamente, cada uno especialista en su campo.",
     "forBrands": "Para marcas y negocios:",
     "forBrandsDesc": "Si no es una agencia pero necesita ayuda para entrar en el mercado estadounidense, esta página lo ayudará a encontrar al experto correcto más rápido.",
     "findPartner": "Encuentre el socio adecuado para su desafío",
     "whenToReach": "Cuándo comunicarse",
     "startBrief": "Comience una propuesta →",
-    "ctaTitle": "¿No está seguro de qué socio necesita?",
+    "ctaTitle": "¿No sabe exactamente qué socio necesita?",
     "ctaSub": "Envíenos un mensaje y describa su situación. Le diremos honestamente si Soundcheck es el ajuste correcto, y si no, lo señalaremos directamente hacia la persona correcta. Sin rodeos, sin discurso de ventas.",
     "ctaButton": "Hable con el equipo →",
     "partners": [
