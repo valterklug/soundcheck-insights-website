@@ -45,7 +45,7 @@
       }
     ],
     "problemLabel": "O Problema",
-    "problemTitle": "Pesquisa é a capacidade menos monetizada em sua prática.",
+    "problemTitle": "Pesquisa é a capacidade menos monetizada na sua consultoria.",
     "problemDesc1": "Agências entregam estratégia, campanhas e execução. Mas a camada de inteligência — análise de mercado, avaliação de viabilidade, mapeamento competitivo — é terceirizada a alto custo ou ignorada completamente.",
     "problemDesc2": "O resultado: clientes tomam decisões caras sem evidências. Agências deixam trabalho faturável sobre a mesa.",
     "problemCards": [
@@ -72,7 +72,7 @@
     ],
     "howLabel": "Como Funciona",
     "howTitle1": "Você é o especialista.",
-    "howTitle2": "Somos o motor.",
+    "howTitle2": "Nós somos o seu motor.",
     "howDesc": "Soundcheck não é uma agência de pesquisa. É uma plataforma que você opera. A IA agrega, mapeia e pontua. Você valida com seu julgamento profissional e entrega sob sua marca.",
     "howLink": "Ver o Processo Completo →",
     "howSteps": [
@@ -143,7 +143,7 @@
       {
         "num": "06",
         "for": "Firmas de Capital de Risco · Investidores",
-        "name": "Análise de Avaliação de Financiamento",
+        "name": "Análise de Investimento em Negócios",
         "desc": "Duas entrevistas estruturadas, validação independente de clientes e um Signal Brief com veredicto AVANÇAR / CONDICIONAL / PARAR. US$3.000 por empresa.",
         "delivery": "Entrega em 7 dias · Descontos por volume disponíveis",
         "link": "/for-investors"
@@ -170,7 +170,7 @@
         "6–10h / 2–4h"
       ],
       [
-        "Taxa horária efetiva",
+        "Custo/hora efetivo",
         "US$400–US$1.250+/h"
       ]
     ],
@@ -205,7 +205,7 @@
       }
     ],
     "phasesLabel": "As Quatro Fases",
-    "phasesTitle": "De briefing a relatório pronto para cliente em 14 dias.",
+    "phasesTitle": "De briefing a relatório pronto para o cliente em até 14 dias.",
     "phases": [
       {
         "num": "Fase 01",
@@ -314,7 +314,7 @@
       }
     ],
     "businessCaseLabel": "O Caso de Negócio",
-    "businessCaseTitle": "É assim que funciona na prática hoje.",
+    "businessCaseTitle": "É assim que funciona na prática:",
     "businessCaseDesc1": "Antes de abrir isso como uma plataforma, eu executei todos os relatórios Soundcheck pessoalmente. Não como prova de conceito — porque a economia era muito convincente para não provar primeiro.",
     "businessCaseDesc2": "A plataforma realiza o trabalho analítico pesado: agregação de dados, mapeamento competitivo, pontuação de viabilidade, geração de relatórios. Seu papel é capturar as informações corretas do cliente antecipadamente, aplicar seu julgamento profissional ao resultado da IA e apresentar os resultados com o contexto estratégico que apenas um especialista real pode fornecer.",
     "businessCaseDesc3": "É isso que seu cliente está pagando.",
@@ -325,12 +325,12 @@
     "fullServiceDesc": "Ajudamos de ponta a ponta",
     "economicsRows": [
       [
-        "Taxa Soundcheck",
+        "Custo Soundcheck",
         "20% do preço do cliente",
         "Até 50% do preço do cliente"
       ],
       [
-        "Em um engajamento de US$5k",
+        "Em um projeto de US$5k",
         "US$1.000",
         "US$2.500"
       ],
@@ -340,7 +340,7 @@
         "2-4 horas"
       ],
       [
-        "Taxa horária efetiva",
+        "Custo/hora efetivo",
         "US$400–US$667/h",
         "US$625–US$1.250/h"
       ]
@@ -349,7 +349,7 @@
     "marginSelfServe": "US$4.000",
     "marginFullService": "US$2.500",
     "operatorLabel": "O Que Você Recebe como Operador",
-    "operatorTitle": "Tudo que você precisa para entregar inteligência\nno nível de uma firma de pesquisa.",
+    "operatorTitle": "Tudo o que você precisa para entregar inteligência no nível de uma empresa de pesquisa.",
     "operatorItems": [
       {
         "icon": "🔑",
@@ -383,7 +383,7 @@
       }
     ],
     "whiteLabelLabel": "Produtos White-Label",
-    "whiteLabelTitle": "Três produtos que você pode entregar\nsob sua marca hoje.",
+    "whiteLabelTitle": "Três produtos que você pode entregar imediatamente com a sua marca.",
     "whiteLabelSub": "Cada produto é projetado para entrega white-label. Sua marca, sua página de capa, seu relacionamento com o cliente. Você define o preço e mantém a margem.",
     "whiteLabelProducts": [
       {
@@ -414,7 +414,7 @@
     "seeFullDetails": "Ver Detalhes Completos →",
     "whiteLabel": "White-label incluído",
     "rightFitLabel": "Ajuste Certo",
-    "rightFitTitle": "Para quem isso é construído.",
+    "rightFitTitle": "Para quem o Soundcheck foi criado",
     "worksWell": "Isso funciona bem para você se:",
     "worksWellItems": [
       "Você atende clientes que tomam decisões de entrada no mercado ou investimento",
@@ -439,8 +439,8 @@
   },
   "products": {
     "heroLabel": "Produtos de Pesquisa",
-    "heroTitle": "Inteligência que sua agência implementa.\nResultados que seus clientes lembram.",
-    "heroSub": "Seis produtos de escopo fixo projetados para serem briefados, entregues e implementados sob a marca de sua agência — em até 48 horas. Você define o preço para seus clientes.",
+    "heroTitle": "Inteligência que sua agência implementa.\nResultados que seus clientes não vão esquecer.",
+    "heroSub": "Seis pacotes de produtos projetados para serem brifados, entregues e implementados sob a marca de sua agência — em até 48 horas. Você define quanto cobrar de seus clientes.",
     "viewDeliverables": "Ver O Que é Entregue",
     "hideDeliverables": "Ocultar O Que é Entregue",
     "whatsDelivered": "O Que é Entregue",
@@ -460,7 +460,7 @@
         "num": "01",
         "for": "Marcas Internacionais · Entrada no Mercado",
         "name": "Relatório de Viabilidade de Expansão Internacional",
-        "desc": "Inteligência de entrada no mercado de qualidade para decisão para marcas internacionais. CVE Score proprietário, paisagem competitiva, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap de 12 meses. 100+ páginas, white-label, em 14 dias.",
+        "desc": "Inteligência de mercado para expansão internacional de marcas. Chance de sucesso percentual (CVE), análise competitiva, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap de 12 meses. 100+ páginas, white-label, entregue em 14 dias.",
         "price": "Preço sugerido: US$5k+",
         "delivery": "Entrega em 14 dias · White-label incluído · 1 revisão",
         "ctaLabel": "Ver Detalhes Completos do Relatório →",
@@ -480,7 +480,7 @@
         "for": "Empreendedores · Fundadores · Empreendedores Seriais",
         "name": "Análise de Validação de Ideia",
         "tagline": "Saiba se sua ideia tem um mercado antes de gastar um dólar construindo-a.",
-        "desc": "Preencha um formulário de 10 minutos descrevendo sua ideia. A IA do Soundcheck executa pesquisa de mercado independente, analisa a concorrência, dimensiona a oportunidade e estima quanto seu cliente-alvo pagaria. Você recebe uma análise completa e um Cartão de Resumo de uma página em 48 horas.",
+        "desc": "Preencha um formulário em 10 minutos descrevendo a sua ideia. A IA da Soundcheck executa uma pesquisa de mercado independente, analisa a concorrência, dimensiona a oportunidade e estima quanto seu cliente-alvo pagaria. Você recebe uma análise completa e um resumo de uma página em 48 horas.",
         "price": "US$799 por análise",
         "delivery": "Entrega em 48 horas após envio do formulário · Totalmente automatizado",
         "ctaLabel": "Valide Sua Ideia →",
@@ -544,8 +544,8 @@
       {
         "num": "06",
         "for": "Empresas de Capital de Risco · Capital de Crescimento · Sindicatos de Anjos · Venture Corporativo",
-        "name": "Análise de Avaliação de Financiamento",
-        "desc": "Duas entrevistas estruturadas — uma com a equipe fundadora, outra com um cliente real. Soundcheck executa pesquisa independente, identifica contradições entre as duas entrevistas e fornece um veredicto de uma página AVANÇAR / CONDICIONAL / PARAR com as evidências por trás. Saiba quais empresas merecem o tempo de sua equipe antes de gastá-lo.",
+        "name": "Análise de Investimento em Negócios",
+        "desc": "Duas entrevistas estruturadas — uma com a equipe fundadora, outra com um cliente real. Soundcheck executa pesquisa independente, identifica contradições entre as duas entrevistas e fornece um veredicto de uma página (AVANÇAR / CONDICIONAL / PARAR) com justificativas. Saiba quais empresas merecem o tempo da sua equipe antes de investí-lo.",
         "price": "US$3,000 por empresa",
         "delivery": "Entrega em 7 dias a partir das entrevistas concluídas · Descontos por volume disponíveis",
         "ctaLabel": "Veja Como Funciona →",
@@ -561,13 +561,13 @@
     "heroLabel": "Para Investidores",
     "heroTitle": "Seu pipeline não para de crescer.\nA disponibilidade do seu time, não.",
     "heroSub": "Em média, uma empresa de VC analisa centenas de oportunidades por ano. A maioria das que são filtradas não são filtradas cedo o suficiente. Soundcheck oferece a firmas de capital de risco, fundos de crescimento, sindicatos de angel investors e investidores corporativos uma triagem estruturada e documentada, com veredito — AVANÇAR, CONDICIONAL, ou PARAR — antes que seu time invista horas significativas em uma empresa que não deveria passar pela primeira rodada.",
-    "requestEngagement": "Solicitar um Engajamento →",
-    "viewSamples": "Ver Signal Briefs de Amostra →",
+    "requestEngagement": "Solicitar uma reunião →",
+    "viewSamples": "Ver exemplos de signal briefs →",
     "heroStats": [
       {
         "num": "7",
         "label": "DIAS ÚTEIS",
-        "sub": "de entrevistas para Signal Brief"
+        "sub": "das entrevistas ao Signal Brief"
       },
       {
         "num": "2",
@@ -582,8 +582,8 @@
     ],
     "problemLabel": "O custo real",
     "problemTitle": "A maioria da filtragem inicial acontece informalmente. Esse é o problema.",
-    "problemDesc1": "Pitch decks são preparados para a melhor impressão possível. Fundadores sabem como responder perguntas padrão. Chamadas de referência passam pelos próprios contatos da empresa. No momento em que você descobre que a receita não é tão limpa quanto o deck sugere, ou que o fundador não consegue explicar por que está perdendo operações, ou que seu cliente mais leal está ativamente avaliando alternativas, seus analistas já passaram 15+ horas.",
-    "problemDesc2": "Soundcheck executa duas entrevistas estruturadas de forma independente — uma com o time de liderança, uma com um cliente real que selecionamos de uma lista que a empresa fornece. Encontramos onde suas histórias não correspondem. Você obtém o veredicto antes que seu time invista.",
+    "problemDesc1": "Pitch decks são preparados para causar a melhor impressão possível. Empreendedores sabem como responder perguntas padrão. Listas de referência incluem contatos próximos da empresa. No momento em que você descobre que a receita não é tão limpa quanto o deck sugere, ou que o fundador não consegue explicar por que está perdendo dinheiro, ou que seu cliente mais leal está avaliando alternativas, seus analistas já desperdiçaram mais de 15 horas.",
+    "problemDesc2": "Soundcheck executa duas entrevistas de forma independente — uma com o time de liderança, uma com um cliente real que selecionamos aleatoriamente de uma lista que a empresa fornece. Identificamos se as suas histórias não correspondem. Você recebe o veredicto antes que seu time invista.",
     "problemCards": [
       {
         "title": "O que substituímos",
@@ -738,7 +738,7 @@
   "contact": {
     "heroLabel": "Entre em Contato",
     "heroTitle": "Pronto para conversar?",
-    "heroSub": "Para consultas de parcerias, briefs de produtos e dúvidas gerais. Cada mensagem é revisada e respondida em até um dia útil.",
+    "heroSub": "Para consultas de parcerias, briefs de produtos e dúvidas gerais. Cada mensagem é revisada e respondida em até dois dias úteis.",
     "sendMessage": "Envie-nos uma mensagem",
     "noCommitment": "Nenhum compromisso necessário. Resposta em 2 dias úteis.",
     "sendButton": "Enviar Mensagem →",
@@ -748,62 +748,62 @@
     "whatHappens": "O que Acontece Depois que Você Escreve",
     "valterTitle": "Valter Klug",
     "valterSub": "Fundador · Soundcheck Insights · Miami",
-    "valterDesc": "Valter revisa cada mensagem pessoalmente. Se houver compatibilidade, ele responderá com uma nota breve e um link de calendário em um dia útil. Se Soundcheck não for a solução certa, ele dirá honestamente — e apontará para o parceiro certo.",
+    "valterDesc": "Valter revisa cada mensagem pessoalmente. Se houver compatibilidade, ele responderá com uma nota breve e um link de calendário em até dois dias úteis. Se Soundcheck não for a solução certa, ele dirá honestamente — e apontará para o parceiro certo.",
     "lookingDifferent": "Procurando um Serviço Diferente?",
     "lookingDesc": "Soundcheck concentra-se em pesquisa de mercado e inteligência. Para estratégia de marketing, configuração de entidade nos EUA, logística ou expansão de franquias, visite nossa rede de parceiros.",
     "seePartners": "Ver todos os parceiros →"
   },
   "partner": {
-    "heroLabel": "Seja Parceiro Conosco",
-    "heroTitle": "Adicione Soundcheck à sua prática.\nComece com um relatório.",
-    "heroSub": "Conte-nos sobre sua empresa. Vamos guiá-lo através do acesso à plataforma, preços e como executar seu primeiro relatório — tipicamente em um cliente existente na sua primeira semana.",
-    "formTitle": "Conte-nos sobre sua empresa",
-    "formSub": "Cada solicitação de acesso é revisada pessoalmente por Valter. Se houver compatibilidade, você ouvirá falar em dois dias úteis.",
+    "heroLabel": "Seja Nosso Parceiro",
+    "heroTitle": "Adicione Soundcheck à sua oferta de serviços.\nComece com um relatório.",
+    "heroSub": "Conte-nos sobre sua empresa. Vamos guiá-lo e liberar acesso à nossa plataforma, explicar a metodologia de preços, e como executar seu primeiro relatório (geralmente para um de seus clientes existentes).",
+    "formTitle": "Sobre a sua empresa",
+    "formSub": "Cada solicitação de acesso é analisada pessoalmente por Valter Klug. Se houver compatibilidade, entraremos em contato em até dois dias úteis.",
     "submitButton": "Enviar Consulta de Parceria →",
     "whatHappens": "O que Acontece Depois",
     "steps": [
       {
         "num": "01",
-        "title": "Revisamos sua consulta",
-        "body": "Em até um dia útil. Cada consulta é lida pessoalmente por Valter."
+        "title": "Analisamos seu pedido",
+        "body": "Em até dois dias úteis. Cada pedido é avaliado pessoalmente pelo nosso fundador."
       },
       {
         "num": "02",
-        "title": "Chamada de descoberta (30 min)",
-        "body": "Vamos guiá-lo através da plataforma, seus tipos de clientes e qual produto faz mais sentido para começar."
+        "title": "Discovery Call (30 min)",
+        "body": "Vamos guiá-lo pela plataforma, analisar seus clientes e recomendar qual produto faz mais sentido para começar."
       },
       {
         "num": "03",
-        "title": "Primeiro relatório — prática ao vivo",
-        "body": "A maioria dos operadores executa seu primeiro relatório em um cliente existente. Você vê o fluxo de trabalho completo na prática."
+        "title": "Primeiro relatório — praticando",
+        "body": "A maioria dos parceiros executa seu primeiro relatório com um cliente existente. Você vê o fluxo de trabalho completo na prática."
       },
       {
         "num": "04",
-        "title": "Acesso à plataforma confirmado",
-        "body": "Termos simples e claros. Pague por relatório para começar, ou acesso mensal. Sem contrato de longo prazo."
+        "title": "Acesso à plataforma",
+        "body": "Termos simples e claros. Pague por um relatório para começar, ou feche um pacote mensal. Sem contrato de longo prazo."
       }
     ],
-    "valterQuote": "\"Construí esta plataforma executando cada relatório eu mesmo primeiro. Reviso pessoalmente cada consulta de acesso à plataforma — e guio novos operadores através de seu primeiro relatório.\"",
+    "valterQuote": "\"Construí esta plataforma executando cada relatório pessoalmente. Analiso cada pedido de acesso à plataforma — e guio novos operadores na confecção de seu primeiro relatório.\"",
     "preferTalk": "Prefere conversar primeiro?",
     "reachOut": "Entre em contato diretamente ou conecte-se no LinkedIn."
   },
   "ourPartners": {
     "heroLabel": "Nossa Rede de Parceiros",
-    "heroTitle": "Vamos apontá-lo para\no especialista certo.",
+    "heroTitle": "Vamos indicá-lo ao\nespecialista certo.",
     "heroSub": "Soundcheck Insights foca em inteligência de mercado e pesquisa. Se o que você precisa está fora desse escopo, aqui estão parceiros confiáveis com os quais trabalhamos diretamente — cada um especialista em seu campo.",
     "forBrands": "Para marcas e negócios:",
     "forBrandsDesc": "Se você não é uma agência mas precisa de ajuda para entrar no mercado dos EUA, esta página o ajudará a encontrar o especialista certo mais rápido.",
     "findPartner": "Encontre o Parceiro Certo para Seu Desafio",
     "whenToReach": "Quando entrar em contato",
     "startBrief": "Iniciar um brief →",
-    "ctaTitle": "Não tem certeza de qual parceiro você precisa?",
+    "ctaTitle": "Não sabe ao certo de qual parceiro você precisa?",
     "ctaSub": "Envie-nos uma mensagem e descreva sua situação. Vamos dizer honestamente se Soundcheck é a opção certa — e se não, vamos apontá-lo diretamente para a pessoa certa. Sem enrolação, sem papo de vendas.",
     "ctaButton": "Fale com o Time →",
     "partners": [
       {
         "cat": "Estratégia de Marketing · CMO Fracionário",
         "name": "Valter Klug — Chameleon Collective",
-        "desc": "Se você precisa de liderança em marketing, estratégia de marca, estratégia de expansão no mercado dos EUA, ou um CMO fracionário — Valter é a conversa certa. Ele opera através da Chameleon Collective e lidera engajamentos diretamente. 25+ anos no Brasil, Reino Unido, e EUA.",
+        "desc": "Se você precisa de liderança em marketing, estratégia de marca, estratégia de expansão no mercado dos EUA, ou um CMO fracionário — Valter é a pessoa certa. Ele opera através da Chameleon Collective e lidera engajamentos diretamente. 25+ anos no Brasil, Reino Unido, e EUA.",
         "when": "Brechas de liderança em marketing, posicionamento de marca para lançamento nos EUA, CMO fracionário, estratégia de campanha, expansão de marca internacional do Brasil ou LATAM para os EUA."
       },
       {
@@ -835,12 +835,6 @@
         "name": "Go To Market BD",
         "desc": "Para marcas brasileiras de CPG que precisam de um caminho para a distribuição varejista dos EUA — relações com brokers, estratégia de colocação em prateleira, apresentações a compradores, e desenvolvimento de canal varejista nos principais canais dos EUA.",
         "when": "Colocação em prateleira varejista dos EUA, relações com distribuidor e broker, estratégia de distribuição de CPG."
-      },
-      {
-        "cat": "Inteligência de Mercado · Pesquisa",
-        "name": "Soundcheck Insights (Você está aqui)",
-        "desc": "Para marcas ou agências que precisam de pesquisa de mercado, análise de viabilidade de expansão, inteligência competitiva, ou insights de cliente impulsados por IA — este é o lugar certo.",
-        "when": "Viabilidade de entrada no mercado, pesquisa de paisagem competitivo, desenvolvimento de plano de negócio, grupos focais virtuais impulsados por IA, triagem de financiamento."
       }
     ]
   },

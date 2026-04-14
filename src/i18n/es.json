@@ -738,7 +738,7 @@
   "contact": {
     "heroLabel": "Póngase en contacto",
     "heroTitle": "¿Listo para hacernos una propuesta?",
-    "heroSub": "Para consultas de asociación, propuestas de productos y preguntas generales. Cada mensaje se revisa y se responde en un día hábil.",
+    "heroSub": "Para consultas de asociación, propuestas de productos y preguntas generales. Cada mensaje se revisa y se responde en un plazo de dos días hábiles.",
     "sendMessage": "Envíenos un mensaje",
     "noCommitment": "No se requiere compromiso. Respuesta en 2 días hábiles.",
     "sendButton": "Enviar mensaje →",
@@ -748,7 +748,7 @@
     "whatHappens": "Lo que sucede después de escribir",
     "valterTitle": "Valter Klug",
     "valterSub": "Fundador · Soundcheck Insights · Miami",
-    "valterDesc": "Valter revisa cada mensaje personalmente. Si hay un ajuste, responderá con una nota breve y un enlace de calendario en un día hábil. Si Soundcheck no es la solución correcta, se lo dirá honestamente y lo señalará hacia el socio correcto.",
+    "valterDesc": "Valter revisa cada mensaje personalmente. Si hay un ajuste, responderá con una nota breve y un enlace de calendario en un plazo de dos días hábiles. Si Soundcheck no es la solución correcta, se lo dirá honestamente y lo señalará hacia el socio correcto.",
     "lookingDifferent": "¿Buscando un servicio diferente?",
     "lookingDesc": "Soundcheck se enfoca en investigación de mercado e inteligencia. Para estrategia de marketing, configuración de entidad en EE.UU., logística o expansión de franquicia, visite nuestra red de socios.",
     "seePartners": "Ver todos los socios →"
@@ -764,8 +764,8 @@
     "steps": [
       {
         "num": "01",
-        "title": "Revisamos su consulta",
-        "body": "En el plazo de un día hábil. Cada consulta se lee personalmente por Valter."
+        "title": "Analizamos su solicitud",
+        "body": "En un plazo de dos días hábiles. Cada solicitud es evaluada personalmente por nuestro fundador."
       },
       {
         "num": "02",
@@ -835,12 +835,6 @@
         "name": "Go To Market BD",
         "desc": "Para marcas brasileñas de CPG que necesitan un camino hacia la distribución minorista estadounidense — relaciones de corredor, estrategia de colocación en estantes, presentaciones a compradores, y desarrollo de canal minorista en los principales canales estadounidenses.",
         "when": "Colocación en estantes minoristas estadounidenses, relaciones de distribuidor y corredor, estrategia de distribución de CPG."
-      },
-      {
-        "cat": "Inteligencia de Mercado · Investigación",
-        "name": "Soundcheck Insights (Está aquí)",
-        "desc": "Para marcas o agencias que necesitan investigación de mercado, análisis de viabilidad de expansión, inteligencia competitiva, o insights de cliente impulsados por IA — este es el lugar correcto.",
-        "when": "Viabilidad de entrada al mercado, investigación de paisaje competitivo, desarrollo de plan de negocio, grupos focales virtuales impulsados por IA, evaluación de financiamiento."
       }
     ]
   },

@@ -738,7 +738,7 @@
   "contact": {
     "heroLabel": "Get in Touch",
     "heroTitle": "Ready to brief us?",
-    "heroSub": "For partnership inquiries, product briefs, and general questions. Every message is reviewed and responded to within one business day.",
+    "heroSub": "For partnership inquiries, product briefs, and general questions. Every message is reviewed and responded to within two business days.",
     "sendMessage": "Send us a message",
     "noCommitment": "No commitment required. Response within 2 business days.",
     "sendButton": "Send Message →",
@@ -748,7 +748,7 @@
     "whatHappens": "What Happens After You Write",
     "valterTitle": "Valter Klug",
     "valterSub": "Founder · Soundcheck Insights · Miami",
-    "valterDesc": "Valter reviews every message personally. If there's a fit, he'll reply with a short note and a calendar link within one business day. If Soundcheck isn't the right solution, he'll tell you honestly — and point you to the right partner.",
+    "valterDesc": "Valter reviews every message personally. If there's a fit, he'll reply with a short note and a calendar link within two business days. If Soundcheck isn't the right solution, he'll tell you honestly — and point you to the right partner.",
     "lookingDifferent": "Looking for a Different Service?",
     "lookingDesc": "Soundcheck focuses on market research and intelligence. For marketing strategy, US entity setup, logistics, or franchise expansion, visit our partner network.",
     "seePartners": "See all partners →"
@@ -765,7 +765,7 @@
       {
         "num": "01",
         "title": "We review your inquiry",
-        "body": "Within one business day. Every inquiry read personally by Valter."
+        "body": "Within two business days. Every inquiry is reviewed personally by our founder."
       },
       {
         "num": "02",
@@ -835,12 +835,6 @@
         "name": "Go To Market BD",
         "desc": "For Brazilian CPG brands that need a path into US retail distribution — broker relationships, shelf placement strategy, buyer introductions, and retail channel development across major US channels.",
         "when": "US retail shelf placement, distributor and broker relationships, CPG distribution strategy."
-      },
-      {
-        "cat": "Market Intelligence · Research",
-        "name": "Soundcheck Insights (You're here)",
-        "desc": "For brands or agencies that need market research, expansion viability analysis, competitive intelligence, or AI-powered customer insights — this is the right place.",
-        "when": "Market entry viability, competitive landscape research, business plan development, AI virtual focus groups, funding vetting."
       }
     ]
   },
