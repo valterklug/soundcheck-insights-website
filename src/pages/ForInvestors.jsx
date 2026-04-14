@@ -72,11 +72,11 @@ export default function ForInvestors() {
             <a href="#samples" className="btn btn-glass" style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.12)', color: '#fff', padding: '12px 24px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, display: 'inline-flex', alignItems: 'center', borderRadius: 4, textDecoration: 'none', transition: 'all 0.2s' }}>{t('forInvestors.viewSamples')}</a>
           </div>
           <div style={{ display: 'flex', gap: 40, marginTop: 40, flexWrap: 'wrap' }}>
-            {t('forInvestors.heroStats', { returnObjects: true }).map(([num, label, sub]) => (
-              <div key={sub} style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: num.length > 2 ? 24 : 36, fontWeight: 300, color: 'var(--teal)', lineHeight: 1 }}>{num}</div>
-                {label && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginTop: 4 }}>{label}</div>}
-                <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{sub}</div>
+            {t('forInvestors.heroStats', { returnObjects: true }).map((stat) => (
+              <div key={stat.sub} style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: stat.num.length > 2 ? 24 : 36, fontWeight: 300, color: 'var(--teal)', lineHeight: 1 }}>{stat.num}</div>
+                {stat.label && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginTop: 4 }}>{stat.label}</div>}
+                <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', marginTop: 4 }}>{stat.sub}</div>
               </div>
             ))}
           </div>
@@ -101,11 +101,11 @@ export default function ForInvestors() {
             </div>
           </FadeIn>
           <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2, marginTop: 48 }} className="offer-grid">
-            {t('forInvestors.problemCards', { returnObjects: true }).map(([title, text]) => (
-              <StaggerItem key={title}>
+            {t('forInvestors.problemCards', { returnObjects: true }).map((card) => (
+              <StaggerItem key={card.title}>
                 <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 28px', height: '100%' }}>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, fontWeight: 500, color: '#fff', marginBottom: 10 }}>{title}</div>
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', lineHeight: 1.65 }}>{text}</p>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, fontWeight: 500, color: '#fff', marginBottom: 10 }}>{card.title}</div>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', lineHeight: 1.65 }}>{card.text}</p>
                 </div>
               </StaggerItem>
             ))}
@@ -172,12 +172,15 @@ export default function ForInvestors() {
           {/* Verdict Logic Strip */}
           <FadeIn delay={0.2}>
             <div style={{ marginTop: 32, background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderLeft: '3px solid var(--teal)', padding: '28px 32px' }}>
-              {t('forInvestors.verdicts', { returnObjects: true }).map(([label, color, text]) => (
-                <div key={label} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, marginBottom: 12, paddingBottom: 12, borderBottom: label !== 'STOP' ? '1px solid rgba(255,255,255,0.04)' : 'none' }}>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: color === 'var(--teal)' ? 'var(--teal)' : color === '#FBBF24' ? '#FBBF24' : 'var(--orange)', letterSpacing: '0.08em', textTransform: 'uppercase', flexShrink: 0, width: 110, paddingTop: 2 }}>{label}</div>
-                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.6 }}>{text}</div>
+              {t('forInvestors.verdicts', { returnObjects: true }).map((v) => {
+                const verdictColor = v.label === 'ADVANCE' ? 'var(--teal)' : v.label === 'CONDITIONAL' ? '#FBBF24' : 'var(--orange)'
+                return (
+                <div key={v.label} style={{ display: 'flex', alignItems: 'flex-start', gap: 16, marginBottom: 12, paddingBottom: 12, borderBottom: v.label !== 'STOP' ? '1px solid rgba(255,255,255,0.04)' : 'none' }}>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: verdictColor, letterSpacing: '0.08em', textTransform: 'uppercase', flexShrink: 0, width: 110, paddingTop: 2 }}>{v.label}</div>
+                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.6 }}>{v.text}</div>
                 </div>
-              ))}
+                )
+              })}
             </div>
           </FadeIn>
         </div>

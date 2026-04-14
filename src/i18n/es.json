@@ -105,42 +105,48 @@
         "for": "International Brands · Market Entry",
         "name": "International Expansion Viability Report",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages.",
-        "delivery": "14-day delivery · White-label included"
+        "delivery": "14-day delivery · White-label included",
+        "link": "/expansion-report"
       },
       {
         "num": "02",
         "for": "Entrepreneurs · Founders · Serial Entrepreneurs",
         "name": "Idea Validation Analysis",
         "desc": "Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.",
-        "delivery": "48-hour delivery · Fully automated"
+        "delivery": "48-hour delivery · Fully automated",
+        "link": "/idea-validation"
       },
       {
         "num": "03",
         "for": "Entrepreneurs · Investors · Immigration Applicants",
         "name": "Business Plan Development",
         "desc": "Audience-specific business plans for investors, banks, immigration attorneys, and founders. 6 configurations. 10-section structure. Every claim sourced.",
-        "delivery": "10-14 day delivery · White-label included"
+        "delivery": "10-14 day delivery · White-label included",
+        "link": "/business-plan"
       },
       {
         "num": "04",
         "for": "Agencies · Consultancies · Marketing Depts",
         "name": "AI Virtual Focus Groups",
         "desc": "AI-generated persona panels that mirror your client's exact target audience. No recruiting. No scheduling.",
-        "delivery": "1–7 day delivery · White-label included"
+        "delivery": "1–7 day delivery · White-label included",
+        "link": "/contact"
       },
       {
         "num": "05",
         "for": "B2B Services · CPG Brands · US Market",
         "name": "US Growth Roadmap",
         "desc": "Market analysis, competitive intelligence, ranked growth levers with investment estimates, and a 90-day action plan. GPS Score (0 to 100).",
-        "delivery": "14-day delivery · White-label included"
+        "delivery": "14-day delivery · White-label included",
+        "link": "/growth-roadmap"
       },
       {
         "num": "06",
         "for": "Venture Capital Firms · Investors",
         "name": "Funding Vetting Analysis",
         "desc": "Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.",
-        "delivery": "7-day delivery · Volume discounts available"
+        "delivery": "7-day delivery · Volume discounts available",
+        "link": "/for-investors"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
@@ -466,7 +472,8 @@
           "Strategic Entry & Growth Plan — 12-month roadmap with unit economics and go/no-go gates",
           "Risks & Watchpoints — scored, ranked, and mitigated",
           "100+ Page Report + Visual Executive Summary (white-labeled)"
-        ]
+        ],
+        "link": "/expansion-report"
       },
       {
         "num": "02",
@@ -483,7 +490,8 @@
           "Competition Reality Check — who already solves this and where the whitespace is",
           "Customer & WTP Analysis — who would buy this and how much they'd pay",
           "IVS Score + Next Steps — Idea Viability Score (0 to 100) and 3 specific actions"
-        ]
+        ],
+        "link": "/idea-validation"
       },
       {
         "num": "03",
@@ -497,7 +505,8 @@
         "deliverables": [
           "Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data",
           "Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask"
-        ]
+        ],
+        "link": "/business-plan"
       },
       {
         "num": "04",
@@ -513,7 +522,8 @@
           "Executive summary with key findings and recommendations",
           "Persona-specific reactions — segment-level decision support",
           "Reusable persona panel — deploy again for future sessions"
-        ]
+        ],
+        "link": "/contact"
       },
       {
         "num": "05",
@@ -528,7 +538,8 @@
           "In-Depth Growth Report — 40-60+ pages, 8-section DMAIC-inspired structure, GPS Score, ranked growth levers, 90-day action plan",
           "Executive Presentation & Q&A — condensed visual presentation for leadership with live walkthrough",
           "1-Page Action Sheet — specific, assigned actions for the first week with one success metric for Day 30"
-        ]
+        ],
+        "link": "/growth-roadmap"
       },
       {
         "num": "06",
@@ -541,7 +552,8 @@
         "deliverables": [
           "Full Intelligence Report — 10-section evidence record from both interviews with contradiction log",
           "Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict with sourced evidence"
-        ]
+        ],
+        "link": "/for-investors"
       }
     ]
   },
