@@ -1,0 +1,361 @@
+{
+  "nav": {
+    "howItWorks": "Cómo Funciona",
+    "forAgencies": "Para Agencias",
+    "forInvestors": "Para Inversionistas",
+    "products": "Productos",
+    "resources": "Recursos",
+    "partnerWithUs": "Asociarse Con Nosotros",
+    "ourPartners": "Nuestros Socios",
+    "getStarted": "Comenzar →"
+  },
+  "footer": {
+    "platform": "Plataforma",
+    "startHere": "Comience Aquí",
+    "requestPlatformAccess": "Solicitar Acceso a la Plataforma →",
+    "briefProduct": "Solicitar Informe",
+    "tagline": "Plataforma de inteligencia de mercado impulsada por IA para agencias y consultoras.",
+    "foundedBy": "Fundada por Valter Klug",
+    "location": "Miami, FL",
+    "copyright": "© 2026 Soundcheck Insights. Todos los derechos reservados.",
+    "website": "soundcheckinsights.com"
+  },
+  "home": {
+    "hero": {
+      "label": "Plataforma de Inteligencia de Mercado · Para Agencias, Consultoras e Inversionistas",
+      "title": "La IA realiza la investigación.",
+      "titleHighlight": "Usted",
+      "titleEnd": "la amplía con su experiencia.",
+      "description": "Soundcheck es una plataforma de inteligencia de mercado que usted opera para sus clientes. Usted valida el resultado. Usted entrega bajo su marca. Usted establece el precio.",
+      "cta1": "Solicitar Acceso a la Plataforma →",
+      "cta2": "Ver Cómo Funciona",
+      "stat1": "6–10h",
+      "stat1Label": "Su tiempo por informe",
+      "stat2": "14 días",
+      "stat2Label": "De solicitud a entrega",
+      "stat3": "100%",
+      "stat3Label": "Su marca"
+    },
+    "problem": {
+      "label": "El Problema",
+      "title": "La investigación es la capacidad menos monetizada en su práctica.",
+      "description1": "Las agencias entregan estrategia, campañas y ejecución. Pero la capa de inteligencia —análisis de mercado, evaluación de viabilidad, mapeo competitivo— se externaliza a alto costo o se omite por completo.",
+      "description2": "El resultado: los clientes toman decisiones costosas sin evidencia. Las agencias dejan trabajo facturable sobre la mesa.",
+      "problem1": {
+        "icon": "⏱",
+        "title": "La investigación toma demasiado tiempo",
+        "text": "Un equipo junior necesita 3–4 semanas para producir lo que Soundcheck entrega en menos de 5 días."
+      },
+      "problem2": {
+        "icon": "💸",
+        "title": "La investigación tradicional cuesta demasiado",
+        "text": "Las firmas de investigación cobran US$50K–US$100K+. Sus clientes no pueden justificarlo. Usted no puede aplicar margen."
+      },
+      "problem3": {
+        "icon": "🤝",
+        "title": "Usted tiene al cliente, no la infraestructura",
+        "text": "Usted tiene la relación y la experiencia. Solo necesita el motor de investigación."
+      },
+      "problem4": {
+        "icon": "🏷",
+        "title": "La mayoría de herramientas de investigación no son white-label",
+        "text": "Soundcheck está orientado al operador —usted entrega bajo su marca. Siempre."
+      }
+    },
+    "howItWorks": {
+      "label": "Cómo Funciona",
+      "title": "Usted es el experto.",
+      "titleHighlight": "Nosotros somos el motor.",
+      "description": "Soundcheck no es una agencia de investigación. Es una plataforma que usted opera. La IA agrega, mapea y califica. Usted valida con su criterio profesional y entrega bajo su marca.",
+      "link": "Ver el Proceso Completo →",
+      "step1": "Usted realiza la toma de requerimientos del cliente",
+      "step1Tag": "Su tiempo · ~1h · Su relación",
+      "step2": "La plataforma genera el informe",
+      "step2Tag": "Automatizado · 30–50 páginas · Días 1–5",
+      "step3": "Usted valida con su experiencia",
+      "step3Tag": "Su tiempo · ~5–8h · Su capa estratégica",
+      "step4": "Usted entrega bajo su marca",
+      "step4Tag": "Su marca · Su crédito · Su próximo contrato"
+    },
+    "products": {
+      "product1": {
+        "num": "01",
+        "for": "Marcas Internacionales · Entrada al Mercado",
+        "name": "Informe de Viabilidad de Expansión Internacional",
+        "description": "Inteligencia de entrada al mercado de grado decisión para marcas internacionales. CVE Score propietario, panorama competitivo, evaluación regulatoria, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta de 12 meses. 100+ páginas.",
+        "delivery": "Entrega en 14 días · White-label incluido"
+      },
+      "product2": {
+        "num": "02",
+        "for": "Emprendedores · Fundadores · Emprendedores Seriales",
+        "name": "Análisis de Validación de Idea",
+        "description": "Complete un formulario de 10 minutos. Obtenga un informe completo de validación de mercado + IVS Score (0 a 100) en 48 horas. US$799. Sin llamadas, sin agendamiento.",
+        "delivery": "Entrega en 48 horas · Completamente automatizado"
+      },
+      "product3": {
+        "num": "03",
+        "for": "Emprendedores · Inversionistas · Solicitantes de Inmigración",
+        "name": "Desarrollo de Plan de Negocios",
+        "description": "Plan de negocios específico para la audiencia para inversionistas, bancos, abogados de inmigración y fundadores. 6 configuraciones. Estructura de 10 secciones. Cada afirmación está documentada.",
+        "delivery": "Entrega en 10–14 días · White-label incluido"
+      },
+      "product4": {
+        "num": "04",
+        "for": "Agencias · Consultoras · Departamentos de Marketing",
+        "name": "Grupos Focales Virtuales de IA",
+        "description": "Paneles de personas generadas por IA que reflejan la audiencia objetivo exacta de su cliente. Sin reclutamiento. Sin agendamiento.",
+        "delivery": "Entrega en 1–7 días · White-label incluido"
+      },
+      "product5": {
+        "num": "05",
+        "for": "Servicios B2B · Marcas CPG · Mercado US",
+        "name": "Hoja de Ruta de Crecimiento en EE.UU.",
+        "description": "Análisis de mercado, inteligencia competitiva, identificación de whitespace, factores de crecimiento priorizados con estimaciones de inversión, y plan de acción de 90 días. GPS Score (0 a 100).",
+        "delivery": "Entrega en 14 días · White-label incluido"
+      },
+      "product6": {
+        "num": "06",
+        "for": "Firmas de Capital de Riesgo · Inversionistas",
+        "name": "Análisis de Evaluación de Financiamiento",
+        "description": "Dos entrevistas estructuradas, validación independiente de clientes, y una Signal Brief con un veredicto AVANZAR / CONDICIONAL / DETENER. US$3,000 por empresa.",
+        "delivery": "Entrega en 7 días · Descuentos por volumen disponibles"
+      }
+    }
+  },
+  "howItWorks": {
+    "pageTitle": "Cómo Funciona Soundcheck",
+    "pageDescription": "Un proceso de cuatro pasos para convertir la investigación de mercado en un producto de marca.",
+    "hero": {
+      "title": "Usted es el experto.",
+      "titleHighlight": "Nosotros proporcionamos la infraestructura.",
+      "description": "Soundcheck no es una agencia de investigación. Es una plataforma operada por usted. La IA agrega, mapea, y califica. Usted valida con su criterio profesional y entrega bajo su marca."
+    },
+    "process": {
+      "step1": {
+        "num": "01",
+        "title": "Cliente Solicita Investigación",
+        "description": "Su cliente le proporciona un resumen de datos de 10–15 minutos: su producto, mercado objetivo, geografía, presupuesto y plazos.",
+        "duration": "10–15 minutos",
+        "owner": "Usted"
+      },
+      "step2": {
+        "num": "02",
+        "title": "Soundcheck Ejecuta el Análisis",
+        "description": "Nuestro motor de IA agrega datos de fuentes públicas, mapea el panorama competitivo, califica viabilidad/demanda y genera 30–50 páginas de análisis bruto.",
+        "duration": "1–5 días",
+        "owner": "Automatizado"
+      },
+      "step3": {
+        "num": "03",
+        "title": "Usted Valida y Edita",
+        "description": "Revisa el análisis de Soundcheck. Agrega su criterio. Edita por claridad, relevancia y voz de marca. Crea las secciones ejecutivas.",
+        "duration": "5–8 horas",
+        "owner": "Usted"
+      },
+      "step4": {
+        "num": "04",
+        "title": "Usted Entrega Bajo Su Marca",
+        "description": "El cliente recibe un informe de marca completa (30–100 páginas) bajo su nombre, con su voz, su análisis y su reputación.",
+        "duration": "Mismo día o próxima semana",
+        "owner": "Usted"
+      }
+    }
+  },
+  "forAgencies": {
+    "pageTitle": "Para Agencias",
+    "pageDescription": "Monetice la investigación de mercado. Expanda su oferta. Mantenga el control.",
+    "hero": {
+      "title": "Agregue una línea de servicio de investigación sin construir infraestructura.",
+      "description": "Soundcheck es una plataforma de investigación operada por usted. Construida para agencias y consultoras. Entregada bajo su marca. Apoyada por nuestro equipo."
+    },
+    "whyAgencies": {
+      "title": "Por Qué Soundcheck Para Agencias",
+      "reason1": {
+        "title": "Monetice Sus Relaciones Existentes",
+        "description": "Usted tiene clientes. Ellos necesitan investigación. Usted proporciona la validación estratégica. Usted establece el precio. Usted entrega bajo su marca."
+      },
+      "reason2": {
+        "title": "No Compete Con Firmas de Investigación",
+        "description": "No está construyendo un equipo de investigadores. Usted es el operador y validador. La IA maneja la escala. Usted agrega valor estratégico."
+      },
+      "reason3": {
+        "title": "Entrega Dentro de 48 Horas a 14 Días",
+        "description": "Los informes de investigación tradicionales toman 8–12 semanas. Soundcheck entrega en días. Más velocidad. Más margen. Más satisfacción del cliente."
+      },
+      "reason4": {
+        "title": "100% White-Label",
+        "description": "Tu marca. Tu voz. Tu crédito. Soundcheck es invisible para tu cliente. El cliente ve solo tu nombre en la cubierta."
+      }
+    }
+  },
+  "forInvestors": {
+    "pageTitle": "Para Inversionistas",
+    "pageDescription": "Due diligence estructurada. Veredictos de inversión respaldados por datos. Escalados.",
+    "hero": {
+      "title": "Acorte el tiempo de diligencia debida. Invierta con confianza.",
+      "description": "Signal Brief es una evaluación de fundadores, mercado y viabilidad de idea. Estructurada. Respaldada por datos. Entregada en 7 días. Veredicto AVANZAR / CONDICIONAL / DETENER."
+    },
+    "forVCs": {
+      "title": "Para Firmas de Capital de Riesgo",
+      "description": "Soundcheck realiza la investigación de validación de cliente independiente. Usted realiza las preguntas estratégicas. Nuestro equipo sintetiza los hallazgos en un breve. Juntos, ahorran tiempo y reducen ciego spot."
+    }
+  },
+  "products": {
+    "pageTitle": "Productos Soundcheck",
+    "pageDescription": "Seis informes de investigación. Todas las industrias. Todos los casos de uso.",
+    "expansionReport": {
+      "title": "Informe de Viabilidad de Expansión Internacional (CVE Score)",
+      "subtitle": "Para Marcas Internacionales Que Entran en Nuevos Mercados",
+      "cveScore": "CVE Score",
+      "cveScoreDescription": "Coeficiente de Viabilidad de Expansión — Una puntuación ponderada de 3 dimensiones (0 a 100) que evalúa encaje de mercado, acceso a canales y relevancia de marca.",
+      "deliverables": "Entregables",
+      "deliverable1": "CVE Score (Coeficiente de Viabilidad de Expansión) — Puntuación ponderada de 3 dimensiones (0 a 100)",
+      "deliverable2": "Resumen Ejecutivo — 5 perspectivas críticas + 3 caminos estratégicos con modo de entrada recomendado",
+      "deliverable3": "Evaluación Comercial y de Marca — encaje producto-mercado, arquitectura de precios, posicionamiento",
+      "deliverable4": "Inteligencia de Mercado y Categoría — TAM/SAM/SOM, Cinco Fuerzas de Porter, benchmarking competitivo, panorama de compradores",
+      "deliverable5": "Plan Estratégico de Entrada y Crecimiento — hoja de ruta de 12 meses con economía unitaria y compuertas de decisión",
+      "deliverable6": "Riesgos y Puntos de Atención — calificados, priorizados y mitigados",
+      "deliverable7": "Informe de 100+ Páginas + Resumen Ejecutivo Visual (white-label)",
+      "price": "Precio Sugerido: US$5k+",
+      "delivery": "Entrega en 14 días · White-label incluido · 1 revisión"
+    },
+    "ideaValidation": {
+      "title": "Análisis de Validación de Idea (IVS Score)",
+      "subtitle": "Para Emprendedores Que Validan Oportunidades de Mercado",
+      "ivsScore": "IVS Score",
+      "ivsScoreDescription": "Idea Viability Score (0 a 100) — Una evaluación que responde: ¿Existe un mercado para mi idea? ¿Tengo tracción de demanda? ¿Cuánto pagarían los clientes?",
+      "deliverables": "Entregables",
+      "deliverable1": "Validación de Problema — ¿Es este un Problema Tier 1 con demanda de mercado real?",
+      "deliverable2": "Dimensionamiento de Mercado — TAM, SAM, SOM para su geografía objetivo",
+      "deliverable3": "Evaluación de Realidad Competitiva — quién ya resuelve esto y dónde está el whitespace",
+      "deliverable4": "Análisis de Cliente y WTP — quién compraría esto y cuánto pagaría",
+      "deliverable5": "IVS Score + Pasos Siguientes — Idea Viability Score (0 a 100) y 3 acciones específicas",
+      "price": "US$799 por análisis",
+      "delivery": "Entrega en 48 horas después del envío del formulario · Completamente automatizado"
+    },
+    "businessPlan": {
+      "title": "Desarrollo de Plan de Negocios",
+      "subtitle": "Para Fundadores, Inversionistas y Solicitantes de Inmigración",
+      "description": "No es una plantilla. Un plan de negocios profesional específico para la audiencia construido a partir de datos de ingesta estructurados, una entrevista con partes interesadas e investigación independiente. 6 configuraciones: Inversionista, Banco/SBA, Inmigración (E-2/EB-5/L-1A), Franquicia, CPG e Interno del Fundador. Cada afirmación está documentada. Cada proyección está documentada.",
+      "configurations": "6 Configuraciones",
+      "config1": "Inversionista",
+      "config2": "Banco/SBA",
+      "config3": "Inmigración (E-2/EB-5/L-1A)",
+      "config4": "Franquicia",
+      "config5": "CPG",
+      "config6": "Interno del Fundador",
+      "deliverables": "Entregables",
+      "deliverable1": "Plan de Negocios Completo — Estructura MECE de 10 secciones, formato específico para la audiencia, proyecciones con etiquetas de confianza, datos de mercado y competencia documentados",
+      "deliverable2": "Resumen Ejecutivo en Una Página — descripción del negocio, oportunidad de mercado, aspectos destacados financieros, solicitud específica",
+      "price": "US$5,000+ por plan",
+      "delivery": "Entrega en 10–14 días · White-label incluido · 1 revisión"
+    },
+    "virtualFocusGroups": {
+      "title": "Grupos Focales Virtuales de IA",
+      "subtitle": "Para Agencias, Consultoras y Departamentos de Marketing",
+      "description": "Pruebe conceptos creativos, ideas de productos, precios y posicionamiento con personas generadas por IA que reflejen su audiencia objetivo exacta. Sin reclutamiento. Sin agendamiento. Entregado en días.",
+      "deliverables": "Entregables",
+      "deliverable1": "3–10 personas de IA personalizadas basadas en demografía objetivo exacta",
+      "deliverable2": "Transcripción de discusión moderada — sin sesgo de voz más fuerte",
+      "deliverable3": "Resumen ejecutivo con hallazgos clave y recomendaciones",
+      "deliverable4": "Reacciones específicas de persona — apoyo de decisión a nivel de segmento",
+      "deliverable5": "Panel de persona reutilizable — desplegar nuevamente para sesiones futuras",
+      "price": "Definición de Persona: US$3k · Sesión de Grupo Focal: US$2k+",
+      "delivery": "Entrega en 1–7 días · White-label incluido"
+    },
+    "growthRoadmap": {
+      "title": "Hoja de Ruta de Crecimiento en EE.UU. (GPS Score)",
+      "subtitle": "Para Empresas de Servicios B2B y Marcas CPG Estancadas",
+      "gpsScore": "GPS Score",
+      "gpsScoreDescription": "Growth Positioning Score (0 a 100) — Una evaluación de tres dimensiones: Oportunidad de Mercado, Posición Competitiva, Preparación Interna.",
+      "deliverables": "Entregables",
+      "deliverable1": "Análisis de Mercado — TAM/SAM/SOM, dinámicas de crecimiento, factores de expansión",
+      "deliverable2": "Inteligencia Competitiva — análisis de jugadores clave, fortalezas/debilidades relativas, posición de marca",
+      "deliverable3": "Identificación de Whitespace — oportunidades de mercado no servidas",
+      "deliverable4": "Factores de Crecimiento Priorizados — 5–7 palancas con estimaciones de inversión y potencial de rendimiento",
+      "deliverable5": "Plan de Acción de 90 Días — hitos semanales, asignación de recursos, KPIs de éxito",
+      "deliverable6": "GPS Score (Growth Positioning Score) — 0 a 100 en Oportunidad de Mercado, Posición Competitiva y Preparación Interna",
+      "price": "US$5,000+ por informe",
+      "delivery": "Entrega en 14 días · White-label incluido · 1 revisión"
+    },
+    "signalBrief": {
+      "title": "Signal Brief: Evaluación de Viabilidad de Financiamiento",
+      "subtitle": "Para Firmas de Capital de Riesgo e Inversionistas Ángel",
+      "description": "Dos entrevistas estructuradas con fundadores. Validación independiente de clientes. Evaluación de mercado. Veredicto de Avanzar / Condicional / Detener sintetizado en un breve de 1 página. Operado por Soundcheck. Decisión por usted.",
+      "deliverables": "Entregables",
+      "deliverable1": "Dos Entrevistas Estructuradas — validación de problema, tamaño de mercado, modelo de negocio, prueba de concepto",
+      "deliverable2": "Validación de Cliente Independiente — referencias de cliente potencial, investigación de demanda, análisis competitivo",
+      "deliverable3": "Evaluación del Fundador — antecedentes, experiencia de mercado relevante, composición del equipo",
+      "deliverable4": "Signal Brief de 1 Página — AVANZAR / CONDICIONAL / DETENER + tres hallazgos críticos",
+      "price": "US$3,000 por compañía",
+      "delivery": "Entrega en 7 días",
+      "volumeDiscount": "Descuentos por volumen disponibles para carteras de 5+ compañías"
+    }
+  },
+  "contact": {
+    "pageTitle": "Contactar a Soundcheck",
+    "pageDescription": "¿Preguntas? Estamos aquí para ayudar.",
+    "formTitle": "Envíenos un mensaje",
+    "formEmail": "Su correo electrónico",
+    "formName": "Su nombre",
+    "formCompany": "Su compañía",
+    "formMessage": "Su mensaje",
+    "formSubmit": "Enviar mensaje",
+    "formSuccess": "Gracias por su mensaje. Nos comunicaremos pronto."
+  },
+  "partner": {
+    "pageTitle": "Asociarse Con Soundcheck",
+    "pageDescription": "Agregue una línea de servicio de investigación a su práctica.",
+    "hero": {
+      "title": "Convierta la Investigación de Mercado en una Línea de Servicio de Marca",
+      "description": "Soundcheck es una plataforma de investigación operada por agencias y consultoras. Usted establece el proceso. Usted agrega valor estratégico. Usted entrega bajo su marca. Soundcheck proporciona la infraestructura."
+    }
+  },
+  "ourPartners": {
+    "pageTitle": "Nuestros Socios",
+    "pageDescription": "Agencias, consultoras e inversionistas que utilizan Soundcheck."
+  },
+  "resources": {
+    "pageTitle": "Recursos",
+    "pageDescription": "Aprenda cómo usar Soundcheck para monetizar la investigación de mercado."
+  },
+  "businessPlan": {
+    "pageTitle": "Planes de Negocio Impulsados por Soundcheck",
+    "pageDescription": "Planes de negocios profesionales construidos con investigación independiente y estructura MECE."
+  },
+  "growthRoadmap": {
+    "pageTitle": "Hojas de Ruta de Crecimiento en EE.UU.",
+    "pageDescription": "Para empresas de servicios B2B y marcas CPG que necesitan aclarar su estrategia de crecimiento en el mercado estadounidense."
+  },
+  "expansionReport": {
+    "pageTitle": "Informes de Viabilidad de Expansión Internacional",
+    "pageDescription": "Due diligence de entrada al mercado para marcas internacionales. CVE Score, análisis competitivo, hoja de ruta de 12 meses."
+  },
+  "ideaValidation": {
+    "pageTitle": "Validación de Idea",
+    "pageDescription": "¿Su idea tiene un mercado? Averígüelo en 48 horas con el Análisis de Validación de Idea de Soundcheck."
+  },
+  "common": {
+    "soundcheck": "Soundcheck",
+    "soundcheckInsights": "Soundcheck Insights",
+    "cveScore": "CVE Score",
+    "ivsScore": "IVS Score",
+    "gpsScore": "GPS Score",
+    "signalBrief": "Signal Brief",
+    "whiteLabelIncluded": "White-label incluido",
+    "deliveryTime": "Tiempo de entrega",
+    "price": "Precio",
+    "learnMore": "Aprenda Más",
+    "requestAccess": "Solicitar Acceso",
+    "getStarted": "Comenzar",
+    "contactUs": "Contáctenos",
+    "days": "días",
+    "hours": "horas",
+    "usd": "US$",
+    "forAgencies": "Para Agencias",
+    "forInvestors": "Para Inversionistas",
+    "marketIntelligence": "Inteligencia de Mercado",
+    "platformAccess": "Acceso a la Plataforma",
+    "aiPowered": "Impulsado por IA"
+  }
+}

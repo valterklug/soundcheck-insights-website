@@ -1,36 +1,30 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
-
-const phases = [
-  { num:'Phase 01', label:'You run the client intake', timing:'Day 0 · Your time: ~1h', color:'var(--teal)',
-    title:'The most important hour in the process.',
-    body:"You lead a scoped conversation with your client: what market are they entering, what's the core business question, what decisions hang on the answer. You capture the brief and submit it through the platform — bringing the context no AI can infer.",
-    tag:'Your relationship · Your framing'},
-  { num:'Phase 02', label:'Platform generates the report', timing:'Days 1-5 · Automated', color:'var(--gray)',
-    title:'What would take 3-4 weeks runs in under 5 days.',
-    body:"The Soundcheck AI engine aggregates market data, builds competitive maps, calculates viability scores, and produces a structured 30-50 page analysis. You don't need to do anything during this phase.",
-    tag:'Automated · No input needed from you'},
-  { num:'Phase 03', label:'You validate with your expertise', timing:'Days 6-12 · Your time: ~5-8h', color:'var(--orange)',
-    title:'This is where your value as a practitioner comes in.',
-    body:"You review the AI-generated output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The output becomes yours, not ours.",
-    tag:'Your expertise · Your strategic layer'},
-  { num:'Phase 04', label:'You deliver under your brand', timing:'Day 14 · Your time: ~1h', color:'var(--teal-2)',
-    title:'You present. You take the credit. You open the next conversation.',
-    body:"You present the finalized report to your client white-labeled under your agency. Soundcheck's name never appears. You receive the credit, deepen the relationship, and open the next conversation.",
-    tag:'Your brand · Your credit · Your next engagement'},
-]
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 export default function HowItWorks() {
+  const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+
+  const phases = t('howItWorks.phases', { returnObjects: true })
+  const chips = t('howItWorks.chips', { returnObjects: true })
+  const platformItems = t('howItWorks.platformItems', { returnObjects: true })
+  const youItems = t('howItWorks.youItems', { returnObjects: true })
+  const deliverables = t('howItWorks.deliverables', { returnObjects: true })
+
   return (
     <PageWrapper>
       <section className="page-hero">
         <div className="page-hero-inner">
-          <span className="sc-label">How the Platform Works</span>
-          <h1 className="page-h1">The AI does the research.<br /><span className="text-teal">You</span> deliver the intelligence.</h1>
-          <p className="page-sub">How agencies use Soundcheck to produce decision-grade market reports — in 6-10 hours of their time, delivered under their brand.</p>
+          <span className="sc-label">{t('howItWorks.heroLabel')}</span>
+          <h1 className="page-h1">{t('howItWorks.heroTitle1')}<br /><span className="text-teal">{t('howItWorks.heroTitle2')}</span> {t('howItWorks.heroTitle3')}</h1>
+          <p className="page-sub">{t('howItWorks.heroSub')}</p>
           <div style={{display:"flex",gap:10,flexWrap:"wrap",marginTop:28}}>
-            {[["6-10h","your time per report"],["14 days","brief to delivery"],["100%","white-labeled to you"],["0","new hires needed"]].map(([v,l])=>(
-              <div key={l} className="chip"><strong>{v}</strong> {l}</div>
+            {chips.map(({value, label})=>(
+              <div key={label} className="chip"><strong>{value}</strong> {label}</div>
             ))}
           </div>
         </div>
@@ -39,8 +33,8 @@ export default function HowItWorks() {
       <section style={{background:"var(--navy)",padding:"80px 60px",borderBottom:"1px solid var(--border)"}} className="section-pad">
         <div style={{maxWidth:1200,margin:"0 auto"}}>
           <FadeIn>
-            <span className="sc-label">The Four Phases</span>
-            <h2 style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:"clamp(1.6rem,3vw,2.4rem)",fontWeight:300,letterSpacing:"-.015em",marginBottom:48,lineHeight:1.1,maxWidth:640}}>From brief to client-ready report in 14 days.</h2>
+            <span className="sc-label">{t('howItWorks.phasesLabel')}</span>
+            <h2 style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:"clamp(1.6rem,3vw,2.4rem)",fontWeight:300,letterSpacing:"-.015em",marginBottom:48,lineHeight:1.1,maxWidth:640}}>{t('howItWorks.phasesTitle')}</h2>
           </FadeIn>
           <div style={{display:"flex",flexDirection:"column",gap:2}}>
             {phases.map((p,i)=>(
@@ -68,13 +62,13 @@ export default function HowItWorks() {
 
       <section style={{background:"var(--navy-2)",padding:"80px 60px",borderBottom:"1px solid var(--border)"}} className="section-pad">
         <div style={{maxWidth:1200,margin:"0 auto"}}>
-          <FadeIn><span className="sc-label">Division of Work</span>
-          <h2 style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:"clamp(1.5rem,3vw,2.2rem)",fontWeight:300,letterSpacing:"-.015em",marginBottom:48,lineHeight:1.1}}>What the platform does. What you do.</h2></FadeIn>
+          <FadeIn><span className="sc-label">{t('howItWorks.divisionLabel')}</span>
+          <h2 style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:"clamp(1.5rem,3vw,2.2rem)",fontWeight:300,letterSpacing:"-.015em",marginBottom:48,lineHeight:1.1}}>{t('howItWorks.divisionTitle')}</h2></FadeIn>
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:2,marginBottom:2}} className="grid-2-eq">
             <FadeIn>
               <div style={{background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.06)",padding:"36px"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:11,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"var(--teal)",display:"block",marginBottom:22}}>Platform handles</span>
-                {["Market data aggregation at scale","Competitive landscape mapping","Industry benchmark compilation","Viability scoring across 10 dimensions","Structured report assembly (30-50 pages)"].map(t=>(
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:11,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"var(--teal)",display:"block",marginBottom:22}}>{t('howItWorks.platformHandles')}</span>
+                {platformItems.map(t=>(
                   <div key={t} style={{display:"flex",gap:12,alignItems:"flex-start",padding:"11px 0",borderBottom:"1px solid rgba(255,255,255,0.05)"}}>
                     <div style={{width:5,height:5,background:"var(--teal)",borderRadius:"50%",flexShrink:0,marginTop:7}}/>
                     <div style={{fontFamily:"Inter,sans-serif",fontSize:13,color:"rgba(255,255,255,0.5)",lineHeight:1.5}}>{t}</div>
@@ -84,8 +78,8 @@ export default function HowItWorks() {
             </FadeIn>
             <FadeIn delay={0.1}>
               <div style={{background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.06)",padding:"36px"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:11,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"var(--orange)",display:"block",marginBottom:22}}>You bring</span>
-                {["Client context and relationship knowledge","Professional judgment and market read","Strategic narrative and recommendation framing","Confidence scoring and gap flagging","Your brand and your client relationship"].map(t=>(
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:11,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"var(--orange)",display:"block",marginBottom:22}}>{t('howItWorks.youBring')}</span>
+                {youItems.map(t=>(
                   <div key={t} style={{display:"flex",gap:12,alignItems:"flex-start",padding:"11px 0",borderBottom:"1px solid rgba(255,255,255,0.05)"}}>
                     <div style={{width:5,height:5,background:"var(--orange)",borderRadius:"50%",flexShrink:0,marginTop:7}}/>
                     <div style={{fontFamily:"Inter,sans-serif",fontSize:13,color:"rgba(255,255,255,0.5)",lineHeight:1.5}}>{t}</div>
@@ -95,12 +89,12 @@ export default function HowItWorks() {
             </FadeIn>
           </div>
           <StaggerContainer style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:2}} className="delivs-grid">
-            {[["📄","Executive Summary","2-4 page decision brief"],["📊","Full Report","30-50 pages of analysis"],["📐","Presentation Deck","Client-ready slides"],["🏷","White-Labeled","Your brand throughout"]].map(([icon,t,s])=>(
-              <StaggerItem key={t}>
+            {deliverables.map(({icon, title, sub})=>(
+              <StaggerItem key={title}>
                 <div style={{background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.06)",padding:22,textAlign:"center"}}>
                   <div style={{fontSize:18,marginBottom:10}}>{icon}</div>
-                  <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:500,color:"#fff",marginBottom:4}}>{t}</div>
-                  <div style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.3)"}}>{s}</div>
+                  <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:500,color:"#fff",marginBottom:4}}>{title}</div>
+                  <div style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.3)"}}>{sub}</div>
                 </div>
               </StaggerItem>
             ))}
@@ -111,12 +105,12 @@ export default function HowItWorks() {
 
       <section className="cta-strip">
         <FadeIn>
-          <h2 className="cta-strip-h2">Ready to run your first report?</h2>
-          <p className="cta-strip-sub">Most operators start on an existing client. Low risk, immediate value.</p>
+          <h2 className="cta-strip-h2">{t('howItWorks.ctaTitle')}</h2>
+          <p className="cta-strip-sub">{t('howItWorks.ctaSub')}</p>
         </FadeIn>
         <div className="cta-actions">
-          <Link to="/partner" className="btn btn-white">Request Platform Access</Link>
-          <Link to="/products" className="btn btn-outline-white">Explore the 5 Products</Link>
+          <Link to={getLocalizedPath('/partner', lang)} className="btn btn-white">{t('howItWorks.ctaButton1')}</Link>
+          <Link to={getLocalizedPath('/products', lang)} className="btn btn-outline-white">{t('howItWorks.ctaButton2')}</Link>
         </div>
       </section>
     </PageWrapper>

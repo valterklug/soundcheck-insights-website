@@ -1,23 +1,25 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
 import ContactForm from '../components/ContactForm'
-
-const nextSteps = [
-  { num: '01', title: 'We review your inquiry', body: 'Within one business day. Every inquiry read personally by Valter.' },
-  { num: '02', title: 'Discovery call (30 min)', body: 'We walk through the platform, your client types, and which product makes most sense to start with.' },
-  { num: '03', title: 'First report — live practice', body: 'Most operators run their first report on an existing client. You see the full workflow in practice.' },
-  { num: '04', title: 'Platform access confirmed', body: 'Simple, clear terms. Pay-per-report to start, or monthly access. No long-term lock-in.' },
-]
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 export default function Partner() {
+  const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+
+  const nextSteps = t('partner.steps')
+
   return (
     <PageWrapper>
       <section className="page-hero" style={{ borderBottom: '3px solid var(--orange)' }}>
         <div className="page-hero-inner">
-          <span className="sc-label">Partner with Us</span>
-          <h1 className="page-h1">Add Soundcheck to your practice.<br />Start with one report.</h1>
-          <p className="page-sub">Tell us about your company. We'll walk you through platform access, pricing, and how to run your first report — typically on an existing client within your first week.</p>
+          <span className="sc-label">{t('partner.heroLabel')}</span>
+          <h1 className="page-h1">{t('partner.heroTitle')}</h1>
+          <p className="page-sub">{t('partner.heroSub')}</p>
         </div>
       </section>
 
@@ -26,12 +28,12 @@ export default function Partner() {
           {/* Form */}
           <FadeIn>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 400, color: 'var(--navy)', letterSpacing: '-0.01em', marginBottom: 8 }}>
-              Tell us about your company
+              {t('partner.formTitle')}
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: '#666', lineHeight: 1.65, marginBottom: 32 }}>
-              Every access request is reviewed personally by Valter. If there's a fit, you'll hear back within two business days.
+              {t('partner.formSub')}
             </p>
-            <ContactForm fields="partner" buttonLabel="Submit Partnership Inquiry →" />
+            <ContactForm fields="partner" buttonLabel={t('partner.submitButton')} />
           </FadeIn>
 
           {/* Sidebar */}
@@ -39,7 +41,7 @@ export default function Partner() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 2, background: 'var(--navy)', borderRadius: 4, overflow: 'hidden' }}>
               {/* What happens next */}
               <div style={{ background: 'rgba(255,255,255,0.06)', padding: '14px 20px' }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)' }}>What Happens Next</span>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)' }}>{t('partner.whatHappens')}</span>
               </div>
               <StaggerContainer>
                 {nextSteps.map(s => (
@@ -65,14 +67,14 @@ export default function Partner() {
                   </div>
                 </div>
                 <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', fontStyle: 'italic', lineHeight: 1.65 }}>
-                  "I built this platform by running every report myself first. I review every platform access inquiry personally — and walk new operators through their first report."
+                  {t('partner.valterQuote')}
                 </p>
               </div>
 
               {/* Direct */}
               <div style={{ background: 'rgba(255,255,255,0.06)', padding: '18px 20px', marginTop: 2 }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.35)', marginBottom: 8 }}>Prefer to talk first?</div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', marginBottom: 12 }}>Reach out directly or connect on LinkedIn.</p>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.35)', marginBottom: 8 }}>{t('partner.preferTalk')}</div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', marginBottom: 12 }}>{t('partner.reachOut')}</p>
                 <a href="mailto:info@soundcheckinsights.com" style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)', paddingBottom: 1, display: 'block', marginBottom: 8 }}>
                   info@soundcheckinsights.com →
                 </a>

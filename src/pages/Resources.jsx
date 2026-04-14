@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
 import LeadGate from '../components/LeadGate'
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 const resources = [
   {
@@ -61,6 +64,10 @@ const typeColors = {
 }
 
 export default function Resources() {
+  const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+
   const [email, setEmail] = useState('')
   const [subStatus, setSubStatus] = useState('idle')
   const [expandedCard, setExpandedCard] = useState(null)
@@ -92,9 +99,9 @@ export default function Resources() {
     <PageWrapper>
       <section className="page-hero">
         <div className="page-hero-inner">
-          <span className="sc-label">Resources · For Agencies & Consultancies</span>
-          <h1 className="page-h1">Intelligence you can use<br />before you brief us.</h1>
-          <p className="page-sub">Whitepapers, guides, and briefings on market research methodology, US market entry, and competitive intelligence — written for agency strategists and consultants.</p>
+          <span className="sc-label">{t('resources.heroLabel')}</span>
+          <h1 className="page-h1">{t('resources.heroTitle')}</h1>
+          <p className="page-sub">{t('resources.heroSub')}</p>
         </div>
       </section>
 
@@ -102,24 +109,26 @@ export default function Resources() {
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(232,71,42,0.12)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 380px', gap: 60, alignItems: 'start' }} className="feat-grid">
           <FadeIn>
-            <span className="sc-label sc-label-orange">Featured Whitepaper</span>
+            <span className="sc-label sc-label-orange">{t('resources.featuredLabel')}</span>
             <div style={{ display: 'inline-flex', alignItems: 'center', gap: 8, background: 'rgba(232,71,42,0.1)', border: '1px solid rgba(232,71,42,0.2)', padding: '5px 12px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--orange)', marginBottom: 16, borderRadius: 3 }}>
-              Whitepaper · 18 pages
+              {t('resources.featuredBadge')}
             </div>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.4rem,2.8vw,2rem)', fontWeight: 300, color: '#fff', letterSpacing: '-0.015em', lineHeight: 1.15, marginBottom: 12 }}>
-              Why Research is the First Investment in Any US Market Entry
+              {t('resources.featuredTitle')}
             </h2>
             <div style={{ display: 'flex', gap: 16, fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 18 }}>
-              <span>Q1 2026</span><span>12 min read</span>
+              {t('resources.featuredMeta').map((meta, i) => (
+                <span key={i}>{meta}</span>
+              ))}
             </div>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 24 }}>
-              The five most common ways brands waste capital entering the US market — and how agencies can position research as a non-optional first step in every expansion engagement. Includes the Expansion Viability framework and a client conversation guide.
+              {t('resources.featuredDesc')}
             </p>
-            <LeadGate pdfUrl="/resources/featured-whitepaper-us-market-entry.pdf" title="Why Research is the First Investment in Any US Market Entry" />
+            <LeadGate pdfUrl="/resources/featured-whitepaper-us-market-entry.pdf" title={t('resources.featuredTitle')} />
           </FadeIn>
           <FadeIn delay={0.15}>
             <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.07)', padding: '28px' }}>
-              <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', display: 'block', marginBottom: 14 }}>Table of Contents</span>
+              <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', display: 'block', marginBottom: 14 }}>{t('resources.toc')}</span>
               {[
                 ['01', 'The five capital-destroying assumptions about US market entry'],
                 ['02', 'Why timing is as important as positioning — and how to measure it'],
@@ -143,7 +152,7 @@ export default function Resources() {
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
-            <span className="sc-label">All Resources</span>
+            <span className="sc-label">{t('resources.allResources')}</span>
           </FadeIn>
           <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2, marginTop: 28 }} className="res-grid">
             {resources.map((r, i) => (
@@ -156,7 +165,7 @@ export default function Resources() {
 
                   {/* Article link */}
                   {r.articleUrl && (
-                    <Link to={r.articleUrl} className="text-link">Read article →</Link>
+                    <Link to={getLocalizedPath(r.articleUrl, lang)} className="text-link">{t('resources.readArticle')}</Link>
                   )}
 
                   {/* Gated download */}
@@ -167,7 +176,7 @@ export default function Resources() {
                         className="text-link"
                         style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left', padding: 0 }}
                       >
-                        {expandedCard === i ? 'Close' : 'Download'} →
+                        {expandedCard === i ? t('resources.close') : t('resources.download')} →
                       </button>
                       {expandedCard === i && (
                         <div style={{ marginTop: 12 }}>
@@ -187,28 +196,28 @@ export default function Resources() {
       {/* Newsletter */}
       <section style={{ background: 'var(--orange)', padding: '80px 60px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center' }} className="nl-section">
         <FadeIn>
-          <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)', display: 'block', marginBottom: 14 }}>Monthly Intelligence Briefing</span>
+          <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)', display: 'block', marginBottom: 14 }}>{t('resources.newsletterLabel')}</span>
           <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, color: '#fff', letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 14 }}>
-            Get our monthly market intelligence briefing.
+            {t('resources.newsletterTitle')}
           </h2>
           <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.65 }}>
-            Category shifts, research methodology updates, and competitive intelligence signals — one email per month, written for agency strategists.
+            {t('resources.newsletterDesc')}
           </p>
         </FadeIn>
         <FadeIn delay={0.15}>
           {subStatus === 'success' ? (
             <div style={{ background: 'rgba(255,255,255,0.15)', padding: '20px 24px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, color: '#fff', lineHeight: 1.6 }}>
-              ✓ You're on the list. First briefing arrives next month.
+              {t('resources.subscribeSuccess')}
             </div>
           ) : (
             <form onSubmit={handleSubscribe}>
-              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.6)', marginBottom: 14 }}>Subscribe · Monthly · Free</div>
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.6)', marginBottom: 14 }}>{t('resources.subscribeMeta')}</div>
               <div style={{ display: 'flex', gap: 0 }}>
                 <input
                   type="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
-                  placeholder="your@agency.com"
+                  placeholder={t('resources.subscribePlaceholder')}
                   required
                   style={{ flex: 1, background: '#fff', border: 'none', color: '#111', fontFamily: 'Inter, sans-serif', fontSize: 14, padding: '14px 16px' }}
                 />
@@ -216,10 +225,10 @@ export default function Resources() {
                   onMouseEnter={e => e.target.style.opacity = '0.85'}
                   onMouseLeave={e => e.target.style.opacity = '1'}
                 >
-                  {subStatus === 'submitting' ? 'Subscribing…' : 'Subscribe →'}
+                  {subStatus === 'submitting' ? t('resources.subscribing') : t('resources.subscribeButton')}
                 </button>
               </div>
-              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(255,255,255,0.5)', marginTop: 10 }}>Monthly. No spam. Unsubscribe anytime.</p>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(255,255,255,0.5)', marginTop: 10 }}>{t('resources.subscribeFooter')}</p>
             </form>
           )}
         </FadeIn>

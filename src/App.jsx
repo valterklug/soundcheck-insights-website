@@ -1,6 +1,9 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
+import './i18n'
+import { getLangFromPath, getPathWithoutLang } from './i18n'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import SEO from './components/SEO'
@@ -26,36 +29,68 @@ function ScrollToTop() {
   return null
 }
 
+function LanguageSync() {
+  const { pathname } = useLocation()
+  const { i18n } = useTranslation()
+  useEffect(() => {
+    const lang = getLangFromPath(pathname)
+    if (i18n.language !== lang) {
+      i18n.changeLanguage(lang)
+    }
+  }, [pathname, i18n])
+  return null
+}
+
 function RouteSEO() {
   const { pathname } = useLocation()
-  const config = seoConfig[pathname]
+  const basePath = getPathWithoutLang(pathname)
+  const config = seoConfig[basePath]
   if (!config) return null
   return <SEO path={pathname} {...config} />
 }
+
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: '/how-it-works', element: <HowItWorks /> },
+  { path: '/for-agencies', element: <ForAgencies /> },
+  { path: '/for-investors', element: <ForInvestors /> },
+  { path: '/products', element: <Products /> },
+  { path: '/expansion-report', element: <ExpansionReport /> },
+  { path: '/growth-roadmap', element: <GrowthRoadmap /> },
+  { path: '/idea-validation', element: <IdeaValidation /> },
+  { path: '/business-plan', element: <BusinessPlan /> },
+  { path: '/resources', element: <Resources /> },
+  { path: '/partner', element: <Partner /> },
+  { path: '/our-partners', element: <OurPartners /> },
+  { path: '/contact', element: <Contact /> },
+  { path: '/articles/us-market-assumptions', element: <USMarketAssumptions /> },
+]
 
 function Layout() {
   const location = useLocation()
   return (
     <>
       <ScrollToTop />
+      <LanguageSync />
       <RouteSEO />
       <Nav />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
-          <Route path="/how-it-works" element={<HowItWorks />} />
-          <Route path="/for-agencies" element={<ForAgencies />} />
-          <Route path="/for-investors" element={<ForInvestors />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/expansion-report" element={<ExpansionReport />} />
-          <Route path="/growth-roadmap" element={<GrowthRoadmap />} />
-          <Route path="/idea-validation" element={<IdeaValidation />} />
-          <Route path="/business-plan" element={<BusinessPlan />} />
-          <Route path="/resources" element={<Resources />} />
-          <Route path="/partner" element={<Partner />} />
-          <Route path="/our-partners" element={<OurPartners />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/articles/us-market-assumptions" element={<USMarketAssumptions />} />
+          {/* English (default) routes */}
+          {routes.map(r => (
+            <Route key={r.path} path={r.path} element={r.element} />
+          ))}
+          {/* Spanish routes */}
+          {routes.map(r => (
+            <Route key={`es${r.path}`} path={`/es${r.path === '/' ? '' : r.path}`} element={r.element} />
+          ))}
+          {/* Portuguese routes */}
+          {routes.map(r => (
+            <Route key={`pt${r.path}`} path={`/pt${r.path === '/' ? '' : r.path}`} element={r.element} />
+          ))}
+          {/* Redirect /es and /pt bare paths to their home */}
+          <Route path="/es" element={<Home />} />
+          <Route path="/pt" element={<Home />} />
         </Routes>
       </AnimatePresence>
       <Footer />

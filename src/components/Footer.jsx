@@ -1,18 +1,22 @@
-import { Link } from 'react-router-dom'
-
-const cols = [
-  { label: 'Platform', links: [
-    { label: 'How It Works', to: '/how-it-works' },
-    { label: 'For Agencies', to: '/for-agencies' },
-    { label: 'Products', to: '/products' },
-    { label: 'Resources', to: '/resources' },
-    { label: 'Partner with Us', to: '/partner' },
-    { label: 'Our Partners', to: '/our-partners' },
-    { label: 'Contact', to: '/contact' },
-  ]}
-]
+import { Link, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 export default function Footer() {
+  const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+
+  const footerLinks = [
+    { label: t('nav.howItWorks'), to: getLocalizedPath('/how-it-works', lang) },
+    { label: t('nav.forAgencies'), to: getLocalizedPath('/for-agencies', lang) },
+    { label: t('nav.products'), to: getLocalizedPath('/products', lang) },
+    { label: t('nav.resources'), to: getLocalizedPath('/resources', lang) },
+    { label: t('nav.partnerWithUs'), to: getLocalizedPath('/partner', lang) },
+    { label: t('nav.ourPartners'), to: getLocalizedPath('/our-partners', lang) },
+    { label: t('footer.contact'), to: getLocalizedPath('/contact', lang) },
+  ]
+
   return (
     <footer style={{
       background: '#0A1628', borderTop: '1px solid rgba(0,196,212,0.12)',
@@ -30,9 +34,9 @@ export default function Footer() {
           <p style={{
             fontFamily: 'Inter, sans-serif', fontSize: 12, color: '#6B8098', lineHeight: 1.7,
           }}>
-            AI-powered market intelligence platform for agencies and consultancies.<br /><br />
-            Founded by Valter Klug<br />
-            Miami, FL
+            {t('footer.tagline')}<br /><br />
+            {t('footer.foundedBy')}<br />
+            {t('footer.location')}
           </p>
         </div>
 
@@ -42,9 +46,9 @@ export default function Footer() {
             fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500,
             letterSpacing: '0.15em', textTransform: 'uppercase', color: '#6B8098',
             display: 'block', marginBottom: 16,
-          }}>Platform</span>
+          }}>{t('footer.platform')}</span>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            {cols[0].links.map(({ label, to }) => (
+            {footerLinks.map(({ label, to }) => (
               <Link key={to} to={to} style={{
                 fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.35)',
                 transition: 'color 0.2s',
@@ -64,12 +68,12 @@ export default function Footer() {
             fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500,
             letterSpacing: '0.15em', textTransform: 'uppercase', color: '#6B8098',
             display: 'block', marginBottom: 4,
-          }}>Start Here</span>
-          <Link to="/partner" className="btn btn-primary" style={{ fontSize: 13, padding: '12px 22px' }}>
-            Request Platform Access →
+          }}>{t('footer.startHere')}</span>
+          <Link to={getLocalizedPath('/partner', lang)} className="btn btn-primary" style={{ fontSize: 13, padding: '12px 22px' }}>
+            {t('footer.requestAccess')}
           </Link>
-          <Link to="/contact" className="btn btn-secondary" style={{ fontSize: 13, padding: '11px 22px' }}>
-            Brief a Product
+          <Link to={getLocalizedPath('/contact', lang)} className="btn btn-secondary" style={{ fontSize: 13, padding: '11px 22px' }}>
+            {t('footer.briefProduct')}
           </Link>
         </div>
       </div>
@@ -83,8 +87,8 @@ export default function Footer() {
       }}
         className="footer-bottom"
       >
-        <span>© 2026 Soundcheck Insights. All rights reserved.</span>
-        <span>soundcheckinsights.com</span>
+        <span>{t('footer.copyright')}</span>
+        <span>{t('footer.domain')}</span>
       </div>
 
       <style>{`

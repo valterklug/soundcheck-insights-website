@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem, HoverCard } from '../components/Animate'
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 /* ── Network SVG Visualization ─────────────────────────────────────── */
 function NetworkViz() {
@@ -96,17 +99,17 @@ function NetworkViz() {
   )
 }
 
-/* ── PRODUCTS DATA ──────────────────────────────────────────────────── */
-const products = [
-  { num:'01', for:'International Brands · Market Entry', name:'International Expansion Viability Report', desc:'CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages.', delivery:'14-day delivery · White-label included', featured:true, link:'/expansion-report' },
-  { num:'02', for:'Entrepreneurs · Founders · Serial Entrepreneurs', name:'Idea Validation Analysis', desc:'Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.', delivery:'48-hour delivery · Fully automated', link:'/idea-validation' },
-  { num:'03', for:'Entrepreneurs · Investors · Immigration Applicants', name:'Business Plan Development', desc:'Audience-specific business plans for investors, banks, immigration attorneys, and founders. 6 configurations. 10-section structure. Every claim sourced.', delivery:'10-14 day delivery · White-label included', link:'/business-plan' },
-  { num:'04', for:'Agencies · Consultancies · Marketing Depts', name:'AI Virtual Focus Groups', desc:'AI-generated persona panels that mirror your client\'s exact target audience. No recruiting. No scheduling.', delivery:'1–7 day delivery · White-label included' },
-  { num:'05', for:'B2B Services · CPG Brands · US Market', name:'US Growth Roadmap', desc:'Market analysis, competitive intelligence, ranked growth levers with investment estimates, and a 90-day action plan. GPS Score (0 to 100).', delivery:'14-day delivery · White-label included', link:'/growth-roadmap' },
-  { num:'06', for:'Venture Capital Firms · Investors', name:'Funding Vetting Analysis', desc:'Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.', delivery:'7-day delivery · Volume discounts available', link:'/for-investors' },
-]
-
 export default function Home() {
+  const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+
+  const products = t('home.products', { returnObjects: true })
+  const problemCards = t('home.problemCards', { returnObjects: true })
+  const howSteps = t('home.howSteps', { returnObjects: true })
+  const stats = t('home.stats', { returnObjects: true })
+  const economicsRows = t('home.economicsRows', { returnObjects: true })
+
   return (
     <PageWrapper>
       {/* ── HERO ──────────────────────────────────────────────────────── */}
@@ -120,41 +123,41 @@ export default function Home() {
             >
               <span style={{ width: 7, height: 7, borderRadius: '50%', background: 'var(--teal)', display: 'block', animation: 'pulse 2s infinite' }}/>
               <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--teal)' }}>
-                Market Intelligence Platform · For Agencies, Consultancies & Investors
+                {t('home.heroBadge')}
               </span>
             </motion.div>
             <motion.h1
               initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}
               style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(2.2rem, 5vw, 4rem)', fontWeight: 300, letterSpacing: '-0.025em', lineHeight: 1.0, marginBottom: 22 }}
             >
-              AI does the research.<br />
-              <span style={{ color: 'var(--teal-2)' }}>You</span> augment it<br />with your expertise.
+              {t('home.heroTitle1')}<br />
+              <span style={{ color: 'var(--teal-2)' }}>{t('home.heroTitle2')}</span> {t('home.heroTitle3')}<br />{t('home.heroTitle4')}
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
               style={{ fontFamily: 'Inter, sans-serif', fontSize: 'clamp(1rem, 1.5vw, 1.07rem)', color: 'rgba(255,255,255,0.55)', lineHeight: 1.7, maxWidth: 500, marginBottom: 36 }}
             >
-              Soundcheck is a market intelligence platform you operate for your clients. You validate the output. You deliver under your brand. You set the price.
+              {t('home.heroDesc')}
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
               style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}
             >
-              <Link to="/partner" className="btn btn-primary">Request Platform Access →</Link>
-              <Link to="/how-it-works" className="btn btn-secondary">See How It Works</Link>
+              <Link to={getLocalizedPath('/partner', lang)} className="btn btn-primary">{t('home.requestAccess')}</Link>
+              <Link to={getLocalizedPath('/how-it-works', lang)} className="btn btn-secondary">{t('home.seeHowItWorks')}</Link>
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}
               style={{ display: 'flex', gap: 0, marginTop: 48, paddingTop: 32, borderTop: '1px solid rgba(255,255,255,0.07)' }}
             >
-              {[['6–10h','Your time per report'],['14 days','Brief to delivery'],['100%','Your brand']].map(([n,l])=>(
-                <div key={l} style={{ paddingRight: 28, borderRight: '1px solid rgba(255,255,255,0.08)', marginRight: 28 }}
+              {stats.map(({value, label})=>(
+                <div key={label} style={{ paddingRight: 28, borderRight: '1px solid rgba(255,255,255,0.08)', marginRight: 28 }}
                   className="hero-stat">
                   <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.4rem,3vw,1.8rem)', fontWeight: 300, color: '#fff', lineHeight: 1 }}>
-                    {n}
+                    {value}
                   </div>
                   <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginTop: 4 }}>
-                    {l}
+                    {label}
                   </div>
                 </div>
               ))}
@@ -176,24 +179,19 @@ export default function Home() {
         className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center' }} className="grid-2">
           <FadeIn>
-            <span className="sc-label">The Problem</span>
+            <span className="sc-label">{t('home.problemLabel')}</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.4rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 18 }}>
-              Research is the most under-monetized capability in your practice.
+              {t('home.problemTitle')}
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 14 }}>
-              Agencies deliver strategy, campaigns, and execution. But the intelligence layer — market analysis, viability assessment, competitive mapping — is either outsourced at high cost or skipped entirely.
+              {t('home.problemDesc1')}
             </p>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75 }}>
-              The result: clients make expensive decisions without evidence. Agencies leave billable work on the table.
+              {t('home.problemDesc2')}
             </p>
           </FadeIn>
           <StaggerContainer>
-            {[
-              {icon:'⏱',title:'Research takes too long',text:'A junior team needs 3–4 weeks to produce what Soundcheck delivers in under 5 days.'},
-              {icon:'💸',title:'Traditional research costs too much',text:'Research firms charge $50K–$100K+. Your clients can\'t justify it. You can\'t margin it.'},
-              {icon:'🤝',title:'You have the client, not the infrastructure',text:'You have the relationship and the expertise. You just need the research engine.'},
-              {icon:'🏷',title:'Most research tools aren\'t white-label',text:'Soundcheck is operator-facing — you deliver under your brand. Always.'},
-            ].map(({icon,title,text})=>(
+            {problemCards.map(({icon, title, text})=>(
               <StaggerItem key={title}>
                 <HoverCard>
                   <div style={{ display: 'grid', gridTemplateColumns: '40px 1fr', gap: 14, alignItems: 'start', background: 'rgba(255,255,255,0.03)', padding: '16px 18px', marginBottom: 2, borderLeft: '3px solid var(--orange)', border: '1px solid rgba(255,255,255,0.05)', borderLeft: '3px solid var(--orange)' }}>
@@ -215,27 +213,22 @@ export default function Home() {
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(0,196,212,0.1)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center' }} className="grid-2">
           <FadeIn>
-            <span className="sc-label">How It Works</span>
+            <span className="sc-label">{t('home.howLabel')}</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.4rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 18 }}>
-              You're the expert.<br />We're the engine.
+              {t('home.howTitle1')}<br />{t('home.howTitle2')}
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 16 }}>
-              Soundcheck is not a research agency. It's a platform you operate. The AI aggregates, maps, and scores. You validate with your professional judgment and deliver under your brand.
+              {t('home.howDesc')}
             </p>
-            <Link to="/how-it-works" className="text-link" style={{ marginTop: 8 }}>See the Full Process →</Link>
+            <Link to={getLocalizedPath('/how-it-works', lang)} className="text-link" style={{ marginTop: 8 }}>{t('home.howLink')}</Link>
           </FadeIn>
           <StaggerContainer>
-            {[
-              {n:'01',t:'You run the client intake',tag:'Your time · ~1h · Your relationship',color:'var(--teal)'},
-              {n:'02',t:'Platform generates the report',tag:'Automated · 30–50 pages · Days 1–5',color:'var(--gray)'},
-              {n:'03',t:'You validate with your expertise',tag:'Your time · ~5–8h · Your strategic layer',color:'var(--orange)'},
-              {n:'04',t:'You deliver under your brand',tag:'Your brand · Your credit · Your next contract',color:'var(--teal-2)'},
-            ].map(({n,t,tag,color},i)=>(
-              <StaggerItem key={n}>
-                <div style={{ display: 'grid', gridTemplateColumns: '44px 1fr', gap: 16, padding: '18px 22px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderLeft: `3px solid ${color}`, marginBottom: 2, alignItems: 'start' }}>
-                  <div style={{ width: 32, height: 32, background: `${color}18`, border: `1px solid ${color}33`, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color, flexShrink: 0 }}>{n}</div>
+            {howSteps.map(({num, title, tag}, i)=>(
+              <StaggerItem key={num}>
+                <div style={{ display: 'grid', gridTemplateColumns: '44px 1fr', gap: 16, padding: '18px 22px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderLeft: `3px solid ${[['var(--teal)', 'var(--gray)', 'var(--orange)', 'var(--teal-2)'][i]]}`, marginBottom: 2, alignItems: 'start' }}>
+                  <div style={{ width: 32, height: 32, background: `${[['rgba(0,196,212,0.15)', 'rgba(128,128,128,0.15)', 'rgba(232,71,42,0.15)', 'rgba(0,196,212,0.15)'][i]]}`, border: `1px solid ${[['rgba(0,196,212,0.33)', 'rgba(128,128,128,0.33)', 'rgba(232,71,42,0.33)', 'rgba(0,196,212,0.33)'][i]]}`, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: [['var(--teal)', 'var(--gray)', 'var(--orange)', 'var(--teal-2)'][i]], flexShrink: 0 }}>{num}</div>
                   <div>
-                    <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff', marginBottom: 3 }}>{t}</div>
+                    <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff', marginBottom: 3 }}>{title}</div>
                     <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>{tag}</div>
                   </div>
                 </div>
@@ -249,16 +242,16 @@ export default function Home() {
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
-            <span className="sc-label">Six Products</span>
+            <span className="sc-label">{t('home.productsLabel')}</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.4rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 48, maxWidth: 640 }}>
-              Six reports you can offer<br />your clients starting today.
+              {t('home.productsTitle')}
             </h2>
           </FadeIn>
           <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2, marginBottom: 2 }} className="prod-grid">
             {products.slice(0,3).map(p=>(
               <StaggerItem key={p.num}>
                 <HoverCard>
-                  <Link to={p.link || '/products'} style={{ display: 'block', textDecoration: 'none', cursor: 'pointer' }}>
+                  <Link to={p.link ? getLocalizedPath(p.link, lang) : getLocalizedPath('/products', lang)} style={{ display: 'block', textDecoration: 'none', cursor: 'pointer' }}>
                     <div style={{ background: p.featured ? 'rgba(0,196,212,0.04)' : 'rgba(255,255,255,0.03)', border: `1px solid ${p.featured ? 'rgba(0,196,212,0.22)' : 'rgba(255,255,255,0.06)'}`, borderTop: `3px solid ${p.featured ? 'var(--teal)' : 'transparent'}`, padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
@@ -275,7 +268,7 @@ export default function Home() {
             {products.slice(3).map(p=>(
               <StaggerItem key={p.num}>
                 <HoverCard>
-                  <Link to={p.link || '/products'} style={{ display: 'block', textDecoration: 'none' }}>
+                  <Link to={p.link ? getLocalizedPath(p.link, lang) : getLocalizedPath('/products', lang)} style={{ display: 'block', textDecoration: 'none' }}>
                     <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
@@ -290,7 +283,7 @@ export default function Home() {
           </StaggerContainer>
           <FadeIn>
             <div style={{ marginTop: 36 }}>
-              <Link to="/products" className="text-link">View All Products →</Link>
+              <Link to={getLocalizedPath('/products', lang)} className="text-link">{t('home.viewAllProducts')}</Link>
             </div>
           </FadeIn>
         </div>
@@ -301,32 +294,27 @@ export default function Home() {
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(232,71,42,0.15)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'start' }} className="grid-2">
           <FadeIn>
-            <span className="sc-label sc-label-orange">The Business Case</span>
+            <span className="sc-label sc-label-orange">{t('home.economicsLabel')}</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,2.8vw,2.2rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 18 }}>
-              A $400–$1,250+/hour<br />revenue line. No new headcount.
+              {t('home.economicsTitle1')}<br />{t('home.economicsTitle2')}
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 24 }}>
-              The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.
+              {t('home.economicsDesc')}
             </p>
-            <Link to="/for-agencies" className="text-link">Full Economics Breakdown →</Link>
+            <Link to={getLocalizedPath('/for-agencies', lang)} className="text-link">{t('home.economicsLink')}</Link>
           </FadeIn>
           <FadeIn delay={0.15}>
-            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: 14 }}>Real Economics · Per Report (on a $5,000 engagement)</div>
+            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: 14 }}>{t('home.economicsHeader')}</div>
             <div>
-              {[
-                ['Soundcheck fee (Self-Serve)','20% · $1,000'],
-                ['Soundcheck fee (Full-Service)','Up to 50% · $2,500'],
-                ['Your time (Self-Serve / Full-Service)','6–10h / 2–4h'],
-                ['Effective hourly rate','$400–$1,250+/h'],
-              ].map(([l,v])=>(
+              {economicsRows.map(([l, v])=>(
                 <div key={l} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '14px 18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', marginBottom: 2 }}>
                   <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)' }}>{l}</span>
                   <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff' }}>{v}</span>
                 </div>
               ))}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '18px 18px', background: 'var(--orange)', marginTop: 2 }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 600, color: '#fff' }}>Your margin per report</span>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 22, fontWeight: 300, color: '#fff' }}>$2,500–$4,000</span>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 600, color: '#fff' }}>{t('home.marginLabel')}</span>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 22, fontWeight: 300, color: '#fff' }}>{t('home.marginValue')}</span>
               </div>
             </div>
           </FadeIn>
@@ -336,11 +324,11 @@ export default function Home() {
       {/* ── CTA ──────────────────────────────────────────────────────── */}
       <section className="cta-strip">
         <FadeIn>
-          <h2 className="cta-strip-h2">Start with one report.<br />See what $400+/hour feels like.</h2>
-          <p className="cta-strip-sub">Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.</p>
+          <h2 className="cta-strip-h2">{t('home.ctaTitle')}</h2>
+          <p className="cta-strip-sub">{t('home.ctaSub')}</p>
         </FadeIn>
         <div className="cta-actions">
-          <Link to="/partner" className="btn btn-white">Request Platform Access →</Link>
+          <Link to={getLocalizedPath('/partner', lang)} className="btn btn-white">{t('home.ctaButton')}</Link>
         </div>
       </section>
     </PageWrapper>

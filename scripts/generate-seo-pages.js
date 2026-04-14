@@ -159,10 +159,36 @@ function injectMeta(html, path, { title, description, image }) {
   return html
 }
 
+// ─── Spanish SEO overrides ───────────────────────────────────────────────────
+const esPages = {}
+for (const [path, config] of Object.entries(pages)) {
+  esPages[path === '/' ? '/es' : `/es${path}`] = {
+    ...config,
+    title: config.title
+      .replace('Soundcheck Insights —', 'Soundcheck Insights —')
+      .replace('| Soundcheck Insights', '| Soundcheck Insights'),
+    image: config.image,
+  }
+}
+
+// ─── Portuguese SEO overrides ────────────────────────────────────────────────
+const ptPages = {}
+for (const [path, config] of Object.entries(pages)) {
+  ptPages[path === '/' ? '/pt' : `/pt${path}`] = {
+    ...config,
+    title: config.title
+      .replace('Soundcheck Insights —', 'Soundcheck Insights —')
+      .replace('| Soundcheck Insights', '| Soundcheck Insights'),
+    image: config.image,
+  }
+}
+
+const allPages = { ...pages, ...esPages, ...ptPages }
+
 // ─── Generate ─────────────────────────────────────────────────────────────────
 let count = 0
 
-for (const [path, config] of Object.entries(pages)) {
+for (const [path, config] of Object.entries(allPages)) {
   // Root page: update the existing dist/index.html in place
   if (path === '/') {
     const html = injectMeta(template, path, config)

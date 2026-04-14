@@ -1,0 +1,668 @@
+{
+  "nav": {
+    "howItWorks": "How It Works",
+    "forAgencies": "For Agencies",
+    "forInvestors": "For Investors",
+    "products": "Products",
+    "resources": "Resources",
+    "partnerWithUs": "Partner with Us",
+    "ourPartners": "Our Partners",
+    "getStarted": "Get Started →"
+  },
+  "footer": {
+    "tagline": "AI-powered market intelligence platform for agencies and consultancies.",
+    "foundedBy": "Founded by Valter Klug",
+    "location": "Miami, FL",
+    "platform": "Platform",
+    "contact": "Contact",
+    "startHere": "Start Here",
+    "requestAccess": "Request Platform Access →",
+    "briefProduct": "Brief a Product",
+    "copyright": "© 2026 Soundcheck Insights. All rights reserved.",
+    "domain": "soundcheckinsights.com"
+  },
+  "home": {
+    "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Investors",
+    "heroTitle1": "AI does the research.",
+    "heroTitle2": "You",
+    "heroTitle3": "augment it",
+    "heroTitle4": "with your expertise.",
+    "heroDesc": "Soundcheck is a market intelligence platform you operate for your clients. You validate the output. You deliver under your brand. You set the price.",
+    "requestAccess": "Request Platform Access →",
+    "seeHowItWorks": "See How It Works",
+    "stats": [
+      { "value": "6–10h", "label": "Your time per report" },
+      { "value": "14 days", "label": "Brief to delivery" },
+      { "value": "100%", "label": "Your brand" }
+    ],
+    "problemLabel": "The Problem",
+    "problemTitle": "Research is the most under-monetized capability in your practice.",
+    "problemDesc1": "Agencies deliver strategy, campaigns, and execution. But the intelligence layer — market analysis, viability assessment, competitive mapping — is either outsourced at high cost or skipped entirely.",
+    "problemDesc2": "The result: clients make expensive decisions without evidence. Agencies leave billable work on the table.",
+    "problemCards": [
+      { "icon": "⏱", "title": "Research takes too long", "text": "A junior team needs 3–4 weeks to produce what Soundcheck delivers in under 5 days." },
+      { "icon": "💸", "title": "Traditional research costs too much", "text": "Research firms charge $50K–$100K+. Your clients can't justify it. You can't margin it." },
+      { "icon": "🤝", "title": "You have the client, not the infrastructure", "text": "You have the relationship and the expertise. You just need the research engine." },
+      { "icon": "🏷", "title": "Most research tools aren't white-label", "text": "Soundcheck is operator-facing — you deliver under your brand. Always." }
+    ],
+    "howLabel": "How It Works",
+    "howTitle1": "You're the expert.",
+    "howTitle2": "We're the engine.",
+    "howDesc": "Soundcheck is not a research agency. It's a platform you operate. The AI aggregates, maps, and scores. You validate with your professional judgment and deliver under your brand.",
+    "howLink": "See the Full Process →",
+    "howSteps": [
+      { "num": "01", "title": "You run the client intake", "tag": "Your time · ~1h · Your relationship" },
+      { "num": "02", "title": "Platform generates the report", "tag": "Automated · 30–50 pages · Days 1–5" },
+      { "num": "03", "title": "You validate with your expertise", "tag": "Your time · ~5–8h · Your strategic layer" },
+      { "num": "04", "title": "You deliver under your brand", "tag": "Your brand · Your credit · Your next contract" }
+    ],
+    "productsLabel": "Six Products",
+    "productsTitle": "Six reports you can offer\nyour clients starting today.",
+    "products": [
+      { "num": "01", "for": "International Brands · Market Entry", "name": "International Expansion Viability Report", "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages.", "delivery": "14-day delivery · White-label included" },
+      { "num": "02", "for": "Entrepreneurs · Founders · Serial Entrepreneurs", "name": "Idea Validation Analysis", "desc": "Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.", "delivery": "48-hour delivery · Fully automated" },
+      { "num": "03", "for": "Entrepreneurs · Investors · Immigration Applicants", "name": "Business Plan Development", "desc": "Audience-specific business plans for investors, banks, immigration attorneys, and founders. 6 configurations. 10-section structure. Every claim sourced.", "delivery": "10-14 day delivery · White-label included" },
+      { "num": "04", "for": "Agencies · Consultancies · Marketing Depts", "name": "AI Virtual Focus Groups", "desc": "AI-generated persona panels that mirror your client's exact target audience. No recruiting. No scheduling.", "delivery": "1–7 day delivery · White-label included" },
+      { "num": "05", "for": "B2B Services · CPG Brands · US Market", "name": "US Growth Roadmap", "desc": "Market analysis, competitive intelligence, ranked growth levers with investment estimates, and a 90-day action plan. GPS Score (0 to 100).", "delivery": "14-day delivery · White-label included" },
+      { "num": "06", "for": "Venture Capital Firms · Investors", "name": "Funding Vetting Analysis", "desc": "Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.", "delivery": "7-day delivery · Volume discounts available" }
+    ],
+    "viewAllProducts": "View All Products →",
+    "economicsLabel": "The Business Case",
+    "economicsTitle1": "A $400–$1,250+/hour",
+    "economicsTitle2": "revenue line. No new headcount.",
+    "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
+    "economicsLink": "Full Economics Breakdown →",
+    "economicsHeader": "Real Economics · Per Report (on a $5,000 engagement)",
+    "economicsRows": [
+      ["Soundcheck fee (Self-Serve)", "20% · $1,000"],
+      ["Soundcheck fee (Full-Service)", "Up to 50% · $2,500"],
+      ["Your time (Self-Serve / Full-Service)", "6–10h / 2–4h"],
+      ["Effective hourly rate", "$400–$1,250+/h"]
+    ],
+    "marginLabel": "Your margin per report",
+    "marginValue": "$2,500–$4,000",
+    "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
+    "ctaSub": "Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.",
+    "ctaButton": "Request Platform Access →"
+  },
+  "howItWorks": {
+    "heroLabel": "How the Platform Works",
+    "heroTitle1": "The AI does the research.",
+    "heroTitle2": "You",
+    "heroTitle3": "deliver the intelligence.",
+    "heroSub": "How agencies use Soundcheck to produce decision-grade market reports — in 6-10 hours of their time, delivered under their brand.",
+    "chips": [
+      { "value": "6-10h", "label": "your time per report" },
+      { "value": "14 days", "label": "brief to delivery" },
+      { "value": "100%", "label": "white-labeled to you" },
+      { "value": "0", "label": "new hires needed" }
+    ],
+    "phasesLabel": "The Four Phases",
+    "phasesTitle": "From brief to client-ready report in 14 days.",
+    "phases": [
+      { "num": "Phase 01", "label": "You run the client intake", "timing": "Day 0 · Your time: ~1h", "title": "The most important hour in the process.", "body": "You lead a scoped conversation with your client: what market are they entering, what's the core business question, what decisions hang on the answer. You capture the brief and submit it through the platform — bringing the context no AI can infer.", "tag": "Your relationship · Your framing" },
+      { "num": "Phase 02", "label": "Platform generates the report", "timing": "Days 1-5 · Automated", "title": "What would take 3-4 weeks runs in under 5 days.", "body": "The Soundcheck AI engine aggregates market data, builds competitive maps, calculates viability scores, and produces a structured 30-50 page analysis. You don't need to do anything during this phase.", "tag": "Automated · No input needed from you" },
+      { "num": "Phase 03", "label": "You validate with your expertise", "timing": "Days 6-12 · Your time: ~5-8h", "title": "This is where your value as a practitioner comes in.", "body": "You review the AI-generated output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The output becomes yours, not ours.", "tag": "Your expertise · Your strategic layer" },
+      { "num": "Phase 04", "label": "You deliver under your brand", "timing": "Day 14 · Your time: ~1h", "title": "You present. You take the credit. You open the next conversation.", "body": "You present the finalized report to your client white-labeled under your agency. Soundcheck's name never appears. You receive the credit, deepen the relationship, and open the next conversation.", "tag": "Your brand · Your credit · Your next engagement" }
+    ],
+    "divisionLabel": "Division of Work",
+    "divisionTitle": "What the platform does. What you do.",
+    "platformHandles": "Platform handles",
+    "platformItems": [
+      "Market data aggregation at scale",
+      "Competitive landscape mapping",
+      "Industry benchmark compilation",
+      "Viability scoring across 10 dimensions",
+      "Structured report assembly (30-50 pages)"
+    ],
+    "youBring": "You bring",
+    "youItems": [
+      "Client context and relationship knowledge",
+      "Professional judgment and market read",
+      "Strategic narrative and recommendation framing",
+      "Confidence scoring and gap flagging",
+      "Your brand and your client relationship"
+    ],
+    "deliverables": [
+      { "icon": "📄", "title": "Executive Summary", "sub": "2-4 page decision brief" },
+      { "icon": "📊", "title": "Full Report", "sub": "30-50 pages of analysis" },
+      { "icon": "📐", "title": "Presentation Deck", "sub": "Client-ready slides" },
+      { "icon": "🏷", "title": "White-Labeled", "sub": "Your brand throughout" }
+    ],
+    "ctaTitle": "Ready to run your first report?",
+    "ctaSub": "Most operators start on an existing client. Low risk, immediate value.",
+    "ctaButton1": "Request Platform Access",
+    "ctaButton2": "Explore the 5 Products"
+  },
+  "forAgencies": {
+    "heroLabel": "For Agencies & Consultancies",
+    "heroTitle1": "Add a ",
+    "heroTitle2": "$400–$1,250+/hour",
+    "heroTitle3": " revenue line to your practice. No new headcount.",
+    "heroSub": "Soundcheck is a market intelligence platform you operate for your clients. Your expertise validates the AI output. You set the price. You own the relationship.",
+    "chips": [
+      { "icon": "⏱", "value": "2–10h", "label": "per report" },
+      { "icon": "💰", "value": "$3,000–$5,000+", "label": "per engagement" },
+      { "icon": "🏷", "value": "White-label", "label": "ready" },
+      { "icon": "🔍", "value": "You validate", "label": "the output" }
+    ],
+    "businessCaseLabel": "The Business Case",
+    "businessCaseTitle": "This is how it works in practice today.",
+    "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
+    "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
+    "businessCaseDesc3": "That's what your client is paying for.",
+    "economicsHeader": "Real Economics · Per Report (on a $5,000 engagement)",
+    "selfServe": "Self-Serve",
+    "selfServeDesc": "You run the platform",
+    "fullService": "Full-Service",
+    "fullServiceDesc": "We help end-to-end",
+    "economicsRows": [
+      ["Soundcheck fee", "20% of client price", "Up to 50% of client price"],
+      ["On a $5k engagement", "$1,000", "$2,500"],
+      ["Your time investment", "6–10 hours", "2–4 hours"],
+      ["Effective hourly rate", "$400–$667/h", "$625–$1,250/h"]
+    ],
+    "yourMargin": "Your margin",
+    "marginSelfServe": "$4,000",
+    "marginFullService": "$2,500",
+    "operatorLabel": "What You Get as an Operator",
+    "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
+    "operatorItems": [
+      { "icon": "🔑", "title": "Platform Access", "desc": "Dashboard to submit briefs, track report progress, and download finalized outputs. Purpose-built for agency workflows." },
+      { "icon": "📊", "title": "30–50 Page Research Reports", "desc": "AI-generated analysis covering market sizing, competitive landscape, viability scoring, regulatory snapshot, and distribution maps." },
+      { "icon": "🏷", "title": "100% White-Label Ready", "desc": "Every deliverable comes without Soundcheck branding. Your logo, your brand, your client relationship. Always." },
+      { "icon": "📐", "title": "Client-Ready Presentation Deck", "desc": "Alongside the full report, every engagement includes a presentation-ready deck structured for your client briefing." },
+      { "icon": "🧠", "title": "Operator Onboarding", "desc": "Valter walks every new operator through the full workflow personally — including the first report briefing, validation, and delivery." },
+      { "icon": "📬", "title": "Monthly Intelligence Briefing", "desc": "Operator-only market intelligence updates — category shifts, methodology improvements, and research signals." }
+    ],
+    "whiteLabelLabel": "White-Label Products",
+    "whiteLabelTitle": "Three products you can deliver\nunder your brand today.",
+    "whiteLabelSub": "Each product is designed for white-label delivery. Your brand, your cover page, your client relationship. You set the price and keep the margin.",
+    "whiteLabelProducts": [
+      { "num": "01", "name": "International Expansion Viability Report", "audience": "International Brands · Market Entry", "desc": "Decision-grade market entry intelligence. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages.", "delivery": "14-day delivery", "price": "Suggested client price: US$5k+" },
+      { "num": "02", "name": "US Growth Roadmap", "audience": "US Small & Mid-Size Businesses", "desc": "For B2B services and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan.", "delivery": "14-day delivery", "price": "Suggested client price: US$5k+" },
+      { "num": "03", "name": "AI Virtual Focus Groups", "audience": "Agencies · Consultancies · Marketing Depts", "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Reusable panels.", "delivery": "1–7 day delivery", "price": "Persona Definition: US$3k · Session: US$2k+" }
+    ],
+    "seeFullDetails": "See Full Details →",
+    "whiteLabel": "White-label included",
+    "rightFitLabel": "Right Fit",
+    "rightFitTitle": "Who this is built for.",
+    "worksWell": "This works well for you if:",
+    "worksWellItems": [
+      "You serve clients who make market-entry or investment decisions",
+      "You have established client relationships where research would add value",
+      "You want to expand your revenue without expanding your team",
+      "You're a boutique agency (1–50 people) or independent consultant",
+      "You want to deliver research-grade intelligence under your own brand"
+    ],
+    "notRight": "Probably not the right fit if:",
+    "notRightItems": [
+      "You're a brand looking for research on your own business (see our direct products)",
+      "You're looking for a tool to replace analyst judgment entirely",
+      "You need real-time or continuous market monitoring",
+      "You operate a market research firm with your own research infrastructure"
+    ],
+    "notSureTitle": "Not sure if this is right for you?",
+    "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
+    "notSureLink": "Ask us directly →",
+    "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
+    "ctaSub": "Most operators run their first report on an existing client.",
+    "ctaButton": "Request Platform Access →"
+  },
+  "products": {
+    "heroLabel": "Research Products",
+    "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
+    "heroSub": "Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 48 hours. You set the price for your clients.",
+    "viewDeliverables": "View What's Delivered",
+    "hideDeliverables": "Hide What's Delivered",
+    "whatsDelivered": "What's Delivered",
+    "sampleOutput": "Sample Output · Score",
+    "sampleSignalBrief": "Sample Output · Signal Brief",
+    "sampleIVA": "Sample Output · Idea Validation Analysis",
+    "sampleGrowthLevers": "Sample Output · Growth Levers (Ranked)",
+    "verdict": "VERDICT:",
+    "viewFullSample": "View Full Sample →",
+    "viewFullSampleReport": "View Full Sample Report →",
+    "briefProduct": "Brief This Product →",
+    "ctaTitle": "Ready to brief your first product?",
+    "ctaSub": "Tell us what you're working on. We'll match you to the right product and turnaround.",
+    "ctaButton": "Brief a Product →",
+    "items": [
+      {
+        "num": "01",
+        "for": "International Brands · Market Entry",
+        "name": "International Expansion Viability Report",
+        "desc": "Decision-grade market entry intelligence for international brands. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages, white-labeled, in 14 days.",
+        "price": "Suggested price: US$5k+",
+        "delivery": "14-day delivery · White-label included · 1 revision",
+        "ctaLabel": "See Full Report Details →",
+        "deliverables": [
+          "CVE Score (Coefficient of Viability of Expansion) — 3-dimension weighted scoring (0 to 100)",
+          "Executive Summary — 5 critical insights + 3 strategic paths with recommended entry mode",
+          "Business & Brand Assessment — product-market fit, pricing architecture, positioning",
+          "Market & Category Intelligence — TAM/SAM/SOM, Porter's Five Forces, competitive benchmarking, buyer landscape",
+          "Strategic Entry & Growth Plan — 12-month roadmap with unit economics and go/no-go gates",
+          "Risks & Watchpoints — scored, ranked, and mitigated",
+          "100+ Page Report + Visual Executive Summary (white-labeled)"
+        ]
+      },
+      {
+        "num": "02",
+        "for": "Entrepreneurs · Founders · Serial Entrepreneurs",
+        "name": "Idea Validation Analysis",
+        "tagline": "Know if your idea has a market before you spend a dollar building it.",
+        "desc": "Fill out a 10-minute form describing your idea. Soundcheck's AI runs independent market research, analyzes the competition, sizes the opportunity, and estimates what your target customer would pay. You receive a full analysis and a one-page Summary Card in 48 hours.",
+        "price": "US$799 per analysis",
+        "delivery": "48-hour delivery after form submission · Fully automated",
+        "ctaLabel": "Validate Your Idea →",
+        "deliverables": [
+          "Problem Validation — is this a Tier 1 problem with real market demand?",
+          "Market Sizing — TAM, SAM, SOM for your target geography",
+          "Competition Reality Check — who already solves this and where the whitespace is",
+          "Customer & WTP Analysis — who would buy this and how much they'd pay",
+          "IVS Score + Next Steps — Idea Viability Score (0 to 100) and 3 specific actions"
+        ]
+      },
+      {
+        "num": "03",
+        "for": "Entrepreneurs · Investors · Immigration Applicants",
+        "name": "Business Plan Development",
+        "tagline": "A business plan built for the reader who decides.",
+        "desc": "Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder's Internal. Every claim sourced. Every projection documented.",
+        "price": "US$5,000+ per plan",
+        "delivery": "10-14 day delivery · White-label included · 1 revision",
+        "ctaLabel": "See Full Plan Details →",
+        "deliverables": [
+          "Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data",
+          "Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask"
+        ]
+      },
+      {
+        "num": "04",
+        "for": "Agencies · Consultancies · Marketing Depts",
+        "name": "AI Virtual Focus Groups",
+        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Delivered in days.",
+        "price": "Persona Definition: US$3k · Focus Group Session: US$2k+",
+        "delivery": "1–7 day delivery · White-label included",
+        "ctaLabel": "Brief This Product →",
+        "deliverables": [
+          "3–10 custom AI personas based on exact target demographics",
+          "Moderated discussion transcript — no loudest-voice bias",
+          "Executive summary with key findings and recommendations",
+          "Persona-specific reactions — segment-level decision support",
+          "Reusable persona panel — deploy again for future sessions"
+        ]
+      },
+      {
+        "num": "05",
+        "for": "B2B Services · CPG Brands · US Market",
+        "name": "US Growth Roadmap",
+        "tagline": "You're selling. You're not growing. That's a fixable problem.",
+        "desc": "For B2B service companies and CPG brands that have stalled in the US market. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan. Proprietary GPS Score (0 to 100) across Market Opportunity, Competitive Position, and Internal Readiness.",
+        "price": "US$5,000+ per report",
+        "delivery": "14-day delivery · White-label included · 1 revision",
+        "ctaLabel": "See Full Report Details →",
+        "deliverables": [
+          "In-Depth Growth Report — 40-60+ pages, 8-section DMAIC-inspired structure, GPS Score, ranked growth levers, 90-day action plan",
+          "Executive Presentation & Q&A — condensed visual presentation for leadership with live walkthrough",
+          "1-Page Action Sheet — specific, assigned actions for the first week with one success metric for Day 30"
+        ]
+      },
+      {
+        "num": "06",
+        "for": "Venture Capital Firms · Growth Equity · Angel Syndicates · Corporate Venture",
+        "name": "Funding Vetting Analysis",
+        "desc": "Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team's time before you spend it.",
+        "price": "US$3,000 per company",
+        "delivery": "7-day delivery from completed interviews · Volume discounts available",
+        "ctaLabel": "See How It Works →",
+        "deliverables": [
+          "Full Intelligence Report — 10-section evidence record from both interviews with contradiction log",
+          "Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict with sourced evidence"
+        ]
+      }
+    ]
+  },
+  "forInvestors": {
+    "heroLabel": "For Investors",
+    "heroTitle": "Your pipeline is full.\nYour team's availability isn't.",
+    "heroSub": "The average VC firm sees hundreds of deals a year. Most of the ones that get filtered don't get filtered early enough. Soundcheck gives venture capital firms, growth equity funds, angel syndicates, and corporate venture arms a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.",
+    "requestEngagement": "Request an Engagement →",
+    "viewSamples": "View Sample Signal Briefs →",
+    "heroStats": [
+      { "num": "7", "label": "BUSINESS DAYS", "sub": "from interviews to Signal Brief" },
+      { "num": "2", "label": "INTERVIEWS", "sub": "founder team + real customer, independently" },
+      { "num": "US$3,000", "label": "", "sub": "per company evaluated" }
+    ],
+    "problemLabel": "The real cost",
+    "problemTitle": "Most early filtering happens informally. That's the problem.",
+    "problemDesc1": "Pitch decks are prepared for the best possible impression. Founders know how to answer standard questions. Reference calls go through the company's own contacts. By the time you discover the revenue isn't as clean as the deck suggests, or that the founder can't explain why they're losing deals, or that their most loyal-sounding customer is actively evaluating alternatives, your associates have already spent 15+ hours.",
+    "problemDesc2": "Soundcheck runs two structured interviews independently — one with the leadership team, one with a real customer we select from a list the company provides. We find where their stories don't match. You get the verdict before your team invests.",
+    "problemCards": [
+      { "title": "What we replace", "text": "The unstructured first-round conversations your analysts are already having — just structured, documented, and with an independent customer source added." },
+      { "title": "What we don't replace", "text": "Full due diligence. Legal review. Financial audits. Technical assessments. Soundcheck is the filter before the filter — not the close." },
+      { "title": "What it costs to skip this", "text": "15–20 associate hours per company that fails in round two. Multiply that by your deal flow volume." }
+    ],
+    "stepsLabel": "Four steps. Seven days.",
+    "stepsTitle": "What happens between briefing and verdict.",
+    "steps": [
+      { "num": "01", "title": "You brief us — not the company.", "body": "You tell us which company you're evaluating. We prepare the pre-interview market and competitive research independently, without any input from the company. This becomes the baseline we test against in both interviews.", "meta": "~15 min on your end · AI-generated research brief · no company contact yet" },
+      { "num": "02", "title": "Interview 1 — Leadership Team (60 min)", "body": "A structured conversation with the founder/CEO and any available CFO or Head of Sales. Five blocks: market insight, sales and customer intelligence, financials, the moat, and deal structure. Transcript processed and analyzed against our pre-research.", "meta": "Scheduled by you · Facilitated by Soundcheck · Recorded with consent" },
+      { "num": "03", "title": "Interview 2 — A Real Customer (45–60 min)", "body": "We ask the company for 5 customer names. We choose one — mid-list, not their most obvious advocate. An independent call covering product centrality, usage reality, NRR signals, and competitive awareness. This is where contradictions surface.", "meta": "Customer selected by us · Company doesn't know which customer we called" },
+      { "num": "04", "title": "Full Intelligence Report + Signal Brief", "body": "The AI generates a 10-section evidence record from both interviews. The consultant adds their observation notes and signs the Signal Brief — a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence and the 3 questions your team should answer next.", "meta": "Signal Brief + Full Intelligence Report · Both delivered as standard" }
+    ],
+    "signalsLabel": "What we test",
+    "signalsTitle": "Six signals. Every engagement.",
+    "signalsSub": "Every engagement tests the same six signals — regardless of company stage, sector, or business model. Every rating is backed by at least two sourced observations, one from each interview.",
+    "signals": [
+      { "num": "1", "name": "Market Reality", "desc": "Is the opportunity real and is the timing right now — not in theory?" },
+      { "num": "2", "name": "Revenue Quality", "desc": "Is revenue sticky, recurring, and growing? NRR direction cross-validated by the customer." },
+      { "num": "3", "name": "Defensibility", "desc": "Is there something structural that takes 18+ months for a well-funded rival to copy?" },
+      { "num": "4", "name": "Founder Clarity", "desc": "Does the CEO know their numbers, understand their losses, and acknowledge what's broken?" },
+      { "num": "5", "name": "No Deal-Killers", "desc": "Any structural blockers hiding below the pitch — cap table, concentration, litigation?" },
+      { "num": "6", "name": "Exit Logic", "desc": "Is there a realistic return path at this valuation? Named acquirers, specific rationale." }
+    ],
+    "verdicts": [
+      { "label": "ADVANCE", "text": "4 or more signals Strong. No structural blockers. Continue to deeper diligence." },
+      { "label": "CONDITIONAL", "text": "3 Strong signals + one named condition to verify before advancing." },
+      { "label": "STOP", "text": "Any single structural blocker confirmed. Specific finding, named and sourced." }
+    ],
+    "samplesLabel": "See the output",
+    "samplesTitle": "Three companies. Three verdicts. Real format.",
+    "samplesSub": "These are sample Signal Briefs — fictional companies, real format. Each one shows a different verdict: ADVANCE, CONDITIONAL, and STOP. Click through to see exactly what your team receives at the end of each engagement.",
+    "viewSample": "View Sample →",
+    "fitLabel": "Built for your deal flow",
+    "fitTitle": "Where Soundcheck fits in your process.",
+    "earlyStage": {
+      "title": "Early-Stage Funds",
+      "desc": "You move fast and evaluate volume. Soundcheck fits between initial screening and the first internal deep-dive — the moment when a company passes the pitch test but hasn't been stress-tested by anyone outside the firm.",
+      "bestFor": "Best for:",
+      "items": [
+        "Pre-seed through Series B triage",
+        "Deals sourced outside your core network",
+        "Markets where your team lacks deep domain familiarity",
+        "Verifying NRR and retention claims before committing associate hours"
+      ]
+    },
+    "growthStage": {
+      "title": "Growth-Stage Funds",
+      "desc": "At Series B and beyond, the pitch gets more polished but the fundamentals don't always keep up. Soundcheck surfaces discrepancies between what the founder says and what a real customer confirms, before your partners commit time.",
+      "bestFor": "Best for:",
+      "items": [
+        "Series B+ evaluation and follow-on decisions",
+        "Deals where the deck looks strong but references feel curated",
+        "Sectors outside your partners' primary expertise",
+        "First-pass validation before engaging the full diligence team"
+      ]
+    },
+    "faqLabel": "Common questions",
+    "faqTitle": "Straight answers.",
+    "faqs": [
+      { "q": "Does the company know they're being evaluated?", "a": "They know they're participating in a structured market intelligence process on behalf of an investor. We don't identify the investor firm. The company is told upfront that this includes an independent customer interview — they provide 5 names, we choose who we call." },
+      { "q": "What if the company refuses the customer interview?", "a": "A refusal gets noted in the Signal Brief and flagged as a transparency concern. It shifts the verdict toward CONDITIONAL at best. A company that won't let a customer speak independently is telling you something." },
+      { "q": "How is this different from what your analysts already do in round one?", "a": "Your analysts probably have some version of this conversation informally. Soundcheck makes it structured, consistent, and documented — with a contradiction log that catches discrepancies across two separate calls, and a one-page output that travels cleanly to IC without a 20-minute briefing." },
+      { "q": "Can we run this without the company knowing we're evaluating them?", "a": "No. Both interviews require the company's participation and consent to record. The framing is neutral — \"structured investment intelligence process\" — but they are aware. The value comes from the structured extraction and the independent customer source, not from surprise." },
+      { "q": "What's the turnaround if we need it faster?", "a": "Standard is 7 business days from the date both interviews are completed. Rush delivery (3 business days) is available for an additional US$1,000 — subject to availability. Contact us before briefing to confirm." },
+      { "q": "Do you offer volume pricing?", "a": "Yes. Firms running 5 or more evaluations per quarter qualify for volume pricing. We also offer white-label delivery — the Full Intelligence Report and Signal Brief under your firm's branding. Talk to us about what fits your pipeline volume." }
+    ],
+    "ctaTitle": "Your next deal is already in your pipeline.\nFind out if it deserves your team's time.",
+    "ctaButton": "Request an Engagement →",
+    "ctaLink": "Or view sample Signal Briefs first →"
+  },
+  "contact": {
+    "heroLabel": "Get in Touch",
+    "heroTitle": "Ready to brief us?",
+    "heroSub": "For partnership inquiries, product briefs, and general questions. Every message is reviewed and responded to within one business day.",
+    "sendMessage": "Send us a message",
+    "noCommitment": "No commitment required. Response within 2 business days.",
+    "sendButton": "Send Message →",
+    "directContact": "Direct Contact",
+    "directDesc": "Prefer to reach out directly? We're reachable by email or LinkedIn.",
+    "linkedinLabel": "Valter Klug on LinkedIn",
+    "whatHappens": "What Happens After You Write",
+    "valterTitle": "Valter Klug",
+    "valterSub": "Founder · Soundcheck Insights · Miami",
+    "valterDesc": "Valter reviews every message personally. If there's a fit, he'll reply with a short note and a calendar link within one business day. If Soundcheck isn't the right solution, he'll tell you honestly — and point you to the right partner.",
+    "lookingDifferent": "Looking for a Different Service?",
+    "lookingDesc": "Soundcheck focuses on market research and intelligence. For marketing strategy, US entity setup, logistics, or franchise expansion, visit our partner network.",
+    "seePartners": "See all partners →"
+  },
+  "partner": {
+    "heroLabel": "Partner with Us",
+    "heroTitle": "Add Soundcheck to your practice.\nStart with one report.",
+    "heroSub": "Tell us about your company. We'll walk you through platform access, pricing, and how to run your first report — typically on an existing client within your first week.",
+    "formTitle": "Tell us about your company",
+    "formSub": "Every access request is reviewed personally by Valter. If there's a fit, you'll hear back within two business days.",
+    "submitButton": "Submit Partnership Inquiry →",
+    "whatHappens": "What Happens Next",
+    "steps": [
+      { "num": "01", "title": "We review your inquiry", "body": "Within one business day. Every inquiry read personally by Valter." },
+      { "num": "02", "title": "Discovery call (30 min)", "body": "We walk through the platform, your client types, and which product makes most sense to start with." },
+      { "num": "03", "title": "First report — live practice", "body": "Most operators run their first report on an existing client. You see the full workflow in practice." },
+      { "num": "04", "title": "Platform access confirmed", "body": "Simple, clear terms. Pay-per-report to start, or monthly access. No long-term lock-in." }
+    ],
+    "valterQuote": "\"I built this platform by running every report myself first. I review every platform access inquiry personally — and walk new operators through their first report.\"",
+    "preferTalk": "Prefer to talk first?",
+    "reachOut": "Reach out directly or connect on LinkedIn."
+  },
+  "ourPartners": {
+    "heroLabel": "Our Partner Network",
+    "heroTitle": "We'll point you to\nthe right expert.",
+    "heroSub": "Soundcheck Insights focuses on market intelligence and research. If what you need falls outside that scope, here are trusted partners we work with directly — each a specialist in their field.",
+    "forBrands": "For brands and businesses:",
+    "forBrandsDesc": "If you're not an agency but need help entering the US market, this page will help you find the right expert faster.",
+    "findPartner": "Find the Right Partner for Your Challenge",
+    "whenToReach": "When to reach out",
+    "startBrief": "Start a brief →",
+    "ctaTitle": "Not sure which partner you need?",
+    "ctaSub": "Send us a message and describe your situation. We'll tell you honestly whether Soundcheck is the right fit — and if not, we'll point you directly to the right person. No runaround, no sales pitch.",
+    "ctaButton": "Talk to the Team →",
+    "partners": [
+      { "cat": "Marketing Strategy · Fractional CMO", "name": "Valter Klug — Chameleon Collective", "desc": "If you need marketing leadership, brand strategy, US market expansion strategy, or a fractional CMO — Valter is the right conversation. He operates through Chameleon Collective and leads engagements directly. 25+ years across Brazil, the UK, and the US.", "when": "Marketing leadership gaps, brand positioning for US launch, fractional CMO, campaign strategy, international brand expansion from Brazil or LATAM to the US." },
+      { "cat": "US Business Setup · Legal & Admin", "name": "Oxford USA — Fast Track", "desc": "For Brazilian or Latin American companies that need to establish a legal entity in the United States — corporate structure, tax planning, bank accounts, and immigration support.", "when": "Entity setup, tax planning, US bank accounts, immigration support, business registration." },
+      { "cat": "Trade · Logistics · Customs", "name": "ITS Company", "desc": "For brands moving product between Brazil and the US — import/export operations, customs clearance, freight management, and supply chain logistics. The operational backbone behind market entry.", "when": "Import/export of physical goods, customs clearance, freight management, supply chain setup." },
+      { "cat": "Fulfillment · 3PL · Warehousing", "name": "Connection Group USA", "desc": "For international companies that need hands-on fulfillment and logistics operations in the US — warehousing, order fulfillment, shipping, and 3PL services. While ITS handles the strategic planning and customs side, Connection Group is the operational partner that stores, picks, packs, and ships your product once it lands.", "when": "US warehousing and storage, order fulfillment, 3PL operations, pick-and-pack, domestic shipping, e-commerce logistics." },
+      { "cat": "Franchise Expansion", "name": "Global Franchise", "desc": "For brands that want to grow through a franchise model internationally — franchise structure design, legal framework, franchisee recruitment, and market launch strategy across multiple geographies.", "when": "International franchise expansion, franchise model design, franchisee recruitment, multi-market franchise launch." },
+      { "cat": "CPG Retail · US Distribution", "name": "Go To Market BD", "desc": "For Brazilian CPG brands that need a path into US retail distribution — broker relationships, shelf placement strategy, buyer introductions, and retail channel development across major US channels.", "when": "US retail shelf placement, distributor and broker relationships, CPG distribution strategy." },
+      { "cat": "Market Intelligence · Research", "name": "Soundcheck Insights (You're here)", "desc": "For brands or agencies that need market research, expansion viability analysis, competitive intelligence, or AI-powered customer insights — this is the right place.", "when": "Market entry viability, competitive landscape research, business plan development, AI virtual focus groups, funding vetting." }
+    ]
+  },
+  "resources": {
+    "heroLabel": "Resources · For Agencies & Consultancies",
+    "heroTitle": "Intelligence you can use\nbefore you brief us.",
+    "heroSub": "Whitepapers, guides, and briefings on market research methodology, US market entry, and competitive intelligence — written for agency strategists and consultants.",
+    "featuredLabel": "Featured Whitepaper",
+    "featuredBadge": "Whitepaper · 18 pages",
+    "featuredTitle": "Why Research is the First Investment in Any US Market Entry",
+    "featuredMeta": ["Q1 2026", "12 min read"],
+    "featuredDesc": "The five most common ways brands waste capital entering the US market — and how agencies can position research as a non-optional first step in every expansion engagement. Includes the Expansion Viability framework and a client conversation guide.",
+    "toc": "Table of Contents",
+    "allResources": "All Resources",
+    "download": "Download",
+    "close": "Close",
+    "readArticle": "Read article →",
+    "newsletterLabel": "Monthly Intelligence Briefing",
+    "newsletterTitle": "Get our monthly market intelligence briefing.",
+    "newsletterDesc": "Category shifts, research methodology updates, and competitive intelligence signals — one email per month, written for agency strategists.",
+    "subscribeMeta": "Subscribe · Monthly · Free",
+    "subscribePlaceholder": "your@agency.com",
+    "subscribeButton": "Subscribe →",
+    "subscribing": "Subscribing…",
+    "subscribeSuccess": "✓ You're on the list. First briefing arrives next month.",
+    "subscribeFooter": "Monthly. No spam. Unsubscribe anytime."
+  },
+  "businessPlan": {
+    "heroLabel": "Product Deep-Dive · Business Plan",
+    "heroTitle": "A business plan built for\nthe reader who decides.",
+    "heroSub": "Not a template. Not a pitch deck. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. Every claim sourced. Every projection documented. Every section weighted for the specific reader who will make the decision.",
+    "briefButton": "Brief This Plan →",
+    "seePlanTypes": "See Plan Types →",
+    "heroStats": [
+      { "num": "10-14", "label": "DAYS", "sub": "from intake to delivery" },
+      { "num": "6", "label": "PLAN TYPES", "sub": "audience-specific configurations" },
+      { "num": "10", "label": "SECTIONS", "sub": "every claim sourced" }
+    ],
+    "whoLabel": "Built for real decisions",
+    "whoTitle": "Who commissions this plan.",
+    "whoItems": [
+      { "title": "Entrepreneurs and founders", "text": "You need a professional plan to raise capital, secure a loan, or align your team around a strategy. Not a template filled with generic language. A document built from your actual business data and independent market research." },
+      { "title": "International investors seeking US visas", "text": "E-2, EB-5, or L-1A. Your immigration attorney needs a business plan that meets the Matter of Ho standard. We produce the plan. Your attorney files the petition." },
+      { "title": "Agencies and consultancies", "text": "Your client needs a business plan. You need a research-grade document to deliver under your brand. The white-label version ships ready for your client's leadership team." }
+    ],
+    "typesLabel": "6 audience-specific configurations",
+    "typesTitle": "One structure. Six configurations.",
+    "typesSub": "Every plan follows the same 10-section core structure. But the emphasis, depth, financial projection horizon, and supporting evidence requirements adapt to the audience. The intake questionnaire determines which configuration applies.",
+    "planTypes": [
+      { "type": "Type A", "name": "Investor Plan", "subname": "VC / Angel", "desc": "Unit economics, TAM/SAM/SOM, competitive moat, team, exit thesis. 3-5 year projections with monthly Year 1 detail. 20-35 pages." },
+      { "type": "Type B", "name": "Bank / SBA Loan Plan", "desc": "Cash flow projections, debt service coverage, collateral, owner experience, use of funds. Monthly Year 1, quarterly Year 2. 20-40 pages." },
+      { "type": "Type C", "name": "Immigration Plan", "subname": "E-2 / EB-5 / L-1A", "desc": "Legal defensibility under the Matter of Ho standard. Job creation, economic impact, 5-year projections, 30-50% appendix of supporting exhibits. 30-60+ pages." },
+      { "type": "Type D", "name": "Franchise Plan", "desc": "FDD Item 7 and Item 19 alignment. Territory analysis, royalty-adjusted unit economics, franchisor performance data. 20-35 pages." },
+      { "type": "Type E", "name": "CPG / Consumer Product", "desc": "Distribution strategy (retail, DTC, Amazon), COGS and margin structure, supply chain, FDA/labeling compliance, go-to-market by channel. 25-40 pages." },
+      { "type": "Type F", "name": "Founder's Internal Plan", "desc": "Strategic clarity for the founding team. No external audience. Shorter, more direct. Honest gap assessment. 10-20 pages." }
+    ],
+    "insideLabel": "10 sections. Every claim sourced.",
+    "insideTitle": "What's inside the plan.",
+    "insideSub": "All plan types follow this 10-section structure. Emphasis and depth vary by audience configuration.",
+    "sections": [
+      { "num": "1", "title": "Executive Summary", "sub": "The decision page.", "items": ["Business overview, problem/opportunity, solution, market snapshot.", "Team credentials and key milestones to date.", "Financial snapshot with the specific ask (if fundraising).", "The single most important thing the reader needs to know."] },
+      { "num": "2", "title": "Company Description", "sub": "Who you are and where you stand.", "items": ["Legal entity, founding story, mission, vision, current stage.", "Location, ownership structure, key milestones.", "What makes this company real, not theoretical."] },
+      { "num": "3", "title": "Products & Services", "sub": "What you sell and why it matters.", "items": ["Features, benefits, development stage, product roadmap.", "IP, patents, or proprietary technology (if applicable).", "Regulatory requirements and compliance status."] },
+      { "num": "4", "title": "Market Analysis", "sub": "The largest section. Every number sourced.", "items": ["TAM / SAM / SOM with calculation logic and confidence labels.", "Market trends, growth drivers, timing factors.", "Target customer profile with segments, triggers, and barriers."] },
+      { "num": "5", "title": "Competitive Analysis", "sub": "Who else solves this problem.", "items": ["3 to 8 direct competitors profiled with positioning and pricing.", "Competitive matrix with differentiation strategy.", "Switching costs and moat assessment."] },
+      { "num": "6", "title": "Marketing & Sales Strategy", "sub": "How you acquire and keep customers.", "items": ["Customer acquisition channels with CAC targets.", "Pricing strategy with margin analysis.", "Go-to-market timeline and launch sequencing."] },
+      { "num": "7", "title": "Operations Plan", "sub": "How the business actually runs.", "items": ["Facilities, supply chain, technology stack, key processes.", "Staffing plan with hiring timeline.", "For immigration plans: detailed job creation plan with BLS-sourced wages."] },
+      { "num": "8", "title": "Organization & Management", "sub": "The team behind the plan.", "items": ["Team bios and organizational chart (current and projected).", "Advisory board and key hires planned.", "Gap analysis: what roles are missing and when they get filled."] },
+      { "num": "9", "title": "Financial Projections", "sub": "The numbers that matter.", "items": ["Income statement, cash flow, balance sheet (3-5 years).", "Documented assumptions for every line item.", "Scenario analysis: conservative, base, and upside.", "Break-even analysis with unit economics.", "For bank plans: debt service coverage ratio. For immigration: 5-year minimum."] },
+      { "num": "10", "title": "Appendix & Exhibits", "sub": "Full transparency.", "items": ["Resumes, market research sources, contracts, letters of intent.", "For immigration plans: proof of investment source, property documentation.", "Job descriptions, BLS wage data, organizational charts.", "Every assumption or proxy used, logged with confidence levels."] }
+    ],
+    "delivLabel": "What you receive",
+    "delivTitle": "The full delivery package.",
+    "fullPlanTitle": "Full Business Plan",
+    "fullPlanDesc": "Professional .docx format, audience-formatted and white-label ready. 10-section structure with sourced claims, documented assumptions, and confidence-labeled projections throughout.",
+    "fullPlanItems": ["10-section MECE structure", "Audience-specific emphasis and depth", "Confidence-labeled projections", "Sourced market and competitive data", "Immigration appendix with exhibits (Type C)", "White-label ready"],
+    "execTitle": "Executive Summary One-Pager",
+    "execDesc": "A condensed visual version of the key findings. Business snapshot, market opportunity, financial highlights, team overview, and the specific ask. Designed for investor meetings, board presentations, and partner conversations.",
+    "execItems": ["Business snapshot with key metrics", "Market opportunity sizing", "Financial highlights and projections", "Team overview", "The specific ask (fundraising, loan, visa)", "Designed for screen and print"],
+    "pricingLabel": "Pricing & delivery",
+    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
+    "price": "US$5,000+",
+    "perPlan": "per plan",
+    "pricingDetails": [
+      { "title": "10-14 day delivery", "sub": "From intake to final plan" },
+      { "title": "White-label included", "sub": "Delivered under your brand" },
+      { "title": "1 revision round", "sub": "Included in the base price" }
+    ],
+    "faqLabel": "Common questions",
+    "faqTitle": "Straight answers.",
+    "faqs": [
+      { "q": "What information do you need from us to start?", "a": "We send you a structured intake questionnaire covering your business, market, team, financials, and the specific audience for the plan. Most clients complete it in 45 to 60 minutes. After we review it, we schedule a 60 to 90 minute stakeholder interview to fill gaps and pressure-test key assumptions." },
+      { "q": "How is this different from a business plan template?", "a": "Templates give you a structure to fill in yourself. This product gives you a finished, professional document built from structured data collection, a stakeholder interview, and independent market and competitive research. Every claim is sourced. Every financial projection carries documented assumptions. The plan is formatted and weighted for the specific audience that will read it." },
+      { "q": "Do you write immigration business plans?", "a": "Yes. We produce business plans for E-2 Treaty Investor, EB-5 Immigrant Investor, and L-1A Intracompany Transferee (New Office) visa applications. The plan meets the Matter of Ho legal standard with job creation projections, economic impact evidence, and an appendix of supporting exhibits. We do not provide legal advice. Your immigration attorney is responsible for the legal strategy and petition filing." },
+      { "q": "Can our agency white-label this?", "a": "Yes. The plan is designed for white-label delivery. We provide it under your brand, your cover page, your agency name. Your client never sees Soundcheck Insights unless you want them to." },
+      { "q": "What if my client needs changes after delivery?", "a": "One revision round is included in the base price. If the client wants to adjust assumptions, explore a different scenario, or update the financial projections, we can update the relevant sections. Additional revision rounds are available at a flat rate." },
+      { "q": "What languages are available?", "a": "English is the default. Spanish and Brazilian Portuguese are also available. Contact us to confirm availability and timeline for your target language." }
+    ],
+    "ctaTitle": "Your plan should be as serious\nas your ambition.",
+    "ctaButton": "Brief This Plan →",
+    "ctaLink": "Or explore all research products →"
+  },
+  "growthRoadmap": {
+    "heroLabel": "Product Deep-Dive · US Growth Roadmap",
+    "heroTitle": "Reignite Your Business Growth\nwith a Clear, Evidence-Based Roadmap",
+    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — delivered in 14 days.",
+    "briefButton": "Brief This Report →",
+    "seeSegments": "See Both Segments →",
+    "heroStats": [
+      { "num": "40–60+", "label": "PAGES", "sub": "sourced research and strategy" },
+      { "num": "14", "label": "DAYS", "sub": "from intake to delivery" },
+      { "num": "US$5k+", "label": "", "sub": "white-label included" }
+    ],
+    "segmentsLabel": "Two segments. One methodology.",
+    "segmentsTitle": "Built for how your business actually works.",
+    "segmentsSub": "A B2B service company and a CPG brand face different growth blockers. The research methodology is the same — market analysis, competitive intelligence, whitespace identification, growth levers — but the lens, the data sources, and the recommendations are calibrated to your business model.",
+    "theProblem": "The Problem",
+    "builtForYouIf": "This report is built for you if:",
+    "whatYouGet": "What You Get",
+    "keyDeliverables": "Key deliverables for this segment:",
+    "examples": "Examples:",
+    "segments": [
+      {
+        "id": "b2b",
+        "icon": "🏭",
+        "label": "B2B Services & Manufacturing",
+        "tagline": "For businesses where bookings fluctuate, no-shows erode margins, and marketing spend doesn't translate to demand.",
+        "color": "var(--teal)",
+        "painPoints": ["Revenue fluctuates month to month with no clear pattern", "Marketing spend isn't converting — you're spending but not growing", "No-shows and cancellations erode margins unpredictably", "You know you need to grow but don't know which lever to pull first"],
+        "deliverables": ["Top 3–5 Growth Moves (Ranked) — prioritized by impact and feasibility for your specific business", "Clear Investment Estimates — what each move costs, what it returns, and when", "Reality Check (Competitive Benchmark) — how you stack up and where the whitespace is", "Next-Week Action Plan — specific, assigned actions you can start immediately"],
+        "examples": "Home services, B2B contractors, healthcare practices, professional services, local manufacturing, fitness and wellness studios, specialty trades."
+      },
+      {
+        "id": "cpg",
+        "icon": "📦",
+        "label": "Consumer Packaged Goods",
+        "tagline": "For CPG brands where channels are active but growth is flat — Amazon, retail, and DTC working in pieces but not compounding.",
+        "color": "var(--orange)",
+        "painPoints": ["Amazon, retail, and DTC are all active — but none are scaling", "Channels work in pieces but don't compound into real growth", "Category is competitive and shelf space is getting harder to hold", "You're spread across channels without a clear priority framework"],
+        "deliverables": ["Top 3–5 Growth Moves (Ranked) — prioritized by category dynamics and channel opportunity", "Clear Investment Estimates — per-channel investment with expected return ranges", "Competitive and Category Reality Check — where you win, where you don't, and why", "Channel Focus and Scaling Plan — which channels to double down on and which to deprioritize"],
+        "examples": "Food and beverage brands, health and beauty, supplements, household products, pet products, specialty consumer goods."
+      }
+    ],
+    "insideLabel": "8 sections. Every claim sourced.",
+    "insideTitle": "What's inside the report.",
+    "insideSub": "Each section answers a specific strategic question. The report is designed to be read top to bottom for the full picture, or section by section as your team needs specific answers.",
+    "principlesLabel": "Our standards",
+    "principlesTitle": "How we build every report.",
+    "principlesSub": "Six operating principles govern every report we produce. These aren't aspirational. They're enforced at every stage of generation, review, and delivery.",
+    "principles": [
+      { "title": "Decision-grade, not forensic", "desc": "Public sources and lightweight proxies for 80/20 answers. Confidence labeled on every major claim: HIGH, MED, or LOW." },
+      { "title": "Evidence first", "desc": "Every market claim requires a data point, benchmark, or precedent with source name and date." },
+      { "title": "Built for action", "desc": "Every section ends with what to do, not just what we found. Recommendations are specific, sequenced, and costed." },
+      { "title": "Honest assessment", "desc": "If a move won't pay back fast enough, we'll say so. If your differentiation doesn't hold up, you'll know." },
+      { "title": "Model-first logic", "desc": "Your business model is identified first. Every recommendation is calibrated to how you actually sell." },
+      { "title": "Full transparency", "desc": "Every assumption, proxy, and estimation is logged. You know exactly what's proven and what's inferred." }
+    ],
+    "delivLabel": "What you receive",
+    "delivTitle": "The full delivery package.",
+    "reportTitle": "In-Depth Growth Viability Report",
+    "reportDesc": "40–60+ pages covering all 8 sections. Professional .docx format, white-labeled under your brand. Every claim sourced, every recommendation costed, every growth lever ranked.",
+    "reportItems": ["8-section structure with MECE coverage", "Competitive matrix with 5–10 benchmarks", "Ranked growth levers with investment estimates", "Whitespace analysis with market evidence", "90-day action plan with assigned actions", "Assumptions log for full transparency"],
+    "presTitle": "Executive Presentation & Q&A",
+    "presDesc": "A condensed visual presentation of the key findings and recommendations. Designed for leadership conversations, board meetings, and internal alignment. Includes a live Q&A walkthrough with the research team.",
+    "presItems": ["Top growth moves with expected ROI ranges", "Competitive positioning visual", "Investment vs. return framework", "Channel priority matrix", "90-day roadmap summary", "Live Q&A session included"],
+    "pricingLabel": "Pricing & delivery",
+    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
+    "price": "US$5,000+",
+    "perReport": "per report",
+    "pricingDetails": [
+      { "title": "14-day delivery", "sub": "From intake form to final report" },
+      { "title": "White-label included", "sub": "Delivered under your brand" },
+      { "title": "1 revision round", "sub": "Included in the base price" }
+    ],
+    "sections": [
+      { "num": "1", "title": "Executive Summary", "sub": "The decision page.", "items": ["Business snapshot: what you sell, your current scale, channels, and why growth has stalled.", "Top 3–5 Growth Moves ranked by impact and feasibility, each with expected ROI range.", "Clear investment estimates: what each move costs, what it returns, and when.", "A recommended starting point backed by market evidence and your competitive position."] },
+      { "num": "2", "title": "Market & Category Analysis", "sub": "Where the opportunity actually sits.", "items": ["Category size, growth trajectory, and demand signals in your operating geography.", "Customer segmentation: who buys, how often, what triggers switching, and what they value.", "Channel dynamics: which channels are growing, which are saturating, and where margin lives.", "Regulatory or structural shifts creating new openings or closing old ones."] },
+      { "num": "3", "title": "Competitive Landscape", "sub": "Who you're really competing with.", "items": ["5–10 primary and secondary competitors identified through market research.", "Competitive matrix: positioning, pricing, channel presence, strengths, and vulnerabilities.", "Whitespace analysis: 2–3 genuine gaps where demand exists but supply is weak or absent.", "Threat assessment: which competitors are moving, where, and how fast."] },
+      { "num": "4", "title": "Company Differentiation Analysis", "sub": "What makes you different — and what doesn't.", "items": ["Honest assessment of your current positioning relative to direct competitors.", "Differentiation audit: which claims hold up under scrutiny and which are table stakes.", "Customer perception signals: what your market actually values vs. what you're selling.", "Repositioning opportunities: angles that are defensible, provable, and underserved."] },
+      { "num": "5", "title": "Growth Levers & Strategic Recommendations", "sub": "What to do, in what order, and why.", "items": ["Top 3–5 growth levers ranked by expected impact, investment required, and time to results.", "Each lever includes: hypothesis, target metric, resources needed, expected outcome range, and a go/no-go gate.", "Channel-specific tactics: where to double down, where to pull back, and where to experiment.", "Pricing and packaging opportunities: adjustments that unlock revenue without new customer acquisition."] },
+      { "num": "6", "title": "Investment Estimates & ROI Framework", "sub": "What it costs. What it returns.", "items": ["Per-lever investment breakdown: marketing spend, operational cost, technology, and people.", "Conservative, base, and optimistic return scenarios for each recommended move.", "Payback period estimates and break-even thresholds.", "Budget allocation framework: how to distribute investment across levers for maximum impact."] },
+      { "num": "7", "title": "Action Plan & Next Steps", "sub": "Your 90-day roadmap.", "items": ["30 Days: 3 immediate actions — specific, assigned, and measurable.", "60 Days: 3 build actions moving from setup to execution.", "90 Days: 3 scale actions producing your first measurable growth signals.", "KPIs to track, decisions required from leadership, and the single metric that matters most at Day 30."] },
+      { "num": "8", "title": "Assumptions & Gaps Log", "sub": "Full transparency on what we know and what we estimated.", "items": ["Every assumption or proxy used in the analysis, logged with rationale.", "Why the data point is missing, the proxy used, the source, confidence level, and its impact on recommendations."] }
+    ],
+    "faqLabel": "Common questions",
+    "faqTitle": "Straight answers.",
+    "faqs": [
+      { "q": "What information do you need from us to start?", "a": "We send you a structured intake form covering your product or service line, current revenue and channels, competitive landscape as you see it, and growth goals. Most clients complete it in 30 to 45 minutes. If anything is missing, we proceed using secondary research and proxy benchmarks, and log every assumption explicitly in the report." },
+      { "q": "How is this different from hiring a consultant?", "a": "A consultant gives you one opinion and charges monthly. This delivers a structured, evidence-based growth roadmap with ranked moves, investment estimates, and an action plan — in 14 days, at a fixed price. Every recommendation is sourced, not just experienced. And you get the full methodology, not a black box." },
+      { "q": "Is this only for US-based businesses?", "a": "The core methodology works for any geography, but our deepest data coverage is in the US market. For US-based small and mid-size businesses, we have the strongest secondary data access and competitive intelligence. International businesses operating in the US are also a strong fit." },
+      { "q": "What if we already know our competitors?", "a": "Good — that saves time on the intake. But most businesses underestimate their competitive set. We independently identify 5–10 competitors through market research, which often surfaces indirect competitors or emerging threats that weren't on your radar. The competitive matrix is one of the most valued sections." },
+      { "q": "Can our agency white-label this and deliver it to our client?", "a": "Yes. The report is designed for white-label delivery. We provide it under your brand, your cover page, your agency name. Your client never sees Soundcheck Insights unless you want them to." },
+      { "q": "What do we get at the end?", "a": "Two deliverables: a full In-Depth Viability Report (40–60+ pages, .docx, white-labeled) and an Executive Presentation for leadership or board conversations. Both are delivered within 14 days. One revision round is included." }
+    ],
+    "ctaTitle": "Growth doesn't restart by accident.\nKnow exactly where to invest next.",
+    "ctaButton": "Brief This Report →",
+    "ctaLink": "Or explore all research products →"
+  },
+  "expansionReport": {},
+  "ideaValidation": {},
+  "usMarketArticle": {}
+}

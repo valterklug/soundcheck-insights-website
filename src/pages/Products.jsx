@@ -1,131 +1,9 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '../components/Animate'
-
-const products = [
-  {
-    num: '01',
-    for: 'International Brands · Market Entry',
-    name: 'International Expansion Viability Report',
-    desc: 'Decision-grade market entry intelligence for international brands. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages, white-labeled, in 14 days.',
-    price: 'Suggested price: US$5k+',
-    delivery: '14-day delivery · White-label included · 1 revision',
-    featured: true,
-    cta: { label: 'See Full Report Details →', to: '/expansion-report' },
-    deliverables: [
-      'CVE Score (Coefficient of Viability of Expansion) — 3-dimension weighted scoring (0 to 100)',
-      'Executive Summary — 5 critical insights + 3 strategic paths with recommended entry mode',
-      'Business & Brand Assessment — product-market fit, pricing architecture, positioning',
-      'Market & Category Intelligence — TAM/SAM/SOM, Porter\'s Five Forces, competitive benchmarking, buyer landscape',
-      'Strategic Entry & Growth Plan — 12-month roadmap with unit economics and go/no-go gates',
-      'Risks & Watchpoints — scored, ranked, and mitigated',
-      '100+ Page Report + Visual Executive Summary (white-labeled)',
-    ],
-    sample: {
-      type: 'evc',
-      score: '72%',
-      verdict: 'Conditional Go · Strong Data Signals',
-      bars: [['Market Fit', 80], ['Channel Access', 70], ['Brand Relevance', 75]],
-    },
-  },
-  {
-    num: '02',
-    for: 'Entrepreneurs · Founders · Serial Entrepreneurs',
-    name: 'Idea Validation Analysis',
-    tagline: 'Know if your idea has a market before you spend a dollar building it.',
-    desc: 'Fill out a 10-minute form describing your idea. Soundcheck\'s AI runs independent market research, analyzes the competition, sizes the opportunity, and estimates what your target customer would pay. You receive a full analysis and a one-page Summary Card in 48 hours.',
-    price: 'US$799 per analysis',
-    delivery: '48-hour delivery after form submission · Fully automated',
-    cta: { label: 'Validate Your Idea →', to: '/idea-validation' },
-    deliverables: [
-      'Problem Validation — is this a Tier 1 problem with real market demand?',
-      'Market Sizing — TAM, SAM, SOM for your target geography',
-      'Competition Reality Check — who already solves this and where the whitespace is',
-      'Customer & WTP Analysis — who would buy this and how much they\'d pay',
-      'IVS Score + Next Steps — Idea Viability Score (0 to 100) and 3 specific actions',
-    ],
-    sample: {
-      type: 'ivs',
-      score: 68,
-      tier: 'Worth Exploring',
-      sub: 'Promising. Key uncertainties remain.',
-      bars: [['Problem Validity', 80], ['Market Opportunity', 65], ['Competitive Whitespace', 50], ['Customer Demand Signals', 70], ['Idea Differentiation', 55]],
-    },
-  },
-  {
-    num: '03',
-    for: 'Entrepreneurs · Investors · Immigration Applicants',
-    name: 'Business Plan Development',
-    tagline: 'A business plan built for the reader who decides.',
-    desc: 'Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder\'s Internal. Every claim sourced. Every projection documented.',
-    price: 'US$5,000+ per plan',
-    delivery: '10-14 day delivery · White-label included · 1 revision',
-    cta: { label: 'See Full Plan Details →', to: '/business-plan' },
-    deliverables: [
-      'Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data',
-      'Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask',
-    ],
-  },
-  {
-    num: '04',
-    for: 'Agencies · Consultancies · Marketing Depts',
-    name: 'AI Virtual Focus Groups',
-    desc: 'Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Delivered in days.',
-    price: 'Persona Definition: US$3k · Focus Group Session: US$2k+',
-    delivery: '1–7 day delivery · White-label included',
-    deliverables: [
-      '3–10 custom AI personas based on exact target demographics',
-      'Moderated discussion transcript — no loudest-voice bias',
-      'Executive summary with key findings and recommendations',
-      'Persona-specific reactions — segment-level decision support',
-      'Reusable persona panel — deploy again for future sessions',
-    ],
-    sample: {
-      type: 'personas',
-      personas: [
-        { label: 'Persona A · Maria, 34 · Miami CPG Buyer', quote: '"The packaging looks premium but I\'d need to understand the ingredients story before I\'d try it."' },
-        { label: 'Persona B · James, 28 · Health-Conscious Urban', quote: '"Price point feels right for the category. The brand story needs more."' },
-      ],
-    },
-  },
-  {
-    num: '05',
-    for: 'B2B Services · CPG Brands · US Market',
-    name: 'US Growth Roadmap',
-    tagline: 'You\'re selling. You\'re not growing. That\'s a fixable problem.',
-    desc: 'For B2B service companies and CPG brands that have stalled in the US market. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan. Proprietary GPS Score (0 to 100) across Market Opportunity, Competitive Position, and Internal Readiness.',
-    price: 'US$5,000+ per report',
-    delivery: '14-day delivery · White-label included · 1 revision',
-    cta: { label: 'See Full Report Details →', to: '/growth-roadmap' },
-    deliverables: [
-      'In-Depth Growth Report — 40-60+ pages, 8-section DMAIC-inspired structure, GPS Score, ranked growth levers, 90-day action plan',
-      'Executive Presentation & Q&A — condensed visual presentation for leadership with live walkthrough',
-      '1-Page Action Sheet — specific, assigned actions for the first week with one success metric for Day 30',
-    ],
-    sample: {
-      type: 'growth',
-    },
-  },
-  {
-    num: '06',
-    for: 'Venture Capital Firms · Growth Equity · Angel Syndicates · Corporate Venture',
-    name: 'Funding Vetting Analysis',
-    desc: 'Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team\'s time before you spend it.',
-    price: 'US$3,000 per company',
-    delivery: '7-day delivery from completed interviews · Volume discounts available',
-    cta: { label: 'See How It Works →', to: '/for-investors' },
-    deliverables: [
-      'Full Intelligence Report — 10-section evidence record from both interviews with contradiction log',
-      'Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict with sourced evidence',
-    ],
-    sample: {
-      type: 'signal',
-      verdict: 'ADVANCE',
-      signals: [['Market Reality', 'Strong'], ['Revenue Quality', 'Strong'], ['No Deal-Killers', 'Flagged']],
-    },
-  },
-]
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 function EvcSample({ data }) {
   return (
@@ -258,15 +136,26 @@ function PersonaSample({ data }) {
 }
 
 export default function Products() {
+  const { t } = useTranslation()
+  const location = useLocation()
+  const lang = getLangFromPath(location.pathname)
+
   const [expanded, setExpanded] = useState(null)
+
+  // Get translated products array and process links
+  const productsData = t('products.items', { returnObjects: true })
+  const products = productsData.map(p => ({
+    ...p,
+    link: getLocalizedPath(p.link || '/contact', lang)
+  }))
 
   return (
     <PageWrapper>
       <section className="page-hero">
         <div className="page-hero-inner">
-          <span className="sc-label">Research Products</span>
-          <h1 className="page-h1">Intelligence your agency deploys.<br />Results your clients remember.</h1>
-          <p className="page-sub">Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 48 hours. You set the price for your clients.</p>
+          <span className="sc-label">{t('products.heroLabel')}</span>
+          <h1 className="page-h1">{t('products.heroTitle')}</h1>
+          <p className="page-sub">{t('products.heroSub')}</p>
         </div>
       </section>
 
@@ -295,8 +184,8 @@ export default function Products() {
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                       </div>
-                      <Link to={p.cta?.to || '/contact'} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
-                        {p.cta?.label || 'Brief This Product →'}
+                      <Link to={p.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
+                        {p.ctaLabel || t('products.briefProduct')}
                       </Link>
                     </div>
                   </div>
@@ -311,7 +200,7 @@ export default function Products() {
                       style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'none', border: '1px solid rgba(255,255,255,0.1)', color: 'rgba(255,255,255,0.5)', padding: '8px 14px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', cursor: 'pointer', borderRadius: 3, transition: 'all 0.2s' }}
                     >
                       <motion.span animate={{ rotate: expanded === i ? 90 : 0 }} style={{ display: 'inline-block', fontSize: 12 }}>›</motion.span>
-                      {expanded === i ? 'Hide' : 'View'} What's Delivered
+                      {expanded === i ? t('products.hideDeliverables') : t('products.viewDeliverables')}
                     </button>
 
                     <AnimatePresence>
@@ -324,7 +213,7 @@ export default function Products() {
                           style={{ overflow: 'hidden' }}
                         >
                           <div style={{ marginTop: 16 }}>
-                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 10 }}>What's Delivered</div>
+                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 10 }}>{t('products.whatsDelivered')}</div>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                               {p.deliverables.map(d => (
                                 <div key={d} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '9px 12px', background: 'rgba(255,255,255,0.025)' }}>
@@ -359,11 +248,11 @@ export default function Products() {
 
       <section className="cta-strip">
         <FadeIn>
-          <h2 className="cta-strip-h2">Ready to brief your first product?</h2>
-          <p className="cta-strip-sub">Tell us what you're working on. We'll match you to the right product and turnaround.</p>
+          <h2 className="cta-strip-h2">{t('products.ctaTitle')}</h2>
+          <p className="cta-strip-sub">{t('products.ctaSub')}</p>
         </FadeIn>
         <div className="cta-actions">
-          <Link to="/contact" className="btn btn-white">Brief a Product →</Link>
+          <Link to={getLocalizedPath('/contact', lang)} className="btn btn-white">{t('products.ctaButton')}</Link>
         </div>
       </section>
     </PageWrapper>

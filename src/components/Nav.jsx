@@ -1,16 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
-
-const links = [
-  { label: 'How It Works', to: '/how-it-works' },
-  { label: 'For Agencies', to: '/for-agencies' },
-  { label: 'For Investors', to: '/for-investors' },
-  { label: 'Products', to: '/products' },
-  { label: 'Resources', to: '/resources' },
-  { label: 'Partner with Us', to: '/partner' },
-  { label: 'Our Partners', to: '/our-partners' },
-]
+import { useTranslation } from 'react-i18next'
+import LanguageToggle from './LanguageToggle'
+import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 const navStyle = {
   position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1000,
@@ -25,6 +18,18 @@ export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const location = useLocation()
+  const { t } = useTranslation()
+  const lang = getLangFromPath(location.pathname)
+
+  const links = [
+    { label: t('nav.howItWorks'), to: getLocalizedPath('/how-it-works', lang) },
+    { label: t('nav.forAgencies'), to: getLocalizedPath('/for-agencies', lang) },
+    { label: t('nav.forInvestors'), to: getLocalizedPath('/for-investors', lang) },
+    { label: t('nav.products'), to: getLocalizedPath('/products', lang) },
+    { label: t('nav.resources'), to: getLocalizedPath('/resources', lang) },
+    { label: t('nav.partnerWithUs'), to: getLocalizedPath('/partner', lang) },
+    { label: t('nav.ourPartners'), to: getLocalizedPath('/our-partners', lang) },
+  ]
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 20)
@@ -41,7 +46,7 @@ export default function Nav() {
   return (
     <nav style={{ ...navStyle, background: bg, backdropFilter: 'blur(20px)', boxShadow: scrolled ? '0 1px 30px rgba(0,0,0,0.4)' : 'none' }}>
       {/* Logo */}
-      <Link to="/" style={{ display: 'flex', alignItems: 'center', flexShrink: 0 }}>
+      <Link to={getLocalizedPath('/', lang)} style={{ display: 'flex', alignItems: 'center', flexShrink: 0 }}>
         <img
           src="/logo-neg.png"
           alt="Soundcheck Insights"
@@ -76,10 +81,12 @@ export default function Nav() {
         })}
       </ul>
 
-      <Link to="/contact" className="btn btn-primary" style={{ padding: '9px 20px', fontSize: 13, flexShrink: 0 }}
+      <LanguageToggle />
+
+      <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ padding: '9px 20px', fontSize: 13, flexShrink: 0, marginLeft: 12 }}
         data-desktop="true"
       >
-        Get Started →
+        {t('nav.getStarted')}
       </Link>
 
       {/* Mobile hamburger */}
@@ -145,10 +152,16 @@ export default function Nav() {
             ))}
             <motion.div
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.28 }}
-              style={{ marginTop: 20 }}
+              style={{ marginTop: 14 }}
             >
-              <Link to="/contact" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
-                Get Started →
+              <LanguageToggle />
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.32 }}
+              style={{ marginTop: 16 }}
+            >
+              <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
+                {t('nav.getStarted')}
               </Link>
             </motion.div>
           </motion.div>
@@ -160,6 +173,7 @@ export default function Nav() {
           .nav-desktop-links { display: none !important; }
           .nav-hamburger { display: flex !important; }
           nav a[data-desktop="true"] { display: none !important; }
+          nav > div:has(button) { display: none !important; }
           nav { padding: 0 24px !important; }
         }
       `}</style>
