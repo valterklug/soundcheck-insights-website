@@ -51,507 +51,507 @@
     "problemCards": [
       {
         "icon": "⏱",
-        "title": "Research takes too long",
-        "text": "A junior team needs 3–4 weeks to produce what Soundcheck delivers in under 5 days."
+        "title": "Pesquisa leva muito tempo",
+        "text": "Um time junior precisa de 3-4 semanas para produzir o que Soundcheck entrega em menos de 5 dias."
       },
       {
         "icon": "💸",
-        "title": "Traditional research costs too much",
-        "text": "Research firms charge $50K–$100K+. Your clients can't justify it. You can't margin it."
+        "title": "Pesquisa tradicional custa muito",
+        "text": "Firmas de pesquisa cobram US$50K–US$100K+. Seus clientes não conseguem justificar. Você não consegue margear."
       },
       {
         "icon": "🤝",
-        "title": "You have the client, not the infrastructure",
-        "text": "You have the relationship and the expertise. You just need the research engine."
+        "title": "Você tem o cliente, não a infraestrutura",
+        "text": "Você tem o relacionamento e a expertise. Você só precisa do motor de pesquisa."
       },
       {
         "icon": "🏷",
-        "title": "Most research tools aren't white-label",
-        "text": "Soundcheck is operator-facing — you deliver under your brand. Always."
+        "title": "A maioria das ferramentas de pesquisa não é white-label",
+        "text": "Soundcheck é voltada para operadores — você entrega sob sua marca. Sempre."
       }
     ],
     "howLabel": "Como Funciona",
-    "howTitle1": "You're the expert.",
-    "howTitle2": "We're the engine.",
-    "howDesc": "Soundcheck is not a research agency. It's a platform you operate. The AI aggregates, maps, and scores. You validate with your professional judgment and deliver under your brand.",
-    "howLink": "See the Full Process →",
+    "howTitle1": "Você é o especialista.",
+    "howTitle2": "Somos o motor.",
+    "howDesc": "Soundcheck não é uma agência de pesquisa. É uma plataforma que você opera. A IA agrega, mapeia e pontua. Você valida com seu julgamento profissional e entrega sob sua marca.",
+    "howLink": "Ver o Processo Completo →",
     "howSteps": [
       {
         "num": "01",
-        "title": "You run the client intake",
-        "tag": "Your time · ~1h · Your relationship"
+        "title": "Você executa a coleta de informações do cliente",
+        "tag": "Seu tempo · ~1h · Seu relacionamento"
       },
       {
         "num": "02",
-        "title": "Platform generates the report",
-        "tag": "Automated · 30–50 pages · Days 1–5"
+        "title": "A plataforma gera o relatório",
+        "tag": "Automatizado · 30–50 páginas · Dias 1–5"
       },
       {
         "num": "03",
-        "title": "You validate with your expertise",
-        "tag": "Your time · ~5–8h · Your strategic layer"
+        "title": "Você valida com sua expertise",
+        "tag": "Seu tempo · ~5–8h · Seu camada estratégica"
       },
       {
         "num": "04",
-        "title": "You deliver under your brand",
-        "tag": "Your brand · Your credit · Your next contract"
+        "title": "Você entrega sob sua marca",
+        "tag": "Sua marca · Seu crédito · Seu próximo contrato"
       }
     ],
-    "productsLabel": "Six Products",
-    "productsTitle": "Six reports you can offer\nyour clients starting today.",
+    "productsLabel": "Seis Produtos",
+    "productsTitle": "Seis relatórios que você pode oferecer\naos seus clientes a partir de hoje.",
     "products": [
       {
         "num": "01",
-        "for": "International Brands · Market Entry",
-        "name": "International Expansion Viability Report",
-        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages.",
+        "for": "Marcas Internacionais · Entrada no Mercado",
+        "name": "Relatório de Viabilidade de Expansão Internacional",
+        "desc": "CVE Score, panorama competitivo, visão geral regulatória, mapa de canais de distribuição, três caminhos estratégicos e roteiro de 12 meses. 100+ páginas.",
         "delivery": "Entrega em 14 dias · White-label incluído",
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Entrepreneurs · Founders · Serial Entrepreneurs",
-        "name": "Análise de Validação de Ideia",
-        "desc": "Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.",
-        "delivery": "48-hour delivery · Fully automated",
+        "for": "Empreendedores · Fundadores · Empreendedores em série",
+        "name": "Análise de Validação de Ideias",
+        "desc": "Preencha um formulário de 10 minutos. Obtenha um relatório completo de validação de mercado + IVS score (0 a 100) em 48 horas. US$799. Sem chamadas, sem agendamento.",
+        "delivery": "Entrega em 48 horas · Totalmente automatizado",
         "link": "/idea-validation"
       },
       {
         "num": "03",
-        "for": "Entrepreneurs · Investors · Immigration Applicants",
-        "name": "Business Plan Development",
-        "desc": "Audience-specific business plans for investors, banks, immigration attorneys, and founders. 6 configurations. 10-section structure. Every claim sourced.",
-        "delivery": "Entrega em 10-14 dias · White-label incluído",
+        "for": "Empreendedores · Investidores · Candidatos a Imigração",
+        "name": "Desenvolvimento do Plano de Negócios",
+        "desc": "Planos de negócios específicos para investidores, bancos, advogados de imigração e fundadores. 6 configurações. Estrutura de 10 seções. Toda alegação com fontes.",
+        "delivery": "Entrega em 10–14 dias · White-label incluído",
         "link": "/business-plan"
       },
       {
         "num": "04",
-        "for": "Agencies · Consultancies · Marketing Depts",
-        "name": "AI Virtual Focus Groups",
-        "desc": "AI-generated persona panels that mirror your client's exact target audience. No recruiting. No scheduling.",
+        "for": "Agências · Consultorias · Departamentos de Marketing",
+        "name": "Grupos de Foco Virtual com IA",
+        "desc": "Painéis de personas gerados por IA que refletem o público-alvo exato do seu cliente. Sem recrutamento. Sem agendamento.",
         "delivery": "Entrega em 1–7 dias · White-label incluído",
         "link": "/contact"
       },
       {
         "num": "05",
-        "for": "B2B Services · CPG Brands · US Market",
-        "name": "US Growth Roadmap",
-        "desc": "Market analysis, competitive intelligence, ranked growth levers with investment estimates, and a 90-day action plan. GPS Score (0 to 100).",
+        "for": "Serviços B2B · Marcas CPG · Mercado EUA",
+        "name": "Roteiro de Crescimento nos EUA",
+        "desc": "Análise de mercado, inteligência competitiva, alavancas de crescimento classificadas com estimativas de investimento e plano de ação de 90 dias. GPS Score (0 a 100).",
         "delivery": "Entrega em 14 dias · White-label incluído",
         "link": "/growth-roadmap"
       },
       {
         "num": "06",
-        "for": "Venture Capital Firms · Investors",
-        "name": "Funding Vetting Analysis",
-        "desc": "Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.",
-        "delivery": "7-day delivery · Volume discounts available",
+        "for": "Firmas de Capital de Risco · Investidores",
+        "name": "Análise de Avaliação de Financiamento",
+        "desc": "Duas entrevistas estruturadas, validação independente de clientes e um Signal Brief com veredicto AVANÇAR / CONDICIONAL / PARAR. US$3.000 por empresa.",
+        "delivery": "Entrega em 7 dias · Descontos por volume disponíveis",
         "link": "/for-investors"
       }
     ],
-    "viewAllProducts": "View All Products →",
-    "economicsLabel": "The Business Case",
-    "economicsTitle1": "A $400–$1,250+/hour",
-    "economicsTitle2": "revenue line. No new headcount.",
-    "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
-    "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Real Economics · Per Report (on a $5,000 engagement)",
+    "viewAllProducts": "Ver Todos os Produtos →",
+    "economicsLabel": "O Caso de Negócio",
+    "economicsTitle1": "Uma linha de receita de US$400–US$1.250+/hora",
+    "economicsTitle2": "Sem contratação nova.",
+    "economicsDesc": "A plataforma realiza o trabalho analítico pesado. Seu papel é capturar o briefing, aplicar seu julgamento profissional e apresentar os resultados com o contexto estratégico que apenas você pode fornecer.",
+    "economicsLink": "Análise Econômica Completa →",
+    "economicsHeader": "Economia Real · Por Relatório (em um engajamento de US$5.000)",
     "economicsRows": [
       [
-        "Soundcheck fee (Self-Serve)",
-        "20% · $1,000"
+        "Taxa Soundcheck (Auto-Serviço)",
+        "20% · US$1.000"
       ],
       [
-        "Soundcheck fee (Full-Service)",
-        "Up to 50% · $2,500"
+        "Taxa Soundcheck (Serviço Completo)",
+        "Até 50% · US$2.500"
       ],
       [
-        "Your time (Self-Serve / Full-Service)",
+        "Seu tempo (Auto-Serviço / Serviço Completo)",
         "6–10h / 2–4h"
       ],
       [
-        "Effective hourly rate",
-        "$400–$1,250+/h"
+        "Taxa horária efetiva",
+        "US$400–US$1.250+/h"
       ]
     ],
-    "marginLabel": "Your margin per report",
-    "marginValue": "$2,500–$4,000",
-    "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
-    "ctaSub": "Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.",
+    "marginLabel": "Sua margem por relatório",
+    "marginValue": "US$2.500–US$4.000",
+    "ctaTitle": "Comece com um relatório.\nVeja como se sente ganhar US$400+/hora.",
+    "ctaSub": "A maioria dos operadores começa com um cliente existente. Baixo risco, valor imediato e você vê o fluxo de trabalho completo na prática antes de escalar.",
     "ctaButton": "Solicitar Acesso à Plataforma →"
   },
   "howItWorks": {
-    "heroLabel": "How the Platform Works",
-    "heroTitle1": "The AI does the research.",
+    "heroLabel": "Como a Plataforma Funciona",
+    "heroTitle1": "A IA faz a pesquisa.",
     "heroTitle2": "Você",
-    "heroTitle3": "deliver the intelligence.",
-    "heroSub": "How agencies use Soundcheck to produce decision-grade market reports — in 6-10 hours of their time, delivered under their brand.",
+    "heroTitle3": "entregar a inteligência.",
+    "heroSub": "Como as agências usam Soundcheck para produzir relatórios de mercado de qualidade para decisão — em 6-10 horas de seu tempo, entregues sob sua marca.",
     "chips": [
       {
         "value": "6-10h",
-        "label": "your time per report"
+        "label": "seu tempo por relatório"
       },
       {
         "value": "14 dias",
-        "label": "brief to delivery"
+        "label": "briefing à entrega"
       },
       {
         "value": "100%",
-        "label": "white-labeled to you"
+        "label": "white-label para você"
       },
       {
         "value": "0",
-        "label": "new hires needed"
+        "label": "novas contratações necessárias"
       }
     ],
-    "phasesLabel": "The Four Phases",
-    "phasesTitle": "From brief to client-ready report in 14 days.",
+    "phasesLabel": "As Quatro Fases",
+    "phasesTitle": "De briefing a relatório pronto para cliente em 14 dias.",
     "phases": [
       {
-        "num": "Phase 01",
-        "label": "You run the client intake",
-        "timing": "Day 0 · Your time: ~1h",
-        "title": "The most important hour in the process.",
-        "body": "You lead a scoped conversation with your client: what market are they entering, what's the core business question, what decisions hang on the answer. You capture the brief and submit it through the platform — bringing the context no AI can infer.",
-        "tag": "Your relationship · Your framing"
+        "num": "Fase 01",
+        "label": "Você executa a coleta de informações do cliente",
+        "timing": "Dia 0 · Seu tempo: ~1h",
+        "title": "A hora mais importante do processo.",
+        "body": "Você lidera uma conversa delimitada com seu cliente: que mercado ele está entrando, qual é a questão comercial fundamental, que decisões dependem da resposta. Você captura o briefing e o envia pela plataforma — trazendo o contexto que nenhuma IA pode inferir.",
+        "tag": "Seu relacionamento · Seu enquadramento"
       },
       {
-        "num": "Phase 02",
-        "label": "Platform generates the report",
-        "timing": "Days 1-5 · Automated",
-        "title": "What would take 3-4 weeks runs in under 5 days.",
-        "body": "The Soundcheck AI engine aggregates market data, builds competitive maps, calculates viability scores, and produces a structured 30-50 page analysis. You don't need to do anything during this phase.",
-        "tag": "Automated · No input needed from you"
+        "num": "Fase 02",
+        "label": "A plataforma gera o relatório",
+        "timing": "Dias 1-5 · Automatizado",
+        "title": "O que levaria 3-4 semanas é executado em menos de 5 dias.",
+        "body": "O motor IA do Soundcheck agrega dados de mercado, constrói mapas competitivos, calcula pontuações de viabilidade e produz uma análise estruturada de 30-50 páginas. Você não precisa fazer nada durante essa fase.",
+        "tag": "Automatizado · Nenhuma entrada necessária de você"
       },
       {
-        "num": "Phase 03",
-        "label": "You validate with your expertise",
-        "timing": "Days 6-12 · Your time: ~5-8h",
-        "title": "This is where your value as a practitioner comes in.",
-        "body": "You review the AI-generated output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The output becomes yours, not ours.",
-        "tag": "Your expertise · Your strategic layer"
+        "num": "Fase 03",
+        "label": "Você valida com sua expertise",
+        "timing": "Dias 6-12 · Seu tempo: ~5-8h",
+        "title": "É aqui que seu valor como profissional entra.",
+        "body": "Você analisa o resultado gerado por IA em relação ao seu próprio conhecimento de mercado, adiciona contexto estratégico e narrativa, ajusta qualquer seção que não corresponda à sua leitura e constrói sua camada de recomendações. O resultado se torna seu, não nosso.",
+        "tag": "Sua expertise · Sua camada estratégica"
       },
       {
-        "num": "Phase 04",
-        "label": "You deliver under your brand",
-        "timing": "Day 14 · Your time: ~1h",
-        "title": "You present. You take the credit. You open the next conversation.",
-        "body": "You present the finalized report to your client white-labeled under your agency. Soundcheck's name never appears. You receive the credit, deepen the relationship, and open the next conversation.",
-        "tag": "Your brand · Your credit · Your next engagement"
+        "num": "Fase 04",
+        "label": "Você entrega sob sua marca",
+        "timing": "Dia 14 · Seu tempo: ~1h",
+        "title": "Você apresenta. Você recebe o crédito. Você abre a próxima conversa.",
+        "body": "Você apresenta o relatório finalizado ao seu cliente white-label sob sua agência. O nome do Soundcheck nunca aparece. Você recebe o crédito, aprofunda o relacionamento e abre a próxima conversa.",
+        "tag": "Sua marca · Seu crédito · Seu próximo engajamento"
       }
     ],
-    "divisionLabel": "Division of Work",
-    "divisionTitle": "What the platform does. What you do.",
+    "divisionLabel": "Divisão de Trabalho",
+    "divisionTitle": "O que a plataforma faz. O que você faz.",
     "platformHandles": "A plataforma gerencia",
     "platformItems": [
-      "Market data aggregation at scale",
-      "Mapeamento da paisagem competitiva",
-      "Industry benchmark compilation",
-      "Viability scoring across 10 dimensions",
-      "Structured report assembly (30-50 pages)"
+      "Agregação de dados de mercado em escala",
+      "Mapeamento de panorama competitivo",
+      "Compilação de benchmarks da indústria",
+      "Pontuação de viabilidade em 10 dimensões",
+      "Montagem de relatório estruturado (30-50 páginas)"
     ],
     "youBring": "Você traz",
     "youItems": [
-      "Client context and relationship knowledge",
-      "Professional judgment and market read",
-      "Strategic narrative and recommendation framing",
-      "Confidence scoring and gap flagging",
-      "Your brand and your client relationship"
+      "Contexto do cliente e conhecimento do relacionamento",
+      "Julgamento profissional e leitura de mercado",
+      "Narrativa estratégica e estruturação de recomendações",
+      "Pontuação de confiança e identificação de lacunas",
+      "Sua marca e seu relacionamento com o cliente"
     ],
     "deliverables": [
       {
         "icon": "📄",
         "title": "Resumo Executivo",
-        "sub": "2-4 page decision brief"
+        "sub": "Resumo de decisão de 2–4 páginas"
       },
       {
         "icon": "📊",
-        "title": "Full Report",
-        "sub": "30-50 pages of analysis"
+        "title": "Relatório Completo",
+        "sub": "30–50 páginas de análise"
       },
       {
         "icon": "📐",
-        "title": "Presentation Deck",
-        "sub": "Client-ready slides"
+        "title": "Deck de Apresentação",
+        "sub": "Slides prontos para cliente"
       },
       {
         "icon": "🏷",
-        "title": "White-Labeled",
-        "sub": "Your brand throughout"
+        "title": "White-Label",
+        "sub": "Sua marca por todo"
       }
     ],
-    "ctaTitle": "Ready to run your first report?",
-    "ctaSub": "Most operators start on an existing client. Low risk, immediate value.",
-    "ctaButton1": "Request Platform Access",
-    "ctaButton2": "Explore the 5 Products"
+    "ctaTitle": "Pronto para executar seu primeiro relatório?",
+    "ctaSub": "A maioria dos operadores começa com um cliente existente. Baixo risco, valor imediato.",
+    "ctaButton1": "Solicitar Acesso à Plataforma",
+    "ctaButton2": "Explorar os 5 Produtos"
   },
   "forAgencies": {
-    "heroLabel": "For Agencies & Consultancies",
-    "heroTitle1": "Add a ",
-    "heroTitle2": "$400–$1,250+/hour",
-    "heroTitle3": " revenue line to your practice. No new headcount.",
-    "heroSub": "Soundcheck is a market intelligence platform you operate for your clients. Your expertise validates the AI output. You set the price. You own the relationship.",
+    "heroLabel": "Para Agências e Consultorias",
+    "heroTitle1": "Adicione uma ",
+    "heroTitle2": "$400–$1,250+/hora",
+    "heroTitle3": " linha de receita à sua prática. Sem nova contratação.",
+    "heroSub": "Soundcheck é uma plataforma de inteligência de mercado que você opera para seus clientes. Sua expertise valida o resultado da IA. Você define o preço. Você possui o relacionamento.",
     "chips": [
       {
         "icon": "⏱",
         "value": "2–10h",
-        "label": "per report"
+        "label": "por relatório"
       },
       {
         "icon": "💰",
         "value": "US$3.000–US$5.000+",
-        "label": "per engagement"
+        "label": "por engajamento"
       },
       {
         "icon": "🏷",
         "value": "White-label",
-        "label": "ready"
+        "label": "pronto"
       },
       {
         "icon": "🔍",
-        "value": "You validate",
-        "label": "the output"
+        "value": "Você valida",
+        "label": "o resultado"
       }
     ],
-    "businessCaseLabel": "The Business Case",
-    "businessCaseTitle": "This is how it works in practice today.",
-    "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
-    "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
-    "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Per Report (on a $5,000 engagement)",
-    "selfServe": "Self-Serve",
-    "selfServeDesc": "You run the platform",
-    "fullService": "Full-Service",
-    "fullServiceDesc": "We help end-to-end",
+    "businessCaseLabel": "O Caso de Negócio",
+    "businessCaseTitle": "É assim que funciona na prática hoje.",
+    "businessCaseDesc1": "Antes de abrir isso como uma plataforma, eu executei todos os relatórios Soundcheck pessoalmente. Não como prova de conceito — porque a economia era muito convincente para não provar primeiro.",
+    "businessCaseDesc2": "A plataforma realiza o trabalho analítico pesado: agregação de dados, mapeamento competitivo, pontuação de viabilidade, geração de relatórios. Seu papel é capturar as informações corretas do cliente antecipadamente, aplicar seu julgamento profissional ao resultado da IA e apresentar os resultados com o contexto estratégico que apenas um especialista real pode fornecer.",
+    "businessCaseDesc3": "É isso que seu cliente está pagando.",
+    "economicsHeader": "Economia Real · Por Relatório (em um engajamento de US$5.000)",
+    "selfServe": "Auto-Serviço",
+    "selfServeDesc": "Você executa a plataforma",
+    "fullService": "Serviço Completo",
+    "fullServiceDesc": "Ajudamos de ponta a ponta",
     "economicsRows": [
       [
-        "Soundcheck fee",
-        "20% of client price",
-        "Up to 50% of client price"
+        "Taxa Soundcheck",
+        "20% do preço do cliente",
+        "Até 50% do preço do cliente"
       ],
       [
-        "On a $5k engagement",
-        "$1,000",
-        "$2,500"
+        "Em um engajamento de US$5k",
+        "US$1.000",
+        "US$2.500"
       ],
       [
-        "Your time investment",
-        "6–10 hours",
-        "2–4 hours"
+        "Seu investimento de tempo",
+        "6-10 horas",
+        "2-4 horas"
       ],
       [
-        "Effective hourly rate",
-        "$400–$667/h",
-        "$625–$1,250/h"
+        "Taxa horária efetiva",
+        "US$400–US$667/h",
+        "US$625–US$1.250/h"
       ]
     ],
-    "yourMargin": "Your margin",
+    "yourMargin": "Sua margem",
     "marginSelfServe": "US$4.000",
     "marginFullService": "US$2.500",
-    "operatorLabel": "What You Get as an Operator",
-    "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
+    "operatorLabel": "O Que Você Recebe como Operador",
+    "operatorTitle": "Tudo que você precisa para entregar inteligência\nno nível de uma firma de pesquisa.",
     "operatorItems": [
       {
         "icon": "🔑",
-        "title": "Platform Access",
-        "desc": "Dashboard to submit briefs, track report progress, and download finalized outputs. Purpose-built for agency workflows."
+        "title": "Acesso à Plataforma",
+        "desc": "Painel para enviar briefings, acompanhar progresso do relatório e baixar resultados finalizados. Construído especificamente para fluxos de trabalho de agências."
       },
       {
         "icon": "📊",
-        "title": "30–50 Page Research Reports",
-        "desc": "AI-generated analysis covering market sizing, competitive landscape, viability scoring, regulatory snapshot, and distribution maps."
+        "title": "Relatórios de Pesquisa de 30-50 Páginas",
+        "desc": "Análise gerada por IA cobrindo dimensionamento de mercado, paisagem competitiva, pontuação de viabilidade, snapshot regulatório e mapas de distribuição."
       },
       {
         "icon": "🏷",
         "title": "100% Pronto para White-Label",
-        "desc": "Every deliverable comes without Soundcheck branding. Your logo, your brand, your client relationship. Always."
+        "desc": "Todos os entregáveis vêm sem marca da Soundcheck. Seu logotipo, sua marca, seu relacionamento com o cliente. Sempre."
       },
       {
         "icon": "📐",
-        "title": "Client-Ready Presentation Deck",
-        "desc": "Alongside the full report, every engagement includes a presentation-ready deck structured for your client briefing."
+        "title": "Deck de Apresentação Pronto para Cliente",
+        "desc": "Ao lado do relatório completo, cada engajamento inclui um deck pronto para apresentação estruturado para seu briefing de cliente."
       },
       {
         "icon": "🧠",
-        "title": "Operator Onboarding",
-        "desc": "Valter walks every new operator through the full workflow personally — including the first report briefing, validation, and delivery."
+        "title": "Integração do Operador",
+        "desc": "Valter orienta cada novo operador através do fluxo de trabalho completo pessoalmente — incluindo o primeiro briefing do relatório, validação e entrega."
       },
       {
         "icon": "📬",
-        "title": "Monthly Intelligence Briefing",
-        "desc": "Operator-only market intelligence updates — category shifts, methodology improvements, and research signals."
+        "title": "Briefing Mensal de Inteligência",
+        "desc": "Atualizações exclusivas de inteligência de mercado para operadores — mudanças de categoria, melhorias de metodologia e sinais de pesquisa."
       }
     ],
-    "whiteLabelLabel": "White-Label Products",
-    "whiteLabelTitle": "Three products you can deliver\nunder your brand today.",
-    "whiteLabelSub": "Each product is designed for white-label delivery. Your brand, your cover page, your client relationship. You set the price and keep the margin.",
+    "whiteLabelLabel": "Produtos White-Label",
+    "whiteLabelTitle": "Três produtos que você pode entregar\nsob sua marca hoje.",
+    "whiteLabelSub": "Cada produto é projetado para entrega white-label. Sua marca, sua página de capa, seu relacionamento com o cliente. Você define o preço e mantém a margem.",
     "whiteLabelProducts": [
       {
         "num": "01",
-        "name": "International Expansion Viability Report",
-        "audience": "International Brands · Market Entry",
-        "desc": "Decision-grade market entry intelligence. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages.",
+        "name": "Relatório de Viabilidade de Expansão Internacional",
+        "audience": "Marcas Internacionais · Entrada no Mercado",
+        "desc": "Inteligência de entrada no mercado de qualidade para decisão. CVE Score proprietário, paisagem competitiva, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap de 12 meses. 100+ páginas.",
         "delivery": "Entrega em 14 dias",
-        "price": "Suggested client price: US$5k+"
+        "price": "Preço sugerido para cliente: US$5k+"
       },
       {
         "num": "02",
-        "name": "US Growth Roadmap",
-        "audience": "US Small & Mid-Size Businesses",
-        "desc": "For B2B services and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan.",
+        "name": "Roteiro de Crescimento nos EUA",
+        "audience": "Pequenas e Médias Empresas dos EUA",
+        "desc": "Para serviços B2B e marcas CPG que estagnaram. Análise de mercado, inteligência competitiva, identificação de espaços em branco, alavancas de crescimento classificadas com estimativas de investimento e plano de ação de 90 dias.",
         "delivery": "Entrega em 14 dias",
-        "price": "Suggested client price: US$5k+"
+        "price": "Preço sugerido para cliente: US$5k+"
       },
       {
         "num": "03",
-        "name": "AI Virtual Focus Groups",
-        "audience": "Agencies · Consultancies · Marketing Depts",
-        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Reusable panels.",
+        "name": "Grupos de Foco Virtuais com IA",
+        "audience": "Agências · Consultorias · Departamentos de Marketing",
+        "desc": "Teste conceitos criativos, ideias de produtos, preços e posicionamento com personas gerados por IA que espelham seu público-alvo. Sem recrutamento. Sem agendamento. Painéis reutilizáveis.",
         "delivery": "Entrega em 1–7 dias",
-        "price": "Persona Definition: US$3k · Session: US$2k+"
+        "price": "Definição de Persona: US$3k · Sessão: US$2k+"
       }
     ],
-    "seeFullDetails": "See Full Details →",
-    "whiteLabel": "White-label included",
-    "rightFitLabel": "Right Fit",
-    "rightFitTitle": "Who this is built for.",
-    "worksWell": "This works well for you if:",
+    "seeFullDetails": "Ver Detalhes Completos →",
+    "whiteLabel": "White-label incluído",
+    "rightFitLabel": "Ajuste Certo",
+    "rightFitTitle": "Para quem isso é construído.",
+    "worksWell": "Isso funciona bem para você se:",
     "worksWellItems": [
-      "You serve clients who make market-entry or investment decisions",
-      "You have established client relationships where research would add value",
-      "You want to expand your revenue without expanding your team",
-      "You're a boutique agency (1–50 people) or independent consultant",
-      "You want to deliver research-grade intelligence under your own brand"
+      "Você atende clientes que tomam decisões de entrada no mercado ou investimento",
+      "Você tem relacionamentos estabelecidos com clientes onde pesquisa agregaria valor",
+      "Você quer expandir sua receita sem expandir seu time",
+      "Você é uma agência boutique (1-50 pessoas) ou consultor independente",
+      "Você quer entregar inteligência de qualidade de pesquisa sob sua própria marca"
     ],
-    "notRight": "Probably not the right fit if:",
+    "notRight": "Provavelmente não é o ajuste certo se:",
     "notRightItems": [
-      "You're a brand looking for research on your own business (see our direct products)",
-      "You're looking for a tool to replace analyst judgment entirely",
-      "You need real-time or continuous market monitoring",
-      "You operate a market research firm with your own research infrastructure"
+      "Você é uma marca procurando pesquisa sobre seu próprio negócio (veja nossos produtos diretos)",
+      "Você está procurando uma ferramenta para substituir inteiramente o julgamento de analistas",
+      "Você precisa de monitoramento de mercado em tempo real ou contínuo",
+      "Você opera uma firma de pesquisa de mercado com sua própria infraestrutura de pesquisa"
     ],
-    "notSureTitle": "Not sure if this is right for you?",
-    "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
-    "notSureLink": "Ask us directly →",
-    "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
-    "ctaSub": "Most operators run their first report on an existing client.",
+    "notSureTitle": "Não tem certeza se isso é certo para você?",
+    "notSureDesc": "Conte-nos sobre sua prática e daremos uma resposta honesta.",
+    "notSureLink": "Pergunte-nos diretamente →",
+    "ctaTitle": "Comece com um relatório.\nVeja como se sente ganhar US$400+/hora.",
+    "ctaSub": "A maioria dos operadores executa seu primeiro relatório em um cliente existente.",
     "ctaButton": "Solicitar Acesso à Plataforma →"
   },
   "products": {
-    "heroLabel": "Research Products",
-    "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 48 hours. You set the price for your clients.",
-    "viewDeliverables": "View What's Delivered",
-    "hideDeliverables": "Hide What's Delivered",
+    "heroLabel": "Produtos de Pesquisa",
+    "heroTitle": "Inteligência que sua agência implementa.\nResultados que seus clientes lembram.",
+    "heroSub": "Seis produtos de escopo fixo projetados para serem briefados, entregues e implementados sob a marca de sua agência — em até 48 horas. Você define o preço para seus clientes.",
+    "viewDeliverables": "Ver O Que é Entregue",
+    "hideDeliverables": "Ocultar O Que é Entregue",
     "whatsDelivered": "O Que é Entregue",
-    "sampleOutput": "Sample Output · Score",
-    "sampleSignalBrief": "Sample Output · Signal Brief",
-    "sampleIVA": "Sample Output · Idea Validation Analysis",
-    "sampleGrowthLevers": "Sample Output · Growth Levers (Ranked)",
-    "verdict": "VERDICT:",
-    "viewFullSample": "View Full Sample →",
-    "viewFullSampleReport": "View Full Sample Report →",
-    "briefProduct": "Brief This Product →",
-    "ctaTitle": "Ready to brief your first product?",
-    "ctaSub": "Tell us what you're working on. We'll match you to the right product and turnaround.",
-    "ctaButton": "Brief a Product →",
+    "sampleOutput": "Amostra de Resultado · Pontuação",
+    "sampleSignalBrief": "Amostra de Resultado · Signal Brief",
+    "sampleIVA": "Amostra de Resultado · Análise de Validação de Ideia",
+    "sampleGrowthLevers": "Amostra de Resultado · Alavancas de Crescimento (Classificadas)",
+    "verdict": "VEREDICTO:",
+    "viewFullSample": "Ver Amostra Completa →",
+    "viewFullSampleReport": "Ver Relatório de Amostra Completa →",
+    "briefProduct": "Fazer Brief Deste Produto →",
+    "ctaTitle": "Pronto para fazer o brief do seu primeiro produto?",
+    "ctaSub": "Conte-nos no que está trabalhando. Vamos encontrar o produto certo e o prazo para você.",
+    "ctaButton": "Fazer Brief de um Produto →",
     "items": [
       {
         "num": "01",
-        "for": "International Brands · Market Entry",
-        "name": "International Expansion Viability Report",
-        "desc": "Decision-grade market entry intelligence for international brands. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages, white-labeled, in 14 days.",
-        "price": "Suggested price: US$5k+",
+        "for": "Marcas Internacionais · Entrada no Mercado",
+        "name": "Relatório de Viabilidade de Expansão Internacional",
+        "desc": "Inteligência de entrada no mercado de qualidade para decisão para marcas internacionais. CVE Score proprietário, paisagem competitiva, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap de 12 meses. 100+ páginas, white-label, em 14 dias.",
+        "price": "Preço sugerido: US$5k+",
         "delivery": "Entrega em 14 dias · White-label incluído · 1 revisão",
-        "ctaLabel": "See Full Report Details →",
+        "ctaLabel": "Ver Detalhes Completos do Relatório →",
         "deliverables": [
-          "CVE Score (Coefficient of Viability of Expansion) — 3-dimension weighted scoring (0 to 100)",
-          "Executive Summary — 5 critical insights + 3 strategic paths with recommended entry mode",
-          "Business & Brand Assessment — product-market fit, pricing architecture, positioning",
-          "Market & Category Intelligence — TAM/SAM/SOM, Porter's Five Forces, competitive benchmarking, buyer landscape",
-          "Strategic Entry & Growth Plan — 12-month roadmap with unit economics and go/no-go gates",
-          "Risks & Watchpoints — scored, ranked, and mitigated",
+          "CVE Score (Coefficient of Viability of Expansion) — pontuação ponderada de 3 dimensões (0 a 100)",
+          "Resumo Executivo — 5 insights críticos + 3 caminhos estratégicos com modo de entrada recomendado",
+          "Avaliação de Negócio e Marca — adequação produto-mercado, arquitetura de preços, posicionamento",
+          "Inteligência de Mercado e Categoria — TAM/SAM/SOM, Cinco Forças de Porter, benchmarking competitivo, paisagem de compradores",
+          "Plano de Entrada Estratégica e Crescimento — roadmap de 12 meses com economia unitária e portões de ir/não ir",
+          "Riscos e Pontos de Atenção — pontuados, classificados e mitigados",
           "Relatório com 100+ Páginas + Resumo Executivo Visual (white-label)"
         ],
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Entrepreneurs · Founders · Serial Entrepreneurs",
+        "for": "Empreendedores · Fundadores · Empreendedores Seriais",
         "name": "Análise de Validação de Ideia",
-        "tagline": "Know if your idea has a market before you spend a dollar building it.",
-        "desc": "Fill out a 10-minute form describing your idea. Soundcheck's AI runs independent market research, analyzes the competition, sizes the opportunity, and estimates what your target customer would pay. You receive a full analysis and a one-page Summary Card in 48 hours.",
-        "price": "US$799 per analysis",
-        "delivery": "48-hour delivery after form submission · Fully automated",
-        "ctaLabel": "Validate Your Idea →",
+        "tagline": "Saiba se sua ideia tem um mercado antes de gastar um dólar construindo-a.",
+        "desc": "Preencha um formulário de 10 minutos descrevendo sua ideia. A IA do Soundcheck executa pesquisa de mercado independente, analisa a concorrência, dimensiona a oportunidade e estima quanto seu cliente-alvo pagaria. Você recebe uma análise completa e um Cartão de Resumo de uma página em 48 horas.",
+        "price": "US$799 por análise",
+        "delivery": "Entrega em 48 horas após envio do formulário · Totalmente automatizado",
+        "ctaLabel": "Valide Sua Ideia →",
         "deliverables": [
-          "Problem Validation — is this a Tier 1 problem with real market demand?",
-          "Market Sizing — TAM, SAM, SOM for your target geography",
-          "Competition Reality Check — who already solves this and where the whitespace is",
-          "Customer & WTP Analysis — who would buy this and how much they'd pay",
-          "IVS Score + Next Steps — Idea Viability Score (0 to 100) and 3 specific actions"
+          "Validação de Problema — é um problema Tier 1 com demanda real de mercado?",
+          "Dimensionamento de Mercado — TAM, SAM, SOM para sua geografia alvo",
+          "Verificação de Realidade da Concorrência — quem já resolve isso e onde está o espaço em branco",
+          "Análise de Cliente e WTP — quem compraria isso e quanto pagaria",
+          "IVS Score + Próximos Passos — Idea Viability Score (0 a 100) e 3 ações específicas"
         ],
         "link": "/idea-validation"
       },
       {
         "num": "03",
-        "for": "Entrepreneurs · Investors · Immigration Applicants",
-        "name": "Business Plan Development",
-        "tagline": "A business plan built for the reader who decides.",
-        "desc": "Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder's Internal. Every claim sourced. Every projection documented.",
-        "price": "US$5,000+ per plan",
+        "for": "Empreendedores · Investidores · Solicitantes de Imigração",
+        "name": "Desenvolvimento de Plano de Negócios",
+        "tagline": "Um plano de negócios construído para o leitor que decide.",
+        "desc": "Não é um modelo. Um plano de negócios profissional e específico para o público, construído a partir de dados de entrada estruturados, entrevista com partes interessadas e pesquisa independente. 6 configurações: Investidor, Banco/SBA, Imigração (E-2/EB-5/L-1A), Franquia, CPG e Interno do Fundador. Cada afirmação documentada. Cada projeção justificada.",
+        "price": "US$5,000+ por plano",
         "delivery": "Entrega em 10-14 dias · White-label incluído · 1 revisão",
-        "ctaLabel": "See Full Plan Details →",
+        "ctaLabel": "Ver Detalhes Completos do Plano →",
         "deliverables": [
-          "Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data",
-          "Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask"
+          "Plano de Negócios Completo — estrutura MECE de 10 seções, formatação específica para o público, projeções com rótulos de confiança, dados de mercado e concorrência fornecidos",
+          "Resumo Executivo de Uma Página — panorama do negócio, oportunidade de mercado, destaques financeiros, a solicitação específica"
         ],
         "link": "/business-plan"
       },
       {
         "num": "04",
-        "for": "Agencies · Consultancies · Marketing Depts",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Delivered in days.",
-        "price": "Persona Definition: US$3k · Focus Group Session: US$2k+",
+        "for": "Agências · Consultorias · Departamentos de Marketing",
+        "name": "Grupos de Foco Virtuais com IA",
+        "desc": "Teste conceitos criativos, ideias de produtos, preços e posicionamento com personas geradas por IA que refletem seu público-alvo. Sem recrutamento. Sem agendamento. Entregue em dias.",
+        "price": "Definição de Persona: US$3k · Sessão de Grupo de Foco: US$2k+",
         "delivery": "Entrega em 1–7 dias · White-label incluído",
-        "ctaLabel": "Brief This Product →",
+        "ctaLabel": "Fazer Brief Deste Produto →",
         "deliverables": [
-          "3–10 custom AI personas based on exact target demographics",
-          "Moderated discussion transcript — no loudest-voice bias",
-          "Executive summary with key findings and recommendations",
-          "Persona-specific reactions — segment-level decision support",
-          "Reusable persona panel — deploy again for future sessions"
+          "3–10 personas de IA personalizadas com base em dados demográficos exatos",
+          "Transcrição de discussão moderada — sem viés da voz mais alta",
+          "Resumo executivo com principais descobertas e recomendações",
+          "Reações específicas de personas — suporte de decisão em nível de segmento",
+          "Painel de personas reutilizável — implante novamente para sessões futuras"
         ],
         "link": "/contact"
       },
       {
         "num": "05",
-        "for": "B2B Services · CPG Brands · US Market",
-        "name": "US Growth Roadmap",
-        "tagline": "You're selling. You're not growing. That's a fixable problem.",
-        "desc": "For B2B service companies and CPG brands that have stalled in the US market. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan. Proprietary GPS Score (0 to 100) across Market Opportunity, Competitive Position, and Internal Readiness.",
-        "price": "US$5,000+ per report",
+        "for": "Serviços B2B · Marcas CPG · Mercado dos EUA",
+        "name": "Roteiro de Crescimento nos EUA",
+        "tagline": "Você está vendendo. Você não está crescendo. Esse é um problema que pode ser resolvido.",
+        "desc": "Para empresas de serviços B2B e marcas CPG que estagnaram no mercado dos EUA. Análise de mercado, inteligência competitiva, identificação de espaços em branco, alavancas de crescimento classificadas com estimativas de investimento e um plano de ação de 90 dias. Pontuação GPS proprietária (0 a 100) em Oportunidade de Mercado, Posição Competitiva e Prontidão Interna.",
+        "price": "US$5,000+ por relatório",
         "delivery": "Entrega em 14 dias · White-label incluído · 1 revisão",
-        "ctaLabel": "See Full Report Details →",
+        "ctaLabel": "Ver Detalhes Completos do Relatório →",
         "deliverables": [
-          "In-Depth Growth Report — 40-60+ pages, 8-section DMAIC-inspired structure, GPS Score, ranked growth levers, 90-day action plan",
-          "Executive Presentation & Q&A — condensed visual presentation for leadership with live walkthrough",
-          "1-Page Action Sheet — specific, assigned actions for the first week with one success metric for Day 30"
+          "Relatório de Crescimento Aprofundado — 40–60+ páginas, estrutura de 8 seções inspirada em DMAIC, Pontuação GPS, alavancas de crescimento classificadas, plano de ação de 90 dias",
+          "Apresentação Executiva e Sessão de Perguntas — apresentação visual condensada para liderança com apresentação ao vivo",
+          "Folha de Ação de Uma Página — ações específicas e atribuídas para a primeira semana com uma métrica de sucesso para o Dia 30"
         ],
         "link": "/growth-roadmap"
       },
       {
         "num": "06",
-        "for": "Venture Capital Firms · Growth Equity · Angel Syndicates · Corporate Venture",
-        "name": "Funding Vetting Analysis",
-        "desc": "Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team's time before you spend it.",
-        "price": "US$3,000 per company",
-        "delivery": "7-day delivery from completed interviews · Volume discounts available",
-        "ctaLabel": "See How It Works →",
+        "for": "Empresas de Capital de Risco · Capital de Crescimento · Sindicatos de Anjos · Venture Corporativo",
+        "name": "Análise de Avaliação de Financiamento",
+        "desc": "Duas entrevistas estruturadas — uma com a equipe fundadora, outra com um cliente real. Soundcheck executa pesquisa independente, identifica contradições entre as duas entrevistas e fornece um veredicto de uma página AVANÇAR / CONDICIONAL / PARAR com as evidências por trás. Saiba quais empresas merecem o tempo de sua equipe antes de gastá-lo.",
+        "price": "US$3,000 por empresa",
+        "delivery": "Entrega em 7 dias a partir das entrevistas concluídas · Descontos por volume disponíveis",
+        "ctaLabel": "Veja Como Funciona →",
         "deliverables": [
-          "Full Intelligence Report — 10-section evidence record from both interviews with contradiction log",
-          "Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict with sourced evidence"
+          "Relatório de Inteligência Completo — registro de evidência de 10 seções de ambas as entrevistas com log de contradições",
+          "Signal Brief — veredicto de uma página AVANÇAR / CONDICIONAL / PARAR com evidência fornecida"
         ],
         "link": "/for-investors"
       }
@@ -559,839 +559,839 @@
   },
   "forInvestors": {
     "heroLabel": "Para Investidores",
-    "heroTitle": "Your pipeline is full.\nYour team's availability isn't.",
-    "heroSub": "The average VC firm sees hundreds of deals a year. Most of the ones that get filtered don't get filtered early enough. Soundcheck gives venture capital firms, growth equity funds, angel syndicates, and corporate venture arms a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.",
-    "requestEngagement": "Request an Engagement →",
-    "viewSamples": "View Sample Signal Briefs →",
+    "heroTitle": "Seu pipeline está cheio.\nA disponibilidade do seu time não está.",
+    "heroSub": "A empresa média de VC vê centenas de operações por ano. A maioria das que são filtradas não são filtradas cedo o suficiente. Soundcheck oferece a firmas de capital de risco, fundos de crescimento, sindicatos de anjos e braços de venture corporativo um veredicto de triagem estruturado e documentado — AVANÇAR, CONDICIONAL, ou PARAR — antes que seu time se comprometa com horas significativas em uma empresa que não deveria passar pela primeira ronda.",
+    "requestEngagement": "Solicitar um Engajamento →",
+    "viewSamples": "Ver Signal Briefs de Amostra →",
     "heroStats": [
       {
         "num": "7",
-        "label": "BUSINESS DAYS",
-        "sub": "from interviews to Signal Brief"
+        "label": "DIAS ÚTEIS",
+        "sub": "de entrevistas para Signal Brief"
       },
       {
         "num": "2",
-        "label": "INTERVIEWS",
-        "sub": "founder team + real customer, independently"
+        "label": "ENTREVISTAS",
+        "sub": "time fundador + cliente real, de forma independente"
       },
       {
         "num": "US$3,000",
         "label": "",
-        "sub": "per company evaluated"
+        "sub": "por empresa avaliada"
       }
     ],
-    "problemLabel": "The real cost",
-    "problemTitle": "Most early filtering happens informally. That's the problem.",
-    "problemDesc1": "Pitch decks are prepared for the best possible impression. Founders know how to answer standard questions. Reference calls go through the company's own contacts. By the time you discover the revenue isn't as clean as the deck suggests, or that the founder can't explain why they're losing deals, or that their most loyal-sounding customer is actively evaluating alternatives, your associates have already spent 15+ hours.",
-    "problemDesc2": "Soundcheck runs two structured interviews independently — one with the leadership team, one with a real customer we select from a list the company provides. We find where their stories don't match. You get the verdict before your team invests.",
+    "problemLabel": "O custo real",
+    "problemTitle": "A maioria da filtragem inicial acontece informalmente. Esse é o problema.",
+    "problemDesc1": "Pitch decks são preparados para a melhor impressão possível. Fundadores sabem como responder perguntas padrão. Chamadas de referência passam pelos próprios contatos da empresa. No momento em que você descobre que a receita não é tão limpa quanto o deck sugere, ou que o fundador não consegue explicar por que está perdendo operações, ou que seu cliente mais leal está ativamente avaliando alternativas, seus analistas já passaram 15+ horas.",
+    "problemDesc2": "Soundcheck executa duas entrevistas estruturadas de forma independente — uma com o time de liderança, uma com um cliente real que selecionamos de uma lista que a empresa fornece. Encontramos onde suas histórias não correspondem. Você obtém o veredicto antes que seu time invista.",
     "problemCards": [
       {
-        "title": "What we replace",
-        "text": "The unstructured first-round conversations your analysts are already having — just structured, documented, and with an independent customer source added."
+        "title": "O que substituímos",
+        "text": "As conversas informais de primeira ronda que seus analistas já estão tendo — apenas estruturadas, documentadas, e com uma fonte de cliente independente adicionada."
       },
       {
-        "title": "What we don't replace",
-        "text": "Full due diligence. Legal review. Financial audits. Technical assessments. Soundcheck is the filter before the filter — not the close."
+        "title": "O que não substituímos",
+        "text": "Due diligence completo. Revisão legal. Auditorias financeiras. Avaliações técnicas. Soundcheck é o filtro antes do filtro — não o encerramento."
       },
       {
-        "title": "What it costs to skip this",
-        "text": "15–20 associate hours per company that fails in round two. Multiply that by your deal flow volume."
+        "title": "O que custa pular isso",
+        "text": "15–20 horas de analista por empresa que falha na segunda ronda. Multiplique isso pelo volume de seu fluxo de operações."
       }
     ],
-    "stepsLabel": "Four steps. Seven days.",
-    "stepsTitle": "What happens between briefing and verdict.",
+    "stepsLabel": "Quatro etapas. Sete dias.",
+    "stepsTitle": "O que acontece entre o briefing e o veredicto.",
     "steps": [
       {
         "num": "01",
-        "title": "You brief us — not the company.",
-        "body": "You tell us which company you're evaluating. We prepare the pre-interview market and competitive research independently, without any input from the company. This becomes the baseline we test against in both interviews.",
-        "meta": "~15 min on your end · AI-generated research brief · no company contact yet"
+        "title": "Você nos brifa — não a empresa.",
+        "body": "Você nos diz qual empresa está avaliando. Preparamos a pesquisa de mercado pré-entrevista e análise competitiva de forma independente, sem nenhuma entrada da empresa. Isso se torna a linha de base que testamos em ambas as entrevistas.",
+        "meta": "~15 min do seu lado · Brief de pesquisa gerado por IA · sem contato com a empresa ainda"
       },
       {
         "num": "02",
-        "title": "Interview 1 — Leadership Team (60 min)",
-        "body": "A structured conversation with the founder/CEO and any available CFO or Head of Sales. Five blocks: market insight, sales and customer intelligence, financials, the moat, and deal structure. Transcript processed and analyzed against our pre-research.",
-        "meta": "Scheduled by you · Facilitated by Soundcheck · Recorded with consent"
+        "title": "Entrevista 1 — Time de Liderança (60 min)",
+        "body": "Uma conversa estruturada com o fundador/CEO e qualquer CFO ou Diretor de Vendas disponível. Cinco blocos: insight de mercado, inteligência de vendas e cliente, finanças, o diferencial competitivo, e estrutura da operação. Transcrição processada e analisada contra nossa pesquisa prévia.",
+        "meta": "Agendada por você · Facilitada por Soundcheck · Gravada com consentimento"
       },
       {
         "num": "03",
-        "title": "Interview 2 — A Real Customer (45–60 min)",
-        "body": "We ask the company for 5 customer names. We choose one — mid-list, not their most obvious advocate. An independent call covering product centrality, usage reality, NRR signals, and competitive awareness. This is where contradictions surface.",
-        "meta": "Customer selected by us · Company doesn't know which customer we called"
+        "title": "Entrevista 2 — Um Cliente Real (45–60 min)",
+        "body": "Pedimos à empresa 5 nomes de clientes. Escolhemos um — do meio da lista, não seu defensor mais óbvio. Uma chamada independente cobrindo centralidade do produto, realidade de uso, sinais de NRR, e conscientização competitiva. É aqui que as contradições aparecem.",
+        "meta": "Cliente selecionado por nós · Empresa não sabe qual cliente chamamos"
       },
       {
         "num": "04",
-        "title": "Full Intelligence Report + Signal Brief",
-        "body": "The AI generates a 10-section evidence record from both interviews. The consultant adds their observation notes and signs the Signal Brief — a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence and the 3 questions your team should answer next.",
-        "meta": "Signal Brief + Full Intelligence Report · Both delivered as standard"
+        "title": "Relatório de Inteligência Completo + Signal Brief",
+        "body": "A IA gera um registro de evidência de 10 seções de ambas as entrevistas. O consultor adiciona suas notas de observação e assina o Signal Brief — um veredicto de uma página AVANÇAR / CONDICIONAL / PARAR com a evidência e as 3 perguntas que seu time deveria responder em seguida.",
+        "meta": "Signal Brief + Relatório de Inteligência Completo · Ambos entregues como padrão"
       }
     ],
-    "signalsLabel": "What we test",
-    "signalsTitle": "Six signals. Every engagement.",
-    "signalsSub": "Every engagement tests the same six signals — regardless of company stage, sector, or business model. Every rating is backed by at least two sourced observations, one from each interview.",
+    "signalsLabel": "O que testamos",
+    "signalsTitle": "Seis sinais. Cada engajamento.",
+    "signalsSub": "Cada engajamento testa os mesmos seis sinais — independentemente do estágio da empresa, setor, ou modelo de negócio. Cada classificação é apoiada por pelo menos duas observações com fonte, uma de cada entrevista.",
     "signals": [
       {
         "num": "1",
         "name": "Realidade de Mercado",
-        "desc": "Is the opportunity real and is the timing right now — not in theory?"
+        "desc": "A oportunidade é real e o momento é agora — não em teoria?"
       },
       {
         "num": "2",
         "name": "Qualidade de Receita",
-        "desc": "Is revenue sticky, recurring, and growing? NRR direction cross-validated by the customer."
+        "desc": "A receita é pegajosa, recorrente, e crescente? Direção de NRR validada de forma cruzada pelo cliente."
       },
       {
         "num": "3",
-        "name": "Defensibility",
-        "desc": "Is there something structural that takes 18+ months for a well-funded rival to copy?"
+        "name": "Defesa",
+        "desc": "Há algo estrutural que leva 18+ meses para um rival bem financiado copiar?"
       },
       {
         "num": "4",
-        "name": "Founder Clarity",
-        "desc": "Does the CEO know their numbers, understand their losses, and acknowledge what's broken?"
+        "name": "Clareza do Fundador",
+        "desc": "O CEO conhece seus números, entende suas perdas, e reconhece o que está quebrado?"
       },
       {
         "num": "5",
-        "name": "No Deal-Killers",
-        "desc": "Any structural blockers hiding below the pitch — cap table, concentration, litigation?"
+        "name": "Sem Bloqueadores de Operação",
+        "desc": "Há bloqueadores estruturais escondidos abaixo do pitch — tabela de capitalização, concentração, litigação?"
       },
       {
         "num": "6",
-        "name": "Exit Logic",
-        "desc": "Is there a realistic return path at this valuation? Named acquirers, specific rationale."
+        "name": "Lógica de Saída",
+        "desc": "Há um caminho de retorno realista nessa valuação? Adquirentes nomeados, fundamento específico."
       }
     ],
     "verdicts": [
       {
-        "label": "ADVANCE",
-        "text": "4 or more signals Strong. No structural blockers. Continue to deeper diligence."
+        "label": "AVANÇAR",
+        "text": "4 ou mais sinais Fortes. Sem bloqueadores estruturais. Continuar com due diligence mais profundo."
       },
       {
-        "label": "CONDITIONAL",
+        "label": "CONDICIONAL",
         "text": "3 sinais fortes + uma condição nomeada a verificar antes de avançar."
       },
       {
-        "label": "STOP",
-        "text": "Any single structural blocker confirmed. Specific finding, named and sourced."
+        "label": "PARAR",
+        "text": "Qualquer bloqueador estrutural único confirmado. Achado específico, nomeado e com fonte."
       }
     ],
-    "samplesLabel": "See the output",
-    "samplesTitle": "Three companies. Three verdicts. Real format.",
-    "samplesSub": "These are sample Signal Briefs — fictional companies, real format. Each one shows a different verdict: ADVANCE, CONDITIONAL, and STOP. Click through to see exactly what your team receives at the end of each engagement.",
-    "viewSample": "View Sample →",
-    "fitLabel": "Built for your deal flow",
-    "fitTitle": "Where Soundcheck fits in your process.",
+    "samplesLabel": "Veja a saída",
+    "samplesTitle": "Três empresas. Três veredictos. Formato real.",
+    "samplesSub": "Estes são Signal Briefs de amostra — empresas fictícias, formato real. Cada um mostra um veredicto diferente: AVANÇAR, CONDICIONAL, e PARAR. Clique para ver exatamente o que seu time recebe no final de cada engajamento.",
+    "viewSample": "Ver Amostra →",
+    "fitLabel": "Construído para seu fluxo de operações",
+    "fitTitle": "Onde Soundcheck se encaixa em seu processo.",
     "earlyStage": {
-      "title": "Early-Stage Funds",
-      "desc": "You move fast and evaluate volume. Soundcheck fits between initial screening and the first internal deep-dive — the moment when a company passes the pitch test but hasn't been stress-tested by anyone outside the firm.",
-      "bestFor": "Best for:",
+      "title": "Fundos de Estágio Inicial",
+      "desc": "Você se move rápido e avalia volume. Soundcheck se encaixa entre a triagem inicial e o primeiro deep-dive interno — o momento em que uma empresa passa no teste de pitch mas não foi testada por ninguém fora da firma.",
+      "bestFor": "Melhor para:",
       "items": [
-        "Pre-seed through Series B triage",
-        "Deals sourced outside your core network",
-        "Markets where your team lacks deep domain familiarity",
-        "Verifying NRR and retention claims before committing associate hours"
+        "Triagem de Pré-Seed até Series B",
+        "Operações originadas fora de sua rede principal",
+        "Mercados onde seu time carece de familiaridade profunda do domínio",
+        "Verificação de afirmações de NRR e retenção antes de comprometer horas de analista"
       ]
     },
     "growthStage": {
-      "title": "Growth-Stage Funds",
-      "desc": "At Series B and beyond, the pitch gets more polished but the fundamentals don't always keep up. Soundcheck surfaces discrepancies between what the founder says and what a real customer confirms, before your partners commit time.",
-      "bestFor": "Best for:",
+      "title": "Fundos de Estágio de Crescimento",
+      "desc": "Na Série B e além, o pitch fica mais polido mas os fundamentos nem sempre acompanham. Soundcheck revela discrepâncias entre o que o fundador diz e o que um cliente real confirma, antes que seus sócios se comprometam com tempo.",
+      "bestFor": "Melhor para:",
       "items": [
-        "Series B+ evaluation and follow-on decisions",
-        "Deals where the deck looks strong but references feel curated",
-        "Sectors outside your partners' primary expertise",
-        "First-pass validation before engaging the full diligence team"
+        "Avaliação Series B+ e decisões de acompanhamento",
+        "Operações onde o deck se parece forte mas as referências parecem selecionadas",
+        "Setores fora da expertise principal de seus partners",
+        "Validação de primeiro passe antes de envolver o time de due diligence completo"
       ]
     },
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
+    "faqLabel": "Perguntas comuns",
+    "faqTitle": "Respostas diretas.",
     "faqs": [
       {
-        "q": "Does the company know they're being evaluated?",
-        "a": "They know they're participating in a structured market intelligence process on behalf of an investor. We don't identify the investor firm. The company is told upfront that this includes an independent customer interview — they provide 5 names, we choose who we call."
+        "q": "A empresa sabe que está sendo avaliada?",
+        "a": "Eles sabem que estão participando de um processo estruturado de inteligência de mercado em nome de um investidor. Não identificamos a firma de investimento. A empresa é informada antecipadamente que isso inclui uma entrevista de cliente independente — eles fornecem 5 nomes, nós escolhemos quem ligamos."
       },
       {
-        "q": "What if the company refuses the customer interview?",
-        "a": "A refusal gets noted in the Signal Brief and flagged as a transparency concern. It shifts the verdict toward CONDITIONAL at best. A company that won't let a customer speak independently is telling you something."
+        "q": "E se a empresa recusar a entrevista de cliente?",
+        "a": "Uma recusa é anotada no Signal Brief e marcada como preocupação de transparência. Isso desloca o veredicto para CONDICIONAL na melhor das hipóteses. Uma empresa que não permite que um cliente fale de forma independente está lhe dizendo algo."
       },
       {
-        "q": "How is this different from what your analysts already do in round one?",
-        "a": "Your analysts probably have some version of this conversation informally. Soundcheck makes it structured, consistent, and documented — with a contradiction log that catches discrepancies across two separate calls, and a one-page output that travels cleanly to IC without a 20-minute briefing."
+        "q": "Como isso é diferente do que seus analistas já fazem na primeira ronda?",
+        "a": "Seus analistas provavelmente têm alguma versão dessa conversa informalmente. Soundcheck a torna estruturada, consistente, e documentada — com um registro de contradição que captura discrepâncias em duas chamadas separadas, e uma saída de uma página que viaja limpo para IC sem um briefing de 20 minutos."
       },
       {
-        "q": "Can we run this without the company knowing we're evaluating them?",
-        "a": "No. Both interviews require the company's participation and consent to record. The framing is neutral — \"structured investment intelligence process\" — but they are aware. The value comes from the structured extraction and the independent customer source, not from surprise."
+        "q": "Podemos executar isso sem a empresa saber que estamos avaliando-a?",
+        "a": "Não. Ambas as entrevistas requerem participação da empresa e consentimento para gravar. O enquadramento é neutro — \"processo estruturado de inteligência de investimento\" — mas eles estão cientes. O valor vem da extração estruturada e da fonte de cliente independente, não da surpresa."
       },
       {
-        "q": "What's the turnaround if we need it faster?",
-        "a": "Standard is 7 business days from the date both interviews are completed. Rush delivery (3 business days) is available for an additional US$1,000 — subject to availability. Contact us before briefing to confirm."
+        "q": "Qual é o prazo se precisarmos mais rápido?",
+        "a": "Padrão é 7 dias úteis a partir da data em que ambas as entrevistas são concluídas. Entrega rápida (3 dias úteis) está disponível por um adicional de US$1.000 — sujeito a disponibilidade. Contate-nos antes do briefing para confirmar."
       },
       {
-        "q": "Do you offer volume pricing?",
-        "a": "Yes. Firms running 5 or more evaluations per quarter qualify for volume pricing. We also offer white-label delivery — the Full Intelligence Report and Signal Brief under your firm's branding. Talk to us about what fits your pipeline volume."
+        "q": "Vocês oferecem preços por volume?",
+        "a": "Sim. Firmas que executam 5 ou mais avaliações por trimestre se qualificam para preços por volume. Também oferecemos entrega de white-label — o Relatório de Inteligência Completo e Signal Brief sob a marca de sua firma. Fale com a gente sobre o que se encaixa no volume de seu fluxo de operações."
       }
     ],
-    "ctaTitle": "Your next deal is already in your pipeline.\nFind out if it deserves your team's time.",
-    "ctaButton": "Request an Engagement →",
-    "ctaLink": "Or view sample Signal Briefs first →"
+    "ctaTitle": "Sua próxima operação já está em seu pipeline.\nDescubra se merece o tempo de seu time.",
+    "ctaButton": "Solicitar um Engajamento →",
+    "ctaLink": "Ou veja Signal Briefs de amostra primeiro →"
   },
   "contact": {
-    "heroLabel": "Get in Touch",
-    "heroTitle": "Ready to brief us?",
-    "heroSub": "For partnership inquiries, product briefs, and general questions. Every message is reviewed and responded to within one business day.",
-    "sendMessage": "Send us a message",
-    "noCommitment": "No commitment required. Response within 2 business days.",
-    "sendButton": "Send Message →",
-    "directContact": "Direct Contact",
-    "directDesc": "Prefer to reach out directly? We're reachable by email or LinkedIn.",
-    "linkedinLabel": "Valter Klug on LinkedIn",
-    "whatHappens": "What Happens After You Write",
+    "heroLabel": "Entre em Contato",
+    "heroTitle": "Pronto para nos contar?",
+    "heroSub": "Para consultas de parcerias, briefs de produtos e dúvidas gerais. Cada mensagem é revisada e respondida em até um dia útil.",
+    "sendMessage": "Envie-nos uma mensagem",
+    "noCommitment": "Nenhum compromisso necessário. Resposta em 2 dias úteis.",
+    "sendButton": "Enviar Mensagem →",
+    "directContact": "Contato Direto",
+    "directDesc": "Prefere entrar em contato diretamente? Podemos ser contatados por email ou LinkedIn.",
+    "linkedinLabel": "Valter Klug no LinkedIn",
+    "whatHappens": "O que Acontece Depois que Você Escreve",
     "valterTitle": "Valter Klug",
-    "valterSub": "Founder · Soundcheck Insights · Miami",
-    "valterDesc": "Valter reviews every message personally. If there's a fit, he'll reply with a short note and a calendar link within one business day. If Soundcheck isn't the right solution, he'll tell you honestly — and point you to the right partner.",
-    "lookingDifferent": "Looking for a Different Service?",
-    "lookingDesc": "Soundcheck focuses on market research and intelligence. For marketing strategy, US entity setup, logistics, or franchise expansion, visit our partner network.",
-    "seePartners": "See all partners →"
+    "valterSub": "Fundador · Soundcheck Insights · Miami",
+    "valterDesc": "Valter revisa cada mensagem pessoalmente. Se houver compatibilidade, ele responderá com uma nota breve e um link de calendário em um dia útil. Se Soundcheck não for a solução certa, ele dirá honestamente — e apontará para o parceiro certo.",
+    "lookingDifferent": "Procurando um Serviço Diferente?",
+    "lookingDesc": "Soundcheck concentra-se em pesquisa de mercado e inteligência. Para estratégia de marketing, configuração de entidade nos EUA, logística ou expansão de franquias, visite nossa rede de parceiros.",
+    "seePartners": "Ver todos os parceiros →"
   },
   "partner": {
     "heroLabel": "Seja Parceiro Conosco",
-    "heroTitle": "Add Soundcheck to your practice.\nStart with one report.",
-    "heroSub": "Tell us about your company. We'll walk you through platform access, pricing, and how to run your first report — typically on an existing client within your first week.",
-    "formTitle": "Tell us about your company",
-    "formSub": "Every access request is reviewed personally by Valter. If there's a fit, you'll hear back within two business days.",
-    "submitButton": "Submit Partnership Inquiry →",
-    "whatHappens": "What Happens Next",
+    "heroTitle": "Adicione Soundcheck à sua prática.\nComece com um relatório.",
+    "heroSub": "Conte-nos sobre sua empresa. Vamos guiá-lo através do acesso à plataforma, preços e como executar seu primeiro relatório — tipicamente em um cliente existente na sua primeira semana.",
+    "formTitle": "Conte-nos sobre sua empresa",
+    "formSub": "Cada solicitação de acesso é revisada pessoalmente por Valter. Se houver compatibilidade, você ouvirá falar em dois dias úteis.",
+    "submitButton": "Enviar Consulta de Parceria →",
+    "whatHappens": "O que Acontece Depois",
     "steps": [
       {
         "num": "01",
-        "title": "We review your inquiry",
-        "body": "Within one business day. Every inquiry read personally by Valter."
+        "title": "Revisamos sua consulta",
+        "body": "Em até um dia útil. Cada consulta é lida pessoalmente por Valter."
       },
       {
         "num": "02",
-        "title": "Discovery call (30 min)",
-        "body": "We walk through the platform, your client types, and which product makes most sense to start with."
+        "title": "Chamada de descoberta (30 min)",
+        "body": "Vamos guiá-lo através da plataforma, seus tipos de clientes e qual produto faz mais sentido para começar."
       },
       {
         "num": "03",
-        "title": "First report — live practice",
-        "body": "Most operators run their first report on an existing client. You see the full workflow in practice."
+        "title": "Primeiro relatório — prática ao vivo",
+        "body": "A maioria dos operadores executa seu primeiro relatório em um cliente existente. Você vê o fluxo de trabalho completo na prática."
       },
       {
         "num": "04",
-        "title": "Platform access confirmed",
-        "body": "Simple, clear terms. Pay-per-report to start, or monthly access. No long-term lock-in."
+        "title": "Acesso à plataforma confirmado",
+        "body": "Termos simples e claros. Pague por relatório para começar, ou acesso mensal. Sem contrato de longo prazo."
       }
     ],
-    "valterQuote": "\"I built this platform by running every report myself first. I review every platform access inquiry personally — and walk new operators through their first report.\"",
+    "valterQuote": "\"Construí esta plataforma executando cada relatório eu mesmo primeiro. Reviso pessoalmente cada consulta de acesso à plataforma — e guio novos operadores através de seu primeiro relatório.\"",
     "preferTalk": "Prefere conversar primeiro?",
-    "reachOut": "Reach out directly or connect on LinkedIn."
+    "reachOut": "Entre em contato diretamente ou conecte-se no LinkedIn."
   },
   "ourPartners": {
-    "heroLabel": "Our Partner Network",
-    "heroTitle": "We'll point you to\nthe right expert.",
-    "heroSub": "Soundcheck Insights focuses on market intelligence and research. If what you need falls outside that scope, here are trusted partners we work with directly — each a specialist in their field.",
-    "forBrands": "For brands and businesses:",
-    "forBrandsDesc": "If you're not an agency but need help entering the US market, this page will help you find the right expert faster.",
-    "findPartner": "Find the Right Partner for Your Challenge",
-    "whenToReach": "When to reach out",
-    "startBrief": "Start a brief →",
-    "ctaTitle": "Not sure which partner you need?",
-    "ctaSub": "Send us a message and describe your situation. We'll tell you honestly whether Soundcheck is the right fit — and if not, we'll point you directly to the right person. No runaround, no sales pitch.",
-    "ctaButton": "Talk to the Team →",
+    "heroLabel": "Nossa Rede de Parceiros",
+    "heroTitle": "Vamos apontá-lo para\no especialista certo.",
+    "heroSub": "Soundcheck Insights foca em inteligência de mercado e pesquisa. Se o que você precisa está fora desse escopo, aqui estão parceiros confiáveis com os quais trabalhamos diretamente — cada um especialista em seu campo.",
+    "forBrands": "Para marcas e negócios:",
+    "forBrandsDesc": "Se você não é uma agência mas precisa de ajuda para entrar no mercado dos EUA, esta página o ajudará a encontrar o especialista certo mais rápido.",
+    "findPartner": "Encontre o Parceiro Certo para Seu Desafio",
+    "whenToReach": "Quando entrar em contato",
+    "startBrief": "Iniciar um brief →",
+    "ctaTitle": "Não tem certeza de qual parceiro você precisa?",
+    "ctaSub": "Envie-nos uma mensagem e descreva sua situação. Vamos dizer honestamente se Soundcheck é a opção certa — e se não, vamos apontá-lo diretamente para a pessoa certa. Sem enrolação, sem papo de vendas.",
+    "ctaButton": "Fale com o Time →",
     "partners": [
       {
-        "cat": "Marketing Strategy · Fractional CMO",
+        "cat": "Estratégia de Marketing · CMO Fracionário",
         "name": "Valter Klug — Chameleon Collective",
-        "desc": "If you need marketing leadership, brand strategy, US market expansion strategy, or a fractional CMO — Valter is the right conversation. He operates through Chameleon Collective and leads engagements directly. 25+ years across Brazil, the UK, and the US.",
-        "when": "Marketing leadership gaps, brand positioning for US launch, fractional CMO, campaign strategy, international brand expansion from Brazil or LATAM to the US."
+        "desc": "Se você precisa de liderança em marketing, estratégia de marca, estratégia de expansão no mercado dos EUA, ou um CMO fracionário — Valter é a conversa certa. Ele opera através da Chameleon Collective e lidera engajamentos diretamente. 25+ anos no Brasil, Reino Unido, e EUA.",
+        "when": "Brechas de liderança em marketing, posicionamento de marca para lançamento nos EUA, CMO fracionário, estratégia de campanha, expansão de marca internacional do Brasil ou LATAM para os EUA."
       },
       {
-        "cat": "US Business Setup · Legal & Admin",
+        "cat": "Configuração de Negócios nos EUA · Legal e Administrativo",
         "name": "Oxford USA — Fast Track",
-        "desc": "For Brazilian or Latin American companies that need to establish a legal entity in the United States — corporate structure, tax planning, bank accounts, and immigration support.",
-        "when": "Entity setup, tax planning, US bank accounts, immigration support, business registration."
+        "desc": "Para empresas brasileiras ou latino-americanas que precisam estabelecer uma entidade legal nos Estados Unidos — estrutura corporativa, planejamento fiscal, contas bancárias, e suporte imigratório.",
+        "when": "Configuração de entidade, planejamento fiscal, contas bancárias nos EUA, suporte imigratório, registro comercial."
       },
       {
-        "cat": "Trade · Logistics · Customs",
+        "cat": "Comércio · Logística · Alfândega",
         "name": "ITS Company",
-        "desc": "For brands moving product between Brazil and the US — import/export operations, customs clearance, freight management, and supply chain logistics. The operational backbone behind market entry.",
-        "when": "Import/export of physical goods, customs clearance, freight management, supply chain setup."
+        "desc": "Para marcas movimentando produtos entre Brasil e EUA — operações de importação/exportação, desembaraço aduaneiro, gestão de frete, e logística de cadeia de suprimentos. A espinha dorsal operacional por trás da entrada no mercado.",
+        "when": "Importação/exportação de bens físicos, desembaraço aduaneiro, gestão de frete, configuração de cadeia de suprimentos."
       },
       {
-        "cat": "Fulfillment · 3PL · Warehousing",
+        "cat": "Fulfillment · 3PL · Armazenagem",
         "name": "Connection Group USA",
-        "desc": "For international companies that need hands-on fulfillment and logistics operations in the US — warehousing, order fulfillment, shipping, and 3PL services. While ITS handles the strategic planning and customs side, Connection Group is the operational partner that stores, picks, packs, and ships your product once it lands.",
-        "when": "US warehousing and storage, order fulfillment, 3PL operations, pick-and-pack, domestic shipping, e-commerce logistics."
+        "desc": "Para empresas internacionais que precisam de operações práticas de fulfillment e logística nos EUA — armazenagem, fulfillment de pedidos, envio, e serviços 3PL. Enquanto ITS maneja o planejamento estratégico e o lado aduaneiro, Connection Group é o parceiro operacional que armazena, coleta, empacota, e envia seu produto uma vez que chega.",
+        "when": "Armazenagem e depósito nos EUA, fulfillment de pedidos, operações 3PL, coleta-embalagem, envio doméstico, logística de e-commerce."
       },
       {
-        "cat": "Franchise Expansion",
+        "cat": "Expansão de Franquia",
         "name": "Global Franchise",
-        "desc": "For brands that want to grow through a franchise model internationally — franchise structure design, legal framework, franchisee recruitment, and market launch strategy across multiple geographies.",
-        "when": "International franchise expansion, franchise model design, franchisee recruitment, multi-market franchise launch."
+        "desc": "Para marcas que querem crescer através de um modelo de franquia internacionalmente — design de estrutura de franquia, estrutura legal, recrutamento de franqueados, e estratégia de lançamento no mercado em múltiplas geografias.",
+        "when": "Expansão internacional de franquia, design de modelo de franquia, recrutamento de franqueados, lançamento de franquia em múltiplos mercados."
       },
       {
-        "cat": "CPG Retail · US Distribution",
+        "cat": "Distribuição Varejista CPG · Distribuição nos EUA",
         "name": "Go To Market BD",
-        "desc": "For Brazilian CPG brands that need a path into US retail distribution — broker relationships, shelf placement strategy, buyer introductions, and retail channel development across major US channels.",
-        "when": "US retail shelf placement, distributor and broker relationships, CPG distribution strategy."
+        "desc": "Para marcas brasileiras de CPG que precisam de um caminho para a distribuição varejista dos EUA — relações com brokers, estratégia de colocação em prateleira, apresentações a compradores, e desenvolvimento de canal varejista nos principais canais dos EUA.",
+        "when": "Colocação em prateleira varejista dos EUA, relações com distribuidor e broker, estratégia de distribuição de CPG."
       },
       {
-        "cat": "Market Intelligence · Research",
-        "name": "Soundcheck Insights (You're here)",
-        "desc": "For brands or agencies that need market research, expansion viability analysis, competitive intelligence, or AI-powered customer insights — this is the right place.",
-        "when": "Market entry viability, competitive landscape research, business plan development, AI virtual focus groups, funding vetting."
+        "cat": "Inteligência de Mercado · Pesquisa",
+        "name": "Soundcheck Insights (Você está aqui)",
+        "desc": "Para marcas ou agências que precisam de pesquisa de mercado, análise de viabilidade de expansão, inteligência competitiva, ou insights de cliente impulsados por IA — este é o lugar certo.",
+        "when": "Viabilidade de entrada no mercado, pesquisa de paisagem competitivo, desenvolvimento de plano de negócio, grupos focais virtuais impulsados por IA, triagem de financiamento."
       }
     ]
   },
   "resources": {
-    "heroLabel": "Resources · For Agencies & Consultancies",
-    "heroTitle": "Intelligence you can use\nbefore you brief us.",
-    "heroSub": "Whitepapers, guides, and briefings on market research methodology, US market entry, and competitive intelligence — written for agency strategists and consultants.",
-    "featuredLabel": "Featured Whitepaper",
-    "featuredBadge": "Whitepaper · 18 pages",
-    "featuredTitle": "Why Research is the First Investment in Any US Market Entry",
+    "heroLabel": "Recursos · Para Agências e Consultorias",
+    "heroTitle": "Inteligência que você pode usar\nantes de nos contar.",
+    "heroSub": "White papers, guias e briefings sobre metodologia de pesquisa de mercado, entrada no mercado americano e inteligência competitiva — escritos para estrategistas de agências e consultores.",
+    "featuredLabel": "White Paper em Destaque",
+    "featuredBadge": "White Paper · 18 páginas",
+    "featuredTitle": "Por que Pesquisa é o Primeiro Investimento em Qualquer Entrada no Mercado dos EUA",
     "featuredMeta": [
-      "Q1 2026",
+      "T1 2026",
       "Leitura de 12 min"
     ],
-    "featuredDesc": "The five most common ways brands waste capital entering the US market — and how agencies can position research as a non-optional first step in every expansion engagement. Includes the Expansion Viability framework and a client conversation guide.",
-    "toc": "Table of Contents",
-    "allResources": "All Resources",
-    "download": "Download",
+    "featuredDesc": "As cinco formas mais comuns que marcas desperdiçam capital ao entrar no mercado americano — e como agências podem posicionar pesquisa como um primeiro passo não-opcional em cada engajamento de expansão. Inclui o framework de Expansão Viability e um guia de conversa com cliente.",
+    "toc": "Índice",
+    "allResources": "Todos os Recursos",
+    "download": "Baixar",
     "close": "Fechar",
-    "readArticle": "Read article →",
-    "newsletterLabel": "Monthly Intelligence Briefing",
-    "newsletterTitle": "Get our monthly market intelligence briefing.",
-    "newsletterDesc": "Category shifts, research methodology updates, and competitive intelligence signals — one email per month, written for agency strategists.",
-    "subscribeMeta": "Subscribe · Monthly · Free",
-    "subscribePlaceholder": "your@agency.com",
-    "subscribeButton": "Subscribe →",
-    "subscribing": "Subscribing…",
-    "subscribeSuccess": "✓ You're on the list. First briefing arrives next month.",
-    "subscribeFooter": "Monthly. No spam. Unsubscribe anytime."
+    "readArticle": "Ler artigo →",
+    "newsletterLabel": "Briefing Mensal de Inteligência",
+    "newsletterTitle": "Receba nosso briefing mensal de inteligência de mercado.",
+    "newsletterDesc": "Mudanças de categoria, atualizações de metodologia de pesquisa e sinais de inteligência competitiva — um email por mês, escrito para estrategistas de agências.",
+    "subscribeMeta": "Assinar · Mensal · Gratuito",
+    "subscribePlaceholder": "seu@agencia.com",
+    "subscribeButton": "Assinar →",
+    "subscribing": "Assinando…",
+    "subscribeSuccess": "✓ Você está na lista. Primeiro briefing chega no próximo mês.",
+    "subscribeFooter": "Mensal. Sem spam. Desinscrever a qualquer hora."
   },
   "businessPlan": {
-    "heroLabel": "Product Deep-Dive · Business Plan",
-    "heroTitle": "A business plan built for\nthe reader who decides.",
-    "heroSub": "Not a template. Not a pitch deck. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. Every claim sourced. Every projection documented. Every section weighted for the specific reader who will make the decision.",
-    "briefButton": "Brief This Plan →",
-    "seePlanTypes": "See Plan Types →",
+    "heroLabel": "Análise Profunda do Produto · Plano de Negócios",
+    "heroTitle": "Um plano de negócios construído para\no tomador de decisão.",
+    "heroSub": "Não é um template. Não é um pitch deck. Um plano de negócios profissional e específico por audiência construído a partir de dados estruturados de consulta inicial, uma entrevista com partes interessadas e pesquisa independente. Cada afirmação documentada. Cada projeção comprovada. Cada seção ponderada para o leitor específico que tomará a decisão.",
+    "briefButton": "Apresente Este Plano →",
+    "seePlanTypes": "Ver Tipos de Plano →",
     "heroStats": [
       {
         "num": "10-14",
-        "label": "DAYS",
-        "sub": "from intake to delivery"
+        "label": "DIAS",
+        "sub": "da consulta inicial até a entrega"
       },
       {
         "num": "6",
-        "label": "PLAN TYPES",
-        "sub": "audience-specific configurations"
+        "label": "TIPOS DE PLANO",
+        "sub": "configurações específicas por audiência"
       },
       {
         "num": "10",
-        "label": "SECTIONS",
-        "sub": "every claim sourced"
+        "label": "SEÇÕES",
+        "sub": "cada afirmação documentada"
       }
     ],
-    "whoLabel": "Built for real decisions",
-    "whoTitle": "Who commissions this plan.",
+    "whoLabel": "Construído para decisões reais",
+    "whoTitle": "Quem encomenda este plano.",
     "whoItems": [
       {
-        "title": "Entrepreneurs and founders",
-        "text": "You need a professional plan to raise capital, secure a loan, or align your team around a strategy. Not a template filled with generic language. A document built from your actual business data and independent market research."
+        "title": "Empreendedores e fundadores",
+        "text": "Você precisa de um plano profissional para levantar capital, garantir um empréstimo ou alinhar sua equipe em torno de uma estratégia. Não um template repleto de linguagem genérica. Um documento construído a partir de seus dados reais de negócios e pesquisa independente de mercado."
       },
       {
-        "title": "International investors seeking US visas",
-        "text": "E-2, EB-5, or L-1A. Your immigration attorney needs a business plan that meets the Matter of Ho standard. We produce the plan. Your attorney files the petition."
+        "title": "Investidores internacionais que buscam vistos dos EUA",
+        "text": "E-2, EB-5 ou L-1A. Seu advogado de imigração precisa de um plano de negócios que atenda ao padrão Matter of Ho. Nós produzimos o plano. Seu advogado apresenta o pedido."
       },
       {
-        "title": "Agencies and consultancies",
-        "text": "Your client needs a business plan. You need a research-grade document to deliver under your brand. The white-label version ships ready for your client's leadership team."
+        "title": "Agências e consultorias",
+        "text": "Seu cliente precisa de um plano de negócios. Você precisa de um documento de qualidade de pesquisa para entregar sob sua marca. A versão white-label está pronta para o time executivo do seu cliente."
       }
     ],
-    "typesLabel": "6 audience-specific configurations",
-    "typesTitle": "One structure. Six configurations.",
-    "typesSub": "Every plan follows the same 10-section core structure. But the emphasis, depth, financial projection horizon, and supporting evidence requirements adapt to the audience. The intake questionnaire determines which configuration applies.",
+    "typesLabel": "6 configurações específicas por audiência",
+    "typesTitle": "Uma estrutura. Seis configurações.",
+    "typesSub": "Todo plano segue a mesma estrutura central de 10 seções. Mas a ênfase, profundidade, horizonte de projeção financeira e requisitos de evidência de apoio se adaptam à audiência. O questionário de consulta inicial determina qual configuração se aplica.",
     "planTypes": [
       {
-        "type": "Type A",
-        "name": "Investor Plan",
-        "subname": "VC / Angel",
-        "desc": "Unit economics, TAM/SAM/SOM, competitive moat, team, exit thesis. 3-5 year projections with monthly Year 1 detail. 20-35 pages."
+        "type": "Tipo A",
+        "name": "Plano para Investidores",
+        "subname": "Capital Venture / Angel",
+        "desc": "Economia unitária, TAM/SAM/SOM, vantagem competitiva, time, tese de saída. Projeções de 3-5 anos com detalhe mensal Ano 1. 20-35 páginas."
       },
       {
-        "type": "Type B",
-        "name": "Bank / SBA Loan Plan",
-        "desc": "Cash flow projections, debt service coverage, collateral, owner experience, use of funds. Monthly Year 1, quarterly Year 2. 20-40 pages."
+        "type": "Tipo B",
+        "name": "Plano para Empréstimo Bancário / SBA",
+        "desc": "Projeções de fluxo de caixa, cobertura do serviço de dívida, garantias, experiência do proprietário, uso de fundos. Ano 1 mensal, Ano 2 trimestral. 20-40 páginas."
       },
       {
-        "type": "Type C",
-        "name": "Immigration Plan",
+        "type": "Tipo C",
+        "name": "Plano de Imigração",
         "subname": "E-2 / EB-5 / L-1A",
-        "desc": "Legal defensibility under the Matter of Ho standard. Job creation, economic impact, 5-year projections, 30-50% appendix of supporting exhibits. 30-60+ pages."
+        "desc": "Defensibilidade legal sob o padrão Matter of Ho. Criação de empregos, impacto econômico, projeções de 5 anos, apêndice de 30-50% com documentos de suporte. 30-60+ páginas."
       },
       {
-        "type": "Type D",
-        "name": "Franchise Plan",
-        "desc": "FDD Item 7 and Item 19 alignment. Territory analysis, royalty-adjusted unit economics, franchisor performance data. 20-35 pages."
+        "type": "Tipo D",
+        "name": "Plano de Franquia",
+        "desc": "Alinhamento com Item 7 e Item 19 do FDD. Análise territorial, economia unitária ajustada por royalties, dados de desempenho do franqueador. 20-35 páginas."
       },
       {
-        "type": "Type E",
-        "name": "CPG / Consumer Product",
-        "desc": "Distribution strategy (retail, DTC, Amazon), COGS and margin structure, supply chain, FDA/labeling compliance, go-to-market by channel. 25-40 pages."
+        "type": "Tipo E",
+        "name": "Produto de Consumo / CPG",
+        "desc": "Estratégia de distribuição (varejo, direto ao consumidor, Amazon), estrutura de COGS e margens, cadeia de suprimentos, conformidade FDA/rotulagem, entrada no mercado por canal. 25-40 páginas."
       },
       {
-        "type": "Type F",
-        "name": "Founder's Internal Plan",
-        "desc": "Strategic clarity for the founding team. No external audience. Shorter, more direct. Honest gap assessment. 10-20 pages."
+        "type": "Tipo F",
+        "name": "Plano Interno do Fundador",
+        "desc": "Clareza estratégica para o time fundador. Sem audiência externa. Mais curto e direto. Avaliação honesta de lacunas. 10-20 páginas."
       }
     ],
     "insideLabel": "10 seções. Cada alegação originada.",
-    "insideTitle": "What's inside the plan.",
-    "insideSub": "All plan types follow this 10-section structure. Emphasis and depth vary by audience configuration.",
+    "insideTitle": "O que tem dentro do plano.",
+    "insideSub": "Todos os tipos de plano seguem esta estrutura de 10 seções. Ênfase e profundidade variam por configuração de audiência.",
     "sections": [
       {
         "num": "1",
         "title": "Resumo Executivo",
-        "sub": "The decision page.",
+        "sub": "A página de decisão.",
         "items": [
-          "Business overview, problem/opportunity, solution, market snapshot.",
-          "Team credentials and key milestones to date.",
-          "Financial snapshot with the specific ask (if fundraising).",
-          "The single most important thing the reader needs to know."
+          "Visão geral do negócio, problema/oportunidade, solução, snapshot do mercado.",
+          "Credenciais do time e marcos principais até agora.",
+          "Snapshot financeiro com o pedido específico (se captação).",
+          "A coisa mais importante que o leitor precisa saber."
         ]
       },
       {
         "num": "2",
-        "title": "Company Description",
-        "sub": "Who you are and where you stand.",
+        "title": "Descrição da Empresa",
+        "sub": "Quem você é e onde você está.",
         "items": [
-          "Legal entity, founding story, mission, vision, current stage.",
-          "Location, ownership structure, key milestones.",
-          "What makes this company real, not theoretical."
+          "Entidade legal, história de fundação, missão, visão, estágio atual.",
+          "Localização, estrutura de propriedade, marcos principais.",
+          "O que torna esta empresa real, não teórica."
         ]
       },
       {
         "num": "3",
-        "title": "Products & Services",
-        "sub": "What you sell and why it matters.",
+        "title": "Produtos e Serviços",
+        "sub": "O que você vende e por que importa.",
         "items": [
-          "Features, benefits, development stage, product roadmap.",
-          "IP, patents, or proprietary technology (if applicable).",
-          "Regulatory requirements and compliance status."
+          "Características, benefícios, estágio de desenvolvimento, roadmap de produto.",
+          "Propriedade intelectual, patentes ou tecnologia proprietária (se aplicável).",
+          "Requisitos regulatórios e status de conformidade."
         ]
       },
       {
         "num": "4",
-        "title": "Market Analysis",
-        "sub": "The largest section. Every number sourced.",
+        "title": "Análise de Mercado",
+        "sub": "A seção maior. Todo número documentado.",
         "items": [
-          "TAM / SAM / SOM with calculation logic and confidence labels.",
-          "Market trends, growth drivers, timing factors.",
-          "Target customer profile with segments, triggers, and barriers."
+          "TAM / SAM / SOM com lógica de cálculo e rótulos de confiança.",
+          "Tendências de mercado, drivers de crescimento, fatores de temporalidade.",
+          "Perfil do cliente-alvo com segmentos, gatilhos e barreiras."
         ]
       },
       {
         "num": "5",
-        "title": "Competitive Analysis",
-        "sub": "Who else solves this problem.",
+        "title": "Análise Competitiva",
+        "sub": "Quem mais resolve este problema.",
         "items": [
           "3 a 8 concorrentes diretos perfilados com posicionamento e preço.",
-          "Competitive matrix with differentiation strategy.",
-          "Switching costs and moat assessment."
+          "Matriz competitiva com estratégia de diferenciação.",
+          "Custos de troca e avaliação de vantagem competitiva."
         ]
       },
       {
         "num": "6",
-        "title": "Marketing & Sales Strategy",
-        "sub": "How you acquire and keep customers.",
+        "title": "Estratégia de Marketing e Vendas",
+        "sub": "Como você adquire e retém clientes.",
         "items": [
-          "Customer acquisition channels with CAC targets.",
-          "Pricing strategy with margin analysis.",
-          "Go-to-market timeline and launch sequencing."
+          "Canais de aquisição de clientes com metas de CAC.",
+          "Estratégia de preços com análise de margens.",
+          "Cronograma de entrada no mercado e sequência de lançamento."
         ]
       },
       {
         "num": "7",
-        "title": "Operations Plan",
-        "sub": "How the business actually runs.",
+        "title": "Plano de Operações",
+        "sub": "Como o negócio realmente funciona.",
         "items": [
-          "Facilities, supply chain, technology stack, key processes.",
-          "Staffing plan with hiring timeline.",
-          "For immigration plans: detailed job creation plan with BLS-sourced wages."
+          "Instalações, cadeia de suprimentos, stack de tecnologia, processos-chave.",
+          "Plano de staff com cronograma de contratação.",
+          "Para planos de imigração: plano detalhado de criação de empregos com salários de fonte BLS."
         ]
       },
       {
         "num": "8",
-        "title": "Organization & Management",
-        "sub": "The team behind the plan.",
+        "title": "Organização e Gestão",
+        "sub": "O time por trás do plano.",
         "items": [
-          "Team bios and organizational chart (current and projected).",
-          "Advisory board and key hires planned.",
-          "Gap analysis: what roles are missing and when they get filled."
+          "Bios do time e organograma (atual e projetado).",
+          "Conselho consultivo e principais contratações planejadas.",
+          "Análise de lacunas: quais papéis estão faltando e quando eles são preenchidos."
         ]
       },
       {
         "num": "9",
-        "title": "Financial Projections",
-        "sub": "The numbers that matter.",
+        "title": "Projeções Financeiras",
+        "sub": "Os números que importam.",
         "items": [
-          "Income statement, cash flow, balance sheet (3-5 years).",
-          "Documented assumptions for every line item.",
-          "Scenario analysis: conservative, base, and upside.",
-          "Break-even analysis with unit economics.",
-          "For bank plans: debt service coverage ratio. For immigration: 5-year minimum."
+          "Demonstração de resultado, fluxo de caixa, balanço (3-5 anos).",
+          "Premissas documentadas para cada linha.",
+          "Análise de cenários: conservador, base e otimista.",
+          "Análise de ponto de equilíbrio com economia unitária.",
+          "Para planos bancários: índice de cobertura do serviço de dívida. Para imigração: 5 anos mínimo."
         ]
       },
       {
         "num": "10",
-        "title": "Appendix & Exhibits",
-        "sub": "Full transparency.",
+        "title": "Apêndice e Anexos",
+        "sub": "Transparência total.",
         "items": [
-          "Resumes, market research sources, contracts, letters of intent.",
-          "For immigration plans: proof of investment source, property documentation.",
-          "Job descriptions, BLS wage data, organizational charts.",
-          "Every assumption or proxy used, logged with confidence levels."
+          "Currículos, fontes de pesquisa de mercado, contratos, cartas de intenção.",
+          "Para planos de imigração: prova de fonte de investimento, documentação de propriedade.",
+          "Descrições de cargo, dados salariais BLS, organogramas.",
+          "Toda premissa ou proxy usada, registrada com níveis de confiança."
         ]
       }
     ],
-    "delivLabel": "What you receive",
-    "delivTitle": "The full delivery package.",
-    "fullPlanTitle": "Full Business Plan",
-    "fullPlanDesc": "Professional .docx format, audience-formatted and white-label ready. 10-section structure with sourced claims, documented assumptions, and confidence-labeled projections throughout.",
+    "delivLabel": "O que você recebe",
+    "delivTitle": "O pacote de entrega completo.",
+    "fullPlanTitle": "Plano de Negócios Completo",
+    "fullPlanDesc": "Formato profissional .docx, formatado para audiência e pronto para white-label. Estrutura de 10 seções com afirmações documentadas, premissas registradas e projeções com rótulo de confiança em toda parte.",
     "fullPlanItems": [
       "Estrutura MECE de 10 seções",
-      "Audience-specific emphasis and depth",
+      "Ênfase e profundidade específicas por audiência",
       "Projeções rotuladas com confiança",
-      "Sourced market and competitive data",
-      "Immigration appendix with exhibits (Type C)",
+      "Dados de mercado e competência documentados",
+      "Apêndice de imigração com anexos (Tipo C)",
       "Pronto para white-label"
     ],
-    "execTitle": "Executive Summary One-Pager",
-    "execDesc": "A condensed visual version of the key findings. Business snapshot, market opportunity, financial highlights, team overview, and the specific ask. Designed for investor meetings, board presentations, and partner conversations.",
+    "execTitle": "Resumo Executivo em Uma Página",
+    "execDesc": "Uma versão visual condensada dos principais achados. Snapshot do negócio, oportunidade de mercado, highlights financeiros, visão geral do time e o pedido específico. Projetado para reuniões com investidores, apresentações de conselho e conversas com parceiros.",
     "execItems": [
-      "Business snapshot with key metrics",
-      "Market opportunity sizing",
-      "Financial highlights and projections",
-      "Team overview",
-      "The specific ask (fundraising, loan, visa)",
-      "Designed for screen and print"
+      "Snapshot do negócio com métricas-chave",
+      "Dimensionamento de oportunidade de mercado",
+      "Highlights financeiros e projeções",
+      "Visão geral do time",
+      "O pedido específico (captação, empréstimo, visto)",
+      "Projetado para tela e impressão"
     ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
+    "pricingLabel": "Preços e entrega",
+    "pricingTitle": "Escopo fixo. Preço fixo. Sem surpresas.",
     "price": "US$5,000+",
-    "perPlan": "per plan",
+    "perPlan": "por plano",
     "pricingDetails": [
       {
         "title": "Entrega em 10-14 dias",
-        "sub": "From intake to final plan"
+        "sub": "Da consulta inicial ao plano final"
       },
       {
-        "title": "White-label included",
-        "sub": "Delivered under your brand"
+        "title": "White-label incluído",
+        "sub": "Entregue sob sua marca"
       },
       {
         "title": "1 rodada de revisão",
-        "sub": "Included in the base price"
+        "sub": "Incluído no preço base"
       }
     ],
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
+    "faqLabel": "Perguntas comuns",
+    "faqTitle": "Respostas diretas.",
     "faqs": [
       {
-        "q": "What information do you need from us to start?",
-        "a": "We send you a structured intake questionnaire covering your business, market, team, financials, and the specific audience for the plan. Most clients complete it in 45 to 60 minutes. After we review it, we schedule a 60 to 90 minute stakeholder interview to fill gaps and pressure-test key assumptions."
+        "q": "Que informações você precisa de nós para começar?",
+        "a": "Enviaremos um questionário de consulta estruturado cobrindo seu negócio, mercado, time, finanças e a audiência específica para o plano. A maioria dos clientes o completa em 45 a 60 minutos. Depois que revisamos, agendamos uma entrevista de partes interessadas de 60 a 90 minutos para preencher lacunas e testar premissas-chave."
       },
       {
-        "q": "How is this different from a business plan template?",
-        "a": "Templates give you a structure to fill in yourself. This product gives you a finished, professional document built from structured data collection, a stakeholder interview, and independent market and competitive research. Every claim is sourced. Every financial projection carries documented assumptions. The plan is formatted and weighted for the specific audience that will read it."
+        "q": "Como isso é diferente de um template de plano de negócios?",
+        "a": "Templates lhe dão uma estrutura para preencher você mesmo. Este produto lhe fornece um documento terminado e profissional construído a partir de coleta de dados estruturada, uma entrevista de partes interessadas e pesquisa independente de mercado e competência. Cada afirmação é documentada. Cada projeção financeira tem premissas registradas. O plano é formatado e ponderado para a audiência específica que o lerá."
       },
       {
-        "q": "Do you write immigration business plans?",
-        "a": "Yes. We produce business plans for E-2 Treaty Investor, EB-5 Immigrant Investor, and L-1A Intracompany Transferee (New Office) visa applications. The plan meets the Matter of Ho legal standard with job creation projections, economic impact evidence, and an appendix of supporting exhibits. We do not provide legal advice. Your immigration attorney is responsible for the legal strategy and petition filing."
+        "q": "Vocês escrevem planos de negócios de imigração?",
+        "a": "Sim. Produzimos planos de negócios para aplicações de visto de Investidor de Tratado E-2, Investidor Imigrante EB-5 e Transferência Intraempresa L-1A (Novo Escritório). O plano atende ao padrão legal Matter of Ho com projeções de criação de empregos, evidência de impacto econômico e um apêndice de documentos de suporte. Nós não fornecemos consultoria jurídica. Seu advogado de imigração é responsável pela estratégia legal e apresentação do pedido."
       },
       {
-        "q": "Can our agency white-label this?",
-        "a": "Yes. The plan is designed for white-label delivery. We provide it under your brand, your cover page, your agency name. Your client never sees Soundcheck Insights unless you want them to."
+        "q": "Nossa agência pode fazer white-label disso?",
+        "a": "Sim. O plano foi projetado para entrega white-label. Fornecemos sob sua marca, sua capa, seu nome de agência. Seu cliente nunca vê Soundcheck Insights a menos que você queira."
       },
       {
-        "q": "What if my client needs changes after delivery?",
-        "a": "One revision round is included in the base price. If the client wants to adjust assumptions, explore a different scenario, or update the financial projections, we can update the relevant sections. Additional revision rounds are available at a flat rate."
+        "q": "E se meu cliente precisar de mudanças após a entrega?",
+        "a": "Uma rodada de revisão está incluída no preço base. Se o cliente quiser ajustar premissas, explorar um cenário diferente ou atualizar as projeções financeiras, podemos atualizar as seções relevantes. Rodadas de revisão adicionais estão disponíveis a uma taxa fixa."
       },
       {
-        "q": "What languages are available?",
-        "a": "English is the default. Spanish and Brazilian Portuguese are also available. Contact us to confirm availability and timeline for your target language."
+        "q": "Que idiomas estão disponíveis?",
+        "a": "O inglês é o padrão. Espanhol e Português Brasileiro também estão disponíveis. Entre em contato para confirmar disponibilidade e cronograma para seu idioma de destino."
       }
     ],
-    "ctaTitle": "Your plan should be as serious\nas your ambition.",
-    "ctaButton": "Brief This Plan →",
-    "ctaLink": "Or explore all research products →"
+    "ctaTitle": "Seu plano deve ser tão sério\nquanto sua ambição.",
+    "ctaButton": "Apresente Este Plano →",
+    "ctaLink": "Ou explore todos os produtos de pesquisa →"
   },
   "growthRoadmap": {
-    "heroLabel": "Product Deep-Dive · US Growth Roadmap",
-    "heroTitle": "Reignite Your Business Growth\nwith a Clear, Evidence-Based Roadmap",
-    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — delivered in 14 days.",
-    "briefButton": "Brief This Report →",
-    "seeSegments": "See Both Segments →",
+    "heroLabel": "Análise Profunda do Produto · Mapa de Crescimento EUA",
+    "heroTitle": "Reinicie Seu Crescimento Empresarial\ncom um Mapa Claro e Baseado em Evidências",
+    "heroSub": "O Mapa de Crescimento EUA da Soundcheck Insights foi construído para pequenas e médias empresas que estagnaram. Análise de mercado, inteligência competitiva, identificação de espaço em branco, palancas de crescimento classificadas, estimativas de investimento e um plano de ação de 90 dias — entregue em 14 dias.",
+    "briefButton": "Apresente Este Relatório →",
+    "seeSegments": "Ver Ambos os Segmentos →",
     "heroStats": [
       {
         "num": "40–60+",
-        "label": "PAGES",
-        "sub": "sourced research and strategy"
+        "label": "PÁGINAS",
+        "sub": "pesquisa e estratégia documentadas"
       },
       {
         "num": "14",
-        "label": "DAYS",
-        "sub": "from intake to delivery"
+        "label": "DIAS",
+        "sub": "da consulta inicial até a entrega"
       },
       {
         "num": "US$5k+",
         "label": "",
-        "sub": "white-label included"
+        "sub": "white-label incluído"
       }
     ],
-    "segmentsLabel": "Two segments. One methodology.",
-    "segmentsTitle": "Built for how your business actually works.",
-    "segmentsSub": "A B2B service company and a CPG brand face different growth blockers. The research methodology is the same — market analysis, competitive intelligence, whitespace identification, growth levers — but the lens, the data sources, and the recommendations are calibrated to your business model.",
+    "segmentsLabel": "Dois segmentos. Uma metodologia.",
+    "segmentsTitle": "Construído para como seu negócio realmente funciona.",
+    "segmentsSub": "Uma empresa de serviços B2B e uma marca CPG enfrentam diferentes bloqueadores de crescimento. A metodologia de pesquisa é a mesma — análise de mercado, inteligência competitiva, identificação de espaço em branco, palancas de crescimento — mas a lente, as fontes de dados e as recomendações são calibradas para seu modelo de negócios.",
     "theProblem": "O Problema",
-    "builtForYouIf": "This report is built for you if:",
-    "whatYouGet": "What You Get",
-    "keyDeliverables": "Key deliverables for this segment:",
-    "examples": "Examples:",
+    "builtForYouIf": "Este relatório foi construído para você se:",
+    "whatYouGet": "O Que Você Recebe",
+    "keyDeliverables": "Principais entregáveis para este segmento:",
+    "examples": "Exemplos:",
     "segments": [
       {
         "id": "b2b",
         "icon": "🏭",
-        "label": "B2B Services & Manufacturing",
-        "tagline": "For businesses where bookings fluctuate, no-shows erode margins, and marketing spend doesn't translate to demand.",
+        "label": "Serviços B2B e Manufatura",
+        "tagline": "Para negócios onde reservas flutuam, ausências corroem margens e gastos com marketing não se traduzem em demanda.",
         "color": "var(--teal)",
         "painPoints": [
-          "Revenue fluctuates month to month with no clear pattern",
-          "Marketing spend isn't converting — you're spending but not growing",
-          "No-shows and cancellations erode margins unpredictably",
-          "You know you need to grow but don't know which lever to pull first"
+          "A receita flutua mês a mês sem padrão claro",
+          "Gasto com marketing não está convertendo — está gastando mas não crescendo",
+          "Ausências e cancelamentos corroem margens de forma imprevisível",
+          "Você sabe que precisa crescer mas não sabe qual alavanca puxar primeiro"
         ],
         "deliverables": [
-          "Top 3–5 Growth Moves (Ranked) — prioritized by impact and feasibility for your specific business",
-          "Clear Investment Estimates — what each move costs, what it returns, and when",
-          "Reality Check (Competitive Benchmark) — how you stack up and where the whitespace is",
-          "Next-Week Action Plan — specific, assigned actions you can start immediately"
+          "Top 3–5 Movimentos de Crescimento (Classificados) — priorizados por impacto e viabilidade para seu negócio específico",
+          "Estimativas de Investimento Claras — quanto custa cada movimento, o que retorna e quando",
+          "Verificação de Realidade (Benchmark Competitivo) — como você se posiciona e onde está o espaço em branco",
+          "Plano de Ação para a Próxima Semana — ações específicas e atribuídas que você pode começar imediatamente"
         ],
-        "examples": "Home services, B2B contractors, healthcare practices, professional services, local manufacturing, fitness and wellness studios, specialty trades."
+        "examples": "Serviços domésticos, contratantes B2B, práticas de saúde, serviços profissionais, manufatura local, estúdios de fitness e bem-estar, ofícios especializados."
       },
       {
         "id": "cpg",
         "icon": "📦",
-        "label": "Consumer Packaged Goods",
-        "tagline": "For CPG brands where channels are active but growth is flat — Amazon, retail, and DTC working in pieces but not compounding.",
+        "label": "Bens de Consumo Embalados",
+        "tagline": "Para marcas CPG onde canais estão ativos mas crescimento é plano — Amazon, varejo e direto ao consumidor funcionando em pedaços mas não compondo.",
         "color": "var(--orange)",
         "painPoints": [
-          "Amazon, retail, and DTC are all active — but none are scaling",
-          "Channels work in pieces but don't compound into real growth",
-          "Category is competitive and shelf space is getting harder to hold",
-          "You're spread across channels without a clear priority framework"
+          "Amazon, varejo e direto ao consumidor estão todos ativos — mas nenhum está escalando",
+          "Canais funcionam em pedaços mas não se combinam em crescimento real",
+          "A categoria é competitiva e espaço na prateleira fica cada vez mais difícil de manter",
+          "Você está espalhado entre canais sem um framework claro de prioridade"
         ],
         "deliverables": [
-          "Top 3–5 Growth Moves (Ranked) — prioritized by category dynamics and channel opportunity",
-          "Clear Investment Estimates — per-channel investment with expected return ranges",
-          "Competitive and Category Reality Check — where you win, where you don't, and why",
-          "Channel Focus and Scaling Plan — which channels to double down on and which to deprioritize"
+          "Top 3–5 Movimentos de Crescimento (Classificados) — priorizados por dinâmica de categoria e oportunidade de canal",
+          "Estimativas de Investimento Claras — investimento por canal com faixas de retorno esperadas",
+          "Verificação de Realidade Competitiva e de Categoria — onde você vence, onde não e por quê",
+          "Plano de Foco e Escalada de Canais — quais canais duplicar e quais deprioritizar"
         ],
-        "examples": "Food and beverage brands, health and beauty, supplements, household products, pet products, specialty consumer goods."
+        "examples": "Marcas de alimentos e bebidas, saúde e beleza, suplementos, produtos domésticos, produtos para animais de estimação, bens de consumo especializados."
       }
     ],
-    "insideLabel": "8 sections. Every claim sourced.",
-    "insideTitle": "What's inside the report.",
-    "insideSub": "Each section answers a specific strategic question. The report is designed to be read top to bottom for the full picture, or section by section as your team needs specific answers.",
-    "principlesLabel": "Our standards",
-    "principlesTitle": "How we build every report.",
-    "principlesSub": "Six operating principles govern every report we produce. These aren't aspirational. They're enforced at every stage of generation, review, and delivery.",
+    "insideLabel": "8 seções. Cada afirmação documentada.",
+    "insideTitle": "O que tem dentro do relatório.",
+    "insideSub": "Cada seção responde uma pergunta estratégica específica. O relatório foi projetado para ser lido de cima para baixo para a visão completa, ou seção por seção conforme seu time precisa de respostas específicas.",
+    "principlesLabel": "Nossos padrões",
+    "principlesTitle": "Como construímos cada relatório.",
+    "principlesSub": "Seis princípios operacionais governam cada relatório que produzimos. Estes não são aspiracionais. Eles são executados em cada estágio de geração, revisão e entrega.",
     "principles": [
       {
-        "title": "Decision-grade, not forensic",
-        "desc": "Public sources and lightweight proxies for 80/20 answers. Confidence labeled on every major claim: HIGH, MED, or LOW."
+        "title": "Apto para decisão, não forense",
+        "desc": "Fontes públicas e proxies leves para respostas 80/20. Cada afirmação importante rotulada com confiança: ALTA, MÉD ou BAIXA."
       },
       {
-        "title": "Evidence first",
-        "desc": "Every market claim requires a data point, benchmark, or precedent with source name and date."
+        "title": "Evidência em primeiro lugar",
+        "desc": "Cada afirmação de mercado requer um ponto de dados, benchmark ou precedente com nome de fonte e data."
       },
       {
-        "title": "Built for action",
-        "desc": "Every section ends with what to do, not just what we found. Recommendations are specific, sequenced, and costed."
+        "title": "Construído para a ação",
+        "desc": "Cada seção termina com o que fazer, não apenas o que descobrimos. As recomendações são específicas, sequenciadas e orçadas."
       },
       {
-        "title": "Honest assessment",
-        "desc": "If a move won't pay back fast enough, we'll say so. If your differentiation doesn't hold up, you'll know."
+        "title": "Avaliação honesta",
+        "desc": "Se um movimento não se amortiza rápido o suficiente, vamos dizer. Se sua diferenciação não se sustenta, você saberá."
       },
       {
-        "title": "Model-first logic",
-        "desc": "Your business model is identified first. Every recommendation is calibrated to how you actually sell."
+        "title": "Lógica orientada ao modelo",
+        "desc": "Seu modelo de negócios é identificado primeiro. Cada recomendação é calibrada para como você realmente vende."
       },
       {
-        "title": "Full transparency",
-        "desc": "Every assumption, proxy, and estimation is logged. You know exactly what's proven and what's inferred."
+        "title": "Transparência total",
+        "desc": "Cada premissa, proxy e estimativa está registrada. Você sabe exatamente o que está comprovado e o que é inferido."
       }
     ],
-    "delivLabel": "What you receive",
-    "delivTitle": "The full delivery package.",
-    "reportTitle": "In-Depth Growth Viability Report",
-    "reportDesc": "40–60+ pages covering all 8 sections. Professional .docx format, white-labeled under your brand. Every claim sourced, every recommendation costed, every growth lever ranked.",
+    "delivLabel": "O que você recebe",
+    "delivTitle": "O pacote de entrega completo.",
+    "reportTitle": "Relatório Completo de Viabilidade de Crescimento",
+    "reportDesc": "40–60+ páginas cobrindo todas as 8 seções. Formato profissional .docx, white-label sob sua marca. Cada afirmação documentada, cada recomendação orçada, cada palanca de crescimento classificada.",
     "reportItems": [
-      "8-section structure with MECE coverage",
-      "Competitive matrix with 5–10 benchmarks",
+      "Estrutura de 8 seções com cobertura MECE",
+      "Matriz competitiva com 5–10 benchmarks",
       "Alavancas de crescimento classificadas com estimativas de investimento",
-      "Whitespace analysis with market evidence",
-      "90-day action plan with assigned actions",
-      "Assumptions log for full transparency"
+      "Análise de espaço em branco com evidência de mercado",
+      "Plano de ação de 90 dias com ações atribuídas",
+      "Registro de premissas para transparência total"
     ],
     "presTitle": "Apresentação Executiva e Q&A",
-    "presDesc": "A condensed visual presentation of the key findings and recommendations. Designed for leadership conversations, board meetings, and internal alignment. Includes a live Q&A walkthrough with the research team.",
+    "presDesc": "Uma apresentação visual condensada dos principais achados e recomendações. Projetada para conversas de liderazgo, reuniões de conselho e alinhamento interno. Inclui um walkthrough de Q&A ao vivo com o time de pesquisa.",
     "presItems": [
-      "Top growth moves with expected ROI ranges",
-      "Competitive positioning visual",
-      "Investment vs. return framework",
-      "Channel priority matrix",
-      "90-day roadmap summary",
-      "Live Q&A session included"
+      "Movimentos de crescimento superior com faixas de ROI esperadas",
+      "Visual de posicionamento competitivo",
+      "Framework de investimento versus retorno",
+      "Matriz de prioridade de canal",
+      "Resumo de roadmap de 90 dias",
+      "Sessão de Q&A ao vivo incluída"
     ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
+    "pricingLabel": "Preços e entrega",
+    "pricingTitle": "Escopo fixo. Preço fixo. Sem surpresas.",
     "price": "US$5,000+",
-    "perReport": "per report",
+    "perReport": "por relatório",
     "pricingDetails": [
       {
         "title": "Entrega em 14 dias",
-        "sub": "From intake form to final report"
+        "sub": "Do formulário de consulta inicial ao relatório final"
       },
       {
-        "title": "White-label included",
-        "sub": "Delivered under your brand"
+        "title": "White-label incluído",
+        "sub": "Entregue sob sua marca"
       },
       {
         "title": "1 rodada de revisão",
-        "sub": "Included in the base price"
+        "sub": "Incluído no preço base"
       }
     ],
     "sections": [
       {
         "num": "1",
         "title": "Resumo Executivo",
-        "sub": "The decision page.",
+        "sub": "A página de decisão.",
         "items": [
-          "Business snapshot: what you sell, your current scale, channels, and why growth has stalled.",
-          "Top 3–5 Growth Moves ranked by impact and feasibility, each with expected ROI range.",
-          "Clear investment estimates: what each move costs, what it returns, and when.",
-          "A recommended starting point backed by market evidence and your competitive position."
+          "Snapshot do negócio: o que você vende, sua escala atual, canais e por que o crescimento estagnnou.",
+          "Top 3–5 Movimentos de Crescimento classificados por impacto e viabilidade, cada um com faixa de ROI esperada.",
+          "Estimativas de investimento claras: quanto custa cada movimento, o que retorna e quando.",
+          "Um ponto de partida recomendado apoiado por evidência de mercado e sua posição competitiva."
         ]
       },
       {
         "num": "2",
-        "title": "Market & Category Analysis",
-        "sub": "Where the opportunity actually sits.",
+        "title": "Análise de Mercado e Categoria",
+        "sub": "Onde a oportunidade realmente se situa.",
         "items": [
-          "Category size, growth trajectory, and demand signals in your operating geography.",
-          "Customer segmentation: who buys, how often, what triggers switching, and what they value.",
-          "Channel dynamics: which channels are growing, which are saturating, and where margin lives.",
-          "Regulatory or structural shifts creating new openings or closing old ones."
+          "Tamanho de categoria, trajetória de crescimento e sinais de demanda em sua geografia de operação.",
+          "Segmentação de cliente: quem compra, com que frequência, o que desencadeia mudança e o que eles valorizam.",
+          "Dinâmica de canais: quais canais estão crescendo, quais estão saturando e onde vivem as margens.",
+          "Mudanças regulatórias ou estruturais criando novas oportunidades ou fechando antigas."
         ]
       },
       {
         "num": "3",
-        "title": "Competitive Landscape",
-        "sub": "Who you're really competing with.",
+        "title": "Paisagem Competitiva",
+        "sub": "Com quem você realmente está competindo.",
         "items": [
-          "5–10 primary and secondary competitors identified through market research.",
-          "Competitive matrix: positioning, pricing, channel presence, strengths, and vulnerabilities.",
-          "Whitespace analysis: 2–3 genuine gaps where demand exists but supply is weak or absent.",
-          "Threat assessment: which competitors are moving, where, and how fast."
+          "5–10 competidores primários e secundários identificados através de pesquisa de mercado.",
+          "Matriz competitiva: posicionamento, preços, presença de canal, fortalezas e vulnerabilidades.",
+          "Análise de espaço em branco: 2–3 lacunas genuínas onde demanda existe mas oferta é fraca ou ausente.",
+          "Avaliação de ameaças: quais competidores estão se movendo, para onde e tão rápido."
         ]
       },
       {
         "num": "4",
-        "title": "Company Differentiation Analysis",
-        "sub": "What makes you different — and what doesn't.",
+        "title": "Análise de Diferenciação da Empresa",
+        "sub": "O que o torna diferente — e o que não.",
         "items": [
-          "Honest assessment of your current positioning relative to direct competitors.",
-          "Differentiation audit: which claims hold up under scrutiny and which are table stakes.",
-          "Customer perception signals: what your market actually values vs. what you're selling.",
-          "Repositioning opportunities: angles that are defensible, provable, and underserved."
+          "Avaliação honesta de seu posicionamento atual em relação a competidores diretos.",
+          "Auditoria de diferenciação: quais afirmações se sustentam sob escrutínio e quais são básicas.",
+          "Sinais de percepção do cliente: o que seu mercado realmente valoriza versus o que você está vendendo.",
+          "Oportunidades de reposicionamento: ângulos que são defensáveis, prováveis e desatendidos."
         ]
       },
       {
         "num": "5",
-        "title": "Growth Levers & Strategic Recommendations",
-        "sub": "What to do, in what order, and why.",
+        "title": "Palancas de Crescimento e Recomendações Estratégicas",
+        "sub": "O que fazer, em que ordem e por quê.",
         "items": [
-          "Top 3–5 growth levers ranked by expected impact, investment required, and time to results.",
-          "Each lever includes: hypothesis, target metric, resources needed, expected outcome range, and a go/no-go gate.",
-          "Channel-specific tactics: where to double down, where to pull back, and where to experiment.",
-          "Pricing and packaging opportunities: adjustments that unlock revenue without new customer acquisition."
+          "Top 3–5 palancas de crescimento classificadas por impacto esperado, investimento requerido e tempo para resultados.",
+          "Cada palanca inclui: hipótese, métrica alvo, recursos necessários, faixa de resultado esperado e uma porta de go/no-go.",
+          "Táticas específicas de canal: onde duplicar, onde recuar e onde experimentar.",
+          "Oportunidades de preço e empacotamento: ajustes que desbloqueiam receita sem nova aquisição de cliente."
         ]
       },
       {
         "num": "6",
-        "title": "Investment Estimates & ROI Framework",
-        "sub": "What it costs. What it returns.",
+        "title": "Estimativas de Investimento e Framework de ROI",
+        "sub": "O que custa. O que retorna.",
         "items": [
-          "Per-lever investment breakdown: marketing spend, operational cost, technology, and people.",
-          "Conservative, base, and optimistic return scenarios for each recommended move.",
-          "Payback period estimates and break-even thresholds.",
-          "Budget allocation framework: how to distribute investment across levers for maximum impact."
+          "Detalhamento de investimento por palanca: gasto com marketing, custo operacional, tecnologia e pessoas.",
+          "Cenários de retorno conservador, base e otimista para cada movimento recomendado.",
+          "Estimativas de período de payback e limiares de ponto de equilíbrio.",
+          "Framework de alocação orçamentária: como distribuir investimento entre palancas para máximo impacto."
         ]
       },
       {
         "num": "7",
-        "title": "Action Plan & Next Steps",
-        "sub": "Your 90-day roadmap.",
+        "title": "Plano de Ação e Próximos Passos",
+        "sub": "Seu roadmap de 90 dias.",
         "items": [
-          "30 Days: 3 immediate actions — specific, assigned, and measurable.",
-          "60 Days: 3 build actions moving from setup to execution.",
-          "90 Days: 3 scale actions producing your first measurable growth signals.",
-          "KPIs to track, decisions required from leadership, and the single metric that matters most at Day 30."
+          "30 Dias: 3 ações imediatas — específicas, atribuídas e mensuráveis.",
+          "60 Dias: 3 ações de construção movendo de setup para execução.",
+          "90 Dias: 3 ações de escalada produzindo seus primeiros sinais de crescimento mensuráveis.",
+          "KPIs a rastrear, decisões requeridas de liderança e a métrica única que mais importa no Dia 30."
         ]
       },
       {
         "num": "8",
-        "title": "Assumptions & Gaps Log",
-        "sub": "Full transparency on what we know and what we estimated.",
+        "title": "Registro de Premissas e Lacunas",
+        "sub": "Transparência total sobre o que sabemos e o que estimamos.",
         "items": [
-          "Every assumption or proxy used in the analysis, logged with rationale.",
-          "Why the data point is missing, the proxy used, the source, confidence level, and its impact on recommendations."
+          "Cada premissa ou proxy usada na análise, registrada com justificativa.",
+          "Por que o ponto de dados está faltando, o proxy usado, a fonte, o nível de confiança e seu impacto nas recomendações."
         ]
       }
     ],
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
+    "faqLabel": "Perguntas comuns",
+    "faqTitle": "Respostas diretas.",
     "faqs": [
       {
-        "q": "What information do you need from us to start?",
-        "a": "We send you a structured intake form covering your product or service line, current revenue and channels, competitive landscape as you see it, and growth goals. Most clients complete it in 30 to 45 minutes. If anything is missing, we proceed using secondary research and proxy benchmarks, and log every assumption explicitly in the report."
+        "q": "Que informações você precisa de nós para começar?",
+        "a": "Enviaremos um formulário de consulta estruturado cobrindo sua linha de produto ou serviço, receita atual e canais, panorama competitivo como você o vê e objetivos de crescimento. A maioria dos clientes o completa em 30 a 45 minutos. Se algo estiver faltando, procedemos usando pesquisa secundária e benchmarks proxy e registramos cada premissa explicitamente no relatório."
       },
       {
-        "q": "How is this different from hiring a consultant?",
-        "a": "A consultant gives you one opinion and charges monthly. This delivers a structured, evidence-based growth roadmap with ranked moves, investment estimates, and an action plan — in 14 days, at a fixed price. Every recommendation is sourced, not just experienced. And you get the full methodology, not a black box."
+        "q": "Como isso é diferente de contratar um consultor?",
+        "a": "Um consultor lhe dá uma opinião e cobra mensalmente. Isto entrega um roadmap de crescimento estruturado e baseado em evidências com movimentos classificados, estimativas de investimento e um plano de ação — em 14 dias, a preço fixo. Cada recomendação é documentada, não apenas experimentada. E você recebe a metodologia completa, não uma caixa preta."
       },
       {
-        "q": "Is this only for US-based businesses?",
-        "a": "The core methodology works for any geography, but our deepest data coverage is in the US market. For US-based small and mid-size businesses, we have the strongest secondary data access and competitive intelligence. International businesses operating in the US are also a strong fit."
+        "q": "Isto é apenas para negócios baseados nos EUA?",
+        "a": "A metodologia central funciona para qualquer geografia, mas nossa cobertura de dados mais profunda está no mercado dos EUA. Para pequenas e médias empresas baseadas nos EUA, temos o acesso a dados secundários mais forte e inteligência competitiva. Negócios internacionais operando nos EUA também são uma boa opção."
       },
       {
-        "q": "What if we already know our competitors?",
-        "a": "Good — that saves time on the intake. But most businesses underestimate their competitive set. We independently identify 5–10 competitors through market research, which often surfaces indirect competitors or emerging threats that weren't on your radar. The competitive matrix is one of the most valued sections."
+        "q": "E se já conhecemos nossos competidores?",
+        "a": "Bom — isso economiza tempo na consulta. Mas a maioria dos negócios subestima seu conjunto competitivo. Identificamos independentemente 5–10 competidores através de pesquisa de mercado, o que frequentemente expõe competidores indiretos ou ameaças emergentes que não estavam em seu radar. A matriz competitiva é uma das seções mais valorizadas."
       },
       {
-        "q": "Can our agency white-label this and deliver it to our client?",
-        "a": "Yes. The report is designed for white-label delivery. We provide it under your brand, your cover page, your agency name. Your client never sees Soundcheck Insights unless you want them to."
+        "q": "Pode nossa agência fazer white-label disso e entregar ao nosso cliente?",
+        "a": "Sim. O relatório foi projetado para entrega white-label. Fornecemos sob sua marca, sua capa, seu nome de agência. Seu cliente nunca vê Soundcheck Insights a menos que você queira."
       },
       {
-        "q": "What do we get at the end?",
-        "a": "Two deliverables: a full In-Depth Viability Report (40–60+ pages, .docx, white-labeled) and an Executive Presentation for leadership or board conversations. Both are delivered within 14 days. One revision round is included."
+        "q": "O que obtemos ao final?",
+        "a": "Dois entregáveis: um Relatório Completo de Viabilidade de Crescimento (40–60+ páginas, .docx, white-label) e uma Apresentação Executiva para conversas de liderança ou conselho. Ambos são entregues em 14 dias. Uma rodada de revisão está incluída."
       }
     ],
-    "ctaTitle": "Growth doesn't restart by accident.\nKnow exactly where to invest next.",
-    "ctaButton": "Brief This Report →",
-    "ctaLink": "Or explore all research products →"
+    "ctaTitle": "O crescimento não reinicia por acaso.\nSaiba exatamente onde investir próximo.",
+    "ctaButton": "Apresente Este Relatório →",
+    "ctaLink": "Ou explore todos os produtos de pesquisa →"
   },
   "expansionReport": {},
   "ideaValidation": {},
