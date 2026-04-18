@@ -80,7 +80,9 @@ export default function Nav() {
         })}
       </ul>
 
-      <LanguageToggle />
+      <div className="nav-lang-desktop">
+        <LanguageToggle />
+      </div>
 
       <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ padding: '9px 20px', fontSize: 13, flexShrink: 0, marginLeft: 12 }}
         data-desktop="true"
@@ -172,7 +174,7 @@ export default function Nav() {
           .nav-desktop-links { display: none !important; }
           .nav-hamburger { display: flex !important; }
           nav a[data-desktop="true"] { display: none !important; }
-          nav > div:has(button) { display: none !important; }
+          .nav-lang-desktop { display: none !important; }
           nav { padding: 0 24px !important; }
         }
       `}</style>
