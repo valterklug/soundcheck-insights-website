@@ -392,7 +392,8 @@
         "audience": "International Brands · Market Entry",
         "desc": "Decision-grade market entry intelligence. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages.",
         "delivery": "14-day delivery",
-        "price": "Suggested client price: US$5k+"
+        "price": "Suggested client price: US$5k+",
+        "link": "/expansion-report"
       },
       {
         "num": "02",
@@ -400,7 +401,8 @@
         "audience": "US Small & Mid-Size Businesses",
         "desc": "For B2B services and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan.",
         "delivery": "14-day delivery",
-        "price": "Suggested client price: US$5k+"
+        "price": "Suggested client price: US$5k+",
+        "link": "/growth-roadmap"
       },
       {
         "num": "03",
@@ -408,7 +410,8 @@
         "audience": "Agencies · Consultancies · Marketing Depts",
         "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Reusable panels.",
         "delivery": "1–7 day delivery",
-        "price": "Persona Definition: US$3k · Session: US$2k+"
+        "price": "Persona Definition: US$3k · Session: US$2k+",
+        "link": "/virtual-focus-groups"
       }
     ],
     "seeFullDetails": "See Full Details →",
@@ -1399,17 +1402,45 @@
     "requestAccess": "Request access →",
     "howItWorks": "How it works ↓",
     "heroStats": [
-      { "label": "CONCEPT → VERDICT", "value": "2–3 weeks" },
-      { "label": "REWORK A CONCEPT", "value": "15–40 seconds" },
-      { "label": "PANELS OF PERSONAS", "value": "Reusable, editable" },
-      { "label": "COST VS. TRADITIONAL", "value": "~5–10× lower" }
+      {
+        "label": "CONCEPT → VERDICT",
+        "value": "2–3 weeks"
+      },
+      {
+        "label": "REWORK A CONCEPT",
+        "value": "15–40 seconds"
+      },
+      {
+        "label": "PANELS OF PERSONAS",
+        "value": "Reusable, editable"
+      },
+      {
+        "label": "COST VS. TRADITIONAL",
+        "value": "~5–10× lower"
+      }
     ],
     "advantagesLabel": "Why It Works",
     "advantages": [
-      { "title": "Speed", "sub": "Days, not months", "desc": "Research, personas, and focus groups run in 2–3 weeks versus 2–3 months for traditional panels." },
-      { "title": "Cost", "sub": "5–10× cheaper", "desc": "A full research cycle fits the budget traditional agencies spend on a single focus group." },
-      { "title": "Iteration", "sub": "Re-test in minutes", "desc": "Once personas exist, test a new concept today, a second one tomorrow. Feedback rework with a single chat prompt." },
-      { "title": "Transparency", "sub": "Claims are labeled", "desc": "Every finding carries a confidence tag and source tier. We say what we don't know, by design." }
+      {
+        "title": "Speed",
+        "sub": "Days, not months",
+        "desc": "Research, personas, and focus groups run in 2–3 weeks versus 2–3 months for traditional panels."
+      },
+      {
+        "title": "Cost",
+        "sub": "5–10× cheaper",
+        "desc": "A full research cycle fits the budget traditional agencies spend on a single focus group."
+      },
+      {
+        "title": "Iteration",
+        "sub": "Re-test in minutes",
+        "desc": "Once personas exist, test a new concept today, a second one tomorrow. Feedback rework with a single chat prompt."
+      },
+      {
+        "title": "Transparency",
+        "sub": "Claims are labeled",
+        "desc": "Every finding carries a confidence tag and source tier. We say what we don't know, by design."
+      }
     ],
     "problemLabel": "The Problem We Fixed",
     "problemTitle": "Traditional focus groups are slow, expensive, and often biased by the loudest voice in the room.",
@@ -1451,11 +1482,26 @@
     "deliverablesLabel": "What You Get",
     "deliverablesTitle": "Every deliverable is branded, sourced, and ready for a client meeting.",
     "deliverables": [
-      { "label": "Report A", "title": "Market Analysis" },
-      { "label": "Report B", "title": "Consumer Analysis" },
-      { "label": "Report C", "title": "Competitive Landscape" },
-      { "label": "Step 02", "title": "Buyer Personas" },
-      { "label": "Step 03", "title": "Focus Group Dashboard" }
+      {
+        "label": "Report A",
+        "title": "Market Analysis"
+      },
+      {
+        "label": "Report B",
+        "title": "Consumer Analysis"
+      },
+      {
+        "label": "Report C",
+        "title": "Competitive Landscape"
+      },
+      {
+        "label": "Step 02",
+        "title": "Buyer Personas"
+      },
+      {
+        "label": "Step 03",
+        "title": "Focus Group Dashboard"
+      }
     ],
     "fitLabel": "Who This Is For",
     "fitTitle": "Built for two kinds of operators.",
@@ -1500,13 +1546,34 @@
     "faqLabel": "FAQ",
     "faqTitle": "Questions we get asked.",
     "faqs": [
-      { "q": "How is this different from hiring an agency to run a real focus group?", "a": "Traditional focus groups recruit real consumers, book a facility, and run a live moderated discussion. We simulate that process using AI-generated buyer personas grounded in real market research. It's faster, cheaper, and infinitely iterable — but it's directional insight, not a replacement for primary research. Use it to narrow options before committing budget to a traditional round." },
-      { "q": "Where does the consumer data come from?", "a": "Step 1 generates three research reports from public and syndicated sources — market data, consumer behavior research, competitive intelligence. The personas in Step 2 are built from that research, not from made-up profiles. Every claim carries a source tier and confidence label." },
-      { "q": "Will the personas reflect my brand's actual buyers?", "a": "Yes — half the panel is built from your current buyer profile. The other half represents aspirational segments: people who don't buy from you today but could. That mix is what makes the feedback useful for growth, not just validation." },
-      { "q": "Can we re-use the same personas for multiple focus groups?", "a": "Yes. Once a persona panel is built, you can run unlimited focus groups against it — new concepts, new packaging, new pricing. Panels are editable, splittable, and reusable across product lines." },
-      { "q": "Who sees our data?", "a": "Only your agency tenant. Each operator gets a scoped workspace — your clients, your personas, your focus groups. Soundcheck staff can access data for support, but nothing is shared across tenants." },
-      { "q": "What file formats can I test?", "a": "Anything you can describe or upload: packaging mockups, taglines, ad concepts, product descriptions, pricing tables, campaign territories. The platform accepts images, PDFs, and text." },
-      { "q": "How does the feedback rework work?", "a": "After reviewing the focus-group results, you can chat with the platform to tweak the concept and re-run the panel. Change a tagline, swap a visual, adjust a claim — the personas react in seconds. No new project, no new cost." }
+      {
+        "q": "How is this different from hiring an agency to run a real focus group?",
+        "a": "Traditional focus groups recruit real consumers, book a facility, and run a live moderated discussion. We simulate that process using AI-generated buyer personas grounded in real market research. It's faster, cheaper, and infinitely iterable — but it's directional insight, not a replacement for primary research. Use it to narrow options before committing budget to a traditional round."
+      },
+      {
+        "q": "Where does the consumer data come from?",
+        "a": "Step 1 generates three research reports from public and syndicated sources — market data, consumer behavior research, competitive intelligence. The personas in Step 2 are built from that research, not from made-up profiles. Every claim carries a source tier and confidence label."
+      },
+      {
+        "q": "Will the personas reflect my brand's actual buyers?",
+        "a": "Yes — half the panel is built from your current buyer profile. The other half represents aspirational segments: people who don't buy from you today but could. That mix is what makes the feedback useful for growth, not just validation."
+      },
+      {
+        "q": "Can we re-use the same personas for multiple focus groups?",
+        "a": "Yes. Once a persona panel is built, you can run unlimited focus groups against it — new concepts, new packaging, new pricing. Panels are editable, splittable, and reusable across product lines."
+      },
+      {
+        "q": "Who sees our data?",
+        "a": "Only your agency tenant. Each operator gets a scoped workspace — your clients, your personas, your focus groups. Soundcheck staff can access data for support, but nothing is shared across tenants."
+      },
+      {
+        "q": "What file formats can I test?",
+        "a": "Anything you can describe or upload: packaging mockups, taglines, ad concepts, product descriptions, pricing tables, campaign territories. The platform accepts images, PDFs, and text."
+      },
+      {
+        "q": "How does the feedback rework work?",
+        "a": "After reviewing the focus-group results, you can chat with the platform to tweak the concept and re-run the panel. Change a tagline, swap a visual, adjust a claim — the personas react in seconds. No new project, no new cost."
+      }
     ],
     "ctaTitle": "Ready to run the research?",
     "ctaSub": "Request access and we'll onboard your agency with a sample project in under a week. Brands work through a partner agency.",

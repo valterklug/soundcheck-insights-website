@@ -392,7 +392,8 @@
         "audience": "Marcas Internacionales · Entrada al Mercado",
         "desc": "Inteligencia de entrada al mercado de grado decisivo. Puntuación CVE propia, panorama competitivo, descripción regulatoria, mapa de canales de distribución, tres caminos estratégicos y una hoja de ruta de 12 meses. 100+ páginas.",
         "delivery": "Entrega en 14 días",
-        "price": "Precio sugerido para cliente: US$5k+"
+        "price": "Precio sugerido para cliente: US$5k+",
+        "link": "/expansion-report"
       },
       {
         "num": "02",
@@ -400,7 +401,8 @@
         "audience": "Pequeñas y Medianas Empresas de EE.UU.",
         "desc": "Para servicios B2B y marcas CPG que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión, y un plan de acción de 90 días.",
         "delivery": "Entrega en 14 días",
-        "price": "Precio sugerido para cliente: US$5k+"
+        "price": "Precio sugerido para cliente: US$5k+",
+        "link": "/growth-roadmap"
       },
       {
         "num": "03",
@@ -408,7 +410,8 @@
         "audience": "Agencias · Consultorías · Departamentos de Marketing",
         "desc": "Pruebe conceptos creativos, ideas de productos, precios y posicionamiento con personas generadas por IA que reflejan su audiencia objetivo. Sin reclutamiento. Sin programación. Paneles reutilizables.",
         "delivery": "Entrega en 1–7 días",
-        "price": "Definición de Persona: US$3k · Sesión: US$2k+"
+        "price": "Definición de Persona: US$3k · Sesión: US$2k+",
+        "link": "/virtual-focus-groups"
       }
     ],
     "seeFullDetails": "Ver detalles completos →",
@@ -1399,17 +1402,45 @@
     "requestAccess": "Solicitar acceso →",
     "howItWorks": "Cómo funciona ↓",
     "heroStats": [
-      { "label": "CONCEPTO → VEREDICTO", "value": "2–3 semanas" },
-      { "label": "REHACER UN CONCEPTO", "value": "15–40 segundos" },
-      { "label": "PANELES DE PERSONAS", "value": "Reutilizables, editables" },
-      { "label": "COSTO VS. TRADICIONAL", "value": "~5–10× menor" }
+      {
+        "label": "CONCEPTO → VEREDICTO",
+        "value": "2–3 semanas"
+      },
+      {
+        "label": "REHACER UN CONCEPTO",
+        "value": "15–40 segundos"
+      },
+      {
+        "label": "PANELES DE PERSONAS",
+        "value": "Reutilizables, editables"
+      },
+      {
+        "label": "COSTO VS. TRADICIONAL",
+        "value": "~5–10× menor"
+      }
     ],
     "advantagesLabel": "Por Qué Funciona",
     "advantages": [
-      { "title": "Velocidad", "sub": "Días, no meses", "desc": "La investigación, personas y grupos de enfoque se ejecutan en 2–3 semanas frente a 2–3 meses para paneles tradicionales." },
-      { "title": "Costo", "sub": "5–10× más barato", "desc": "Un ciclo de investigación completo cabe en el presupuesto que las agencias tradicionales gastan en un solo grupo de enfoque." },
-      { "title": "Iteración", "sub": "Re-probar en minutos", "desc": "Una vez que las personas existen, pruebe un concepto nuevo hoy, otro mañana. Rework de retroalimentación con un solo prompt de chat." },
-      { "title": "Transparencia", "sub": "Las afirmaciones están etiquetadas", "desc": "Cada hallazgo lleva una etiqueta de confianza y un nivel de fuente. Decimos lo que no sabemos, por diseño." }
+      {
+        "title": "Velocidad",
+        "sub": "Días, no meses",
+        "desc": "La investigación, personas y grupos de enfoque se ejecutan en 2–3 semanas frente a 2–3 meses para paneles tradicionales."
+      },
+      {
+        "title": "Costo",
+        "sub": "5–10× más barato",
+        "desc": "Un ciclo de investigación completo cabe en el presupuesto que las agencias tradicionales gastan en un solo grupo de enfoque."
+      },
+      {
+        "title": "Iteración",
+        "sub": "Re-probar en minutos",
+        "desc": "Una vez que las personas existen, pruebe un concepto nuevo hoy, otro mañana. Rework de retroalimentación con un solo prompt de chat."
+      },
+      {
+        "title": "Transparencia",
+        "sub": "Las afirmaciones están etiquetadas",
+        "desc": "Cada hallazgo lleva una etiqueta de confianza y un nivel de fuente. Decimos lo que no sabemos, por diseño."
+      }
     ],
     "problemLabel": "El Problema Que Resolvimos",
     "problemTitle": "Los grupos de enfoque tradicionales son lentos, costosos y a menudo sesgados por la voz más fuerte en la sala.",
@@ -1451,11 +1482,26 @@
     "deliverablesLabel": "Lo Que Obtendrá",
     "deliverablesTitle": "Cada entregable tiene marca, proviene de fuentes verificables y está listo para una reunión con clientes.",
     "deliverables": [
-      { "label": "Informe A", "title": "Análisis de Mercado" },
-      { "label": "Informe B", "title": "Análisis del Consumidor" },
-      { "label": "Informe C", "title": "Panorama Competitivo" },
-      { "label": "Paso 02", "title": "Personas Compradoras" },
-      { "label": "Paso 03", "title": "Panel de Control de Grupo de Enfoque" }
+      {
+        "label": "Informe A",
+        "title": "Análisis de Mercado"
+      },
+      {
+        "label": "Informe B",
+        "title": "Análisis del Consumidor"
+      },
+      {
+        "label": "Informe C",
+        "title": "Panorama Competitivo"
+      },
+      {
+        "label": "Paso 02",
+        "title": "Personas Compradoras"
+      },
+      {
+        "label": "Paso 03",
+        "title": "Panel de Control de Grupo de Enfoque"
+      }
     ],
     "fitLabel": "Para Quién Es",
     "fitTitle": "Construido para dos tipos de operadores.",
@@ -1500,13 +1546,34 @@
     "faqLabel": "Preguntas Frecuentes",
     "faqTitle": "Preguntas que nos hacen.",
     "faqs": [
-      { "q": "¿Cómo es esto diferente a contratar una agencia para ejecutar un grupo de enfoque real?", "a": "Los grupos de enfoque tradicionales reclutan consumidores reales, reservan una instalación y ejecutan una discusión moderada en vivo. Simulamos ese proceso utilizando personas compradoras generadas por IA fundamentadas en investigación de mercado real. Es más rápido, más barato e infinitamente iterable — pero es información direccional, no un reemplazo para investigación primaria. Úselo para reducir opciones antes de comprometer presupuesto a una ronda tradicional." },
-      { "q": "¿De dónde provienen los datos del consumidor?", "a": "El Paso 1 genera tres informes de investigación a partir de fuentes públicas y sindicadas — datos de mercado, investigación de comportamiento del consumidor, inteligencia competitiva. Las personas en el Paso 2 se construyen a partir de esa investigación, no de perfiles inventados. Cada afirmación lleva un nivel de fuente y una etiqueta de confianza." },
-      { "q": "¿Las personas reflejarán los compradores reales de mi marca?", "a": "Sí — la mitad del panel se construye a partir del perfil de comprador actual. La otra mitad representa segmentos aspiracionales: personas que no le compran hoy pero podrían. Esa mezcla es lo que hace que la retroalimentación sea útil para el crecimiento, no solo validación." },
-      { "q": "¿Podemos reutilizar las mismas personas para múltiples grupos de enfoque?", "a": "Sí. Una vez que se construye un panel de personas, puede ejecutar grupos de enfoque ilimitados en su contra — conceptos nuevos, empaque nuevo, precios nuevos. Los paneles son editables, divisibles y reutilizables en líneas de productos." },
-      { "q": "¿Quién ve nuestros datos?", "a": "Solo su tenant de agencia. Cada operador obtiene un espacio de trabajo limitado — sus clientes, sus personas, sus grupos de enfoque. El personal de Soundcheck puede acceder a los datos para soporte, pero nada se comparte entre tenants." },
-      { "q": "¿Qué formatos de archivo puedo probar?", "a": "Cualquier cosa que pueda describir o cargar: maquetas de empaque, eslóganes, conceptos de anuncios, descripciones de productos, tablas de precios, territorios de campaña. La plataforma acepta imágenes, PDFs y texto." },
-      { "q": "¿Cómo funciona el rework de retroalimentación?", "a": "Después de revisar los resultados del grupo de enfoque, puede chatear con la plataforma para ajustar el concepto y re-ejecutar el panel. Cambie un eslogan, intercambie un visual, ajuste una afirmación — las personas reaccionan en segundos. Sin nuevo proyecto, sin nuevo costo." }
+      {
+        "q": "¿Cómo es esto diferente a contratar una agencia para ejecutar un grupo de enfoque real?",
+        "a": "Los grupos de enfoque tradicionales reclutan consumidores reales, reservan una instalación y ejecutan una discusión moderada en vivo. Simulamos ese proceso utilizando personas compradoras generadas por IA fundamentadas en investigación de mercado real. Es más rápido, más barato e infinitamente iterable — pero es información direccional, no un reemplazo para investigación primaria. Úselo para reducir opciones antes de comprometer presupuesto a una ronda tradicional."
+      },
+      {
+        "q": "¿De dónde provienen los datos del consumidor?",
+        "a": "El Paso 1 genera tres informes de investigación a partir de fuentes públicas y sindicadas — datos de mercado, investigación de comportamiento del consumidor, inteligencia competitiva. Las personas en el Paso 2 se construyen a partir de esa investigación, no de perfiles inventados. Cada afirmación lleva un nivel de fuente y una etiqueta de confianza."
+      },
+      {
+        "q": "¿Las personas reflejarán los compradores reales de mi marca?",
+        "a": "Sí — la mitad del panel se construye a partir del perfil de comprador actual. La otra mitad representa segmentos aspiracionales: personas que no le compran hoy pero podrían. Esa mezcla es lo que hace que la retroalimentación sea útil para el crecimiento, no solo validación."
+      },
+      {
+        "q": "¿Podemos reutilizar las mismas personas para múltiples grupos de enfoque?",
+        "a": "Sí. Una vez que se construye un panel de personas, puede ejecutar grupos de enfoque ilimitados en su contra — conceptos nuevos, empaque nuevo, precios nuevos. Los paneles son editables, divisibles y reutilizables en líneas de productos."
+      },
+      {
+        "q": "¿Quién ve nuestros datos?",
+        "a": "Solo su tenant de agencia. Cada operador obtiene un espacio de trabajo limitado — sus clientes, sus personas, sus grupos de enfoque. El personal de Soundcheck puede acceder a los datos para soporte, pero nada se comparte entre tenants."
+      },
+      {
+        "q": "¿Qué formatos de archivo puedo probar?",
+        "a": "Cualquier cosa que pueda describir o cargar: maquetas de empaque, eslóganes, conceptos de anuncios, descripciones de productos, tablas de precios, territorios de campaña. La plataforma acepta imágenes, PDFs y texto."
+      },
+      {
+        "q": "¿Cómo funciona el rework de retroalimentación?",
+        "a": "Después de revisar los resultados del grupo de enfoque, puede chatear con la plataforma para ajustar el concepto y re-ejecutar el panel. Cambie un eslogan, intercambie un visual, ajuste una afirmación — las personas reaccionan en segundos. Sin nuevo proyecto, sin nuevo costo."
+      }
     ],
     "ctaTitle": "¿Listo para ejecutar la investigación?",
     "ctaSub": "Solicite acceso y lo incorporaremos con un proyecto de muestra en menos de una semana. Las marcas trabajan a través de una agencia socia.",
