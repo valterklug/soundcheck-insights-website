@@ -1404,7 +1404,7 @@
     "heroStats": [
       {
         "label": "CONCEPT → VERDICT",
-        "value": "2–3 weeks"
+        "value": "2–3 days"
       },
       {
         "label": "REWORK A CONCEPT",
@@ -1424,7 +1424,7 @@
       {
         "title": "Speed",
         "sub": "Days, not months",
-        "desc": "Research, personas, and focus groups run in 2–3 weeks versus 2–3 months for traditional panels."
+        "desc": "Research, personas, and focus groups run in days versus 2–3 months for traditional panels."
       },
       {
         "title": "Cost",
@@ -1576,7 +1576,7 @@
       }
     ],
     "ctaTitle": "Ready to run the research?",
-    "ctaSub": "Request access and we'll onboard your agency with a sample project in under a week. Brands work through a partner agency.",
+    "ctaSub": "Request access and we'll onboard your agency with a sample project in days. Brands work through a partner agency.",
     "ctaButton": "Request access →",
     "pricing": {
       "label": "Pricing",

@@ -1404,7 +1404,7 @@
     "heroStats": [
       {
         "label": "CONCEITO → VEREDICTO",
-        "value": "2–3 semanas"
+        "value": "2–3 dias"
       },
       {
         "label": "REFAZER UM CONCEITO",
@@ -1424,7 +1424,7 @@
       {
         "title": "Velocidade",
         "sub": "Dias, não meses",
-        "desc": "Pesquisa, personas e grupos de foco são executados em 2–3 semanas versus 2–3 meses para painéis tradicionais."
+        "desc": "Pesquisa, personas e grupos de foco são executados em dias versus 2–3 meses para painéis tradicionais."
       },
       {
         "title": "Custo",
@@ -1576,7 +1576,7 @@
       }
     ],
     "ctaTitle": "Pronto para executar a pesquisa?",
-    "ctaSub": "Solicite acesso e o integraremos com um projeto de amostra em menos de uma semana. Marcas trabalham através de uma agência parceira.",
+    "ctaSub": "Solicite acesso e o integraremos com um projeto de amostra em dias. Marcas trabalham através de uma agência parceira.",
     "ctaButton": "Solicitar acesso →",
     "pricing": {
       "label": "Preços",

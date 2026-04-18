@@ -1404,7 +1404,7 @@
     "heroStats": [
       {
         "label": "CONCEPTO → VEREDICTO",
-        "value": "2–3 semanas"
+        "value": "2–3 días"
       },
       {
         "label": "REHACER UN CONCEPTO",
@@ -1424,7 +1424,7 @@
       {
         "title": "Velocidad",
         "sub": "Días, no meses",
-        "desc": "La investigación, personas y grupos de enfoque se ejecutan en 2–3 semanas frente a 2–3 meses para paneles tradicionales."
+        "desc": "La investigación, personas y grupos de enfoque se ejecutan en días frente a 2–3 meses para paneles tradicionales."
       },
       {
         "title": "Costo",
@@ -1576,7 +1576,7 @@
       }
     ],
     "ctaTitle": "¿Listo para ejecutar la investigación?",
-    "ctaSub": "Solicite acceso y lo incorporaremos con un proyecto de muestra en menos de una semana. Las marcas trabajan a través de una agencia socia.",
+    "ctaSub": "Solicite acceso y lo incorporaremos con un proyecto de muestra en días. Las marcas trabajan a través de una agencia socia.",
     "ctaButton": "Solicitar acceso →",
     "pricing": {
       "label": "Precios",
