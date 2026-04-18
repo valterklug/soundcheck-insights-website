@@ -130,7 +130,7 @@
         "name": "Grupos de Foco Virtual com IA",
         "desc": "Painéis de personas gerados por IA que refletem o público-alvo exato do seu cliente. Sem recrutamento. Sem agendamento.",
         "delivery": "Entrega em 1–7 dias · White-label incluído",
-        "link": "/contact"
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
@@ -523,7 +523,7 @@
           "Reações específicas de personas — suporte de decisão em nível de segmento",
           "Painel de personas reutilizável — implante novamente para sessões futuras"
         ],
-        "link": "/contact"
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
@@ -1389,5 +1389,138 @@
   },
   "expansionReport": {},
   "ideaValidation": {},
-  "usMarketArticle": {}
+  "usMarketArticle": {},
+  "virtualFocusGroups": {
+    "heroLabel": "Grupos de Foco Virtuais com IA · Produto 04",
+    "heroTitle1": "Teste sob pressão seu próximo conceito —",
+    "heroTitle2": "antes de se comprometer com a produção.",
+    "heroSub": "Os grupos de foco virtuais simulam reações honestas dos consumidores a partir de personas compradoras fundamentadas em pesquisa. Embalagem, slogans, territórios criativos, conceitos de produtos — testados em dias, iteráveis em minutos, a uma fração do custo dos painéis tradicionais.",
+    "heroSub2": "Utilizado por agências de marketing, publicidade e marca, e por equipes de marketing em marcas B2C, para testar sob pressão criatividade, embalagem e posicionamento antes de lançar.",
+    "requestAccess": "Solicitar acesso →",
+    "howItWorks": "Como funciona ↓",
+    "heroStats": [
+      { "label": "CONCEITO → VEREDICTO", "value": "2–3 semanas" },
+      { "label": "REFAZER UM CONCEITO", "value": "15–40 segundos" },
+      { "label": "PAINÉIS DE PERSONAS", "value": "Reutilizáveis, editáveis" },
+      { "label": "CUSTO VS. TRADICIONAL", "value": "~5–10× menor" }
+    ],
+    "advantagesLabel": "Por Que Funciona",
+    "advantages": [
+      { "title": "Velocidade", "sub": "Dias, não meses", "desc": "Pesquisa, personas e grupos de foco são executados em 2–3 semanas versus 2–3 meses para painéis tradicionais." },
+      { "title": "Custo", "sub": "5–10× mais barato", "desc": "Um ciclo de pesquisa completo cabe no orçamento que agências tradicionais gastam em um único grupo de foco." },
+      { "title": "Iteração", "sub": "Re-testar em minutos", "desc": "Uma vez que as personas existem, teste um conceito novo hoje, outro amanhã. Retrabalho de feedback com um único prompt de chat." },
+      { "title": "Transparência", "sub": "Declarações são rotuladas", "desc": "Cada descoberta carrega um rótulo de confiança e nível de fonte. Dizemos o que não sabemos, por design." }
+    ],
+    "problemLabel": "O Problema Que Resolvemos",
+    "problemTitle": "Os grupos de foco tradicionais são lentos, caros e frequentemente tendenciosos pela voz mais alta na sala.",
+    "whoAffected": "Quem é afetado",
+    "whoAffectedItems": [
+      "Equipes de marca e marketing que precisam validar embalagem, criatividade e declarações antes da produção.",
+      "Agências de branding e criatividade que precisam de insights direciais do consumidor para defender decisões estratégicas aos clientes.",
+      "Equipes de produto que precisam entender compradores aspiracionais, não apenas a base atual."
+    ],
+    "whatTolerated": "O que tiveram que tolerar",
+    "whatToleratedItems": [
+      "Cronogramas de 6–12 semanas para uma única rodada de grupo de foco.",
+      "Etiquetas de preço de $30k–$150k para um painel pequeno e difícil de iterar.",
+      "Viés do moderador, distorção de deseabilidade social, um participante barulhento definindo toda a discussão.",
+      "Uma única rodada — se as descobertas não corresponderem às suas hipóteses, paciência, o orçamento se foi."
+    ],
+    "processLabel": "Como a Plataforma Funciona",
+    "processTitle": "Um produto de três etapas, executado de ponta a ponta em uma única plataforma de operador.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Pesquisa de Mercado",
+        "desc": "Três relatórios de qualidade decisória gerados a partir de sua chamada de entrada de 60 minutos: Análise de Mercado, Análise do Consumidor e Panorama Competitivo. Cada afirmação é rotulada com um rótulo de confiança e um nível de fonte. Suposições e lacunas são expostas, não enterradas.",
+        "tag": "Entregue como 3 arquivos DOCX com marca"
+      },
+      {
+        "num": "02",
+        "title": "Personas Compradoras",
+        "desc": "4–6 personas ricas fundamentadas na pesquisa da Etapa 1 — uma mistura de compradores atuais e alvos aspiracionais que a marca ainda não alcançou. Cada persona é editável e reutilizável em grupos de foco ilimitados. Os painéis podem ser misturados, divididos ou reutilizados em linhas de produtos.",
+        "tag": "Biblioteca de personas editável"
+      },
+      {
+        "num": "03",
+        "title": "Grupo de Foco Virtual",
+        "desc": "Teste qualquer coisa: embalagem, slogans, territórios criativos, direções de campanha, conceitos de produtos, declarações de preço. Os resultados chegam em um painel com marca de agência com votos de preferência, citações textuais, insights estratégicos e recomendações de refinamento. Itere através de um chat de feedback que reformula o relatório em segundos.",
+        "tag": "Painel ao vivo + link compartilhável"
+      }
+    ],
+    "deliverablesLabel": "O Que Você Obtém",
+    "deliverablesTitle": "Cada entregável tem marca, é fornecido e está pronto para uma reunião com cliente.",
+    "deliverables": [
+      { "label": "Relatório A", "title": "Análise de Mercado" },
+      { "label": "Relatório B", "title": "Análise do Consumidor" },
+      { "label": "Relatório C", "title": "Panorama Competitivo" },
+      { "label": "Etapa 02", "title": "Personas Compradoras" },
+      { "label": "Etapa 03", "title": "Painel de Grupo de Foco" }
+    ],
+    "fitLabel": "Para Quem Isto É",
+    "fitTitle": "Construído para dois tipos de operadores.",
+    "forBrands": {
+      "label": "Para Marcas",
+      "title": "Teste sob pressão antes de lançar.",
+      "desc": "Marcas CPG, DTC e desafiadoras usam Grupos de Foco Virtuais com IA para validar embalagem, declarações, preços e territórios criativos antes de se comprometer com produção ou gastos com mídia.",
+      "items": [
+        "Insight direcional, não um compromisso. Reduza a lista de conceitos antes de pagar por Nielsen ou painéis de consumidores reais.",
+        "Veja o comprador aspiracional. Metade das personas representam pessoas que não compram de você hoje — e explicam o que mudaria isso.",
+        "Itere em minutos. Mude um detalhe, re-execute o feedback, veja o que move o voto de preferência. Mesmo preço.",
+        "Trilha de auditoria completa. Cada descoberta é rotulada com confiança e nível de fonte. Sem scorecards de caixa preta."
+      ],
+      "note": "Marcas trabalham através de uma de nossas agências ou consultadorias parceiras — eles executam a plataforma e entregam resultados sob sua própria marca."
+    },
+    "forAgencies": {
+      "label": "Para Agências e Consultadorias",
+      "title": "White-label um produto de pesquisa completo.",
+      "desc": "Agências de branding, consultadorias de estratégia e estúdios criativos usam Soundcheck VFG para agregar insight ao que vendem — sem construir uma equipe de pesquisa interna ou pagar as taxas da Nielsen.",
+      "items": [
+        "Sua marca nos entregáveis. Logo na navegação da plataforma, capas, cabeçalhos de página e painéis compartilhados. A atribuição Soundcheck é configurável.",
+        "Nova linha de receita, baixo esforço. Cobre seus clientes por pesquisa; a entrega é operada dentro do seu próprio tenant da plataforma.",
+        "Multi-cliente, multi-marca. Cada cliente seu obtém sua própria biblioteca de personas e histórico de grupos de foco — escopo para que os operadores vejam apenas o que devem.",
+        "Uma metodologia de pesquisa que você pode defender. A mesma metodologia do Produto 04 que Soundcheck vende diretamente — você obtém a escala de uma equipe de analistas."
+      ],
+      "note": "Modelo de parceria com preço fixo por assento. Entre em contato com a equipe para integração."
+    },
+    "methodLabel": "Metodologia",
+    "methodTitle": "Qualidade decisória, honesto sobre seus limites.",
+    "whatWeDo": "O que fazemos",
+    "whatWeDoItems": [
+      "Relatórios baseados em evidência. Cada afirmação de mercado carrega um ponto de dados e um nível de fonte ([T1] governo, [T2] sindicado, [T3] indústria, [T4] web/mídia).",
+      "Rótulos de confiança em tudo. [ALTO / MÉD / BAIXO / NÃO VERIFICADO]. Você sempre sabe quanto confiar em uma descoberta.",
+      "Moderação de grupo de foco de práticas recomendadas. Questionamento em funil, sondagens neutras, simulação de dinâmica de grupo, matemática de voto de preferência que soma corretamente."
+    ],
+    "whatWeDont": "O que não fazemos",
+    "whatWeDontItems": [
+      "Não substituímos consumidores reais. As descobertas são direcionais. Valide com pesquisa primária antes de um investimento importante.",
+      "Não fabricamos citações. Se não conseguimos verificar um ponto de dados, está rotulado como [NÃO VERIFICADO] — não disfarçado.",
+      "Não produzimos documentos de 100 slides. A pesquisa é limitada ao que uma equipe de estratégia ou criativa realmente precisa para decidir."
+    ],
+    "faqLabel": "Perguntas Frequentes",
+    "faqTitle": "Perguntas que nos fazem.",
+    "faqs": [
+      { "q": "Como isto é diferente de contratar uma agência para executar um grupo de foco real?", "a": "Os grupos de foco tradicionais recrutam consumidores reais, reservam uma instalação e executam uma discussão moderada ao vivo. Simulamos esse processo usando personas compradoras geradas por IA fundamentadas em pesquisa de mercado real. É mais rápido, mais barato e infinitamente iterável — mas é insight direcional, não um substituto para pesquisa primária. Use-o para reduzir opções antes de comprometer orçamento com uma rodada tradicional." },
+      { "q": "De onde vêm os dados do consumidor?", "a": "A Etapa 1 gera três relatórios de pesquisa de fontes públicas e sindicadas — dados de mercado, pesquisa de comportamento do consumidor, inteligência competitiva. As personas na Etapa 2 são construídas a partir dessa pesquisa, não de perfis inventados. Cada afirmação carrega um nível de fonte e um rótulo de confiança." },
+      { "q": "As personas refletirão os compradores reais da minha marca?", "a": "Sim — metade do painel é construída a partir do perfil de comprador atual. A outra metade representa segmentos aspiracionais: pessoas que não compram de você hoje mas poderiam. Essa mistura é o que torna o feedback útil para crescimento, não apenas validação." },
+      { "q": "Podemos reutilizar as mesmas personas para múltiplos grupos de foco?", "a": "Sim. Uma vez que um painel de personas é construído, você pode executar grupos de foco ilimitados contra ele — conceitos novos, embalagem nova, preços novos. Os painéis são editáveis, divisíveis e reutilizáveis em linhas de produtos." },
+      { "q": "Quem vê nossos dados?", "a": "Apenas seu tenant de agência. Cada operador obtém um espaço de trabalho com escopo — seus clientes, suas personas, seus grupos de foco. O pessoal Soundcheck pode acessar dados para suporte, mas nada é compartilhado entre tenants." },
+      { "q": "Quais formatos de arquivo posso testar?", "a": "Qualquer coisa que você possa descrever ou fazer upload: mockups de embalagem, slogans, conceitos de anúncios, descrições de produtos, tabelas de preços, territórios de campanha. A plataforma aceita imagens, PDFs e texto." },
+      { "q": "Como funciona o retrabalho de feedback?", "a": "Depois de revisar os resultados do grupo de foco, você pode conversar com a plataforma para ajustar o conceito e re-executar o painel. Mude um slogan, troque um visual, ajuste uma afirmação — as personas reagem em segundos. Sem novo projeto, sem novo custo." }
+    ],
+    "ctaTitle": "Pronto para executar a pesquisa?",
+    "ctaSub": "Solicite acesso e o integraremos com um projeto de amostra em menos de uma semana. Marcas trabalham através de uma agência parceira.",
+    "ctaButton": "Solicitar acesso →",
+    "pricing": {
+      "label": "Preços",
+      "title": "Preços simples e transparentes.",
+      "personaDef": "Definição de Persona",
+      "personaDefPrice": "US$3,000",
+      "personaDefDesc": "Pesquisa de mercado + painel de personas (4–6 personas). Uma vez por marca.",
+      "focusGroup": "Sessão de Grupo de Foco",
+      "focusGroupPrice": "US$2,000+",
+      "focusGroupDesc": "Por sessão. Teste conceitos ilimitados. Itere em tempo real.",
+      "note": "White-label incluído. Preços por volume disponíveis para agências executando múltiplos clientes."
+    }
+  }
 }

@@ -20,6 +20,7 @@ import ExpansionReport from './pages/ExpansionReport'
 import GrowthRoadmap from './pages/GrowthRoadmap'
 import IdeaValidation from './pages/IdeaValidation'
 import BusinessPlan from './pages/BusinessPlan'
+import VirtualFocusGroups from './pages/VirtualFocusGroups'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
@@ -59,6 +60,7 @@ const routes = [
   { path: '/growth-roadmap', element: <GrowthRoadmap /> },
   { path: '/idea-validation', element: <IdeaValidation /> },
   { path: '/business-plan', element: <BusinessPlan /> },
+  { path: '/virtual-focus-groups', element: <VirtualFocusGroups /> },
   { path: '/resources', element: <Resources /> },
   { path: '/partner', element: <Partner /> },
   { path: '/our-partners', element: <OurPartners /> },

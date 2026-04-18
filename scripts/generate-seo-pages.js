@@ -68,6 +68,11 @@ const pages = {
     description: 'For B2B service companies and CPG brands that have stalled. GPS Score (0-100), ranked growth levers with investment estimates, and a 90-day action plan.',
     image: '/og/og-growth-roadmap.png',
   },
+  '/virtual-focus-groups': {
+    title: 'AI Virtual Focus Groups | Soundcheck Insights',
+    description: 'Pressure-test packaging, creative, pricing, and positioning with AI-generated buyer personas. No recruiting. No scheduling. 2-3 week delivery from US$3,000.',
+    image: '/og/og-virtual-focus-groups.png',
+  },
   '/partner': {
     title: 'Request Platform Access | Soundcheck Insights',
     description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. Self-serve or full-service.',

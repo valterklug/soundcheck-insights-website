@@ -130,7 +130,7 @@
         "name": "Grupos de Enfoque Virtual con IA",
         "desc": "Paneles de personajes generados por IA que reflejan el público objetivo exacto de su cliente. Sin reclutamiento. Sin programación.",
         "delivery": "Entrega en 1–7 días · Etiquetado blanco incluido",
-        "link": "/contact"
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
@@ -523,7 +523,7 @@
           "Reacciones específicas de personas — apoyo decisivo a nivel de segmento",
           "Panel de personas reutilizable — desplegable nuevamente para sesiones futuras"
         ],
-        "link": "/contact"
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
@@ -1389,5 +1389,138 @@
   },
   "expansionReport": {},
   "ideaValidation": {},
-  "usMarketArticle": {}
+  "usMarketArticle": {},
+  "virtualFocusGroups": {
+    "heroLabel": "Grupos de Enfoque Virtuales con IA · Producto 04",
+    "heroTitle1": "Pruebe bajo presión su próximo concepto —",
+    "heroTitle2": "antes de comprometerse con la producción.",
+    "heroSub": "Los grupos de enfoque virtuales simulan reacciones honestas de los consumidores a partir de personas compradoras fundamentadas en investigación. Empaque, eslóganes, territorios creativos, conceptos de productos — probados en días, iterables en minutos, a una fracción del costo de los paneles tradicionales.",
+    "heroSub2": "Utilizado por agencias de marketing, publicidad y marca, y por equipos de marketing en marcas B2C, para pruebas de presión de creatividad, empaque y posicionamiento antes de lanzar.",
+    "requestAccess": "Solicitar acceso →",
+    "howItWorks": "Cómo funciona ↓",
+    "heroStats": [
+      { "label": "CONCEPTO → VEREDICTO", "value": "2–3 semanas" },
+      { "label": "REHACER UN CONCEPTO", "value": "15–40 segundos" },
+      { "label": "PANELES DE PERSONAS", "value": "Reutilizables, editables" },
+      { "label": "COSTO VS. TRADICIONAL", "value": "~5–10× menor" }
+    ],
+    "advantagesLabel": "Por Qué Funciona",
+    "advantages": [
+      { "title": "Velocidad", "sub": "Días, no meses", "desc": "La investigación, personas y grupos de enfoque se ejecutan en 2–3 semanas frente a 2–3 meses para paneles tradicionales." },
+      { "title": "Costo", "sub": "5–10× más barato", "desc": "Un ciclo de investigación completo cabe en el presupuesto que las agencias tradicionales gastan en un solo grupo de enfoque." },
+      { "title": "Iteración", "sub": "Re-probar en minutos", "desc": "Una vez que las personas existen, pruebe un concepto nuevo hoy, otro mañana. Rework de retroalimentación con un solo prompt de chat." },
+      { "title": "Transparencia", "sub": "Las afirmaciones están etiquetadas", "desc": "Cada hallazgo lleva una etiqueta de confianza y un nivel de fuente. Decimos lo que no sabemos, por diseño." }
+    ],
+    "problemLabel": "El Problema Que Resolvimos",
+    "problemTitle": "Los grupos de enfoque tradicionales son lentos, costosos y a menudo sesgados por la voz más fuerte en la sala.",
+    "whoAffected": "Quién se ve afectado",
+    "whoAffectedItems": [
+      "Equipos de marca y marketing que necesitan validar empaque, creatividad y afirmaciones antes de la producción.",
+      "Agencias de branding y creatividad que necesitan información directa del consumidor para defender decisiones estratégicas a los clientes.",
+      "Equipos de producto que necesitan entender compradores aspiracionales, no solo la base actual."
+    ],
+    "whatTolerated": "Lo que han tenido que tolerar",
+    "whatToleratedItems": [
+      "Cronogramas de 6–12 semanas para una sola ronda de grupo de enfoque.",
+      "Etiquetas de precio de $30k–$150k para un panel pequeño, difícil de iterar.",
+      "Sesgo del moderador, distorsión de deseabilidad social, un participante ruidoso definiendo toda la discusión.",
+      "Una sola ronda — si los hallazgos no coinciden con sus hipótesis, demasiado malo, el presupuesto se fue."
+    ],
+    "processLabel": "Cómo Funciona la Plataforma",
+    "processTitle": "Un producto de tres pasos, ejecutado de principio a fin en una sola plataforma de operador.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Investigación de Mercado",
+        "desc": "Tres informes de calidad decisional generados a partir de su llamada de ingesta de 60 minutos: Análisis de Mercado, Análisis del Consumidor y Panorama Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y un nivel de fuente. Los supuestos y vacíos se exponen, no se ocultan.",
+        "tag": "Entregado como 3 archivos DOCX con marca"
+      },
+      {
+        "num": "02",
+        "title": "Personas Compradoras",
+        "desc": "4–6 personas ricas fundamentadas en la investigación del Paso 1 — una mezcla de compradores actuales y objetivos aspiracionales que la marca aún no ha alcanzado. Cada persona es editable y reutilizable en grupos de enfoque ilimitados. Los paneles se pueden mezclar, dividir o reutilizar en líneas de productos.",
+        "tag": "Biblioteca de personas editable"
+      },
+      {
+        "num": "03",
+        "title": "Grupo de Enfoque Virtual",
+        "desc": "Pruebe cualquier cosa: empaque, eslóganes, territorios creativos, direcciones de campaña, conceptos de productos, afirmaciones de precios. Los resultados aterrizan en un panel de control de marca de agencia con votos de preferencia, citas textuales, información estratégica y recomendaciones de refinamiento. Itere a través de un chat de retroalimentación que rehace el informe en segundos.",
+        "tag": "Panel de control en vivo + enlace compartible"
+      }
+    ],
+    "deliverablesLabel": "Lo Que Obtendrá",
+    "deliverablesTitle": "Cada entregable tiene marca, proviene de fuentes verificables y está listo para una reunión con clientes.",
+    "deliverables": [
+      { "label": "Informe A", "title": "Análisis de Mercado" },
+      { "label": "Informe B", "title": "Análisis del Consumidor" },
+      { "label": "Informe C", "title": "Panorama Competitivo" },
+      { "label": "Paso 02", "title": "Personas Compradoras" },
+      { "label": "Paso 03", "title": "Panel de Control de Grupo de Enfoque" }
+    ],
+    "fitLabel": "Para Quién Es",
+    "fitTitle": "Construido para dos tipos de operadores.",
+    "forBrands": {
+      "label": "Para Marcas",
+      "title": "Pruebe bajo presión antes de lanzar.",
+      "desc": "Las marcas CPG, DTC y desafiantes utilizan Grupos de Enfoque Virtuales con IA para validar empaque, afirmaciones, precios y territorios creativos antes de comprometerse con la producción o el gasto en medios.",
+      "items": [
+        "Información direccional, no un compromiso. Estreche la lista de conceptos antes de pagar por Nielsen o paneles de consumidores reales.",
+        "Vea el comprador aspiracional. La mitad de las personas representan personas que no le compran hoy — y explican qué cambiaría eso.",
+        "Itere en minutos. Voltee un detalle, re-ejecute la retroalimentación, vea qué mueve el voto de preferencia. Mismo precio.",
+        "Pista de auditoría completa. Cada hallazgo está etiquetado con confianza y nivel de fuente. Sin cuadros de puntuación de caja negra."
+      ],
+      "note": "Las marcas trabajan a través de una de nuestras agencias o consultoría socios — ejecutan la plataforma y entregan resultados bajo su propia marca."
+    },
+    "forAgencies": {
+      "label": "Para Agencias y Consultoría",
+      "title": "White-label un producto de investigación completo.",
+      "desc": "Las agencias de branding, consultorías de estrategia y estudios creativos utilizan Soundcheck VFG para agregar información a lo que venden — sin construir un equipo de investigación interno o pagar las tarifas de Nielsen.",
+      "items": [
+        "Su marca en los entregables. Logo en la navegación de la plataforma, páginas de portada, encabezados de página y paneles compartidos. La atribución de Soundcheck es configurable.",
+        "Nueva línea de ingresos, bajo esfuerzo. Cobre a sus clientes por investigación; la entrega se opera dentro de su propio tenant de plataforma.",
+        "Multi-cliente, multi-marca. Cada cliente suyo obtiene su propia biblioteca de personas y historial de grupos de enfoque — limitado para que los operadores solo vean lo que deben.",
+        "Una metodología de investigación que puede defender. La misma metodología del Producto 04 que Soundcheck vende directamente — obtiene la escala de un equipo de analistas."
+      ],
+      "note": "Modelo de asociación con precios fijos por asiento. Póngase en contacto con el equipo para la incorporación."
+    },
+    "methodLabel": "Metodología",
+    "methodTitle": "De calidad decisional, honesto sobre sus límites.",
+    "whatWeDo": "Lo que hacemos",
+    "whatWeDoItems": [
+      "Informes basados en evidencia. Cada afirmación de mercado lleva un punto de datos y un nivel de fuente ([T1] gobierno, [T2] sindicado, [T3] industria, [T4] web/medios).",
+      "Etiquetas de confianza en todo. [ALTO / MED / BAJO / NO VERIFICADO]. Siempre sabe cuánto confiar en un hallazgo.",
+      "Moderación de grupo de enfoque de mejores prácticas. Cuestionamiento en embudo, sondeos neutrales, simulación de dinámicas grupales, matemáticas de voto de preferencia que suman correctamente."
+    ],
+    "whatWeDont": "Lo que no hacemos",
+    "whatWeDontItems": [
+      "No reemplazamos consumidores reales. Los hallazgos son direccionales. Valide con investigación primaria antes de una inversión importante.",
+      "No fabricamos citas. Si no podemos verificar un punto de datos, está etiquetado como [NO VERIFICADO] — no disfrazado.",
+      "No producimos documentos de 100 diapositivas. La investigación se limita a lo que un equipo de estrategia o creativo realmente necesita para decidir."
+    ],
+    "faqLabel": "Preguntas Frecuentes",
+    "faqTitle": "Preguntas que nos hacen.",
+    "faqs": [
+      { "q": "¿Cómo es esto diferente a contratar una agencia para ejecutar un grupo de enfoque real?", "a": "Los grupos de enfoque tradicionales reclutan consumidores reales, reservan una instalación y ejecutan una discusión moderada en vivo. Simulamos ese proceso utilizando personas compradoras generadas por IA fundamentadas en investigación de mercado real. Es más rápido, más barato e infinitamente iterable — pero es información direccional, no un reemplazo para investigación primaria. Úselo para reducir opciones antes de comprometer presupuesto a una ronda tradicional." },
+      { "q": "¿De dónde provienen los datos del consumidor?", "a": "El Paso 1 genera tres informes de investigación a partir de fuentes públicas y sindicadas — datos de mercado, investigación de comportamiento del consumidor, inteligencia competitiva. Las personas en el Paso 2 se construyen a partir de esa investigación, no de perfiles inventados. Cada afirmación lleva un nivel de fuente y una etiqueta de confianza." },
+      { "q": "¿Las personas reflejarán los compradores reales de mi marca?", "a": "Sí — la mitad del panel se construye a partir del perfil de comprador actual. La otra mitad representa segmentos aspiracionales: personas que no le compran hoy pero podrían. Esa mezcla es lo que hace que la retroalimentación sea útil para el crecimiento, no solo validación." },
+      { "q": "¿Podemos reutilizar las mismas personas para múltiples grupos de enfoque?", "a": "Sí. Una vez que se construye un panel de personas, puede ejecutar grupos de enfoque ilimitados en su contra — conceptos nuevos, empaque nuevo, precios nuevos. Los paneles son editables, divisibles y reutilizables en líneas de productos." },
+      { "q": "¿Quién ve nuestros datos?", "a": "Solo su tenant de agencia. Cada operador obtiene un espacio de trabajo limitado — sus clientes, sus personas, sus grupos de enfoque. El personal de Soundcheck puede acceder a los datos para soporte, pero nada se comparte entre tenants." },
+      { "q": "¿Qué formatos de archivo puedo probar?", "a": "Cualquier cosa que pueda describir o cargar: maquetas de empaque, eslóganes, conceptos de anuncios, descripciones de productos, tablas de precios, territorios de campaña. La plataforma acepta imágenes, PDFs y texto." },
+      { "q": "¿Cómo funciona el rework de retroalimentación?", "a": "Después de revisar los resultados del grupo de enfoque, puede chatear con la plataforma para ajustar el concepto y re-ejecutar el panel. Cambie un eslogan, intercambie un visual, ajuste una afirmación — las personas reaccionan en segundos. Sin nuevo proyecto, sin nuevo costo." }
+    ],
+    "ctaTitle": "¿Listo para ejecutar la investigación?",
+    "ctaSub": "Solicite acceso y lo incorporaremos con un proyecto de muestra en menos de una semana. Las marcas trabajan a través de una agencia socia.",
+    "ctaButton": "Solicitar acceso →",
+    "pricing": {
+      "label": "Precios",
+      "title": "Precios simples y transparentes.",
+      "personaDef": "Definición de Persona",
+      "personaDefPrice": "US$3,000",
+      "personaDefDesc": "Investigación de mercado + panel de personas (4–6 personas). Una vez por marca.",
+      "focusGroup": "Sesión de Grupo de Enfoque",
+      "focusGroupPrice": "US$2,000+",
+      "focusGroupDesc": "Por sesión. Pruebe conceptos ilimitados. Itere en tiempo real.",
+      "note": "White-label incluido. Precios por volumen disponibles para agencias que ejecutan múltiples clientes."
+    }
+  }
 }

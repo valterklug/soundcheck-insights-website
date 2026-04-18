@@ -190,6 +190,19 @@ const seoConfig = {
     ),
   },
 
+  '/virtual-focus-groups': {
+    title: 'AI Virtual Focus Groups',
+    description: 'Pressure-test packaging, creative, pricing, and positioning with AI-generated buyer personas that mirror your target audience. No recruiting. No scheduling. Delivered in 2-3 weeks. From US$3,000.',
+    image: '/og/og-virtual-focus-groups.png',
+    keywords: 'virtual focus groups, AI focus groups, consumer testing, packaging testing, creative testing, pricing testing, buyer personas, concept testing',
+    schema: serviceSchema(
+      'AI Virtual Focus Groups',
+      'Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. Fast, affordable, iterative consumer insight.',
+      '3000',
+      '/virtual-focus-groups',
+    ),
+  },
+
   '/partner': {
     title: 'Request Platform Access',
     description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. Self-serve or full-service. Operator onboarding included.',
