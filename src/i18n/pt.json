@@ -1390,8 +1390,562 @@
     "ctaButton": "Apresente Este Relatório →",
     "ctaLink": "Ou explore todos os produtos de pesquisa →"
   },
-  "expansionReport": {},
-  "ideaValidation": {},
+  "expansionReport": {
+    "heroLabel": "Análise Profunda de Produtos · Expansão Internacional",
+    "heroTitle": "Reduza a Incerteza da Sua Expansão Internacional",
+    "heroSub": "O Relatório de Viabilidade de Expansão Internacional da Soundcheck responde a pergunta que toda marca faz antes de entrar em um novo mercado: é real, e se for, como? Não é um despejo de dados. É um documento de nível estratégico com evidência verificada, uma pontuação de viabilidade proprietária, três caminhos estratégicos e um roteiro de 12 meses que sua equipe pode executar no Dia 1.",
+    "briefButton": "Apresente Este Relatório →",
+    "seeInsideButton": "Veja o Que Inclui →",
+    "heroStats": [
+      {
+        "num": "100+",
+        "label": "PÁGINAS",
+        "sub": "pesquisa verificada e estratégia"
+      },
+      {
+        "num": "14",
+        "label": "DIAS",
+        "sub": "do início à entrega"
+      },
+      {
+        "num": "US$5k+",
+        "label": "",
+        "sub": "white-label incluído"
+      }
+    ],
+    "whoLabel": "Construído para decisões reais",
+    "whoTitle": "Quem encaminha este relatório.",
+    "whoCards": [
+      {
+        "title": "Marcas internacionais",
+        "text": "Empresas estabelecidas das Américas, Europa ou Ásia avaliando entrada em um novo mercado. Você tem produto, receita e canais em casa. Você precisa saber se o novo mercado é real antes de se comprometer."
+      },
+      {
+        "title": "Agências e consultadorias",
+        "text": "Seu cliente pergunta sobre expansão internacional. Você precisa de um documento de nível de pesquisa para entregar sob sua marca. A versão white-label está pronta para sua equipe executiva."
+      },
+      {
+        "title": "Fundadores pré-expansão",
+        "text": "Você validou seu produto domesticamente. Antes de investir em um novo mercado, você precisa saber o tamanho da categoria, panorama competitivo, regulatório, e se a economia unitária funciona em escala."
+      }
+    ],
+    "cveLabel": "Métrica proprietária",
+    "cveTitle": "A Pontuação CVE. Sua viabilidade em um número.",
+    "cveSub": "O Coeficiente de Viabilidade de Expansão é uma pontuação ponderada de 0 a 100, calculada em três dimensões: Oportunidade de Mercado (40%), Posição Competitiva (35%), e Prontidão Interna (25%). Cada dimensão é pontuada independentemente com evidência verificada. O número final dá à sua equipe uma âncora única para a conversa de sim/não.",
+    "cveSampleLabel": "CVE de Amostra",
+    "cveSampleScore": "67",
+    "cveSampleOut": "/ 100",
+    "cveSampleBadge": "Viabilidade Forte",
+    "cveDimensions": [
+      {
+        "label": "Oportunidade de Mercado",
+        "weight": 40,
+        "score": 72
+      },
+      {
+        "label": "Posição Competitiva",
+        "weight": 35,
+        "score": 68
+      },
+      {
+        "label": "Prontidão Interna",
+        "weight": 25,
+        "score": 58
+      }
+    ],
+    "cveScale": [
+      {
+        "range": "75 a 100",
+        "label": "Excepcional",
+        "desc": "Entrada recomendada com investimento agressivo."
+      },
+      {
+        "range": "60 a 74",
+        "label": "Forte",
+        "desc": "Entrada recomendada com abordagem faseada."
+      },
+      {
+        "range": "45 a 59",
+        "label": "Moderada",
+        "desc": "Entrada condicional. Mitigação de risco ativo necessária."
+      },
+      {
+        "range": "30 a 44",
+        "label": "Fraca",
+        "desc": "Reconsidere o timing ou o mercado-alvo."
+      },
+      {
+        "range": "0 a 29",
+        "label": "Crítica",
+        "desc": "Não recomendada sem mudanças estruturais."
+      }
+    ],
+    "insideLabel": "8 seções. Cada afirmação verificada.",
+    "insideTitle": "O que está dentro do relatório.",
+    "insideSub": "Cada seção é estruturada para responder uma pergunta estratégica específica. O relatório foi designed para ser lido de cima para baixo para a visão completa, ou seção por seção conforme sua equipe necessite respostas específicas.",
+    "sections": [
+      {
+        "num": "1",
+        "title": "Resumo Executivo",
+        "sub": "A página de decisão.",
+        "items": [
+          "Contexto de marca: o que você vende, sua escala atual, e por que este mercado agora.",
+          "Cinco Perspectivas Críticas: cada uma com um achado, por que importa, e o que fazer.",
+          "Três Caminhos Estratégicos (Conservador, Equilibrado, Agressivo) com resultados esperados, investimento necessário, cronogramas, e riscos-chave.",
+          "Um caminho recomendado apoiado por 3 fatos, com um nível de confiança geral."
+        ]
+      },
+      {
+        "num": "2",
+        "title": "Pontuação CVE",
+        "sub": "Sua viabilidade de expansão em um número.",
+        "items": [
+          "Coeficiente proprietário de Viabilidade de Expansão (0 a 100) pontuado em três dimensões ponderadas.",
+          "Oportunidade de Mercado (40%), Posição Competitiva (35%), Prontidão Interna (25%).",
+          "Top 3 impulsores puxando a pontuação para cima, com métricas de apoio.",
+          "Top 3 drags puxando a pontuação para baixo, com evidência específica.",
+          "Matriz de Impacto vs. Prontidão posicionando suas principais alavancas estratégicas."
+        ]
+      },
+      {
+        "num": "3",
+        "title": "Avaliação de Negócio e Marca",
+        "sub": "Sua empresa através da lente do novo mercado.",
+        "items": [
+          "Análise de vendas e mix de canais atuais com benchmarking de margem bruta.",
+          "Sinais de ajuste produto-mercado: posicionamento de preço-formato, adequação de formato, brechas de conformidade de rótulo, e sinais de demanda já visíveis.",
+          "Posicionamento de marca e narrativa: o ângulo único para liderar e por que vence.",
+          "Arquitetura de preços: preço mínimo, varejo recomendado, estrutura de níveis, e o ponto de preço onde você perde relevância de categoria."
+        ]
+      },
+      {
+        "num": "4",
+        "title": "Inteligência de Mercado e Categoria",
+        "sub": "A seção maior. Cada número verificado.",
+        "items": [
+          "TAM / SAM / SOM com dimensionamento top-down e bottom-up, reconciliados.",
+          "Forças Competitivas de Porter pontuadas 1 a 10 com classificação de atratividade da indústria.",
+          "5 a 6 cartões de tendências com cronograma, pontuação de impacto, e implicações diretas para sua marca.",
+          "Análise de espaço em branco: 2 a 3 brechas genuínas com tamanho, fraquezas de incumbentes, e pressão de timing.",
+          "2 segmentos de clientes de alto valor com gatilhos, barreiras, LTV, e melhor canal de aquisição.",
+          "6 a 10 benchmarks competitivos com níveis de ameaça e nota de espaço em branco.",
+          "Paisagem de comprador e varejista calibrada ao seu modelo de negócio (varejo, Amazon, foodservice, ou híbrido).",
+          "Snapshot de importação, regulatório e conformidade com custos e cronogramas.",
+          "Cenários de tarifa e custo comercial com modelagem de custo de desembarque atual, proposto e de pior caso."
+        ]
+      },
+      {
+        "num": "5",
+        "title": "Plano de Entrada Estratégica e Crescimento",
+        "sub": "Da análise à ação.",
+        "items": [
+          "Análise de modo de entrada: 6 modos avaliados contra sua situação específica com prós, contras, custos, e cronogramas.",
+          "Framework de mensagem: proposta de valor central, 3 mensagens de apoio com pontos de prova, e a afirmação a evitar.",
+          "3 a 5 alavancas de crescimento, cada uma com hipótese, objetivo, ativos necessários, faixa de impacto esperado, e uma porta de sim/não.",
+          "Roteiro priorizado de 12 meses em três fases (Agora, Próximo, Depois).",
+          "Economia unitária e guardrails de orçamento: CAC, LTV, razão LTV:CAC, período de payback, piso de margem bruta, e volume de ponto de equilíbrio."
+        ]
+      },
+      {
+        "num": "6",
+        "title": "Riscos e Pontos de Atenção",
+        "sub": "Pontuados, classificados, e mitigados.",
+        "items": [
+          "6 a 8 riscos em quatro categorias: Mercado, Canal, Marca, e Operações/Regulatório.",
+          "Cada risco pontuado por Probabilidade (1 a 5) x Impacto (1 a 5).",
+          "Indicadores de alerta antecipado para cada risco para você detectar problemas antes que se agravem.",
+          "Planos de mitigação e contingência. Qualquer pontuação acima de 16 sinalizada como Risco Prioritário."
+        ]
+      },
+      {
+        "num": "7",
+        "title": "Próximos Passos",
+        "sub": "Seu plano de ação de 90 dias.",
+        "items": [
+          "30 Dias: 3 ações imediatas, específicas e atribuídas.",
+          "60 Dias: 3 ações de construção passando de setup para execução.",
+          "90 Dias: 3 ações de escala ou teste gerando seus primeiros sinais reais de mercado.",
+          "Dados para instrumentar agora, decisões necessárias da liderança, e um único KPI para Dia 30."
+        ]
+      },
+      {
+        "num": "8",
+        "title": "Log de Supostos e Brechas",
+        "sub": "Transparência completa sobre o que sabemos e o que estimamos.",
+        "items": [
+          "Cada supostão ou proxy usado em qualquer lugar no relatório, registrado.",
+          "Por que o ponto de dados está faltando, o proxy usado, a fonte, nível de confiança, e seu impacto na análise."
+        ]
+      }
+    ],
+    "principlesLabel": "Nossos padrões",
+    "principlesTitle": "Como construímos cada relatório.",
+    "principlesSub": "Seis princípios operacionais regem cada relatório que produzimos. Eles não são aspiracionais. São aplicados em cada etapa de geração, revisão e entrega.",
+    "principles": [
+      {
+        "title": "Nível estratégico, não forense",
+        "desc": "Fontes públicas e proxies leves para respostas 80/20. Confiança rotulada em cada afirmação importante: ALTA, MÉDIA, ou BAIXA."
+      },
+      {
+        "title": "Evidência primeiro",
+        "desc": "Cada afirmação de mercado requer um ponto de dado, benchmark ou precedente com nome de fonte e data. Fontes primárias e oficiais preferidas."
+      },
+      {
+        "title": "Estrutura MECE",
+        "desc": "Sem enchimento. Sem repetição. Cada sentença contém um insight novo ou fato substanciado."
+      },
+      {
+        "title": "Tipagem de informação",
+        "desc": "Cada afirmação rotulada como FATO, ESTIMATIVA, ou INTERPRETAÇÃO ao longo de todo o relatório."
+      },
+      {
+        "title": "Lógica primeiro do modelo",
+        "desc": "Seu modelo de negócio é identificado primeiro. Cada recomendação subsequente é calibrada para como você realmente vende."
+      },
+      {
+        "title": "Consciência de tarifa",
+        "desc": "Se você importa bens, modelamos taxas tarifárias atuais e mudanças de tarifa propostas 2025-2026 com cenários de margem."
+      }
+    ],
+    "pathsLabel": "Não uma recomendação. Três caminhos.",
+    "pathsTitle": "Cada relatório apresenta três caminhos estratégicos.",
+    "pathsSub": "A maioria dos relatórios de consultoria lhe dá uma recomendação e espera que você concorde. Apresentamos três opções distintas para forçar uma escolha explícita. Cada caminho inclui resultados esperados, investimento necessário, riscos-chave, e cronograma para primeiro sinal de receita.",
+    "paths": [
+      {
+        "label": "Caminho A",
+        "name": "Conservador",
+        "color": "var(--teal)",
+        "desc": "Entrada de baixo risco. Canal único, geografia limitada, queima de capital mais lenta. Você aprende antes de investir."
+      },
+      {
+        "label": "Caminho B",
+        "name": "Equilibrado",
+        "color": "#FBBF24",
+        "desc": "Multi-canal faseado. Investimento moderado em horizonte de 12 meses com portas de sim/não em cada fase."
+      },
+      {
+        "label": "Caminho C",
+        "name": "Agressivo",
+        "color": "var(--orange)",
+        "desc": "Movimento de mercado completo. Investimento mais alto, ambição de escala mais rápida. Máxima oportunidade, máxima exposição."
+      }
+    ],
+    "pathsNote": "O relatório então afirma qual caminho recomendamos e por que, apoiado por 3 fatos. Se recomendarmos ajuste antes da entrada, especificamos exatamente o que deve mudar e quando. Cada recomendação carrega um nível de confiança geral: ALTA, MÉDIA, ou BAIXA, com fundamentação.",
+    "deliverablesLabel": "O que você recebe",
+    "deliverablesTitle": "O pacote completo de entrega.",
+    "deliverables": [
+      {
+        "title": "Relatório de Inteligência Completo",
+        "desc": "100+ páginas cobrindo todas as 8 seções. Formato .docx profissional, white-label sob sua marca. Cada afirmação verificada, cada número benchmarked, cada recomendação acionável.",
+        "items": [
+          "Estrutura de 8 seções com cobertura MECE",
+          "Afirmações rotuladas com confiança ao longo",
+          "TAM/SAM/SOM com dimensionamento de dupla abordagem",
+          "Paisagem competitiva com 6 a 10 benchmarks",
+          "Roteiro de 12 meses com portas de sim/não",
+          "Log de supostos para transparência completa"
+        ]
+      },
+      {
+        "title": "Resumo Executivo Visual",
+        "desc": "Uma versão visual condensada dos achados-chave. Designed para apresentações de liderança, reuniões de conselho e conversas de alinhamento interno. Cobre a Pontuação CVE, cinco perspectivas críticas, comparação competitiva, dimensionamento de mercado, modelo de entrada, e recomendação.",
+        "items": [
+          "Pontuação CVE com desagregação de dimensão",
+          "Cinco perspectivas críticas com ações",
+          "Tabela de comparação de preço competitivo",
+          "Dimensionamento de oportunidade de mercado (TAM/SAM)",
+          "Modelo de entrada recomendado com investimento faseado",
+          "Designed para tela e impressão"
+        ]
+      }
+    ],
+    "pricingLabel": "Preços e entrega",
+    "pricingTitle": "Escopo fixo. Preço fixo. Sem surpresas.",
+    "pricingAmount": "US$5,000+",
+    "pricingPer": "por relatório",
+    "pricingFeatures": [
+      {
+        "title": "Entrega de 14 dias",
+        "sub": "Do formulário de início ao relatório final"
+      },
+      {
+        "title": "White-label incluído",
+        "sub": "Entregue sob sua marca"
+      },
+      {
+        "title": "1 rodada de revisão",
+        "sub": "Incluída no preço base"
+      }
+    ],
+    "faqLabel": "Perguntas frequentes",
+    "faqTitle": "Respostas diretas.",
+    "faqs": [
+      {
+        "q": "Que informações você precisa de nós para começar?",
+        "a": "Enviamos um formulário de intake estruturado cobrindo sua linha de produto, vendas e canais atuais, lógica do mercado-alvo, intervalo de orçamento, e expectativas de cronograma. A maioria dos clientes completa em 30 a 45 minutos. Se algo estiver faltando, prosseguimos com pesquisa web e benchmarks de proxy, e registramos cada suposição explicitamente no relatório."
+      },
+      {
+        "q": "Quais mercados você cobre?",
+        "a": "Nossa experiência principal é marcas entrando no mercado dos EUA, mas a metodologia é agnóstica de mercado. Entregamos relatórios para entrada nos EUA, Canadá, Reino Unido, Alemanha, Brasil, México, e Emirados Árabes Unidos. O relatório é sempre produzido na linguagem local do mercado-alvo e usa moeda local para todos os números financeiros."
+      },
+      {
+        "q": "Como isso é diferente de um relatório de pesquisa de mercado tradicional?",
+        "a": "Relatórios tradicionais lhe dão dados. Este relatório lhe dá uma decisão. Cada seção termina com o que fazer, não apenas o que encontramos. A Pontuação CVE lhe dá um número único para ancorar conversas internas. Os três caminhos estratégicos forçam uma escolha explícita em vez de uma opinião de consultor único. E o roteiro de 12 meses com portas de sim/não significa que você tem um plano, não apenas um PDF."
+      },
+      {
+        "q": "Que fontes você usa?",
+        "a": "Preferimos fontes primárias e oficiais: USDA, IRI/NIQ, Euromonitor, Census, IBISWorld, USITC, registros de marca, portais varejistas, e relatórios de associações da indústria. Quando dados oficiais não estão disponíveis, usamos proxies e os registramos explicitamente no Log de Supostos (Seção 8) com níveis de confiança."
+      },
+      {
+        "q": "Nossa agência pode fazer white-label disso e entregar ao nosso cliente?",
+        "a": "Sim. O relatório é designed para entrega white-label. Fornecemos sob sua marca, sua página de capa, seu nome de agência. Seu cliente nunca vê Soundcheck Insights a menos que você queira. Este é o padrão para agências e consultadorias."
+      },
+      {
+        "q": "E se nosso cliente precisar de mudanças após a entrega?",
+        "a": "Uma rodada de revisão está incluída. Se o cliente quiser explorar um caminho de entrada diferente ou ajustar supostos, podemos atualizar as seções relevantes. Rodadas de revisão adicionais estão disponíveis a uma taxa fixa."
+      },
+      {
+        "q": "Vocês oferecem uma versão mais leve para exploração em estágio inicial?",
+        "a": "Sim. Nosso produto Idea Validation (US$3k+, entrega de 7 dias) é uma recomendação de sim/não para fundadores testando um conceito antes de comprometer capital. Se a ideia passar na validação, o Relatório de Expansão Completo é o próximo passo natural."
+      }
+    ],
+    "ctaTitle": "Seu próximo mercado está esperando. Saiba se é real antes de se comprometer.",
+    "ctaButton": "Apresente Este Relatório →",
+    "ctaLink": "Ou explore todos os produtos de pesquisa →"
+  },
+  "ideaValidation": {
+    "heroLabel": "Análise de Validação de Ideias · Soundcheck Insights",
+    "heroTitle": "Sua ideia pode ser excelente.",
+    "heroTitleHighlight": "mercado",
+    "heroTitleEnd": "vai decidir.",
+    "heroSub": "Antes de construir, contratar ou buscar investimento, saiba se o mercado é real. Soundcheck executa pesquisa de IA independente sobre sua ideia: dimensionamento de mercado, paisagem competitiva, demanda dos clientes e o que seu comprador-alvo realmente pagaria. Você preenche um formulário de 10 minutos. Entregamos uma análise completa e sua pontuação IVS em 48 horas.",
+    "validateButton": "Validar Minha Ideia →",
+    "sampleButton": "Ver um Relatório de Amostra →",
+    "heroStats": [
+      {
+        "num": "48",
+        "label": "HORAS",
+        "sub": "do envio do formulário ao relatório completo"
+      },
+      {
+        "num": "US$799",
+        "label": "",
+        "sub": "preço fixo, sem chamadas, sem agendamento"
+      },
+      {
+        "num": "10",
+        "label": "MINUTOS",
+        "sub": "para completar o formulário de entrada"
+      }
+    ],
+    "problemLabel": "O custo real de pular validação",
+    "problemTitle": "90% das startups falham. A maioria teve feedback positivo no início.",
+    "problemText1": "Seus amigos dizem que é uma ideia excelente. A pesquisa online parece promissora. A paisagem competitiva parece gerenciável. Depois você passa seis meses construindo algo que ninguém paga para usar.",
+    "problemText2": "O problema não é entusiasmo. É a diferença entre pessoas dizendo que usariam algo e pessoas realmente pagando por isso. Soundcheck separa esses dois sinais com pesquisa de mercado independente, não opiniões. Antes de você escrever uma linha de código, assinar um contrato ou apresentar para um investidor.",
+    "problemCards": [
+      {
+        "title": "O que a maioria dos fundadores pula",
+        "text": "Validação independente de se o problema é genuinamente urgente, não apenas interessante. Se não é um problema que as pessoas buscam resolver ativamente, elas não pagarão para consertá-lo."
+      },
+      {
+        "title": "O que Soundcheck adiciona",
+        "text": "Pesquisa de mesa mais um modelo de pontuação estruturado. O IVS lhe dá um número que você pode compartilhar com um cofundador, um consultor ou um investidor que diz exatamente onde sua ideia é forte e onde é frágil."
+      },
+      {
+        "title": "O que substitui",
+        "text": "Semanas de busca desestruturada no Google, uma firma de pesquisa de mercado de $5.000, ou pedir ao ChatGPT sem saber se está fazendo as perguntas certas. Mesmo resultado. 48 horas. $799."
+      }
+    ],
+    "howLabel": "Três etapas. 48 horas.",
+    "howTitle": "Sem chamadas. Sem agendamento. Sem espera.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Preencha o formulário de entrada (10 minutos)",
+        "body": "Diga-nos sobre sua ideia, o problema que resolve, para quem é, qual geografia você está enfocando e como está pensando sobre preços. 15 perguntas estruturadas projetadas para extrair exatamente o que a IA precisa para executar uma análise real. Sem preenchimento, sem redações.",
+        "meta": "Uma pergunta por tela · Compatível com dispositivos móveis · ~10 minutos · Salva automaticamente"
+      },
+      {
+        "num": "02",
+        "title": "IA executa pesquisa de mercado independente",
+        "body": "A IA de Soundcheck dimensiona independentemente o mercado para sua geografia alvo, mapeia a paisagem competitiva (incluindo concorrentes que você pode não conhecer), identifica sinais de demanda de dados públicos e executa um proxy WTP usando preços de mercado comparáveis. Isso não é um eco do que você nos contou. É pesquisa independente.",
+        "meta": "Executa automaticamente após envio do formulário · Completado em menos de 48 horas"
+      },
+      {
+        "num": "03",
+        "title": "Receba seu relatório completo + Pontuação IVS",
+        "body": "Você recebe dois documentos: a Análise Completa de Validação de Ideias (8 a 12 páginas cobrindo todas as cinco dimensões em detalhes) e o Cartão de Resumo de Ideias, um visual de uma página que você pode fixar em uma parede, compartilhar com um cofundador ou mostrar a um consultor. Sua pontuação IVS diz exatamente onde você está e o que fazer a seguir.",
+        "meta": "Entregue por email em PDF · Sem login necessário · Baixe imediatamente"
+      }
+    ],
+    "ivsLabel": "A pontuação que torna concreto",
+    "ivsTitle": "Um número. Cinco dimensões. Clareza total.",
+    "ivsSub": "Cada Análise de Validação de Ideias produz um IVS (Pontuação de Viabilidade de Ideias) de 0 a 100. Não é uma previsão. É uma avaliação estruturada e baseada em evidências de onde sua ideia se encontra em cinco dimensões que determinam se existe um mercado e se alguém pagaria para entrar nele.",
+    "dimensions": [
+      {
+        "pts": "25",
+        "name": "Validade do Problema",
+        "desc": "É este um problema de Nível 1 — urgente, frequente e custoso para quem o tem?"
+      },
+      {
+        "pts": "20",
+        "name": "Oportunidade de Mercado",
+        "desc": "O mercado é grande o suficiente e está crescendo em sua geografia alvo?"
+      },
+      {
+        "pts": "20",
+        "name": "Espaço em Branco Competitivo",
+        "desc": "Há uma lacuna genuína, ou o espaço já está bem atendido?"
+      },
+      {
+        "pts": "20",
+        "name": "Sinais de Demanda do Cliente",
+        "desc": "Há sinais públicos de que seu cliente-alvo quer isso e pagaria por isso?"
+      },
+      {
+        "pts": "15",
+        "name": "Diferenciação da Ideia",
+        "desc": "Sua abordagem é significativamente diferente do que já existe?"
+      }
+    ],
+    "tiers": [
+      {
+        "range": "75 a 100",
+        "label": "Sinal Forte",
+        "color": "var(--teal)",
+        "meaning": "Problema real, mercado real, diferenciação real. Construa com urgência.",
+        "action": "Passe para plano de negócios. Teste preços com compradores reais este mês."
+      },
+      {
+        "range": "50 a 74",
+        "label": "Vale a Pena Explorar",
+        "color": "#FBBF24",
+        "meaning": "Promissor, mas incertezas-chave permanecem. Não pronto para construir. Pronto para testar.",
+        "action": "Execute 2 a 3 experimentos direcionados. Reavalie em 30 dias."
+      },
+      {
+        "range": "25 a 49",
+        "label": "Precisa de Repensamento",
+        "color": "#F97316",
+        "meaning": "Problema ou mercado é real, mas a abordagem tem lacunas estruturais.",
+        "action": "Mude de estratégia antes de investir mais. O relatório especifica o que."
+      },
+      {
+        "range": "0 a 24",
+        "label": "Não Construa Ainda",
+        "color": "#EF4444",
+        "meaning": "Lacuna crítica em validade do problema, tamanho do mercado ou diferenciação.",
+        "action": "Pare. Reconstrua a hipótese. O relatório explica exatamente por quê."
+      }
+    ],
+    "ivsNote": "O IVS é um indicador de direção, não uma previsão de sucesso. Uma pontuação de 80 significa que as condições de mercado são favoráveis, não que o negócio funcionará. Uma pontuação de 30 significa que algo específico está quebrado. O relatório diz exatamente o que.",
+    "receiveLabel": "Dois documentos. Entregues juntos.",
+    "receiveTitle": "O quadro completo e a página que você compartilha.",
+    "fullReport": {
+      "title": "A Análise Completa de Validação de Ideias (8 a 12 páginas)",
+      "desc": "Um relatório estruturado e baseado em evidências cobrindo todas as cinco dimensões de IVS em detalhes completos. Escrito em linguagem simples. Não acadêmico, não coberto.",
+      "items": [
+        "Instantâneo da Ideia: como a IA entendeu e classificou sua ideia",
+        "Problema & Mercado: teste de Nível 1, TAM/SAM/SOM, tese de tempo",
+        "Verificação de Realidade Competitiva: mapa de paisagem, análise de espaço em branco, veredicto de diferenciação",
+        "Inteligência de Cliente e Demanda: perfil de ICP, sinais de demanda, análise de WTP",
+        "Veredicto de Viabilidade + IVS: sua pontuação, detalhamento de dimensão, top 3 riscos, top 3 fortalezas",
+        "Resumo Executivo: síntese de uma página escrita para compartilhar"
+      ]
+    },
+    "summaryCard": {
+      "title": "O Cartão de Resumo de Ideias (1 página)",
+      "desc": "Uma página pronta para impressão projetada com sua pontuação IVS, detalhamento de dimensão, 3 descobertas principais, o risco principal, o intervalo WTP vs. seu preço proposto e os 3 próximos passos específicos.",
+      "desc2": "Prenda-a em uma parede. Compartilhe com seu cofundador. Mostre a um consultor. Diz exatamente onde você está sem exigir que leiam 12 páginas."
+    },
+    "pricingAmount": "US$799",
+    "pricingPer": "por ideia",
+    "pricingDelivery": "Entrega em 48 horas a partir do envio do formulário",
+    "pricingIncludes": "Inclui: Análise Completa de Validação de Ideias + Cartão de Resumo de Ideias, entregue como PDF · Disponível em inglês, português (brasileiro), espanhol e italiano",
+    "sampleLabel": "Ver o resultado",
+    "sampleTitle": "Como se parece um relatório real.",
+    "sampleSub": "Esta é uma Análise de Validação de Ideias de amostra para um conceito B2B SaaS fictício direcionado à gestão de inventário de restaurantes na Flórida. Mostra a pontuação IVS, detalhamento de dimensão, descobertas-chave e os três próximos passos que o fundador deve seguir este mês.",
+    "sampleCardLabel": "Amostra · Cartão de Resumo de Ideias",
+    "sampleCardName": "Aplicativo de Inteligência de Inventário de Restaurante",
+    "sampleCardMeta": "B2B SaaS · Estados Unidos (Flórida) · Preço proposto: $79/mês",
+    "sampleScore": "68",
+    "sampleScoreMax": "100",
+    "sampleTier": "Vale a Pena Explorar",
+    "sampleTierSub": "Promissor. Incertezas-chave permanecem.",
+    "sampleBarsLabel": [
+      "Validade do Problema",
+      "Oportunidade de Mercado",
+      "Espaço em Branco Competitivo",
+      "Sinais de Demanda do Cliente",
+      "Diferenciação da Ideia"
+    ],
+    "sampleWtpLabel": "Análise de WTP",
+    "sampleWtp": "Piso: $29/mês · Intervalo: $49 a $99/mês · Teto: $149/mês · Preço proposto ($79/mês) está dentro da faixa aceitável.",
+    "sampleCta": "Validar Minha Ideia →",
+    "whoLabel": "Construído para seu momento",
+    "whoTitle": "Seja esta sua primeira ideia ou sua quinta.",
+    "audiences": [
+      {
+        "title": "Empreendedores de Primeira Viagem",
+        "desc": "Você tem uma ideia que não consegue parar de pensar. Você fez alguma pesquisa, mas não tem certeza do que não sabe. Você precisa que alguém diga honestamente se vale a pena os próximos dois anos de sua vida.",
+        "bestFor": "Melhor para:",
+        "items": [
+          "Ideias no estágio 'deveria pedir demissão?'",
+          "Conceitos pré-receita, pré-protótipo",
+          "Fundadores que querem perspectiva externa antes de lançar para amigos ou família",
+          "Qualquer um que tenha sido dito 'é uma ideia excelente' mas não ouviu 'aqui está a evidência'"
+        ]
+      },
+      {
+        "title": "Empreendedores Seriais e Construtores de Projetos Paralelos",
+        "desc": "Você construiu coisas antes. Você conhece o padrão: pule validação, apaixone-se pela solução, lance no silêncio. Desta vez você quer os dados de mercado antes de começar a construir.",
+        "bestFor": "Melhor para:",
+        "items": [
+          "Avaliar múltiplas ideias rapidamente antes de se comprometer com uma",
+          "Testar uma nova geografia ou segmento de mercado para um produto existente",
+          "Obter uma segunda opinião quando sua própria pesquisa diz o que você quer ouvir",
+          "Produzir um artefato compartilhável antes de lançar um cofundador ou investidor inicial"
+        ]
+      }
+    ],
+    "notForNote": "O que isto não é: A Análise de Validação de Ideias responde questões de mercado, não questões de execução. Dirá se existe um mercado e se os clientes pagariam. Não dirá como construir o produto, encontrar um cofundador ou arrecadar uma rodada. Para essas questões, veja o Desenvolvimento do Plano de Negócios de Soundcheck e Soluções Personalizadas.",
+    "faqLabel": "Perguntas comuns",
+    "faqTitle": "Respostas diretas.",
+    "faqs": [
+      {
+        "q": "Por que não posso simplesmente usar ChatGPT para isso?",
+        "a": "Você pode, e a maioria faz. A diferença é estrutura, independência e uma saída pontuável. ChatGPT dirá o que você quer ouvir se não tomar cuidado com como pergunta. Soundcheck funciona contra uma metodologia fixa com as mesmas 15 perguntas, as mesmas 5 dimensões de pontuação, o mesmo framework de análise de WTP. A saída é consistente, comparável e compartilhável. A pontuação IVS é algo que você pode passar para um consultor ou investidor. Uma conversa com ChatGPT não."
+      },
+      {
+        "q": "E se minha ideia estiver em um mercado inicial e indefinido?",
+        "a": "Mercados iniciais são onde essa análise é mais valiosa. Se a categoria não tiver benchmarks claros, o relatório diz isso explicitamente e o IVS reflete. Uma pontuação baixa em um mercado inicial geralmente significa 'o timing ainda não é certo' em vez de 'a ideia está errada.' As seções de espaço em branco competitivo e sinais de tempo são escritas especificamente para distinguir entre as duas."
+      },
+      {
+        "q": "O relatório é gerado por IA? Um humano o revisará?",
+        "a": "O relatório é totalmente gerado por IA a partir de seu formulário de entrada e pesquisa pública independente. Nenhum consultor revisa ou edita a saída antes da entrega. É isto que torna possível o retorno de 48 horas e o preço de $799. A metodologia é projetada para tornar a análise de IA rigorosa. Os prompts são construídos em torno dos mesmos frameworks que um analista sênior de mercado aplicaria. Se você quer que um consultor revise e aconselhe sobre as descobertas, isso está disponível como um complemento. Entre em contato conosco."
+      },
+      {
+        "q": "E se minha ideia for um produto físico, não software?",
+        "a": "A Análise de Validação de Ideias funciona para qualquer tipo de negócio: SaaS, aplicativo, produto físico, negócio de serviços, mercado. O formulário de entrada solicita que você especifique seu tipo de modelo de negócio e a IA calibra a análise em conformidade. Benchmarks de WTP, comparáveis competitivos e metodologia de dimensionamento de mercado se adaptam ao tipo de modelo que você seleciona."
+      },
+      {
+        "q": "Posso validar mais de uma ideia?",
+        "a": "Sim. Cada análise é por ideia e por geografia. Se você tem três ideias que está considerando, você pode executar três análises separadas. Executá-las em paralelo é absolutamente possível. Cada uma leva 10 minutos para apresentar."
+      },
+      {
+        "q": "E se eu discordar da pontuação IVS?",
+        "a": "O relatório mostra o detalhamento completo das dimensões e cada peça de evidência por trás de cada pontuação. Se você acha que uma dimensão foi pontuada incorretamente porque a IA perdeu um ponto de dado importante ou concorrente, você pode entrar em contato e revisaremos a seção específica. Erros fáticos materiais são corrigidos sem custo."
+      },
+      {
+        "q": "Em quais idiomas o relatório está disponível?",
+        "a": "Inglês é o padrão. Português (brasileiro), espanhol e italiano também estão disponíveis. Selecione seu idioma preferido no final do formulário de entrada e o relatório completo e Cartão de Resumo serão entregues nesse idioma. Mesmo preço, mesmo cronograma."
+      }
+    ],
+    "ctaTitle": "Você tem a ideia.",
+    "ctaTitleEnd": "Agora descubra se o mercado concorda.",
+    "ctaButton": "Validar Minha Ideia →",
+    "ctaAlt": "Ou veja um relatório de amostra primeiro →"
+  },
   "usMarketArticle": {},
   "virtualFocusGroups": {
     "heroLabel": "Grupos de Foco Virtuais com IA · Produto 04",

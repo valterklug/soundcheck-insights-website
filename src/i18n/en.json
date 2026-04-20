@@ -1390,8 +1390,562 @@
     "ctaButton": "Brief This Report →",
     "ctaLink": "Or explore all research products →"
   },
-  "expansionReport": {},
-  "ideaValidation": {},
+  "expansionReport": {
+    "heroLabel": "Product Deep-Dive · International Expansion",
+    "heroTitle": "Reduce the Trial and Error of Your International Expansion",
+    "heroSub": "The Soundcheck International Expansion Viability Report answers the question every brand asks before entering a new market: is this real, and if so, how? Not a data dump. A decision-grade document with sourced evidence, a proprietary viability score, three strategic paths, and a 12-month roadmap your team can execute on Day 1.",
+    "briefButton": "Brief This Report →",
+    "seeInsideButton": "See What's Inside →",
+    "heroStats": [
+      {
+        "num": "100+",
+        "label": "PAGES",
+        "sub": "sourced research and strategy"
+      },
+      {
+        "num": "14",
+        "label": "DAYS",
+        "sub": "from intake to delivery"
+      },
+      {
+        "num": "US$5k+",
+        "label": "",
+        "sub": "white-label included"
+      }
+    ],
+    "whoLabel": "Built for real decisions",
+    "whoTitle": "Who commissions this report.",
+    "whoCards": [
+      {
+        "title": "International brands",
+        "text": "Established companies from the Americas, Europe, or Asia evaluating entry into a new market. You have a product, revenue, and channels at home. You need to know if the new market is real before you commit."
+      },
+      {
+        "title": "Agencies and consultancies",
+        "text": "Your client is asking about international expansion. You need a research-grade document to deliver under your brand. The white-label version ships ready for your client's executive team."
+      },
+      {
+        "title": "Founders pre-expansion",
+        "text": "You've validated your product domestically. Before you invest in a new market, you need to know the category size, competitive landscape, regulatory landscape, and whether the unit economics work at scale."
+      }
+    ],
+    "cveLabel": "Proprietary metric",
+    "cveTitle": "The CVE Score. Your viability in one number.",
+    "cveSub": "The Coefficient of Viability of Expansion is a weighted score from 0 to 100, computed across three dimensions: Market Opportunity (40%), Competitive Position (35%), and Internal Readiness (25%). Each dimension is scored independently with sourced evidence. The final number gives your team a single anchor for the go/no-go conversation.",
+    "cveSampleLabel": "Sample CVE",
+    "cveSampleScore": "67",
+    "cveSampleOut": "/ 100",
+    "cveSampleBadge": "Strong Viability",
+    "cveDimensions": [
+      {
+        "label": "Market Opportunity",
+        "weight": 40,
+        "score": 72
+      },
+      {
+        "label": "Competitive Position",
+        "weight": 35,
+        "score": 68
+      },
+      {
+        "label": "Internal Readiness",
+        "weight": 25,
+        "score": 58
+      }
+    ],
+    "cveScale": [
+      {
+        "range": "75 to 100",
+        "label": "Exceptional",
+        "desc": "Entry recommended with aggressive investment."
+      },
+      {
+        "range": "60 to 74",
+        "label": "Strong",
+        "desc": "Entry recommended with phased approach."
+      },
+      {
+        "range": "45 to 59",
+        "label": "Moderate",
+        "desc": "Entry conditional. Active risk mitigation required."
+      },
+      {
+        "range": "30 to 44",
+        "label": "Weak",
+        "desc": "Reconsider timing or target market."
+      },
+      {
+        "range": "0 to 29",
+        "label": "Critical",
+        "desc": "Not recommended without structural changes."
+      }
+    ],
+    "insideLabel": "8 sections. Every claim sourced.",
+    "insideTitle": "What's inside the report.",
+    "insideSub": "Each section is structured to answer a specific strategic question. The report is designed to be read top to bottom for the full picture, or section by section as your team needs specific answers.",
+    "sections": [
+      {
+        "num": "1",
+        "title": "Executive Summary",
+        "sub": "The decision page.",
+        "items": [
+          "Brand context: what you sell, your current scale, and why this market now.",
+          "Five Critical Insights: each with a finding, why it matters, and what to do.",
+          "Three Strategic Paths (Conservative, Balanced, Aggressive) with expected outcomes, investment required, timelines, and key risks.",
+          "A recommended path backed by 3 facts, with an overall confidence level."
+        ]
+      },
+      {
+        "num": "2",
+        "title": "CVE Score",
+        "sub": "Your expansion viability in one number.",
+        "items": [
+          "Proprietary Coefficient of Viability of Expansion (0 to 100) scored across three weighted dimensions.",
+          "Market Opportunity (40%), Competitive Position (35%), Internal Readiness (25%).",
+          "Top 3 drivers pulling the score up, with supporting metrics.",
+          "Top 3 drags pulling the score down, with specific evidence.",
+          "Impact vs. Readiness matrix positioning your top strategic levers."
+        ]
+      },
+      {
+        "num": "3",
+        "title": "Business & Brand Assessment",
+        "sub": "Your company through the lens of the new market.",
+        "items": [
+          "Current sales and channel mix analysis with gross margin benchmarking.",
+          "Product-market fit signals: price-pack positioning, format suitability, label compliance gaps, and demand signals already visible.",
+          "Brand positioning and story: the single angle to lead with and why it wins.",
+          "Pricing architecture: floor price, recommended retail, tier structure, and the price point where you lose category relevance."
+        ]
+      },
+      {
+        "num": "4",
+        "title": "Market & Category Intelligence",
+        "sub": "The largest section. Every number sourced.",
+        "items": [
+          "TAM / SAM / SOM with top-down and bottom-up sizing, reconciled.",
+          "Porter's Five Forces scored 1 to 10 with industry attractiveness rating.",
+          "5 to 6 trend cards with timeline, impact score, and direct implications for your brand.",
+          "Whitespace analysis: 2 to 3 genuine gaps with size, incumbent weaknesses, and timing pressure.",
+          "2 high-value customer segments with triggers, barriers, LTV, and best acquisition channel.",
+          "6 to 10 competitive benchmarks with threat levels and a whitespace note.",
+          "Buyer and retailer landscape calibrated to your business model (retail, Amazon, foodservice, or hybrid).",
+          "Import, regulatory, and compliance snapshot with costs and timelines.",
+          "Tariff and trade cost scenarios with current, proposed, and worst-case landed cost modeling."
+        ]
+      },
+      {
+        "num": "5",
+        "title": "Strategic Entry & Growth Plan",
+        "sub": "From analysis to action.",
+        "items": [
+          "Entry mode analysis: 6 modes evaluated against your specific situation with pros, cons, costs, and timelines.",
+          "Messaging framework: core value proposition, 3 supporting messages with proof points, and the claim to avoid.",
+          "3 to 5 growth levers, each with a hypothesis, target, assets required, expected impact range, and a go/no-go gate.",
+          "Prioritized 12-month roadmap across three phases (Now, Next, Later).",
+          "Unit economics and budget guardrails: CAC, LTV, LTV:CAC ratio, payback period, gross margin floor, and break-even volume."
+        ]
+      },
+      {
+        "num": "6",
+        "title": "Risks & Watchpoints",
+        "sub": "Scored, ranked, and mitigated.",
+        "items": [
+          "6 to 8 risks across four categories: Market, Channel, Brand, and Ops/Regulatory.",
+          "Each risk scored by Probability (1 to 5) x Impact (1 to 5).",
+          "Early warning indicators for each risk so you catch problems before they compound.",
+          "Mitigation and contingency plans. Any score above 16 flagged as Priority Risk."
+        ]
+      },
+      {
+        "num": "7",
+        "title": "Next Steps",
+        "sub": "Your 90-day action plan.",
+        "items": [
+          "30 Days: 3 immediate actions, specific and assigned.",
+          "60 Days: 3 build actions moving from setup to execution.",
+          "90 Days: 3 scale or test actions producing your first real market signals.",
+          "Data to instrument now, decisions required from leadership, and a single Day-30 KPI."
+        ]
+      },
+      {
+        "num": "8",
+        "title": "Assumptions & Gaps Log",
+        "sub": "Full transparency on what we know and what we estimated.",
+        "items": [
+          "Every assumption or proxy used anywhere in the report, logged.",
+          "Why the data point is missing, the proxy used, the source, confidence level, and its impact on the analysis."
+        ]
+      }
+    ],
+    "principlesLabel": "Our standards",
+    "principlesTitle": "How we build every report.",
+    "principlesSub": "Six operating principles govern every report we produce. These aren't aspirational. They're enforced at every stage of generation, review, and delivery.",
+    "principles": [
+      {
+        "title": "Decision-grade, not forensic",
+        "desc": "Public sources and lightweight proxies for 80/20 answers. Confidence labeled on every major claim: HIGH, MED, or LOW."
+      },
+      {
+        "title": "Evidence first",
+        "desc": "Every market claim requires a data point, benchmark, or precedent with source name and date. Primary and official sources preferred."
+      },
+      {
+        "title": "MECE structure",
+        "desc": "No filler. No repetition. Each sentence contains a new insight or substantiated fact."
+      },
+      {
+        "title": "Information typing",
+        "desc": "Every claim tagged as FACT, ESTIMATE, or INTERPRETATION throughout the entire report."
+      },
+      {
+        "title": "Model-first logic",
+        "desc": "Your business model is identified first. Every subsequent recommendation is calibrated to how you actually sell."
+      },
+      {
+        "title": "Tariff awareness",
+        "desc": "If you import goods, we model current duty rates and proposed 2025-2026 tariff changes with margin scenarios."
+      }
+    ],
+    "pathsLabel": "Not one recommendation. Three paths.",
+    "pathsTitle": "Every report presents three strategic paths.",
+    "pathsSub": "Most consulting reports give you one recommendation and hope you agree. We present three distinct options to force an explicit choice. Each path includes expected outcomes, investment required, key risks, and timeline to first revenue signal.",
+    "paths": [
+      {
+        "label": "Path A",
+        "name": "Conservative",
+        "color": "var(--teal)",
+        "desc": "Lower-risk entry. Single channel, limited geography, slower capital burn. You learn before you invest."
+      },
+      {
+        "label": "Path B",
+        "name": "Balanced",
+        "color": "#FBBF24",
+        "desc": "Phased multi-channel. Moderate investment over a 12-month horizon with go/no-go gates at each phase."
+      },
+      {
+        "label": "Path C",
+        "name": "Aggressive",
+        "color": "var(--orange)",
+        "desc": "Full-market push. Highest investment, fastest scale ambition. Maximum opportunity, maximum exposure."
+      }
+    ],
+    "pathsNote": "The report then states which path we recommend and why, backed by 3 facts. If we recommend adjustment before entry, we specify exactly what must change and by when. Every recommendation carries an overall confidence level: HIGH, MED, or LOW, with rationale.",
+    "deliverablesLabel": "What you receive",
+    "deliverablesTitle": "The full delivery package.",
+    "deliverables": [
+      {
+        "title": "Full Intelligence Report",
+        "desc": "100+ pages covering all 8 sections. Professional .docx format, white-labeled under your brand. Every claim sourced, every number benchmarked, every recommendation actionable.",
+        "items": [
+          "8-section structure with MECE coverage",
+          "Confidence-labeled claims throughout",
+          "TAM/SAM/SOM with dual-approach sizing",
+          "Competitive landscape with 6 to 10 benchmarks",
+          "12-month roadmap with go/no-go gates",
+          "Assumptions log for full transparency"
+        ]
+      },
+      {
+        "title": "Visual Executive Summary",
+        "desc": "A condensed visual version of the key findings. Designed for leadership presentations, board meetings, and internal alignment conversations. Covers the CVE Score, five critical insights, competitive comparison, market sizing, entry model, and recommendation.",
+        "items": [
+          "CVE Score with dimension breakdown",
+          "Five critical insights with actions",
+          "Competitive pricing comparison table",
+          "Market opportunity sizing (TAM/SAM)",
+          "Recommended entry model with phased investment",
+          "Designed for screen and print"
+        ]
+      }
+    ],
+    "pricingLabel": "Pricing & delivery",
+    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
+    "pricingAmount": "US$5,000+",
+    "pricingPer": "per report",
+    "pricingFeatures": [
+      {
+        "title": "14-day delivery",
+        "sub": "From intake form to final report"
+      },
+      {
+        "title": "White-label included",
+        "sub": "Delivered under your brand"
+      },
+      {
+        "title": "1 revision round",
+        "sub": "Included in the base price"
+      }
+    ],
+    "faqLabel": "Common questions",
+    "faqTitle": "Straight answers.",
+    "faqs": [
+      {
+        "q": "What information do you need from us to start?",
+        "a": "We send you a structured intake form covering your product line, current sales and channels, target market rationale, budget range, and timeline expectations. Most clients complete it in 30 to 45 minutes. If anything is missing, we proceed using web research and proxy benchmarks, and log every assumption explicitly in the report."
+      },
+      {
+        "q": "Which markets do you cover?",
+        "a": "Our core expertise is brands entering the US market, but the methodology is market-agnostic. We have delivered reports for entry into the US, Canada, the UK, Germany, Brazil, Mexico, and the UAE. The report is always produced in the local language of the target market and uses local currency for all financial figures."
+      },
+      {
+        "q": "How is this different from a traditional market research report?",
+        "a": "Traditional reports give you data. This report gives you a decision. Every section ends with what to do, not just what we found. The CVE Score gives you a single number to anchor internal conversations. The three strategic paths force an explicit choice rather than a single consultant opinion. And the 12-month roadmap with go/no-go gates means you have a plan, not just a PDF."
+      },
+      {
+        "q": "What sources do you use?",
+        "a": "We prefer primary and official sources: USDA, IRI/NIQ, Euromonitor, Census, IBISWorld, USITC, brand filings, retailer portals, and industry association reports. When official data is unavailable, we use proxies and log them explicitly in the Assumptions Log (Section 8) with confidence levels."
+      },
+      {
+        "q": "Can our agency white-label this and deliver it to our client?",
+        "a": "Yes. The report is designed for white-label delivery. We provide it under your brand, your cover page, your agency name. Your client never sees Soundcheck Insights unless you want them to. This is the default for agencies and consultancies."
+      },
+      {
+        "q": "What if our client needs changes after delivery?",
+        "a": "One revision round is included. If the client wants to explore a different entry path or adjust assumptions, we can update the relevant sections. Additional revision rounds are available at a flat rate."
+      },
+      {
+        "q": "Do you offer a lighter version for early-stage exploration?",
+        "a": "Yes. Our Idea Validation product (US$3k+, 7-day delivery) is a go/no-go recommendation for founders testing a concept before committing capital. If the idea passes validation, the full Expansion Report is the natural next step."
+      }
+    ],
+    "ctaTitle": "Your next market is waiting. Know if it's real before you commit.",
+    "ctaButton": "Brief This Report →",
+    "ctaLink": "Or explore all research products →"
+  },
+  "ideaValidation": {
+    "heroLabel": "Idea Validation Analysis · Soundcheck Insights",
+    "heroTitle": "Your idea might be great.",
+    "heroTitleHighlight": "market",
+    "heroTitleEnd": "will decide.",
+    "heroSub": "Before you build, hire, or fundraise, know if the market is real. Soundcheck runs independent AI research on your idea: market sizing, competitive landscape, customer demand, and what your target buyer would actually pay. You fill a 10-minute form. We deliver a full analysis and your IVS score in 48 hours.",
+    "validateButton": "Validate My Idea →",
+    "sampleButton": "See a Sample Report →",
+    "heroStats": [
+      {
+        "num": "48",
+        "label": "HOURS",
+        "sub": "from form submission to full report"
+      },
+      {
+        "num": "US$799",
+        "label": "",
+        "sub": "fixed price, no calls, no scheduling"
+      },
+      {
+        "num": "10",
+        "label": "MINUTES",
+        "sub": "to complete the intake form"
+      }
+    ],
+    "problemLabel": "The real cost of skipping validation",
+    "problemTitle": "90% of startups fail. Most of them had positive early feedback.",
+    "problemText1": "Friends say it's a great idea. Online research feels promising. The competitor landscape looks manageable. Then you spend six months building something nobody pays for.",
+    "problemText2": "The problem isn't enthusiasm. It's the difference between people saying they'd use something and people actually paying for it. Soundcheck separates those two signals with independent market research, not opinions. Before you write a line of code, sign a lease, or pitch an investor.",
+    "problemCards": [
+      {
+        "title": "What most founders skip",
+        "text": "Independent validation of whether the problem is genuinely urgent, not just interesting. If it's not a problem people actively seek to solve, they won't pay to fix it."
+      },
+      {
+        "title": "What Soundcheck adds",
+        "text": "Desk research plus a structured scoring model. The IVS gives you a number you can share with a co-founder, an advisor, or an investor that says exactly where your idea is strong and where it's fragile."
+      },
+      {
+        "title": "What it replaces",
+        "text": "Weeks of unstructured Googling, a $5,000 market research firm, or asking ChatGPT without knowing if you're asking the right questions. Same output. 48 hours. $799."
+      }
+    ],
+    "howLabel": "Three steps. 48 hours.",
+    "howTitle": "No calls. No scheduling. No waiting.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Fill the intake form (10 minutes)",
+        "body": "Tell us about your idea, the problem it solves, who it's for, what geography you're targeting, and how you're thinking about pricing. 15 structured questions designed to extract exactly what the AI needs to run a real analysis. No fluff, no essays.",
+        "meta": "One question per screen · Mobile-friendly · ~10 minutes · Saves automatically"
+      },
+      {
+        "num": "02",
+        "title": "AI runs independent market research",
+        "body": "Soundcheck's AI independently sizes the market for your target geography, maps the competitive landscape (including competitors you may not know about), surfaces demand signals from public data, and runs a WTP proxy using comparable market pricing. This is not an echo of what you told us. It's independent research.",
+        "meta": "Runs automatically after form submission · Completed in under 48 hours"
+      },
+      {
+        "num": "03",
+        "title": "Receive your full report + IVS Score",
+        "body": "You get two documents: the full Idea Validation Analysis (8 to 12 pages covering all five dimensions in detail) and the Idea Summary Card, a one-page visual you can pin to a wall, share with a co-founder, or show an advisor. Your IVS score tells you exactly where you stand and what to do next.",
+        "meta": "Delivered by email as PDF · No login required · Download immediately"
+      }
+    ],
+    "ivsLabel": "The score that makes it concrete",
+    "ivsTitle": "One number. Five dimensions. Total clarity.",
+    "ivsSub": "Every Idea Validation Analysis produces an IVS (Idea Viability Score) from 0 to 100. It's not a prediction. It's a structured, evidence-based assessment of where your idea stands across five dimensions that determine whether a market exists and whether someone would pay to enter it.",
+    "dimensions": [
+      {
+        "pts": "25",
+        "name": "Problem Validity",
+        "desc": "Is this a Tier 1 problem — urgent, frequent, and costly to the people who have it?"
+      },
+      {
+        "pts": "20",
+        "name": "Market Opportunity",
+        "desc": "Is the market large enough and growing in your target geography?"
+      },
+      {
+        "pts": "20",
+        "name": "Competitive Whitespace",
+        "desc": "Is there a genuine gap, or is the space already well-served?"
+      },
+      {
+        "pts": "20",
+        "name": "Customer Demand Signals",
+        "desc": "Are there public signals that your target customer wants and would pay for this?"
+      },
+      {
+        "pts": "15",
+        "name": "Idea Differentiation",
+        "desc": "Is your approach meaningfully different from what already exists?"
+      }
+    ],
+    "tiers": [
+      {
+        "range": "75 to 100",
+        "label": "Strong Signal",
+        "color": "var(--teal)",
+        "meaning": "Real problem, real market, real differentiation. Build with urgency.",
+        "action": "Move to business plan. Test pricing with real buyers this month."
+      },
+      {
+        "range": "50 to 74",
+        "label": "Worth Exploring",
+        "color": "#FBBF24",
+        "meaning": "Promising but key uncertainties remain. Not ready to build. Ready to test.",
+        "action": "Run 2 to 3 targeted experiments. Re-assess in 30 days."
+      },
+      {
+        "range": "25 to 49",
+        "label": "Needs Rethinking",
+        "color": "#F97316",
+        "meaning": "Problem or market is real but the approach has structural gaps.",
+        "action": "Pivot the solution before investing further. Report specifies what."
+      },
+      {
+        "range": "0 to 24",
+        "label": "Don't Build Yet",
+        "color": "#EF4444",
+        "meaning": "Critical gap in problem validity, market size, or differentiation.",
+        "action": "Stop. Rebuild the hypothesis. The report explains exactly why."
+      }
+    ],
+    "ivsNote": "The IVS is a direction indicator, not a success prediction. A score of 80 means the market conditions are favorable, not that the business will work. A score of 30 means something specific is broken. The report tells you exactly what.",
+    "receiveLabel": "Two documents. Delivered together.",
+    "receiveTitle": "The full picture, and the one page you share.",
+    "fullReport": {
+      "title": "The Full Idea Validation Analysis (8 to 12 pages)",
+      "desc": "A structured, evidence-based report covering all five IVS dimensions in full detail. Written in plain language. Not academic, not hedged.",
+      "items": [
+        "Idea Snapshot: how the AI understood and classified your idea",
+        "Problem & Market: Tier 1 test, TAM/SAM/SOM, timing thesis",
+        "Competition Reality Check: landscape map, whitespace analysis, differentiation verdict",
+        "Customer & Demand Intelligence: ICP profile, demand signals, WTP analysis",
+        "Viability Verdict + IVS: your score, dimension breakdown, top 3 risks, top 3 strengths",
+        "Executive Summary: one-page synthesis written for sharing"
+      ]
+    },
+    "summaryCard": {
+      "title": "The Idea Summary Card (1 page)",
+      "desc": "A designed, print-ready one-pager with your IVS score, dimension breakdown, 3 key findings, the top risk, the WTP range vs. your proposed price, and the 3 specific next steps.",
+      "desc2": "Pin it to a wall. Share it with your co-founder. Show it to an advisor. It says exactly where you stand without requiring them to read 12 pages."
+    },
+    "pricingAmount": "US$799",
+    "pricingPer": "per idea",
+    "pricingDelivery": "48-hour delivery from form submission",
+    "pricingIncludes": "Includes: Full Idea Validation Analysis + Idea Summary Card, delivered as PDF · Available in English, Portuguese (Brazilian), Spanish, and Italian",
+    "sampleLabel": "See the output",
+    "sampleTitle": "What a real report looks like.",
+    "sampleSub": "This is a sample Idea Validation Analysis for a fictional B2B SaaS concept targeting restaurant inventory management in Florida. It shows the IVS score, dimension breakdown, key findings, and the three next steps the founder should take this month.",
+    "sampleCardLabel": "Sample · Idea Summary Card",
+    "sampleCardName": "Restaurant Inventory Intelligence App",
+    "sampleCardMeta": "B2B SaaS · United States (Florida) · Proposed price: $79/month",
+    "sampleScore": "68",
+    "sampleScoreMax": "100",
+    "sampleTier": "Worth Exploring",
+    "sampleTierSub": "Promising. Key uncertainties remain.",
+    "sampleBarsLabel": [
+      "Problem Validity",
+      "Market Opportunity",
+      "Competitive Whitespace",
+      "Customer Demand Signals",
+      "Idea Differentiation"
+    ],
+    "sampleWtpLabel": "WTP Analysis",
+    "sampleWtp": "Floor: $29/mo · Range: $49 to $99/mo · Ceiling: $149/mo · Proposed price ($79/mo) is within acceptable range.",
+    "sampleCta": "Get My Idea Validated →",
+    "whoLabel": "Built for your moment",
+    "whoTitle": "Whether this is your first idea or your fifth.",
+    "audiences": [
+      {
+        "title": "First-Time Entrepreneurs",
+        "desc": "You have an idea you can't stop thinking about. You've done some research but you're not sure what you don't know. You need someone to tell you honestly whether this is worth the next two years of your life.",
+        "bestFor": "Best for:",
+        "items": [
+          "Ideas at the 'should I quit my job?' stage",
+          "Pre-revenue, pre-prototype concepts",
+          "Founders who want an external perspective before pitching friends or family for money",
+          "Anyone who has been told 'that's a great idea' but hasn't heard 'here's the evidence'"
+        ]
+      },
+      {
+        "title": "Serial Entrepreneurs & Side-Project Builders",
+        "desc": "You've built things before. You know the pattern: skip validation, fall in love with the solution, launch to silence. This time you want the market data before you start building.",
+        "bestFor": "Best for:",
+        "items": [
+          "Evaluating multiple ideas quickly before committing to one",
+          "Testing a new geography or market segment for an existing product",
+          "Getting a second opinion when your own research tells you what you want to hear",
+          "Producing a shareable artifact before pitching a co-founder or early investor"
+        ]
+      }
+    ],
+    "notForNote": "What this isn't: The Idea Validation Analysis answers market questions, not execution questions. It will tell you if a market exists and if customers would pay. It won't tell you how to build the product, find a co-founder, or raise a round. For those questions, look at Soundcheck's Business Plan Development and Custom Solutions.",
+    "faqLabel": "Common questions",
+    "faqTitle": "Straight answers.",
+    "faqs": [
+      {
+        "q": "Why can't I just use ChatGPT for this?",
+        "a": "You can, and most people do. The difference is structure, independence, and a scoreable output. ChatGPT will tell you what you want to hear if you aren't careful about how you prompt it. Soundcheck runs against a fixed methodology with the same 15 questions, the same 5 scoring dimensions, the same WTP analysis framework. The output is consistent, comparable, and shareable. The IVS score is something you can hand to an advisor or investor. A ChatGPT conversation is not."
+      },
+      {
+        "q": "What if my idea is in an early, undefined market?",
+        "a": "Early markets are where this analysis is most valuable. If the category doesn't have clear benchmarks yet, the report says so explicitly, and the IVS reflects it. A low score in an early market often means 'the timing isn't right yet' rather than 'the idea is wrong.' The competitive whitespace and timing signal sections are written specifically to distinguish between the two."
+      },
+      {
+        "q": "Is the report AI-generated? Will a human review it?",
+        "a": "The report is fully AI-generated from your intake form and independent public research. No consultant reviews or edits the output before delivery. That's what makes the 48-hour turnaround and $799 price possible. The methodology is designed to make the AI's analysis rigorous. The prompts are built around the same frameworks a senior market analyst would apply. If you want a consultant to review and advise on the findings, that's available as an add-on. Contact us."
+      },
+      {
+        "q": "What if my idea is a physical product, not software?",
+        "a": "The Idea Validation Analysis works for any business type: SaaS, app, physical product, service business, marketplace. The intake form asks you to specify your business model type and the AI calibrates the analysis accordingly. WTP benchmarks, competitive comparables, and market sizing methodology all adapt to the model type you select."
+      },
+      {
+        "q": "Can I validate more than one idea?",
+        "a": "Yes. Each analysis is per-idea and per-geography. If you have three ideas you're considering, you can run three separate analyses. Running them in parallel is absolutely possible. Each takes 10 minutes to brief."
+      },
+      {
+        "q": "What if I disagree with the IVS score?",
+        "a": "The report shows you the full dimension breakdown and every piece of evidence behind each score. If you think a dimension was scored incorrectly because the AI missed a key data point or competitor, you can contact us and we'll review the specific section. Material factual errors are corrected at no charge."
+      },
+      {
+        "q": "What languages is the report available in?",
+        "a": "English is the default. Portuguese (Brazilian), Spanish, and Italian are also available. Select your preferred language at the end of the intake form and the full report and Summary Card will be delivered in that language. Same price, same timeline."
+      }
+    ],
+    "ctaTitle": "You have the idea.",
+    "ctaTitleEnd": "Now find out if the market agrees.",
+    "ctaButton": "Validate My Idea →",
+    "ctaAlt": "Or see a sample report first →"
+  },
   "usMarketArticle": {},
   "virtualFocusGroups": {
     "heroLabel": "AI Virtual Focus Groups · Product 04",
