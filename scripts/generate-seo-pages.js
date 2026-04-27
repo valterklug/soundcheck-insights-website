@@ -68,9 +68,24 @@ const pages = {
     description: 'For B2B service companies and CPG brands that have stalled. GPS Score (0-100), ranked growth levers with investment estimates, and a 90-day action plan.',
     image: '/og/og-growth-roadmap.png',
   },
+  '/scale-assessment': {
+    title: 'Scale Assessment | Soundcheck Insights',
+    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan with AI-augmented intelligence.',
+    image: '/og/og-scale-assessment.png',
+  },
+  '/founder-pass': {
+    title: 'Founder Pass | Soundcheck Insights',
+    description: 'Founder-grade market intelligence before you have a market. Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). 3-7 day delivery.',
+    image: '/og/og-founder-pass.png',
+  },
+  '/investor-vetting': {
+    title: 'Investor Opportunity Vetting | Soundcheck Insights',
+    description: 'Independent vetting infrastructure for investors who run pipeline at scale. Single vettings from $1,500 or subscription tiers from $2,500/month.',
+    image: '/og/og-investor-vetting.png',
+  },
   '/virtual-focus-groups': {
     title: 'AI Virtual Focus Groups | Soundcheck Insights',
-    description: 'Pressure-test packaging, creative, pricing, and positioning with AI-generated buyer personas. No recruiting. No scheduling. 2-3 week delivery from US$3,000.',
+    description: 'Recruited focus groups in days, not weeks. AI-augmented audience testing. VFG Mini $3,500, Standard $7,500, Premium $15,000.',
     image: '/og/og-virtual-focus-groups.png',
   },
   '/partner': {

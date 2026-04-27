@@ -190,6 +190,45 @@ const seoConfig = {
     ),
   },
 
+  '/scale-assessment': {
+    title: 'Scale Assessment',
+    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan with AI-augmented intelligence. $9,500–$14,500. 3–4 week delivery.',
+    image: '/og/og-scale-assessment.png',
+    keywords: 'scale assessment, scaling strategy, operational readiness, business scaling, consumer brand growth, market expansion, AI market intelligence',
+    schema: serviceSchema(
+      'Scale Assessment',
+      'Comprehensive assessment for consumer brands: scale diagnostic, market opportunity map, competitive position analysis, operational readiness evaluation, phased 24-month scale plan, and 90-day AI-augmented intelligence layer.',
+      '9500',
+      '/scale-assessment',
+    ),
+  },
+
+  '/founder-pass': {
+    title: 'Founder Pass',
+    description: 'Founder-grade market intelligence before you have a market. Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). 3–7 day delivery for early-stage startups.',
+    image: '/og/og-founder-pass.png',
+    keywords: 'founder validation, startup market research, idea validation, early-stage intelligence, founder market analysis, startup positioning',
+    schema: serviceSchema(
+      'Founder Pass',
+      'Three founder-grade market intelligence products for early-stage startups: Validation Sprint, Brand Brief, and Focus Test. Fast turnaround, fixed pricing, no revision rounds.',
+      '750',
+      '/founder-pass',
+    ),
+  },
+
+  '/investor-vetting': {
+    title: 'Investor Opportunity Vetting',
+    description: 'Independent vetting infrastructure for investors who run pipeline at scale. Single vettings from $1,500 or subscription tiers from $2,500/month. Standardized methodology.',
+    image: '/og/og-investor-vetting.png',
+    keywords: 'investor vetting, deal evaluation, VC due diligence, startup vetting, investment analysis, portfolio evaluation, deal flow intelligence',
+    schema: serviceSchema(
+      'Investor Opportunity Vetting',
+      'Standardized vetting reports for VCs, PE firms, family offices, and angel syndicates. Founder assessment, market validation, competitive landscape, traction check, and risk frame.',
+      '1500',
+      '/investor-vetting',
+    ),
+  },
+
   '/virtual-focus-groups': {
     title: 'AI Virtual Focus Groups',
     description: 'Pressure-test packaging, creative, pricing, and positioning with AI-generated buyer personas that mirror your target audience. No recruiting. No scheduling. Delivered in 2-3 weeks. From US$3,000.',

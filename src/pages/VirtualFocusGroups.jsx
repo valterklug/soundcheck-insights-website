@@ -238,30 +238,31 @@ export default function VirtualFocusGroups() {
 
       {/* Pricing */}
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
-        <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
           <FadeIn>
             <span className="sc-label">{pricing.label}</span>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', marginBottom: 40, lineHeight: 1.1 }}>
               {pricing.title}
             </h2>
           </FadeIn>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }} className="grid-2">
-            <FadeIn>
-              <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.15)', padding: '40px 32px', textAlign: 'center' }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--teal)', marginBottom: 8 }}>{pricing.personaDef}</div>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 32, fontWeight: 300, color: '#fff', marginBottom: 8 }}>{pricing.personaDefPrice}</div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6 }}>{pricing.personaDefDesc}</p>
-              </div>
-            </FadeIn>
-            <FadeIn delay={0.1}>
-              <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.15)', padding: '40px 32px', textAlign: 'center' }}>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500, color: 'var(--teal)', marginBottom: 8 }}>{pricing.focusGroup}</div>
-                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 32, fontWeight: 300, color: '#fff', marginBottom: 8 }}>{pricing.focusGroupPrice}</div>
-                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6 }}>{pricing.focusGroupDesc}</p>
-              </div>
-            </FadeIn>
-          </div>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.25)', lineHeight: 1.6, marginTop: 20 }}>{pricing.note}</p>
+          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="offer-grid">
+            {pricing.tiers.map((tier, i) => (
+              <StaggerItem key={i}>
+                <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.15)', borderTop: '3px solid var(--teal)', padding: '40px 28px', textAlign: 'center', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: 'var(--teal)', marginBottom: 8 }}>{tier.name}</div>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 32, fontWeight: 300, color: '#fff', marginBottom: 12 }}>{tier.price}</div>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.5)', marginBottom: 8 }}>{tier.scope}</div>
+                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(255,255,255,0.3)', marginBottom: 16 }}>{tier.delivery}</div>
+                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.5, marginTop: 'auto', paddingTop: 16, borderTop: '1px solid rgba(255,255,255,0.06)' }}>{tier.best}</div>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+          <FadeIn delay={0.15}>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginTop: 20 }}>{pricing.includes}</p>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.25)', lineHeight: 1.6, marginTop: 8 }}>{pricing.wholesale}</p>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.25)', lineHeight: 1.6, marginTop: 8 }}>{pricing.note}</p>
+          </FadeIn>
         </div>
       </section>
 

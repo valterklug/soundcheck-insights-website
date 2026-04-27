@@ -12,6 +12,9 @@ export default function Partner() {
   const lang = getLangFromPath(location.pathname)
 
   const nextSteps = t('partner.steps')
+  const rules = t('partner.commercialRules.rules', { returnObjects: true })
+  const setupFees = t('partner.commercialRules.setupFees', { returnObjects: true })
+  const principles = t('partner.commercialRules.principles', { returnObjects: true })
 
   return (
     <PageWrapper>
@@ -21,6 +24,68 @@ export default function Partner() {
           <h1 className="page-h1">{t('partner.heroTitle')}</h1>
           <p className="page-sub">{t('partner.heroSub')}</p>
         </div>
+      </section>
+
+      {/* Commercial Engagement Rules */}
+      <section style={{ background: 'var(--navy)', padding: '80px 60px', borderBottom: '1px solid var(--border)' }} className="partner-section">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <span className="sc-label">{t('partner.commercialRules.label')}</span>
+            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', lineHeight: 1.1, marginBottom: 16 }}>
+              {t('partner.commercialRules.title')}
+            </h2>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 48, maxWidth: 680 }}>
+              {t('partner.commercialRules.subtitle')}
+            </p>
+          </FadeIn>
+
+          {/* Rules table */}
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 2, marginBottom: 48 }}>
+            {rules.map((r, i) => (
+              <FadeIn key={i} delay={i * 0.04}>
+                <div style={{ display: 'grid', gridTemplateColumns: '120px 160px 1fr 100px 100px', alignItems: 'center', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '18px 24px', gap: 16 }} className="rules-row">
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, color: 'var(--teal)', letterSpacing: '0.05em' }}>{r.rule}</div>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500, color: '#fff' }}>{r.scenario}</div>
+                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.5 }}>{r.desc}</div>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: 'var(--teal)', textAlign: 'center' }}>{r.soundcheck}</div>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: 'var(--orange)', textAlign: 'center' }}>{r.partner}</div>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+
+          {/* Setup fees and principles */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }} className="grid-2">
+            <FadeIn>
+              <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 28px', height: '100%' }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, fontWeight: 500, color: '#fff', marginBottom: 16 }}>{setupFees.title}</div>
+                {[setupFees.reports, setupFees.vfg, setupFees.minimum, setupFees.term, setupFees.termination].map((item, i) => (
+                  <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
+                    <div style={{ color: 'var(--teal)', flexShrink: 0, fontSize: 10, marginTop: 3 }}>●</div>
+                    <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.5 }}>{item}</div>
+                  </div>
+                ))}
+              </div>
+            </FadeIn>
+            <FadeIn delay={0.1}>
+              <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--orange)', padding: '32px 28px', height: '100%' }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 15, fontWeight: 500, color: '#fff', marginBottom: 16 }}>Operating Principles</div>
+                {principles.map((item, i) => (
+                  <div key={i} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '8px 0', borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
+                    <div style={{ color: 'var(--orange)', flexShrink: 0, fontSize: 10, marginTop: 3 }}>●</div>
+                    <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.5 }}>{item}</div>
+                  </div>
+                ))}
+              </div>
+            </FadeIn>
+          </div>
+        </div>
+        <style>{`
+          @media (max-width: 900px) {
+            .rules-row { grid-template-columns: 1fr !important; gap: 8px !important; }
+            .grid-2 { grid-template-columns: 1fr !important; }
+          }
+        `}</style>
       </section>
 
       <section style={{ background: 'var(--white, #fff)', padding: '80px 60px' }} className="partner-section">

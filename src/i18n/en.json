@@ -562,25 +562,25 @@
   },
   "forInvestors": {
     "heroLabel": "For Investors",
-    "heroTitle": "Your pipeline is full.\nYour team's availability isn't.",
-    "heroSub": "The average VC firm sees hundreds of deals a year. Most of the ones that get filtered don't get filtered early enough. Soundcheck gives venture capital firms, growth equity funds, angel syndicates, and corporate venture arms a structured, documented triage verdict — ADVANCE, CONDITIONAL, or STOP — before your team commits meaningful hours to a company that shouldn't make it past round one.",
-    "requestEngagement": "Request an Engagement →",
-    "viewSamples": "View Sample Signal Briefs →",
+    "heroTitle": "Investor Opportunity Vetting.\nPipeline at scale.",
+    "heroSub": "Independent vetting infrastructure for VCs, PE firms, family offices, and angel syndicates who run deal pipeline at volume. Standardized methodology. Sourced evidence. Transparent scoring. Single vettings from $1,500 or subscription tiers for high-volume evaluation.",
+    "requestEngagement": "Request a Vetting →",
+    "viewSamples": "See Full Product Details →",
     "heroStats": [
       {
         "num": "7",
         "label": "BUSINESS DAYS",
-        "sub": "from interviews to Signal Brief"
+        "sub": "single vetting turnaround"
       },
       {
-        "num": "2",
-        "label": "INTERVIEWS",
-        "sub": "founder team + real customer, independently"
+        "num": "3",
+        "label": "SUBSCRIPTION TIERS",
+        "sub": "10 to 100 vettings/month"
       },
       {
-        "num": "US$3,000",
+        "num": "$1,500+",
         "label": "",
-        "sub": "per company evaluated"
+        "sub": "per vetting or from $2,500/mo"
       }
     ],
     "problemLabel": "The real cost",
@@ -1390,6 +1390,168 @@
     "ctaButton": "Brief This Report →",
     "ctaLink": "Or explore all research products →"
   },
+  "founderPass": {
+    "heroLabel": "Product Deep-Dive · Founder Pass",
+    "heroTitle": "Founder-grade market intelligence, before you have a market.",
+    "heroSub": "Founder Pass is not a watered-down version of enterprise products. It's a different product family, with different naming, different scope, and founder-specific pricing. Validation Sprint, Brand Brief, or Focus Test. $750–$1,500. 3–7 day turnaround.",
+    "ctaButton": "Get Started →",
+    "viewSkus": "See Our Offerings →",
+    "heroStats": [
+      {
+        "num": "$750–$1,500",
+        "label": "FOUNDER PRICING",
+        "sub": "Validation to insight, not a discount"
+      },
+      {
+        "num": "3–7",
+        "label": "DAYS",
+        "sub": "From intake to delivery"
+      },
+      {
+        "num": "No calls to schedule",
+        "label": "SPEED",
+        "sub": "Fill a form, get back insights"
+      }
+    ],
+    "positionLabel": "Product family, not a discount",
+    "positionTitle": "Not a discount. A different product.",
+    "positionDesc": "Founder Pass is built for a specific moment: you have an idea, you need validation, you don't have $5,000 and two weeks. Our enterprise products (Scale Assessment, Business Plan) are 50+ pages of strategic depth for mature brands. Founder Pass is 5–15 pages of focused validation for early-stage founders. Same research platform. Different product family. Different timeline. Different price. No iteration—you get one cut of intelligence and move forward.",
+    "skusLabel": "Three offerings",
+    "skusTitle": "Choose your focus.",
+    "skusSub": "All Founder Pass products include 30-minute kickoff call, delivered report, 30-minute review call, and access to our research platform dashboard.",
+    "skus": [
+      {
+        "name": "Founder Validation Sprint",
+        "price": "$750",
+        "scope": "5–7 page report: market sizing, top-3 competitors, validation/invalidation framework, key risks.",
+        "turnaround": "3–5 days",
+        "bestFor": "Ideas at the 'should I build this?' stage"
+      },
+      {
+        "name": "Founder Brand Brief",
+        "price": "$1,500",
+        "scope": "10–15 page brand intelligence report: positioning recommendations, audience analysis, messaging tests.",
+        "turnaround": "5–7 days",
+        "bestFor": "Pre-launch brands needing positioning clarity"
+      },
+      {
+        "name": "Founder Focus Test",
+        "price": "$1,500",
+        "scope": "Single VFG session: 6 personas, 1 topic. Messaging, landing pages, or product positioning research.",
+        "turnaround": "3 days",
+        "bestFor": "Testing messaging or positioning with target audience"
+      }
+    ],
+    "allIncludeLabel": "In every package",
+    "allIncludeTitle": "What all Founder Pass products include.",
+    "includes": [
+      {
+        "label": "30-min kickoff call",
+        "desc": "Brief the team, clarify your question, align on scope."
+      },
+      {
+        "label": "Delivered report",
+        "desc": "Fully AI-generated research, packaged in clean PDF or .docx format."
+      },
+      {
+        "label": "30-min review call",
+        "desc": "Walk through findings, ask follow-ups, start planning next steps."
+      },
+      {
+        "label": "No revisions",
+        "desc": "The price reflects one cut. You move forward with what you get."
+      }
+    ],
+    "howLabel": "Your timeline",
+    "howTitle": "How it works.",
+    "howSteps": [
+      {
+        "num": "1",
+        "title": "Fill intake form",
+        "desc": "10 minutes. Answer questions about your idea, audience, competition, and success criteria."
+      },
+      {
+        "num": "2",
+        "title": "AI runs research",
+        "desc": "No human consultant reviews. Our platform researches TAM, competitive landscape, messaging, and customer fit."
+      },
+      {
+        "num": "3",
+        "title": "Receive report + review call",
+        "desc": "Get your report, jump on a 30-minute call to walk through findings and plan next steps."
+      }
+    ],
+    "agreementLabel": "The exchange",
+    "agreementTitle": "The Founder Pass Agreement.",
+    "agreementDesc": "Founder pricing is made possible by scale and the commitment below. In exchange for these prices, we ask for a few things from you. No revision rounds, no long-term engagement lock-in—just a straightforward trade.",
+    "commitment": [
+      {
+        "num": "1",
+        "item": "Written testimonial within 30 days (if our work was useful)"
+      },
+      {
+        "num": "2",
+        "item": "Refer one peer founder within 90 days"
+      },
+      {
+        "num": "3",
+        "item": "Allow us to use your company name and brief description in marketing materials"
+      },
+      {
+        "num": "4",
+        "item": "Standard pricing on future engagements after you raise your next round"
+      }
+    ],
+    "commitmentBenefits": [
+      "Founder-grade market intelligence at founder budgets",
+      "AI-powered research (no consultant markup)",
+      "3–7 day turnaround",
+      "Clear, actionable insights packaged for your team"
+    ],
+    "whoLabel": "Built for founders",
+    "whoTitle": "Who this is for.",
+    "whoItems": [
+      {
+        "title": "First-time founders",
+        "text": "You have an idea, some early validation, and questions about market size, competition, and go-to-market. You need evidence, not a consultant's opinion. Founder Pass delivers validation at founder scale."
+      },
+      {
+        "title": "Serial entrepreneurs and side-project builders",
+        "text": "You're testing a new idea, assessing a new market, or validating a pivot. You know the process. You need fast, AI-driven research to de-risk before you commit time or capital."
+      }
+    ],
+    "faqLabel": "Questions",
+    "faqTitle": "Founder Pass FAQ.",
+    "faqs": [
+      {
+        "q": "Why is this so much cheaper than Scale Assessment?",
+        "a": "Different product, different scope. Founder Pass is 5–15 pages of focused validation for pre-funded founders. Scale Assessment is 50+ pages of strategic intelligence for mature brands. Same research platform, different depth and turnaround. Founder Pass trades iteration and customization for speed and price."
+      },
+      {
+        "q": "Is this AI-generated?",
+        "a": "Yes, fully. We run our AI research engine against your intake and independent data sources. No human consultant reviews the output. That's what makes the price and speed possible. You get one cut—no revision rounds."
+      },
+      {
+        "q": "Can I upgrade later?",
+        "a": "Yes. Once you raise your next round (Seed, Series A, etc.), you move to standard pricing for Scale Assessment, Business Plan, or other products. The Founder Pass pricing is specifically for pre-funded founders. After that milestone, we price you like any other client."
+      },
+      {
+        "q": "What if I have multiple ideas?",
+        "a": "Run multiple Validation Sprints. Each one is $750 and takes 3–5 days. You can brief them in parallel or sequentially—each 10-minute intake is independent. Run as many as you need to validate your pipeline."
+      },
+      {
+        "q": "Do I need to be in Mana Tech?",
+        "a": "No. Founder Pass is available to any early-stage founder, Mana Tech member or not. Mana Tech members do get priority scheduling, but you don't need to be a member to use Founder Pass."
+      },
+      {
+        "q": "What happens after the review call?",
+        "a": "You move forward. There are no revision rounds at this price point. You have the report, the insights, and 30 minutes to ask questions. If you need deeper work later, we'll revisit scope and pricing for Scale Assessment or another product once you've raised."
+      }
+    ],
+    "ctaTitle": "Start validating today.",
+    "ctaFinalButton": "Brief a Product →",
+    "ctaLink": "Or explore all research products →"
+  },
   "expansionReport": {
     "heroLabel": "Product Deep-Dive · International Expansion",
     "heroTitle": "Reduce the Trial and Error of Your International Expansion",
@@ -2134,14 +2296,170 @@
     "ctaButton": "Request access →",
     "pricing": {
       "label": "Pricing",
-      "title": "Simple, transparent pricing.",
-      "personaDef": "Persona Definition",
-      "personaDefPrice": "US$3,000",
-      "personaDefDesc": "Market research + persona panel (4–6 personas). One-time per brand.",
-      "focusGroup": "Focus Group Session",
-      "focusGroupPrice": "US$2,000+",
-      "focusGroupDesc": "Per session. Test unlimited concepts. Iterate in real-time.",
-      "note": "White-label included. Volume pricing available for agencies running multiple clients."
+      "title": "Three tiers. Transparent pricing.",
+      "tiers": [
+        {
+          "name": "VFG Mini",
+          "price": "US$3,500",
+          "scope": "6 personas · 1 topic",
+          "delivery": "3–5 business days",
+          "best": "Single concept test, quick directional insight"
+        },
+        {
+          "name": "VFG Standard",
+          "price": "US$7,500",
+          "scope": "12 personas · 3 topics",
+          "delivery": "3–5 business days",
+          "best": "Multi-concept comparison, positioning strategy"
+        },
+        {
+          "name": "VFG Premium",
+          "price": "US$15,000",
+          "scope": "20 personas · Multi-wave testing",
+          "delivery": "7–10 business days",
+          "best": "Full research cycle, iterative testing across segments"
+        }
+      ],
+      "includes": "Each session includes 100 bundled feedback requests. Beyond 100: $50 each.",
+      "wholesale": "Agency wholesale: ~50% of end-client pricing across all tiers.",
+      "note": "White-label included. All tiers include branded report + 60-minute review call."
     }
+  },
+  "investorVetting": {
+    "heroLabel": "Investor Opportunity Vetting",
+    "heroTitle1": "Evaluate deals at scale",
+    "heroTitle2": "with independent intelligence.",
+    "heroSub": "Independent vetting infrastructure for investors who run pipeline at scale. Evaluate founders, validate markets, assess traction, and identify risks—without building an in-house research team.",
+    "requestAccess": "Get started →",
+    "learnMore": "Learn more ↓",
+    "heroStats": [
+      {
+        "label": "SINGLE VETTING",
+        "value": "7 BUSINESS DAYS"
+      },
+      {
+        "label": "SUBSCRIPTION TIERS",
+        "value": "3 OPTIONS"
+      },
+      {
+        "label": "PRICING RANGE",
+        "value": "$1,500–$15,000/mo"
+      }
+    ],
+    "positioningLabel": "Why Vetting Infrastructure",
+    "positioningTitle": "Investors don't buy reports one at a time. They buy evaluation infrastructure.",
+    "positioningDesc1": "You already subscribe to PitchBook, Crunchbase Pro, Tracxn. Those tools tell you what exists. Soundcheck is the intelligence layer that tells you what to think about what exists. Different layer of the stack.",
+    "positioningDesc2": "Whether you're evaluating 5 deals a month or 50, you need a consistent, defensible evaluation methodology. That's what Soundcheck provides—the infrastructure to vet at scale, with transparency and sourcing built in.",
+    "tiersLabel": "Pricing & Availability",
+    "tiersTitle": "Two tiers: transactional and strategic.",
+    "tierASingleLabel": "Tier A — Single Opportunity Vetting",
+    "tierASingleTitle": "One deal at a time.",
+    "tierAInstitutional": "Institutional VC/PE",
+    "tierAInstitutionalDesc": "Per vetting. No commitment, no subscription.",
+    "tierAAngelFamily": "Angel / Family Office",
+    "tierAAngelFamilyDesc": "$1,000 each in bundle of 3. Or $1,500 single.",
+    "tierASingleDesc": "Use case: Evaluating a Series A lead or exploring a secondary. Get a standardized vetting report in 7 business days.",
+    "tierAAvailability": "Available now",
+    "tierBSubscriptionLabel": "Tier B — Investor Subscription",
+    "tierBSubscriptionTitle": "Subscription model (coming soon).",
+    "tierBDesc": "Strategic pricing for investors who vet 10+ deals per month. Starter, Professional, and Enterprise tiers with varying scope, vetting volume, and expert review hours.",
+    "tierBComingSoon": "Coming Soon",
+    "tierBLaunchTimeline": "Tier B launches after we've delivered 10+ manual vettings and validated the methodology with paying customers. Expected Q1 2027.",
+    "tierBEarlyPhase": "Early Phase — Tier A Only",
+    "deliverablesLabel": "What's in a Vetting Report",
+    "deliverablesTitle": "Every single vetting includes these seven elements.",
+    "singleVettingItems": [
+      {
+        "label": "Founder",
+        "title": "Founder & team assessment — background, track record, complementary skills, red flags."
+      },
+      {
+        "label": "Market",
+        "title": "Market opportunity validation — TAM, growth trajectory, competitive intensity, tailwinds."
+      },
+      {
+        "label": "Competition",
+        "title": "Competitive landscape — direct and indirect competitors, differentiation, moats."
+      },
+      {
+        "label": "Traction",
+        "title": "Traction validity check — growth rate authenticity, cohort analysis, retention signals."
+      },
+      {
+        "label": "Financials",
+        "title": "Financial sanity check — burn rate, runway, unit economics, path to profitability questions."
+      },
+      {
+        "label": "Risk",
+        "title": "Risk frame — deal-breakers, execution risk, market risk, founder risk, macroeconomic risk."
+      },
+      {
+        "label": "Questions",
+        "title": "Recommended diligence questions — critical follow-ups for your team, phrased for a founder call."
+      }
+    ],
+    "subscriptionTableLabel": "Strategic Tier Breakdown",
+    "subscriptionTableTitle": "Subscription tiers for investors running high-volume pipeline.",
+    "subscriptionTiers": [
+      {
+        "name": "Starter",
+        "price": "$2,500",
+        "vettingsPerMonth": "Up to 10",
+        "perVettingCost": "$250",
+        "scope": "Light scope, self-serve",
+        "expertReview": "None"
+      },
+      {
+        "name": "Professional",
+        "price": "$7,500",
+        "vettingsPerMonth": "Up to 40",
+        "perVettingCost": "$187",
+        "scope": "Full scope",
+        "expertReview": "2 hrs/month"
+      },
+      {
+        "name": "Enterprise",
+        "price": "$15,000",
+        "vettingsPerMonth": "Up to 100",
+        "perVettingCost": "$150",
+        "scope": "Full scope + custom criteria",
+        "expertReview": "8 hrs/month + integrations"
+      }
+    ],
+    "trustLabel": "How We Build Trust",
+    "trustTitle": "We validate manually before we scale the subscription product.",
+    "trustDesc": "Tier A customers today become Tier B subscribers tomorrow. We're running Phase 1: manual vettings, real feedback, real improvements to methodology.",
+    "trustPhase1": "Every vetting is reviewed by our research team for sourcing, confidence labeling, and strategic framing before delivery. We're building the methodology to a standard we can automate later—not automating first and hoping it works.",
+    "faqLabel": "FAQ",
+    "faqTitle": "Questions we get asked.",
+    "faqs": [
+      {
+        "q": "When is the subscription available?",
+        "a": "Tier A (single vettings) is available now. Tier B (subscription) launches after we've delivered 10+ manual vettings and validated the methodology with paying customers. Expected Q1 2027."
+      },
+      {
+        "q": "What's the turnaround?",
+        "a": "7 business days for single vettings. Subscription customers get priority processing and faster turnaround times depending on tier."
+      },
+      {
+        "q": "Is this AI-generated?",
+        "a": "The platform does the analytical heavy lifting—aggregating data, building analytical frameworks, scoring dimensions. Expert review is included at Professional and Enterprise tiers for validation and nuance. Tier A single vettings include quality assurance review."
+      },
+      {
+        "q": "Can we customize vetting criteria?",
+        "a": "Yes. Enterprise subscribers can define custom scoring dimensions and evaluation criteria specific to their thesis, risk profile, and industry focus."
+      },
+      {
+        "q": "How is this different from Crunchbase or PitchBook?",
+        "a": "Those are data tools—they tell you what exists. Soundcheck is an intelligence layer—it tells you what to think about what exists. Different layer of the stack. You subscribe to those for data; you subscribe to us for analysis and evaluation."
+      },
+      {
+        "q": "What if we disagree with the verdict?",
+        "a": "Every claim is sourced and every score is transparent. If a dimension was scored incorrectly due to missing information, we'll review at no charge and provide an updated assessment."
+      }
+    ],
+    "ctaTitle": "Ready to evaluate at scale?",
+    "ctaSub": "Start with a single vetting, or talk to us about a subscription tier for your fund.",
+    "ctaButton": "Request a vetting →"
   }
 }
