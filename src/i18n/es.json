@@ -97,8 +97,8 @@
         "tag": "Su marca · Su crédito · Su próximo contrato"
       }
     ],
-    "productsLabel": "Cinco Productos",
-    "productsTitle": "Cinco productos que puedes ofrecer\na tus clientes hoy mismo.",
+    "productsLabel": "Seis Productos",
+    "productsTitle": "Seis productos que puedes ofrecer\na tus clientes hoy mismo.",
     "products": [
       {
         "num": "01",
@@ -126,6 +126,14 @@
       },
       {
         "num": "04",
+        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
+        "name": "Business Plan Development",
+        "desc": "Plan de negocio profesional en 6 configuraciones: Inversor, Banco/SBA, Inmigración, Franquicia, CPG, Interno del Fundador. Cada dato documentado.",
+        "delivery": "Entrega en 10–14 días · White-label incluido",
+        "link": "/business-plan"
+      },
+      {
+        "num": "05",
         "for": "Agencias · Marcas · Fundadores",
         "name": "AI Virtual Focus Groups",
         "desc": "Prueba conceptos, posicionamiento y pricing con personas IA. Tres niveles desde prueba rápida hasta investigación multi-ola. Sin reclutamiento, sin agendamiento.",
@@ -133,7 +141,7 @@
         "link": "/virtual-focus-groups"
       },
       {
-        "num": "05",
+        "num": "06",
         "for": "VCs · PE · Family Offices · Ángeles",
         "name": "Investor Opportunity Vetting",
         "desc": "Vetting independiente con veredictos ADVANCE / CONDITIONAL / STOP. Dos entrevistas, investigación independiente, análisis de contradicciones.",
@@ -440,7 +448,7 @@
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes no olvidarán.",
-    "heroSub": "Cinco productos de alcance fijo diseñados para ser brifados, entregados e implementados bajo la marca de su agencia — o directo a su equipo. Usted define cuánto cobrar a sus clientes.",
+    "heroSub": "Seis productos de alcance fijo diseñados para ser brifados, entregados e implementados bajo la marca de su agencia — o directo a su equipo. Usted define cuánto cobrar a sus clientes.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -513,6 +521,21 @@
       },
       {
         "num": "04",
+        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
+        "name": "Business Plan Development",
+        "tagline": "Un plan de negocio construido para el lector que decide.",
+        "desc": "No es una plantilla. Un plan de negocio profesional y específico para la audiencia construido a partir de datos de intake estructurados, una entrevista con interesados, e investigación independiente. 6 configuraciones: Inversor, Banco/SBA, Inmigración (E-2/EB-5/L-1A), Franquicia, CPG, e Interno del Fundador. Cada afirmación está documentada. Cada proyección está justificada.",
+        "price": "US$5,000+ por plan",
+        "delivery": "Entrega en 10–14 días · White-label incluido · 1 revisión",
+        "ctaLabel": "Ver Detalles Completos del Plan →",
+        "deliverables": [
+          "Plan de Negocio Completo — estructura MECE de 10 secciones, formato por audiencia, proyecciones etiquetadas por confianza, datos de mercado y competencia documentados",
+          "Resumen Ejecutivo de Una Página — snapshot del negocio, oportunidad de mercado, highlights financieros, la solicitud específica"
+        ],
+        "link": "/business-plan"
+      },
+      {
+        "num": "05",
         "for": "Agencias · Marcas · Fundadores",
         "name": "AI Virtual Focus Groups",
         "desc": "Prueba conceptos creativos, ideas de producto, pricing y posicionamiento con personas generadas por IA que reflejan tu audiencia objetivo. Sin reclutamiento. Sin agendamiento. Tres niveles desde prueba rápida hasta investigación multi-ola.",
@@ -529,7 +552,7 @@
         "link": "/virtual-focus-groups"
       },
       {
-        "num": "05",
+        "num": "06",
         "for": "VCs · Firmas de PE · Family Offices · Sindicatos de Ángeles",
         "name": "Investor Opportunity Vetting",
         "desc": "Infraestructura de vetting independiente para inversores que manejan pipeline a escala. Dos entrevistas estructuradas — equipo fundador + cliente real. Investigación independiente que detecta contradicciones y entrega un veredicto ADVANCE / CONDITIONAL / STOP con evidencia.",

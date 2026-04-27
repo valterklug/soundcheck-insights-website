@@ -97,8 +97,8 @@
         "tag": "Sua marca · Seu crédito · Seu próximo contrato"
       }
     ],
-    "productsLabel": "Cinco Produtos",
-    "productsTitle": "Cinco produtos que você pode oferecer\naos seus clientes hoje mesmo.",
+    "productsLabel": "Seis Produtos",
+    "productsTitle": "Seis produtos que você pode oferecer\naos seus clientes hoje mesmo.",
     "products": [
       {
         "num": "01",
@@ -126,6 +126,14 @@
       },
       {
         "num": "04",
+        "for": "Empreendedores · Investidores · Candidatos a Imigração",
+        "name": "Business Plan Development",
+        "desc": "Plano de negócios profissional em 6 configurações: Investidor, Banco/SBA, Imigração, Franquia, CPG, Interno do Fundador. Cada dado documentado.",
+        "delivery": "Entrega em 10–14 dias · White-label incluído",
+        "link": "/business-plan"
+      },
+      {
+        "num": "05",
         "for": "Agências · Marcas · Fundadores",
         "name": "AI Virtual Focus Groups",
         "desc": "Teste conceitos, posicionamento e pricing com personas IA. Três níveis desde teste rápido até pesquisa multi-onda. Sem recrutamento, sem agendamento.",
@@ -133,7 +141,7 @@
         "link": "/virtual-focus-groups"
       },
       {
-        "num": "05",
+        "num": "06",
         "for": "VCs · PE · Family Offices · Anjos",
         "name": "Investor Opportunity Vetting",
         "desc": "Vetting independente com vereditos ADVANCE / CONDITIONAL / STOP. Duas entrevistas, pesquisa independente, análise de contradições.",
@@ -440,7 +448,7 @@
   "products": {
     "heroLabel": "Produtos de Pesquisa",
     "heroTitle": "Inteligência que sua agência implementa.\nResultados que seus clientes não vão esquecer.",
-    "heroSub": "Cinco produtos de escopo fixo projetados para serem brifados, entregues e implementados sob a marca de sua agência — ou direto para sua equipe. Você define quanto cobrar de seus clientes.",
+    "heroSub": "Seis produtos de escopo fixo projetados para serem brifados, entregues e implementados sob a marca de sua agência — ou direto para sua equipe. Você define quanto cobrar de seus clientes.",
     "viewDeliverables": "Ver O Que é Entregue",
     "hideDeliverables": "Ocultar O Que é Entregue",
     "whatsDelivered": "O Que é Entregue",
@@ -513,6 +521,21 @@
       },
       {
         "num": "04",
+        "for": "Empreendedores · Investidores · Candidatos a Imigração",
+        "name": "Business Plan Development",
+        "tagline": "Um plano de negócios construído para quem decide.",
+        "desc": "Não é um template. Um plano de negócios profissional e específico do público, construído a partir de dados de intake estruturados, uma entrevista com stakeholder e pesquisa independente. 6 configurações: Investidor, Banco/SBA, Imigração (E-2/EB-5/L-1A), Franquia, CPG e Interno do Fundador. Toda alegação com fontes. Cada projeção documentada.",
+        "price": "US$5.000+ por plano",
+        "delivery": "Entrega em 10–14 dias · White-label incluído · 1 revisão",
+        "ctaLabel": "Ver Detalhes Completos do Plano →",
+        "deliverables": [
+          "Plano de Negócios Completo — estrutura MECE de 10 seções, formatado por público, projeções com confiança marcada, dados de mercado e competitivos com fontes",
+          "Resumo Executivo em Uma Página — visão geral do negócio, oportunidade de mercado, destaques financeiros, o pedido específico"
+        ],
+        "link": "/business-plan"
+      },
+      {
+        "num": "05",
         "for": "Agências · Marcas · Fundadores",
         "name": "AI Virtual Focus Groups",
         "desc": "Teste conceitos criativos, ideias de produto, pricing e posicionamento com personas geradas por IA que espelham seu público-alvo. Sem recrutamento. Sem agendamento. Três níveis desde teste rápido até pesquisa multi-onda.",
@@ -529,7 +552,7 @@
         "link": "/virtual-focus-groups"
       },
       {
-        "num": "05",
+        "num": "06",
         "for": "VCs · Firmas de PE · Family Offices · Sindicatos de Anjos",
         "name": "Investor Opportunity Vetting",
         "desc": "Infraestrutura de vetting independente para investidores que gerenciam pipeline em escala. Duas entrevistas estruturadas — equipe fundadora + cliente real. Pesquisa independente que detecta contradições e entrega um veredito ADVANCE / CONDITIONAL / STOP com evidência.",

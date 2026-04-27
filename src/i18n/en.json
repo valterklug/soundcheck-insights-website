@@ -97,8 +97,8 @@
         "tag": "Your brand · Your credit · Your next contract"
       }
     ],
-    "productsLabel": "Five Products",
-    "productsTitle": "Five products you can offer\nyour clients starting today.",
+    "productsLabel": "Six Products",
+    "productsTitle": "Six products you can offer\nyour clients starting today.",
     "products": [
       {
         "num": "01",
@@ -126,6 +126,14 @@
       },
       {
         "num": "04",
+        "for": "Entrepreneurs · Investors · Immigration Applicants",
+        "name": "Business Plan Development",
+        "desc": "Professional business plan in 6 configurations: Investor, Bank/SBA, Immigration, Franchise, CPG, Founder's Internal. Every claim sourced.",
+        "delivery": "10–14 day delivery · White-label included",
+        "link": "/business-plan"
+      },
+      {
+        "num": "05",
         "for": "Agencies · Brands · Founders",
         "name": "AI Virtual Focus Groups",
         "desc": "Test concepts, positioning, and pricing with AI personas. Three tiers from quick-test to multi-wave research. No recruiting, no scheduling.",
@@ -133,7 +141,7 @@
         "link": "/virtual-focus-groups"
       },
       {
-        "num": "05",
+        "num": "06",
         "for": "VCs · PE · Family Offices · Angels",
         "name": "Investor Opportunity Vetting",
         "desc": "Independent vetting with ADVANCE / CONDITIONAL / STOP verdicts. Two interviews, independent research, contradiction analysis.",
@@ -440,7 +448,7 @@
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Five fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — or direct to your team. You set the price for your clients.",
+    "heroSub": "Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — or direct to your team. You set the price for your clients.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -513,6 +521,21 @@
       },
       {
         "num": "04",
+        "for": "Entrepreneurs · Investors · Immigration Applicants",
+        "name": "Business Plan Development",
+        "tagline": "A business plan built for the reader who decides.",
+        "desc": "Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder's Internal. Every claim sourced. Every projection documented.",
+        "price": "US$5,000+ per plan",
+        "delivery": "10–14 day delivery · White-label included · 1 revision",
+        "ctaLabel": "See Full Plan Details →",
+        "deliverables": [
+          "Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data",
+          "Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask"
+        ],
+        "link": "/business-plan"
+      },
+      {
+        "num": "05",
         "for": "Agencies · Brands · Founders",
         "name": "AI Virtual Focus Groups",
         "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Three tiers from quick-test to multi-wave research.",
@@ -529,7 +552,7 @@
         "link": "/virtual-focus-groups"
       },
       {
-        "num": "05",
+        "num": "06",
         "for": "VCs · PE Firms · Family Offices · Angel Syndicates",
         "name": "Investor Opportunity Vetting",
         "desc": "Independent vetting infrastructure for investors who run pipeline at scale. Two structured interviews — founder team + real customer. Independent research surfaces contradictions and delivers an ADVANCE / CONDITIONAL / STOP verdict with evidence.",
