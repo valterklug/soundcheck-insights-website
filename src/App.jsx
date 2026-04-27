@@ -17,10 +17,7 @@ import Partner from './pages/Partner'
 import OurPartners from './pages/OurPartners'
 import ForInvestors from './pages/ForInvestors'
 import ExpansionReport from './pages/ExpansionReport'
-import GrowthRoadmap from './pages/GrowthRoadmap'
 import ScaleAssessment from './pages/ScaleAssessment'
-import IdeaValidation from './pages/IdeaValidation'
-import BusinessPlan from './pages/BusinessPlan'
 import VirtualFocusGroups from './pages/VirtualFocusGroups'
 import FounderPass from './pages/FounderPass'
 import InvestorVetting from './pages/InvestorVetting'
@@ -60,10 +57,10 @@ const routes = [
   { path: '/for-investors', element: <ForInvestors /> },
   { path: '/products', element: <Products /> },
   { path: '/expansion-report', element: <ExpansionReport /> },
-  { path: '/growth-roadmap', element: <GrowthRoadmap /> },
+  { path: '/growth-roadmap', element: <Navigate to="/scale-assessment" replace /> },
   { path: '/scale-assessment', element: <ScaleAssessment /> },
-  { path: '/idea-validation', element: <IdeaValidation /> },
-  { path: '/business-plan', element: <BusinessPlan /> },
+  { path: '/idea-validation', element: <Navigate to="/founder-pass" replace /> },
+  { path: '/business-plan', element: <Navigate to="/products" replace /> },
   { path: '/virtual-focus-groups', element: <VirtualFocusGroups /> },
   { path: '/founder-pass', element: <FounderPass /> },
   { path: '/investor-vetting', element: <InvestorVetting /> },

@@ -102,51 +102,43 @@
     "products": [
       {
         "num": "01",
-        "for": "Marcas Internacionales · Entrada en el Mercado",
-        "name": "International Expansion Viability Report",
-        "desc": "CVE Score, panorama competitivo, análisis regulatorio, mapa de canales de distribución, tres caminos estratégicos, y roadmap de 12 meses. Más de 100 páginas.",
-        "delivery": "Entrega en 14 días · White-label incluido",
+        "for": "Marcas Brasileñas y Latinas · Entrada al Mercado",
+        "name": "Análisis de Viabilidad Internacional",
+        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y roadmap faseado. 100+ páginas.",
+        "delivery": "Entrega en 2–3 semanas · White-label incluido",
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Empresarios · Fundadores · Empresarios en Serie",
-        "name": "Idea Validation Analysis",
-        "desc": "Complete un formulario de 10 minutos. Obtenga un informe completo de validación de mercado + puntuación IVS (0 a 100) en 48 horas. US$799. Sin llamadas, sin programación.",
-        "delivery": "Entrega en 48 horas · Totalmente automatizado",
-        "link": "/idea-validation"
+        "for": "Marcas y Agencias de EE.UU. · Inteligencia Estratégica",
+        "name": "Scale Assessment",
+        "desc": "Scale Diagnostic, posición competitiva, preparación operacional y un plan faseado de 24 meses con puertas go/no-go. Basado en el framework Too Small To Fall.",
+        "delivery": "Entrega en 3–4 semanas · White-label incluido",
+        "link": "/scale-assessment"
       },
       {
         "num": "03",
-        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
-        "name": "Business Plan Development",
-        "desc": "Planes de negocio específicos para inversores, bancos, abogados de inmigración y fundadores. 6 configuraciones. Estructura de 10 secciones. Cada afirmación está documentada.",
-        "delivery": "Entrega en 10-14 días · White-label incluido",
-        "link": "/business-plan"
+        "for": "Fundadores · Mana Tech · Etapa Temprana",
+        "name": "Founder Pass",
+        "desc": "Tres productos a precios de fundador: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Entrega rápida, alcance ajustado, decisiones reales.",
+        "delivery": "Entrega en 3–7 días",
+        "link": "/founder-pass"
       },
       {
         "num": "04",
-        "for": "Agencias · Consultorías · Departamentos de Marketing",
+        "for": "Agencias · Marcas · Fundadores",
         "name": "AI Virtual Focus Groups",
-        "desc": "Paneles de personas generadas por IA que reflejan la audiencia objetivo exacta de su cliente. Sin reclutamiento. Sin programación.",
-        "delivery": "Entrega en 1–7 días · White-label incluido",
+        "desc": "Prueba conceptos, posicionamiento y pricing con personas IA. Tres niveles desde prueba rápida hasta investigación multi-ola. Sin reclutamiento, sin agendamiento.",
+        "delivery": "Entrega en 3–10 días · White-label incluido",
         "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
-        "for": "Servicios B2B · Marcas CPG · Mercado de EE.UU.",
-        "name": "US Growth Roadmap",
-        "desc": "Análisis de mercado, inteligencia competitiva, palancas de crecimiento clasificadas con estimaciones de inversión, y plan de acción de 90 días. GPS Score (0 a 100).",
-        "delivery": "Entrega en 14 días · White-label incluido",
-        "link": "/growth-roadmap"
-      },
-      {
-        "num": "06",
-        "for": "Firmas de Capital de Riesgo · Inversores",
-        "name": "Funding Vetting Analysis",
-        "desc": "Dos entrevistas estructuradas, validación independiente de clientes, y una Resumen de Señales con un veredicto AVANZAR / CONDICIONAL / DETENER. US$3,000 por empresa.",
-        "delivery": "Entrega en 7 días · Descuentos por volumen disponibles",
-        "link": "/for-investors"
+        "for": "VCs · PE · Family Offices · Ángeles",
+        "name": "Investor Opportunity Vetting",
+        "desc": "Vetting independiente con veredictos ADVANCE / CONDITIONAL / STOP. Dos entrevistas, investigación independiente, análisis de contradicciones.",
+        "delivery": "Entrega en 7 días · Suscripciones disponibles",
+        "link": "/investor-vetting"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
@@ -461,102 +453,92 @@
     "items": [
       {
         "num": "01",
-        "for": "Marcas Internacionales · Entrada en el Mercado",
-        "name": "International Expansion Viability Report",
-        "desc": "Inteligencia de entrada al mercado de grado decisivo. CVE Score propietario, panorama competitivo, análisis regulatorio, mapa de canales de distribución, tres caminos estratégicos, y roadmap de 12 meses. Más de 100 páginas, white-labeled, en 14 días.",
-        "price": "Precio sugerido: US$5k+",
-        "delivery": "Entrega en 14 días · White-label incluido · 1 revisión",
-        "ctaLabel": "Ver Detalles Completos del Informe →",
+        "for": "Marcas Brasileñas y Latinas · Entrada al Mercado",
+        "name": "Análisis de Viabilidad Internacional",
+        "desc": "Inteligencia de entrada al mercado de grado decisional para marcas brasileñas y latinoamericanas en expansión internacional. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y una hoja de ruta faseada. White-label, entregado en 2–3 semanas.",
+        "price": "US$5,000",
+        "delivery": "Entrega en 2–3 semanas · White-label incluido · 2 revisiones",
+        "ctaLabel": "Ver Detalles del Reporte →",
         "deliverables": [
-          "CVE Score (Coeficiente de Viabilidad de Expansión) — Puntuación ponderada de 3 dimensiones (0 a 100)",
+          "CVE Score (Coeficiente de Viabilidad de Expansión) — puntuación ponderada en 3 dimensiones (0 a 100)",
           "Resumen Ejecutivo — 5 insights críticos + 3 caminos estratégicos con modo de entrada recomendado",
-          "Evaluación de Negocio y Marca — product-market fit, arquitectura de precios, posicionamiento",
-          "Inteligencia de Mercado y Categoría — TAM/SAM/SOM, Cinco Fuerzas de Porter, comparación competitiva, panorama del comprador",
-          "Plan de Entrada Estratégica y Crecimiento — roadmap de 12 meses con economía unitaria y gates go/no-go",
-          "Riesgos y Puntos de Vigilancia — puntuados, clasificados, y mitigados",
-          "Informe de 100+ Páginas + Resumen Ejecutivo Visual (white-labeled)"
+          "Evaluación de Marca y Negocio — product-market fit, arquitectura de precios, posicionamiento",
+          "Inteligencia de Mercado y Categoría — TAM/SAM/SOM, Cinco Fuerzas de Porter, benchmarking competitivo",
+          "Plan Estratégico de Entrada — roadmap faseado con unit economics y puertas de decisión",
+          "Riesgos y Alertas — puntuados, clasificados y mitigados",
+          "Reporte de 100+ Páginas + Resumen Visual Ejecutivo (white-labeled)"
         ],
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Empresarios · Fundadores · Empresarios en Serie",
-        "name": "Idea Validation Analysis",
-        "tagline": "Sepa si su idea tiene un mercado antes de gastar un dólar construyéndola.",
-        "desc": "Complete un formulario de 10 minutos describiendo su idea. La IA de Soundcheck realiza investigación de mercado independiente, analiza la competencia, dimensiona la oportunidad, y estima lo que su cliente objetivo pagaría. Recibe un análisis completo y una Tarjeta de Resumen de una página en 48 horas.",
-        "price": "US$799 por análisis",
-        "delivery": "Entrega en 48 horas después del envío del formulario · Totalmente automatizado",
-        "ctaLabel": "Valide Su Idea →",
+        "for": "Marcas y Agencias de EE.UU. · Inteligencia Estratégica",
+        "name": "Scale Assessment",
+        "tagline": "Crecimiento es lo que te vendieron. Escala es lo que realmente necesitas.",
+        "desc": "Para marcas de consumo del mercado estadounidense en puntos de inflexión estratégica. Responde si estás construido para escalar de forma duradera — y qué necesitas construir primero si no lo estás. Reporte de inteligencia de 7 secciones con Scale Diagnostic propietario, análisis de posición competitiva y un plan faseado de 24 meses.",
+        "price": "US$9,500–$14,500",
+        "delivery": "Entrega en 3–4 semanas · White-label incluido · 2 revisiones",
+        "ctaLabel": "Ver Detalles del Assessment →",
         "deliverables": [
-          "Validación del Problema — ¿es este un problema Tier 1 con demanda real del mercado?",
-          "Dimensionamiento del Mercado — TAM, SAM, SOM para su geografía objetivo",
-          "Realidad Competitiva — quién ya resuelve esto y dónde está el espacio en blanco",
-          "Análisis de Cliente y Disposición a Pagar — quién compraría esto y cuánto pagaría",
-          "Puntuación IVS + Próximos Pasos — Idea Viability Score (0 a 100) y 3 acciones específicas"
+          "Scale Diagnostic — construido para crecer vs. construido para escalar (framework Too Small To Fall)",
+          "Mapa de Oportunidades — oportunidades realistas y durables con presión de timing",
+          "Análisis de Posición Competitiva — evaluación de defensibilidad + arquitectura de precios",
+          "Evaluación de Preparación Operacional — equipo, tecnología y cadena de suministro",
+          "Plan de Escala Faseado — plan secuenciado de 24 meses con puertas go/no-go",
+          "Capa de Inteligencia AI — 90 días de monitoreo de mercado incluidos",
+          "Marco de Riesgos — 6–8 riesgos puntuados por probabilidad × impacto"
         ],
-        "link": "/idea-validation"
+        "link": "/scale-assessment"
       },
       {
         "num": "03",
-        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
-        "name": "Business Plan Development",
-        "tagline": "Un plan de negocio construido para el lector que decide.",
-        "desc": "No es una plantilla. Un plan de negocio profesional y específico para la audiencia construido a partir de datos de intake estructurados, una entrevista con interesados, e investigación independiente. 6 configuraciones: Inversor, Banco/SBA, Inmigración (E-2/EB-5/L-1A), Franquicia, CPG, e Interno del Fundador. Cada afirmación está documentada. Cada proyección está justificada.",
-        "price": "US$5,000+ por plan",
-        "delivery": "Entrega en 10-14 días · White-label incluido · 1 revisión",
-        "ctaLabel": "Ver Detalles Completos del Plan →",
+        "for": "Fundadores · Mana Tech · Etapa Temprana",
+        "name": "Founder Pass",
+        "tagline": "Inteligencia de mercado para fundadores, antes de tener un mercado.",
+        "desc": "Tres productos a precios accesibles para fundadores: Validation Sprint ($750), Brand Brief ($1,500) y Focus Test ($1,500). Entrega más rápida, alcance más ajustado, diseñado para startups de pre-seed hasta Serie A tomando decisiones reales con presupuesto limitado.",
+        "price": "US$750–$1,500 por producto",
+        "delivery": "Entrega en 3–7 días · Términos de Founder Agreement",
+        "ctaLabel": "Ver Detalles del Founder Pass →",
         "deliverables": [
-          "Plan de Negocio Completo — estructura MECE de 10 secciones, formato por audiencia, proyecciones etiquetadas por confianza, datos de mercado y competencia documentados",
-          "Resumen Ejecutivo de Una Página — snapshot del negocio, oportunidad de mercado, highlights financieros, la solicitud específica"
+          "Founder Validation Sprint — sizing de mercado, principales competidores, framework de validación, riesgos clave (5–7 páginas)",
+          "Founder Brand Brief — inteligencia de marca, recomendaciones de posicionamiento, análisis de audiencia (10–15 páginas)",
+          "Founder Focus Test — sesión VFG con 6 personas, 1 tema, entrega en 3 días",
+          "Llamada de kickoff de 30 min + reporte + llamada de revisión de 30 min"
         ],
-        "link": "/business-plan"
+        "link": "/founder-pass"
       },
       {
         "num": "04",
-        "for": "Agencias · Consultorías · Departamentos de Marketing",
+        "for": "Agencias · Marcas · Fundadores",
         "name": "AI Virtual Focus Groups",
-        "desc": "Pruebe conceptos creativos, ideas de productos, precios y posicionamiento con personas generadas por IA que reflejan su audiencia objetivo. Sin reclutamiento. Sin programación. Entregado en días.",
-        "price": "Definición de Persona: US$3k · Sesión de Focus Group: US$2k+",
-        "delivery": "Entrega en 1–7 días · White-label incluido",
-        "ctaLabel": "Brief Este Producto →",
+        "desc": "Prueba conceptos creativos, ideas de producto, pricing y posicionamiento con personas generadas por IA que reflejan tu audiencia objetivo. Sin reclutamiento. Sin agendamiento. Tres niveles desde prueba rápida hasta investigación multi-ola.",
+        "price": "Mini $3,500 · Standard $7,500 · Premium $15,000",
+        "delivery": "Entrega en 3–10 días · White-label incluido",
+        "ctaLabel": "Ver Detalles de VFG →",
         "deliverables": [
-          "3–10 personas AI personalizadas basadas en demografía objetivo exacta",
-          "Transcript de discusión moderada — sin sesgo de voz más fuerte",
-          "Resumen ejecutivo con hallazgos clave y recomendaciones",
-          "Reacciones específicas de la persona — apoyo para decisiones a nivel de segmento",
-          "Panel de persona reutilizable — despliegue nuevamente para futuras sesiones"
+          "VFG Mini — 6 personas, 1 tema, entrega en 3–5 días",
+          "VFG Standard — 12 personas, 3 temas, entrega en 5–7 días",
+          "VFG Premium — 20 personas, prueba multi-ola, entrega en 7–10 días",
+          "100 solicitudes de feedback incluidas por sesión",
+          "Reporte con marca + análisis de sentimiento + framework de recomendaciones"
         ],
         "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
-        "for": "Servicios B2B · Marcas CPG · Mercado de EE.UU.",
-        "name": "US Growth Roadmap",
-        "tagline": "Usted está vendiendo. No está creciendo. Ese es un problema que se puede solucionar.",
-        "desc": "Para empresas de servicios B2B y marcas CPG que se han estancado en el mercado estadounidense. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión, y plan de acción de 90 días. GPS Score propietario (0 a 100) entre Oportunidad de Mercado, Posición Competitiva, y Preparación Interna.",
-        "price": "US$5,000+ por informe",
-        "delivery": "Entrega en 14 días · White-label incluido · 1 revisión",
-        "ctaLabel": "Ver Detalles Completos del Informe →",
+        "for": "VCs · Firmas de PE · Family Offices · Sindicatos de Ángeles",
+        "name": "Investor Opportunity Vetting",
+        "desc": "Infraestructura de vetting independiente para inversores que manejan pipeline a escala. Dos entrevistas estructuradas — equipo fundador + cliente real. Investigación independiente que detecta contradicciones y entrega un veredicto ADVANCE / CONDITIONAL / STOP con evidencia.",
+        "price": "US$1,500–$2,500 por análisis · Suscripciones desde $2,500/mes",
+        "delivery": "Entrega en 7 días · Descuentos por volumen · Suscripción disponible",
+        "ctaLabel": "Ver Detalles de Investor Vetting →",
         "deliverables": [
-          "Informe de Crecimiento Profundo — 40-60+ páginas, estructura DMAIC de 8 secciones, GPS Score, palancas de crecimiento clasificadas, plan de acción de 90 días",
-          "Presentación Ejecutiva & Sesión de Preguntas — presentación visual condensada para liderazgo con walkthrough en vivo",
-          "Hoja de Acción de Una Página — acciones específicas y asignadas para la primera semana con una métrica de éxito para el Día 30"
+          "Reporte de Inteligencia Completo — registro de evidencia de 10 secciones con log de contradicciones",
+          "Signal Brief — veredicto de una página ADVANCE / CONDITIONAL / STOP",
+          "Niveles de suscripción: Starter ($2,500/mes), Professional ($7,500/mes), Enterprise ($15,000/mes)",
+          "Acceso a plataforma self-serve para suscriptores"
         ],
-        "link": "/growth-roadmap"
-      },
-      {
-        "num": "06",
-        "for": "Firmas de Capital de Riesgo · Equity de Crecimiento · Sindicatos de Ángeles · Corporate Venture",
-        "name": "Funding Vetting Analysis",
-        "desc": "Dos entrevistas estructuradas — una con el equipo fundador, una con un cliente real. Soundcheck realiza investigación independiente, detecta contradicciones entre ambas entrevistas, y entrega un veredicto de una página AVANZAR / CONDICIONAL / DETENER con la evidencia detrás. Sepa qué empresas merecen el tiempo de su equipo antes de invertirlo.",
-        "price": "US$3,000 por empresa",
-        "delivery": "Entrega en 7 días desde entrevistas completadas · Descuentos por volumen disponibles",
-        "ctaLabel": "Vea Cómo Funciona →",
-        "deliverables": [
-          "Informe de Inteligencia Completa — registro de evidencia de 10 secciones de ambas entrevistas con log de contradicciones",
-          "Resumen de Señales — veredicto de una página AVANZAR / CONDICIONAL / DETENER con evidencia documentada"
-        ],
-        "link": "/for-investors"
+        "link": "/investor-vetting"
       }
     ]
   },
@@ -790,74 +772,74 @@
     "preferTalk": "¿Prefiere hablar primero?",
     "reachOut": "Comuníquese directamente o conéctese en LinkedIn.",
     "commercialRules": {
-      "label": "Commercial Engagement Rules",
-      "title": "Transparent partnership economics.\nNo surprises.",
-      "subtitle": "All revenue splits apply to net revenue (gross billing minus direct out-of-pocket project costs). One invoice to the client. Simple terms.",
+      "label": "Reglas de Participación Comercial",
+      "title": "Economía de colaboración transparente.\nSin sorpresas.",
+      "subtitle": "Todos los porcentajes de ingresos se aplican a ingresos netos (facturación bruta menos costos directos del proyecto). Una factura al cliente. Términos simples.",
       "rules": [
         {
           "rule": "Rule 1A",
-          "scenario": "Passive Warm Intro",
-          "desc": "Referrer sends warm introduction email. No further involvement.",
+          "scenario": "Introducción Pasiva",
+          "desc": "El referidor envía un correo de presentación. Sin participación adicional.",
           "soundcheck": "85%",
           "partner": "15%"
         },
         {
           "rule": "Rule 1B",
-          "scenario": "Active Referrer",
-          "desc": "Referrer makes warm intro, vouches for Soundcheck, attends first call, helps positioning.",
+          "scenario": "Referidor Activo",
+          "desc": "El referidor hace la presentación, respalda a Soundcheck, asiste a la primera llamada, ayuda con el posicionamiento.",
           "soundcheck": "75%",
           "partner": "25%"
         },
         {
           "rule": "Rule 2A",
-          "scenario": "Partnership Light",
-          "desc": "Partner brings client, owns relationship, manages communication. Soundcheck delivers the analytical work.",
+          "scenario": "Colaboración Ligera",
+          "desc": "El socio trae al cliente, mantiene la relación, gestiona la comunicación. Soundcheck entrega el trabajo analítico.",
           "soundcheck": "60%",
           "partner": "40%"
         },
         {
           "rule": "Rule 2B",
-          "scenario": "True Partnership",
-          "desc": "Both parties co-deliver — joint workshops, joint presentations, joint analysis.",
+          "scenario": "Verdadera Colaboración",
+          "desc": "Ambas partes co-entregan — talleres conjuntos, presentaciones conjuntas, análisis conjunto.",
           "soundcheck": "50%",
           "partner": "50%"
         },
         {
           "rule": "Rule 3",
-          "scenario": "White-Label Platform",
-          "desc": "Agency uses Soundcheck platform to deliver to their own clients. Setup fee + platform fee per engagement.",
-          "soundcheck": "40% of MSRP",
-          "partner": "60% of MSRP + upcharge"
+          "scenario": "Plataforma White-Label",
+          "desc": "La agencia utiliza la plataforma Soundcheck para entregar a sus propios clientes. Cuota de configuración + cuota de plataforma por engagement.",
+          "soundcheck": "40% de MSRP",
+          "partner": "60% de MSRP + sobreprecio"
         },
         {
           "rule": "Rule 3 (Founding)",
-          "scenario": "White-Label — Founding Partners",
-          "desc": "First 2 white-label partners, year 1 only. In exchange for case study rights and reference status.",
-          "soundcheck": "30% of MSRP",
-          "partner": "70% of MSRP + upcharge"
+          "scenario": "White-Label — Socios Fundadores",
+          "desc": "Primeros 2 socios white-label, solo en el año 1. A cambio de derechos de caso de estudio y estatus de referencia.",
+          "soundcheck": "30% de MSRP",
+          "partner": "70% de MSRP + sobreprecio"
         },
         {
           "rule": "Rule 4",
-          "scenario": "Direct Sales",
-          "desc": "Soundcheck sources, sells, and delivers. The baseline against which all other splits are measured.",
+          "scenario": "Ventas Directas",
+          "desc": "Soundcheck identifica, vende y entrega. La línea base contra la cual se miden todos los demás porcentajes.",
           "soundcheck": "100%",
           "partner": "0%"
         }
       ],
       "setupFees": {
-        "title": "White-Label Setup",
-        "reports": "$5,000 one-time (Reports)",
-        "vfg": "$10,000 one-time (Virtual Focus Groups)",
-        "minimum": "$25,000 annual minimum commitment",
-        "term": "2-year minimum, then annual renewals",
-        "termination": "Either party with 60-day notice at year-end"
+        "title": "Configuración White-Label",
+        "reports": "$5,000 única (Reportes)",
+        "vfg": "$10,000 única (Grupos de Enfoque Virtual)",
+        "minimum": "$25,000 compromiso anual mínimo",
+        "term": "Mínimo 2 años, después renovaciones anuales",
+        "termination": "Ambas partes con aviso de 60 días al cierre del año"
       },
       "principles": [
-        "All revenue splits are on net revenue — direct costs come off the top before any split.",
-        "Single invoicing is mandatory — one party bills the client, pays the other Net 30.",
-        "Pricing is tiered by buyer market, not by relationship sentiment.",
-        "Free engagements are off-limits. The floor is $750.",
-        "Manual validation precedes product investment — sell first, build second."
+        "Todos los porcentajes de ingresos se aplican a ingresos netos — los costos directos se deducen primero antes de cualquier porcentaje.",
+        "La facturación única es obligatoria — una parte factura al cliente, paga a la otra Net 30.",
+        "Los precios están escalonados por mercado del cliente, no por sentimiento de relación.",
+        "Los engagements gratuitos están prohibidos. El piso es $750.",
+        "La validación manual precede a la inversión en productos — vende primero, construye después."
       ]
     }
   },
@@ -1462,9 +1444,9 @@
     "ctaLink": "O explore todos los productos de investigación →"
   },
   "expansionReport": {
-    "heroLabel": "Análisis Profundo de Productos · Expansión Internacional",
-    "heroTitle": "Reduce la Incertidumbre de tu Expansión Internacional",
-    "heroSub": "El Informe de Viabilidad de Expansión Internacional de Soundcheck responde la pregunta que todas las marcas se hacen antes de entrar a un nuevo mercado: ¿es real, y si es así, cómo lo hacemos? No es un volcado de datos. Es un documento de nivel estratégico con evidencia verificada, una puntuación de viabilidad propietaria, tres caminos estratégicos, y una hoja de ruta de 12 meses que tu equipo puede ejecutar desde el Día 1.",
+    "heroLabel": "Producto en Detalle · Análisis de Viabilidad Internacional",
+    "heroTitle": "Antes de Invertir en la Expansión, Sepa a Qué Se Enfrenta",
+    "heroSub": "El Análisis de Viabilidad Internacional está diseñado para marcas brasileñas y latinoamericanas que evalúan la expansión de mercado — generalmente hacia EE.UU., pero también hacia otros mercados internacionales. No es un volcado de datos. Es un documento de grado decisional con evidencia documentada, un CVE Score propietario, caminos estratégicos y una hoja de ruta por fases que su equipo puede ejecutar desde el Día 1.",
     "briefButton": "Proponer este Informe →",
     "seeInsideButton": "Ver qué Incluye →",
     "heroStats": [
@@ -1474,22 +1456,22 @@
         "sub": "investigación verificada y estrategia"
       },
       {
-        "num": "14",
-        "label": "DÍAS",
-        "sub": "desde el inicio hasta la entrega"
+        "num": "2–3",
+        "label": "SEMANAS",
+        "sub": "desde la firma del compromiso hasta la entrega"
       },
       {
-        "num": "US$5k+",
+        "num": "US$5,000",
         "label": "",
-        "sub": "white-label incluido"
+        "sub": "white-label incluido · 2 revisiones"
       }
     ],
     "whoLabel": "Construido para decisiones reales",
     "whoTitle": "Quién encarga este informe.",
     "whoCards": [
       {
-        "title": "Marcas internacionales",
-        "text": "Empresas establecidas de América, Europa o Asia que evalúan la entrada a un nuevo mercado. Tienes producto, ingresos y canales en casa. Necesitas saber si el nuevo mercado es real antes de invertir."
+        "title": "Marcas brasileñas y latinas",
+        "text": "Empresas establecidas de Brasil y Latinoamérica evaluando la entrada a EE.UU. u otros mercados internacionales. Tienen producto, ingresos y canales en casa. Necesitan saber si el nuevo mercado es real antes de comprometerse."
       },
       {
         "title": "Agencias y consultorías",
@@ -2531,196 +2513,196 @@
     "ctaButton": "Solicite una evaluación →"
   },
   "scaleAssessment": {
-    "heroLabel": "Product Deep-Dive · Scale Assessment",
-    "heroTitle": "Growth is what they sold you.\nScale is what you actually need.",
-    "heroSub": "The Scale Assessment is built for US-market consumer brands at strategic inflection points. It answers a different question than most market intelligence: not where can you grow, but whether you are built to scale durably — and what you need to build first if you are not.",
-    "briefButton": "Brief This Assessment →",
-    "seeInside": "See What's Inside ↓",
+    "heroLabel": "Análisis Profundo de Producto · Scale Assessment",
+    "heroTitle": "Crecimiento es lo que te vendieron.\nEscala es lo que realmente necesitas.",
+    "heroSub": "El Scale Assessment está diseñado para marcas de consumidor del mercado estadounidense en puntos de inflexión estratégica. Responde una pregunta distinta a la mayoría de inteligencia de mercado: no dónde puedes crecer, sino si estás construido para escalar de forma duradera — y qué necesitas construir primero si no lo estás.",
+    "briefButton": "Solicitar Este Assessment →",
+    "seeInside": "Ver Qué Incluye ↓",
     "heroStats": [
       {
         "num": "3–4",
-        "label": "WEEKS",
-        "sub": "from signed engagement to delivery"
+        "label": "SEMANAS",
+        "sub": "desde contrato firmado hasta entrega"
       },
       {
         "num": "US$9.5k–$14.5k",
         "label": "",
-        "sub": "fixed price, no hourly billing"
+        "sub": "precio fijo, sin facturación por horas"
       },
       {
         "num": "24",
-        "label": "MONTHS",
-        "sub": "phased scale plan with go/no-go gates"
+        "label": "MESES",
+        "sub": "plan de escala en fases con puertas de decisión"
       }
     ],
-    "positionLabel": "The Difference",
-    "positionTitle": "Growth vs. Scale. They are not the same question.",
-    "positionSub": "Most market intelligence answers where can I grow? The Scale Assessment answers should I grow, and how do I scale durably? The latter is far more valuable to senior buyers making decisions that affect the next 2–5 years.",
-    "growthLabel": "GROWTH",
-    "growthQuestion": "Where can I sell more?",
-    "growthDesc": "Tactical. Channel-focused. Revenue-obsessed. Often leads to overextension, margin erosion, and operational fragility.",
-    "scaleLabel": "SCALE",
-    "scaleQuestion": "Am I built to sustain and compound?",
-    "scaleDesc": "Structural. Diagnostic. Identifies what must be true operationally before expansion is durable. Informed by the Too Small To Fall framework.",
-    "whoLabel": "Who commissions this",
-    "whoTitle": "Built for brands at inflection points.",
-    "whoSub": "US-market consumer brands (typically $10M–$250M revenue) evaluating expansion, category extension, or strategic moves. Brands entering the US from elsewhere. Mid-market companies facing decisions that will define the next 3–5 years.",
+    "positionLabel": "La Diferencia",
+    "positionTitle": "Crecimiento vs. Escala. No son la misma pregunta.",
+    "positionSub": "La mayoría de inteligencia de mercado responde ¿dónde puedo crecer? El Scale Assessment responde ¿debo crecer, y cómo escalo de forma duradera? Lo último es mucho más valioso para tomadores de decisiones senior que afectan los próximos 2–5 años.",
+    "growthLabel": "CRECIMIENTO",
+    "growthQuestion": "¿Dónde puedo vender más?",
+    "growthDesc": "Táctico. Enfocado en canales. Obsesionado con ingresos. A menudo lleva a sobreextensión, erosión de márgenes y fragilidad operacional.",
+    "scaleLabel": "ESCALA",
+    "scaleQuestion": "¿Estoy construido para sostener y componer?",
+    "scaleDesc": "Estructural. Diagnóstico. Identifica qué debe ser verdad operacionalmente antes de que la expansión sea duradera. Informado por el marco Too Small To Fall.",
+    "whoLabel": "Quién encarga esto",
+    "whoTitle": "Diseñado para marcas en puntos de inflexión.",
+    "whoSub": "Marcas de consumidor del mercado estadounidense (típicamente $10M–$250M en ingresos) evaluando expansión, extensión de categoría, o movimientos estratégicos. Marcas que entran a EE.UU. desde otros lugares. Empresas de mid-market enfrentando decisiones que definirán los próximos 3–5 años.",
     "whoCards": [
       {
-        "title": "US consumer brands",
-        "desc": "Established companies evaluating category extension, geographic expansion, or channel diversification. You have revenue and product-market fit. You need to know if the infrastructure supports the ambition."
+        "title": "Marcas de consumidor estadounidenses",
+        "desc": "Empresas establecidas evaluando extensión de categoría, expansión geográfica, o diversificación de canales. Tienes ingresos y product-market fit. Necesitas saber si la infraestructura respalda la ambición."
       },
       {
-        "title": "Brands entering the US",
-        "desc": "International brands entering the US market who need to understand not just the opportunity, but whether their operational model can scale in a new environment."
+        "title": "Marcas que entran a EE.UU.",
+        "desc": "Marcas internacionales que entran al mercado estadounidense que necesitan entender no solo la oportunidad, sino si su modelo operacional puede escalar en un nuevo entorno."
       },
       {
-        "title": "Agencies (white-label)",
-        "desc": "Your client is asking about scaling. You need a research-grade deliverable that goes beyond growth tactics. White-label version ships ready for your client's leadership team."
+        "title": "Agencias (white-label)",
+        "desc": "Tu cliente pregunta sobre escala. Necesitas un entregable de grado de investigación que vaya más allá de tácticas de crecimiento. La versión white-label se entrega lista para el equipo de liderazgo de tu cliente."
       }
     ],
-    "insideLabel": "7 sections. Every claim sourced.",
-    "insideTitle": "What the assessment delivers.",
-    "insideSub": "Each section answers a specific strategic question. The report is designed to be read top-to-bottom or used section-by-section as leadership needs specific answers.",
+    "insideLabel": "7 secciones. Cada afirmación documentada.",
+    "insideTitle": "Qué entrega el assessment.",
+    "insideSub": "Cada sección responde una pregunta estratégica específica. El reporte está diseñado para leerse de arriba a abajo o usarse sección por sección según las necesidades específicas de liderazgo.",
     "sections": [
       {
         "num": "1",
-        "title": "Scale Diagnostic",
-        "sub": "Is the brand built to scale, or built to grow?",
+        "title": "Diagnóstico de Escala",
+        "sub": "¿La marca está construida para escalar, o construida para crecer?",
         "items": [
-          "Structural assessment using the Too Small To Fall framework.",
-          "Identifies whether current operations, margins, and team can sustain 2–3× volume.",
-          "Flags the specific gaps between growth capability and scale readiness."
+          "Evaluación estructural usando el marco Too Small To Fall.",
+          "Identifica si las operaciones, márgenes y equipo actuales pueden sostener 2–3× volumen.",
+          "Señala las brechas específicas entre capacidad de crecimiento y preparación para escala."
         ]
       },
       {
         "num": "2",
-        "title": "Market Opportunity Map",
-        "sub": "Where the realistic, durable opportunities are.",
+        "title": "Mapa de Oportunidad de Mercado",
+        "sub": "Dónde están las oportunidades realistas y duraderas.",
         "items": [
-          "TAM/SAM/SOM with dual-approach sizing.",
-          "Whitespace analysis: genuine gaps vs. crowded segments.",
-          "Timing pressure assessment: when the window opens and closes."
+          "TAM/SAM/SOM con enfoque de doble aproximación.",
+          "Análisis de whitespace: brechas genuinas vs. segmentos saturados.",
+          "Evaluación de presión de tiempo: cuándo se abre y cierra la ventana."
         ]
       },
       {
         "num": "3",
-        "title": "Competitive Position Analysis",
-        "sub": "What is defensible — and what is not.",
+        "title": "Análisis de Posición Competitiva",
+        "sub": "Qué es defendible — y qué no.",
         "items": [
-          "6–10 competitive benchmarks with threat levels.",
-          "Defensibility assessment: what the brand owns vs. what can be replicated.",
-          "Pricing architecture relative to competitive set."
+          "6–10 benchmarks competitivos con niveles de amenaza.",
+          "Evaluación de defensa: qué la marca posee vs. qué puede ser replicado.",
+          "Arquitectura de precios relativa al conjunto competitivo."
         ]
       },
       {
         "num": "4",
-        "title": "Operational Readiness Assessment",
-        "sub": "What needs to be built before scale is possible.",
+        "title": "Evaluación de Preparación Operacional",
+        "sub": "Qué necesita ser construido antes de que la escala sea posible.",
         "items": [
-          "Team structure, capabilities, and capacity gaps.",
-          "Technology and infrastructure readiness scoring.",
-          "Supply chain, fulfillment, and operational bottleneck identification."
+          "Estructura del equipo, capacidades y brechas de capacidad.",
+          "Puntuación de preparación de tecnología e infraestructura.",
+          "Identificación de cadena de suministro, cumplimiento y cuellos de botella operacionales."
         ]
       },
       {
         "num": "5",
-        "title": "Phased Scale Plan",
-        "sub": "Sequenced 24-month plan with decision gates.",
+        "title": "Plan de Escala en Fases",
+        "sub": "Plan de 24 meses secuenciado con puertas de decisión.",
         "items": [
-          "Three phases (Now, Next, Later) with specific milestones.",
-          "Go/no-go gates at each phase transition.",
-          "Investment requirements, expected outcomes, and key risks per phase."
+          "Tres fases (Ahora, Próximo, Después) con hitos específicos.",
+          "Puertas de decisión go/no-go en cada transición de fase.",
+          "Requerimientos de inversión, resultados esperados y riesgos clave por fase."
         ]
       },
       {
         "num": "6",
-        "title": "AI-Augmented Intelligence Layer",
-        "sub": "90 days of market monitoring included.",
+        "title": "Capa de Inteligencia Augmentada con IA",
+        "sub": "90 días de monitoreo de mercado incluidos.",
         "items": [
-          "Real-time market signals and social listening synthesis.",
-          "Competitor monitoring and movement alerts.",
-          "Category trend tracking calibrated to your specific segment."
+          "Síntesis de señales de mercado en tiempo real y social listening.",
+          "Monitoreo de competidores y alertas de movimiento.",
+          "Seguimiento de tendencias de categoría calibrado a tu segmento específico."
         ]
       },
       {
         "num": "7",
-        "title": "Risk Frame",
-        "sub": "What could break the brand at scale.",
+        "title": "Marco de Riesgo",
+        "sub": "Qué podría romper la marca a escala.",
         "items": [
-          "6–8 risks scored by probability × impact.",
-          "Early warning indicators for each risk.",
-          "Mitigation strategies and contingency plans."
+          "6–8 riesgos puntuados por probabilidad × impacto.",
+          "Indicadores de alerta temprana para cada riesgo.",
+          "Estrategias de mitigación y planes de contingencia."
         ]
       }
     ],
-    "delivLabel": "What you receive",
-    "delivTitle": "The full delivery package.",
+    "delivLabel": "Qué recibes",
+    "delivTitle": "El paquete de entrega completo.",
     "deliverables": [
       {
-        "title": "Strategic Intelligence Report",
-        "desc": "Full report covering all 7 sections. Professional branded PDF, white-labeled under your brand. Every claim sourced."
+        "title": "Reporte de Inteligencia Estratégica",
+        "desc": "Reporte completo cubriendo las 7 secciones. PDF profesional marcado, white-labeled bajo tu marca. Cada afirmación documentada."
       },
       {
-        "title": "Executive Summary Deck",
-        "desc": "Condensed visual presentation for leadership. Key findings, scale diagnostic result, competitive position, and recommended path."
+        "title": "Deck de Resumen Ejecutivo",
+        "desc": "Presentación visual condensada para liderazgo. Hallazgos clave, resultado del diagnóstico de escala, posición competitiva, y ruta recomendada."
       },
       {
-        "title": "2-Hour Strategy Session",
-        "desc": "Live working session with your leadership team. Walk through findings, challenge assumptions, align on next steps."
+        "title": "Sesión de Estrategia de 2 Horas",
+        "desc": "Sesión de trabajo en vivo con tu equipo de liderazgo. Repasa hallazgos, cuestiona supuestos, alinéate en próximos pasos."
       }
     ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Premium positioning.",
+    "pricingLabel": "Precios y entrega",
+    "pricingTitle": "Alcance fijo. Posicionamiento premium.",
     "price": "US$9,500–$14,500",
-    "priceSubtitle": "per assessment",
+    "priceSubtitle": "por assessment",
     "pricingDetails": [
       {
-        "title": "3–4 week delivery",
-        "sub": "From signed engagement to final report"
+        "title": "Entrega de 3–4 semanas",
+        "sub": "Desde contrato firmado hasta reporte final"
       },
       {
-        "title": "White-label included",
-        "sub": "Delivered under your brand"
+        "title": "White-label incluido",
+        "sub": "Entregado bajo tu marca"
       },
       {
-        "title": "2 revision rounds",
-        "sub": "Included in the base price"
+        "title": "2 rondas de revisión",
+        "sub": "Incluidas en el precio base"
       }
     ],
-    "introLabel": "Introductory Pricing",
-    "introTitle": "Founding customer rate available.",
-    "introSub": "The first 5–10 customers receive the assessment at $9,500 (vs. $14,500 standard) in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
+    "introLabel": "Precios Introductorios",
+    "introTitle": "Tarifa de cliente fundador disponible.",
+    "introSub": "Los primeros 5–10 clientes reciben el assessment a $9,500 (vs. $14,500 estándar) a cambio de: testimonio escrito dentro de 30 días, derechos de caso de estudio público, y estatus de cliente de referencia.",
+    "faqLabel": "Preguntas comunes",
+    "faqTitle": "Respuestas directas.",
     "faqs": [
       {
-        "q": "How is this different from a growth strategy engagement?",
-        "a": "Growth strategy tells you where to sell more. Scale Assessment tells you whether your operations, margins, and team can sustain 2–3× volume without breaking. It is a diagnostic before a prescription. Most brands that stall did not lack opportunities — they lacked the infrastructure to capture them durably."
+        "q": "¿En qué se diferencia esto de un engagement de estrategia de crecimiento?",
+        "a": "La estrategia de crecimiento te dice dónde vender más. El Scale Assessment te dice si tus operaciones, márgenes y equipo pueden sostener 2–3× volumen sin romperse. Es un diagnóstico antes de una prescripción. La mayoría de marcas que se estancan no carecían de oportunidades — carecían de la infraestructura para capturarlas de forma duradera."
       },
       {
-        "q": "What information do you need to start?",
-        "a": "We send a structured intake covering your product lines, revenue and channel mix, team structure, current growth challenges, and strategic ambitions. Most clients complete it in 45–60 minutes. We follow up with a 2-hour stakeholder interview with leadership."
+        "q": "¿Qué información necesitas para empezar?",
+        "a": "Enviamos un intake estructurado cubriendo tus líneas de productos, mezcla de ingresos y canales, estructura del equipo, desafíos de crecimiento actuales, y ambiciones estratégicas. La mayoría de clientes lo completan en 45–60 minutos. Seguimos con una entrevista de stakeholder de 2 horas con liderazgo."
       },
       {
-        "q": "Can our agency white-label this?",
-        "a": "Yes. The report ships ready for white-label delivery under your brand. Your client never sees Soundcheck unless you want them to. This is the default for agencies and consultancies."
+        "q": "¿Pueden nuestros white-label esto nuestra agencia?",
+        "a": "Sí. El reporte se entrega listo para entrega white-label bajo tu marca. Tu cliente nunca ve Soundcheck a menos que quieras que vea. Esto es lo predeterminado para agencias y consultoría."
       },
       {
-        "q": "What does the AI-Augmented Intelligence Layer include?",
-        "a": "90 days of automated market monitoring after report delivery: competitor movements, category signals, social listening synthesis, and pricing shifts relevant to your segment. Delivered as a monthly digest plus real-time alerts for material changes."
+        "q": "¿Qué incluye la Capa de Inteligencia Augmentada con IA?",
+        "a": "90 días de monitoreo de mercado automatizado después de la entrega del reporte: movimientos de competidores, señales de categoría, síntesis de social listening, y cambios de precios relevantes a tu segmento. Entregado como un digest mensual más alertas en tiempo real para cambios materiales."
       },
       {
-        "q": "What sources do you use?",
-        "a": "Primary and official sources preferred: IRI/NIQ, Euromonitor, Census, IBISWorld, brand filings, retailer data, and industry reports. When official data is unavailable, we use proxies and log them with confidence levels."
+        "q": "¿Qué fuentes usas?",
+        "a": "Fuentes primarias y oficiales preferidas: IRI/NIQ, Euromonitor, Censo, IBISWorld, presentaciones de marca, datos de minoristas, e informes de industria. Cuando datos oficiales no están disponibles, usamos proxies y los registramos con niveles de confianza."
       },
       {
-        "q": "What is the Too Small To Fall framework?",
-        "a": "Too Small To Fall is the thesis from Valter Klug's book: durable, lean, AI-augmented businesses outlast competitors who chase growth at all costs. The Scale Assessment operationalizes that thesis — identifying whether a brand is structurally built for sustainable scale or just built for revenue growth."
+        "q": "¿Cuál es el marco Too Small To Fall?",
+        "a": "Too Small To Fall es la tesis del libro de Valter Klug: negocios duraderos, ágiles, augmentados con IA superan competidores que persiguen crecimiento a toda costa. El Scale Assessment operacionaliza esa tesis — identificando si una marca está estructuralmente construida para escala sostenible o solo construida para crecimiento de ingresos."
       }
     ],
-    "ctaTitle": "Built to grow is not the same as built to scale.",
-    "ctaButton": "Brief This Assessment →",
-    "ctaLink": "Or explore all products →"
+    "ctaTitle": "Construido para crecer no es lo mismo que construido para escalar.",
+    "ctaButton": "Solicitar Este Assessment →",
+    "ctaLink": "O explora todos los productos →"
   }
 }

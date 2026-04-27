@@ -102,51 +102,43 @@
     "products": [
       {
         "num": "01",
-        "for": "International Brands · Market Entry",
-        "name": "International Expansion Viability Report",
-        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages.",
-        "delivery": "14-day delivery · White-label included",
+        "for": "Brazilian & LatAm Brands · Market Entry",
+        "name": "International Viability Analysis",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. 100+ pages.",
+        "delivery": "2–3 week delivery · White-label included",
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Entrepreneurs · Founders · Serial Entrepreneurs",
-        "name": "Idea Validation Analysis",
-        "desc": "Fill a 10-minute form. Get a full market validation report + IVS score (0 to 100) in 48 hours. US$799. No calls, no scheduling.",
-        "delivery": "48-hour delivery · Fully automated",
-        "link": "/idea-validation"
+        "for": "US Brands & Agencies · Strategic Intelligence",
+        "name": "Scale Assessment",
+        "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
+        "delivery": "3–4 week delivery · White-label included",
+        "link": "/scale-assessment"
       },
       {
         "num": "03",
-        "for": "Entrepreneurs · Investors · Immigration Applicants",
-        "name": "Business Plan Development",
-        "desc": "Audience-specific business plans for investors, banks, immigration attorneys, and founders. 6 configurations. 10-section structure. Every claim sourced.",
-        "delivery": "10-14 day delivery · White-label included",
-        "link": "/business-plan"
+        "for": "Founders · Mana Tech · Early-Stage",
+        "name": "Founder Pass",
+        "desc": "Three founder-priced products: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Fast delivery, tight scope, real decisions.",
+        "delivery": "3–7 day delivery",
+        "link": "/founder-pass"
       },
       {
         "num": "04",
-        "for": "Agencies · Consultancies · Marketing Depts",
+        "for": "Agencies · Brands · Founders",
         "name": "AI Virtual Focus Groups",
-        "desc": "AI-generated persona panels that mirror your client's exact target audience. No recruiting. No scheduling.",
-        "delivery": "1–7 day delivery · White-label included",
+        "desc": "Test concepts, positioning, and pricing with AI personas. Three tiers from quick-test to multi-wave research. No recruiting, no scheduling.",
+        "delivery": "3–10 day delivery · White-label included",
         "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
-        "for": "B2B Services · CPG Brands · US Market",
-        "name": "US Growth Roadmap",
-        "desc": "Market analysis, competitive intelligence, ranked growth levers with investment estimates, and a 90-day action plan. GPS Score (0 to 100).",
-        "delivery": "14-day delivery · White-label included",
-        "link": "/growth-roadmap"
-      },
-      {
-        "num": "06",
-        "for": "Venture Capital Firms · Investors",
-        "name": "Funding Vetting Analysis",
-        "desc": "Two structured interviews, independent customer validation, and a Signal Brief with an ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.",
-        "delivery": "7-day delivery · Volume discounts available",
-        "link": "/for-investors"
+        "for": "VCs · PE · Family Offices · Angels",
+        "name": "Investor Opportunity Vetting",
+        "desc": "Independent vetting with ADVANCE / CONDITIONAL / STOP verdicts. Two interviews, independent research, contradiction analysis.",
+        "delivery": "7-day delivery · Subscriptions available",
+        "link": "/investor-vetting"
       }
     ],
     "viewAllProducts": "View All Products →",
@@ -461,18 +453,18 @@
     "items": [
       {
         "num": "01",
-        "for": "International Brands · Market Entry",
-        "name": "International Expansion Viability Report",
-        "desc": "Decision-grade market entry intelligence for international brands. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages, white-labeled, in 14 days.",
-        "price": "Suggested price: US$5k+",
-        "delivery": "14-day delivery · White-label included · 1 revision",
+        "for": "Brazilian & LatAm Brands · Market Entry",
+        "name": "International Viability Analysis",
+        "desc": "Decision-grade market entry intelligence for Brazilian and Latin American brands expanding internationally. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a phased roadmap. White-labeled, delivered in 2–3 weeks.",
+        "price": "US$5,000",
+        "delivery": "2–3 week delivery · White-label included · 2 revisions",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
           "CVE Score (Coefficient of Viability of Expansion) — 3-dimension weighted scoring (0 to 100)",
           "Executive Summary — 5 critical insights + 3 strategic paths with recommended entry mode",
           "Business & Brand Assessment — product-market fit, pricing architecture, positioning",
-          "Market & Category Intelligence — TAM/SAM/SOM, Porter's Five Forces, competitive benchmarking, buyer landscape",
-          "Strategic Entry & Growth Plan — 12-month roadmap with unit economics and go/no-go gates",
+          "Market & Category Intelligence — TAM/SAM/SOM, Porter's Five Forces, competitive benchmarking",
+          "Strategic Entry & Growth Plan — phased roadmap with unit economics and go/no-go gates",
           "Risks & Watchpoints — scored, ranked, and mitigated",
           "100+ Page Report + Visual Executive Summary (white-labeled)"
         ],
@@ -480,83 +472,73 @@
       },
       {
         "num": "02",
-        "for": "Entrepreneurs · Founders · Serial Entrepreneurs",
-        "name": "Idea Validation Analysis",
-        "tagline": "Know if your idea has a market before you spend a dollar building it.",
-        "desc": "Fill out a 10-minute form describing your idea. Soundcheck's AI runs independent market research, analyzes the competition, sizes the opportunity, and estimates what your target customer would pay. You receive a full analysis and a one-page Summary Card in 48 hours.",
-        "price": "US$799 per analysis",
-        "delivery": "48-hour delivery after form submission · Fully automated",
-        "ctaLabel": "Validate Your Idea →",
+        "for": "US Brands & Agencies · Strategic Intelligence",
+        "name": "Scale Assessment",
+        "tagline": "Growth is what they sold you. Scale is what you actually need.",
+        "desc": "For US-market consumer brands at strategic inflection points. Answers whether you are built to scale durably — and what you need to build first if you are not. 7-section intelligence report with proprietary Scale Diagnostic, competitive position analysis, and a phased 24-month plan.",
+        "price": "US$9,500–$14,500",
+        "delivery": "3–4 week delivery · White-label included · 2 revisions",
+        "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
-          "Problem Validation — is this a Tier 1 problem with real market demand?",
-          "Market Sizing — TAM, SAM, SOM for your target geography",
-          "Competition Reality Check — who already solves this and where the whitespace is",
-          "Customer & WTP Analysis — who would buy this and how much they'd pay",
-          "IVS Score + Next Steps — Idea Viability Score (0 to 100) and 3 specific actions"
+          "Scale Diagnostic — built to grow vs. built to scale (Too Small To Fall framework)",
+          "Market Opportunity Map — realistic, durable opportunities with timing pressure",
+          "Competitive Position Analysis — defensibility assessment + pricing architecture",
+          "Operational Readiness Assessment — team, tech, and supply chain scoring",
+          "Phased Scale Plan — 24-month sequenced plan with go/no-go gates",
+          "AI-Augmented Intelligence Layer — 90 days of market monitoring included",
+          "Risk Frame — 6–8 risks scored by probability × impact"
         ],
-        "link": "/idea-validation"
+        "link": "/scale-assessment"
       },
       {
         "num": "03",
-        "for": "Entrepreneurs · Investors · Immigration Applicants",
-        "name": "Business Plan Development",
-        "tagline": "A business plan built for the reader who decides.",
-        "desc": "Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder's Internal. Every claim sourced. Every projection documented.",
-        "price": "US$5,000+ per plan",
-        "delivery": "10-14 day delivery · White-label included · 1 revision",
-        "ctaLabel": "See Full Plan Details →",
+        "for": "Founders · Mana Tech · Early-Stage",
+        "name": "Founder Pass",
+        "tagline": "Founder-grade market intelligence, before you have a market.",
+        "desc": "Three products at founder-friendly pricing: Validation Sprint ($750), Brand Brief ($1,500), and Focus Test ($1,500). Faster turnaround, tighter scope, designed for pre-seed through Series A startups making real decisions with limited budget.",
+        "price": "US$750–$1,500 per product",
+        "delivery": "3–7 day delivery · Founder Agreement terms",
+        "ctaLabel": "See Founder Pass Details →",
         "deliverables": [
-          "Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data",
-          "Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask"
+          "Founder Validation Sprint — market sizing, top competitors, validation framework, key risks (5–7 pages)",
+          "Founder Brand Brief — brand intelligence, positioning recommendations, audience analysis (10–15 pages)",
+          "Founder Focus Test — single VFG session with 6 personas, 1 topic, 3-day turnaround",
+          "30-minute kickoff call + delivered report + 30-minute review call"
         ],
-        "link": "/business-plan"
+        "link": "/founder-pass"
       },
       {
         "num": "04",
-        "for": "Agencies · Consultancies · Marketing Depts",
+        "for": "Agencies · Brands · Founders",
         "name": "AI Virtual Focus Groups",
-        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Delivered in days.",
-        "price": "Persona Definition: US$3k · Focus Group Session: US$2k+",
-        "delivery": "1–7 day delivery · White-label included",
-        "ctaLabel": "Brief This Product →",
+        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Three tiers from quick-test to multi-wave research.",
+        "price": "Mini $3,500 · Standard $7,500 · Premium $15,000",
+        "delivery": "3–10 day delivery · White-label included",
+        "ctaLabel": "See VFG Details →",
         "deliverables": [
-          "3–10 custom AI personas based on exact target demographics",
-          "Moderated discussion transcript — no loudest-voice bias",
-          "Executive summary with key findings and recommendations",
-          "Persona-specific reactions — segment-level decision support",
-          "Reusable persona panel — deploy again for future sessions"
+          "VFG Mini — 6 personas, 1 topic, 3–5 day delivery",
+          "VFG Standard — 12 personas, 3 topics, 5–7 day delivery",
+          "VFG Premium — 20 personas, multi-wave testing, 7–10 day delivery",
+          "100 bundled feedback requests per session",
+          "Branded report + sentiment analysis + recommendation framework"
         ],
         "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
-        "for": "B2B Services · CPG Brands · US Market",
-        "name": "US Growth Roadmap",
-        "tagline": "You're selling. You're not growing. That's a fixable problem.",
-        "desc": "For B2B service companies and CPG brands that have stalled in the US market. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan. Proprietary GPS Score (0 to 100) across Market Opportunity, Competitive Position, and Internal Readiness.",
-        "price": "US$5,000+ per report",
-        "delivery": "14-day delivery · White-label included · 1 revision",
-        "ctaLabel": "See Full Report Details →",
+        "for": "VCs · PE Firms · Family Offices · Angel Syndicates",
+        "name": "Investor Opportunity Vetting",
+        "desc": "Independent vetting infrastructure for investors who run pipeline at scale. Two structured interviews — founder team + real customer. Independent research surfaces contradictions and delivers an ADVANCE / CONDITIONAL / STOP verdict with evidence.",
+        "price": "US$1,500–$2,500 per analysis · Subscriptions from $2,500/mo",
+        "delivery": "7-day delivery · Volume discounts · Subscription available",
+        "ctaLabel": "See Investor Vetting Details →",
         "deliverables": [
-          "In-Depth Growth Report — 40-60+ pages, 8-section DMAIC-inspired structure, GPS Score, ranked growth levers, 90-day action plan",
-          "Executive Presentation & Q&A — condensed visual presentation for leadership with live walkthrough",
-          "1-Page Action Sheet — specific, assigned actions for the first week with one success metric for Day 30"
+          "Full Intelligence Report — 10-section evidence record with contradiction log",
+          "Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict",
+          "Subscription tiers: Starter ($2,500/mo), Professional ($7,500/mo), Enterprise ($15,000/mo)",
+          "Self-serve platform access for subscription customers"
         ],
-        "link": "/growth-roadmap"
-      },
-      {
-        "num": "06",
-        "for": "Venture Capital Firms · Growth Equity · Angel Syndicates · Corporate Venture",
-        "name": "Funding Vetting Analysis",
-        "desc": "Two structured interviews — one with the founder team, one with a real customer. Soundcheck runs independent research, surfaces contradictions between both interviews, and delivers a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence behind it. Know which companies deserve your team's time before you spend it.",
-        "price": "US$3,000 per company",
-        "delivery": "7-day delivery from completed interviews · Volume discounts available",
-        "ctaLabel": "See How It Works →",
-        "deliverables": [
-          "Full Intelligence Report — 10-section evidence record from both interviews with contradiction log",
-          "Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict with sourced evidence"
-        ],
-        "link": "/for-investors"
+        "link": "/investor-vetting"
       }
     ]
   },
@@ -1624,9 +1606,9 @@
     "ctaLink": "Or explore all research products →"
   },
   "expansionReport": {
-    "heroLabel": "Product Deep-Dive · International Expansion",
-    "heroTitle": "Reduce the Trial and Error of Your International Expansion",
-    "heroSub": "The Soundcheck International Expansion Viability Report answers the question every brand asks before entering a new market: is this real, and if so, how? Not a data dump. A decision-grade document with sourced evidence, a proprietary viability score, three strategic paths, and a 12-month roadmap your team can execute on Day 1.",
+    "heroLabel": "Product Deep-Dive · International Viability Analysis",
+    "heroTitle": "Before You Invest in Expansion, Know What You're Walking Into",
+    "heroSub": "The International Viability Analysis is built for Brazilian and Latin American brands evaluating market expansion — most often into the US, but also into other international markets. Not a data dump. A decision-grade document with sourced evidence, a proprietary CVE Score, strategic paths, and a phased roadmap your team can execute from Day 1.",
     "briefButton": "Brief This Report →",
     "seeInsideButton": "See What's Inside →",
     "heroStats": [
@@ -1636,22 +1618,22 @@
         "sub": "sourced research and strategy"
       },
       {
-        "num": "14",
-        "label": "DAYS",
-        "sub": "from intake to delivery"
+        "num": "2–3",
+        "label": "WEEKS",
+        "sub": "from signed engagement to delivery"
       },
       {
-        "num": "US$5k+",
+        "num": "US$5,000",
         "label": "",
-        "sub": "white-label included"
+        "sub": "white-label included · 2 revisions"
       }
     ],
     "whoLabel": "Built for real decisions",
     "whoTitle": "Who commissions this report.",
     "whoCards": [
       {
-        "title": "International brands",
-        "text": "Established companies from the Americas, Europe, or Asia evaluating entry into a new market. You have a product, revenue, and channels at home. You need to know if the new market is real before you commit."
+        "title": "Brazilian & LatAm brands",
+        "text": "Established companies from Brazil and Latin America evaluating entry into the US or other international markets. You have a product, revenue, and channels at home. You need to know if the new market is real before you commit."
       },
       {
         "title": "Agencies and consultancies",
