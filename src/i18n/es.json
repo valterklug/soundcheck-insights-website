@@ -788,7 +788,78 @@
     ],
     "valterQuote": "\"Construí esta plataforma ejecutando cada informe personalmente. Analizo cada solicitud de acceso a la plataforma — y guío a nuevos operadores en la elaboración de su primer informe.\"",
     "preferTalk": "¿Prefiere hablar primero?",
-    "reachOut": "Comuníquese directamente o conéctese en LinkedIn."
+    "reachOut": "Comuníquese directamente o conéctese en LinkedIn.",
+    "commercialRules": {
+      "label": "Commercial Engagement Rules",
+      "title": "Transparent partnership economics.\nNo surprises.",
+      "subtitle": "All revenue splits apply to net revenue (gross billing minus direct out-of-pocket project costs). One invoice to the client. Simple terms.",
+      "rules": [
+        {
+          "rule": "Rule 1A",
+          "scenario": "Passive Warm Intro",
+          "desc": "Referrer sends warm introduction email. No further involvement.",
+          "soundcheck": "85%",
+          "partner": "15%"
+        },
+        {
+          "rule": "Rule 1B",
+          "scenario": "Active Referrer",
+          "desc": "Referrer makes warm intro, vouches for Soundcheck, attends first call, helps positioning.",
+          "soundcheck": "75%",
+          "partner": "25%"
+        },
+        {
+          "rule": "Rule 2A",
+          "scenario": "Partnership Light",
+          "desc": "Partner brings client, owns relationship, manages communication. Soundcheck delivers the analytical work.",
+          "soundcheck": "60%",
+          "partner": "40%"
+        },
+        {
+          "rule": "Rule 2B",
+          "scenario": "True Partnership",
+          "desc": "Both parties co-deliver — joint workshops, joint presentations, joint analysis.",
+          "soundcheck": "50%",
+          "partner": "50%"
+        },
+        {
+          "rule": "Rule 3",
+          "scenario": "White-Label Platform",
+          "desc": "Agency uses Soundcheck platform to deliver to their own clients. Setup fee + platform fee per engagement.",
+          "soundcheck": "40% of MSRP",
+          "partner": "60% of MSRP + upcharge"
+        },
+        {
+          "rule": "Rule 3 (Founding)",
+          "scenario": "White-Label — Founding Partners",
+          "desc": "First 2 white-label partners, year 1 only. In exchange for case study rights and reference status.",
+          "soundcheck": "30% of MSRP",
+          "partner": "70% of MSRP + upcharge"
+        },
+        {
+          "rule": "Rule 4",
+          "scenario": "Direct Sales",
+          "desc": "Soundcheck sources, sells, and delivers. The baseline against which all other splits are measured.",
+          "soundcheck": "100%",
+          "partner": "0%"
+        }
+      ],
+      "setupFees": {
+        "title": "White-Label Setup",
+        "reports": "$5,000 one-time (Reports)",
+        "vfg": "$10,000 one-time (Virtual Focus Groups)",
+        "minimum": "$25,000 annual minimum commitment",
+        "term": "2-year minimum, then annual renewals",
+        "termination": "Either party with 60-day notice at year-end"
+      },
+      "principles": [
+        "All revenue splits are on net revenue — direct costs come off the top before any split.",
+        "Single invoicing is mandatory — one party bills the client, pays the other Net 30.",
+        "Pricing is tiered by buyer market, not by relationship sentiment.",
+        "Free engagements are off-limits. The floor is $750.",
+        "Manual validation precedes product investment — sell first, build second."
+      ]
+    }
   },
   "ourPartners": {
     "heroLabel": "Nuestra red de socios",
@@ -2458,5 +2529,198 @@
     "ctaTitle": "¿Listo para evaluar a escala?",
     "ctaSub": "Comience con una evaluación individual, o hable con nosotros sobre un tier de suscripción para su fondo.",
     "ctaButton": "Solicite una evaluación →"
+  },
+  "scaleAssessment": {
+    "heroLabel": "Product Deep-Dive · Scale Assessment",
+    "heroTitle": "Growth is what they sold you.\nScale is what you actually need.",
+    "heroSub": "The Scale Assessment is built for US-market consumer brands at strategic inflection points. It answers a different question than most market intelligence: not where can you grow, but whether you are built to scale durably — and what you need to build first if you are not.",
+    "briefButton": "Brief This Assessment →",
+    "seeInside": "See What's Inside ↓",
+    "heroStats": [
+      {
+        "num": "3–4",
+        "label": "WEEKS",
+        "sub": "from signed engagement to delivery"
+      },
+      {
+        "num": "US$9.5k–$14.5k",
+        "label": "",
+        "sub": "fixed price, no hourly billing"
+      },
+      {
+        "num": "24",
+        "label": "MONTHS",
+        "sub": "phased scale plan with go/no-go gates"
+      }
+    ],
+    "positionLabel": "The Difference",
+    "positionTitle": "Growth vs. Scale. They are not the same question.",
+    "positionSub": "Most market intelligence answers where can I grow? The Scale Assessment answers should I grow, and how do I scale durably? The latter is far more valuable to senior buyers making decisions that affect the next 2–5 years.",
+    "growthLabel": "GROWTH",
+    "growthQuestion": "Where can I sell more?",
+    "growthDesc": "Tactical. Channel-focused. Revenue-obsessed. Often leads to overextension, margin erosion, and operational fragility.",
+    "scaleLabel": "SCALE",
+    "scaleQuestion": "Am I built to sustain and compound?",
+    "scaleDesc": "Structural. Diagnostic. Identifies what must be true operationally before expansion is durable. Informed by the Too Small To Fall framework.",
+    "whoLabel": "Who commissions this",
+    "whoTitle": "Built for brands at inflection points.",
+    "whoSub": "US-market consumer brands (typically $10M–$250M revenue) evaluating expansion, category extension, or strategic moves. Brands entering the US from elsewhere. Mid-market companies facing decisions that will define the next 3–5 years.",
+    "whoCards": [
+      {
+        "title": "US consumer brands",
+        "desc": "Established companies evaluating category extension, geographic expansion, or channel diversification. You have revenue and product-market fit. You need to know if the infrastructure supports the ambition."
+      },
+      {
+        "title": "Brands entering the US",
+        "desc": "International brands entering the US market who need to understand not just the opportunity, but whether their operational model can scale in a new environment."
+      },
+      {
+        "title": "Agencies (white-label)",
+        "desc": "Your client is asking about scaling. You need a research-grade deliverable that goes beyond growth tactics. White-label version ships ready for your client's leadership team."
+      }
+    ],
+    "insideLabel": "7 sections. Every claim sourced.",
+    "insideTitle": "What the assessment delivers.",
+    "insideSub": "Each section answers a specific strategic question. The report is designed to be read top-to-bottom or used section-by-section as leadership needs specific answers.",
+    "sections": [
+      {
+        "num": "1",
+        "title": "Scale Diagnostic",
+        "sub": "Is the brand built to scale, or built to grow?",
+        "items": [
+          "Structural assessment using the Too Small To Fall framework.",
+          "Identifies whether current operations, margins, and team can sustain 2–3× volume.",
+          "Flags the specific gaps between growth capability and scale readiness."
+        ]
+      },
+      {
+        "num": "2",
+        "title": "Market Opportunity Map",
+        "sub": "Where the realistic, durable opportunities are.",
+        "items": [
+          "TAM/SAM/SOM with dual-approach sizing.",
+          "Whitespace analysis: genuine gaps vs. crowded segments.",
+          "Timing pressure assessment: when the window opens and closes."
+        ]
+      },
+      {
+        "num": "3",
+        "title": "Competitive Position Analysis",
+        "sub": "What is defensible — and what is not.",
+        "items": [
+          "6–10 competitive benchmarks with threat levels.",
+          "Defensibility assessment: what the brand owns vs. what can be replicated.",
+          "Pricing architecture relative to competitive set."
+        ]
+      },
+      {
+        "num": "4",
+        "title": "Operational Readiness Assessment",
+        "sub": "What needs to be built before scale is possible.",
+        "items": [
+          "Team structure, capabilities, and capacity gaps.",
+          "Technology and infrastructure readiness scoring.",
+          "Supply chain, fulfillment, and operational bottleneck identification."
+        ]
+      },
+      {
+        "num": "5",
+        "title": "Phased Scale Plan",
+        "sub": "Sequenced 24-month plan with decision gates.",
+        "items": [
+          "Three phases (Now, Next, Later) with specific milestones.",
+          "Go/no-go gates at each phase transition.",
+          "Investment requirements, expected outcomes, and key risks per phase."
+        ]
+      },
+      {
+        "num": "6",
+        "title": "AI-Augmented Intelligence Layer",
+        "sub": "90 days of market monitoring included.",
+        "items": [
+          "Real-time market signals and social listening synthesis.",
+          "Competitor monitoring and movement alerts.",
+          "Category trend tracking calibrated to your specific segment."
+        ]
+      },
+      {
+        "num": "7",
+        "title": "Risk Frame",
+        "sub": "What could break the brand at scale.",
+        "items": [
+          "6–8 risks scored by probability × impact.",
+          "Early warning indicators for each risk.",
+          "Mitigation strategies and contingency plans."
+        ]
+      }
+    ],
+    "delivLabel": "What you receive",
+    "delivTitle": "The full delivery package.",
+    "deliverables": [
+      {
+        "title": "Strategic Intelligence Report",
+        "desc": "Full report covering all 7 sections. Professional branded PDF, white-labeled under your brand. Every claim sourced."
+      },
+      {
+        "title": "Executive Summary Deck",
+        "desc": "Condensed visual presentation for leadership. Key findings, scale diagnostic result, competitive position, and recommended path."
+      },
+      {
+        "title": "2-Hour Strategy Session",
+        "desc": "Live working session with your leadership team. Walk through findings, challenge assumptions, align on next steps."
+      }
+    ],
+    "pricingLabel": "Pricing & delivery",
+    "pricingTitle": "Fixed scope. Premium positioning.",
+    "price": "US$9,500–$14,500",
+    "priceSubtitle": "per assessment",
+    "pricingDetails": [
+      {
+        "title": "3–4 week delivery",
+        "sub": "From signed engagement to final report"
+      },
+      {
+        "title": "White-label included",
+        "sub": "Delivered under your brand"
+      },
+      {
+        "title": "2 revision rounds",
+        "sub": "Included in the base price"
+      }
+    ],
+    "introLabel": "Introductory Pricing",
+    "introTitle": "Founding customer rate available.",
+    "introSub": "The first 5–10 customers receive the assessment at $9,500 (vs. $14,500 standard) in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
+    "faqLabel": "Common questions",
+    "faqTitle": "Straight answers.",
+    "faqs": [
+      {
+        "q": "How is this different from a growth strategy engagement?",
+        "a": "Growth strategy tells you where to sell more. Scale Assessment tells you whether your operations, margins, and team can sustain 2–3× volume without breaking. It is a diagnostic before a prescription. Most brands that stall did not lack opportunities — they lacked the infrastructure to capture them durably."
+      },
+      {
+        "q": "What information do you need to start?",
+        "a": "We send a structured intake covering your product lines, revenue and channel mix, team structure, current growth challenges, and strategic ambitions. Most clients complete it in 45–60 minutes. We follow up with a 2-hour stakeholder interview with leadership."
+      },
+      {
+        "q": "Can our agency white-label this?",
+        "a": "Yes. The report ships ready for white-label delivery under your brand. Your client never sees Soundcheck unless you want them to. This is the default for agencies and consultancies."
+      },
+      {
+        "q": "What does the AI-Augmented Intelligence Layer include?",
+        "a": "90 days of automated market monitoring after report delivery: competitor movements, category signals, social listening synthesis, and pricing shifts relevant to your segment. Delivered as a monthly digest plus real-time alerts for material changes."
+      },
+      {
+        "q": "What sources do you use?",
+        "a": "Primary and official sources preferred: IRI/NIQ, Euromonitor, Census, IBISWorld, brand filings, retailer data, and industry reports. When official data is unavailable, we use proxies and log them with confidence levels."
+      },
+      {
+        "q": "What is the Too Small To Fall framework?",
+        "a": "Too Small To Fall is the thesis from Valter Klug's book: durable, lean, AI-augmented businesses outlast competitors who chase growth at all costs. The Scale Assessment operationalizes that thesis — identifying whether a brand is structurally built for sustainable scale or just built for revenue growth."
+      }
+    ],
+    "ctaTitle": "Built to grow is not the same as built to scale.",
+    "ctaButton": "Brief This Assessment →",
+    "ctaLink": "Or explore all products →"
   }
 }

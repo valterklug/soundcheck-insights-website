@@ -11,7 +11,7 @@ export default function Partner() {
   const location = useLocation()
   const lang = getLangFromPath(location.pathname)
 
-  const nextSteps = t('partner.steps')
+  const nextSteps = t('partner.steps', { returnObjects: true })
   const rules = t('partner.commercialRules.rules', { returnObjects: true })
   const setupFees = t('partner.commercialRules.setupFees', { returnObjects: true })
   const principles = t('partner.commercialRules.principles', { returnObjects: true })
