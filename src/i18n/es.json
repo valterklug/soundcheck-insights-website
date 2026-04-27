@@ -102,49 +102,49 @@
     "products": [
       {
         "num": "01",
-        "for": "Marcas Internacionales · Entrada al Mercado",
-        "name": "Informe de Viabilidad de Expansión Internacional",
-        "desc": "CVE Score, panorama competitivo, descripción regulatoria, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta de 12 meses. Más de 100 páginas.",
-        "delivery": "Entrega en 14 días · Etiquetado blanco incluido",
+        "for": "Marcas Internacionales · Entrada en el Mercado",
+        "name": "International Expansion Viability Report",
+        "desc": "CVE Score, panorama competitivo, análisis regulatorio, mapa de canales de distribución, tres caminos estratégicos, y roadmap de 12 meses. Más de 100 páginas.",
+        "delivery": "Entrega en 14 días · White-label incluido",
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Emprendedores · Fundadores · Emprendedores en serie",
-        "name": "Análisis de Validación de Idea",
-        "desc": "Complete un formulario de 10 minutos. Obtenga un informe completo de validación de mercado + puntuación IVS (0 a 100) en 48 horas. USD 799. Sin llamadas, sin programación.",
-        "delivery": "Entrega en 48 horas · Completamente automatizado",
+        "for": "Empresarios · Fundadores · Empresarios en Serie",
+        "name": "Idea Validation Analysis",
+        "desc": "Complete un formulario de 10 minutos. Obtenga un informe completo de validación de mercado + puntuación IVS (0 a 100) en 48 horas. US$799. Sin llamadas, sin programación.",
+        "delivery": "Entrega en 48 horas · Totalmente automatizado",
         "link": "/idea-validation"
       },
       {
         "num": "03",
-        "for": "Emprendedores · Inversores · Solicitantes de Inmigración",
-        "name": "Desarrollo del Plan de Negocios",
-        "desc": "Planes de negocios específicos para inversores, bancos, abogados de inmigración y fundadores. 6 configuraciones. Estructura de 10 secciones. Cada afirmación con fuentes.",
-        "delivery": "Entrega en 10–14 días · Etiquetado blanco incluido",
+        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
+        "name": "Business Plan Development",
+        "desc": "Planes de negocio específicos para inversores, bancos, abogados de inmigración y fundadores. 6 configuraciones. Estructura de 10 secciones. Cada afirmación está documentada.",
+        "delivery": "Entrega en 10-14 días · White-label incluido",
         "link": "/business-plan"
       },
       {
         "num": "04",
-        "for": "Agencias · Consultoría · Departamentos de Marketing",
-        "name": "Grupos de Enfoque Virtual con IA",
-        "desc": "Paneles de personajes generados por IA que reflejan el público objetivo exacto de su cliente. Sin reclutamiento. Sin programación.",
-        "delivery": "Entrega en 1–7 días · Etiquetado blanco incluido",
+        "for": "Agencias · Consultorías · Departamentos de Marketing",
+        "name": "AI Virtual Focus Groups",
+        "desc": "Paneles de personas generadas por IA que reflejan la audiencia objetivo exacta de su cliente. Sin reclutamiento. Sin programación.",
+        "delivery": "Entrega en 1–7 días · White-label incluido",
         "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
-        "for": "Servicios B2B · Marcas CPG · Mercado estadounidense",
-        "name": "Hoja de Ruta de Crecimiento en EE.UU.",
-        "desc": "Análisis de mercado, inteligencia competitiva, apalancamientos de crecimiento clasificados con estimaciones de inversión y plan de acción de 90 días. GPS Score (0 a 100).",
-        "delivery": "Entrega en 14 días · Etiquetado blanco incluido",
+        "for": "Servicios B2B · Marcas CPG · Mercado de EE.UU.",
+        "name": "US Growth Roadmap",
+        "desc": "Análisis de mercado, inteligencia competitiva, palancas de crecimiento clasificadas con estimaciones de inversión, y plan de acción de 90 días. GPS Score (0 a 100).",
+        "delivery": "Entrega en 14 días · White-label incluido",
         "link": "/growth-roadmap"
       },
       {
         "num": "06",
         "for": "Firmas de Capital de Riesgo · Inversores",
-        "name": "Análisis de Inversión en Negocios",
-        "desc": "Dos entrevistas estructuradas, validación de clientes independiente y un Signal Brief con veredicto AVANCE / CONDICIONAL / DETENER. USD 3,000 por empresa.",
+        "name": "Funding Vetting Analysis",
+        "desc": "Dos entrevistas estructuradas, validación independiente de clientes, y una Resumen de Señales con un veredicto AVANZAR / CONDICIONAL / DETENER. US$3,000 por empresa.",
         "delivery": "Entrega en 7 días · Descuentos por volumen disponibles",
         "link": "/for-investors"
       }
@@ -383,30 +383,30 @@
       }
     ],
     "whiteLabelLabel": "Productos White-Label",
-    "whiteLabelTitle": "Tres productos que puede entregar de inmediato con su marca.",
+    "whiteLabelTitle": "Tres productos que puede entregar\nbajo su marca a partir de hoy.",
     "whiteLabelSub": "Cada producto está diseñado para entrega white-label. Su marca, su portada, su relación con el cliente. Usted define el precio y conserva el margen.",
     "whiteLabelProducts": [
       {
         "num": "01",
-        "name": "Informe de Viabilidad de Expansión Internacional",
-        "audience": "Marcas Internacionales · Entrada al Mercado",
-        "desc": "Inteligencia de entrada al mercado de grado decisivo. Puntuación CVE propia, panorama competitivo, descripción regulatoria, mapa de canales de distribución, tres caminos estratégicos y una hoja de ruta de 12 meses. 100+ páginas.",
+        "name": "International Expansion Viability Report",
+        "audience": "Marcas Internacionales · Entrada en el Mercado",
+        "desc": "Inteligencia de entrada de mercado de grado decisivo. CVE Score propietario, panorama competitivo, análisis regulatorio, mapa de canales de distribución, tres caminos estratégicos, y roadmap de 12 meses. Más de 100 páginas.",
         "delivery": "Entrega en 14 días",
-        "price": "Precio sugerido para cliente: US$5k+",
+        "price": "Precio sugerido al cliente: US$5k+",
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "name": "Hoja de Ruta de Crecimiento en EE.UU.",
+        "name": "US Growth Roadmap",
         "audience": "Pequeñas y Medianas Empresas de EE.UU.",
-        "desc": "Para servicios B2B y marcas CPG que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión, y un plan de acción de 90 días.",
+        "desc": "Para empresas de servicios B2B y marcas CPG que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión, y plan de acción de 90 días.",
         "delivery": "Entrega en 14 días",
-        "price": "Precio sugerido para cliente: US$5k+",
+        "price": "Precio sugerido al cliente: US$5k+",
         "link": "/growth-roadmap"
       },
       {
         "num": "03",
-        "name": "Grupos de Enfoque Virtual con IA",
+        "name": "AI Virtual Focus Groups",
         "audience": "Agencias · Consultorías · Departamentos de Marketing",
         "desc": "Pruebe conceptos creativos, ideas de productos, precios y posicionamiento con personas generadas por IA que reflejan su audiencia objetivo. Sin reclutamiento. Sin programación. Paneles reutilizables.",
         "delivery": "Entrega en 1–7 días",
@@ -461,100 +461,100 @@
     "items": [
       {
         "num": "01",
-        "for": "Marcas Internacionales · Entrada al Mercado",
-        "name": "Informe de Viabilidad de Expansión Internacional",
-        "desc": "Inteligencia de mercado para expansión internacional de marcas. Porcentaje de probabilidad de éxito (CVE), análisis competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta de 12 meses. 100+ páginas, white-label, entregado en 14 días.",
+        "for": "Marcas Internacionales · Entrada en el Mercado",
+        "name": "International Expansion Viability Report",
+        "desc": "Inteligencia de entrada al mercado de grado decisivo. CVE Score propietario, panorama competitivo, análisis regulatorio, mapa de canales de distribución, tres caminos estratégicos, y roadmap de 12 meses. Más de 100 páginas, white-labeled, en 14 días.",
         "price": "Precio sugerido: US$5k+",
-        "delivery": "Entrega en 14 días · Marca blanca incluida · 1 revisión",
+        "delivery": "Entrega en 14 días · White-label incluido · 1 revisión",
         "ctaLabel": "Ver Detalles Completos del Informe →",
         "deliverables": [
-          "Puntuación CVE (Coeficiente de Viabilidad de Expansión) — Puntuación ponderada de 3 dimensiones (0 a 100)",
-          "Resumen Ejecutivo — 5 ideas críticas + 3 caminos estratégicos con modo de entrada recomendado",
-          "Evaluación de Negocio y Marca — ajuste del producto al mercado, arquitectura de precios, posicionamiento",
-          "Inteligencia de Mercado y Categoría — TAM/SAM/SOM, Cinco Fuerzas de Porter, evaluación competitiva, panorama de compradores",
-          "Plan Estratégico de Entrada y Crecimiento — hoja de ruta de 12 meses con economía unitaria y puertas de decisión",
-          "Riesgos y Puntos de Vigilancia — puntuados, clasificados y mitigados",
-          "Informe de 100+ Páginas + Resumen Ejecutivo Visual (marca blanca)"
+          "CVE Score (Coeficiente de Viabilidad de Expansión) — Puntuación ponderada de 3 dimensiones (0 a 100)",
+          "Resumen Ejecutivo — 5 insights críticos + 3 caminos estratégicos con modo de entrada recomendado",
+          "Evaluación de Negocio y Marca — product-market fit, arquitectura de precios, posicionamiento",
+          "Inteligencia de Mercado y Categoría — TAM/SAM/SOM, Cinco Fuerzas de Porter, comparación competitiva, panorama del comprador",
+          "Plan de Entrada Estratégica y Crecimiento — roadmap de 12 meses con economía unitaria y gates go/no-go",
+          "Riesgos y Puntos de Vigilancia — puntuados, clasificados, y mitigados",
+          "Informe de 100+ Páginas + Resumen Ejecutivo Visual (white-labeled)"
         ],
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Emprendedores · Fundadores · Emprendedores Seriales",
-        "name": "Análisis de Validación de Ideas",
-        "tagline": "Sepa si su idea tiene mercado antes de gastar un dólar construyéndola.",
-        "desc": "Complete un formulario en 10 minutos describiendo su idea. La IA de Soundcheck ejecuta una investigación de mercado independiente, analiza la competencia, dimensiona la oportunidad y estima cuánto pagaría su cliente objetivo. Recibe un análisis completo y un resumen de una página en 48 horas.",
+        "for": "Empresarios · Fundadores · Empresarios en Serie",
+        "name": "Idea Validation Analysis",
+        "tagline": "Sepa si su idea tiene un mercado antes de gastar un dólar construyéndola.",
+        "desc": "Complete un formulario de 10 minutos describiendo su idea. La IA de Soundcheck realiza investigación de mercado independiente, analiza la competencia, dimensiona la oportunidad, y estima lo que su cliente objetivo pagaría. Recibe un análisis completo y una Tarjeta de Resumen de una página en 48 horas.",
         "price": "US$799 por análisis",
-        "delivery": "Entrega en 48 horas después del envío del formulario · Completamente automatizado",
+        "delivery": "Entrega en 48 horas después del envío del formulario · Totalmente automatizado",
         "ctaLabel": "Valide Su Idea →",
         "deliverables": [
-          "Validación de Problemas — ¿es este un problema de Nivel 1 con demanda real del mercado?",
-          "Tamaño del Mercado — TAM, SAM, SOM para su geografía objetivo",
-          "Verificación de Realidad Competitiva — quién ya resuelve esto y dónde está el espacio en blanco",
+          "Validación del Problema — ¿es este un problema Tier 1 con demanda real del mercado?",
+          "Dimensionamiento del Mercado — TAM, SAM, SOM para su geografía objetivo",
+          "Realidad Competitiva — quién ya resuelve esto y dónde está el espacio en blanco",
           "Análisis de Cliente y Disposición a Pagar — quién compraría esto y cuánto pagaría",
-          "Puntuación IVS + Próximos Pasos — Puntuación de Viabilidad de Idea (0 a 100) y 3 acciones específicas"
+          "Puntuación IVS + Próximos Pasos — Idea Viability Score (0 a 100) y 3 acciones específicas"
         ],
         "link": "/idea-validation"
       },
       {
         "num": "03",
-        "for": "Emprendedores · Inversores · Solicitantes de Inmigración",
-        "name": "Desarrollo de Plan de Negocios",
-        "tagline": "Un plan de negocios construido para quien decide.",
-        "desc": "No es una plantilla. Un plan de negocios profesional y específico para la audiencia, construido a partir de datos de ingesta estructurada, entrevista con partes interesadas e investigación independiente. 6 configuraciones: Inversor, Banco/SBA, Inmigración (E-2/EB-5/L-1A), Franquicia, CPG e Interno del Fundador. Cada afirmación documentada. Cada proyección respaldada.",
+        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
+        "name": "Business Plan Development",
+        "tagline": "Un plan de negocio construido para el lector que decide.",
+        "desc": "No es una plantilla. Un plan de negocio profesional y específico para la audiencia construido a partir de datos de intake estructurados, una entrevista con interesados, e investigación independiente. 6 configuraciones: Inversor, Banco/SBA, Inmigración (E-2/EB-5/L-1A), Franquicia, CPG, e Interno del Fundador. Cada afirmación está documentada. Cada proyección está justificada.",
         "price": "US$5,000+ por plan",
-        "delivery": "Entrega en 10–14 días · Marca blanca incluida · 1 revisión",
+        "delivery": "Entrega en 10-14 días · White-label incluido · 1 revisión",
         "ctaLabel": "Ver Detalles Completos del Plan →",
         "deliverables": [
-          "Plan de Negocios Completo — estructura MECE de 10 secciones, formato específico para audiencia, proyecciones con confianza etiquetada, datos de mercado y competencia documentados",
-          "Resumen Ejecutivo de Una Página — panorama del negocio, oportunidad de mercado, aspectos destacados financieros, la solicitud específica"
+          "Plan de Negocio Completo — estructura MECE de 10 secciones, formato por audiencia, proyecciones etiquetadas por confianza, datos de mercado y competencia documentados",
+          "Resumen Ejecutivo de Una Página — snapshot del negocio, oportunidad de mercado, highlights financieros, la solicitud específica"
         ],
         "link": "/business-plan"
       },
       {
         "num": "04",
         "for": "Agencias · Consultorías · Departamentos de Marketing",
-        "name": "Grupos de Enfoque Virtual con IA",
+        "name": "AI Virtual Focus Groups",
         "desc": "Pruebe conceptos creativos, ideas de productos, precios y posicionamiento con personas generadas por IA que reflejan su audiencia objetivo. Sin reclutamiento. Sin programación. Entregado en días.",
-        "price": "Definición de Persona: US$3k · Sesión de Grupo de Enfoque: US$2k+",
-        "delivery": "Entrega en 1–7 días · Marca blanca incluida",
-        "ctaLabel": "Asigne Este Producto →",
+        "price": "Definición de Persona: US$3k · Sesión de Focus Group: US$2k+",
+        "delivery": "Entrega en 1–7 días · White-label incluido",
+        "ctaLabel": "Brief Este Producto →",
         "deliverables": [
-          "3–10 personas de IA personalizadas basadas en datos demográficos exactos",
-          "Transcripción de discusión moderada — sin sesgo de voz más fuerte",
+          "3–10 personas AI personalizadas basadas en demografía objetivo exacta",
+          "Transcript de discusión moderada — sin sesgo de voz más fuerte",
           "Resumen ejecutivo con hallazgos clave y recomendaciones",
-          "Reacciones específicas de personas — apoyo decisivo a nivel de segmento",
-          "Panel de personas reutilizable — desplegable nuevamente para sesiones futuras"
+          "Reacciones específicas de la persona — apoyo para decisiones a nivel de segmento",
+          "Panel de persona reutilizable — despliegue nuevamente para futuras sesiones"
         ],
         "link": "/virtual-focus-groups"
       },
       {
         "num": "05",
         "for": "Servicios B2B · Marcas CPG · Mercado de EE.UU.",
-        "name": "Hoja de Ruta de Crecimiento en EE.UU.",
-        "tagline": "Está vendiendo. No está creciendo. Ese es un problema solucionable.",
-        "desc": "Para empresas de servicios B2B y marcas CPG que se han estancado en el mercado de EE.UU. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión y un plan de acción de 90 días. Puntuación GPS propia (0 a 100) en Oportunidad de Mercado, Posición Competitiva y Preparación Interna.",
+        "name": "US Growth Roadmap",
+        "tagline": "Usted está vendiendo. No está creciendo. Ese es un problema que se puede solucionar.",
+        "desc": "Para empresas de servicios B2B y marcas CPG que se han estancado en el mercado estadounidense. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión, y plan de acción de 90 días. GPS Score propietario (0 a 100) entre Oportunidad de Mercado, Posición Competitiva, y Preparación Interna.",
         "price": "US$5,000+ por informe",
-        "delivery": "Entrega en 14 días · Marca blanca incluida · 1 revisión",
+        "delivery": "Entrega en 14 días · White-label incluido · 1 revisión",
         "ctaLabel": "Ver Detalles Completos del Informe →",
         "deliverables": [
-          "Informe de Crecimiento Detallado — 40–60+ páginas, estructura de 8 secciones inspirada en DMAIC, Puntuación GPS, palancas de crecimiento clasificadas, plan de acción de 90 días",
-          "Presentación Ejecutiva y Sesión de Preguntas — presentación visual condensada para la dirección con recorrido en vivo",
-          "Hoja de Acción de Una Página — acciones específicas asignadas para la primera semana con una métrica de éxito para el Día 30"
+          "Informe de Crecimiento Profundo — 40-60+ páginas, estructura DMAIC de 8 secciones, GPS Score, palancas de crecimiento clasificadas, plan de acción de 90 días",
+          "Presentación Ejecutiva & Sesión de Preguntas — presentación visual condensada para liderazgo con walkthrough en vivo",
+          "Hoja de Acción de Una Página — acciones específicas y asignadas para la primera semana con una métrica de éxito para el Día 30"
         ],
         "link": "/growth-roadmap"
       },
       {
         "num": "06",
-        "for": "Empresas de Capital de Riesgo · Capital de Crecimiento · Sindicatos de Ángeles · Venture Corporativo",
-        "name": "Análisis de Inversión en Negocios",
-        "desc": "Dos entrevistas estructuradas — una con el equipo fundador, otra con un cliente real. Soundcheck ejecuta investigación independiente, identifica contradicciones entre ambas entrevistas y entrega un veredicto de una página (AVANZAR / CONDICIONAL / DETENER) con justificaciones. Sepa qué empresas merecen el tiempo de su equipo antes de invertirlo.",
+        "for": "Firmas de Capital de Riesgo · Equity de Crecimiento · Sindicatos de Ángeles · Corporate Venture",
+        "name": "Funding Vetting Analysis",
+        "desc": "Dos entrevistas estructuradas — una con el equipo fundador, una con un cliente real. Soundcheck realiza investigación independiente, detecta contradicciones entre ambas entrevistas, y entrega un veredicto de una página AVANZAR / CONDICIONAL / DETENER con la evidencia detrás. Sepa qué empresas merecen el tiempo de su equipo antes de invertirlo.",
         "price": "US$3,000 por empresa",
         "delivery": "Entrega en 7 días desde entrevistas completadas · Descuentos por volumen disponibles",
-        "ctaLabel": "Ver Cómo Funciona →",
+        "ctaLabel": "Vea Cómo Funciona →",
         "deliverables": [
-          "Informe de Inteligencia Completo — registro de evidencia de 10 secciones de ambas entrevistas con registro de contradicciones",
-          "Signal Brief — veredicto de una página AVANZAR / CONDICIONAL / DETENER con evidencia documentada"
+          "Informe de Inteligencia Completa — registro de evidencia de 10 secciones de ambas entrevistas con log de contradicciones",
+          "Resumen de Señales — veredicto de una página AVANZAR / CONDICIONAL / DETENER con evidencia documentada"
         ],
         "link": "/for-investors"
       }
@@ -562,25 +562,25 @@
   },
   "forInvestors": {
     "heroLabel": "Para Inversionistas",
-    "heroTitle": "Su pipeline no deja de crecer.\nLa disponibilidad de su equipo, no.",
-    "heroSub": "En promedio, una firma de VC analiza cientos de oportunidades al año. La mayoría de las que se filtran no se filtran lo suficientemente pronto. Soundcheck ofrece a firmas de capital de riesgo, fondos de crecimiento, sindicatos de angel investors e inversionistas corporativos una triaje estructurada y documentada, con veredicto — AVANZAR, CONDICIONAL, o DETENER — antes de que su equipo invierta horas significativas en una empresa que no debería pasar de la primera ronda.",
+    "heroTitle": "Evaluación de Oportunidades para Inversores.\nPipeline a escala.",
+    "heroSub": "Infraestructura de evaluación independiente para VCs, firmas de private equity, oficinas familiares, y sindicatos de ángeles que manejan pipeline de acuerdos en volumen. Metodología estandarizada. Evidencia documentada. Puntuación transparente. Evaluaciones individuales desde US$1,500 o tiers de suscripción para evaluación de alto volumen.",
     "requestEngagement": "Solicitar una reunión →",
     "viewSamples": "Ver ejemplos de Signal Briefs →",
     "heroStats": [
       {
         "num": "7",
         "label": "DÍAS HÁBILES",
-        "sub": "de las entrevistas al Signal Brief"
+        "sub": "tiempo de evaluación individual"
       },
       {
-        "num": "2",
-        "label": "ENTREVISTAS",
-        "sub": "equipo fundador + cliente real, de forma independiente"
+        "num": "3",
+        "label": "TIERS DE SUSCRIPCIÓN",
+        "sub": "10 a 100 evaluaciones/mes"
       },
       {
-        "num": "US$3,000",
+        "num": "$1,500+",
         "label": "",
-        "sub": "por empresa evaluada"
+        "sub": "por evaluación o desde US$2,500/mes"
       }
     ],
     "problemLabel": "El costo real",
@@ -758,8 +758,8 @@
   },
   "partner": {
     "heroLabel": "Sea Nuestro Socio",
-    "heroTitle": "Añada Soundcheck a su oferta de servicios.",
-    "heroSub": "Cuéntenos sobre su empresa. Lo guiaremos y le daremos acceso a nuestra plataforma, explicaremos la metodología de precios, y cómo ejecutar su primer informe (generalmente para uno de sus clientes existentes).",
+    "heroTitle": "Agregue Soundcheck a su práctica.\nComience con un informe.",
+    "heroSub": "Cuéntenos sobre su empresa. Le mostraremos cómo acceder a la plataforma, precios, y cómo ejecutar su primer informe — típicamente con un cliente existente en su primera semana.",
     "formTitle": "Sobre su empresa",
     "formSub": "Cada solicitud de acceso es analizada personalmente por Valter Klug. Si hay compatibilidad, nos pondremos en contacto en un plazo de dos días hábiles.",
     "submitButton": "Enviar consulta de asociación →",
@@ -2134,14 +2134,329 @@
     "ctaButton": "Solicitar acceso →",
     "pricing": {
       "label": "Precios",
-      "title": "Precios simples y transparentes.",
-      "personaDef": "Definición de Persona",
-      "personaDefPrice": "US$3,000",
-      "personaDefDesc": "Investigación de mercado + panel de personas (4–6 personas). Una vez por marca.",
-      "focusGroup": "Sesión de Grupo de Enfoque",
-      "focusGroupPrice": "US$2,000+",
-      "focusGroupDesc": "Por sesión. Pruebe conceptos ilimitados. Itere en tiempo real.",
-      "note": "White-label incluido. Precios por volumen disponibles para agencias que ejecutan múltiples clientes."
+      "title": "Tres tiers. Precios transparentes.",
+      "tiers": [
+        {
+          "name": "VFG Mini",
+          "price": "US$3,500",
+          "scope": "6 personas · 1 tema",
+          "delivery": "3–5 días hábiles",
+          "best": "Prueba de concepto único, insights direccionales rápidos"
+        },
+        {
+          "name": "VFG Standard",
+          "price": "US$7,500",
+          "scope": "12 personas · 3 temas",
+          "delivery": "3–5 días hábiles",
+          "best": "Comparación de múltiples conceptos, estrategia de posicionamiento"
+        },
+        {
+          "name": "VFG Premium",
+          "price": "US$15,000",
+          "scope": "20 personas · Pruebas multi-onda",
+          "delivery": "7–10 días hábiles",
+          "best": "Ciclo de investigación completo, pruebas iterativas entre segmentos"
+        }
+      ],
+      "includes": "Cada sesión incluye 100 solicitudes de retroalimentación agrupadas. Más allá de 100: $50 cada una.",
+      "wholesale": "Mayorista de agencia: ~50% de los precios finales del cliente en todos los tiers.",
+      "note": "White-label incluido. Todos los tiers incluyen informe de marca + llamada de revisión de 60 minutos."
     }
+  },
+  "founderPass": {
+    "heroLabel": "Product Deep-Dive · Founder Pass",
+    "heroTitle": "Inteligencia de mercado de grado fundador, antes de tener un mercado.",
+    "heroSub": "Founder Pass no es una versión diluida de productos empresariales. Es una familia de productos diferente, con nomenclatura diferente, alcance diferente, y precios específicos para fundadores. Validation Sprint, Brand Brief, o Focus Test. US$750–US$1,500. Entrega en 3–7 días.",
+    "ctaButton": "Comience →",
+    "viewSkus": "Vea Nuestras Ofertas →",
+    "heroStats": [
+      {
+        "num": "US$750–US$1,500",
+        "label": "PRECIOS PARA FUNDADORES",
+        "sub": "Validación a insights, no un descuento"
+      },
+      {
+        "num": "3–7",
+        "label": "DÍAS",
+        "sub": "De intake a entrega"
+      },
+      {
+        "num": "Sin llamadas que programar",
+        "label": "VELOCIDAD",
+        "sub": "Complete un formulario, obtenga insights"
+      }
+    ],
+    "positionLabel": "Familia de productos, no un descuento",
+    "positionTitle": "No es un descuento. Es un producto diferente.",
+    "positionDesc": "Founder Pass está construido para un momento específico: tiene una idea, necesita validación, no tiene US$5,000 y dos semanas. Nuestros productos empresariales (Scale Assessment, Business Plan) son 50+ páginas de profundidad estratégica para marcas maduras. Founder Pass es 5–15 páginas de validación enfocada para fundadores en etapa temprana. Misma plataforma de investigación. Familia de productos diferente. Timeline diferente. Precio diferente. Sin iteración—obtiene un corte de inteligencia y avanza.",
+    "skusLabel": "Tres ofertas",
+    "skusTitle": "Elija su enfoque.",
+    "skusSub": "Todos los productos Founder Pass incluyen llamada de kickoff de 30 minutos, informe entregado, llamada de revisión de 30 minutos, y acceso al dashboard de plataforma de investigación.",
+    "skus": [
+      {
+        "name": "Founder Validation Sprint",
+        "price": "US$750",
+        "scope": "Informe de 5–7 páginas: dimensionamiento de mercado, top-3 competidores, marco de validación/invalidación, riesgos clave.",
+        "turnaround": "3–5 días"
+      },
+      {
+        "name": "Founder Brand Brief",
+        "price": "US$1,500",
+        "scope": "Informe de inteligencia de marca de 10–15 páginas: recomendaciones de posicionamiento, análisis de audiencia, pruebas de mensajes.",
+        "turnaround": "5–7 días"
+      },
+      {
+        "name": "Founder Focus Test",
+        "price": "US$1,500",
+        "scope": "Sesión de VFG única: 6 personas, 1 tema. Investigación de mensajes, landing pages, o posicionamiento de producto.",
+        "turnaround": "3 días"
+      }
+    ],
+    "allIncludeLabel": "En cada paquete",
+    "allIncludeTitle": "Lo que incluyen todos los productos Founder Pass.",
+    "includes": [
+      {
+        "label": "Llamada de kickoff de 30 min",
+        "desc": "Brief al equipo, aclare su pregunta, alinee en alcance."
+      },
+      {
+        "label": "Informe entregado",
+        "desc": "Investigación completamente generada por IA, empaquetada en formato PDF o .docx limpio."
+      },
+      {
+        "label": "Llamada de revisión de 30 min",
+        "desc": "Camine a través de hallazgos, haga seguimientos, comience a planificar próximos pasos."
+      },
+      {
+        "label": "Sin revisiones",
+        "desc": "El precio refleja un corte. Usted avanza con lo que obtiene."
+      }
+    ],
+    "howLabel": "Su timeline",
+    "howTitle": "Cómo funciona.",
+    "howSteps": [
+      {
+        "num": "1",
+        "title": "Complete formulario de intake",
+        "desc": "10 minutos. Responda preguntas sobre su idea, audiencia, competencia, y criterios de éxito."
+      },
+      {
+        "num": "2",
+        "title": "La IA realiza investigación",
+        "desc": "Sin revisión de consultor humano. Nuestra plataforma investiga TAM, panorama competitivo, mensajes, y product-customer fit."
+      },
+      {
+        "num": "3",
+        "title": "Reciba informe + llamada de revisión",
+        "desc": "Obtenga su informe, únase a una llamada de 30 minutos para caminar a través de hallazgos y planificar próximos pasos."
+      }
+    ],
+    "agreementLabel": "El intercambio",
+    "agreementTitle": "El Acuerdo de Founder Pass.",
+    "agreementDesc": "Los precios para fundadores son posibles por escala y el compromiso a continuación. A cambio de estos precios, le pedimos algunas cosas. Sin rondas de revisión, sin bloqueo de compromiso a largo plazo—solo un intercambio directo.",
+    "commitment": [
+      {
+        "num": "1",
+        "item": "Testimonial escrito dentro de 30 días (si nuestro trabajo fue útil)"
+      },
+      {
+        "num": "2",
+        "item": "Refiera un fundador colega dentro de 90 días"
+      },
+      {
+        "num": "3",
+        "item": "Permítanos usar el nombre de su empresa y descripción breve en materiales de marketing"
+      },
+      {
+        "num": "4",
+        "item": "Precios estándar en compromisos futuros después de que recaude su próxima ronda"
+      }
+    ],
+    "commitmentBenefits": [
+      "Inteligencia de mercado de grado fundador en presupuestos de fundador",
+      "Investigación impulsada por IA (sin markup de consultor)",
+      "Entrega en 3–7 días",
+      "Insights claros y accionables empaquetados para su equipo"
+    ],
+    "whoLabel": "Construido para fundadores",
+    "whoTitle": "Para quién es esto.",
+    "whoItems": [
+      {
+        "title": "Fundadores por primera vez",
+        "text": "Tiene una idea, alguna validación temprana, y preguntas sobre tamaño de mercado, competencia, y go-to-market. Necesita evidencia, no la opinión de un consultor. Founder Pass entrega validación a escala de fundador."
+      },
+      {
+        "title": "Empresarios en serie y constructores de proyectos paralelos",
+        "text": "Está probando una idea nueva, evaluando un mercado nuevo, o validando un pivote. Conoce el proceso. Necesita investigación rápida impulsada por IA para desriscar antes de comprometer tiempo o capital."
+      }
+    ],
+    "faqLabel": "Preguntas",
+    "faqTitle": "Preguntas Frecuentes de Founder Pass.",
+    "faqs": [
+      {
+        "q": "¿Por qué esto es mucho más barato que Scale Assessment?",
+        "a": "Producto diferente, alcance diferente. Founder Pass es 5–15 páginas de validación enfocada para fundadores sin financiamiento. Scale Assessment es 50+ páginas de inteligencia estratégica para marcas maduras. Misma plataforma de investigación, profundidad y turnaround diferentes. Founder Pass intercambia iteración y personalización por velocidad y precio."
+      },
+      {
+        "q": "¿Esto es generado por IA?",
+        "a": "Sí, completamente. Ejecutamos nuestro motor de investigación de IA contra su intake y fuentes de datos independientes. Sin revisión de consultor humano. Eso es lo que hace posible el precio y la velocidad. Obtiene un corte—sin rondas de revisión."
+      },
+      {
+        "q": "¿Puedo actualizar después?",
+        "a": "Sí. Una vez que recaude su próxima ronda (Seed, Series A, etc.), se mueve a precios estándar para Scale Assessment, Business Plan, u otros productos. Los precios de Founder Pass son específicamente para fundadores sin financiamiento. Después de ese hito, lo precio como cualquier otro cliente."
+      },
+      {
+        "q": "¿Qué pasa si tengo múltiples ideas?",
+        "a": "Ejecute múltiples Validation Sprints. Cada uno es US$750 y toma 3–5 días. Puede briefarlos en paralelo o secuencialmente—cada intake de 10 minutos es independiente. Ejecute tantos como necesite para validar su pipeline."
+      },
+      {
+        "q": "¿Necesito estar en Mana Tech?",
+        "a": "No. Founder Pass está disponible para cualquier fundador en etapa temprana, miembro de Mana Tech o no. Los miembros de Mana Tech sí obtienen prioridad en programación, pero no necesita ser miembro para usar Founder Pass."
+      },
+      {
+        "q": "¿Qué pasa después de la llamada de revisión?",
+        "a": "Usted avanza. No hay rondas de revisión a este precio. Tiene el informe, los insights, y 30 minutos para hacer preguntas. Si necesita trabajo más profundo más tarde, revisaremos alcance y precios para Scale Assessment u otro producto una vez que haya recaudado."
+      }
+    ],
+    "ctaTitle": "Comience a validar hoy.",
+    "ctaFinalButton": "Brief de un Producto →",
+    "ctaLink": "O explore todos los productos de investigación →"
+  },
+  "investorVetting": {
+    "heroLabel": "Investor Opportunity Vetting",
+    "heroTitle1": "Evalúe acuerdos a escala",
+    "heroTitle2": "con inteligencia independiente.",
+    "heroSub": "Infraestructura de evaluación independiente para inversores que manejan pipeline a escala. Evalúe fundadores, valide mercados, evalúe tracción, e identifique riesgos—sin construir un equipo de investigación interno.",
+    "requestAccess": "Comience →",
+    "learnMore": "Aprenda más ↓",
+    "heroStats": [
+      {
+        "label": "EVALUACIÓN INDIVIDUAL",
+        "value": "7 DÍAS HÁBILES"
+      },
+      {
+        "label": "TIERS DE SUSCRIPCIÓN",
+        "value": "3 OPCIONES"
+      },
+      {
+        "label": "RANGO DE PRECIOS",
+        "value": "US$1,500–US$15,000/mes"
+      }
+    ],
+    "positioningLabel": "¿Por qué Infraestructura de Evaluación?",
+    "positioningTitle": "Los inversores no compran informes uno a la vez. Compran infraestructura de evaluación.",
+    "positioningDesc1": "Ya se suscribe a PitchBook, Crunchbase Pro, Tracxn. Esas herramientas le dicen qué existe. Soundcheck es la capa de inteligencia que le dice qué pensar sobre lo que existe. Capa diferente del stack.",
+    "positioningDesc2": "Ya sea evaluando 5 acuerdos al mes o 50, necesita una metodología de evaluación consistente y defendible. Eso es lo que Soundcheck proporciona—la infraestructura para evaluar a escala, con transparencia y documentación incorporadas.",
+    "tiersLabel": "Precios y Disponibilidad",
+    "tiersTitle": "Dos tiers: transaccional y estratégico.",
+    "tierASingleLabel": "Tier A — Evaluación de Oportunidad Individual",
+    "tierASingleTitle": "Un acuerdo a la vez.",
+    "tierAInstitutional": "VC/PE Institucional",
+    "tierAInstitutionalDesc": "Por evaluación. Sin compromiso, sin suscripción.",
+    "tierAAngelFamily": "Ángel / Oficina Familiar",
+    "tierAAngelFamilyDesc": "US$1,000 cada una en paquete de 3. O US$1,500 individual.",
+    "tierASingleDesc": "Caso de uso: Evaluación de una líder de Series A o exploración de una secundaria. Obtenga un informe de evaluación estandarizado en 7 días hábiles.",
+    "tierAAvailability": "Disponible ahora",
+    "tierBSubscriptionLabel": "Tier B — Suscripción del Inversor",
+    "tierBSubscriptionTitle": "Modelo de suscripción (próximamente).",
+    "tierBDesc": "Precios estratégicos para inversores que evalúan 10+ acuerdos por mes. Tiers Starter, Professional, y Enterprise con volumen variable, evaluaciones, y horas de revisión de expertos.",
+    "tierBComingSoon": "Próximamente",
+    "tierBLaunchTimeline": "Tier B se lanza después de que hayamos entregado 10+ evaluaciones manuales y validado la metodología con clientes pagadores. Esperado Q1 2027.",
+    "tierBEarlyPhase": "Fase Temprana — Solo Tier A",
+    "deliverablesLabel": "Qué hay en un Informe de Evaluación",
+    "deliverablesTitle": "Cada evaluación individual incluye estos siete elementos.",
+    "singleVettingItems": [
+      {
+        "label": "Fundador",
+        "title": "Evaluación de fundador y equipo — antecedentes, historial de éxito, habilidades complementarias, red flags."
+      },
+      {
+        "label": "Mercado",
+        "title": "Validación de oportunidad de mercado — TAM, trayectoria de crecimiento, intensidad competitiva, vientos favorables."
+      },
+      {
+        "label": "Competencia",
+        "title": "Panorama competitivo — competidores directos e indirectos, diferenciación, defensas."
+      },
+      {
+        "label": "Tracción",
+        "title": "Revisión de validez de tracción — autenticidad de tasa de crecimiento, análisis de cohorte, señales de retención."
+      },
+      {
+        "label": "Finanzas",
+        "title": "Revisión de cordura financiera — tasa de quema, runway, economía unitaria, preguntas de camino a rentabilidad."
+      },
+      {
+        "label": "Riesgo",
+        "title": "Marco de riesgo — deal-breakers, riesgo de ejecución, riesgo de mercado, riesgo de fundador, riesgo macroeconómico."
+      },
+      {
+        "label": "Preguntas",
+        "title": "Preguntas recomendadas para debida diligencia — seguimientos críticos para su equipo, fraseados para una llamada fundadora."
+      }
+    ],
+    "subscriptionTableLabel": "Desglose de Tier Estratégico",
+    "subscriptionTableTitle": "Tiers de suscripción para inversores que manejan pipeline de alto volumen.",
+    "subscriptionTiers": [
+      {
+        "name": "Starter",
+        "price": "US$2,500",
+        "vettingsPerMonth": "Hasta 10",
+        "perVettingCost": "US$250",
+        "scope": "Alcance ligero, auto-servicio",
+        "expertReview": "Ninguno"
+      },
+      {
+        "name": "Professional",
+        "price": "US$7,500",
+        "vettingsPerMonth": "Hasta 40",
+        "perVettingCost": "US$187",
+        "scope": "Alcance completo",
+        "expertReview": "2 hrs/mes"
+      },
+      {
+        "name": "Enterprise",
+        "price": "US$15,000",
+        "vettingsPerMonth": "Hasta 100",
+        "perVettingCost": "US$150",
+        "scope": "Alcance completo + criterios personalizados",
+        "expertReview": "8 hrs/mes + integraciones"
+      }
+    ],
+    "trustLabel": "Cómo Construimos Confianza",
+    "trustTitle": "Validamos manualmente antes de escalar el producto de suscripción.",
+    "trustDesc": "Los clientes de Tier A hoy se convierten en suscriptores de Tier B mañana. Estamos ejecutando Fase 1: evaluaciones manuales, retroalimentación real, mejoras reales a la metodología.",
+    "trustPhase1": "Cada evaluación es revisada por nuestro equipo de investigación para documentación, etiquetado de confianza, y framing estratégico antes de entrega. Estamos construyendo la metodología a un estándar que podamos automatizar después—no automatizando primero y esperando que funcione.",
+    "faqLabel": "Preguntas Frecuentes",
+    "faqTitle": "Preguntas que nos hacen.",
+    "faqs": [
+      {
+        "q": "¿Cuándo está disponible la suscripción?",
+        "a": "Tier A (evaluaciones individuales) está disponible ahora. Tier B (suscripción) se lanza después de que entregemos 10+ evaluaciones manuales y validemos la metodología con clientes pagadores. Esperado Q1 2027."
+      },
+      {
+        "q": "¿Cuál es el turnaround?",
+        "a": "7 días hábiles para evaluaciones individuales. Los clientes de suscripción obtienen procesamiento prioritario y tiempos de turnaround más rápidos dependiendo del tier."
+      },
+      {
+        "q": "¿Esto es generado por IA?",
+        "a": "La plataforma realiza el trabajo analítico pesado—agregando datos, construyendo marcos analíticos, dimensiones de puntuación. La revisión de expertos se incluye en los tiers Professional y Enterprise para validación y matiz. Las evaluaciones individuales de Tier A incluyen revisión de aseguramiento de calidad."
+      },
+      {
+        "q": "¿Podemos personalizar criterios de evaluación?",
+        "a": "Sí. Los suscriptores de Enterprise pueden definir dimensiones de puntuación personalizadas y criterios de evaluación específicos para su tesis, perfil de riesgo, y enfoque de industria."
+      },
+      {
+        "q": "¿Cómo es diferente de Crunchbase o PitchBook?",
+        "a": "Esas son herramientas de datos—le dicen qué existe. Soundcheck es una capa de inteligencia—le dice qué pensar sobre lo que existe. Capa diferente del stack. Se suscribe a esas para datos; se suscribe a nosotros para análisis y evaluación."
+      },
+      {
+        "q": "¿Qué pasa si no estamos de acuerdo con el veredicto?",
+        "a": "Cada afirmación está documentada y cada puntuación es transparente. Si una dimensión fue puntuada incorrectamente debido a información faltante, revisaremos sin cargo y proporcionaremos una evaluación actualizada."
+      }
+    ],
+    "ctaTitle": "¿Listo para evaluar a escala?",
+    "ctaSub": "Comience con una evaluación individual, o hable con nosotros sobre un tier de suscripción para su fondo.",
+    "ctaButton": "Solicite una evaluación →"
   }
 }
