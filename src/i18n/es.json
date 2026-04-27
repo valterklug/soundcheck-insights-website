@@ -97,8 +97,8 @@
         "tag": "Su marca · Su crédito · Su próximo contrato"
       }
     ],
-    "productsLabel": "Seis Productos",
-    "productsTitle": "Seis informes que puede ofrecer\na sus clientes a partir de hoy.",
+    "productsLabel": "Cinco Productos",
+    "productsTitle": "Cinco productos que puedes ofrecer\na tus clientes hoy mismo.",
     "products": [
       {
         "num": "01",
@@ -118,10 +118,10 @@
       },
       {
         "num": "03",
-        "for": "Fundadores · Mana Tech · Etapa Temprana",
+        "for": "Miembros de Mana Tech · Exclusivo",
         "name": "Founder Pass",
-        "desc": "Tres productos a precios de fundador: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Entrega rápida, alcance ajustado, decisiones reales.",
-        "delivery": "Entrega en 3–7 días",
+        "desc": "Exclusivo para miembros de Mana Tech. Tres productos: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Entrega rápida, alcance ajustado, decisiones reales.",
+        "delivery": "Entrega en 3–7 días · Exclusivo Mana Tech",
         "link": "/founder-pass"
       },
       {
@@ -143,31 +143,31 @@
     ],
     "viewAllProducts": "Ver Todos los Productos →",
     "economicsLabel": "El Caso de Negocio",
-    "economicsTitle1": "Una línea de ingresos de US$400–US$1.250+/hora",
-    "economicsTitle2": "sin nueva dotación de personal.",
-    "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Su rol es capturar el brief, aplicar su criterio profesional y presentar los hallazgos con el contexto estratégico que solo usted puede proporcionar.",
+    "economicsTitle1": "Una línea de ingresos de",
+    "economicsTitle2": "$750–$2,175+/hora. Sin contratar más gente.",
+    "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Tu rol es capturar el brief, aplicar tu juicio profesional y presentar los hallazgos con el contexto estratégico que solo tú puedes proveer.",
     "economicsLink": "Desglose Completo de Economía →",
-    "economicsHeader": "Economía Real · Por Informe (en un proyecto de US$5.000)",
+    "economicsHeader": "Economía Real · White-Label (en un compromiso de $7,500)",
     "economicsRows": [
       [
-        "Costo Soundcheck (Auto-Servicio)",
-        "20% · US$1.000"
+        "Fee de plataforma Soundcheck",
+        "40% del MSRP · $3,000"
       ],
       [
-        "Costo Soundcheck (Servicio Completo)",
-        "Hasta 50% · US$2.500"
+        "Tu agencia se queda con",
+        "60% del MSRP · $4,500"
       ],
       [
-        "Su tiempo (Auto-Servicio / Servicio Completo)",
-        "6–10h / 2–4h"
+        "Tu inversión de tiempo",
+        "2–6 horas"
       ],
       [
-        "Costo/hora efectivo",
-        "US$400–US$1.250+/h"
+        "Tarifa efectiva por hora",
+        "$750–$2,175+/h"
       ]
     ],
-    "marginLabel": "Su margen por informe",
-    "marginValue": "US$2.500–US$4.000",
+    "marginLabel": "Tu margen por compromiso",
+    "marginValue": "$4,500+",
     "ctaTitle": "Comience con un informe.\nVea qué se siente ganar US$400+/hora.",
     "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato, y ve el flujo de trabajo completo en práctica antes de escalarlo.",
     "ctaButton": "Solicitar Acceso a la Plataforma →"
@@ -310,36 +310,41 @@
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
-    "economicsHeader": "Economía Real · Por Informe (en un compromiso de US$5.000)",
-    "selfServe": "Autoservicio",
-    "selfServeDesc": "Usted opera la plataforma",
-    "fullService": "Servicio completo",
-    "fullServiceDesc": "Nosotros lo ayudamos de extremo a extremo",
+    "economicsHeader": "Economía Real · White-Label (en un compromiso de $7,500)",
+    "selfServe": "Partner Estándar",
+    "selfServeDesc": "40% fee de plataforma",
+    "fullService": "Partner Fundador",
+    "fullServiceDesc": "30% fee de plataforma (primeros 2 partners, año 1)",
     "economicsRows": [
       [
-        "Costo Soundcheck",
-        "20% del precio del cliente",
-        "Hasta 50% del precio del cliente"
+        "Fee de plataforma Soundcheck",
+        "40% del MSRP",
+        "30% del MSRP"
       ],
       [
-        "En un proyecto de US$5k",
-        "$1,000",
-        "$2,500"
+        "En un compromiso de $7,500",
+        "$3,000",
+        "$2,250"
       ],
       [
-        "Su inversión de tiempo",
-        "6–10 horas",
-        "2–4 horas"
+        "Tu agencia se queda con",
+        "$4,500",
+        "$5,250"
       ],
       [
-        "Costo/hora efectivo",
-        "$400–$667/h",
-        "$625–$1,250/h"
+        "Tu inversión de tiempo",
+        "2–6 horas",
+        "2–6 horas"
+      ],
+      [
+        "Tarifa efectiva por hora",
+        "$750–$2,175/h",
+        "$875–$2,625/h"
       ]
     ],
-    "yourMargin": "Su margen",
-    "marginSelfServe": "$4,000",
-    "marginFullService": "$2,500",
+    "yourMargin": "Tu margen",
+    "marginSelfServe": "$4,500",
+    "marginFullService": "$5,250",
     "operatorLabel": "Lo que obtiene como operador",
     "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
@@ -435,7 +440,7 @@
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes no olvidarán.",
-    "heroSub": "Seis paquetes de productos diseñados para ser presentados, entregados e implementados bajo la marca de su agencia — en hasta 48 horas. Usted define cuánto cobrar a sus clientes.",
+    "heroSub": "Cinco productos de alcance fijo diseñados para ser brifados, entregados e implementados bajo la marca de su agencia — o directo a su equipo. Usted define cuánto cobrar a sus clientes.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -492,18 +497,17 @@
       },
       {
         "num": "03",
-        "for": "Fundadores · Mana Tech · Etapa Temprana",
+        "for": "Miembros de Mana Tech · Exclusivo",
         "name": "Founder Pass",
         "tagline": "Inteligencia de mercado para fundadores, antes de tener un mercado.",
-        "desc": "Tres productos a precios accesibles para fundadores: Validation Sprint ($750), Brand Brief ($1,500) y Focus Test ($1,500). Entrega más rápida, alcance más ajustado, diseñado para startups de pre-seed hasta Serie A tomando decisiones reales con presupuesto limitado.",
+        "desc": "Exclusivo para miembros de Mana Tech. Tres productos a precios accesibles para fundadores: Validation Sprint ($750), Brand Brief ($1,500) y Focus Test ($1,500). El Validation Sprint requiere solo un cuestionario de 10 minutos. Brand Brief y Focus Test incluyen una llamada de brief de 30 minutos.",
         "price": "US$750–$1,500 por producto",
-        "delivery": "Entrega en 3–7 días · Términos de Founder Agreement",
+        "delivery": "Entrega en 3–7 días · Exclusivo Mana Tech · Términos de Founder Agreement",
         "ctaLabel": "Ver Detalles del Founder Pass →",
         "deliverables": [
-          "Founder Validation Sprint — sizing de mercado, principales competidores, framework de validación, riesgos clave (5–7 páginas)",
-          "Founder Brand Brief — inteligencia de marca, recomendaciones de posicionamiento, análisis de audiencia (10–15 páginas)",
-          "Founder Focus Test — sesión VFG con 6 personas, 1 tema, entrega en 3 días",
-          "Llamada de kickoff de 30 min + reporte + llamada de revisión de 30 min"
+          "Founder Validation Sprint — cuestionario de 10 min, sizing de mercado, principales competidores, framework de validación, riesgos clave (5–7 páginas)",
+          "Founder Brand Brief — llamada de brief de 30 min, inteligencia de marca, recomendaciones de posicionamiento, análisis de audiencia (40+ páginas)",
+          "Founder Focus Test — llamada de brief de 30 min, sesión VFG con 6 personas, 1 tema, entrega en 3 días"
         ],
         "link": "/founder-pass"
       },
@@ -2219,7 +2223,7 @@
   "founderPass": {
     "heroLabel": "Product Deep-Dive · Founder Pass",
     "heroTitle": "Inteligencia de mercado de grado fundador, antes de tener un mercado.",
-    "heroSub": "Founder Pass no es una versión diluida de productos empresariales. Es una familia de productos diferente, con nomenclatura diferente, alcance diferente, y precios específicos para fundadores. Validation Sprint, Brand Brief, o Focus Test. US$750–US$1,500. Entrega en 3–7 días.",
+    "heroSub": "Exclusivo para miembros de Mana Tech. Founder Pass no es una versión diluida de los productos enterprise. Es una familia de productos diferente, con alcance diferente y precios específicos para fundadores. El Validation Sprint requiere solo un cuestionario de 10 minutos. Brand Brief y Focus Test incluyen una llamada de brief de 30 minutos. $750–$1,500. Entrega en 3–7 días.",
     "ctaButton": "Comience →",
     "viewSkus": "Vea Nuestras Ofertas →",
     "heroStats": [
@@ -2249,40 +2253,40 @@
       {
         "name": "Founder Validation Sprint",
         "price": "US$750",
-        "scope": "Informe de 5–7 páginas: dimensionamiento de mercado, top-3 competidores, marco de validación/invalidación, riesgos clave.",
+        "scope": "Cuestionario de intake de 10 minutos. Reporte de 5–7 páginas: sizing de mercado, top-3 competidores, framework de validación/invalidación, riesgos clave.",
         "turnaround": "3–5 días"
       },
       {
         "name": "Founder Brand Brief",
         "price": "US$1,500",
-        "scope": "Informe de inteligencia de marca de 10–15 páginas: recomendaciones de posicionamiento, análisis de audiencia, pruebas de mensajes.",
+        "scope": "Llamada de brief de 30 minutos. Reporte de inteligencia de marca de 40+ páginas: recomendaciones de posicionamiento, análisis de audiencia, tests de mensajería.",
         "turnaround": "5–7 días"
       },
       {
         "name": "Founder Focus Test",
         "price": "US$1,500",
-        "scope": "Sesión de VFG única: 6 personas, 1 tema. Investigación de mensajes, landing pages, o posicionamiento de producto.",
+        "scope": "Llamada de brief de 30 minutos. Sesión VFG: 6 personas, 1 tema. Investigación de mensajería, landing pages o posicionamiento de producto.",
         "turnaround": "3 días"
       }
     ],
     "allIncludeLabel": "En cada paquete",
-    "allIncludeTitle": "Lo que incluyen todos los productos Founder Pass.",
+    "allIncludeTitle": "Lo que incluye varía según el producto.",
     "includes": [
       {
-        "label": "Llamada de kickoff de 30 min",
-        "desc": "Brief al equipo, aclare su pregunta, alinee en alcance."
+        "label": "Intake del Validation Sprint",
+        "desc": "Cuestionario online de 10 minutos. No requiere llamada."
       },
       {
-        "label": "Informe entregado",
-        "desc": "Investigación completamente generada por IA, empaquetada en formato PDF o .docx limpio."
+        "label": "Intake de Brand Brief y Focus Test",
+        "desc": "Llamada de brief de 30 minutos para alinear alcance y objetivos."
       },
       {
-        "label": "Llamada de revisión de 30 min",
-        "desc": "Camine a través de hallazgos, haga seguimientos, comience a planificar próximos pasos."
+        "label": "Reporte entregado",
+        "desc": "Investigación potenciada por IA, empaquetada en PDF o .docx."
       },
       {
         "label": "Sin revisiones",
-        "desc": "El precio refleja un corte. Usted avanza con lo que obtiene."
+        "desc": "El precio refleja una entrega. Avanzas con lo que recibes."
       }
     ],
     "howLabel": "Su timeline",

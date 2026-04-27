@@ -97,8 +97,8 @@
         "tag": "Your brand · Your credit · Your next contract"
       }
     ],
-    "productsLabel": "Six Products",
-    "productsTitle": "Six reports you can offer\nyour clients starting today.",
+    "productsLabel": "Five Products",
+    "productsTitle": "Five products you can offer\nyour clients starting today.",
     "products": [
       {
         "num": "01",
@@ -118,10 +118,10 @@
       },
       {
         "num": "03",
-        "for": "Founders · Mana Tech · Early-Stage",
+        "for": "Mana Tech Members · Exclusive",
         "name": "Founder Pass",
-        "desc": "Three founder-priced products: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Fast delivery, tight scope, real decisions.",
-        "delivery": "3–7 day delivery",
+        "desc": "Exclusive for Mana Tech members. Three products: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Fast delivery, tight scope, real decisions.",
+        "delivery": "3–7 day delivery · Mana Tech exclusive",
         "link": "/founder-pass"
       },
       {
@@ -143,31 +143,31 @@
     ],
     "viewAllProducts": "View All Products →",
     "economicsLabel": "The Business Case",
-    "economicsTitle1": "A $400–$1,250+/hour",
+    "economicsTitle1": "A $750–$2,175+/hour",
     "economicsTitle2": "revenue line. No new headcount.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Real Economics · Per Report (on a $5,000 engagement)",
+    "economicsHeader": "Real Economics · White-Label (on a $7,500 engagement)",
     "economicsRows": [
       [
-        "Soundcheck fee (Self-Serve)",
-        "20% · $1,000"
+        "Soundcheck platform fee",
+        "40% of MSRP · $3,000"
       ],
       [
-        "Soundcheck fee (Full-Service)",
-        "Up to 50% · $2,500"
+        "Your agency keeps",
+        "60% of MSRP · $4,500"
       ],
       [
-        "Your time (Self-Serve / Full-Service)",
-        "6–10h / 2–4h"
+        "Your time investment",
+        "2–6 hours"
       ],
       [
         "Effective hourly rate",
-        "$400–$1,250+/h"
+        "$750–$2,175+/h"
       ]
     ],
-    "marginLabel": "Your margin per report",
-    "marginValue": "$2,500–$4,000",
+    "marginLabel": "Your margin per engagement",
+    "marginValue": "$4,500+",
     "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
     "ctaSub": "Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.",
     "ctaButton": "Request Platform Access →"
@@ -310,36 +310,41 @@
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Per Report (on a $5,000 engagement)",
-    "selfServe": "Self-Serve",
-    "selfServeDesc": "You run the platform",
-    "fullService": "Full-Service",
-    "fullServiceDesc": "We help end-to-end",
+    "economicsHeader": "Real Economics · White-Label (on a $7,500 engagement)",
+    "selfServe": "Standard Partner",
+    "selfServeDesc": "40% platform fee",
+    "fullService": "Founding Partner",
+    "fullServiceDesc": "30% platform fee (first 2 partners, year 1)",
     "economicsRows": [
       [
-        "Soundcheck fee",
-        "20% of client price",
-        "Up to 50% of client price"
+        "Soundcheck platform fee",
+        "40% of MSRP",
+        "30% of MSRP"
       ],
       [
-        "On a $5k engagement",
-        "$1,000",
-        "$2,500"
+        "On a $7,500 engagement",
+        "$3,000",
+        "$2,250"
+      ],
+      [
+        "Your agency keeps",
+        "$4,500",
+        "$5,250"
       ],
       [
         "Your time investment",
-        "6–10 hours",
-        "2–4 hours"
+        "2–6 hours",
+        "2–6 hours"
       ],
       [
         "Effective hourly rate",
-        "$400–$667/h",
-        "$625–$1,250/h"
+        "$750–$2,175/h",
+        "$875–$2,625/h"
       ]
     ],
     "yourMargin": "Your margin",
-    "marginSelfServe": "$4,000",
-    "marginFullService": "$2,500",
+    "marginSelfServe": "$4,500",
+    "marginFullService": "$5,250",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [
@@ -435,7 +440,7 @@
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — in as little as 48 hours. You set the price for your clients.",
+    "heroSub": "Five fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — or direct to your team. You set the price for your clients.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -492,18 +497,17 @@
       },
       {
         "num": "03",
-        "for": "Founders · Mana Tech · Early-Stage",
+        "for": "Mana Tech Members · Exclusive",
         "name": "Founder Pass",
         "tagline": "Founder-grade market intelligence, before you have a market.",
-        "desc": "Three products at founder-friendly pricing: Validation Sprint ($750), Brand Brief ($1,500), and Focus Test ($1,500). Faster turnaround, tighter scope, designed for pre-seed through Series A startups making real decisions with limited budget.",
+        "desc": "Exclusive for Mana Tech members. Three products at founder-friendly pricing: Validation Sprint ($750), Brand Brief ($1,500), and Focus Test ($1,500). The Validation Sprint requires only a 10-minute questionnaire. Brand Brief and Focus Test include a 30-minute brief call.",
         "price": "US$750–$1,500 per product",
-        "delivery": "3–7 day delivery · Founder Agreement terms",
+        "delivery": "3–7 day delivery · Mana Tech exclusive · Founder Agreement terms",
         "ctaLabel": "See Founder Pass Details →",
         "deliverables": [
-          "Founder Validation Sprint — market sizing, top competitors, validation framework, key risks (5–7 pages)",
-          "Founder Brand Brief — brand intelligence, positioning recommendations, audience analysis (10–15 pages)",
-          "Founder Focus Test — single VFG session with 6 personas, 1 topic, 3-day turnaround",
-          "30-minute kickoff call + delivered report + 30-minute review call"
+          "Founder Validation Sprint — 10-min questionnaire, market sizing, top competitors, validation framework, key risks (5–7 pages)",
+          "Founder Brand Brief — 30-min brief call, brand intelligence, positioning recommendations, audience analysis (40+ pages)",
+          "Founder Focus Test — 30-min brief call, single VFG session with 6 personas, 1 topic, 3-day turnaround"
         ],
         "link": "/founder-pass"
       },
@@ -1446,7 +1450,7 @@
   "founderPass": {
     "heroLabel": "Product Deep-Dive · Founder Pass",
     "heroTitle": "Founder-grade market intelligence, before you have a market.",
-    "heroSub": "Founder Pass is not a watered-down version of enterprise products. It's a different product family, with different naming, different scope, and founder-specific pricing. Validation Sprint, Brand Brief, or Focus Test. $750–$1,500. 3–7 day turnaround.",
+    "heroSub": "Exclusive for Mana Tech members. Founder Pass is not a watered-down version of enterprise products. It's a different product family, with different scope and founder-specific pricing. Validation Sprint requires only a 10-minute questionnaire. Brand Brief and Focus Test include a 30-minute brief call. $750–$1,500. 3–7 day turnaround.",
     "ctaButton": "Get Started →",
     "viewSkus": "See Our Offerings →",
     "heroStats": [
@@ -1476,39 +1480,39 @@
       {
         "name": "Founder Validation Sprint",
         "price": "$750",
-        "scope": "5–7 page report: market sizing, top-3 competitors, validation/invalidation framework, key risks.",
+        "scope": "10-minute questionnaire intake. 5–7 page report: market sizing, top-3 competitors, validation/invalidation framework, key risks.",
         "turnaround": "3–5 days",
         "bestFor": "Ideas at the 'should I build this?' stage"
       },
       {
         "name": "Founder Brand Brief",
         "price": "$1,500",
-        "scope": "10–15 page brand intelligence report: positioning recommendations, audience analysis, messaging tests.",
+        "scope": "30-minute brief call. 40+ page brand intelligence report: positioning recommendations, audience analysis, messaging tests.",
         "turnaround": "5–7 days",
         "bestFor": "Pre-launch brands needing positioning clarity"
       },
       {
         "name": "Founder Focus Test",
         "price": "$1,500",
-        "scope": "Single VFG session: 6 personas, 1 topic. Messaging, landing pages, or product positioning research.",
+        "scope": "30-minute brief call. Single VFG session: 6 personas, 1 topic. Messaging, landing pages, or product positioning research.",
         "turnaround": "3 days",
         "bestFor": "Testing messaging or positioning with target audience"
       }
     ],
     "allIncludeLabel": "In every package",
-    "allIncludeTitle": "What all Founder Pass products include.",
+    "allIncludeTitle": "What's included varies by product.",
     "includes": [
       {
-        "label": "30-min kickoff call",
-        "desc": "Brief the team, clarify your question, align on scope."
+        "label": "Validation Sprint intake",
+        "desc": "10-minute online questionnaire. No call required."
+      },
+      {
+        "label": "Brand Brief & Focus Test intake",
+        "desc": "30-minute brief call to align on scope and objectives."
       },
       {
         "label": "Delivered report",
-        "desc": "Fully AI-generated research, packaged in clean PDF or .docx format."
-      },
-      {
-        "label": "30-min review call",
-        "desc": "Walk through findings, ask follow-ups, start planning next steps."
+        "desc": "Fully AI-augmented research, packaged in clean PDF or .docx format."
       },
       {
         "label": "No revisions",
