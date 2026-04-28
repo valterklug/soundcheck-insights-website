@@ -319,7 +319,10 @@ export default function VirtualFocusGroups() {
           <FadeIn delay={0.15}>
             <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: 32 }}>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginBottom: 8 }}>
-                {t('virtualFocusGroups.pricing.wholesale')}
+                {t('virtualFocusGroups.pricing.wholesale')}{' '}
+                <Link to={getLocalizedPath('/partner', lang)} style={{ color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)' }}>
+                  {t('nav.partnerWithUs')} →
+                </Link>
               </p>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.3)', lineHeight: 1.6 }}>
                 {t('virtualFocusGroups.pricing.projectNote')} <Link to={getLocalizedPath('/research-platform', lang)} style={{ color: 'var(--teal)', textDecoration: 'none', borderBottom: '1px solid var(--teal)' }}>/research-platform</Link>

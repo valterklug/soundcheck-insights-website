@@ -2271,7 +2271,7 @@
         }
       ],
       "includes": "Cada sessão inclui 100 solicitações de feedback agrupadas. Além de 100: US$50 cada.",
-      "wholesale": "Agência wholesale: ~50% dos preços de cliente final em todos os tiers.",
+      "wholesale": "Veja os modelos de parceria e divisões de receita.",
       "note": "White-label incluído. Todos os tiers incluem relatório com marca + chamada de revisão de 60 minutos."
     },
     "heroTitle": "Teste seu conceito antes de se comprometer com produção.",
@@ -2883,7 +2883,7 @@
         "total": "US$ 8.400"
       }
     ],
-    "pricingNote": "Preço de atacado para agências: aproximadamente 50% do preço do cliente final em todos os módulos. Contate-nos para onboarding de parceiros.",
+    "pricingNote": "Preços de atacado para agências disponíveis — veja os modelos de parceria e divisões de receita.",
     "whoTitle": "Construído para dois tipos de operadores",
     "whoAgenciesTitle": "Para Agências & Consultorías",
     "whoAgenciesDesc": "Adicione uma camada estruturada de inteligência de consumidor ao que você vende — sem construir um time de pesquisa interno. Execute um módulo para um cliente com prazo curto. Encadeie os três para um engajamento estratégico completo. White-label em todos.",
@@ -2973,7 +2973,7 @@
     "pricingSub": "Selecione qualquer número de personas do seu painel. Sem mínimo.",
     "pricingIncludes": "Brand Touchpoint Intake (formulário guiado, ~15 min) · Geração de jornada completa · Dashboard Funnel Overview · Cards de jornada por persona · Gap Analysis com scores de gravidade · Resumo executivo · Export PDF white-label · Histórico de versões",
     "pricingExamples": "6 personas = US$ 2.400 | 10 personas = US$ 4.000 | 20 personas = US$ 8.000",
-    "pricingNote": "Preço de atacado para agências é aproximadamente 50% do preço do cliente final. Contate-nos para onboarding de parceiros.",
+    "pricingNote": "Preços de atacado para agências disponíveis — veja os modelos de parceria e divisões de receita.",
     "faqTitle": "Perguntas comuns",
     "faqs": [
       {

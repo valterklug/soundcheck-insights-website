@@ -171,7 +171,10 @@ export default function ResearchPlatform() {
             {/* Pricing Note */}
             <div style={{ background: 'rgba(0,196,212,0.05)', border: '1px solid rgba(0,196,212,0.15)', padding: '20px 24px', borderRadius: 4, marginBottom: 32 }}>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.5)', lineHeight: 1.6, margin: 0 }}>
-                {t('researchPlatform.pricingNote')}
+                {t('researchPlatform.pricingNote')}{' '}
+                <Link to={getLocalizedPath('/partner', lang)} style={{ color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)' }}>
+                  {t('nav.partnerWithUs')} →
+                </Link>
               </p>
             </div>
 

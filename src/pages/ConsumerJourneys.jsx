@@ -171,7 +171,10 @@ export default function ConsumerJourneys() {
                 {t('consumerJourneys.pricingExamples')}
               </div>
               <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginBottom: 28, fontStyle: 'italic' }}>
-                {t('consumerJourneys.pricingNote')}
+                {t('consumerJourneys.pricingNote')}{' '}
+                <Link to={getLocalizedPath('/partner', lang)} style={{ color: 'var(--orange)', textDecoration: 'none', borderBottom: '1px solid rgba(232,71,42,0.3)' }}>
+                  {t('nav.partnerWithUs')} →
+                </Link>
               </p>
               <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ fontSize: 14 }}>
                 {t('consumerJourneys.ctaButton')}
