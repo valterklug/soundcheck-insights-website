@@ -20,6 +20,8 @@ import ExpansionReport from './pages/ExpansionReport'
 import ScaleAssessment from './pages/ScaleAssessment'
 import BusinessPlan from './pages/BusinessPlan'
 import VirtualFocusGroups from './pages/VirtualFocusGroups'
+import ResearchPlatform from './pages/ResearchPlatform'
+import ConsumerJourneys from './pages/ConsumerJourneys'
 import FounderPass from './pages/FounderPass'
 import InvestorVetting from './pages/InvestorVetting'
 import Contact from './pages/Contact'
@@ -63,6 +65,9 @@ const routes = [
   { path: '/idea-validation', element: <Navigate to="/founder-pass" replace /> },
   { path: '/business-plan', element: <BusinessPlan /> },
   { path: '/virtual-focus-groups', element: <VirtualFocusGroups /> },
+  { path: '/research-platform', element: <ResearchPlatform /> },
+  { path: '/consumer-journeys', element: <ConsumerJourneys /> },
+  { path: '/market-research', element: <Navigate to="/research-platform" replace /> },
   { path: '/founder-pass', element: <FounderPass /> },
   { path: '/investor-vetting', element: <InvestorVetting /> },
   { path: '/resources', element: <Resources /> },

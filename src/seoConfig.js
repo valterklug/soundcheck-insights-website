@@ -230,15 +230,54 @@ const seoConfig = {
   },
 
   '/virtual-focus-groups': {
-    title: 'AI Virtual Focus Groups',
-    description: 'Pressure-test packaging, creative, pricing, and positioning with AI-generated buyer personas that mirror your target audience. No recruiting. No scheduling. Delivered in 2-3 weeks. From US$3,000.',
+    title: 'Virtual Focus Group Sessions · Module 03',
+    description: 'Test packaging, taglines, creative territories, and pricing claims against research-grounded buyer personas. $4,000 per session. Three feedback rounds included. Reusable panels.',
     image: '/og/og-virtual-focus-groups.png',
     keywords: 'virtual focus groups, AI focus groups, consumer testing, packaging testing, creative testing, pricing testing, buyer personas, concept testing',
     schema: serviceSchema(
-      'AI Virtual Focus Groups',
-      'Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. Fast, affordable, iterative consumer insight.',
-      '3000',
+      'Virtual Focus Group Sessions',
+      'Test any concept against your research-grounded persona panel. Preference votes, verbatim quotes, strategic insights, and three rounds of iterative feedback per session.',
+      '4000',
       '/virtual-focus-groups',
+    ),
+  },
+
+  '/research-platform': {
+    title: 'Consumer Intelligence Platform',
+    description: 'Three connected modules for consumer intelligence: Market Research, Consumer Journey Maps, and Virtual Focus Group Sessions. Start with what you need. Add depth as the project grows.',
+    image: '/og/og-products.png',
+    keywords: 'consumer intelligence, market research, consumer journey maps, virtual focus groups, buyer personas, brand research, agency research platform',
+    schema: serviceSchema(
+      'Consumer Intelligence Platform',
+      'Three connected modules: Market Research, Consumer Journey Maps, and Virtual Focus Group Sessions. Commission one or chain all three.',
+      '4000',
+      '/research-platform',
+    ),
+  },
+
+  '/consumer-journeys': {
+    title: 'Consumer Journey Maps · Module 02',
+    description: 'Brand-specific consumer journey maps built from your market research and persona panel. See how each buyer persona moves from awareness to advocacy — and where your touchpoints miss them.',
+    image: '/og/og-products.png',
+    keywords: 'consumer journey maps, buyer journey, customer journey mapping, brand touchpoints, gap analysis, persona journey, purchase funnel',
+    schema: serviceSchema(
+      'Consumer Journey Maps',
+      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $400 per persona.',
+      '400',
+      '/consumer-journeys',
+    ),
+  },
+
+  '/market-research': {
+    title: 'Market Research · Module 01',
+    description: 'Decision-grade market research with research-grounded buyer personas. Three reports: Market Analysis, Consumer Analysis, Competitive Landscape. From $4,000.',
+    image: '/og/og-products.png',
+    keywords: 'market research, consumer analysis, competitive landscape, buyer personas, market intelligence, brand research',
+    schema: serviceSchema(
+      'Market Research',
+      'Three decision-grade research reports plus a research-grounded buyer persona panel. The foundation for consumer journey maps and virtual focus groups.',
+      '4000',
+      '/market-research',
     ),
   },
 

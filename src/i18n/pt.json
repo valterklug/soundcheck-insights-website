@@ -7,7 +7,14 @@
     "resources": "Recursos",
     "partnerWithUs": "Seja Parceiro Conosco",
     "ourPartners": "Nossos Parceiros",
-    "getStarted": "Começar →"
+    "getStarted": "Começar →",
+    "platformModules": "Módulos da Plataforma",
+    "platformModulesDesc": "Três módulos conectados. Comece com pesquisa, aprofunde conforme necessário.",
+    "standaloneProducts": "Produtos Independentes",
+    "standaloneProductsDesc": "Entregas de escopo definido e preço fixo. Contrate um por vez.",
+    "marketResearch": "Market Research",
+    "consumerJourneys": "Consumer Journey Maps",
+    "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
     "tagline": "Plataforma de inteligência de mercado por IA para agências e consultorias.",
@@ -134,11 +141,14 @@
       },
       {
         "num": "05",
-        "for": "Agências · Marcas · Fundadores",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Teste conceitos, posicionamento e pricing com personas IA. Três níveis desde teste rápido até pesquisa multi-onda. Sem recrutamento, sem agendamento.",
-        "delivery": "Entrega em 3–10 dias · White-label incluído",
-        "link": "/virtual-focus-groups"
+        "for": "Agências · Marcas · Founders",
+        "name": "Consumer Intelligence Platform",
+        "tagline": "Pesquisa é estagnada. Escala é o que você precisa.",
+        "desc": "Três módulos conectados — pesquisa de mercado com personas grounded em dados de pesquisa, mapas de jornada de consumidor específicos da marca, e sessões de focus group com IA. Execute um módulo ou conecte todos os três.",
+        "price": "Pesquisa de US$ 4.000 · Jornadas de US$ 400/persona · Focus Groups US$ 4.000/sessão",
+        "delivery": "Entrega em 2–10 dias · White-label incluído",
+        "link": "/research-platform",
+        "ctaLabel": "Ver Detalhes da Plataforma →"
       },
       {
         "num": "06",
@@ -178,7 +188,30 @@
     "marginValue": "$4,500+",
     "ctaTitle": "Comece com um relatório.\nVeja como se sente ganhar US$400+/hora.",
     "ctaSub": "A maioria dos operadores começa com um cliente existente. Baixo risco, valor imediato e você vê o fluxo de trabalho completo na prática antes de escalar.",
-    "ctaButton": "Solicitar Acesso à Plataforma →"
+    "ctaButton": "Solicitar Acesso à Plataforma →",
+    "modulesLabel": "A Plataforma de Inteligência de Consumidor",
+    "modulesTitle": "Um fluxo. Três módulos. Tanto quanto o projeto precisar.",
+    "modules": [
+      {
+        "num": "01",
+        "name": "Market Research",
+        "desc": "Três relatórios de qualidade de decisão + painel de personas grounded em dados reais. A base sobre a qual tudo mais se constrói.",
+        "price": "Tiers S / M / L: US$ 4.000 · US$ 6.000 · US$ 8.000"
+      },
+      {
+        "num": "02",
+        "name": "Consumer Journey Maps",
+        "desc": "Mapas de jornada específicos da marca mostrando como cada persona descobre, avalia e compra — e onde seus pontos de contato os encontram ou os perdem.",
+        "price": "US$ 400 por persona · escolha quantos precisar"
+      },
+      {
+        "num": "03",
+        "name": "Virtual Focus Groups",
+        "desc": "Teste embalagem, conceitos, preços e territórios criativos contra seu painel de personas. Três rodadas de feedback iterativo por sessão.",
+        "price": "US$ 4.000 por sessão"
+      }
+    ],
+    "modulesCta": "Veja como os módulos se combinam →"
   },
   "howItWorks": {
     "heroLabel": "Como a Plataforma Funciona",
@@ -536,20 +569,19 @@
       },
       {
         "num": "05",
-        "for": "Agências · Marcas · Fundadores",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Teste conceitos criativos, ideias de produto, pricing e posicionamento com personas geradas por IA que espelham seu público-alvo. Sem recrutamento. Sem agendamento. Três níveis desde teste rápido até pesquisa multi-onda.",
-        "price": "Mini $3,500 · Standard $7,500 · Premium $15,000",
-        "delivery": "Entrega em 3–10 dias · White-label incluído",
-        "ctaLabel": "Ver Detalhes de VFG →",
+        "for": "Agências · Marcas · Founders",
+        "name": "Consumer Intelligence Platform",
+        "tagline": "Pesquisa. Jornadas. Focus Groups. Em sequência ou independente.",
+        "desc": "Três módulos conectados para agências e marcas que precisam de inteligência de consumidor estruturada.",
+        "price": "Pesquisa de US$ 4.000 · Jornadas US$ 400/persona · Focus Groups US$ 4.000/sessão",
+        "delivery": "Entrega em 2–10 dias · White-label incluído",
+        "ctaLabel": "Ver Detalhes da Plataforma →",
         "deliverables": [
-          "VFG Mini — 6 personas, 1 tema, entrega em 3–5 dias",
-          "VFG Standard — 12 personas, 3 temas, entrega em 5–7 dias",
-          "VFG Premium — 20 personas, teste multi-onda, entrega em 7–10 dias",
-          "100 solicitações de feedback incluídas por sessão",
-          "Relatório com marca + análise de sentimento + framework de recomendações"
+          "Módulo 01 — Market Research (a partir de US$ 4.000): Três relatórios de qualidade de decisão — Análise de Mercado, Análise de Consumidor, Panorama Competitivo — mais painel de personas com 6, 12 ou 20 personas de compradores grounded em dados de pesquisa, dependendo do tier. Preços S/M/L: US$ 4.000 / US$ 6.000 / US$ 8.000.",
+          "Módulo 02 — Consumer Journey Maps (US$ 400/persona): Mapas de jornada específicos da marca mostrando como cada persona se move de conscientização para defesa — e onde os pontos de contato da marca se alinham, erram ou criam atrito. Requer Market Research concluído. Dashboard visual + export PDF.",
+          "Módulo 03 — Virtual Focus Group Sessions (US$ 4.000/sessão): Teste qualquer conceito contra o painel completo de personas. Votações de preferência, citações literais, insights estratégicos e três rodadas de feedback iterativo por sessão. Painéis são reutilizáveis entre sessões e linhas de produtos."
         ],
-        "link": "/virtual-focus-groups"
+        "link": "/research-platform"
       },
       {
         "num": "06",
@@ -2241,7 +2273,34 @@
       "includes": "Cada sessão inclui 100 solicitações de feedback agrupadas. Além de 100: US$50 cada.",
       "wholesale": "Agência wholesale: ~50% dos preços de cliente final em todos os tiers.",
       "note": "White-label incluído. Todos os tiers incluem relatório com marca + chamada de revisão de 60 minutos."
-    }
+    },
+    "heroTitle": "Teste seu conceito antes de se comprometer com produção.",
+    "prereqTitle": "Antes de executar uma sessão",
+    "prereqDesc": "Sessões de Virtual Focus Group são executadas contra seu painel de personas existente. Seu painel é construído como parte do módulo Market Research — contém 6, 12 ou 20 personas de comprador grounded em pesquisa, dependendo do tier que você selecionou.",
+    "prereqReady": "Se sua pesquisa está concluída e seu painel existe, você está pronto para executar uma sessão.",
+    "prereqCta": "Comece com Market Research →",
+    "prereqSteps": [
+      {
+        "num": "1",
+        "title": "Comunique o conceito",
+        "desc": "Descreva o que você quer testar (texto, imagem, PDF ou descrição de conceito)"
+      },
+      {
+        "num": "2",
+        "title": "Selecione quais personas incluir",
+        "desc": "Use seu painel completo ou um subconjunto"
+      },
+      {
+        "num": "3",
+        "title": "Execute",
+        "desc": "Resultados são entregues em um dashboard em marca em 3–5 dias úteis"
+      },
+      {
+        "num": "4",
+        "title": "Itere",
+        "desc": "Refine o conceito e re-execute dentro da mesma sessão. Até 3 rodadas incluídas."
+      }
+    ]
   },
   "founderPass": {
     "heroLabel": "Deep-Dive do Produto · Founder Pass",
@@ -2734,5 +2793,209 @@
     "ctaTitle": "Construído para crescer não é o mesmo que construído para escalar.",
     "ctaButton": "Solicitar Este Assessment →",
     "ctaLink": "Ou explore todos os produtos →"
+  },
+  "researchPlatform": {
+    "heroLabel": "Consumer Intelligence Platform",
+    "heroTitle": "Pesquisa. Jornadas. Focus Groups.",
+    "heroSub": "Três módulos. Um fluxo de trabalho. Tanto quanto o projeto precisar.",
+    "heroDesc": "Contrate Market Research e obtenha um painel de personas grounded em pesquisa. Mapeie como cada persona compra com Consumer Journey Maps. Teste seus conceitos com Virtual Focus Group Sessions. Cada módulo funciona sozinho. Os três juntos se reforçam.",
+    "ctaButton": "Solicitar Acesso →",
+    "seePricing": "Ver Preços ↓",
+    "modulesTitle": "Como os módulos se conectam",
+    "modules": [
+      {
+        "num": "01",
+        "name": "Market Research",
+        "tag": "A base. Obrigatório para todos os outros módulos.",
+        "desc": "Três relatórios de qualidade de decisão gerados a partir de uma intake de 60 minutos: Análise de Mercado, Análise de Consumidor e Panorama Competitivo. Cada afirmação etiquetada com um rótulo de confiança e tier de fonte. Inclui painel de personas de comprador — 6, 12 ou 20 personas, dependendo do tier — grounded na pesquisa, não construído a partir de suposições.",
+        "whatYouGet": "3 relatórios de pesquisa em marca + painel de personas editável",
+        "delivery": "2–3 semanas a partir da intake assinada",
+        "pricing": "Pequeno US$ 4.000 (6 personas) · Médio US$ 6.000 (12 personas) · Grande US$ 8.000 (20 personas)",
+        "link": "/market-research",
+        "linkLabel": "Ver detalhes completos →"
+      },
+      {
+        "num": "02",
+        "name": "Consumer Journey Maps",
+        "tag": "Complemento. Requer Market Research.",
+        "desc": "Mapas de jornada específicos da marca que mostram como cada persona selecionada se move de primeira conscientização para defesa da marca — e onde seus pontos de contato atuais ou planejados os encontram ou os perdem. Construído a partir de sua pesquisa de mercado e painel de personas. Uma intake de marca breve (~15 minutos) captura sua estratégia de canal. O sistema gera um mapa de jornada visual para cada persona selecionada.",
+        "whatYouGet": "Visão geral do funil + timeline por persona + análise de gaps + export PDF",
+        "delivery": "3–5 dias úteis após intake da marca",
+        "pricing": "US$ 400 por persona · escolha quantas precisar do seu painel",
+        "link": "/consumer-journeys",
+        "linkLabel": "Ver detalhes completos →"
+      },
+      {
+        "num": "03",
+        "name": "Virtual Focus Group Sessions",
+        "tag": "Complemento. Requer Market Research.",
+        "desc": "Teste embalagem, taglines, territórios criativos, conceitos de produto ou claims de preço contra seu painel completo de personas. Cada sessão inclui três rodadas de feedback iterativo — refine o conceito entre rodadas sem iniciar uma nova sessão. Painéis são reutilizáveis em múltiplas sessões e linhas de produtos.",
+        "whatYouGet": "Dashboard com votações de preferência, citações literais, insights estratégicos + 3 rodadas de feedback",
+        "delivery": "3–5 dias úteis",
+        "pricing": "US$ 4.000 por sessão · rodadas de feedback adicionais US$ 50 cada",
+        "link": "/virtual-focus-groups",
+        "linkLabel": "Ver detalhes completos →"
+      }
+    ],
+    "pricingLabel": "Construa seu projeto",
+    "pricingSub": "Cada módulo tem preço independente. Comece com pesquisa e aprofunde conforme o projeto cresce. Você nunca paga por mais do que precisa.",
+    "pricingColumns": [
+      "Tamanho do Projeto",
+      "Market Research",
+      "Consumer Journeys",
+      "VFG Session",
+      "Total"
+    ],
+    "pricingRows": [
+      {
+        "name": "Starter",
+        "research": "Pesquisa S (US$ 4.000)",
+        "journeys": "6 personas (US$ 2.400)",
+        "vfg": "1 sessão (US$ 4.000)",
+        "total": "US$ 10.400"
+      },
+      {
+        "name": "Growth",
+        "research": "Pesquisa M (US$ 6.000)",
+        "journeys": "8 personas (US$ 3.200)",
+        "vfg": "1 sessão (US$ 4.000)",
+        "total": "US$ 13.200"
+      },
+      {
+        "name": "Full Scale",
+        "research": "Pesquisa L (US$ 8.000)",
+        "journeys": "10 personas (US$ 4.000)",
+        "vfg": "1 sessão (US$ 4.000)",
+        "total": "US$ 16.000"
+      },
+      {
+        "name": "Research Only",
+        "research": "Pesquisa S (US$ 4.000)",
+        "journeys": "—",
+        "vfg": "—",
+        "total": "US$ 4.000"
+      },
+      {
+        "name": "Research + Journeys",
+        "research": "Pesquisa M (US$ 6.000)",
+        "journeys": "6 personas (US$ 2.400)",
+        "vfg": "—",
+        "total": "US$ 8.400"
+      }
+    ],
+    "pricingNote": "Preço de atacado para agências: aproximadamente 50% do preço do cliente final em todos os módulos. Contate-nos para onboarding de parceiros.",
+    "whoTitle": "Construído para dois tipos de operadores",
+    "whoAgenciesTitle": "Para Agências & Consultorías",
+    "whoAgenciesDesc": "Adicione uma camada estruturada de inteligência de consumidor ao que você vende — sem construir um time de pesquisa interno. Execute um módulo para um cliente com prazo curto. Encadeie os três para um engajamento estratégico completo. White-label em todos.",
+    "whoBrandsTitle": "Para Marcas & Times de Marketing",
+    "whoBrandsDesc": "Execute sua própria pesquisa, mapeie como seus compradores-alvo tomam decisões e teste seus conceitos antes de se comprometer com produção ou gastos em mídia. Marcas trabalham através de uma de nossas agências parceiras.",
+    "whoCta": "Parceiros Conosco →"
+  },
+  "consumerJourneys": {
+    "heroLabel": "Consumer Journey Maps · Módulo 02",
+    "heroTitle": "Veja como seu comprador realmente se move de descoberta para fidelidade.",
+    "heroSub": "Consumer Journey Maps mostram a sequência completa de como cada persona no seu painel descobre, avalia, compra e retorna à sua marca — e onde seus pontos de contato atuais ou planejados se alinham, erram ou criam atrito. Específico da marca. Grounded em sua pesquisa de mercado. Visual e exportável.",
+    "heroStats": [
+      {
+        "num": "US$ 400",
+        "label": "POR PERSONA"
+      },
+      {
+        "num": "3–5",
+        "label": "DIAS ÚTEIS"
+      },
+      {
+        "num": "6",
+        "label": "ESTÁGIOS DO FUNIL"
+      },
+      {
+        "num": "PDF",
+        "label": "EXPORT WHITE-LABEL"
+      }
+    ],
+    "ctaButton": "Solicitar Acesso →",
+    "prereqTitle": "Antes de executar este módulo",
+    "prereqDesc": "Consumer Journey Maps requerem um projeto concluído de Market Research e painel de personas. A jornada é construída a partir de seus dados de pesquisa e perfis de personas — sem eles, o resultado seria genérico, não específico da marca.",
+    "prereqReady": "Se sua pesquisa já está concluída, você está pronto.",
+    "prereqCta": "Comece com Market Research →",
+    "whatTitle": "Uma persona diz quem é seu comprador. Um mapa de jornada diz como ele compra.",
+    "whatDesc1": "Sua Market Research cria personas de comprador — perfis definidos com motivações, comportamentos, hábitos de mídia e gatilhos de decisão. Isso responde quem. Um Consumer Journey Map responde como: a sequência completa de comportamentos e emoções do momento em que sua marca aparece em seu radar até o momento em que a recomendam para outra pessoa.",
+    "whatDesc2": "E criticamente — mostra onde sua marca os encontra nesse caminho, e onde não.",
+    "whatCallout": "Persona = quem. Mapa de jornada = como eles compram. Focus group = como eles reagem. Cada módulo responde uma pergunta diferente. Os três juntos dão a você o quadro completo.",
+    "howTitle": "Como funciona",
+    "howSteps": [
+      {
+        "num": "1",
+        "title": "Selecione suas personas (2 minutos)",
+        "desc": "Escolha quais personas do seu painel existente incluir. Mínimo 1, máximo seu painel completo. Cada persona selecionada recebe seu próprio mapa de jornada."
+      },
+      {
+        "num": "2",
+        "title": "Complete a Intake de Pontos de Contato da Marca (~15 minutos)",
+        "desc": "Um questionário estruturado curto captura o go-to-market específico de sua marca: quais canais você usa para adquirir consumidores, como se parece o caminho de compra e o que acontece após a primeira compra. Este é o único novo input necessário — o sistema já tem sua pesquisa e personas."
+      },
+      {
+        "num": "3",
+        "title": "Execute",
+        "desc": "A plataforma combina sua pesquisa de mercado, perfis de personas e intake de marca para gerar uma jornada completa para cada persona selecionada. A geração leva 3–5 minutos."
+      },
+      {
+        "num": "4",
+        "title": "Revise no dashboard visual",
+        "desc": "Três abas: Funnel Overview (visão agregada entre todas as personas), Journey per Persona (timelines individuais estágio a estágio) e Gap Analysis (onde os pontos de contato da marca estão ausentes, parciais ou desalinhados — ordenados por gravidade). Export como PDF white-label em um clique."
+      }
+    ],
+    "outputTitle": "O que você recebe",
+    "outputs": [
+      {
+        "title": "O Funnel Overview",
+        "desc": "O funil de compra completo visualizado em seis estágios: Conscientização, Consideração, Intenção, Compra, Fidelidade, Defesa. Para cada estágio: o que consumidores nessa categoria normalmente fazem, qual é o ponto de contato planejado de sua marca e um indicador de cobertura (presente / parcial / ausente) por persona."
+      },
+      {
+        "title": "Journey per Persona",
+        "desc": "Um card por persona selecionada. Cada card mostra uma timeline horizontal — seis estágios, da esquerda para a direita — com quatro linhas: o que essa persona faz, o que sente, qual pergunta está fazendo e se sua marca a encontra ali. Callouts de gaps destacam os dois ou três maiores desalinhamentos para essa persona especificamente."
+      },
+      {
+        "title": "Gap Analysis",
+        "desc": "Todos os gaps de todas as personas consolidados em uma lista priorizada. Ordenados por gravidade: Alta / Média / Baixa. Cada gap mostra quais personas são afetadas, o que está faltando e uma recomendação específica. Um sumário executivo entre-personas no topo sintetiza o achado mais crítico."
+      },
+      {
+        "title": "Export PDF White-Label",
+        "desc": "Exporte o output completo como um PDF em marca — logo de sua agência na capa e cabeçalho, atribuição Soundcheck suprimida. Pronto para uma reunião com cliente no dia em que gera."
+      },
+      {
+        "title": "Version History",
+        "desc": "Duplique e re-execute qualquer jornada depois que uma marca atualizar sua estratégia de canal. Ambas as versões são armazenadas com timestamps. Nenhum dado é perdido."
+      }
+    ],
+    "pricingTitle": "Preços",
+    "pricingAmount": "US$ 400 por persona",
+    "pricingSub": "Selecione qualquer número de personas do seu painel. Sem mínimo.",
+    "pricingIncludes": "Brand Touchpoint Intake (formulário guiado, ~15 min) · Geração de jornada completa · Dashboard Funnel Overview · Cards de jornada por persona · Gap Analysis com scores de gravidade · Resumo executivo · Export PDF white-label · Histórico de versões",
+    "pricingExamples": "6 personas = US$ 2.400 | 10 personas = US$ 4.000 | 20 personas = US$ 8.000",
+    "pricingNote": "Preço de atacado para agências é aproximadamente 50% do preço do cliente final. Contate-nos para onboarding de parceiros.",
+    "faqTitle": "Perguntas comuns",
+    "faqs": [
+      {
+        "q": "Preciso completar a pesquisa de mercado completa antes de executar um mapa de jornada?",
+        "a": "Sim. Consumer Journey Maps são construídos a partir de seus dados de pesquisa de mercado e painel de personas. Sem pesquisa, a jornada seria um mapa genérico de categoria — não específico da marca. Se você ainda não executou pesquisa, comece em /market-research."
+      },
+      {
+        "q": "Qual é a diferença entre uma persona e um mapa de jornada?",
+        "a": "Uma persona diz quem é seu comprador — suas motivações, comportamentos e gatilhos de decisão. Um mapa de jornada diz como essa persona específica se move através da sequência completa de compra, e onde sua marca está presente ou ausente ao longo do caminho. Personas respondem 'quem'. Mapas de jornada respondem 'como eles compram.'"
+      },
+      {
+        "q": "Qual é a diferença entre um mapa de jornada e uma sessão de focus group virtual?",
+        "a": "Um mapa de jornada mostra uma sequência comportamental e temporal — como uma persona se move de descoberta a fidelidade ao longo do tempo. Um focus group testa um estímulo específico (embalagem, tagline, conceito) e captura reações imediatas. Mapas de jornada são ferramentas de planejamento estratégico. Focus groups são ferramentas de teste e validação. Eles se complementam."
+      },
+      {
+        "q": "Posso re-executar um mapa de jornada se minha estratégia de canal mudar?",
+        "a": "Sim. Duplique a jornada existente, atualize as respostas de intake da marca e execute uma nova versão. Ambas as versões são armazenadas independentemente com timestamps."
+      },
+      {
+        "q": "Quanto tempo leva para gerar um mapa de jornada?",
+        "a": "A intake de marca leva aproximadamente 15 minutos para completar. A geração leva 3–5 minutos depois que você clica em Run. Tempo total do início ao deliverable: menos de 25 minutos."
+      }
+    ]
   }
 }

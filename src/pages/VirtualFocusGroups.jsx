@@ -21,7 +21,7 @@ export default function VirtualFocusGroups() {
   const heroStats = t('virtualFocusGroups.heroStats', { returnObjects: true })
   const forBrands = t('virtualFocusGroups.forBrands', { returnObjects: true })
   const forAgencies = t('virtualFocusGroups.forAgencies', { returnObjects: true })
-  const pricing = t('virtualFocusGroups.pricing', { returnObjects: true })
+  const prereqSteps = t('virtualFocusGroups.prereqSteps', { returnObjects: true })
 
   return (
     <PageWrapper>
@@ -37,14 +37,10 @@ export default function VirtualFocusGroups() {
         <div className="page-hero-inner">
           <span className="sc-label">{t('virtualFocusGroups.heroLabel')}</span>
           <h1 className="page-h1" style={{ maxWidth: 800 }}>
-            {t('virtualFocusGroups.heroTitle1')}{' '}
-            <span style={{ color: 'var(--teal)' }}>{t('virtualFocusGroups.heroTitle2')}</span>
+            {t('virtualFocusGroups.heroTitle')}
           </h1>
           <p className="page-sub" style={{ maxWidth: 680 }}>
             {t('virtualFocusGroups.heroSub')}
-          </p>
-          <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.35)', lineHeight: 1.7, maxWidth: 680, marginTop: 12 }}>
-            {t('virtualFocusGroups.heroSub2')}
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 28 }}>
             <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary">{t('virtualFocusGroups.requestAccess')}</Link>
@@ -113,29 +109,67 @@ export default function VirtualFocusGroups() {
         <style>{"@media(max-width:900px){.grid-2{grid-template-columns:1fr!important}}"}</style>
       </section>
 
-      {/* How It Works — 3 Steps */}
+      {/* Prerequisite Block */}
       <section id="how-it-works" style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
-        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+        <div style={{ maxWidth: 800, margin: '0 auto' }}>
           <FadeIn>
-            <span className="sc-label">{t('virtualFocusGroups.processLabel')}</span>
-            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', lineHeight: 1.15, marginBottom: 48, maxWidth: 700 }}>
-              {t('virtualFocusGroups.processTitle')}
-            </h2>
+            <div style={{
+              borderTop: '3px solid var(--teal)',
+              background: 'rgba(0,196,212,0.04)',
+              padding: '40px 32px',
+              marginBottom: 48
+            }}>
+              <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 400, color: '#fff', marginBottom: 12 }}>
+                {t('virtualFocusGroups.prereqTitle')}
+              </h2>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.5)', lineHeight: 1.7, marginBottom: 16 }}>
+                {t('virtualFocusGroups.prereqDesc')}
+              </p>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', lineHeight: 1.7, fontStyle: 'italic', marginBottom: 20 }}>
+                {t('virtualFocusGroups.prereqReady')}
+              </p>
+              <Link to={getLocalizedPath('/market-research', lang)} style={{ color: 'var(--teal)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, textDecoration: 'none', borderBottom: '1px solid var(--teal)', paddingBottom: 2 }}>
+                {t('virtualFocusGroups.prereqCta')}
+              </Link>
+            </div>
           </FadeIn>
-          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="offer-grid">
-            {steps.map((s) => (
-              <StaggerItem key={s.num}>
-                <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '32px 24px', height: '100%', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 9, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 8 }}>Step {s.num}</div>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 20, fontWeight: 400, color: '#fff', marginBottom: 14, lineHeight: 1.2 }}>{s.title}</div>
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', lineHeight: 1.7, flex: 1 }}>{s.desc}</p>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--teal)', marginTop: 20 }}>{s.tag}</div>
+
+          <FadeIn delay={0.1}>
+            <h3 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff', marginBottom: 24, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+              Getting Started
+            </h3>
+          </FadeIn>
+
+          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20 }} className="prereq-grid">
+            {prereqSteps.map((step) => (
+              <StaggerItem key={step.num}>
+                <div style={{ display: 'flex', gap: 16 }}>
+                  <div style={{
+                    width: 32,
+                    height: 32,
+                    borderRadius: '50%',
+                    background: 'var(--teal)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}>
+                    <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#fff' }}>{step.num}</span>
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff', marginBottom: 4 }}>
+                      {step.title}
+                    </div>
+                    <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6 }}>
+                      {step.desc}
+                    </p>
+                  </div>
                 </div>
               </StaggerItem>
             ))}
           </StaggerContainer>
         </div>
-        <style>{"@media(max-width:900px){.offer-grid{grid-template-columns:1fr!important}.section-pad{padding:60px 24px!important}}"}</style>
+        <style>{"@media(max-width:900px){.prereq-grid{grid-template-columns:1fr!important}}"}</style>
       </section>
 
       {/* Deliverables */}
@@ -238,30 +272,67 @@ export default function VirtualFocusGroups() {
 
       {/* Pricing */}
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
-        <div style={{ maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
+        <div style={{ maxWidth: 900, margin: '0 auto', textAlign: 'center' }}>
           <FadeIn>
-            <span className="sc-label">{pricing.label}</span>
-            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', marginBottom: 40, lineHeight: 1.1 }}>
-              {pricing.title}
+            <span className="sc-label">{t('virtualFocusGroups.pricing.label')}</span>
+            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', marginBottom: 20, lineHeight: 1.1 }}>
+              {t('virtualFocusGroups.pricing.title')}
             </h2>
+            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.6, marginBottom: 40 }}>
+              {t('virtualFocusGroups.pricing.sub')}
+            </p>
           </FadeIn>
-          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="offer-grid">
-            {pricing.tiers.map((tier, i) => (
-              <StaggerItem key={i}>
-                <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.15)', borderTop: '3px solid var(--teal)', padding: '40px 28px', textAlign: 'center', height: '100%', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: 'var(--teal)', marginBottom: 8 }}>{tier.name}</div>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 32, fontWeight: 300, color: '#fff', marginBottom: 12 }}>{tier.price}</div>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.5)', marginBottom: 8 }}>{tier.scope}</div>
-                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(255,255,255,0.3)', marginBottom: 16 }}>{tier.delivery}</div>
-                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.5, marginTop: 'auto', paddingTop: 16, borderTop: '1px solid rgba(255,255,255,0.06)' }}>{tier.best}</div>
-                </div>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
+
+          <FadeIn delay={0.05}>
+            <div style={{ background: 'rgba(0,196,212,0.05)', border: '1px solid rgba(0,196,212,0.15)', borderTop: '3px solid var(--teal)', padding: '48px 40px', marginBottom: 40, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 48, fontWeight: 300, color: '#fff', marginBottom: 4 }}>
+                {t('virtualFocusGroups.pricing.amount')}
+              </div>
+            </div>
+          </FadeIn>
+
+          <FadeIn delay={0.1}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 2, marginBottom: 32 }} className="pricing-items">
+              <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '24px 28px', textAlign: 'left' }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--teal)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Includes</div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12.5, color: 'rgba(255,255,255,0.5)', lineHeight: 1.7 }}>
+                  {t('virtualFocusGroups.pricing.includes')}
+                </p>
+              </div>
+
+              <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '24px 28px', textAlign: 'left' }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--teal)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Additional Feedback Rounds</div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12.5, color: 'rgba(255,255,255,0.5)', lineHeight: 1.7 }}>
+                  {t('virtualFocusGroups.pricing.extra')}
+                </p>
+              </div>
+
+              <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '24px 28px', textAlign: 'left' }}>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--teal)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Panel Reusability</div>
+                <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12.5, color: 'rgba(255,255,255,0.5)', lineHeight: 1.7 }}>
+                  {t('virtualFocusGroups.pricing.reuse')}
+                </p>
+              </div>
+            </div>
+          </FadeIn>
+
           <FadeIn delay={0.15}>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginTop: 20 }}>{pricing.includes}</p>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.25)', lineHeight: 1.6, marginTop: 8 }}>{pricing.wholesale}</p>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.25)', lineHeight: 1.6, marginTop: 8 }}>{pricing.note}</p>
+            <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: 32 }}>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)', lineHeight: 1.6, marginBottom: 8 }}>
+                {t('virtualFocusGroups.pricing.wholesale')}
+              </p>
+              <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.3)', lineHeight: 1.6 }}>
+                {t('virtualFocusGroups.pricing.projectNote')} <Link to={getLocalizedPath('/research-platform', lang)} style={{ color: 'var(--teal)', textDecoration: 'none', borderBottom: '1px solid var(--teal)' }}>/research-platform</Link>
+              </p>
+            </div>
+          </FadeIn>
+
+          <FadeIn delay={0.2}>
+            <div style={{ marginTop: 32 }}>
+              <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary">
+                {t('virtualFocusGroups.requestAccess')}
+              </Link>
+            </div>
           </FadeIn>
         </div>
       </section>

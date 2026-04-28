@@ -290,6 +290,36 @@ export default function Home() {
         <style>{`@media(max-width:900px){.prod-grid,.prod-grid-2{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.prod-grid-2{grid-template-columns:repeat(3,1fr)!important}}`}</style>
       </section>
 
+      {/* ── MODULES CONNECT ──────────────────────────────────────────── */}
+      <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(0,196,212,0.12)' }} className="section-pad">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <span className="sc-label">{t('home.modulesLabel')}</span>
+            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 300, letterSpacing: '-0.01em', lineHeight: 1.2, marginBottom: 48 }}>
+              {t('home.modulesTitle')}
+            </h2>
+          </FadeIn>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="modules-grid">
+            {(t('home.modules', { returnObjects: true }) || []).map((m, i) => (
+              <FadeIn key={i} delay={i * 0.08}>
+                <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '28px 24px', height: '100%', display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: 'var(--teal)', letterSpacing: '0.1em', marginBottom: 8 }}>MODULE {m.num}</div>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 8 }}>{m.name}</div>
+                  <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.65, marginBottom: 16, flex: 1 }}>{m.desc}</p>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--teal)' }}>{m.price}</div>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+          <FadeIn>
+            <div style={{ marginTop: 32 }}>
+              <Link to={getLocalizedPath('/research-platform', lang)} className="text-link">{t('home.modulesCta')}</Link>
+            </div>
+          </FadeIn>
+        </div>
+        <style>{`@media(max-width:900px){.modules-grid{grid-template-columns:1fr!important}}`}</style>
+      </section>
+
       {/* ── ECONOMICS ────────────────────────────────────────────────── */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(232,71,42,0.15)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'start' }} className="grid-2">

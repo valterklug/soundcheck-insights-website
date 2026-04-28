@@ -84,9 +84,24 @@ const pages = {
     image: '/og/og-investor-vetting.png',
   },
   '/virtual-focus-groups': {
-    title: 'AI Virtual Focus Groups | Soundcheck Insights',
-    description: 'Recruited focus groups in days, not weeks. AI-augmented audience testing. VFG Mini $3,500, Standard $7,500, Premium $15,000.',
+    title: 'Virtual Focus Group Sessions · Module 03 | Soundcheck Insights',
+    description: 'Test concepts against research-grounded buyer personas. $4,000 per session. Three feedback rounds included.',
     image: '/og/og-virtual-focus-groups.png',
+  },
+  '/research-platform': {
+    title: 'Consumer Intelligence Platform | Soundcheck Insights',
+    description: 'Three connected modules: Market Research, Consumer Journey Maps, Virtual Focus Group Sessions.',
+    image: '/og/og-products.png',
+  },
+  '/consumer-journeys': {
+    title: 'Consumer Journey Maps · Module 02 | Soundcheck Insights',
+    description: 'Brand-specific consumer journey maps. $400 per persona.',
+    image: '/og/og-products.png',
+  },
+  '/market-research': {
+    title: 'Market Research · Module 01 | Soundcheck Insights',
+    description: 'Decision-grade market research with buyer personas. From $4,000.',
+    image: '/og/og-products.png',
   },
   '/partner': {
     title: 'Request Platform Access | Soundcheck Insights',

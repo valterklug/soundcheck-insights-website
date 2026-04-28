@@ -7,7 +7,14 @@
     "resources": "Recursos",
     "partnerWithUs": "Asociarse Con Nosotros",
     "ourPartners": "Nuestros Socios",
-    "getStarted": "Comenzar →"
+    "getStarted": "Comenzar →",
+    "platformModules": "Módulos de Plataforma",
+    "platformModulesDesc": "Tres módulos conectados. Comienza con investigación, agrega profundidad según sea necesario.",
+    "standaloneProducts": "Productos Independientes",
+    "standaloneProductsDesc": "Entregas de alcance fijo y precio fijo. Encarga una a la vez.",
+    "marketResearch": "Investigación de Mercado",
+    "consumerJourneys": "Mapas de Viaje del Consumidor",
+    "virtualFocusGroups": "Sesiones de Grupos Focales Virtuales"
   },
   "footer": {
     "tagline": "Plataforma de inteligencia de mercado impulsada por IA para agencias y consultoras.",
@@ -135,10 +142,13 @@
       {
         "num": "05",
         "for": "Agencias · Marcas · Fundadores",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Prueba conceptos, posicionamiento y pricing con personas IA. Tres niveles desde prueba rápida hasta investigación multi-ola. Sin reclutamiento, sin agendamiento.",
+        "name": "Plataforma de Inteligencia del Consumidor",
+        "desc": "Tres módulos conectados — investigación de mercado con personas basadas en investigación, mapas de viaje del consumidor específicos de marca, y sesiones de grupos focales impulsadas por IA. Ejecuta un módulo o encadena los tres.",
         "delivery": "Entrega en 3–10 días · White-label incluido",
-        "link": "/virtual-focus-groups"
+        "link": "/virtual-focus-groups",
+        "tagline": "La investigación es estancada. La escala es lo que necesitas.",
+        "price": "Investigación desde US$4,000 · Viajes desde US$400/persona · Grupos Focales US$4,000/sesión",
+        "ctaLabel": "Ver Detalles de Plataforma →"
       },
       {
         "num": "06",
@@ -178,7 +188,30 @@
     "marginValue": "$4,500+",
     "ctaTitle": "Comience con un informe.\nVea qué se siente ganar US$400+/hora.",
     "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato, y ve el flujo de trabajo completo en práctica antes de escalarlo.",
-    "ctaButton": "Solicitar Acceso a la Plataforma →"
+    "ctaButton": "Solicitar Acceso a la Plataforma →",
+    "modulesLabel": "La Plataforma de Inteligencia del Consumidor",
+    "modulesTitle": "Un flujo de trabajo. Tres módulos. Tan completo o simple como el proyecto requiera.",
+    "modules": [
+      {
+        "num": "01",
+        "name": "Investigación de Mercado",
+        "desc": "Tres informes de nivel decisivo + un panel de personas basado en datos reales. El cimiento sobre el que se construye todo lo demás.",
+        "price": "Tiers S / M / L: US$4,000 · US$6,000 · US$8,000"
+      },
+      {
+        "num": "02",
+        "name": "Mapas de Viaje del Consumidor",
+        "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona descubre, evalúa y compra — y dónde tus puntos de contacto se alinean o no con ellos.",
+        "price": "US$400 por persona · elige tantas como necesites"
+      },
+      {
+        "num": "03",
+        "name": "Sesiones de Grupos Focales Virtuales",
+        "desc": "Prueba empaques, conceptos, precios y territorios creativos contra tu panel de personas. Tres rondas de retroalimentación iterativa por sesión.",
+        "price": "US$4,000 por sesión"
+      }
+    ],
+    "modulesCta": "Ver cómo se combinan los módulos →"
   },
   "howItWorks": {
     "heroLabel": "Cómo Funciona la Plataforma",
@@ -537,11 +570,11 @@
       {
         "num": "05",
         "for": "Agencias · Marcas · Fundadores",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Prueba conceptos creativos, ideas de producto, pricing y posicionamiento con personas generadas por IA que reflejan tu audiencia objetivo. Sin reclutamiento. Sin agendamiento. Tres niveles desde prueba rápida hasta investigación multi-ola.",
-        "price": "Mini $3,500 · Standard $7,500 · Premium $15,000",
-        "delivery": "Entrega en 3–10 días · White-label incluido",
-        "ctaLabel": "Ver Detalles de VFG →",
+        "name": "Plataforma de Inteligencia del Consumidor",
+        "desc": "Tres módulos conectados — investigación de mercado con personas basadas en investigación, mapas de viaje del consumidor específicos de marca, y sesiones de grupos focales impulsadas por IA. Ejecuta un módulo o encadena los tres.",
+        "price": "Investigación desde US$4,000 · Viajes desde US$400/persona · Grupos Focales US$4,000/sesión",
+        "delivery": "Entrega de 2–10 días · White-label incluido",
+        "ctaLabel": "Ver Detalles de Plataforma →",
         "deliverables": [
           "VFG Mini — 6 personas, 1 tema, entrega en 3–5 días",
           "VFG Standard — 12 personas, 3 temas, entrega en 5–7 días",
@@ -549,7 +582,8 @@
           "100 solicitudes de feedback incluidas por sesión",
           "Reporte con marca + análisis de sentimiento + framework de recomendaciones"
         ],
-        "link": "/virtual-focus-groups"
+        "link": "/virtual-focus-groups",
+        "tagline": "La investigación es estancada. La escala es lo que necesitas."
       },
       {
         "num": "06",
@@ -2028,7 +2062,7 @@
   },
   "usMarketArticle": {},
   "virtualFocusGroups": {
-    "heroLabel": "Grupos de Enfoque Virtuales con IA · Producto 04",
+    "heroLabel": "Sesiones de Grupos Focales Virtuales · Módulo 03",
     "heroTitle1": "Pruebe bajo presión su próximo concepto —",
     "heroTitle2": "antes de comprometerse con la producción.",
     "heroSub": "Los grupos de enfoque virtuales simulan reacciones honestas de los consumidores a partir de personas compradoras fundamentadas en investigación. Empaque, eslóganes, territorios creativos, conceptos de productos — probados en días, iterables en minutos, a una fracción del costo de los paneles tradicionales.",
@@ -2214,7 +2248,7 @@
     "ctaButton": "Solicitar acceso →",
     "pricing": {
       "label": "Precios",
-      "title": "Tres tiers. Precios transparentes.",
+      "title": "Precios",
       "tiers": [
         {
           "name": "VFG Mini",
@@ -2238,10 +2272,42 @@
           "best": "Ciclo de investigación completo, pruebas iterativas entre segmentos"
         }
       ],
-      "includes": "Cada sesión incluye 100 solicitudes de retroalimentación agrupadas. Más allá de 100: $50 cada una.",
-      "wholesale": "Mayorista de agencia: ~50% de los precios finales del cliente en todos los tiers.",
-      "note": "White-label incluido. Todos los tiers incluyen informe de marca + llamada de revisión de 60 minutos."
-    }
+      "includes": "Prueba de panel completo contra todas las personas seleccionadas · Votos de preferencia · Citas textuales · Perspectivas estratégicas · Marco de recomendaciones · 3 rondas de retroalimentación iterativa · Panel blanco · Enlace compartible · Informe PDF white-label · Llamada de revisión de 60 minutos",
+      "wholesale": "Aproximadamente 50% de precios de cliente final. Contacta para integración de socios.",
+      "note": "White-label incluido. Todos los tiers incluyen informe de marca + llamada de revisión de 60 minutos.",
+      "amount": "US$4,000 por sesión",
+      "sub": "Un precio. Sin niveles. No importa cuántas personas estén en tu panel.",
+      "extra": "Rondas de retroalimentación adicionales más allá de 3 incluidas: US$50 cada una.",
+      "reuse": "Una vez que existe un panel de personas, ejecuta cualquier número de sesiones contra él. ¿Nuevo concepto? Nueva sesión. Mismo panel, mismo precio, sin tarifa de configuración.",
+      "projectNote": "¿Parte de un proyecto más grande? Consulta los ejemplos de tamaño de proyecto en /research-platform."
+    },
+    "heroTitle": "Presiona tu concepto antes de comprometerte con la producción.",
+    "prereqTitle": "Antes de ejecutar una sesión",
+    "prereqDesc": "Las Sesiones de Grupos Focales Virtuales se ejecutan contra tu panel de personas existente. Tu panel se construye como parte del módulo Investigación de Mercado — contiene 6, 12, o 20 personas compradoras basadas en investigación dependiendo del nivel que selecciones.",
+    "prereqReady": "Si tu investigación está completa y tu panel existe, estás listo para ejecutar una sesión.",
+    "prereqCta": "Comienza con Investigación de Mercado →",
+    "prereqSteps": [
+      {
+        "num": "1",
+        "title": "Briefea el concepto",
+        "desc": "Describe qué quieres probar (texto, imagen, PDF, o descripción de concepto)"
+      },
+      {
+        "num": "2",
+        "title": "Selecciona qué personas incluir",
+        "desc": "Usa tu panel completo o un subconjunto"
+      },
+      {
+        "num": "3",
+        "title": "Ejecuta",
+        "desc": "Los resultados se entregan a un panel blanco en 3–5 días de negocio"
+      },
+      {
+        "num": "4",
+        "title": "Itera",
+        "desc": "Refina el concepto y re-ejecuta dentro de la misma sesión. Hasta 3 rondas incluidas."
+      }
+    ]
   },
   "founderPass": {
     "heroLabel": "Product Deep-Dive · Founder Pass",
@@ -2731,5 +2797,209 @@
     "ctaTitle": "Construido para crecer no es lo mismo que construido para escalar.",
     "ctaButton": "Solicitar Este Assessment →",
     "ctaLink": "O explora todos los productos →"
+  },
+  "researchPlatform": {
+    "heroLabel": "Plataforma de Inteligencia del Consumidor",
+    "heroTitle": "Investigación. Viajes. Grupos Focales.",
+    "heroSub": "Tres módulos. Un flujo de trabajo. Tan completo o simple como el proyecto requiera.",
+    "heroDesc": "Encarga Investigación de Mercado y obtén un panel de personas basadas en investigación. Mapea cómo cada persona compra con Mapas de Viaje del Consumidor. Prueba tus conceptos con Sesiones de Grupos Focales Virtuales. Cada módulo se sostiene por sí solo. Los tres en conjunto se potencian mutuamente.",
+    "ctaButton": "Solicitar Acceso →",
+    "seePricing": "Ver Precios ↓",
+    "modulesTitle": "Cómo se conectan los módulos",
+    "modules": [
+      {
+        "num": "01",
+        "name": "Investigación de Mercado",
+        "tag": "El cimiento. Requerido para todos los otros módulos.",
+        "desc": "Tres informes de nivel decisivo generados a partir de una toma de requerimientos de 60 minutos: Análisis de Mercado, Análisis del Consumidor, y Paisaje Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y una clasificación de fuente. Incluye un panel de personas compradoras — 6, 12, o 20 personas según el nivel — fundamentadas en la investigación, no construidas a partir de suposiciones.",
+        "whatYouGet": "3 informes de investigación marcados + panel de personas editable",
+        "delivery": "2–3 semanas desde la toma de requerimientos firmada",
+        "pricing": "Pequeño US$4,000 (6 personas) · Mediano US$6,000 (12 personas) · Grande US$8,000 (20 personas)",
+        "link": "/market-research",
+        "linkLabel": "Ver detalles completos →"
+      },
+      {
+        "num": "02",
+        "name": "Mapas de Viaje del Consumidor",
+        "tag": "Complemento. Requiere Investigación de Mercado.",
+        "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona seleccionada se mueve desde la primera conciencia hasta la defensa de la marca — y dónde tus puntos de contacto actuales o planeados se alinean con ellos o no. Construido a partir de tu investigación de mercado y panel de personas. Una breve toma de requerimientos de marca (~15 minutos) captura tu estrategia go-to-market. El sistema genera un mapa de viaje visual para cada persona seleccionada.",
+        "whatYouGet": "Visión general del embudo + línea temporal por persona + análisis de brechas + exportación PDF",
+        "delivery": "3–5 días de negocio desde la toma de requerimientos de marca",
+        "pricing": "US$400 por persona · elige cualquier número de tu panel",
+        "link": "/consumer-journeys",
+        "linkLabel": "Ver detalles completos →"
+      },
+      {
+        "num": "03",
+        "name": "Sesiones de Grupos Focales Virtuales",
+        "tag": "Complemento. Requiere Investigación de Mercado.",
+        "desc": "Prueba empaques, eslóganes, territorios creativos, conceptos de productos, o afirmaciones de precios contra tu panel completo de personas. Cada sesión incluye tres rondas de retroalimentación iterativa — refina el concepto entre rondas sin iniciar una nueva sesión. Los paneles son reutilizables en múltiples sesiones y líneas de productos.",
+        "whatYouGet": "Panel con votos de preferencia, citas textuales, perspectivas estratégicas + 3 rondas de retroalimentación",
+        "delivery": "3–5 días de negocio",
+        "pricing": "US$4,000 por sesión · rondas de retroalimentación adicionales US$50 cada una",
+        "link": "/virtual-focus-groups",
+        "linkLabel": "Ver detalles completos →"
+      }
+    ],
+    "pricingLabel": "Construye tu proyecto",
+    "pricingSub": "Cada módulo tiene precios independientes. Comienza con investigación y agrega profundidad según el proyecto avanza. Nunca pagas más de lo que necesitas.",
+    "pricingColumns": [
+      "Tamaño del Proyecto",
+      "Investigación de Mercado",
+      "Mapas de Viaje del Consumidor",
+      "Sesión VFG",
+      "Total"
+    ],
+    "pricingRows": [
+      {
+        "name": "Iniciador",
+        "research": "Investigación P (US$4,000)",
+        "journeys": "6 personas (US$2,400)",
+        "vfg": "1 sesión (US$4,000)",
+        "total": "US$10,400"
+      },
+      {
+        "name": "Crecimiento",
+        "research": "Investigación M (US$6,000)",
+        "journeys": "8 personas (US$3,200)",
+        "vfg": "1 sesión (US$4,000)",
+        "total": "US$13,200"
+      },
+      {
+        "name": "Escala Completa",
+        "research": "Investigación G (US$8,000)",
+        "journeys": "10 personas (US$4,000)",
+        "vfg": "1 sesión (US$4,000)",
+        "total": "US$16,000"
+      },
+      {
+        "name": "Solo Investigación",
+        "research": "Investigación P (US$4,000)",
+        "journeys": "—",
+        "vfg": "—",
+        "total": "US$4,000"
+      },
+      {
+        "name": "Investigación + Viajes",
+        "research": "Investigación M (US$6,000)",
+        "journeys": "6 personas (US$2,400)",
+        "vfg": "—",
+        "total": "US$8,400"
+      }
+    ],
+    "pricingNote": "Precios mayoristas para agencias: aproximadamente 50% de precios para clientes finales en todos los módulos. Contacta para integración de socios.",
+    "whoTitle": "Construido para dos tipos de operadores",
+    "whoAgenciesTitle": "Para Agencias y Consultoras",
+    "whoAgenciesDesc": "Agrega una capa de inteligencia del consumidor estructurada a lo que vendes — sin construir un equipo de investigación interno. Ejecuta un módulo para un cliente de entrega rápida. Encadena los tres para un compromiso estratégico completo. White-label en todo.",
+    "whoBrandsTitle": "Para Marcas y Equipos de Marketing",
+    "whoBrandsDesc": "Ejecuta tu propia investigación, mapea cómo tus compradores objetivo toman decisiones, y prueba tus conceptos antes de comprometerte con la producción o gasto en medios. Las marcas trabajan a través de una de nuestras agencias asociadas.",
+    "whoCta": "Asociarse Con Nosotros →"
+  },
+  "consumerJourneys": {
+    "heroLabel": "Mapas de Viaje del Consumidor · Módulo 02",
+    "heroTitle": "Ve cómo tu comprador se mueve desde el descubrimiento hasta la lealtad.",
+    "heroSub": "Los Mapas de Viaje del Consumidor muestran la secuencia completa de cómo cada persona en tu panel descubre, evalúa, compra, y regresa a tu marca — y dónde tus puntos de contacto actuales o planeados se alinean, no se alinean, o crean fricción. Específicos de marca. Fundamentados en tu investigación de mercado. Visuales y exportables.",
+    "heroStats": [
+      {
+        "num": "US$400",
+        "label": "POR PERSONA"
+      },
+      {
+        "num": "3–5",
+        "label": "DÍAS DE NEGOCIO"
+      },
+      {
+        "num": "6",
+        "label": "ETAPAS DEL EMBUDO"
+      },
+      {
+        "num": "PDF",
+        "label": "EXPORTACIÓN WHITE-LABEL"
+      }
+    ],
+    "ctaButton": "Solicitar Acceso →",
+    "prereqTitle": "Antes de ejecutar este módulo",
+    "prereqDesc": "Los Mapas de Viaje del Consumidor requieren un proyecto completado de Investigación de Mercado y un panel de personas. El viaje se construye a partir de tus datos de investigación y perfiles de personas — sin ellos, el resultado sería genérico, no específico de marca.",
+    "prereqReady": "Si tu investigación ya está completa, estás listo para continuar.",
+    "prereqCta": "Comienza con Investigación de Mercado →",
+    "whatTitle": "Una persona te dice quién es tu comprador. Un mapa de viaje te dice cómo compra.",
+    "whatDesc1": "Tu Investigación de Mercado crea personas compradoras — perfiles definidos con motivaciones, comportamientos, hábitos de medios, y desencadenantes de decisión. Eso responde a quién. Un Mapa de Viaje del Consumidor responde a cómo: la secuencia completa de comportamientos y emociones desde el momento en que tu marca aparece por primera vez en su radar hasta el momento en que la recomiendan a otro.",
+    "whatDesc2": "Y críticamente — muestra dónde tu marca los encuentra en ese camino, y dónde no.",
+    "whatCallout": "Persona = quién. Mapa de viaje = cómo compran. Grupo focal = cómo reaccionan. Cada módulo responde una pregunta diferente. Los tres en conjunto te dan el panorama completo.",
+    "howTitle": "Cómo funciona",
+    "howSteps": [
+      {
+        "num": "1",
+        "title": "Selecciona tus personas (2 minutos)",
+        "desc": "Elige qué personas de tu panel existente incluir. Mínimo 1, máximo tu panel completo. Cada persona seleccionada obtiene su propio mapa de viaje."
+      },
+      {
+        "num": "2",
+        "title": "Completa la Toma de Requerimientos de Puntos de Contacto de Marca (~15 minutos)",
+        "desc": "Un cuestionario estructurado breve captura el go-to-market específico de tu marca: qué canales usas para adquirir consumidores, cómo se ve el camino de compra, y qué sucede después de la primera compra. Esta es la única entrada nueva requerida — el sistema ya tiene tu investigación y personas."
+      },
+      {
+        "num": "3",
+        "title": "Ejecuta",
+        "desc": "La plataforma combina tu investigación de mercado, perfiles de personas, y toma de requerimientos de marca para generar un viaje completo para cada persona seleccionada. La generación toma 3–5 minutos."
+      },
+      {
+        "num": "4",
+        "title": "Revisa en el panel de control visual",
+        "desc": "Tres pestañas: Visión General del Embudo (vista agregada en todas las personas), Viaje por Persona (líneas de tiempo etapa por etapa individuales), y Análisis de Brechas (dónde los puntos de contacto de tu marca están ausentes, parciales, o desalineados — ordenados por severidad). Exporta como un PDF white-label en un clic."
+      }
+    ],
+    "outputTitle": "¿Qué recibo?",
+    "outputs": [
+      {
+        "title": "La Visión General del Embudo",
+        "desc": "El embudo de compra completo visualizado en seis etapas: Conciencia, Consideración, Intención, Compra, Lealtad, Defensa. Para cada etapa: qué hacen típicamente los consumidores en esta categoría, cuál es el punto de contacto planeado de tu marca, e indicador de cobertura (presente / parcial / ausente) por persona."
+      },
+      {
+        "title": "Viaje por Persona",
+        "desc": "Una tarjeta por persona seleccionada. Cada tarjeta muestra una línea de tiempo horizontal — seis etapas, de izquierda a derecha — con cuatro filas: qué hace esta persona, qué siente, qué pregunta se hace, y si tu marca los encuentra allí. Los textos destacados de brechas muestran los dos o tres desalineamientos más importantes para esta persona específicamente."
+      },
+      {
+        "title": "Análisis de Brechas",
+        "desc": "Todas las brechas de todas las personas consolidadas en una lista priorizada. Ordenadas por severidad: Alta / Media / Baja. Cada brecha muestra qué personas se ven afectadas, qué falta, y una recomendación específica. Un resumen ejecutivo entre personas en la parte superior sintetiza el hallazgo más crítico."
+      },
+      {
+        "title": "Exportación PDF White-Label",
+        "desc": "Exporta el resultado completo como un PDF marcado — el logo de tu agencia en la portada y encabezado, atribución de Soundcheck suprimida. Listo para una reunión con clientes el día en que lo generes."
+      },
+      {
+        "title": "Historial de Versiones",
+        "desc": "Duplica y re-ejecuta cualquier viaje después de que una marca actualice su estrategia de canales. Ambas versiones se almacenan con marcas de tiempo. No se pierde datos."
+      }
+    ],
+    "pricingTitle": "Precios",
+    "pricingAmount": "US$400 por persona",
+    "pricingSub": "Selecciona cualquier número de personas de tu panel. Sin mínimo.",
+    "pricingIncludes": "Toma de Requerimientos de Puntos de Contacto de Marca (formulario guiado, ~15 min) · Generación de viaje completo · Panel de Control de Visión General del Embudo · Tarjetas de Viaje por Persona · Análisis de Brechas con Puntuaciones de Severidad · Resumen ejecutivo · Exportación PDF white-label · Historial de versiones",
+    "pricingExamples": "6 personas = US$2,400 | 10 personas = US$4,000 | 20 personas = US$8,000",
+    "pricingNote": "Los precios mayoristas para agencias son aproximadamente 50% de los precios para clientes finales. Contacta para integración de socios.",
+    "faqTitle": "Preguntas comunes",
+    "faqs": [
+      {
+        "q": "¿Necesito completar la investigación de mercado completa antes de ejecutar un mapa de viaje?",
+        "a": "Sí. Los Mapas de Viaje del Consumidor se construyen a partir de tus datos de investigación de mercado y panel de personas. Sin investigación, el viaje sería un mapa de categoría genérico — no específico de marca. Si aún no has ejecutado investigación, comienza en /market-research."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre una persona y un mapa de viaje?",
+        "a": "Una persona te dice quién es tu comprador — sus motivaciones, comportamientos, y desencadenantes de decisión. Un mapa de viaje te dice cómo esa persona específica se mueve a través de la secuencia de compra completa, y dónde tu marca está presente o ausente en el camino. Las personas responden a \"quién\". Los mapas de viaje responden a \"cómo compran\"."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre un mapa de viaje y una sesión de grupo focal virtual?",
+        "a": "Un mapa de viaje muestra una secuencia de comportamiento y temporal — cómo una persona se mueve desde el descubrimiento hasta la lealtad a lo largo del tiempo. Un grupo focal prueba un estímulo específico (empaques, eslogan, concepto) y captura reacciones inmediatas. Los mapas de viaje son herramientas de planificación estratégica. Los grupos focales son herramientas de prueba y validación. Se complementan mutuamente."
+      },
+      {
+        "q": "¿Puedo re-ejecutar un mapa de viaje si mi estrategia de canales cambia?",
+        "a": "Sí. Duplica el viaje existente, actualiza las respuestas de la toma de requerimientos de marca, y ejecuta una nueva versión. Ambas versiones se almacenan independientemente con marcas de tiempo."
+      },
+      {
+        "q": "¿Cuánto tiempo tarda en generar un mapa de viaje?",
+        "a": "La toma de requerimientos de marca toma aproximadamente 15 minutos para completar. La generación toma 3–5 minutos después de hacer clic en Ejecutar. Tiempo total de inicio a resultado: menos de 25 minutos."
+      }
+    ]
   }
 }

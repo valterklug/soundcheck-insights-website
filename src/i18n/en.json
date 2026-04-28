@@ -7,7 +7,14 @@
     "resources": "Resources",
     "partnerWithUs": "Partner with Us",
     "ourPartners": "Our Partners",
-    "getStarted": "Get Started →"
+    "getStarted": "Get Started →",
+    "platformModules": "Platform Modules",
+    "platformModulesDesc": "Three connected modules. Start with research, add depth as needed.",
+    "standaloneProducts": "Standalone Products",
+    "standaloneProductsDesc": "Scoped, fixed-price deliverables. Commission one at a time.",
+    "marketResearch": "Market Research",
+    "consumerJourneys": "Consumer Journeys",
+    "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
     "tagline": "AI-powered market intelligence platform for agencies and consultancies.",
@@ -135,10 +142,13 @@
       {
         "num": "05",
         "for": "Agencies · Brands · Founders",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Test concepts, positioning, and pricing with AI personas. Three tiers from quick-test to multi-wave research. No recruiting, no scheduling.",
-        "delivery": "3–10 day delivery · White-label included",
-        "link": "/virtual-focus-groups"
+        "name": "Consumer Intelligence Platform",
+        "tagline": "Research is stagnant. Scale is what you need.",
+        "desc": "Three connected modules — market research with research-grounded personas, brand-specific consumer journey maps, and AI-powered focus group sessions. Run one module or chain all three.",
+        "price": "Research from $4,000 · Journeys from $400/persona · Focus Groups $4,000/session",
+        "delivery": "2–10 day delivery · White-label included",
+        "link": "/research-platform",
+        "ctaLabel": "See Platform Details →"
       },
       {
         "num": "06",
@@ -178,7 +188,30 @@
     "marginValue": "$4,500+",
     "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
     "ctaSub": "Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.",
-    "ctaButton": "Request Platform Access →"
+    "ctaButton": "Request Platform Access →",
+    "modulesLabel": "The Consumer Intelligence Platform",
+    "modulesTitle": "One workflow. Three modules. As much or as little as the project needs.",
+    "modules": [
+      {
+        "num": "01",
+        "name": "Market Research",
+        "desc": "Three decision-grade reports + a persona panel grounded in real data. The foundation everything else builds on.",
+        "price": "S / M / L tiers: $4,000 · $6,000 · $8,000"
+      },
+      {
+        "num": "02",
+        "name": "Consumer Journey Maps",
+        "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
+        "price": "$400 per persona · pick as many as you need"
+      },
+      {
+        "num": "03",
+        "name": "Virtual Focus Group Sessions",
+        "desc": "Test packaging, concepts, pricing, and creative territories against your persona panel. Three rounds of iterative feedback per session.",
+        "price": "$4,000 per session"
+      }
+    ],
+    "modulesCta": "See how the modules combine →"
   },
   "howItWorks": {
     "heroLabel": "How the Platform Works",
@@ -537,19 +570,18 @@
       {
         "num": "05",
         "for": "Agencies · Brands · Founders",
-        "name": "AI Virtual Focus Groups",
-        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Three tiers from quick-test to multi-wave research.",
-        "price": "Mini $3,500 · Standard $7,500 · Premium $15,000",
-        "delivery": "3–10 day delivery · White-label included",
-        "ctaLabel": "See VFG Details →",
+        "name": "Consumer Intelligence Platform",
+        "tagline": "Research. Journeys. Focus Groups. In sequence or standalone.",
+        "desc": "Three connected modules for agencies and brands that need structured consumer intelligence.",
+        "price": "Research from $4,000 · Journeys $400/persona · Focus Groups $4,000/session",
+        "delivery": "2–10 day delivery · White-label included",
+        "ctaLabel": "See Platform Details →",
         "deliverables": [
-          "VFG Mini — 6 personas, 1 topic, 3–5 day delivery",
-          "VFG Standard — 12 personas, 3 topics, 5–7 day delivery",
-          "VFG Premium — 20 personas, multi-wave testing, 7–10 day delivery",
-          "100 bundled feedback requests per session",
-          "Branded report + sentiment analysis + recommendation framework"
+          "Module 01 — Market Research (from $4,000): Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a persona panel with 6, 12, or 20 research-grounded buyer personas depending on tier. S/M/L pricing: $4,000 / $6,000 / $8,000.",
+          "Module 02 — Consumer Journey Maps ($400/persona): Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research. Visual dashboard + PDF export.",
+          "Module 03 — Virtual Focus Group Sessions ($4,000/session): Test any concept against the full persona panel. Preference votes, verbatim quotes, strategic insights, and three rounds of iterative feedback per session. Panels are reusable across sessions and product lines."
         ],
-        "link": "/virtual-focus-groups"
+        "link": "/research-platform"
       },
       {
         "num": "06",
@@ -2190,29 +2222,26 @@
   },
   "usMarketArticle": {},
   "virtualFocusGroups": {
-    "heroLabel": "AI Virtual Focus Groups · Product 04",
-    "heroTitle1": "Pressure-test your next concept —",
-    "heroTitle2": "before you commit to production.",
-    "heroSub": "Virtual focus groups simulate honest consumer reactions from research-grounded buyer personas. Packaging, taglines, creative territories, product concepts — tested in days, iterable in minutes, at a fraction of the cost of traditional panels.",
-    "heroSub2": "Used by marketing, advertising, and branding agencies, and by marketing teams at B2C brands, to pressure-test creative, packaging, and positioning before they ship.",
+    "heroLabel": "Virtual Focus Group Sessions · Module 03",
+    "heroSub": "Test packaging, taglines, creative territories, product concepts, and pricing claims against your research-grounded persona panel. Results in days. Three rounds of iterative feedback per session. No recruiting. No scheduling. No minimum budget.",
     "requestAccess": "Request access →",
     "howItWorks": "How it works ↓",
     "heroStats": [
       {
-        "label": "CONCEPT → VERDICT",
-        "value": "2–3 days"
+        "num": "$4,000",
+        "label": "/ SESSION"
       },
       {
-        "label": "REWORK A CONCEPT",
-        "value": "15–40 seconds"
+        "num": "3–5",
+        "label": "BUSINESS DAYS"
       },
       {
-        "label": "PANELS OF PERSONAS",
-        "value": "Reusable, editable"
+        "num": "3",
+        "label": "FEEDBACK ROUNDS INCLUDED"
       },
       {
-        "label": "COST VS. TRADITIONAL",
-        "value": "~5–10× lower"
+        "num": "♻",
+        "label": "REUSABLE PANELS"
       }
     ],
     "advantagesLabel": "Why It Works",
@@ -2368,7 +2397,7 @@
       },
       {
         "q": "How does the feedback rework work?",
-        "a": "After reviewing the focus-group results, you can chat with the platform to tweak the concept and re-run the panel. Change a tagline, swap a visual, adjust a claim — the personas react in seconds. No new project, no new cost."
+        "a": "Each session includes three rounds of iterative feedback. After reviewing the initial results, you can refine the concept — change a tagline, swap a visual, adjust a claim — and re-run the panel within the same session. No new project, no new cost. Each round delivers fresh results on the same dashboard. Additional rounds beyond three are $50 each."
       }
     ],
     "ctaTitle": "Ready to run the research?",
@@ -2376,34 +2405,42 @@
     "ctaButton": "Request access →",
     "pricing": {
       "label": "Pricing",
-      "title": "Three tiers. Transparent pricing.",
-      "tiers": [
-        {
-          "name": "VFG Mini",
-          "price": "US$3,500",
-          "scope": "6 personas · 1 topic",
-          "delivery": "3–5 business days",
-          "best": "Single concept test, quick directional insight"
-        },
-        {
-          "name": "VFG Standard",
-          "price": "US$7,500",
-          "scope": "12 personas · 3 topics",
-          "delivery": "3–5 business days",
-          "best": "Multi-concept comparison, positioning strategy"
-        },
-        {
-          "name": "VFG Premium",
-          "price": "US$15,000",
-          "scope": "20 personas · Multi-wave testing",
-          "delivery": "7–10 business days",
-          "best": "Full research cycle, iterative testing across segments"
-        }
-      ],
-      "includes": "Each session includes 100 bundled feedback requests. Beyond 100: $50 each.",
-      "wholesale": "Agency wholesale: ~50% of end-client pricing across all tiers.",
-      "note": "White-label included. All tiers include branded report + 60-minute review call."
-    }
+      "title": "Pricing",
+      "amount": "$4,000 per session",
+      "sub": "One price. No tiers. No matter how many personas are in your panel.",
+      "includes": "Full panel test against all selected personas · Preference votes · Verbatim quotes · Strategic insights · Recommendation framework · 3 rounds of iterative feedback · Branded dashboard · Shareable link · White-label PDF report · 60-minute review call",
+      "extra": "Additional feedback rounds beyond 3 included: $50 each.",
+      "reuse": "Once a persona panel exists, run any number of sessions against it. New concept? New session. Same panel, same price, no setup fee.",
+      "wholesale": "Approximately 50% of end-client pricing. Contact us for partner onboarding.",
+      "projectNote": "Part of a larger project? See the project-size examples at /research-platform."
+    },
+    "heroTitle": "Pressure-test your concept before you commit to production.",
+    "prereqTitle": "Before you run a session",
+    "prereqDesc": "Virtual Focus Group sessions run against your existing persona panel. Your panel is built as part of the Market Research module — it contains 6, 12, or 20 research-grounded buyer personas depending on the tier you selected.",
+    "prereqReady": "If your research is complete and your panel exists, you are ready to run a session.",
+    "prereqCta": "Start with Market Research →",
+    "prereqSteps": [
+      {
+        "num": "1",
+        "title": "Brief the concept",
+        "desc": "Describe what you want to test (text, image, PDF, or concept description)"
+      },
+      {
+        "num": "2",
+        "title": "Select which personas to include",
+        "desc": "Use your full panel or a subset"
+      },
+      {
+        "num": "3",
+        "title": "Run",
+        "desc": "Results are delivered to a branded dashboard in 3–5 business days"
+      },
+      {
+        "num": "4",
+        "title": "Iterate",
+        "desc": "Refine the concept and re-run within the same session. Up to 3 rounds included."
+      }
+    ]
   },
   "investorVetting": {
     "heroLabel": "Investor Opportunity Vetting",
@@ -2734,5 +2771,209 @@
     "ctaTitle": "Built to grow is not the same as built to scale.",
     "ctaButton": "Brief This Assessment →",
     "ctaLink": "Or explore all products →"
+  },
+  "researchPlatform": {
+    "heroLabel": "Consumer Intelligence Platform",
+    "heroTitle": "Research. Journeys. Focus Groups.",
+    "heroSub": "Three modules. One workflow. As much or as little as the project needs.",
+    "heroDesc": "Commission Market Research and get a research-grounded persona panel. Map how each persona buys with Consumer Journey Maps. Pressure-test your concepts with Virtual Focus Group Sessions. Each module stands alone. All three compound.",
+    "ctaButton": "Request Access →",
+    "seePricing": "See Pricing ↓",
+    "modulesTitle": "How the modules connect",
+    "modules": [
+      {
+        "num": "01",
+        "name": "Market Research",
+        "tag": "The foundation. Required for all other modules.",
+        "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
+        "whatYouGet": "3 branded research reports + editable persona panel",
+        "delivery": "2–3 weeks from signed intake",
+        "pricing": "Small $4,000 (6 personas) · Medium $6,000 (12 personas) · Large $8,000 (20 personas)",
+        "link": "/market-research",
+        "linkLabel": "See full details →"
+      },
+      {
+        "num": "02",
+        "name": "Consumer Journey Maps",
+        "tag": "Add-on. Requires Market Research.",
+        "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
+        "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
+        "delivery": "3–5 business days from brand intake",
+        "pricing": "$400 per persona · pick any number from your panel",
+        "link": "/consumer-journeys",
+        "linkLabel": "See full details →"
+      },
+      {
+        "num": "03",
+        "name": "Virtual Focus Group Sessions",
+        "tag": "Add-on. Requires Market Research.",
+        "desc": "Test packaging, taglines, creative territories, product concepts, or pricing claims against your full persona panel. Each session includes three rounds of iterative feedback — refine the concept between rounds without starting a new session. Panels are reusable across multiple sessions and product lines.",
+        "whatYouGet": "Dashboard with preference votes, verbatim quotes, strategic insights + 3 feedback rounds",
+        "delivery": "3–5 business days",
+        "pricing": "$4,000 per session · additional feedback rounds $50 each",
+        "link": "/virtual-focus-groups",
+        "linkLabel": "See full details →"
+      }
+    ],
+    "pricingLabel": "Build your project",
+    "pricingSub": "Each module is priced independently. Start with research and add depth as the project grows. You never pay for more than you need.",
+    "pricingColumns": [
+      "Project Size",
+      "Market Research",
+      "Consumer Journeys",
+      "VFG Session",
+      "Total"
+    ],
+    "pricingRows": [
+      {
+        "name": "Starter",
+        "research": "Research S ($4,000)",
+        "journeys": "6 personas ($2,400)",
+        "vfg": "1 session ($4,000)",
+        "total": "$10,400"
+      },
+      {
+        "name": "Growth",
+        "research": "Research M ($6,000)",
+        "journeys": "8 personas ($3,200)",
+        "vfg": "1 session ($4,000)",
+        "total": "$13,200"
+      },
+      {
+        "name": "Full Scale",
+        "research": "Research L ($8,000)",
+        "journeys": "10 personas ($4,000)",
+        "vfg": "1 session ($4,000)",
+        "total": "$16,000"
+      },
+      {
+        "name": "Research Only",
+        "research": "Research S ($4,000)",
+        "journeys": "—",
+        "vfg": "—",
+        "total": "$4,000"
+      },
+      {
+        "name": "Research + Journeys",
+        "research": "Research M ($6,000)",
+        "journeys": "6 personas ($2,400)",
+        "vfg": "—",
+        "total": "$8,400"
+      }
+    ],
+    "pricingNote": "Agency wholesale pricing: approximately 50% of end-client pricing across all modules. Contact us for partner onboarding.",
+    "whoTitle": "Built for two kinds of operators",
+    "whoAgenciesTitle": "For Agencies & Consultancies",
+    "whoAgenciesDesc": "Add a structured consumer intelligence layer to what you sell — without building an in-house research team. Run one module for a quick-turnaround client. Chain all three for a full strategic engagement. White-label throughout.",
+    "whoBrandsTitle": "For Brands & Marketing Teams",
+    "whoBrandsDesc": "Run your own research, map how your target buyers make decisions, and test your concepts before committing to production or media spend. Brands work through one of our partner agencies.",
+    "whoCta": "Partner with Us →"
+  },
+  "consumerJourneys": {
+    "heroLabel": "Consumer Journey Maps · Module 02",
+    "heroTitle": "See how your buyer actually moves from discovery to loyalty.",
+    "heroSub": "Consumer Journey Maps show the full sequence of how each persona in your panel discovers, evaluates, purchases, and returns to your brand — and where your current or planned touchpoints align, miss, or create friction. Brand-specific. Grounded in your market research. Visual and exportable.",
+    "heroStats": [
+      {
+        "num": "$400",
+        "label": "PER PERSONA"
+      },
+      {
+        "num": "3–5",
+        "label": "BUSINESS DAYS"
+      },
+      {
+        "num": "6",
+        "label": "FUNNEL STAGES"
+      },
+      {
+        "num": "PDF",
+        "label": "WHITE-LABEL EXPORT"
+      }
+    ],
+    "ctaButton": "Request Access →",
+    "prereqTitle": "Before you run this module",
+    "prereqDesc": "Consumer Journey Maps require a completed Market Research project and persona panel. The journey is built from your research data and persona profiles — without them, the output would be generic, not brand-specific.",
+    "prereqReady": "If your research is already complete, you are ready to go.",
+    "prereqCta": "Start with Market Research →",
+    "whatTitle": "A persona tells you who your buyer is. A journey map tells you how they buy.",
+    "whatDesc1": "Your Market Research creates buyer personas — defined profiles with motivations, behaviors, media habits, and decision triggers. That answers who. A Consumer Journey Map answers how: the full sequence of behaviors and emotions from the moment your brand first appears on their radar to the moment they recommend it to someone else.",
+    "whatDesc2": "And critically — it shows where your brand meets them along that path, and where it doesn't.",
+    "whatCallout": "Persona = who. Journey map = how they buy. Focus group = how they react. Each module answers a different question. All three together give you the full picture.",
+    "howTitle": "How it works",
+    "howSteps": [
+      {
+        "num": "1",
+        "title": "Select your personas (2 minutes)",
+        "desc": "Choose which personas from your existing panel to include. Minimum 1, maximum your full panel. Each selected persona gets its own journey map."
+      },
+      {
+        "num": "2",
+        "title": "Complete the Brand Touchpoint Intake (~15 minutes)",
+        "desc": "A short structured questionnaire captures your brand's specific go-to-market: which channels you use to acquire consumers, what the purchase path looks like, and what happens after the first purchase. This is the only new input required — the system already has your research and personas."
+      },
+      {
+        "num": "3",
+        "title": "Run",
+        "desc": "The platform combines your market research, persona profiles, and brand intake to generate a complete journey for each selected persona. Generation takes 3–5 minutes."
+      },
+      {
+        "num": "4",
+        "title": "Review on the visual dashboard",
+        "desc": "Three tabs: Funnel Overview (aggregate view across all personas), Journey per Persona (individual stage-by-stage timelines), and Gap Analysis (where your brand's touchpoints are absent, partial, or misaligned — sorted by severity). Export as a white-label PDF in one click."
+      }
+    ],
+    "outputTitle": "What you receive",
+    "outputs": [
+      {
+        "title": "The Funnel Overview",
+        "desc": "The full purchase funnel visualized across six stages: Awareness, Consideration, Intent, Purchase, Loyalty, Advocacy. For each stage: what consumers in this category typically do, what your brand's planned touchpoint is, and a coverage indicator (present / partial / absent) per persona."
+      },
+      {
+        "title": "Journey per Persona",
+        "desc": "One card per selected persona. Each card shows a horizontal timeline — six stages, left to right — with four rows: what this persona does, what they feel, what question they're asking, and whether your brand meets them there. Gap callouts surface the two or three biggest misalignments for this persona specifically."
+      },
+      {
+        "title": "Gap Analysis",
+        "desc": "All gaps from all personas consolidated into one prioritized list. Sorted by severity: High / Medium / Low. Each gap shows which personas are affected, what is missing, and a specific recommendation. A cross-persona executive summary at the top synthesizes the most critical finding."
+      },
+      {
+        "title": "White-Label PDF Export",
+        "desc": "Export the full output as a branded PDF — your agency's logo on the cover and header, Soundcheck attribution suppressed. Ready for a client meeting the day you generate it."
+      },
+      {
+        "title": "Version History",
+        "desc": "Duplicate and re-run any journey after a brand updates its channel strategy. Both versions are stored with timestamps. No data is lost."
+      }
+    ],
+    "pricingTitle": "Pricing",
+    "pricingAmount": "$400 per persona",
+    "pricingSub": "Select any number of personas from your panel. No minimum.",
+    "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
+    "pricingExamples": "6 personas = $2,400 | 10 personas = $4,000 | 20 personas = $8,000",
+    "pricingNote": "Agency wholesale pricing is approximately 50% of end-client pricing. Contact us for partner onboarding.",
+    "faqTitle": "Common questions",
+    "faqs": [
+      {
+        "q": "Do I need to complete the full market research before running a journey map?",
+        "a": "Yes. Consumer Journey Maps are built from your market research data and persona panel. Without research, the journey would be a generic category map — not brand-specific. If you haven't run research yet, start at /market-research."
+      },
+      {
+        "q": "What's the difference between a persona and a journey map?",
+        "a": "A persona tells you who your buyer is — their motivations, behaviors, and decision triggers. A journey map tells you how that specific persona moves through the full purchase sequence, and where your brand is present or absent along the way. Personas answer 'who.' Journey maps answer 'how they buy.'"
+      },
+      {
+        "q": "What's the difference between a journey map and a virtual focus group session?",
+        "a": "A journey map shows a behavioral and temporal sequence — how a persona moves from discovery to loyalty over time. A focus group tests a specific stimulus (packaging, tagline, concept) and captures immediate reactions. Journey maps are strategic planning tools. Focus groups are testing and validation tools. They complement each other."
+      },
+      {
+        "q": "Can I re-run a journey map if my channel strategy changes?",
+        "a": "Yes. Duplicate the existing journey, update the brand intake answers, and run a new version. Both versions are stored independently with timestamps."
+      },
+      {
+        "q": "How long does it take to generate a journey map?",
+        "a": "The brand intake takes approximately 15 minutes to complete. Generation takes 3–5 minutes after you click Run. Total time from start to deliverable: under 25 minutes."
+      }
+    ]
   }
 }
