@@ -247,29 +247,12 @@ export default function Home() {
               {t('home.productsTitle')}
             </h2>
           </FadeIn>
-          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2, marginBottom: 2 }} className="prod-grid">
-            {products.slice(0,3).map(p=>(
+          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2 }} className="prod-grid">
+            {products.map(p=>(
               <StaggerItem key={p.num}>
                 <HoverCard>
                   <Link to={p.link ? getLocalizedPath(p.link, lang) : getLocalizedPath('/products', lang)} style={{ display: 'block', textDecoration: 'none', cursor: 'pointer' }}>
-                    <div style={{ background: p.featured ? 'rgba(0,196,212,0.04)' : 'rgba(255,255,255,0.03)', border: `1px solid ${p.featured ? 'rgba(0,196,212,0.22)' : 'rgba(255,255,255,0.06)'}`, borderTop: `3px solid ${p.featured ? 'var(--teal)' : 'transparent'}`, padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>
-                      <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 20 }}>{p.desc}</p>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
-                    </div>
-                  </Link>
-                </HoverCard>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-          <StaggerContainer style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 2 }} className="prod-grid">
-            {products.slice(3).map(p=>(
-              <StaggerItem key={p.num}>
-                <HoverCard>
-                  <Link to={p.link ? getLocalizedPath(p.link, lang) : getLocalizedPath('/products', lang)} style={{ display: 'block', textDecoration: 'none' }}>
-                    <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
+                    <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid transparent', padding: '32px 28px', height: '100%', minHeight: 220, transition: 'border-color 0.2s' }}>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 8 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>

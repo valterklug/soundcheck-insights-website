@@ -18,7 +18,7 @@ import OurPartners from './pages/OurPartners'
 import ForInvestors from './pages/ForInvestors'
 import ExpansionReport from './pages/ExpansionReport'
 import ScaleAssessment from './pages/ScaleAssessment'
-import BusinessPlan from './pages/BusinessPlan'
+// BusinessPlan removed — route redirects to /products
 import VirtualFocusGroups from './pages/VirtualFocusGroups'
 import ResearchPlatform from './pages/ResearchPlatform'
 import ConsumerJourneys from './pages/ConsumerJourneys'
@@ -63,11 +63,11 @@ const routes = [
   { path: '/growth-roadmap', element: <Navigate to="/scale-assessment" replace /> },
   { path: '/scale-assessment', element: <ScaleAssessment /> },
   { path: '/idea-validation', element: <Navigate to="/founder-pass" replace /> },
-  { path: '/business-plan', element: <BusinessPlan /> },
+  { path: '/business-plan', element: <Navigate to="/products" replace /> },
   { path: '/virtual-focus-groups', element: <VirtualFocusGroups /> },
   { path: '/research-platform', element: <ResearchPlatform /> },
   { path: '/consumer-journeys', element: <ConsumerJourneys /> },
-  { path: '/market-research', element: <Navigate to="/research-platform" replace /> },
+  { path: '/market-research', element: <ResearchPlatform /> },
   { path: '/founder-pass', element: <FounderPass /> },
   { path: '/investor-vetting', element: <InvestorVetting /> },
   { path: '/resources', element: <Resources /> },

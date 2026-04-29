@@ -104,8 +104,8 @@
         "tag": "Your brand · Your credit · Your next contract"
       }
     ],
-    "productsLabel": "Six Products",
-    "productsTitle": "Six products you can offer\nyour clients starting today.",
+    "productsLabel": "Seven Products",
+    "productsTitle": "Seven products you can offer\nyour clients starting today.",
     "products": [
       {
         "num": "01",
@@ -125,30 +125,27 @@
       },
       {
         "num": "03",
-        "for": "Mana Tech Members · Exclusive",
-        "name": "Founder Pass",
-        "desc": "Exclusive for Mana Tech members. Three products: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Fast delivery, tight scope, real decisions.",
-        "delivery": "3–7 day delivery · Mana Tech exclusive",
-        "link": "/founder-pass"
+        "for": "Agencies · Brands · Founders",
+        "name": "Market Research",
+        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel.",
+        "delivery": "From $4,000 · 5–10 day delivery",
+        "link": "/research-platform"
       },
       {
         "num": "04",
-        "for": "Entrepreneurs · Investors · Immigration Applicants",
-        "name": "Business Plan Development",
-        "desc": "Professional business plan in 6 configurations: Investor, Bank/SBA, Immigration, Franchise, CPG, Founder's Internal. Every claim sourced.",
-        "delivery": "10–14 day delivery · White-label included",
-        "link": "/business-plan"
+        "for": "Agencies · Brands · Founders",
+        "name": "Consumer Journey Maps",
+        "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
+        "delivery": "$400/persona · 2–3 day delivery",
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
         "for": "Agencies · Brands · Founders",
-        "name": "Consumer Intelligence Platform",
-        "tagline": "Research is stagnant. Scale is what you need.",
-        "desc": "Three connected modules — market research with research-grounded personas, brand-specific consumer journey maps, and AI-powered focus group sessions. Run one module or chain all three.",
-        "price": "Research from $4,000 · Journeys from $400/persona · Focus Groups $4,000/session",
-        "delivery": "2–10 day delivery · White-label included",
-        "link": "/research-platform",
-        "ctaLabel": "See Platform Details →"
+        "name": "Virtual Focus Groups",
+        "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
+        "delivery": "$4,000/session · 1–3 day delivery",
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "06",
@@ -157,6 +154,14 @@
         "desc": "Independent vetting with ADVANCE / CONDITIONAL / STOP verdicts. Two interviews, independent research, contradiction analysis.",
         "delivery": "7-day delivery · Subscriptions available",
         "link": "/investor-vetting"
+      },
+      {
+        "num": "07",
+        "for": "Mana Tech Members · Exclusive",
+        "name": "Founder Pass",
+        "desc": "Exclusive for Mana Tech members. Three products: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Fast delivery, tight scope, real decisions.",
+        "delivery": "3–7 day delivery · Mana Tech exclusive",
+        "link": "/founder-pass"
       }
     ],
     "viewAllProducts": "View All Products →",
@@ -481,7 +486,7 @@
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Six fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — or direct to your team. You set the price for your clients.",
+    "heroSub": "Seven fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — or direct to your team. You set the price for your clients.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -538,50 +543,57 @@
       },
       {
         "num": "03",
-        "for": "Mana Tech Members · Exclusive",
-        "name": "Founder Pass",
-        "tagline": "Founder-grade market intelligence, before you have a market.",
-        "desc": "Exclusive for Mana Tech members. Three products at founder-friendly pricing: Validation Sprint ($750), Brand Brief ($1,500), and Focus Test ($1,500). The Validation Sprint requires only a 10-minute questionnaire. Brand Brief and Focus Test include a 30-minute brief call.",
-        "price": "US$750–$1,500 per product",
-        "delivery": "3–7 day delivery · Mana Tech exclusive · Founder Agreement terms",
-        "ctaLabel": "See Founder Pass Details →",
+        "for": "Agencies · Brands · Founders",
+        "name": "Market Research",
+        "tagline": "Research-grounded personas and decision-grade market intelligence.",
+        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier.",
+        "price": "From US$4,000",
+        "delivery": "5–10 day delivery · White-label included",
+        "ctaLabel": "See Market Research Details →",
         "deliverables": [
-          "Founder Validation Sprint — 10-min questionnaire, market sizing, top competitors, validation framework, key risks (5–7 pages)",
-          "Founder Brand Brief — 30-min brief call, brand intelligence, positioning recommendations, audience analysis (40+ pages)",
-          "Founder Focus Test — 30-min brief call, single VFG session with 6 personas, 1 topic, 3-day turnaround"
+          "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
+          "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
+          "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
+          "Persona Panel — 6, 12, or 20 research-grounded buyer personas (S/M/L tiers)",
+          "S/M/L pricing: $4,000 / $6,000 / $8,000"
         ],
-        "link": "/founder-pass"
+        "link": "/research-platform"
       },
       {
         "num": "04",
-        "for": "Entrepreneurs · Investors · Immigration Applicants",
-        "name": "Business Plan Development",
-        "tagline": "A business plan built for the reader who decides.",
-        "desc": "Not a template. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, and Founder's Internal. Every claim sourced. Every projection documented.",
-        "price": "US$5,000+ per plan",
-        "delivery": "10–14 day delivery · White-label included · 1 revision",
-        "ctaLabel": "See Full Plan Details →",
+        "for": "Agencies · Brands · Founders",
+        "name": "Consumer Journey Maps",
+        "tagline": "See exactly where your brand connects — and where it loses people.",
+        "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research.",
+        "price": "US$400 per persona",
+        "delivery": "2–3 day delivery · White-label included",
+        "ctaLabel": "See Journey Map Details →",
         "deliverables": [
-          "Full Business Plan — 10-section MECE structure, audience-formatted, confidence-labeled projections, sourced market and competitive data",
-          "Executive Summary One-Pager — business snapshot, market opportunity, financial highlights, the specific ask"
+          "Per-persona journey map — awareness through advocacy, brand-specific touchpoints",
+          "Friction & opportunity analysis — where the brand loses or wins attention",
+          "Visual dashboard + PDF export",
+          "Requires completed Market Research (persona panel)"
         ],
-        "link": "/business-plan"
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
         "for": "Agencies · Brands · Founders",
-        "name": "Consumer Intelligence Platform",
-        "tagline": "Research. Journeys. Focus Groups. In sequence or standalone.",
-        "desc": "Three connected modules for agencies and brands that need structured consumer intelligence.",
-        "price": "Research from $4,000 · Journeys $400/persona · Focus Groups $4,000/session",
-        "delivery": "2–10 day delivery · White-label included",
-        "ctaLabel": "See Platform Details →",
+        "name": "Virtual Focus Groups",
+        "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
+        "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights, and iterative feedback.",
+        "price": "US$4,000 per session",
+        "delivery": "1–3 day delivery · White-label included",
+        "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
-          "Module 01 — Market Research (from $4,000): Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a persona panel with 6, 12, or 20 research-grounded buyer personas depending on tier. S/M/L pricing: $4,000 / $6,000 / $8,000.",
-          "Module 02 — Consumer Journey Maps ($400/persona): Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research. Visual dashboard + PDF export.",
-          "Module 03 — Virtual Focus Group Sessions ($4,000/session): Test any concept against the full persona panel. Preference votes, verbatim quotes, strategic insights, and three rounds of iterative feedback per session. Panels are reusable across sessions and product lines."
+          "Full focus group session — test any concept against persona panel",
+          "Preference votes + verbatim quotes from each persona",
+          "Strategic insights and recommendation summary",
+          "Three rounds of iterative feedback per session",
+          "Panels reusable across sessions and product lines",
+          "Requires completed Market Research (persona panel)"
         ],
-        "link": "/research-platform"
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "06",
@@ -598,6 +610,22 @@
           "Self-serve platform access for subscription customers"
         ],
         "link": "/investor-vetting"
+      },
+      {
+        "num": "07",
+        "for": "Mana Tech Members · Exclusive",
+        "name": "Founder Pass",
+        "tagline": "Founder-grade market intelligence, before you have a market.",
+        "desc": "Exclusive for Mana Tech members. Three products at founder-friendly pricing: Validation Sprint ($750), Brand Brief ($1,500), and Focus Test ($1,500). The Validation Sprint requires only a 10-minute questionnaire. Brand Brief and Focus Test include a 30-minute brief call.",
+        "price": "US$750–$1,500 per product",
+        "delivery": "3–7 day delivery · Mana Tech exclusive · Founder Agreement terms",
+        "ctaLabel": "See Founder Pass Details →",
+        "deliverables": [
+          "Founder Validation Sprint — 10-min questionnaire, market sizing, top competitors, validation framework, key risks (5–7 pages)",
+          "Founder Brand Brief — 30-min brief call, brand intelligence, positioning recommendations, audience analysis (40+ pages)",
+          "Founder Focus Test — 30-min brief call, single VFG session with 6 personas, 1 topic, 3-day turnaround"
+        ],
+        "link": "/founder-pass"
       }
     ]
   },

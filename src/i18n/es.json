@@ -104,59 +104,64 @@
         "tag": "Su marca · Su crédito · Su próximo contrato"
       }
     ],
-    "productsLabel": "Seis Productos",
-    "productsTitle": "Seis productos que puedes ofrecer\na tus clientes hoy mismo.",
+    "productsLabel": "Siete Productos",
+    "productsTitle": "Siete productos que puedes ofrecer\na tus clientes hoy mismo.",
     "products": [
       {
         "num": "01",
-        "for": "Marcas Brasileñas y Latinas · Entrada al Mercado",
+        "for": "Marcas Brasileñas y LatAm · Entrada al Mercado",
         "name": "Análisis de Viabilidad Internacional",
-        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y roadmap faseado. 100+ páginas.",
+        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y hoja de ruta. 100+ páginas.",
         "delivery": "Entrega en 2–3 semanas · White-label incluido",
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Marcas y Agencias de EE.UU. · Inteligencia Estratégica",
+        "for": "Marcas US y Agencias · Inteligencia Estratégica",
         "name": "Scale Assessment",
-        "desc": "Scale Diagnostic, posición competitiva, preparación operacional y un plan faseado de 24 meses con puertas go/no-go. Basado en el framework Too Small To Fall.",
+        "desc": "Scale Diagnostic, posición competitiva, preparación operativa y plan de 24 meses. Framework Too Small To Fall.",
         "delivery": "Entrega en 3–4 semanas · White-label incluido",
         "link": "/scale-assessment"
       },
       {
         "num": "03",
-        "for": "Miembros de Mana Tech · Exclusivo",
-        "name": "Founder Pass",
-        "desc": "Exclusivo para miembros de Mana Tech. Tres productos: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Entrega rápida, alcance ajustado, decisiones reales.",
-        "delivery": "Entrega en 3–7 días · Exclusivo Mana Tech",
-        "link": "/founder-pass"
+        "for": "Agencias · Marcas · Fundadores",
+        "name": "Investigación de Mercado",
+        "desc": "Tres informes de nivel decisorio — Análisis de Mercado, del Consumidor y Panorama Competitivo — más panel de personas.",
+        "delivery": "Desde $4.000 · Entrega en 5–10 días",
+        "link": "/research-platform"
       },
       {
         "num": "04",
-        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
-        "name": "Business Plan Development",
-        "desc": "Plan de negocio profesional en 6 configuraciones: Inversor, Banco/SBA, Inmigración, Franquicia, CPG, Interno del Fundador. Cada dato documentado.",
-        "delivery": "Entrega en 10–14 días · White-label incluido",
-        "link": "/business-plan"
+        "for": "Agencias · Marcas · Fundadores",
+        "name": "Mapas de Jornada del Consumidor",
+        "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricciones y oportunidades. Dashboard visual + PDF.",
+        "delivery": "$400/persona · Entrega en 2–3 días",
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
         "for": "Agencias · Marcas · Fundadores",
-        "name": "Plataforma de Inteligencia del Consumidor",
-        "desc": "Tres módulos conectados — investigación de mercado con personas basadas en investigación, mapas de viaje del consumidor específicos de marca, y sesiones de grupos focales impulsadas por IA. Ejecuta un módulo o encadena los tres.",
-        "delivery": "Entrega en 3–10 días · White-label incluido",
-        "link": "/virtual-focus-groups",
-        "tagline": "La investigación es estancada. La escala es lo que necesitas.",
-        "price": "Investigación desde US$4,000 · Viajes desde US$400/persona · Grupos Focales US$4,000/sesión",
-        "ctaLabel": "Ver Detalles de Plataforma →"
+        "name": "Focus Groups Virtuales",
+        "desc": "Sesiones de focus group con IA probando conceptos contra panel de personas. Votos, citas textuales e insights.",
+        "delivery": "$4.000/sesión · Entrega en 1–3 días",
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "06",
         "for": "VCs · PE · Family Offices · Ángeles",
         "name": "Investor Opportunity Vetting",
-        "desc": "Vetting independiente con veredictos ADVANCE / CONDITIONAL / STOP. Dos entrevistas, investigación independiente, análisis de contradicciones.",
+        "desc": "Vetting independiente con veredictos ADVANCE / CONDITIONAL / STOP. Dos entrevistas, investigación independiente.",
         "delivery": "Entrega en 7 días · Suscripciones disponibles",
         "link": "/investor-vetting"
+      },
+      {
+        "num": "07",
+        "for": "Miembros Mana Tech · Exclusivo",
+        "name": "Founder Pass",
+        "desc": "Exclusivo para miembros de Mana Tech. Tres productos: Validation Sprint ($750), Brand Brief ($1.500), Focus Test ($1.500).",
+        "delivery": "Entrega en 3–7 días · Exclusivo Mana Tech",
+        "link": "/founder-pass"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
@@ -481,7 +486,7 @@
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes no olvidarán.",
-    "heroSub": "Seis productos de alcance fijo diseñados para ser brifados, entregados e implementados bajo la marca de su agencia — o directo a su equipo. Usted define cuánto cobrar a sus clientes.",
+    "heroSub": "Siete productos de alcance fijo diseñados para ser briefeados, entregados y desplegados bajo la marca de tu agencia — o directamente a tu equipo. Tú defines el precio para tus clientes.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -499,107 +504,128 @@
     "items": [
       {
         "num": "01",
-        "for": "Marcas Brasileñas y Latinas · Entrada al Mercado",
+        "for": "Marcas Brasileñas y LatAm · Entrada al Mercado",
         "name": "Análisis de Viabilidad Internacional",
-        "desc": "Inteligencia de entrada al mercado de grado decisional para marcas brasileñas y latinoamericanas en expansión internacional. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y una hoja de ruta faseada. White-label, entregado en 2–3 semanas.",
-        "price": "US$5,000",
+        "desc": "Inteligencia de entrada al mercado para marcas brasileñas y latinoamericanas en expansión internacional. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta por fases.",
+        "price": "US$5.000",
         "delivery": "Entrega en 2–3 semanas · White-label incluido · 2 revisiones",
-        "ctaLabel": "Ver Detalles del Reporte →",
+        "ctaLabel": "Ver Detalles del Informe →",
         "deliverables": [
-          "CVE Score (Coeficiente de Viabilidad de Expansión) — puntuación ponderada en 3 dimensiones (0 a 100)",
-          "Resumen Ejecutivo — 5 insights críticos + 3 caminos estratégicos con modo de entrada recomendado",
-          "Evaluación de Marca y Negocio — product-market fit, arquitectura de precios, posicionamiento",
-          "Inteligencia de Mercado y Categoría — TAM/SAM/SOM, Cinco Fuerzas de Porter, benchmarking competitivo",
-          "Plan Estratégico de Entrada — roadmap faseado con unit economics y puertas de decisión",
-          "Riesgos y Alertas — puntuados, clasificados y mitigados",
-          "Reporte de 100+ Páginas + Resumen Visual Ejecutivo (white-labeled)"
+          "CVE Score — puntuación ponderada de 3 dimensiones (0 a 100)",
+          "Resumen Ejecutivo — 5 insights críticos + 3 caminos estratégicos",
+          "Evaluación de Negocio y Marca — product-market fit, arquitectura de precios",
+          "Inteligencia de Mercado — TAM/SAM/SOM, Cinco Fuerzas de Porter, benchmarking",
+          "Plan Estratégico — hoja de ruta por fases con unit economics",
+          "Riesgos y Alertas — clasificados, rankeados y mitigados",
+          "Informe de 100+ Páginas + Resumen Visual Ejecutivo (white-labeled)"
         ],
         "link": "/expansion-report"
       },
       {
         "num": "02",
-        "for": "Marcas y Agencias de EE.UU. · Inteligencia Estratégica",
+        "for": "Marcas US y Agencias · Inteligencia Estratégica",
         "name": "Scale Assessment",
         "tagline": "Crecimiento es lo que te vendieron. Escala es lo que realmente necesitas.",
-        "desc": "Para marcas de consumo del mercado estadounidense en puntos de inflexión estratégica. Responde si estás construido para escalar de forma duradera — y qué necesitas construir primero si no lo estás. Reporte de inteligencia de 7 secciones con Scale Diagnostic propietario, análisis de posición competitiva y un plan faseado de 24 meses.",
-        "price": "US$9,500–$14,500",
+        "desc": "Para marcas de consumo en el mercado estadounidense en puntos de inflexión estratégicos. Responde si estás construido para escalar de manera durable — y qué necesitas construir primero si no lo estás.",
+        "price": "US$9.500–$14.500",
         "delivery": "Entrega en 3–4 semanas · White-label incluido · 2 revisiones",
         "ctaLabel": "Ver Detalles del Assessment →",
         "deliverables": [
-          "Scale Diagnostic — construido para crecer vs. construido para escalar (framework Too Small To Fall)",
-          "Mapa de Oportunidades — oportunidades realistas y durables con presión de timing",
-          "Análisis de Posición Competitiva — evaluación de defensibilidad + arquitectura de precios",
-          "Evaluación de Preparación Operacional — equipo, tecnología y cadena de suministro",
-          "Plan de Escala Faseado — plan secuenciado de 24 meses con puertas go/no-go",
+          "Scale Diagnostic — construido para crecer vs. construido para escalar",
+          "Mapa de Oportunidades — oportunidades realistas y duraderas",
+          "Análisis de Posición Competitiva — evaluación de defensibilidad",
+          "Evaluación de Preparación Operativa — equipo, tech y cadena de suministro",
+          "Plan de Escala por Fases — plan secuenciado de 24 meses",
           "Capa de Inteligencia AI — 90 días de monitoreo de mercado incluidos",
-          "Marco de Riesgos — 6–8 riesgos puntuados por probabilidad × impacto"
+          "Marco de Riesgos — 6–8 riesgos por probabilidad × impacto"
         ],
         "link": "/scale-assessment"
       },
       {
         "num": "03",
-        "for": "Miembros de Mana Tech · Exclusivo",
-        "name": "Founder Pass",
-        "tagline": "Inteligencia de mercado para fundadores, antes de tener un mercado.",
-        "desc": "Exclusivo para miembros de Mana Tech. Tres productos a precios accesibles para fundadores: Validation Sprint ($750), Brand Brief ($1,500) y Focus Test ($1,500). El Validation Sprint requiere solo un cuestionario de 10 minutos. Brand Brief y Focus Test incluyen una llamada de brief de 30 minutos.",
-        "price": "US$750–$1,500 por producto",
-        "delivery": "Entrega en 3–7 días · Exclusivo Mana Tech · Términos de Founder Agreement",
-        "ctaLabel": "Ver Detalles del Founder Pass →",
+        "for": "Agencias · Marcas · Fundadores",
+        "name": "Investigación de Mercado",
+        "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
+        "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
+        "price": "Desde US$4.000",
+        "delivery": "Entrega en 5–10 días · White-label incluido",
+        "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
-          "Founder Validation Sprint — cuestionario de 10 min, sizing de mercado, principales competidores, framework de validación, riesgos clave (5–7 páginas)",
-          "Founder Brand Brief — llamada de brief de 30 min, inteligencia de marca, recomendaciones de posicionamiento, análisis de audiencia (40+ páginas)",
-          "Founder Focus Test — llamada de brief de 30 min, sesión VFG con 6 personas, 1 tema, entrega en 3 días"
+          "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
+          "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
+          "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
+          "Panel de Personas — 6, 12 o 20 buyer personas (niveles S/M/L)",
+          "Precios S/M/L: $4.000 / $6.000 / $8.000"
         ],
-        "link": "/founder-pass"
+        "link": "/research-platform"
       },
       {
         "num": "04",
-        "for": "Empresarios · Inversores · Solicitantes de Inmigración",
-        "name": "Business Plan Development",
-        "tagline": "Un plan de negocio construido para el lector que decide.",
-        "desc": "No es una plantilla. Un plan de negocio profesional y específico para la audiencia construido a partir de datos de intake estructurados, una entrevista con interesados, e investigación independiente. 6 configuraciones: Inversor, Banco/SBA, Inmigración (E-2/EB-5/L-1A), Franquicia, CPG, e Interno del Fundador. Cada afirmación está documentada. Cada proyección está justificada.",
-        "price": "US$5,000+ por plan",
-        "delivery": "Entrega en 10–14 días · White-label incluido · 1 revisión",
-        "ctaLabel": "Ver Detalles Completos del Plan →",
+        "for": "Agencias · Marcas · Fundadores",
+        "name": "Mapas de Jornada del Consumidor",
+        "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
+        "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
+        "price": "US$400 por persona",
+        "delivery": "Entrega en 2–3 días · White-label incluido",
+        "ctaLabel": "Ver Detalles de Mapas de Jornada →",
         "deliverables": [
-          "Plan de Negocio Completo — estructura MECE de 10 secciones, formato por audiencia, proyecciones etiquetadas por confianza, datos de mercado y competencia documentados",
-          "Resumen Ejecutivo de Una Página — snapshot del negocio, oportunidad de mercado, highlights financieros, la solicitud específica"
+          "Mapa de jornada por persona — awareness hasta advocacy, touchpoints específicos",
+          "Análisis de fricción y oportunidades",
+          "Dashboard visual + exportación PDF",
+          "Requiere Investigación de Mercado completada (panel de personas)"
         ],
-        "link": "/business-plan"
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
         "for": "Agencias · Marcas · Fundadores",
-        "name": "Plataforma de Inteligencia del Consumidor",
-        "desc": "Tres módulos conectados — investigación de mercado con personas basadas en investigación, mapas de viaje del consumidor específicos de marca, y sesiones de grupos focales impulsadas por IA. Ejecuta un módulo o encadena los tres.",
-        "price": "Investigación desde US$4,000 · Viajes desde US$400/persona · Grupos Focales US$4,000/sesión",
-        "delivery": "Entrega de 2–10 días · White-label incluido",
-        "ctaLabel": "Ver Detalles de Plataforma →",
+        "name": "Focus Groups Virtuales",
+        "tagline": "Pruebe cualquier concepto contra su audiencia real — en horas, no semanas.",
+        "desc": "Sesiones de focus group con IA que prueban conceptos, mensajes, packaging, precios o posicionamiento contra el panel completo de personas. Votos de preferencia, citas textuales e insights estratégicos.",
+        "price": "US$4.000 por sesión",
+        "delivery": "Entrega en 1–3 días · White-label incluido",
+        "ctaLabel": "Ver Detalles de Focus Groups →",
         "deliverables": [
-          "VFG Mini — 6 personas, 1 tema, entrega en 3–5 días",
-          "VFG Standard — 12 personas, 3 temas, entrega en 5–7 días",
-          "VFG Premium — 20 personas, prueba multi-ola, entrega en 7–10 días",
-          "100 solicitudes de feedback incluidas por sesión",
-          "Reporte con marca + análisis de sentimiento + framework de recomendaciones"
+          "Sesión completa de focus group — pruebe cualquier concepto",
+          "Votos de preferencia + citas textuales de cada persona",
+          "Insights estratégicos y resumen de recomendaciones",
+          "Tres rondas de feedback iterativo por sesión",
+          "Paneles reutilizables entre sesiones y líneas de producto",
+          "Requiere Investigación de Mercado completada (panel de personas)"
         ],
-        "link": "/virtual-focus-groups",
-        "tagline": "La investigación es estancada. La escala es lo que necesitas."
+        "link": "/virtual-focus-groups"
       },
       {
         "num": "06",
-        "for": "VCs · Firmas de PE · Family Offices · Sindicatos de Ángeles",
+        "for": "VCs · PE · Family Offices · Ángeles",
         "name": "Investor Opportunity Vetting",
-        "desc": "Infraestructura de vetting independiente para inversores que manejan pipeline a escala. Dos entrevistas estructuradas — equipo fundador + cliente real. Investigación independiente que detecta contradicciones y entrega un veredicto ADVANCE / CONDITIONAL / STOP con evidencia.",
-        "price": "US$1,500–$2,500 por análisis · Suscripciones desde $2,500/mes",
+        "desc": "Infraestructura de vetting independiente para inversores que gestionan pipeline a escala. Dos entrevistas estructuradas — equipo fundador + cliente real. Investigación independiente que identifica contradicciones y entrega veredicto ADVANCE / CONDITIONAL / STOP.",
+        "price": "US$1.500–$2.500 por análisis · Suscripciones desde $2.500/mes",
         "delivery": "Entrega en 7 días · Descuentos por volumen · Suscripción disponible",
         "ctaLabel": "Ver Detalles de Investor Vetting →",
         "deliverables": [
-          "Reporte de Inteligencia Completo — registro de evidencia de 10 secciones con log de contradicciones",
+          "Informe Completo — registro de evidencia de 10 secciones",
           "Signal Brief — veredicto de una página ADVANCE / CONDITIONAL / STOP",
-          "Niveles de suscripción: Starter ($2,500/mes), Professional ($7,500/mes), Enterprise ($15,000/mes)",
+          "Niveles de suscripción: Starter ($2.500/mes), Professional ($7.500/mes), Enterprise ($15.000/mes)",
           "Acceso a plataforma self-serve para suscriptores"
         ],
         "link": "/investor-vetting"
+      },
+      {
+        "num": "07",
+        "for": "Miembros Mana Tech · Exclusivo",
+        "name": "Founder Pass",
+        "tagline": "Inteligencia de mercado para fundadores, antes de tener un mercado.",
+        "desc": "Exclusivo para miembros de Mana Tech. Tres productos a precios para fundadores: Validation Sprint ($750), Brand Brief ($1.500) y Focus Test ($1.500). El Validation Sprint requiere solo un cuestionario de 10 minutos.",
+        "price": "US$750–$1.500 por producto",
+        "delivery": "Entrega en 3–7 días · Exclusivo Mana Tech",
+        "ctaLabel": "Ver Detalles del Founder Pass →",
+        "deliverables": [
+          "Founder Validation Sprint — cuestionario de 10 min, dimensionamiento de mercado (5–7 páginas)",
+          "Founder Brand Brief — llamada de 30 min, inteligencia de marca, recomendaciones (40+ páginas)",
+          "Founder Focus Test — llamada de 30 min, sesión VFG con 6 personas, 1 tema"
+        ],
+        "link": "/founder-pass"
       }
     ]
   },
