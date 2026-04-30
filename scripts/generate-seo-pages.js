@@ -95,7 +95,7 @@ const pages = {
   },
   '/consumer-journeys': {
     title: 'Consumer Journey Maps · Module 02 | Soundcheck Insights',
-    description: 'Brand-specific consumer journey maps. $400 per persona.',
+    description: 'Brand-specific consumer journey maps. $500 per persona.',
     image: '/og/og-products.png',
   },
   '/market-research': {

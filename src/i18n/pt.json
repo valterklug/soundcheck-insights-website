@@ -136,7 +136,7 @@
         "for": "Agências · Marcas · Fundadores",
         "name": "Mapas de Jornada do Consumidor",
         "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricções e oportunidades. Dashboard visual + PDF.",
-        "delivery": "$400/persona · Entrega em 2–3 dias",
+        "delivery": "$500/persona · Entrega em 2–3 dias",
         "link": "/consumer-journeys"
       },
       {
@@ -207,7 +207,7 @@
         "num": "02",
         "name": "Consumer Journey Maps",
         "desc": "Mapas de jornada específicos da marca mostrando como cada persona descobre, avalia e compra — e onde seus pontos de contato os encontram ou os perdem.",
-        "price": "US$ 400 por persona · escolha quantos precisar"
+        "price": "US$ 500 por persona · escolha quantos precisar"
       },
       {
         "num": "03",
@@ -565,7 +565,7 @@
         "name": "Mapas de Jornada do Consumidor",
         "tagline": "Veja exatamente onde sua marca conecta — e onde perde pessoas.",
         "desc": "Mapas de jornada específicos por marca mostrando como cada persona se move do awareness à advocacy — e onde os touchpoints da marca se alinham, falham ou criam fricção.",
-        "price": "US$400 por persona",
+        "price": "US$ 500 por persona",
         "delivery": "Entrega em 2–3 dias · White-label incluído",
         "ctaLabel": "Ver Detalhes dos Mapas de Jornada →",
         "deliverables": [
@@ -2849,7 +2849,7 @@
         "desc": "Mapas de jornada específicos da marca que mostram como cada persona selecionada se move de primeira conscientização para defesa da marca — e onde seus pontos de contato atuais ou planejados os encontram ou os perdem. Construído a partir de sua pesquisa de mercado e painel de personas. Uma intake de marca breve (~15 minutos) captura sua estratégia de canal. O sistema gera um mapa de jornada visual para cada persona selecionada.",
         "whatYouGet": "Visão geral do funil + timeline por persona + análise de gaps + export PDF",
         "delivery": "3–5 dias úteis após intake da marca",
-        "pricing": "US$ 400 por persona · escolha quantas precisar do seu painel",
+        "pricing": "US$ 500 por persona · escolha quantas precisar do seu painel",
         "link": "/consumer-journeys",
         "linkLabel": "Ver detalhes completos →"
       },
@@ -2878,9 +2878,9 @@
       {
         "name": "Starter",
         "research": "Pesquisa S (US$ 4.000)",
-        "journeys": "6 personas (US$ 2.400)",
+        "journeys": "6 personas (US$ 3.000)",
         "vfg": "1 sessão (US$ 4.000)",
-        "total": "US$ 10.400"
+        "total": "US$ 11.000"
       },
       {
         "name": "Growth",
@@ -2906,9 +2906,9 @@
       {
         "name": "Research + Journeys",
         "research": "Pesquisa M (US$ 6.000)",
-        "journeys": "6 personas (US$ 2.400)",
+        "journeys": "6 personas (US$ 3.000)",
         "vfg": "—",
-        "total": "US$ 8.400"
+        "total": "US$ 9.000"
       }
     ],
     "pricingNote": "Preços de atacado para agências disponíveis — veja os modelos de parceria e divisões de receita.",
@@ -2925,7 +2925,7 @@
     "heroSub": "Consumer Journey Maps mostram a sequência completa de como cada persona no seu painel descobre, avalia, compra e retorna à sua marca — e onde seus pontos de contato atuais ou planejados se alinham, erram ou criam atrito. Específico da marca. Grounded em sua pesquisa de mercado. Visual e exportável.",
     "heroStats": [
       {
-        "num": "US$ 400",
+        "num": "US$ 500",
         "label": "POR PERSONA"
       },
       {
@@ -2997,10 +2997,10 @@
       }
     ],
     "pricingTitle": "Preços",
-    "pricingAmount": "US$ 400 por persona",
+    "pricingAmount": "US$ 500 por persona",
     "pricingSub": "Selecione qualquer número de personas do seu painel. Sem mínimo.",
     "pricingIncludes": "Brand Touchpoint Intake (formulário guiado, ~15 min) · Geração de jornada completa · Dashboard Funnel Overview · Cards de jornada por persona · Gap Analysis com scores de gravidade · Resumo executivo · Export PDF white-label · Histórico de versões",
-    "pricingExamples": "6 personas = US$ 2.400 | 10 personas = US$ 4.000 | 20 personas = US$ 8.000",
+    "pricingExamples": "6 personas = US$ 3.000 | 10 personas = US$ 5.000 | 20 personas = US$ 10.000",
     "pricingNote": "Preços de atacado para agências disponíveis — veja os modelos de parceria e divisões de receita.",
     "faqTitle": "Perguntas comuns",
     "faqs": [

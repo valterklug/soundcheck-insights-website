@@ -262,8 +262,8 @@ const seoConfig = {
     keywords: 'consumer journey maps, buyer journey, customer journey mapping, brand touchpoints, gap analysis, persona journey, purchase funnel',
     schema: serviceSchema(
       'Consumer Journey Maps',
-      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $400 per persona.',
-      '400',
+      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $500 per persona.',
+      '500',
       '/consumer-journeys',
     ),
   },

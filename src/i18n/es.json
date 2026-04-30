@@ -136,7 +136,7 @@
         "for": "Agencias · Marcas · Fundadores",
         "name": "Mapas de Jornada del Consumidor",
         "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricciones y oportunidades. Dashboard visual + PDF.",
-        "delivery": "$400/persona · Entrega en 2–3 días",
+        "delivery": "$500/persona · Entrega en 2–3 días",
         "link": "/consumer-journeys"
       },
       {
@@ -207,7 +207,7 @@
         "num": "02",
         "name": "Mapas de Viaje del Consumidor",
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona descubre, evalúa y compra — y dónde tus puntos de contacto se alinean o no con ellos.",
-        "price": "US$400 por persona · elige tantas como necesites"
+        "price": "US$500 por persona · elige tantas como necesites"
       },
       {
         "num": "03",
@@ -565,7 +565,7 @@
         "name": "Mapas de Jornada del Consumidor",
         "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
         "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
-        "price": "US$400 por persona",
+        "price": "US$500 por persona",
         "delivery": "Entrega en 2–3 días · White-label incluido",
         "ctaLabel": "Ver Detalles de Mapas de Jornada →",
         "deliverables": [
@@ -2851,7 +2851,7 @@
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona seleccionada se mueve desde la primera conciencia hasta la defensa de la marca — y dónde tus puntos de contacto actuales o planeados se alinean con ellos o no. Construido a partir de tu investigación de mercado y panel de personas. Una breve toma de requerimientos de marca (~15 minutos) captura tu estrategia go-to-market. El sistema genera un mapa de viaje visual para cada persona seleccionada.",
         "whatYouGet": "Visión general del embudo + línea temporal por persona + análisis de brechas + exportación PDF",
         "delivery": "3–5 días de negocio desde la toma de requerimientos de marca",
-        "pricing": "US$400 por persona · elige cualquier número de tu panel",
+        "pricing": "US$500 por persona · elige cualquier número de tu panel",
         "link": "/consumer-journeys",
         "linkLabel": "Ver detalles completos →"
       },
@@ -2880,9 +2880,9 @@
       {
         "name": "Iniciador",
         "research": "Investigación P (US$4,000)",
-        "journeys": "6 personas (US$2,400)",
+        "journeys": "6 personas (US$3,000)",
         "vfg": "1 sesión (US$4,000)",
-        "total": "US$10,400"
+        "total": "US$11,000"
       },
       {
         "name": "Crecimiento",
@@ -2908,9 +2908,9 @@
       {
         "name": "Investigación + Viajes",
         "research": "Investigación M (US$6,000)",
-        "journeys": "6 personas (US$2,400)",
+        "journeys": "6 personas (US$3,000)",
         "vfg": "—",
-        "total": "US$8,400"
+        "total": "US$9,000"
       }
     ],
     "pricingNote": "Precios mayoristas para agencias disponibles — vea los modelos de partnership y divisiones de ingresos.",
@@ -2927,7 +2927,7 @@
     "heroSub": "Los Mapas de Viaje del Consumidor muestran la secuencia completa de cómo cada persona en tu panel descubre, evalúa, compra, y regresa a tu marca — y dónde tus puntos de contacto actuales o planeados se alinean, no se alinean, o crean fricción. Específicos de marca. Fundamentados en tu investigación de mercado. Visuales y exportables.",
     "heroStats": [
       {
-        "num": "US$400",
+        "num": "US$500",
         "label": "POR PERSONA"
       },
       {
@@ -2999,10 +2999,10 @@
       }
     ],
     "pricingTitle": "Precios",
-    "pricingAmount": "US$400 por persona",
+    "pricingAmount": "US$500 por persona",
     "pricingSub": "Selecciona cualquier número de personas de tu panel. Sin mínimo.",
     "pricingIncludes": "Toma de Requerimientos de Puntos de Contacto de Marca (formulario guiado, ~15 min) · Generación de viaje completo · Panel de Control de Visión General del Embudo · Tarjetas de Viaje por Persona · Análisis de Brechas con Puntuaciones de Severidad · Resumen ejecutivo · Exportación PDF white-label · Historial de versiones",
-    "pricingExamples": "6 personas = US$2,400 | 10 personas = US$4,000 | 20 personas = US$8,000",
+    "pricingExamples": "6 personas = US$3,000 | 10 personas = US$5,000 | 20 personas = US$10,000",
     "pricingNote": "Precios mayoristas para agencias disponibles — vea los modelos de partnership y divisiones de ingresos.",
     "faqTitle": "Preguntas comunes",
     "faqs": [

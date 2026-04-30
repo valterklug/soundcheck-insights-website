@@ -136,7 +136,7 @@
         "for": "Agencies · Brands · Founders",
         "name": "Consumer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
-        "delivery": "$400/persona · 2–3 day delivery",
+        "delivery": "$500/persona · 2–3 day delivery",
         "link": "/consumer-journeys"
       },
       {
@@ -207,7 +207,7 @@
         "num": "02",
         "name": "Consumer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
-        "price": "$400 per persona · pick as many as you need"
+        "price": "$500 per persona · pick as many as you need"
       },
       {
         "num": "03",
@@ -565,7 +565,7 @@
         "name": "Consumer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research.",
-        "price": "US$400 per persona",
+        "price": "US$500 per persona",
         "delivery": "2–3 day delivery · White-label included",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
@@ -2827,7 +2827,7 @@
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
         "delivery": "3–5 business days from brand intake",
-        "pricing": "$400 per persona · pick any number from your panel",
+        "pricing": "$500 per persona · pick any number from your panel",
         "link": "/consumer-journeys",
         "linkLabel": "See full details →"
       },
@@ -2856,9 +2856,9 @@
       {
         "name": "Starter",
         "research": "Research S ($4,000)",
-        "journeys": "6 personas ($2,400)",
+        "journeys": "6 personas ($3,000)",
         "vfg": "1 session ($4,000)",
-        "total": "$10,400"
+        "total": "$11,000"
       },
       {
         "name": "Growth",
@@ -2884,9 +2884,9 @@
       {
         "name": "Research + Journeys",
         "research": "Research M ($6,000)",
-        "journeys": "6 personas ($2,400)",
+        "journeys": "6 personas ($3,000)",
         "vfg": "—",
-        "total": "$8,400"
+        "total": "$9,000"
       }
     ],
     "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
@@ -2903,7 +2903,7 @@
     "heroSub": "Consumer Journey Maps show the full sequence of how each persona in your panel discovers, evaluates, purchases, and returns to your brand — and where your current or planned touchpoints align, miss, or create friction. Brand-specific. Grounded in your market research. Visual and exportable.",
     "heroStats": [
       {
-        "num": "$400",
+        "num": "$500",
         "label": "PER PERSONA"
       },
       {
@@ -2975,10 +2975,10 @@
       }
     ],
     "pricingTitle": "Pricing",
-    "pricingAmount": "$400 per persona",
+    "pricingAmount": "$500 per persona",
     "pricingSub": "Select any number of personas from your panel. No minimum.",
     "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
-    "pricingExamples": "6 personas = $2,400 | 10 personas = $4,000 | 20 personas = $8,000",
+    "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 20 personas = $10,000",
     "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
     "faqTitle": "Common questions",
     "faqs": [
