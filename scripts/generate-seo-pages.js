@@ -90,12 +90,12 @@ const pages = {
   },
   '/research-platform': {
     title: 'Consumer Intelligence Platform | Soundcheck Insights',
-    description: 'Three connected modules: Market Research, Consumer Journey Maps, Virtual Focus Group Sessions.',
+    description: 'Three connected modules: Market Research, Customer Journey Maps, Virtual Focus Group Sessions.',
     image: '/og/og-products.png',
   },
   '/consumer-journeys': {
-    title: 'Consumer Journey Maps · Module 02 | Soundcheck Insights',
-    description: 'Brand-specific consumer journey maps. $500 per persona.',
+    title: 'Customer Journey Maps · Module 02 | Soundcheck Insights',
+    description: 'Brand-specific customer journey maps. $500 per persona.',
     image: '/og/og-products.png',
   },
   '/market-research': {

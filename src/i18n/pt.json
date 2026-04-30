@@ -13,7 +13,7 @@
     "standaloneProducts": "Produtos Independentes",
     "standaloneProductsDesc": "Entregas de escopo definido e preço fixo. Contrate um por vez.",
     "marketResearch": "Market Research",
-    "consumerJourneys": "Consumer Journey Maps",
+    "consumerJourneys": "Customer Journey Maps",
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
@@ -134,7 +134,7 @@
       {
         "num": "04",
         "for": "Agências · Marcas · Fundadores",
-        "name": "Mapas de Jornada do Consumidor",
+        "name": "Mapas de Jornada do Cliente",
         "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricções e oportunidades. Dashboard visual + PDF.",
         "delivery": "$500/persona · Entrega em 2–3 dias",
         "link": "/consumer-journeys"
@@ -205,7 +205,7 @@
       },
       {
         "num": "02",
-        "name": "Consumer Journey Maps",
+        "name": "Customer Journey Maps",
         "desc": "Mapas de jornada específicos da marca mostrando como cada persona descobre, avalia e compra — e onde seus pontos de contato os encontram ou os perdem.",
         "price": "US$ 500 por persona · escolha quantos precisar"
       },
@@ -562,7 +562,7 @@
       {
         "num": "04",
         "for": "Agências · Marcas · Fundadores",
-        "name": "Mapas de Jornada do Consumidor",
+        "name": "Mapas de Jornada do Cliente",
         "tagline": "Veja exatamente onde sua marca conecta — e onde perde pessoas.",
         "desc": "Mapas de jornada específicos por marca mostrando como cada persona se move do awareness à advocacy — e onde os touchpoints da marca se alinham, falham ou criam fricção.",
         "price": "US$ 500 por persona",
@@ -2826,7 +2826,7 @@
     "heroLabel": "Consumer Intelligence Platform",
     "heroTitle": "Pesquisa. Jornadas. Focus Groups.",
     "heroSub": "Três módulos. Um fluxo de trabalho. Tanto quanto o projeto precisar.",
-    "heroDesc": "Contrate Market Research e obtenha um painel de personas grounded em pesquisa. Mapeie como cada persona compra com Consumer Journey Maps. Teste seus conceitos com Virtual Focus Group Sessions. Cada módulo funciona sozinho. Os três juntos se reforçam.",
+    "heroDesc": "Contrate Market Research e obtenha um painel de personas grounded em pesquisa. Mapeie como cada persona compra com Customer Journey Maps. Teste seus conceitos com Virtual Focus Group Sessions. Cada módulo funciona sozinho. Os três juntos se reforçam.",
     "ctaButton": "Solicitar Acesso →",
     "seePricing": "Ver Preços ↓",
     "modulesTitle": "Como os módulos se conectam",
@@ -2844,7 +2844,7 @@
       },
       {
         "num": "02",
-        "name": "Consumer Journey Maps",
+        "name": "Customer Journey Maps",
         "tag": "Complemento. Requer Market Research.",
         "desc": "Mapas de jornada específicos da marca que mostram como cada persona selecionada se move de primeira conscientização para defesa da marca — e onde seus pontos de contato atuais ou planejados os encontram ou os perdem. Construído a partir de sua pesquisa de mercado e painel de personas. Uma intake de marca breve (~15 minutos) captura sua estratégia de canal. O sistema gera um mapa de jornada visual para cada persona selecionada.",
         "whatYouGet": "Visão geral do funil + timeline por persona + análise de gaps + export PDF",
@@ -2870,7 +2870,7 @@
     "pricingColumns": [
       "Tamanho do Projeto",
       "Market Research",
-      "Consumer Journeys",
+      "Customer Journeys",
       "VFG Session",
       "Total"
     ],
@@ -2920,9 +2920,9 @@
     "whoCta": "Parceiros Conosco →"
   },
   "consumerJourneys": {
-    "heroLabel": "Consumer Journey Maps · Módulo 02",
+    "heroLabel": "Customer Journey Maps · Módulo 02",
     "heroTitle": "Veja como seu comprador realmente se move de descoberta para fidelidade.",
-    "heroSub": "Consumer Journey Maps mostram a sequência completa de como cada persona no seu painel descobre, avalia, compra e retorna à sua marca — e onde seus pontos de contato atuais ou planejados se alinham, erram ou criam atrito. Específico da marca. Grounded em sua pesquisa de mercado. Visual e exportável.",
+    "heroSub": "Customer Journey Maps mostram a sequência completa de como cada persona no seu painel descobre, avalia, compra e retorna à sua marca — e onde seus pontos de contato atuais ou planejados se alinham, erram ou criam atrito. Específico da marca. Grounded em sua pesquisa de mercado. Visual e exportável.",
     "heroStats": [
       {
         "num": "US$ 500",
@@ -2943,11 +2943,11 @@
     ],
     "ctaButton": "Solicitar Acesso →",
     "prereqTitle": "Antes de executar este módulo",
-    "prereqDesc": "Consumer Journey Maps requerem um projeto concluído de Market Research e painel de personas. A jornada é construída a partir de seus dados de pesquisa e perfis de personas — sem eles, o resultado seria genérico, não específico da marca.",
+    "prereqDesc": "Customer Journey Maps requerem um projeto concluído de Market Research e painel de personas. A jornada é construída a partir de seus dados de pesquisa e perfis de personas — sem eles, o resultado seria genérico, não específico da marca.",
     "prereqReady": "Se sua pesquisa já está concluída, você está pronto.",
     "prereqCta": "Comece com Market Research →",
     "whatTitle": "Uma persona diz quem é seu comprador. Um mapa de jornada diz como ele compra.",
-    "whatDesc1": "Sua Market Research cria personas de comprador — perfis definidos com motivações, comportamentos, hábitos de mídia e gatilhos de decisão. Isso responde quem. Um Consumer Journey Map responde como: a sequência completa de comportamentos e emoções do momento em que sua marca aparece em seu radar até o momento em que a recomendam para outra pessoa.",
+    "whatDesc1": "Sua Market Research cria personas de comprador — perfis definidos com motivações, comportamentos, hábitos de mídia e gatilhos de decisão. Isso responde quem. Um Customer Journey Map responde como: a sequência completa de comportamentos e emoções do momento em que sua marca aparece em seu radar até o momento em que a recomendam para outra pessoa.",
     "whatDesc2": "E criticamente — mostra onde sua marca os encontra nesse caminho, e onde não.",
     "whatCallout": "Persona = quem. Mapa de jornada = como eles compram. Focus group = como eles reagem. Cada módulo responde uma pergunta diferente. Os três juntos dão a você o quadro completo.",
     "howTitle": "Como funciona",
@@ -3006,7 +3006,7 @@
     "faqs": [
       {
         "q": "Preciso completar a pesquisa de mercado completa antes de executar um mapa de jornada?",
-        "a": "Sim. Consumer Journey Maps são construídos a partir de seus dados de pesquisa de mercado e painel de personas. Sem pesquisa, a jornada seria um mapa genérico de categoria — não específico da marca. Se você ainda não executou pesquisa, comece em /market-research."
+        "a": "Sim. Customer Journey Maps são construídos a partir de seus dados de pesquisa de mercado e painel de personas. Sem pesquisa, a jornada seria um mapa genérico de categoria — não específico da marca. Se você ainda não executou pesquisa, comece em /market-research."
       },
       {
         "q": "Qual é a diferença entre uma persona e um mapa de jornada?",

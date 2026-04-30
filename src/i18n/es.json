@@ -13,7 +13,7 @@
     "standaloneProducts": "Productos Independientes",
     "standaloneProductsDesc": "Entregas de alcance fijo y precio fijo. Encarga una a la vez.",
     "marketResearch": "Investigación de Mercado",
-    "consumerJourneys": "Mapas de Viaje del Consumidor",
+    "consumerJourneys": "Mapas de Viaje del Cliente",
     "virtualFocusGroups": "Sesiones de Grupos Focales Virtuales"
   },
   "footer": {
@@ -134,7 +134,7 @@
       {
         "num": "04",
         "for": "Agencias · Marcas · Fundadores",
-        "name": "Mapas de Jornada del Consumidor",
+        "name": "Mapas de Jornada del Cliente",
         "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricciones y oportunidades. Dashboard visual + PDF.",
         "delivery": "$500/persona · Entrega en 2–3 días",
         "link": "/consumer-journeys"
@@ -205,7 +205,7 @@
       },
       {
         "num": "02",
-        "name": "Mapas de Viaje del Consumidor",
+        "name": "Mapas de Viaje del Cliente",
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona descubre, evalúa y compra — y dónde tus puntos de contacto se alinean o no con ellos.",
         "price": "US$500 por persona · elige tantas como necesites"
       },
@@ -562,7 +562,7 @@
       {
         "num": "04",
         "for": "Agencias · Marcas · Fundadores",
-        "name": "Mapas de Jornada del Consumidor",
+        "name": "Mapas de Jornada del Cliente",
         "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
         "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
         "price": "US$500 por persona",
@@ -2828,7 +2828,7 @@
     "heroLabel": "Plataforma de Inteligencia del Consumidor",
     "heroTitle": "Investigación. Viajes. Grupos Focales.",
     "heroSub": "Tres módulos. Un flujo de trabajo. Tan completo o simple como el proyecto requiera.",
-    "heroDesc": "Encarga Investigación de Mercado y obtén un panel de personas basadas en investigación. Mapea cómo cada persona compra con Mapas de Viaje del Consumidor. Prueba tus conceptos con Sesiones de Grupos Focales Virtuales. Cada módulo se sostiene por sí solo. Los tres en conjunto se potencian mutuamente.",
+    "heroDesc": "Encarga Investigación de Mercado y obtén un panel de personas basadas en investigación. Mapea cómo cada persona compra con Mapas de Viaje del Cliente. Prueba tus conceptos con Sesiones de Grupos Focales Virtuales. Cada módulo se sostiene por sí solo. Los tres en conjunto se potencian mutuamente.",
     "ctaButton": "Solicitar Acceso →",
     "seePricing": "Ver Precios ↓",
     "modulesTitle": "Cómo se conectan los módulos",
@@ -2846,7 +2846,7 @@
       },
       {
         "num": "02",
-        "name": "Mapas de Viaje del Consumidor",
+        "name": "Mapas de Viaje del Cliente",
         "tag": "Complemento. Requiere Investigación de Mercado.",
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona seleccionada se mueve desde la primera conciencia hasta la defensa de la marca — y dónde tus puntos de contacto actuales o planeados se alinean con ellos o no. Construido a partir de tu investigación de mercado y panel de personas. Una breve toma de requerimientos de marca (~15 minutos) captura tu estrategia go-to-market. El sistema genera un mapa de viaje visual para cada persona seleccionada.",
         "whatYouGet": "Visión general del embudo + línea temporal por persona + análisis de brechas + exportación PDF",
@@ -2872,7 +2872,7 @@
     "pricingColumns": [
       "Tamaño del Proyecto",
       "Investigación de Mercado",
-      "Mapas de Viaje del Consumidor",
+      "Mapas de Viaje del Cliente",
       "Sesión VFG",
       "Total"
     ],
@@ -2922,9 +2922,9 @@
     "whoCta": "Asociarse Con Nosotros →"
   },
   "consumerJourneys": {
-    "heroLabel": "Mapas de Viaje del Consumidor · Módulo 02",
+    "heroLabel": "Mapas de Viaje del Cliente · Módulo 02",
     "heroTitle": "Ve cómo tu comprador se mueve desde el descubrimiento hasta la lealtad.",
-    "heroSub": "Los Mapas de Viaje del Consumidor muestran la secuencia completa de cómo cada persona en tu panel descubre, evalúa, compra, y regresa a tu marca — y dónde tus puntos de contacto actuales o planeados se alinean, no se alinean, o crean fricción. Específicos de marca. Fundamentados en tu investigación de mercado. Visuales y exportables.",
+    "heroSub": "Los Mapas de Viaje del Cliente muestran la secuencia completa de cómo cada persona en tu panel descubre, evalúa, compra, y regresa a tu marca — y dónde tus puntos de contacto actuales o planeados se alinean, no se alinean, o crean fricción. Específicos de marca. Fundamentados en tu investigación de mercado. Visuales y exportables.",
     "heroStats": [
       {
         "num": "US$500",
@@ -2945,11 +2945,11 @@
     ],
     "ctaButton": "Solicitar Acceso →",
     "prereqTitle": "Antes de ejecutar este módulo",
-    "prereqDesc": "Los Mapas de Viaje del Consumidor requieren un proyecto completado de Investigación de Mercado y un panel de personas. El viaje se construye a partir de tus datos de investigación y perfiles de personas — sin ellos, el resultado sería genérico, no específico de marca.",
+    "prereqDesc": "Los Mapas de Viaje del Cliente requieren un proyecto completado de Investigación de Mercado y un panel de personas. El viaje se construye a partir de tus datos de investigación y perfiles de personas — sin ellos, el resultado sería genérico, no específico de marca.",
     "prereqReady": "Si tu investigación ya está completa, estás listo para continuar.",
     "prereqCta": "Comienza con Investigación de Mercado →",
     "whatTitle": "Una persona te dice quién es tu comprador. Un mapa de viaje te dice cómo compra.",
-    "whatDesc1": "Tu Investigación de Mercado crea personas compradoras — perfiles definidos con motivaciones, comportamientos, hábitos de medios, y desencadenantes de decisión. Eso responde a quién. Un Mapa de Viaje del Consumidor responde a cómo: la secuencia completa de comportamientos y emociones desde el momento en que tu marca aparece por primera vez en su radar hasta el momento en que la recomiendan a otro.",
+    "whatDesc1": "Tu Investigación de Mercado crea personas compradoras — perfiles definidos con motivaciones, comportamientos, hábitos de medios, y desencadenantes de decisión. Eso responde a quién. Un Mapa de Viaje del Cliente responde a cómo: la secuencia completa de comportamientos y emociones desde el momento en que tu marca aparece por primera vez en su radar hasta el momento en que la recomiendan a otro.",
     "whatDesc2": "Y críticamente — muestra dónde tu marca los encuentra en ese camino, y dónde no.",
     "whatCallout": "Persona = quién. Mapa de viaje = cómo compran. Grupo focal = cómo reaccionan. Cada módulo responde una pregunta diferente. Los tres en conjunto te dan el panorama completo.",
     "howTitle": "Cómo funciona",
@@ -3008,7 +3008,7 @@
     "faqs": [
       {
         "q": "¿Necesito completar la investigación de mercado completa antes de ejecutar un mapa de viaje?",
-        "a": "Sí. Los Mapas de Viaje del Consumidor se construyen a partir de tus datos de investigación de mercado y panel de personas. Sin investigación, el viaje sería un mapa de categoría genérico — no específico de marca. Si aún no has ejecutado investigación, comienza en /market-research."
+        "a": "Sí. Los Mapas de Viaje del Cliente se construyen a partir de tus datos de investigación de mercado y panel de personas. Sin investigación, el viaje sería un mapa de categoría genérico — no específico de marca. Si aún no has ejecutado investigación, comienza en /market-research."
       },
       {
         "q": "¿Cuál es la diferencia entre una persona y un mapa de viaje?",

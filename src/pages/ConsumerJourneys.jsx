@@ -21,7 +21,7 @@ export default function ConsumerJourneys() {
   return (
     <PageWrapper>
       <SEO
-        title="Consumer Journey Maps"
+        title="Customer Journey Maps"
         description="See how your buyer moves from discovery to loyalty. Brand-specific journey maps built from your market research and persona data. $500 per persona. 3–5 business days."
         path="/consumer-journeys"
         image="/og/og-consumer-journeys.png"
@@ -231,7 +231,7 @@ export default function ConsumerJourneys() {
       {/* Bottom CTA */}
       <section className="cta-strip">
         <FadeIn>
-          <h2 className="cta-strip-h2">Ready to map your consumer journey?</h2>
+          <h2 className="cta-strip-h2">Ready to map your customer journey?</h2>
         </FadeIn>
         <div className="cta-actions" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
           <Link to={getLocalizedPath('/contact', lang)} className="btn btn-white">{t('consumerJourneys.ctaButton')}</Link>

@@ -13,7 +13,7 @@
     "standaloneProducts": "Standalone Products",
     "standaloneProductsDesc": "Scoped, fixed-price deliverables. Commission one at a time.",
     "marketResearch": "Market Research",
-    "consumerJourneys": "Consumer Journeys",
+    "consumerJourneys": "Customer Journeys",
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
@@ -134,7 +134,7 @@
       {
         "num": "04",
         "for": "Agencies · Brands · Founders",
-        "name": "Consumer Journey Maps",
+        "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
         "delivery": "$500/persona · 2–3 day delivery",
         "link": "/consumer-journeys"
@@ -205,7 +205,7 @@
       },
       {
         "num": "02",
-        "name": "Consumer Journey Maps",
+        "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
         "price": "$500 per persona · pick as many as you need"
       },
@@ -562,7 +562,7 @@
       {
         "num": "04",
         "for": "Agencies · Brands · Founders",
-        "name": "Consumer Journey Maps",
+        "name": "Customer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research.",
         "price": "US$500 per persona",
@@ -2804,7 +2804,7 @@
     "heroLabel": "Consumer Intelligence Platform",
     "heroTitle": "Research. Journeys. Focus Groups.",
     "heroSub": "Three modules. One workflow. As much or as little as the project needs.",
-    "heroDesc": "Commission Market Research and get a research-grounded persona panel. Map how each persona buys with Consumer Journey Maps. Pressure-test your concepts with Virtual Focus Group Sessions. Each module stands alone. All three compound.",
+    "heroDesc": "Commission Market Research and get a research-grounded persona panel. Map how each persona buys with Customer Journey Maps. Pressure-test your concepts with Virtual Focus Group Sessions. Each module stands alone. All three compound.",
     "ctaButton": "Request Access →",
     "seePricing": "See Pricing ↓",
     "modulesTitle": "How the modules connect",
@@ -2822,7 +2822,7 @@
       },
       {
         "num": "02",
-        "name": "Consumer Journey Maps",
+        "name": "Customer Journey Maps",
         "tag": "Add-on. Requires Market Research.",
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
@@ -2848,7 +2848,7 @@
     "pricingColumns": [
       "Project Size",
       "Market Research",
-      "Consumer Journeys",
+      "Customer Journeys",
       "VFG Session",
       "Total"
     ],
@@ -2898,9 +2898,9 @@
     "whoCta": "Partner with Us →"
   },
   "consumerJourneys": {
-    "heroLabel": "Consumer Journey Maps · Module 02",
+    "heroLabel": "Customer Journey Maps · Module 02",
     "heroTitle": "See how your buyer actually moves from discovery to loyalty.",
-    "heroSub": "Consumer Journey Maps show the full sequence of how each persona in your panel discovers, evaluates, purchases, and returns to your brand — and where your current or planned touchpoints align, miss, or create friction. Brand-specific. Grounded in your market research. Visual and exportable.",
+    "heroSub": "Customer Journey Maps show the full sequence of how each persona in your panel discovers, evaluates, purchases, and returns to your brand — and where your current or planned touchpoints align, miss, or create friction. Brand-specific. Grounded in your market research. Visual and exportable.",
     "heroStats": [
       {
         "num": "$500",
@@ -2921,11 +2921,11 @@
     ],
     "ctaButton": "Request Access →",
     "prereqTitle": "Before you run this module",
-    "prereqDesc": "Consumer Journey Maps require a completed Market Research project and persona panel. The journey is built from your research data and persona profiles — without them, the output would be generic, not brand-specific.",
+    "prereqDesc": "Customer Journey Maps require a completed Market Research project and persona panel. The journey is built from your research data and persona profiles — without them, the output would be generic, not brand-specific.",
     "prereqReady": "If your research is already complete, you are ready to go.",
     "prereqCta": "Start with Market Research →",
     "whatTitle": "A persona tells you who your buyer is. A journey map tells you how they buy.",
-    "whatDesc1": "Your Market Research creates buyer personas — defined profiles with motivations, behaviors, media habits, and decision triggers. That answers who. A Consumer Journey Map answers how: the full sequence of behaviors and emotions from the moment your brand first appears on their radar to the moment they recommend it to someone else.",
+    "whatDesc1": "Your Market Research creates buyer personas — defined profiles with motivations, behaviors, media habits, and decision triggers. That answers who. A Customer Journey Map answers how: the full sequence of behaviors and emotions from the moment your brand first appears on their radar to the moment they recommend it to someone else.",
     "whatDesc2": "And critically — it shows where your brand meets them along that path, and where it doesn't.",
     "whatCallout": "Persona = who. Journey map = how they buy. Focus group = how they react. Each module answers a different question. All three together give you the full picture.",
     "howTitle": "How it works",
@@ -2984,7 +2984,7 @@
     "faqs": [
       {
         "q": "Do I need to complete the full market research before running a journey map?",
-        "a": "Yes. Consumer Journey Maps are built from your market research data and persona panel. Without research, the journey would be a generic category map — not brand-specific. If you haven't run research yet, start at /market-research."
+        "a": "Yes. Customer Journey Maps are built from your market research data and persona panel. Without research, the journey would be a generic category map — not brand-specific. If you haven't run research yet, start at /market-research."
       },
       {
         "q": "What's the difference between a persona and a journey map?",

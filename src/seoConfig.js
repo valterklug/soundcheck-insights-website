@@ -244,24 +244,24 @@ const seoConfig = {
 
   '/research-platform': {
     title: 'Consumer Intelligence Platform',
-    description: 'Three connected modules for consumer intelligence: Market Research, Consumer Journey Maps, and Virtual Focus Group Sessions. Start with what you need. Add depth as the project grows.',
+    description: 'Three connected modules for consumer intelligence: Market Research, Customer Journey Maps, and Virtual Focus Group Sessions. Start with what you need. Add depth as the project grows.',
     image: '/og/og-products.png',
-    keywords: 'consumer intelligence, market research, consumer journey maps, virtual focus groups, buyer personas, brand research, agency research platform',
+    keywords: 'consumer intelligence, market research, customer journey maps, virtual focus groups, buyer personas, brand research, agency research platform',
     schema: serviceSchema(
       'Consumer Intelligence Platform',
-      'Three connected modules: Market Research, Consumer Journey Maps, and Virtual Focus Group Sessions. Commission one or chain all three.',
+      'Three connected modules: Market Research, Customer Journey Maps, and Virtual Focus Group Sessions. Commission one or chain all three.',
       '4000',
       '/research-platform',
     ),
   },
 
   '/consumer-journeys': {
-    title: 'Consumer Journey Maps · Module 02',
-    description: 'Brand-specific consumer journey maps built from your market research and persona panel. See how each buyer persona moves from awareness to advocacy — and where your touchpoints miss them.',
+    title: 'Customer Journey Maps · Module 02',
+    description: 'Brand-specific customer journey maps built from your market research and persona panel. See how each buyer persona moves from awareness to advocacy — and where your touchpoints miss them.',
     image: '/og/og-products.png',
-    keywords: 'consumer journey maps, buyer journey, customer journey mapping, brand touchpoints, gap analysis, persona journey, purchase funnel',
+    keywords: 'customer journey maps, buyer journey, customer journey mapping, brand touchpoints, gap analysis, persona journey, purchase funnel',
     schema: serviceSchema(
-      'Consumer Journey Maps',
+      'Customer Journey Maps',
       'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $500 per persona.',
       '500',
       '/consumer-journeys',
@@ -275,7 +275,7 @@ const seoConfig = {
     keywords: 'market research, consumer analysis, competitive landscape, buyer personas, market intelligence, brand research',
     schema: serviceSchema(
       'Market Research',
-      'Three decision-grade research reports plus a research-grounded buyer persona panel. The foundation for consumer journey maps and virtual focus groups.',
+      'Three decision-grade research reports plus a research-grounded buyer persona panel. The foundation for customer journey maps and virtual focus groups.',
       '4000',
       '/market-research',
     ),
