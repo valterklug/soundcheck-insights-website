@@ -142,7 +142,7 @@ const seoConfig = {
     title: 'International Expansion Viability Report',
     description: 'Decision-grade market entry intelligence for international brands. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages in 14 days.',
     image: '/og/og-expansion-report.png',
-    keywords: 'international expansion, market entry report, CVE score, US market entry, brand expansion, viability analysis',
+    keywords: 'international expansion, market entry report, CVE score, market expansion, brand expansion, viability analysis, new market entry',
     schema: serviceSchema(
       'International Expansion Viability Report',
       '100+ page market entry intelligence report with proprietary CVE Score, competitive landscape analysis, regulatory framework, distribution channel mapping, and 12-month roadmap.',

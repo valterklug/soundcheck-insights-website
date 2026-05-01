@@ -109,9 +109,9 @@
     "products": [
       {
         "num": "01",
-        "for": "Brazilian & LatAm Brands · Market Entry",
+        "for": "Brands & Agencies · Market Expansion",
         "name": "International Viability Analysis",
-        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. 100+ pages.",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap for any new market. 100+ pages.",
         "delivery": "2–3 week delivery · White-label included",
         "link": "/expansion-report"
       },
@@ -504,9 +504,9 @@
     "items": [
       {
         "num": "01",
-        "for": "Brazilian & LatAm Brands · Market Entry",
+        "for": "Brands & Agencies · Market Expansion",
         "name": "International Viability Analysis",
-        "desc": "Decision-grade market entry intelligence for Brazilian and Latin American brands expanding internationally. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a phased roadmap. White-labeled, delivered in 2–3 weeks.",
+        "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a phased roadmap. White-labeled, delivered in 2–3 weeks.",
         "price": "US$5,000",
         "delivery": "2–3 week delivery · White-label included · 2 revisions",
         "ctaLabel": "See Full Report Details →",
@@ -1695,7 +1695,7 @@
   "expansionReport": {
     "heroLabel": "Product Deep-Dive · International Viability Analysis",
     "heroTitle": "Before You Invest in Expansion, Know What You're Walking Into",
-    "heroSub": "The International Viability Analysis is built for Brazilian and Latin American brands evaluating market expansion — most often into the US, but also into other international markets. Not a data dump. A decision-grade document with sourced evidence, a proprietary CVE Score, strategic paths, and a phased roadmap your team can execute from Day 1.",
+    "heroSub": "The International Viability Analysis is built for any company evaluating expansion into a new market — whether entering a new country, a new region, or an adjacent category in unfamiliar territory. Not a data dump. A decision-grade document with sourced evidence, a proprietary CVE Score, strategic paths, and a phased roadmap your team can execute from Day 1.",
     "briefButton": "Brief This Report →",
     "seeInsideButton": "See What's Inside →",
     "heroStats": [
@@ -1719,8 +1719,8 @@
     "whoTitle": "Who commissions this report.",
     "whoCards": [
       {
-        "title": "Brazilian & LatAm brands",
-        "text": "Established companies from Brazil and Latin America evaluating entry into the US or other international markets. You have a product, revenue, and channels at home. You need to know if the new market is real before you commit."
+        "title": "Brands planning market expansion",
+        "text": "Established companies evaluating entry into a new market — domestic or international. You have a product, revenue, and channels where you operate today. You need to know if the new market is real before you commit."
       },
       {
         "title": "Agencies and consultancies",
@@ -1988,7 +1988,7 @@
       },
       {
         "q": "Which markets do you cover?",
-        "a": "Our core expertise is brands entering the US market, but the methodology is market-agnostic. We have delivered reports for entry into the US, Canada, the UK, Germany, Brazil, Mexico, and the UAE. The report is always produced in the local language of the target market and uses local currency for all financial figures."
+        "a": "The methodology is market-agnostic. We have delivered reports for expansion into the US, Canada, the UK, Germany, Brazil, Mexico, the UAE, and others. The report is always produced in the language of the target market and uses local currency for all financial figures."
       },
       {
         "q": "How is this different from a traditional market research report?",

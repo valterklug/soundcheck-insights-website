@@ -109,9 +109,9 @@
     "products": [
       {
         "num": "01",
-        "for": "Marcas Brasileñas y LatAm · Entrada al Mercado",
+        "for": "Marcas y Agencias · Expansión de Mercado",
         "name": "Análisis de Viabilidad Internacional",
-        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y hoja de ruta. 100+ páginas.",
+        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y hoja de ruta para cualquier nuevo mercado. 100+ páginas.",
         "delivery": "Entrega en 2–3 semanas · White-label incluido",
         "link": "/expansion-report"
       },
@@ -504,9 +504,9 @@
     "items": [
       {
         "num": "01",
-        "for": "Marcas Brasileñas y LatAm · Entrada al Mercado",
+        "for": "Marcas y Agencias · Expansión de Mercado",
         "name": "Análisis de Viabilidad Internacional",
-        "desc": "Inteligencia de entrada al mercado para marcas brasileñas y latinoamericanas en expansión internacional. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta por fases.",
+        "desc": "Inteligencia de entrada al mercado para cualquier empresa que planea expandirse a un nuevo mercado. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta por fases.",
         "price": "US$5.000",
         "delivery": "Entrega en 2–3 semanas · White-label incluido · 2 revisiones",
         "ctaLabel": "Ver Detalles del Informe →",
@@ -1533,7 +1533,7 @@
   "expansionReport": {
     "heroLabel": "Producto en Detalle · Análisis de Viabilidad Internacional",
     "heroTitle": "Antes de Invertir en la Expansión, Sepa a Qué Se Enfrenta",
-    "heroSub": "El Análisis de Viabilidad Internacional está diseñado para marcas brasileñas y latinoamericanas que evalúan la expansión de mercado — generalmente hacia EE.UU., pero también hacia otros mercados internacionales. No es un volcado de datos. Es un documento de grado decisional con evidencia documentada, un CVE Score propietario, caminos estratégicos y una hoja de ruta por fases que su equipo puede ejecutar desde el Día 1.",
+    "heroSub": "El Análisis de Viabilidad Internacional está diseñado para cualquier empresa que evalúa la expansión a un nuevo mercado — ya sea entrando a un nuevo país, una nueva región o una categoría adyacente en territorio desconocido. No es un volcado de datos. Es un documento de nivel decisorio con evidencia referenciada, un CVE Score propietario, caminos estratégicos y una hoja de ruta por fases que tu equipo puede ejecutar desde el Día 1.",
     "briefButton": "Proponer este Informe →",
     "seeInsideButton": "Ver qué Incluye →",
     "heroStats": [
@@ -1557,8 +1557,8 @@
     "whoTitle": "Quién encarga este informe.",
     "whoCards": [
       {
-        "title": "Marcas brasileñas y latinas",
-        "text": "Empresas establecidas de Brasil y Latinoamérica evaluando la entrada a EE.UU. u otros mercados internacionales. Tienen producto, ingresos y canales en casa. Necesitan saber si el nuevo mercado es real antes de comprometerse."
+        "title": "Marcas planificando expansión",
+        "text": "Empresas establecidas evaluando entrada a un nuevo mercado — doméstico o internacional. Tienes un producto, ingresos y canales donde operas hoy. Necesitas saber si el nuevo mercado es real antes de comprometerte."
       },
       {
         "title": "Agencias y consultorías",
@@ -1826,7 +1826,7 @@
       },
       {
         "q": "¿Qué mercados cubren?",
-        "a": "Nuestra experiencia principal es marcas que entran al mercado de EE.UU., pero la metodología es agnóstica al mercado. Hemos entregado informes para entrada a EE.UU., Canadá, Reino Unido, Alemania, Brasil, México, y Emiratos Árabes Unidos. El informe siempre se produce en el idioma local del mercado objetivo y usa moneda local para todas las figuras financieras."
+        "a": "La metodología es agnóstica de mercado. Hemos entregado informes para expansión a Estados Unidos, Canadá, Reino Unido, Alemania, Brasil, México, Emiratos Árabes Unidos, entre otros. El informe siempre se produce en el idioma del mercado objetivo y usa la moneda local para todas las cifras financieras."
       },
       {
         "q": "¿Cómo es esto diferente a un informe de investigación de mercado tradicional?",

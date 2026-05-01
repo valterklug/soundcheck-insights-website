@@ -109,9 +109,9 @@
     "products": [
       {
         "num": "01",
-        "for": "Marcas Brasileiras e LatAm · Entrada no Mercado",
+        "for": "Marcas e Agências · Expansão de Mercado",
         "name": "Análise de Viabilidade Internacional",
-        "desc": "CVE Score, panorama competitivo, snapshot regulatório, mapa de canais, caminhos estratégicos e roadmap. 100+ páginas.",
+        "desc": "CVE Score, panorama competitivo, snapshot regulatório, mapa de canais, caminhos estratégicos e roadmap para qualquer novo mercado. 100+ páginas.",
         "delivery": "Entrega em 2–3 semanas · White-label incluído",
         "link": "/expansion-report"
       },
@@ -504,9 +504,9 @@
     "items": [
       {
         "num": "01",
-        "for": "Marcas Brasileiras e LatAm · Entrada no Mercado",
+        "for": "Marcas e Agências · Expansão de Mercado",
         "name": "Análise de Viabilidade Internacional",
-        "desc": "Inteligência de entrada no mercado para marcas brasileiras e latino-americanas em expansão internacional. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
+        "desc": "Inteligência de entrada no mercado para qualquer empresa planejando expandir para um novo mercado. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
         "price": "US$5.000",
         "delivery": "Entrega em 2–3 semanas · White-label incluído · 2 revisões",
         "ctaLabel": "Ver Detalhes do Relatório →",
@@ -1533,7 +1533,7 @@
   "expansionReport": {
     "heroLabel": "Produto em Detalhe · Análise de Viabilidade Internacional",
     "heroTitle": "Antes de Investir na Expansão, Saiba no Que Está Entrando",
-    "heroSub": "A Análise de Viabilidade Internacional é construída para marcas brasileiras e latino-americanas que avaliam expansão de mercado — geralmente para os EUA, mas também para outros mercados internacionais. Não é um despejo de dados. É um documento de grau decisional com evidência documentada, um CVE Score proprietário, caminhos estratégicos e um roadmap faseado que sua equipe pode executar a partir do Dia 1.",
+    "heroSub": "A Análise de Viabilidade Internacional é feita para qualquer empresa avaliando expansão para um novo mercado — seja entrando em um novo país, uma nova região ou uma categoria adjacente em território desconhecido. Não é um despejo de dados. É um documento de nível decisório com evidências referenciadas, um CVE Score proprietário, caminhos estratégicos e um roadmap por fases que sua equipe pode executar desde o Dia 1.",
     "briefButton": "Apresente Este Relatório →",
     "seeInsideButton": "Veja o Que Inclui →",
     "heroStats": [
@@ -1557,8 +1557,8 @@
     "whoTitle": "Quem encaminha este relatório.",
     "whoCards": [
       {
-        "title": "Marcas brasileiras e latinas",
-        "text": "Empresas estabelecidas do Brasil e América Latina avaliando entrada nos EUA ou em outros mercados internacionais. Vocês têm produto, receita e canais no mercado doméstico. Precisam saber se o novo mercado é real antes de se comprometer."
+        "title": "Marcas planejando expansão",
+        "text": "Empresas estabelecidas avaliando entrada em um novo mercado — doméstico ou internacional. Você tem um produto, receita e canais onde opera hoje. Precisa saber se o novo mercado é real antes de se comprometer."
       },
       {
         "title": "Agências e consultadorias",
@@ -1826,7 +1826,7 @@
       },
       {
         "q": "Quais mercados você cobre?",
-        "a": "Nossa experiência principal é marcas entrando no mercado dos EUA, mas a metodologia é agnóstica de mercado. Entregamos relatórios para entrada nos EUA, Canadá, Reino Unido, Alemanha, Brasil, México, e Emirados Árabes Unidos. O relatório é sempre produzido na linguagem local do mercado-alvo e usa moeda local para todos os números financeiros."
+        "a": "A metodologia é agnóstica de mercado. Já entregamos relatórios para expansão para os EUA, Canadá, Reino Unido, Alemanha, Brasil, México, Emirados Árabes Unidos, entre outros. O relatório é sempre produzido no idioma do mercado-alvo e usa a moeda local para todas as cifras financeiras."
       },
       {
         "q": "Como isso é diferente de um relatório de pesquisa de mercado tradicional?",
