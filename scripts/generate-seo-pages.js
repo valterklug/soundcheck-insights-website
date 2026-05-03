@@ -74,9 +74,9 @@ const pages = {
     image: '/og/og-scale-assessment.png',
   },
   '/founder-pass': {
-    title: 'Founder Pass | Soundcheck Insights',
-    description: 'Founder-grade market intelligence before you have a market. Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). 3-7 day delivery.',
-    image: '/og/og-founder-pass.png',
+    title: 'Idea Validation Analysis | Soundcheck Insights',
+    description: 'IVS Score 0-100 across six dimensions. Market sizing, competitors, demand signals. $799. 48-hour delivery.',
+    image: '/og/og-idea-validation.png',
   },
   '/investor-vetting': {
     title: 'Investor Opportunity Vetting | Soundcheck Insights',

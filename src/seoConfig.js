@@ -203,18 +203,7 @@ const seoConfig = {
     ),
   },
 
-  '/founder-pass': {
-    title: 'Founder Pass',
-    description: 'Founder-grade market intelligence before you have a market. Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). 3–7 day delivery for early-stage startups.',
-    image: '/og/og-founder-pass.png',
-    keywords: 'founder validation, startup market research, idea validation, early-stage intelligence, founder market analysis, startup positioning',
-    schema: serviceSchema(
-      'Founder Pass',
-      'Three founder-grade market intelligence products for early-stage startups: Validation Sprint, Brand Brief, and Focus Test. Fast turnaround, fixed pricing, no revision rounds.',
-      '750',
-      '/founder-pass',
-    ),
-  },
+  // /founder-pass removed — redirects to /idea-validation
 
   '/investor-vetting': {
     title: 'Investor Opportunity Vetting',

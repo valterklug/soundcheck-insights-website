@@ -22,7 +22,7 @@ import ScaleAssessment from './pages/ScaleAssessment'
 import VirtualFocusGroups from './pages/VirtualFocusGroups'
 import ResearchPlatform from './pages/ResearchPlatform'
 import ConsumerJourneys from './pages/ConsumerJourneys'
-import FounderPass from './pages/FounderPass'
+import IdeaValidation from './pages/IdeaValidation'
 import InvestorVetting from './pages/InvestorVetting'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
@@ -62,13 +62,13 @@ const routes = [
   { path: '/expansion-report', element: <ExpansionReport /> },
   { path: '/growth-roadmap', element: <Navigate to="/scale-assessment" replace /> },
   { path: '/scale-assessment', element: <ScaleAssessment /> },
-  { path: '/idea-validation', element: <Navigate to="/founder-pass" replace /> },
+  { path: '/idea-validation', element: <IdeaValidation /> },
   { path: '/business-plan', element: <Navigate to="/products" replace /> },
   { path: '/virtual-focus-groups', element: <VirtualFocusGroups /> },
   { path: '/research-platform', element: <ResearchPlatform /> },
   { path: '/consumer-journeys', element: <ConsumerJourneys /> },
   { path: '/market-research', element: <ResearchPlatform /> },
-  { path: '/founder-pass', element: <FounderPass /> },
+  { path: '/founder-pass', element: <Navigate to="/idea-validation" replace /> },
   { path: '/investor-vetting', element: <InvestorVetting /> },
   { path: '/resources', element: <Resources /> },
   { path: '/partner', element: <Partner /> },

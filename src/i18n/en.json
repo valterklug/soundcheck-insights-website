@@ -157,11 +157,11 @@
       },
       {
         "num": "07",
-        "for": "Mana Tech Members · Exclusive",
-        "name": "Founder Pass",
-        "desc": "Exclusive for Mana Tech members. Three products: Validation Sprint ($750), Brand Brief ($1,500), Focus Test ($1,500). Fast delivery, tight scope, real decisions.",
-        "delivery": "3–7 day delivery · Mana Tech exclusive",
-        "link": "/founder-pass"
+        "for": "Founders · Pre-MVP · Early-Stage",
+        "name": "Idea Validation Analysis",
+        "desc": "IVS Score 0–100 across six dimensions. Market sizing, competitors, demand signals. Automated 48-hour delivery, no calls needed.",
+        "delivery": "$799 · 48-hour delivery",
+        "link": "/idea-validation"
       }
     ],
     "viewAllProducts": "View All Products →",
@@ -613,19 +613,22 @@
       },
       {
         "num": "07",
-        "for": "Mana Tech Members · Exclusive",
-        "name": "Founder Pass",
-        "tagline": "Founder-grade market intelligence, before you have a market.",
-        "desc": "Exclusive for Mana Tech members. Three products at founder-friendly pricing: Validation Sprint ($750), Brand Brief ($1,500), and Focus Test ($1,500). The Validation Sprint requires only a 10-minute questionnaire. Brand Brief and Focus Test include a 30-minute brief call.",
-        "price": "US$750–$1,500 per product",
-        "delivery": "3–7 day delivery · Mana Tech exclusive · Founder Agreement terms",
-        "ctaLabel": "See Founder Pass Details →",
+        "for": "Founders · Pre-MVP · Early-Stage",
+        "name": "Idea Validation Analysis",
+        "tagline": "Know if the market is real before you build.",
+        "desc": "AI-driven IVS scoring 0–100 across six signal dimensions. Automated 48-hour delivery. The right starting point for early-stage validation, regardless of company stage or membership status.",
+        "price": "US$799",
+        "delivery": "48-hour delivery · No calls needed · Automated",
+        "ctaLabel": "See Idea Validation Details →",
         "deliverables": [
-          "Founder Validation Sprint — 10-min questionnaire, market sizing, top competitors, validation framework, key risks (5–7 pages)",
-          "Founder Brand Brief — 30-min brief call, brand intelligence, positioning recommendations, audience analysis (40+ pages)",
-          "Founder Focus Test — 30-min brief call, single VFG session with 6 personas, 1 topic, 3-day turnaround"
+          "IVS Score (0–100) — weighted scoring across six dimensions: Problem Validity, Market Opportunity, Competitive Whitespace, Customer Demand Signals, Idea Differentiation, Timing",
+          "Market sizing snapshot — TAM/SAM/SOM with sourced data",
+          "Top 5 competitors mapped with positioning analysis",
+          "Customer willingness-to-pay signals",
+          "Go / Conditional / Stop recommendation with next-step roadmap",
+          "5–7 page report, delivered in 48 hours"
         ],
-        "link": "/founder-pass"
+        "link": "/idea-validation"
       }
     ]
   },
@@ -1528,168 +1531,6 @@
     ],
     "ctaTitle": "Growth doesn't restart by accident.\nKnow exactly where to invest next.",
     "ctaButton": "Brief This Report →",
-    "ctaLink": "Or explore all research products →"
-  },
-  "founderPass": {
-    "heroLabel": "Product Deep-Dive · Founder Pass",
-    "heroTitle": "Founder-grade market intelligence, before you have a market.",
-    "heroSub": "Exclusive for Mana Tech members. Founder Pass is not a watered-down version of enterprise products. It's a different product family, with different scope and founder-specific pricing. Validation Sprint requires only a 10-minute questionnaire. Brand Brief and Focus Test include a 30-minute brief call. $750–$1,500. 3–7 day turnaround.",
-    "ctaButton": "Get Started →",
-    "viewSkus": "See Our Offerings →",
-    "heroStats": [
-      {
-        "num": "$750–$1,500",
-        "label": "FOUNDER PRICING",
-        "sub": "Validation to insight, not a discount"
-      },
-      {
-        "num": "3–7",
-        "label": "DAYS",
-        "sub": "From intake to delivery"
-      },
-      {
-        "num": "No calls to schedule",
-        "label": "SPEED",
-        "sub": "Fill a form, get back insights"
-      }
-    ],
-    "positionLabel": "Product family, not a discount",
-    "positionTitle": "Not a discount. A different product.",
-    "positionDesc": "Founder Pass is built for a specific moment: you have an idea, you need validation, you don't have $5,000 and two weeks. Our enterprise products (Scale Assessment, Business Plan) are 50+ pages of strategic depth for mature brands. Founder Pass is 5–15 pages of focused validation for early-stage founders. Same research platform. Different product family. Different timeline. Different price. No iteration—you get one cut of intelligence and move forward.",
-    "skusLabel": "Three offerings",
-    "skusTitle": "Choose your focus.",
-    "skusSub": "All Founder Pass products include 30-minute kickoff call, delivered report, 30-minute review call, and access to our research platform dashboard.",
-    "skus": [
-      {
-        "name": "Founder Validation Sprint",
-        "price": "$750",
-        "scope": "10-minute questionnaire intake. 5–7 page report: market sizing, top-3 competitors, validation/invalidation framework, key risks.",
-        "turnaround": "3–5 days",
-        "bestFor": "Ideas at the 'should I build this?' stage"
-      },
-      {
-        "name": "Founder Brand Brief",
-        "price": "$1,500",
-        "scope": "30-minute brief call. 40+ page brand intelligence report: positioning recommendations, audience analysis, messaging tests.",
-        "turnaround": "5–7 days",
-        "bestFor": "Pre-launch brands needing positioning clarity"
-      },
-      {
-        "name": "Founder Focus Test",
-        "price": "$1,500",
-        "scope": "30-minute brief call. Single VFG session: 6 personas, 1 topic. Messaging, landing pages, or product positioning research.",
-        "turnaround": "3 days",
-        "bestFor": "Testing messaging or positioning with target audience"
-      }
-    ],
-    "allIncludeLabel": "In every package",
-    "allIncludeTitle": "What's included varies by product.",
-    "includes": [
-      {
-        "label": "Validation Sprint intake",
-        "desc": "10-minute online questionnaire. No call required."
-      },
-      {
-        "label": "Brand Brief & Focus Test intake",
-        "desc": "30-minute brief call to align on scope and objectives."
-      },
-      {
-        "label": "Delivered report",
-        "desc": "Fully AI-augmented research, packaged in clean PDF or .docx format."
-      },
-      {
-        "label": "No revisions",
-        "desc": "The price reflects one cut. You move forward with what you get."
-      }
-    ],
-    "howLabel": "Your timeline",
-    "howTitle": "How it works.",
-    "howSteps": [
-      {
-        "num": "1",
-        "title": "Fill intake form",
-        "desc": "10 minutes. Answer questions about your idea, audience, competition, and success criteria."
-      },
-      {
-        "num": "2",
-        "title": "AI runs research",
-        "desc": "No human consultant reviews. Our platform researches TAM, competitive landscape, messaging, and customer fit."
-      },
-      {
-        "num": "3",
-        "title": "Receive report + review call",
-        "desc": "Get your report, jump on a 30-minute call to walk through findings and plan next steps."
-      }
-    ],
-    "agreementLabel": "The exchange",
-    "agreementTitle": "The Founder Pass Agreement.",
-    "agreementDesc": "Founder pricing is made possible by scale and the commitment below. In exchange for these prices, we ask for a few things from you. No revision rounds, no long-term engagement lock-in—just a straightforward trade.",
-    "commitment": [
-      {
-        "num": "1",
-        "item": "Written testimonial within 30 days (if our work was useful)"
-      },
-      {
-        "num": "2",
-        "item": "Refer one peer founder within 90 days"
-      },
-      {
-        "num": "3",
-        "item": "Allow us to use your company name and brief description in marketing materials"
-      },
-      {
-        "num": "4",
-        "item": "Standard pricing on future engagements after you raise your next round"
-      }
-    ],
-    "commitmentBenefits": [
-      "Founder-grade market intelligence at founder budgets",
-      "AI-powered research (no consultant markup)",
-      "3–7 day turnaround",
-      "Clear, actionable insights packaged for your team"
-    ],
-    "whoLabel": "Built for founders",
-    "whoTitle": "Who this is for.",
-    "whoItems": [
-      {
-        "title": "First-time founders",
-        "text": "You have an idea, some early validation, and questions about market size, competition, and go-to-market. You need evidence, not a consultant's opinion. Founder Pass delivers validation at founder scale."
-      },
-      {
-        "title": "Serial entrepreneurs and side-project builders",
-        "text": "You're testing a new idea, assessing a new market, or validating a pivot. You know the process. You need fast, AI-driven research to de-risk before you commit time or capital."
-      }
-    ],
-    "faqLabel": "Questions",
-    "faqTitle": "Founder Pass FAQ.",
-    "faqs": [
-      {
-        "q": "Why is this so much cheaper than Scale Assessment?",
-        "a": "Different product, different scope. Founder Pass is 5–15 pages of focused validation for pre-funded founders. Scale Assessment is 50+ pages of strategic intelligence for mature brands. Same research platform, different depth and turnaround. Founder Pass trades iteration and customization for speed and price."
-      },
-      {
-        "q": "Is this AI-generated?",
-        "a": "Yes, fully. We run our AI research engine against your intake and independent data sources. No human consultant reviews the output. That's what makes the price and speed possible. You get one cut—no revision rounds."
-      },
-      {
-        "q": "Can I upgrade later?",
-        "a": "Yes. Once you raise your next round (Seed, Series A, etc.), you move to standard pricing for Scale Assessment, Business Plan, or other products. The Founder Pass pricing is specifically for pre-funded founders. After that milestone, we price you like any other client."
-      },
-      {
-        "q": "What if I have multiple ideas?",
-        "a": "Run multiple Validation Sprints. Each one is $750 and takes 3–5 days. You can brief them in parallel or sequentially—each 10-minute intake is independent. Run as many as you need to validate your pipeline."
-      },
-      {
-        "q": "Do I need to be in Mana Tech?",
-        "a": "No. Founder Pass is available to any early-stage founder, Mana Tech member or not. Mana Tech members do get priority scheduling, but you don't need to be a member to use Founder Pass."
-      },
-      {
-        "q": "What happens after the review call?",
-        "a": "You move forward. There are no revision rounds at this price point. You have the report, the insights, and 30 minutes to ask questions. If you need deeper work later, we'll revisit scope and pricing for Scale Assessment or another product once you've raised."
-      }
-    ],
-    "ctaTitle": "Start validating today.",
-    "ctaFinalButton": "Brief a Product →",
     "ctaLink": "Or explore all research products →"
   },
   "expansionReport": {
