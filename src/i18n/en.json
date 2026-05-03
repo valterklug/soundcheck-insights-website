@@ -113,7 +113,8 @@
         "name": "International Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap for any new market. 100+ pages.",
         "delivery": "2–3 week delivery · White-label included",
-        "link": "/expansion-report"
+        "link": "/expansion-report",
+        "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "02",
@@ -121,7 +122,8 @@
         "name": "Scale Assessment",
         "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
         "delivery": "3–4 week delivery · White-label included",
-        "link": "/scale-assessment"
+        "link": "/scale-assessment",
+        "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "03",
@@ -129,7 +131,8 @@
         "name": "Market Research",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel.",
         "delivery": "From $4,000 · 5–10 day delivery",
-        "link": "/research-platform"
+        "link": "/research-platform",
+        "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "04",
@@ -137,7 +140,8 @@
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
         "delivery": "$500/persona · 2–3 day delivery",
-        "link": "/consumer-journeys"
+        "link": "/consumer-journeys",
+        "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "05",
@@ -145,7 +149,8 @@
         "name": "Virtual Focus Groups",
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
         "delivery": "$4,000/session · 1–3 day delivery",
-        "link": "/virtual-focus-groups"
+        "link": "/virtual-focus-groups",
+        "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "06",
@@ -153,7 +158,8 @@
         "name": "Investor Opportunity Vetting",
         "desc": "Independent vetting with ADVANCE / CONDITIONAL / STOP verdicts. Two interviews, independent research, contradiction analysis.",
         "delivery": "7-day delivery · Subscriptions available",
-        "link": "/investor-vetting"
+        "link": "/investor-vetting",
+        "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "07",
@@ -161,7 +167,8 @@
         "name": "Idea Validation Analysis",
         "desc": "IVS Score 0–100 across six dimensions. Market sizing, competitors, demand signals. Automated 48-hour delivery, no calls needed.",
         "delivery": "$799 · 48-hour delivery",
-        "link": "/idea-validation"
+        "link": "/idea-validation",
+        "memberRateNote": "Mana Tech Member Rate available"
       }
     ],
     "viewAllProducts": "View All Products →",
@@ -519,7 +526,8 @@
           "Risks & Watchpoints — scored, ranked, and mitigated",
           "100+ Page Report + Visual Executive Summary (white-labeled)"
         ],
-        "link": "/expansion-report"
+        "link": "/expansion-report",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
         "num": "02",
@@ -539,7 +547,8 @@
           "AI-Augmented Intelligence Layer — 90 days of market monitoring included",
           "Risk Frame — 6–8 risks scored by probability × impact"
         ],
-        "link": "/scale-assessment"
+        "link": "/scale-assessment",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
         "num": "03",
@@ -557,7 +566,8 @@
           "Persona Panel — 6, 12, or 20 research-grounded buyer personas (S/M/L tiers)",
           "S/M/L pricing: $4,000 / $6,000 / $8,000"
         ],
-        "link": "/research-platform"
+        "link": "/research-platform",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
         "num": "04",
@@ -574,7 +584,8 @@
           "Visual dashboard + PDF export",
           "Requires completed Market Research (persona panel)"
         ],
-        "link": "/consumer-journeys"
+        "link": "/consumer-journeys",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
         "num": "05",
@@ -593,7 +604,8 @@
           "Panels reusable across sessions and product lines",
           "Requires completed Market Research (persona panel)"
         ],
-        "link": "/virtual-focus-groups"
+        "link": "/virtual-focus-groups",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
         "num": "06",
@@ -609,7 +621,8 @@
           "Subscription tiers: Starter ($2,500/mo), Professional ($7,500/mo), Enterprise ($15,000/mo)",
           "Self-serve platform access for subscription customers"
         ],
-        "link": "/investor-vetting"
+        "link": "/investor-vetting",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
         "num": "07",
@@ -628,7 +641,8 @@
           "Go / Conditional / Stop recommendation with next-step roadmap",
           "5–7 page report, delivered in 48 hours"
         ],
-        "link": "/idea-validation"
+        "link": "/idea-validation",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       }
     ]
   },
@@ -930,7 +944,8 @@
         "Pricing is tiered by buyer market, not by relationship sentiment.",
         "Free engagements are off-limits. The floor is $750.",
         "Manual validation precedes product investment — sell first, build second."
-      ]
+      ],
+      "memberRateNote": "Note: Operator MSRP pricing is separate from the Mana Tech Member Rate. Operators bill end clients at MSRP; the Member Rate applies only to direct Soundcheck engagements."
     }
   },
   "ourPartners": {

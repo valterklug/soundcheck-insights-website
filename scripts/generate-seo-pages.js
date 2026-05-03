@@ -103,6 +103,11 @@ const pages = {
     description: 'Decision-grade market research with buyer personas. From $4,000.',
     image: '/og/og-products.png',
   },
+  '/mana-tech': {
+    title: 'Mana Tech Member Rate — 25% Off | Soundcheck Insights',
+    description: 'Decision-grade market intelligence for Mana Tech members, Scale2Miami cohort founders, and the mentor network. 25% off MSRP on all seven products.',
+    image: '/og/og-products.png',
+  },
   '/partner': {
     title: 'Request Platform Access | Soundcheck Insights',
     description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. Self-serve or full-service.',

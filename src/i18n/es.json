@@ -113,7 +113,8 @@
         "name": "Análisis de Viabilidad Internacional",
         "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y hoja de ruta para cualquier nuevo mercado. 100+ páginas.",
         "delivery": "Entrega en 2–3 semanas · White-label incluido",
-        "link": "/expansion-report"
+        "link": "/expansion-report",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "02",
@@ -121,7 +122,8 @@
         "name": "Scale Assessment",
         "desc": "Scale Diagnostic, posición competitiva, preparación operativa y plan de 24 meses. Framework Too Small To Fall.",
         "delivery": "Entrega en 3–4 semanas · White-label incluido",
-        "link": "/scale-assessment"
+        "link": "/scale-assessment",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "03",
@@ -129,7 +131,8 @@
         "name": "Investigación de Mercado",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, del Consumidor y Panorama Competitivo — más panel de personas.",
         "delivery": "Desde $4.000 · Entrega en 5–10 días",
-        "link": "/research-platform"
+        "link": "/research-platform",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "04",
@@ -137,7 +140,8 @@
         "name": "Mapas de Jornada del Cliente",
         "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricciones y oportunidades. Dashboard visual + PDF.",
         "delivery": "$500/persona · Entrega en 2–3 días",
-        "link": "/consumer-journeys"
+        "link": "/consumer-journeys",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "05",
@@ -145,7 +149,8 @@
         "name": "Focus Groups Virtuales",
         "desc": "Sesiones de focus group con IA probando conceptos contra panel de personas. Votos, citas textuales e insights.",
         "delivery": "$4.000/sesión · Entrega en 1–3 días",
-        "link": "/virtual-focus-groups"
+        "link": "/virtual-focus-groups",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "06",
@@ -153,7 +158,8 @@
         "name": "Investor Opportunity Vetting",
         "desc": "Vetting independiente con veredictos ADVANCE / CONDITIONAL / STOP. Dos entrevistas, investigación independiente.",
         "delivery": "Entrega en 7 días · Suscripciones disponibles",
-        "link": "/investor-vetting"
+        "link": "/investor-vetting",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "07",
@@ -161,7 +167,8 @@
         "name": "Idea Validation Analysis",
         "desc": "IVS Score 0–100 en seis dimensiones. Dimensionamiento de mercado, competidores, señales de demanda. Entrega automatizada en 48 horas.",
         "delivery": "$799 · Entrega en 48 horas",
-        "link": "/idea-validation"
+        "link": "/idea-validation",
+        "memberRateNote": "Tarifa Mana Tech disponible"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
@@ -519,7 +526,8 @@
           "Riesgos y Alertas — clasificados, rankeados y mitigados",
           "Informe de 100+ Páginas + Resumen Visual Ejecutivo (white-labeled)"
         ],
-        "link": "/expansion-report"
+        "link": "/expansion-report",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
         "num": "02",
@@ -539,7 +547,8 @@
           "Capa de Inteligencia AI — 90 días de monitoreo de mercado incluidos",
           "Marco de Riesgos — 6–8 riesgos por probabilidad × impacto"
         ],
-        "link": "/scale-assessment"
+        "link": "/scale-assessment",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
         "num": "03",
@@ -557,7 +566,8 @@
           "Panel de Personas — 6, 12 o 20 buyer personas (niveles S/M/L)",
           "Precios S/M/L: $4.000 / $6.000 / $8.000"
         ],
-        "link": "/research-platform"
+        "link": "/research-platform",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
         "num": "04",
@@ -574,7 +584,8 @@
           "Dashboard visual + exportación PDF",
           "Requiere Investigación de Mercado completada (panel de personas)"
         ],
-        "link": "/consumer-journeys"
+        "link": "/consumer-journeys",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
         "num": "05",
@@ -593,7 +604,8 @@
           "Paneles reutilizables entre sesiones y líneas de producto",
           "Requiere Investigación de Mercado completada (panel de personas)"
         ],
-        "link": "/virtual-focus-groups"
+        "link": "/virtual-focus-groups",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
         "num": "06",
@@ -609,7 +621,8 @@
           "Niveles de suscripción: Starter ($2.500/mes), Professional ($7.500/mes), Enterprise ($15.000/mes)",
           "Acceso a plataforma self-serve para suscriptores"
         ],
-        "link": "/investor-vetting"
+        "link": "/investor-vetting",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
         "num": "07",
@@ -628,7 +641,8 @@
           "Recomendación Go / Conditional / Stop con hoja de ruta",
           "Informe de 5–7 páginas, entregado en 48 horas"
         ],
-        "link": "/idea-validation"
+        "link": "/idea-validation",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       }
     ]
   },
@@ -930,7 +944,8 @@
         "Los precios están escalonados por mercado del cliente, no por sentimiento de relación.",
         "Los engagements gratuitos están prohibidos. El piso es $750.",
         "La validación manual precede a la inversión en productos — vende primero, construye después."
-      ]
+      ],
+      "memberRateNote": "Nota: Los precios MSRP para operadores son separados de la Tarifa Mana Tech. Los operadores facturan a clientes finales a MSRP; la Tarifa Mana Tech aplica solo a compromisos directos con Soundcheck."
     }
   },
   "ourPartners": {

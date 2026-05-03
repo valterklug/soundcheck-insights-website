@@ -180,10 +180,15 @@ export default function Products() {
                       {p.tagline && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, fontStyle: 'italic', color: 'rgba(255,255,255,0.55)', lineHeight: 1.4, marginBottom: 16 }}>{p.tagline}</div>}
                     </div>
                     <div>
-                      <div style={{ background: 'rgba(255,255,255,0.04)', padding: '12px 14px', marginBottom: 12 }}>
+                      <div style={{ background: 'rgba(255,255,255,0.04)', padding: '12px 14px', marginBottom: 8 }}>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                       </div>
+                      {p.memberRateNote && (
+                        <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)', textDecoration: 'none', display: 'block', marginBottom: 12, opacity: 0.8 }}>
+                          {p.memberRateNote} →
+                        </Link>
+                      )}
                       <Link to={p.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
                         {p.ctaLabel || t('products.briefProduct')}
                       </Link>

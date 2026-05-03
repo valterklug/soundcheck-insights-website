@@ -139,6 +139,20 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         </>
       )}
 
+      {/* Mana Tech affiliation */}
+      <div className="form-group">
+        <label className={labelClass}>Mana Tech Member ID or Affiliation <span style={{ fontWeight: 400, opacity: 0.5 }}>(optional)</span></label>
+        <input
+          type="text"
+          className={fieldClass}
+          placeholder="e.g., Mana Hubs member, Scale2Miami Cohort 3, Mentor"
+          {...register('manaTechAffiliation')}
+        />
+        <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: dark ? 'rgba(255,255,255,0.3)' : '#999', display: 'block', marginTop: 4 }}>
+          Mana Tech members, Scale2Miami founders, and mentors receive 25% off MSRP.
+        </span>
+      </div>
+
       {/* Message */}
       <div className="form-group">
         <label className={labelClass}>

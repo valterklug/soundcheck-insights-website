@@ -277,6 +277,13 @@ const seoConfig = {
     keywords: 'become a partner, agency partnership, operator platform, white-label research, market intelligence partner',
   },
 
+  '/mana-tech': {
+    title: 'Mana Tech Member Rate — 25% Off All Products',
+    description: 'Decision-grade market intelligence for Mana Tech members, Scale2Miami cohort founders, and the mentor network. 25% off MSRP on all seven Soundcheck products.',
+    image: '/og/og-products.png',
+    keywords: 'mana tech, scale2miami, mana hubs, member rate, startup market intelligence, cross-border expansion, miami startup',
+  },
+
   '/our-partners': {
     title: 'Our Partners',
     description: 'Agencies and consultancies operating Soundcheck Insights for their clients. See who delivers market intelligence through the Soundcheck platform.',

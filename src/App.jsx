@@ -23,6 +23,7 @@ import VirtualFocusGroups from './pages/VirtualFocusGroups'
 import ResearchPlatform from './pages/ResearchPlatform'
 import ConsumerJourneys from './pages/ConsumerJourneys'
 import IdeaValidation from './pages/IdeaValidation'
+import ManaTech from './pages/ManaTech'
 import InvestorVetting from './pages/InvestorVetting'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
@@ -70,6 +71,7 @@ const routes = [
   { path: '/market-research', element: <ResearchPlatform /> },
   { path: '/founder-pass', element: <Navigate to="/idea-validation" replace /> },
   { path: '/investor-vetting', element: <InvestorVetting /> },
+  { path: '/mana-tech', element: <ManaTech /> },
   { path: '/resources', element: <Resources /> },
   { path: '/partner', element: <Partner /> },
   { path: '/our-partners', element: <OurPartners /> },
