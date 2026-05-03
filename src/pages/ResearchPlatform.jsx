@@ -19,7 +19,7 @@ export default function ResearchPlatform() {
     <PageWrapper>
       <SEO
         title="Consumer Intelligence Platform"
-        description="Three connected modules for market research, consumer journey maps, and virtual focus groups. Research from $4,000. No minimum commitment."
+        description="Three connected modules for market research, customer journey maps, and virtual focus groups. Research from $4,000. No minimum commitment."
         path="/research-platform"
         image="/og/og-research-platform.png"
       />

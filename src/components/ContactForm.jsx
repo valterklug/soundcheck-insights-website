@@ -26,6 +26,10 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
       })
       if (res.ok) {
         setStatus('success')
+        // Track Mana Tech submissions
+        if (data.manaTechAffiliation && window.gtag) {
+          window.gtag('event', 'mana_tech_lead', { affiliation: data.manaTechAffiliation })
+        }
         reset()
       } else {
         setStatus('error')
