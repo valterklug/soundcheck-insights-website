@@ -711,11 +711,11 @@
           "partner": "70% do MSRP + taxa adicional"
         },
         {
-          "rule": "Rule 4",
-          "scenario": "Vendas Diretas",
-          "desc": "Soundcheck identifica, vende e entrega. A linha de base contra a qual todos os outros percentuais são medidos.",
-          "soundcheck": "100%",
-          "partner": "0%"
+          "rule": "Direto",
+          "scenario": "Venda Direta (Soundcheck)",
+          "desc": "Soundcheck conduz o engajamento diretamente. O cliente paga MSRP. Clientes do ecossistema Mana Tech recebem 25% de desconto. Parceiros que indicarem clientes diretos recebem comissão de 20% por 12 meses.",
+          "soundcheck": "100% do MSRP",
+          "partner": "20% comissão"
         }
       ],
       "setupFees": {

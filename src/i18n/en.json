@@ -708,9 +708,9 @@
         {
           "rule": "Direct",
           "scenario": "Direct Sale (Soundcheck-led)",
-          "desc": "Soundcheck runs the engagement directly. End customer pays MSRP. Mana Tech ecosystem end customers receive 25% loyalty discount.",
+          "desc": "Soundcheck runs the engagement directly. End customer pays MSRP. Mana Tech ecosystem end customers receive 25% loyalty discount. Partners who refer direct clients earn a 20% finder's fee for 12 months.",
           "soundcheck": "100% of MSRP",
-          "partner": "—"
+          "partner": "20% referral fee"
         }
       ],
       "setupFees": {
