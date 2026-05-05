@@ -113,12 +113,12 @@ const seoConfig = {
 
   '/for-agencies': {
     title: 'For Agencies & Consultancies',
-    description: 'Add a $400 to $1,250+/hour revenue line to your practice with zero new headcount. White-label market intelligence you operate for your clients. Self-serve or full-service.',
+    description: 'Keep 70% of MSRP. White-label market intelligence you operate for your clients. Trial with no commitment — two engagements at 35% of MSRP.',
     image: '/og/og-for-agencies.png',
-    keywords: 'agency market intelligence, consultancy research, white-label reports, agency revenue, operator platform',
+    keywords: 'agency market intelligence, consultancy research, white-label reports, agency revenue, operator platform, fractional executive',
     schema: serviceSchema(
       'Soundcheck Insights Operator Platform',
-      'White-label market intelligence platform for agencies and consultancies. Deliver research-grade reports under your brand at $400-$1,250+/hour effective rate.',
+      'White-label market intelligence platform for agencies and consultancies. 30% platform fee, 70% operator margin. Trial available.',
       null,
       '/for-agencies',
     ),
@@ -133,8 +133,8 @@ const seoConfig = {
     keywords: 'international expansion, market entry report, CVE score, market expansion, brand expansion, viability analysis, new market entry',
     schema: serviceSchema(
       'International Expansion Viability Report',
-      '100+ page market entry intelligence report with proprietary CVE Score, competitive landscape analysis, regulatory framework, distribution channel mapping, and 12-month roadmap.',
-      '5000',
+      'Market entry intelligence with CVE Score, competitive landscape analysis, regulatory framework, distribution channel mapping, and phased roadmap. Attaches to Market Research.',
+      '2000',
       '/expansion-report',
     ),
   },
@@ -169,13 +169,13 @@ const seoConfig = {
 
   '/scale-assessment': {
     title: 'Scale Assessment',
-    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan with AI-augmented intelligence. $9,500–$14,500. 3–4 week delivery.',
+    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan. $4,000. Requires Market Research.',
     image: '/og/og-scale-assessment.png',
     keywords: 'scale assessment, scaling strategy, operational readiness, business scaling, consumer brand growth, market expansion, AI market intelligence',
     schema: serviceSchema(
       'Scale Assessment',
       'Comprehensive assessment for consumer brands: scale diagnostic, market opportunity map, competitive position analysis, operational readiness evaluation, phased 24-month scale plan, and 90-day AI-augmented intelligence layer.',
-      '9500',
+      '4000',
       '/scale-assessment',
     ),
   },
@@ -186,13 +186,13 @@ const seoConfig = {
 
   '/virtual-focus-groups': {
     title: 'Virtual Focus Group Sessions · Module 03',
-    description: 'Test packaging, taglines, creative territories, and pricing claims against research-grounded buyer personas. $4,000 per session. Three feedback rounds included. Reusable panels.',
+    description: 'Test packaging, taglines, creative territories, and pricing claims against research-grounded buyer personas. $3,000 per session. Re-test pack available. Requires Market Research.',
     image: '/og/og-virtual-focus-groups.png',
     keywords: 'virtual focus groups, AI focus groups, consumer testing, packaging testing, creative testing, pricing testing, buyer personas, concept testing',
     schema: serviceSchema(
       'Virtual Focus Group Sessions',
-      'Test any concept against your research-grounded persona panel. Preference votes, verbatim quotes, strategic insights, and three rounds of iterative feedback per session.',
-      '4000',
+      'Test any concept against your research-grounded persona panel. Preference votes, verbatim quotes, strategic insights. $3,000/session + $2,000 re-test pack.',
+      '3000',
       '/virtual-focus-groups',
     ),
   },
@@ -217,8 +217,8 @@ const seoConfig = {
     keywords: 'customer journey maps, buyer journey, customer journey mapping, brand touchpoints, gap analysis, persona journey, purchase funnel',
     schema: serviceSchema(
       'Customer Journey Maps',
-      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $400 per persona.',
-      '400',
+      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $500 per persona. Requires Market Research.',
+      '500',
       '/consumer-journeys',
     ),
   },

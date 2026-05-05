@@ -108,29 +108,29 @@
     "products": [
       {
         "num": "01",
-        "for": "Operators & Brands · Market Expansion",
-        "name": "International Viability Analysis",
-        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap for any new market. 100+ pages.",
-        "delivery": "2–3 week delivery · White-label included",
-        "link": "/expansion-report",
+        "for": "The Starting Point · Every Engagement",
+        "name": "Market Research",
+        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel. Every other product builds on this.",
+        "delivery": "From $3,000 · S/M/L tiers · White-label included",
+        "link": "/research-platform",
         "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "02",
-        "for": "US Brands & Agencies · Strategic Intelligence",
-        "name": "Scale Assessment",
-        "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
-        "delivery": "3–4 week delivery · White-label included",
-        "link": "/scale-assessment",
+        "for": "Operators & Brands · Market Expansion",
+        "name": "International Expansion Viability (IXV)",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to your Market Research.",
+        "delivery": "$2,000 · Requires Market Research",
+        "link": "/expansion-report",
         "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "03",
-        "for": "Operators · Brands · Consumer Intelligence",
-        "name": "Market Research",
-        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel.",
-        "delivery": "From $4,000 · 5–10 day delivery",
-        "link": "/research-platform",
+        "for": "US Brands & Agencies · Strategic Intelligence",
+        "name": "Scale Assessment",
+        "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
+        "delivery": "$4,000 · Requires Market Research",
+        "link": "/scale-assessment",
         "memberRateNote": "Mana Tech Member Rate available"
       },
       {
@@ -138,7 +138,7 @@
         "for": "Operators · Brands · Consumer Intelligence",
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
-        "delivery": "$400/persona · 2–3 day delivery",
+        "delivery": "$500/persona · Requires Market Research",
         "link": "/consumer-journeys",
         "memberRateNote": "Mana Tech Member Rate available"
       },
@@ -147,26 +147,26 @@
         "for": "Operators · Brands · Consumer Intelligence",
         "name": "Virtual Focus Groups",
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
-        "delivery": "$4,000/session · 1–3 day delivery",
+        "delivery": "$3,000/session · Requires Market Research",
         "link": "/virtual-focus-groups",
         "memberRateNote": "Mana Tech Member Rate available"
       }
     ],
     "viewAllProducts": "View All Products →",
     "economicsLabel": "The Business Case",
-    "economicsTitle1": "A $750–$2,175+/hour",
-    "economicsTitle2": "revenue line. No new headcount.",
+    "economicsTitle1": "Keep 70% of MSRP.",
+    "economicsTitle2": "No new headcount.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Real Economics · White-Label (on a $7,500 engagement)",
+    "economicsHeader": "Real Economics · Standard Partner (on a $7,000 engagement)",
     "economicsRows": [
       [
         "Soundcheck platform fee",
-        "40% of MSRP · $3,000"
+        "30% of MSRP · $2,100"
       ],
       [
         "Your agency keeps",
-        "60% of MSRP · $4,500"
+        "70% of MSRP · $4,900"
       ],
       [
         "Your time investment",
@@ -174,13 +174,13 @@
       ],
       [
         "Effective hourly rate",
-        "$750–$2,175+/h"
+        "$800–$2,450/h"
       ]
     ],
     "marginLabel": "Your margin per engagement",
-    "marginValue": "$4,500+",
-    "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
-    "ctaSub": "Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.",
+    "marginValue": "$4,900+",
+    "ctaTitle": "Start with a trial.\nTwo engagements. No commitment.",
+    "ctaSub": "Most operators start on an existing client. Trial at 35% of MSRP — no setup fee, no annual commitment. Convert within 90 days and your trial fees credit toward setup.",
     "ctaButton": "Become an Operator Partner →",
     "modulesLabel": "The Consumer Intelligence Platform",
     "modulesTitle": "One workflow. Three modules. As much or as little as the project needs.",
@@ -189,19 +189,19 @@
         "num": "01",
         "name": "Market Research",
         "desc": "Three decision-grade reports + a persona panel grounded in real data. The foundation everything else builds on.",
-        "price": "S / M / L tiers: $4,000 · $6,000 · $8,000"
+        "price": "S / M / L tiers: $3,000 · $3,500 · $4,000"
       },
       {
         "num": "02",
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
-        "price": "$400 per persona · pick as many as you need"
+        "price": "$500 per persona · pick as many as you need"
       },
       {
         "num": "03",
         "name": "Virtual Focus Group Sessions",
         "desc": "Test packaging, concepts, pricing, and creative territories against your persona panel. Three rounds of iterative feedback per session.",
-        "price": "$4,000 per session"
+        "price": "$3,000 per session · +$2,000 re-test pack"
       }
     ],
     "modulesCta": "See how the modules combine →"
@@ -321,12 +321,12 @@
       {
         "icon": "⏱",
         "value": "2–10h",
-        "label": "per report"
+        "label": "per engagement"
       },
       {
         "icon": "💰",
-        "value": "$3,000–$5,000+",
-        "label": "per engagement"
+        "value": "$2,100–$4,200+",
+        "label": "per engagement (at MSRP)"
       },
       {
         "icon": "🏷",
@@ -344,25 +344,25 @@
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · White-Label (on a $7,500 engagement)",
+    "economicsHeader": "Real Economics · Operator Partnership (on a $7,000 engagement)",
     "selfServe": "Standard Partner",
-    "selfServeDesc": "40% platform fee",
-    "fullService": "Founding Partner",
-    "fullServiceDesc": "30% platform fee (first 2 partners, year 1)",
+    "selfServeDesc": "30% platform fee",
+    "fullService": "Mana Tech Partner",
+    "fullServiceDesc": "25% platform fee",
     "economicsRows": [
       [
         "Soundcheck platform fee",
-        "40% of MSRP",
-        "30% of MSRP"
+        "30% of MSRP",
+        "25% of MSRP"
       ],
       [
-        "On a $7,500 engagement",
-        "$3,000",
-        "$2,250"
+        "On a $7,000 engagement",
+        "$2,100",
+        "$1,750"
       ],
       [
         "Your agency keeps",
-        "$4,500",
+        "$4,900",
         "$5,250"
       ],
       [
@@ -372,12 +372,12 @@
       ],
       [
         "Effective hourly rate",
-        "$750–$2,175/h",
+        "$800–$2,450/h",
         "$875–$2,625/h"
       ]
     ],
     "yourMargin": "Your margin",
-    "marginSelfServe": "$4,500",
+    "marginSelfServe": "$4,900",
     "marginFullService": "$5,250",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
@@ -414,34 +414,52 @@
       }
     ],
     "whiteLabelLabel": "White-Label Products",
-    "whiteLabelTitle": "Five products you can deliver\nunder your brand today.",
-    "whiteLabelSub": "Each product is designed for white-label delivery. Your brand, your cover page, your client relationship. You set the price and keep the margin.",
+    "whiteLabelTitle": "Five modular products.\nMarket Research is the starting point.",
+    "whiteLabelSub": "Every engagement begins with Market Research. The other four products attach to a completed research project — they consume its outputs as evidence. Operators compose any combination.",
     "whiteLabelProducts": [
       {
         "num": "01",
-        "name": "International Expansion Viability Report",
-        "audience": "International Brands · Market Entry",
-        "desc": "Decision-grade market entry intelligence. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a 12-month roadmap. 100+ pages.",
-        "delivery": "14-day delivery",
-        "price": "Suggested client price: US$5k+",
-        "link": "/expansion-report"
+        "name": "Market Research (S / M / L)",
+        "audience": "Required for every engagement",
+        "desc": "Three decision-grade reports plus a persona panel with 6, 8, or 10 buyer personas. The foundation every other product builds on.",
+        "delivery": "5–10 day delivery",
+        "price": "MSRP: $3,000 / $3,500 / $4,000",
+        "link": "/research-platform"
       },
       {
         "num": "02",
-        "name": "US Growth Roadmap",
-        "audience": "US Small & Mid-Size Businesses",
-        "desc": "For B2B services and CPG brands that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers with investment estimates, and a 90-day action plan.",
-        "delivery": "14-day delivery",
-        "price": "Suggested client price: US$5k+",
-        "link": "/growth-roadmap"
+        "name": "International Expansion Viability (IXV)",
+        "audience": "International Brands · Market Entry",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to Market Research.",
+        "delivery": "2–3 week delivery",
+        "price": "MSRP: $2,000",
+        "link": "/expansion-report"
       },
       {
         "num": "03",
-        "name": "AI Virtual Focus Groups",
-        "audience": "Agencies · Consultancies · Marketing Depts",
-        "desc": "Test creative concepts, product ideas, pricing, and positioning with AI-generated personas that mirror your target audience. No recruiting. No scheduling. Reusable panels.",
-        "delivery": "1–7 day delivery",
-        "price": "Persona Definition: US$3k · Session: US$2k+",
+        "name": "Scale Assessment",
+        "audience": "US Brands · Strategic Intelligence",
+        "desc": "Scale Diagnostic, operational readiness, competitive position, phased 24-month plan with go/no-go gates, and 90-day intelligence layer.",
+        "delivery": "3–4 week delivery",
+        "price": "MSRP: $4,000",
+        "link": "/scale-assessment"
+      },
+      {
+        "num": "04",
+        "name": "Customer Journey Maps",
+        "audience": "Consumer Intelligence",
+        "desc": "Per-persona journey maps showing awareness through advocacy, with friction and opportunity analysis.",
+        "delivery": "2–3 day delivery",
+        "price": "MSRP: $500/persona",
+        "link": "/consumer-journeys"
+      },
+      {
+        "num": "05",
+        "name": "Virtual Focus Groups",
+        "audience": "Consumer Intelligence",
+        "desc": "AI-powered concept testing against your persona panel. Preference votes, verbatim quotes, strategic insights.",
+        "delivery": "1–3 day delivery",
+        "price": "MSRP: $3,000/session · +$2,000 re-test",
         "link": "/virtual-focus-groups"
       }
     ],
@@ -467,14 +485,14 @@
     "notSureTitle": "Not sure if this is right for you?",
     "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
     "notSureLink": "Ask us directly →",
-    "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
-    "ctaSub": "Most operators run their first report on an existing client.",
-    "ctaButton": "Request Platform Access →"
+    "ctaTitle": "Start with a trial.\nTwo engagements. No commitment.",
+    "ctaSub": "Trial at 35% of MSRP — no setup fee, no annual commitment. Convert within 90 days and trial fees credit toward your $2,500 setup.",
+    "ctaButton": "Start a Trial →"
   },
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Five fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand. You set the price for your clients.",
+    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. Designed for white-label delivery under your agency's brand.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -489,32 +507,51 @@
     "items": [
       {
         "num": "01",
-        "for": "Brands & Agencies · Market Expansion",
-        "name": "International Viability Analysis",
-        "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. Proprietary CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and a phased roadmap. White-labeled, delivered in 2–3 weeks.",
-        "price": "US$5,000",
-        "delivery": "2–3 week delivery · White-label included · 2 revisions",
+        "for": "The Starting Point · Every Engagement",
+        "name": "Market Research",
+        "tagline": "Research-grounded personas and decision-grade market intelligence.",
+        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 8, or 10 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
+        "price": "US$3,000 / $3,500 / $4,000 (S / M / L)",
+        "delivery": "5–10 day delivery · White-label included",
+        "ctaLabel": "See Market Research Details →",
+        "deliverables": [
+          "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
+          "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
+          "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
+          "Persona Panel — 6, 8, or 10 research-grounded buyer personas (S/M/L tiers)",
+          "S/M/L pricing: $3,000 / $3,500 / $4,000"
+        ],
+        "link": "/research-platform",
+        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
+      },
+      {
+        "num": "02",
+        "for": "Operators & Brands · Market Expansion",
+        "name": "International Expansion Viability (IXV)",
+        "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
+        "price": "US$2,000",
+        "delivery": "2–3 week delivery · Requires Market Research · White-label included",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
-          "CVE Score (Coefficient of Viability of Expansion) — 3-dimension weighted scoring (0 to 100)",
-          "Executive Summary — 5 critical insights + 3 strategic paths with recommended entry mode",
+          "CVE Score (Coefficient of Viability of Expansion) — weighted scoring (0 to 100)",
+          "Executive Summary — critical insights + strategic paths with recommended entry mode",
           "Business & Brand Assessment — product-market fit, pricing architecture, positioning",
-          "Market & Category Intelligence — TAM/SAM/SOM, Porter's Five Forces, competitive benchmarking",
+          "Market & Category Intelligence — TAM/SAM/SOM, competitive benchmarking",
           "Strategic Entry & Growth Plan — phased roadmap with unit economics and go/no-go gates",
           "Risks & Watchpoints — scored, ranked, and mitigated",
-          "100+ Page Report + Visual Executive Summary (white-labeled)"
+          "Requires completed Market Research as evidence base"
         ],
         "link": "/expansion-report",
         "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
-        "num": "02",
+        "num": "03",
         "for": "US Brands & Agencies · Strategic Intelligence",
         "name": "Scale Assessment",
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
-        "desc": "For US-market consumer brands at strategic inflection points. Answers whether you are built to scale durably — and what you need to build first if you are not. 7-section intelligence report with proprietary Scale Diagnostic, competitive position analysis, and a phased 24-month plan.",
-        "price": "US$9,500–$14,500",
-        "delivery": "3–4 week delivery · White-label included · 2 revisions",
+        "desc": "For US-market consumer brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
+        "price": "US$4,000",
+        "delivery": "3–4 week delivery · Requires Market Research · White-label included",
         "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
           "Scale Diagnostic — built to grow vs. built to scale (Too Small To Fall framework)",
@@ -523,28 +560,10 @@
           "Operational Readiness Assessment — team, tech, and supply chain scoring",
           "Phased Scale Plan — 24-month sequenced plan with go/no-go gates",
           "AI-Augmented Intelligence Layer — 90 days of market monitoring included",
-          "Risk Frame — 6–8 risks scored by probability × impact"
+          "Risk Frame — 6–8 risks scored by probability × impact",
+          "Requires completed Market Research as evidence base"
         ],
         "link": "/scale-assessment",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
-      },
-      {
-        "num": "03",
-        "for": "Operators · Brands · Consumer Intelligence",
-        "name": "Market Research",
-        "tagline": "Research-grounded personas and decision-grade market intelligence.",
-        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier.",
-        "price": "From US$4,000",
-        "delivery": "5–10 day delivery · White-label included",
-        "ctaLabel": "See Market Research Details →",
-        "deliverables": [
-          "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
-          "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
-          "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
-          "Persona Panel — 6, 12, or 20 research-grounded buyer personas (S/M/L tiers)",
-          "S/M/L pricing: $4,000 / $6,000 / $8,000"
-        ],
-        "link": "/research-platform",
         "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       },
       {
@@ -552,9 +571,9 @@
         "for": "Operators · Brands · Consumer Intelligence",
         "name": "Customer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
-        "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research.",
-        "price": "US$400 per persona",
-        "delivery": "2–3 day delivery · White-label included",
+        "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Attaches to a completed Market Research.",
+        "price": "US$500 per persona",
+        "delivery": "2–3 day delivery · Requires Market Research · White-label included",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
           "Per-persona journey map — awareness through advocacy, brand-specific touchpoints",
@@ -570,15 +589,15 @@
         "for": "Operators · Brands · Consumer Intelligence",
         "name": "Virtual Focus Groups",
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
-        "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights, and iterative feedback.",
-        "price": "US$4,000 per session",
-        "delivery": "1–3 day delivery · White-label included",
+        "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Add a re-test pack for iterative testing.",
+        "price": "US$3,000/session · +$2,000 re-test pack",
+        "delivery": "1–3 day delivery · Requires Market Research · White-label included",
         "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
           "Full focus group session — test any concept against persona panel",
           "Preference votes + verbatim quotes from each persona",
           "Strategic insights and recommendation summary",
-          "Three rounds of iterative feedback per session",
+          "Re-test pack: +$2,000 adds 2 additional re-tests to the session",
           "Panels reusable across sessions and product lines",
           "Requires completed Market Research (persona panel)"
         ],
@@ -640,75 +659,54 @@
     "reachOut": "Reach out directly or connect on LinkedIn.",
     "commercialRules": {
       "label": "Commercial Engagement Rules",
-      "title": "Transparent partnership economics.\nNo surprises.",
-      "subtitle": "All revenue splits apply to net revenue (gross billing minus direct out-of-pocket project costs). One invoice to the client. Simple terms.",
+      "title": "Transparent operator economics.\nNo surprises.",
+      "subtitle": "Soundcheck takes a percentage of MSRP per project. Operators keep all upside above MSRP — if your client relationship supports a higher price, that margin is yours.",
       "rules": [
         {
-          "rule": "Rule 1A",
-          "scenario": "Passive Warm Intro",
-          "desc": "Referrer sends warm introduction email. No further involvement.",
-          "soundcheck": "85%",
-          "partner": "15%"
+          "rule": "Trial",
+          "scenario": "First-Time Operator",
+          "desc": "No setup fee, no annual commitment. 2 full client engagements to evaluate the platform. Trial fees credit toward setup if you convert within 90 days.",
+          "soundcheck": "35% of MSRP",
+          "partner": "65% of MSRP"
         },
         {
-          "rule": "Rule 1B",
-          "scenario": "Active Referrer",
-          "desc": "Referrer makes warm intro, vouches for Soundcheck, attends first call, helps positioning.",
-          "soundcheck": "75%",
-          "partner": "25%"
-        },
-        {
-          "rule": "Rule 2A",
-          "scenario": "Partnership Light",
-          "desc": "Partner brings client, owns relationship, manages communication. Soundcheck delivers the analytical work.",
-          "soundcheck": "60%",
-          "partner": "40%"
-        },
-        {
-          "rule": "Rule 2B",
-          "scenario": "True Partnership",
-          "desc": "Both parties co-deliver — joint workshops, joint presentations, joint analysis.",
-          "soundcheck": "50%",
-          "partner": "50%"
-        },
-        {
-          "rule": "Rule 3",
-          "scenario": "White-Label Platform",
-          "desc": "Agency uses Soundcheck platform to deliver to their own clients. Setup fee + platform fee per engagement.",
-          "soundcheck": "40% of MSRP",
-          "partner": "60% of MSRP + upcharge"
-        },
-        {
-          "rule": "Rule 3 (Founding)",
-          "scenario": "White-Label — Founding Partners",
-          "desc": "First 2 white-label partners, year 1 only. In exchange for case study rights and reference status.",
+          "rule": "Standard",
+          "scenario": "Standard Partner",
+          "desc": "$2,500 setup fee. $6,000 annual minimum (prepaid quarterly at $1,500). Full platform access, all 5 products, white-label branding.",
           "soundcheck": "30% of MSRP",
-          "partner": "70% of MSRP + upcharge"
+          "partner": "70% of MSRP"
         },
         {
-          "rule": "Rule 4",
-          "scenario": "Direct Sales",
-          "desc": "Soundcheck sources, sells, and delivers. The baseline against which all other splits are measured.",
-          "soundcheck": "100%",
-          "partner": "0%"
+          "rule": "Mana Tech",
+          "scenario": "Mana Tech Ecosystem Partner",
+          "desc": "Setup fee waived. $4,000 annual minimum (prepaid quarterly at $1,000). Same platform access. For agencies and consultants in the Mana Tech network.",
+          "soundcheck": "25% of MSRP",
+          "partner": "75% of MSRP"
+        },
+        {
+          "rule": "Direct",
+          "scenario": "Direct Sale (Soundcheck-led)",
+          "desc": "Soundcheck runs the engagement directly. End customer pays MSRP. Mana Tech ecosystem end customers receive 25% loyalty discount.",
+          "soundcheck": "100% of MSRP",
+          "partner": "—"
         }
       ],
       "setupFees": {
-        "title": "White-Label Setup",
-        "reports": "$5,000 one-time (Reports)",
-        "vfg": "$10,000 one-time (Virtual Focus Groups)",
-        "minimum": "$25,000 annual minimum commitment",
-        "term": "2-year minimum, then annual renewals",
-        "termination": "Either party with 60-day notice at year-end"
+        "title": "Partnership Terms",
+        "reports": "$2,500 one-time setup fee (waived for Mana Tech partners)",
+        "vfg": "Annual minimum: $6,000 Standard / $4,000 Mana Tech",
+        "minimum": "Prepaid quarterly — unused balance rolls forward within contract year",
+        "term": "Per-project rate drawn against prepaid quarterly balance",
+        "termination": "Trial: 2 engagements, no commitment. Convert within 90 days for setup credit."
       },
       "principles": [
-        "All revenue splits are on net revenue — direct costs come off the top before any split.",
-        "Single invoicing is mandatory — one party bills the client, pays the other Net 30.",
-        "Pricing is tiered by buyer market, not by relationship sentiment.",
-        "Free engagements are off-limits. The floor is $750.",
-        "Manual validation precedes product investment — sell first, build second."
+        "Soundcheck's share is calculated on published MSRP, not on the operator's selling price.",
+        "Operators retain 100% of any margin captured above MSRP.",
+        "Below-MSRP selling: operator absorbs the discount, Soundcheck share stays at MSRP rate.",
+        "Single invoicing — one party bills the client. Simple terms.",
+        "Every engagement starts with Market Research. Downstream products attach to it."
       ],
-      "memberRateNote": "Note: Operator MSRP pricing is separate from the Mana Tech Member Rate. Operators bill end clients at MSRP; the Member Rate applies only to direct Soundcheck engagements."
+      "memberRateNote": "Note: Mana Tech ecosystem end customers receive 25% off MSRP on direct sales. Mana Tech partner operators pay 25% of MSRP (vs. 30% Standard)."
     }
   },
   "ourPartners": {
@@ -1072,7 +1070,7 @@
         "sub": "from signed engagement to delivery"
       },
       {
-        "num": "US$5,000",
+        "num": "US$2,000",
         "label": "",
         "sub": "white-label included · 2 revisions"
       }
@@ -1737,7 +1735,7 @@
     ],
     "pricingLabel": "Pricing & delivery",
     "pricingTitle": "Fixed scope. Premium positioning.",
-    "price": "US$9,500–$14,500",
+    "price": "US$4,000",
     "priceSubtitle": "per assessment",
     "pricingDetails": [
       {
@@ -1755,7 +1753,7 @@
     ],
     "introLabel": "Introductory Pricing",
     "introTitle": "Founding customer rate available.",
-    "introSub": "The first 5–10 customers receive the assessment at $9,500 (vs. $14,500 standard) in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
+    "introSub": "The first 5–10 customers receive the assessment at $4,000 (vs. $4,000 standard) in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
     "faqLabel": "Common questions",
     "faqTitle": "Straight answers.",
     "faqs": [
@@ -1815,7 +1813,7 @@
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
         "delivery": "3–5 business days from brand intake",
-        "pricing": "$400 per persona · pick any number from your panel",
+        "pricing": "$500 per persona · pick any number from your panel",
         "link": "/consumer-journeys",
         "linkLabel": "See full details →"
       },
@@ -1963,10 +1961,10 @@
       }
     ],
     "pricingTitle": "Pricing",
-    "pricingAmount": "$400 per persona",
+    "pricingAmount": "$500 per persona",
     "pricingSub": "Select any number of personas from your panel. No minimum.",
     "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
-    "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 20 personas = $10,000",
+    "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 10 personas = $5,000",
     "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
     "faqTitle": "Common questions",
     "faqs": [

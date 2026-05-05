@@ -5,11 +5,12 @@ import SEO from '../components/SEO'
 import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 const memberRates = [
-  { name: 'International Viability Analysis', standard: '$5,000', member: '$3,750', link: '/expansion-report' },
-  { name: 'Scale Assessment', standard: '$9,500–$14,500', member: '$7,125–$10,875', link: '/scale-assessment' },
-  { name: 'Market Research', standard: 'from $4,000', member: 'from $3,000', link: '/research-platform' },
-  { name: 'Customer Journey Maps', standard: '$400/persona', member: '$300/persona', link: '/consumer-journeys' },
-  { name: 'Virtual Focus Groups', standard: '$4,000/session', member: '$3,000/session', link: '/virtual-focus-groups' },
+  { name: 'Market Research (S/M/L)', standard: '$3,000 / $3,500 / $4,000', member: '$2,250 / $2,625 / $3,000', link: '/research-platform' },
+  { name: 'International Expansion Viability (IXV)', standard: '$2,000', member: '$1,500', link: '/expansion-report' },
+  { name: 'Scale Assessment', standard: '$4,000', member: '$3,000', link: '/scale-assessment' },
+  { name: 'Customer Journey Maps', standard: '$500/persona', member: '$375/persona', link: '/consumer-journeys' },
+  { name: 'Virtual Focus Groups', standard: '$3,000/session', member: '$2,250/session', link: '/virtual-focus-groups' },
+  { name: 'VFG Re-Test Pack', standard: '+$2,000', member: '+$1,500', link: '/virtual-focus-groups' },
 ]
 
 export default function ManaTech() {

@@ -108,29 +108,29 @@
     "products": [
       {
         "num": "01",
-        "for": "Operadores y Marcas · Expansión de Mercado",
-        "name": "Análisis de Viabilidad Internacional",
-        "desc": "Puntaje CVE, panorama competitivo, marco regulatorio, canales de distribución, rutas estratégicas y hoja de ruta para cualquier nuevo mercado. 100+ páginas.",
-        "delivery": "Entrega en 2–3 semanas · White-label incluido",
-        "link": "/expansion-report",
+        "for": "Punto de Partida · Cada Compromiso",
+        "name": "Investigación de Mercado",
+        "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas. La base de todo lo demás.",
+        "delivery": "Desde $3,000 · Tiers S/M/L · White-label incluido",
+        "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "02",
-        "for": "Marcas y Agencias en EE.UU. · Inteligencia Estratégica",
-        "name": "Scale Assessment",
-        "desc": "Diagnóstico de Escala, posición competitiva, preparación operacional y plan de 24 meses con compuertas go/no-go. Construido sobre el framework Too Small To Fall.",
-        "delivery": "Entrega en 3–4 semanas · White-label incluido",
-        "link": "/scale-assessment",
+        "for": "Operadores y Marcas · Expansión de Mercado",
+        "name": "Viabilidad de Expansión Internacional (IXV)",
+        "desc": "Puntaje CVE, panorama competitivo, marco regulatorio, canales de distribución, rutas estratégicas y hoja de ruta. Se adjunta a su Investigación de Mercado.",
+        "delivery": "$2,000 · Requiere Investigación de Mercado",
+        "link": "/expansion-report",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "03",
-        "for": "Operadores · Marcas · Inteligencia del Consumidor",
-        "name": "Investigación de Mercado",
-        "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas basado en investigación.",
-        "delivery": "Desde $4,000 · Entrega en 5–10 días",
-        "link": "/research-platform",
+        "for": "Marcas y Agencias en EE.UU. · Inteligencia Estratégica",
+        "name": "Scale Assessment",
+        "desc": "Diagnóstico de Escala, posición competitiva, preparación operacional y plan de 24 meses. Framework Too Small To Fall.",
+        "delivery": "$4,000 · Requiere Investigación de Mercado",
+        "link": "/scale-assessment",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
@@ -138,7 +138,7 @@
         "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Mapas de Viaje del Cliente",
         "desc": "Mapas de viaje específicos para la marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy.",
-        "delivery": "$400/persona · Entrega en 2–3 días",
+        "delivery": "$500/persona · Requiere Investigación de Mercado",
         "link": "/consumer-journeys",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
@@ -147,40 +147,40 @@
         "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Focus Groups Virtuales",
         "desc": "Sesiones de focus group con IA testando conceptos contra su panel de personas. Votos de preferencia, citas textuales e insights estratégicos.",
-        "delivery": "$4,000/sesión · Entrega en 1–3 días",
+        "delivery": "$3,000/sesión · Requiere Investigación de Mercado",
         "link": "/virtual-focus-groups",
         "memberRateNote": "Tarifa Mana Tech disponible"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
     "economicsLabel": "El Caso de Negocio",
-    "economicsTitle1": "Una línea de ingresos de",
-    "economicsTitle2": "$750–$2,175+/hora. Sin contratar más gente.",
+    "economicsTitle1": "Quédese con el 70% del MSRP.",
+    "economicsTitle2": "Sin nuevas contrataciones.",
     "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Tu rol es capturar el brief, aplicar tu juicio profesional y presentar los hallazgos con el contexto estratégico que solo tú puedes proveer.",
     "economicsLink": "Desglose Completo de Economía →",
-    "economicsHeader": "Economía Real · White-Label (en un compromiso de $7,500)",
+    "economicsHeader": "Economía Real · Partner Estándar (en un compromiso de $7,000)",
     "economicsRows": [
       [
-        "Fee de plataforma Soundcheck",
-        "40% del MSRP · $3,000"
+        "Tarifa plataforma Soundcheck",
+        "30% del MSRP · $2,100"
       ],
       [
-        "Tu agencia se queda con",
-        "60% del MSRP · $4,500"
+        "Su agencia retiene",
+        "70% del MSRP · $4,900"
       ],
       [
-        "Tu inversión de tiempo",
+        "Su inversión de tiempo",
         "2–6 horas"
       ],
       [
         "Tarifa efectiva por hora",
-        "$750–$2,175+/h"
+        "$800–$2,450/h"
       ]
     ],
     "marginLabel": "Tu margen por compromiso",
-    "marginValue": "$4,500+",
-    "ctaTitle": "Comience con un informe.\nVea qué se siente ganar US$400+/hora.",
-    "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato, y ve el flujo de trabajo completo en práctica antes de escalarlo.",
+    "marginValue": "$4,900+",
+    "ctaTitle": "Comience con una prueba.\nDos compromisos. Sin obligación.",
+    "ctaSub": "La mayoría de los operadores comienzan con un cliente existente. Prueba al 35% del MSRP — sin tarifa de setup, sin compromiso anual.",
     "ctaButton": "Conviértase en Operador →",
     "modulesLabel": "La Plataforma de Inteligencia del Consumidor",
     "modulesTitle": "Un flujo de trabajo. Tres módulos. Tan completo o simple como el proyecto requiera.",
@@ -188,20 +188,20 @@
       {
         "num": "01",
         "name": "Investigación de Mercado",
-        "desc": "Tres informes de nivel decisivo + un panel de personas basado en datos reales. El cimiento sobre el que se construye todo lo demás.",
-        "price": "Tiers S / M / L: US$4,000 · US$6,000 · US$8,000"
+        "desc": "Tres reportes + un panel de personas basado en datos reales. La base sobre la que todo se construye.",
+        "price": "Tiers S / M / L: $3,000 · $3,500 · $4,000"
       },
       {
         "num": "02",
         "name": "Mapas de Viaje del Cliente",
-        "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona descubre, evalúa y compra — y dónde tus puntos de contacto se alinean o no con ellos.",
-        "price": "$400 por persona · elige las que necesites"
+        "desc": "Mapas de viaje específicos mostrando cómo cada persona descubre, evalúa y compra.",
+        "price": "$500 por persona"
       },
       {
         "num": "03",
-        "name": "Sesiones de Grupos Focales Virtuales",
-        "desc": "Prueba empaques, conceptos, precios y territorios creativos contra tu panel de personas. Tres rondas de retroalimentación iterativa por sesión.",
-        "price": "US$4,000 por sesión"
+        "name": "Focus Groups Virtuales",
+        "desc": "Pruebe packaging, conceptos, precios y territorios creativos contra su panel de personas.",
+        "price": "$3,000 por sesión · +$2,000 pack de re-test"
       }
     ],
     "modulesCta": "Ver cómo se combinan los módulos →"
@@ -325,7 +325,7 @@
       },
       {
         "icon": "💰",
-        "value": "$3,000–$5,000+",
+        "value": "$2,100–$4,200+",
         "label": "por compromiso"
       },
       {
@@ -344,7 +344,7 @@
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
-    "economicsHeader": "Economía Real · White-Label (en un compromiso de $7,500)",
+    "economicsHeader": "Economía Real · White-Label (en un compromiso de $7,000)",
     "selfServe": "Partner Estándar",
     "selfServeDesc": "40% fee de plataforma",
     "fullService": "Partner Fundador",
@@ -474,7 +474,7 @@
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes no olvidarán.",
-    "heroSub": "Cinco productos de alcance fijo diseñados para ser briefeados, entregados y desplegados bajo la marca de su agencia. Usted fija el precio para sus clientes.",
+    "heroSub": "Cinco productos modulares. Cada compromiso comienza con Investigación de Mercado — los otros cuatro se adjuntan. Diseñados para entrega white-label bajo la marca de su agencia.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -492,11 +492,30 @@
     "items": [
       {
         "num": "01",
+        "for": "Punto de Partida · Cada Compromiso",
+        "name": "Investigación de Mercado",
+        "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
+        "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
+        "price": "US$3,000 / $3,500 / $4,000 (S / M / L)",
+        "delivery": "Entrega en 5–10 días · White-label incluido",
+        "ctaLabel": "Ver Detalles de Investigación →",
+        "deliverables": [
+          "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
+          "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
+          "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
+          "Panel de Personas — 6, 8 o 10 buyer personas (niveles S/M/L)",
+          "Precios S/M/L: $4.000 / $6.000 / $8.000"
+        ],
+        "link": "/research-platform",
+        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
+      },
+      {
+        "num": "02",
         "for": "Marcas y Agencias · Expansión de Mercado",
-        "name": "Análisis de Viabilidad Internacional",
+        "name": "Viabilidad de Expansión Internacional (IXV)",
         "desc": "Inteligencia de entrada al mercado para cualquier empresa que planea expandirse a un nuevo mercado. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta por fases.",
-        "price": "US$5.000",
-        "delivery": "Entrega en 2–3 semanas · White-label incluido · 2 revisiones",
+        "price": "US$2,000",
+        "delivery": "Entrega en 2–3 semanas · Requiere Investigación de Mercado · White-label incluido",
         "ctaLabel": "Ver Detalles del Informe →",
         "deliverables": [
           "CVE Score — puntuación ponderada de 3 dimensiones (0 a 100)",
@@ -511,13 +530,13 @@
         "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
-        "num": "02",
+        "num": "03",
         "for": "Marcas US y Agencias · Inteligencia Estratégica",
         "name": "Scale Assessment",
         "tagline": "Crecimiento es lo que te vendieron. Escala es lo que realmente necesitas.",
         "desc": "Para marcas de consumo en el mercado estadounidense en puntos de inflexión estratégicos. Responde si estás construido para escalar de manera durable — y qué necesitas construir primero si no lo estás.",
-        "price": "US$9.500–$14.500",
-        "delivery": "Entrega en 3–4 semanas · White-label incluido · 2 revisiones",
+        "price": "US$4,000",
+        "delivery": "Entrega en 3–4 semanas · Requiere Investigación de Mercado · White-label incluido",
         "ctaLabel": "Ver Detalles del Assessment →",
         "deliverables": [
           "Scale Diagnostic — construido para crecer vs. construido para escalar",
@@ -532,31 +551,12 @@
         "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       },
       {
-        "num": "03",
-        "for": "Operadores · Marcas · Inteligencia del Consumidor",
-        "name": "Investigación de Mercado",
-        "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
-        "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
-        "price": "Desde US$4.000",
-        "delivery": "Entrega en 5–10 días · White-label incluido",
-        "ctaLabel": "Ver Detalles de Investigación →",
-        "deliverables": [
-          "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
-          "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
-          "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
-          "Panel de Personas — 6, 12 o 20 buyer personas (niveles S/M/L)",
-          "Precios S/M/L: $4.000 / $6.000 / $8.000"
-        ],
-        "link": "/research-platform",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
-      },
-      {
         "num": "04",
         "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Mapas de Jornada del Cliente",
         "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
         "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
-        "price": "US$400 por persona",
+        "price": "US$500 por persona",
         "delivery": "Entrega en 2–3 días · White-label incluido",
         "ctaLabel": "Ver Detalles de Mapas de Jornada →",
         "deliverables": [
@@ -574,8 +574,8 @@
         "name": "Focus Groups Virtuales",
         "tagline": "Pruebe cualquier concepto contra su audiencia real — en horas, no semanas.",
         "desc": "Sesiones de focus group con IA que prueban conceptos, mensajes, packaging, precios o posicionamiento contra el panel completo de personas. Votos de preferencia, citas textuales e insights estratégicos.",
-        "price": "US$4.000 por sesión",
-        "delivery": "Entrega en 1–3 días · White-label incluido",
+        "price": "US$3,000/sesión · +$2,000 pack de re-test",
+        "delivery": "Entrega en 1–3 días · Requiere Investigación de Mercado · White-label incluido",
         "ctaLabel": "Ver Detalles de Focus Groups →",
         "deliverables": [
           "Sesión completa de focus group — pruebe cualquier concepto",
@@ -1075,7 +1075,7 @@
         "sub": "desde la firma del compromiso hasta la entrega"
       },
       {
-        "num": "US$5,000",
+        "num": "US$2,000",
         "label": "",
         "sub": "white-label incluido · 2 revisiones"
       }
@@ -1767,7 +1767,7 @@
     ],
     "pricingLabel": "Precios y entrega",
     "pricingTitle": "Alcance fijo. Posicionamiento premium.",
-    "price": "US$9,500–$14,500",
+    "price": "US$4,000",
     "priceSubtitle": "por assessment",
     "pricingDetails": [
       {
@@ -1785,7 +1785,7 @@
     ],
     "introLabel": "Precios Introductorios",
     "introTitle": "Tarifa de cliente fundador disponible.",
-    "introSub": "Los primeros 5–10 clientes reciben el assessment a $9,500 (vs. $14,500 estándar) a cambio de: testimonio escrito dentro de 30 días, derechos de caso de estudio público, y estatus de cliente de referencia.",
+    "introSub": "Los primeros 5–10 clientes reciben el assessment a $4,000 (vs. $4,000 estándar) a cambio de: testimonio escrito dentro de 30 días, derechos de caso de estudio público, y estatus de cliente de referencia.",
     "faqLabel": "Preguntas comunes",
     "faqTitle": "Respuestas directas.",
     "faqs": [
@@ -1845,7 +1845,7 @@
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona seleccionada se mueve desde la primera conciencia hasta la defensa de la marca — y dónde tus puntos de contacto actuales o planeados se alinean con ellos o no. Construido a partir de tu investigación de mercado y panel de personas. Una breve toma de requerimientos de marca (~15 minutos) captura tu estrategia go-to-market. El sistema genera un mapa de viaje visual para cada persona seleccionada.",
         "whatYouGet": "Visión general del embudo + línea temporal por persona + análisis de brechas + exportación PDF",
         "delivery": "3–5 días de negocio desde la toma de requerimientos de marca",
-        "pricing": "US$400 por persona · elige cualquier número de tu panel",
+        "pricing": "US$500 por persona · elige cualquier número de tu panel",
         "link": "/consumer-journeys",
         "linkLabel": "Ver detalles completos →"
       },
@@ -1993,7 +1993,7 @@
       }
     ],
     "pricingTitle": "Precios",
-    "pricingAmount": "US$400 por persona",
+    "pricingAmount": "US$500 por persona",
     "pricingSub": "Selecciona cualquier número de personas de tu panel. Sin mínimo.",
     "pricingIncludes": "Toma de Requerimientos de Puntos de Contacto de Marca (formulario guiado, ~15 min) · Generación de viaje completo · Panel de Control de Visión General del Embudo · Tarjetas de Viaje por Persona · Análisis de Brechas con Puntuaciones de Severidad · Resumen ejecutivo · Exportación PDF white-label · Historial de versiones",
     "pricingExamples": "6 personas = US$3,000 | 10 personas = US$5,000 | 20 personas = US$10,000",
