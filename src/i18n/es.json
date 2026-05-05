@@ -182,29 +182,48 @@
     "ctaTitle": "Comience con una prueba.\nDos compromisos. Sin obligación.",
     "ctaSub": "La mayoría de los operadores comienzan con un cliente existente. Prueba al 35% del MSRP — sin tarifa de setup, sin compromiso anual.",
     "ctaButton": "Conviértase en Operador →",
-    "modulesLabel": "La Plataforma de Inteligencia del Consumidor",
-    "modulesTitle": "Un flujo de trabajo. Tres módulos. Tan completo o simple como el proyecto requiera.",
+    "modulesLabel": "Cinco Productos · Una Plataforma",
+    "modulesTitle": "Todo comienza con la Investigación de Mercado. Construya a partir de ahí.",
+    "modulesFoundation": "La Base",
+    "modulesAddOns": "Construya sobre su investigación",
     "modules": [
       {
         "num": "01",
         "name": "Investigación de Mercado",
-        "desc": "Tres reportes + un panel de personas basado en datos reales. La base sobre la que todo se construye.",
-        "price": "Tiers S / M / L: $3,000 · $3,500 · $4,000"
+        "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de buyer personas basado en la investigación. La base requerida para todos los demás productos.",
+        "price": "Tiers S / M / L: $3,000 · $3,500 · $4,000",
+        "link": "/market-research"
       },
       {
         "num": "02",
         "name": "Mapas de Viaje del Cliente",
-        "desc": "Mapas de viaje específicos mostrando cómo cada persona descubre, evalúa y compra.",
-        "price": "$500 por persona"
+        "desc": "Mapas de viaje específicos mostrando cómo cada persona descubre, evalúa y compra — y dónde sus puntos de contacto los encuentran o los pierden.",
+        "price": "$500 por persona",
+        "link": "/consumer-journeys"
       },
       {
         "num": "03",
         "name": "Focus Groups Virtuales",
-        "desc": "Pruebe packaging, conceptos, precios y territorios creativos contra su panel de personas.",
-        "price": "$3,000 por sesión · +$2,000 pack de re-test"
+        "desc": "Pruebe packaging, conceptos, precios y territorios creativos contra su panel de personas. Tres rondas de feedback iterativo por sesión.",
+        "price": "$3,000 por sesión · +$2,000 pack de re-test",
+        "link": "/virtual-focus-groups"
+      },
+      {
+        "num": "04",
+        "name": "Viabilidad de Expansión Internacional",
+        "desc": "CVE Score, panorama competitivo, resumen regulatorio, mapa de canales de distribución y hoja de ruta escalonada para la entrada al mercado.",
+        "price": "$2,000",
+        "link": "/expansion-report"
+      },
+      {
+        "num": "05",
+        "name": "Evaluación de Escala",
+        "desc": "Diagnóstico de escala, mapa de oportunidades, análisis de posición competitiva, plan escalonado de 24 meses y una capa de inteligencia aumentada por IA.",
+        "price": "$4,000",
+        "link": "/scale-assessment"
       }
     ],
-    "modulesCta": "Ver cómo se combinan los módulos →"
+    "modulesCta": "Ver todos los productos →"
   },
   "howItWorks": {
     "heroLabel": "Cómo Funciona la Plataforma",
@@ -486,6 +505,9 @@
     "viewFullSample": "Ver muestra completa →",
     "viewFullSampleReport": "Ver informe de muestra completo →",
     "briefProduct": "Proponer este producto →",
+    "foundationLabel": "La Base · Todo Comienza Aquí",
+    "addOnsLabel": "Requiere Investigación de Mercado",
+    "addOnsTitle": "Construya sobre su investigación.",
     "ctaTitle": "¿Listo para proponer su primer producto?",
     "ctaSub": "Cuéntenos en qué está trabajando. Lo haremos coincidir con el producto adecuado y el cronograma.",
     "ctaButton": "Briefear un Producto →",

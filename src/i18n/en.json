@@ -182,29 +182,48 @@
     "ctaTitle": "Start with a trial.\nTwo engagements. No commitment.",
     "ctaSub": "Most operators start on an existing client. Trial at 35% of MSRP — no setup fee, no annual commitment. Convert within 90 days and your trial fees credit toward setup.",
     "ctaButton": "Become an Operator Partner →",
-    "modulesLabel": "The Consumer Intelligence Platform",
-    "modulesTitle": "One workflow. Three modules. As much or as little as the project needs.",
+    "modulesLabel": "Five Products · One Platform",
+    "modulesTitle": "Every engagement starts with Market Research. Build from there.",
+    "modulesFoundation": "The Foundation",
+    "modulesAddOns": "Build on top of your research",
     "modules": [
       {
         "num": "01",
         "name": "Market Research",
-        "desc": "Three decision-grade reports + a persona panel grounded in real data. The foundation everything else builds on.",
-        "price": "S / M / L tiers: $3,000 · $3,500 · $4,000"
+        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded buyer persona panel. The required foundation for every other product.",
+        "price": "S / M / L tiers: $3,000 · $3,500 · $4,000",
+        "link": "/market-research"
       },
       {
         "num": "02",
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
-        "price": "$500 per persona · pick as many as you need"
+        "price": "$500 per persona",
+        "link": "/consumer-journeys"
       },
       {
         "num": "03",
-        "name": "Virtual Focus Group Sessions",
+        "name": "Virtual Focus Groups",
         "desc": "Test packaging, concepts, pricing, and creative territories against your persona panel. Three rounds of iterative feedback per session.",
-        "price": "$3,000 per session · +$2,000 re-test pack"
+        "price": "$3,000 per session · +$2,000 re-test pack",
+        "link": "/virtual-focus-groups"
+      },
+      {
+        "num": "04",
+        "name": "International Expansion Viability",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, and a phased roadmap for market entry.",
+        "price": "$2,000",
+        "link": "/expansion-report"
+      },
+      {
+        "num": "05",
+        "name": "Scale Assessment",
+        "desc": "Scale diagnostic, market opportunity map, competitive position analysis, 24-month phased plan, and an AI-augmented intelligence layer.",
+        "price": "$4,000",
+        "link": "/scale-assessment"
       }
     ],
-    "modulesCta": "See how the modules combine →"
+    "modulesCta": "See all products →"
   },
   "howItWorks": {
     "heroLabel": "How the Platform Works",
@@ -501,6 +520,9 @@
     "viewFullSample": "View Full Sample →",
     "viewFullSampleReport": "View Full Sample Report →",
     "briefProduct": "Brief This Product →",
+    "foundationLabel": "The Foundation · Every Engagement Starts Here",
+    "addOnsLabel": "Requires Market Research",
+    "addOnsTitle": "Build on top of your research.",
     "ctaTitle": "Ready to brief your first product?",
     "ctaSub": "Tell us what you're working on. We'll match you to the right product and turnaround.",
     "ctaButton": "Brief a Product →",

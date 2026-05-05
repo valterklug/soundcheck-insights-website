@@ -291,35 +291,78 @@ export default function Home() {
         <style>{`@media(max-width:900px){.prod-grid,.prod-grid-2{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.prod-grid-2{grid-template-columns:repeat(3,1fr)!important}}`}</style>
       </section>
 
-      {/* ── MODULES CONNECT ──────────────────────────────────────────── */}
-      <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(0,196,212,0.12)' }} className="section-pad">
-        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
-          <FadeIn>
-            <span className="sc-label">{t('home.modulesLabel')}</span>
-            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 300, letterSpacing: '-0.01em', lineHeight: 1.2, marginBottom: 48 }}>
-              {t('home.modulesTitle')}
-            </h2>
-          </FadeIn>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="modules-grid">
-            {(t('home.modules', { returnObjects: true }) || []).map((m, i) => (
-              <FadeIn key={i} delay={i * 0.08}>
-                <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid var(--teal)', padding: '28px 24px', height: '100%', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: 'var(--teal)', letterSpacing: '0.1em', marginBottom: 8 }}>MODULE {m.num}</div>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 8 }}>{m.name}</div>
-                  <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.65, marginBottom: 16, flex: 1 }}>{m.desc}</p>
-                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'var(--teal)' }}>{m.price}</div>
+      {/* ── PRODUCTS — FOUNDATION + ADD-ONS ──────────────────────── */}
+      {(() => {
+        const modules = t('home.modules', { returnObjects: true }) || []
+        const foundation = modules[0]
+        const addOns = modules.slice(1)
+        return (
+          <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(0,196,212,0.12)' }} className="section-pad">
+            <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+              <FadeIn>
+                <span className="sc-label">{t('home.modulesLabel')}</span>
+                <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 300, letterSpacing: '-0.01em', lineHeight: 1.2, marginBottom: 48 }}>
+                  {t('home.modulesTitle')}
+                </h2>
+              </FadeIn>
+
+              {/* Foundation card — Market Research */}
+              {foundation && (
+                <FadeIn>
+                  <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 12 }}>
+                    {t('home.modulesFoundation')}
+                  </div>
+                  <Link to={getLocalizedPath(foundation.link || '/market-research', lang)} style={{ textDecoration: 'none', display: 'block' }}>
+                    <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.2)', borderTop: '3px solid var(--teal)', padding: '32px 28px', marginBottom: 40, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40, alignItems: 'center', transition: 'border-color 0.2s' }} className="foundation-card">
+                      <div>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: 'var(--teal)', letterSpacing: '0.1em', marginBottom: 10 }}>PRODUCT {foundation.num}</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 20, fontWeight: 500, color: '#fff', marginBottom: 10 }}>{foundation.name}</div>
+                        <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, margin: 0 }}>{foundation.desc}</p>
+                      </div>
+                      <div style={{ textAlign: 'right' }}>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: 'var(--teal)', marginBottom: 8 }}>{foundation.price}</div>
+                        <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, color: 'var(--teal)', opacity: 0.7 }}>See full details →</span>
+                      </div>
+                    </div>
+                  </Link>
+                </FadeIn>
+              )}
+
+              {/* Add-on products */}
+              {addOns.length > 0 && (
+                <>
+                  <FadeIn>
+                    <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.35)', marginBottom: 16 }}>
+                      {t('home.modulesAddOns')}
+                    </div>
+                  </FadeIn>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 2 }} className="addons-grid">
+                    {addOns.map((m, i) => (
+                      <FadeIn key={i} delay={i * 0.06}>
+                        <Link to={getLocalizedPath(m.link || '/products', lang)} style={{ textDecoration: 'none', display: 'block', height: '100%' }}>
+                          <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid rgba(255,255,255,0.08)', padding: '24px 20px', height: '100%', display: 'flex', flexDirection: 'column', transition: 'border-color 0.2s' }}>
+                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 700, color: 'rgba(255,255,255,0.3)', letterSpacing: '0.1em', marginBottom: 8 }}>PRODUCT {m.num}</div>
+                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff', marginBottom: 8 }}>{m.name}</div>
+                            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 14, flex: 1 }}>{m.desc}</p>
+                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, color: 'var(--teal)' }}>{m.price}</div>
+                          </div>
+                        </Link>
+                      </FadeIn>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              <FadeIn>
+                <div style={{ marginTop: 32 }}>
+                  <Link to={getLocalizedPath('/products', lang)} className="text-link">{t('home.modulesCta')}</Link>
                 </div>
               </FadeIn>
-            ))}
-          </div>
-          <FadeIn>
-            <div style={{ marginTop: 32 }}>
-              <Link to={getLocalizedPath('/research-platform', lang)} className="text-link">{t('home.modulesCta')}</Link>
             </div>
-          </FadeIn>
-        </div>
-        <style>{`@media(max-width:900px){.modules-grid{grid-template-columns:1fr!important}}`}</style>
-      </section>
+            <style>{`@media(max-width:900px){.foundation-card{grid-template-columns:1fr!important;text-align:left!important}.foundation-card>div:last-child{text-align:left!important}.addons-grid{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.addons-grid{grid-template-columns:repeat(2,1fr)!important}}`}</style>
+          </section>
+        )
+      })()}
 
       {/* ── ECONOMICS ────────────────────────────────────────────────── */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(232,71,42,0.15)' }} className="section-pad">

@@ -159,94 +159,192 @@ export default function Products() {
         </div>
       </section>
 
-      <section style={{ background: 'var(--navy)', padding: '80px 60px' }} className="prod-section">
-        <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', flexDirection: 'column', gap: 2 }}>
-          {products.map((p, i) => (
-            <FadeIn key={p.num} delay={i * 0.06}>
-              <div style={{
-                background: p.featured ? 'rgba(0,196,212,0.03)' : 'rgba(255,255,255,0.03)',
-                border: `1px solid ${p.featured ? 'rgba(0,196,212,0.2)' : 'rgba(255,255,255,0.06)'}`,
-                borderLeft: `3px solid ${p.featured ? 'var(--teal)' : 'transparent'}`,
-                transition: 'border-color 0.2s',
-              }}>
-                {/* Product header row */}
-                <div style={{ display: 'grid', gridTemplateColumns: '280px 1fr', minHeight: 120 }} className="prod-row">
-                  {/* Left */}
-                  <div style={{ padding: '28px 24px', borderRight: '1px solid rgba(255,255,255,0.06)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+      {/* ── MARKET RESEARCH — THE FOUNDATION ──────────────────────── */}
+      {products.length > 0 && (() => {
+        const mr = products[0]
+        return (
+          <section style={{ background: 'var(--navy)', padding: '80px 60px', borderBottom: '1px solid rgba(0,196,212,0.12)' }} className="prod-section">
+            <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+              <FadeIn>
+                <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 16 }}>
+                  {t('products.foundationLabel') || 'The Foundation · Every Engagement Starts Here'}
+                </div>
+              </FadeIn>
+              <FadeIn delay={0.06}>
+                <div style={{
+                  background: 'rgba(0,196,212,0.03)',
+                  border: '1px solid rgba(0,196,212,0.2)',
+                  borderTop: '3px solid var(--teal)',
+                }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: '320px 1fr', minHeight: 120 }} className="prod-row">
+                    {/* Left */}
+                    <div style={{ padding: '36px 28px', borderRight: '1px solid rgba(0,196,212,0.12)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                      <div>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.18)', marginBottom: 6 }}>{mr.num}</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 12 }}>{mr.for}</div>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 22, fontWeight: 500, color: '#fff', lineHeight: 1.25, marginBottom: mr.tagline ? 8 : 18 }}>{mr.name}</div>
+                        {mr.tagline && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, fontStyle: 'italic', color: 'rgba(255,255,255,0.55)', lineHeight: 1.4, marginBottom: 18 }}>{mr.tagline}</div>}
+                      </div>
+                      <div>
+                        <div style={{ background: 'rgba(0,196,212,0.06)', border: '1px solid rgba(0,196,212,0.1)', padding: '14px 16px', marginBottom: 10 }}>
+                          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 19, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{mr.price}</div>
+                          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>{mr.delivery}</div>
+                        </div>
+                        {mr.memberRateNote && (
+                          <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)', textDecoration: 'none', display: 'block', marginBottom: 12, opacity: 0.8 }}>
+                            {mr.memberRateNote} →
+                          </Link>
+                        )}
+                        <Link to={mr.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
+                          {mr.ctaLabel || t('products.briefProduct')}
+                        </Link>
+                      </div>
+                    </div>
+
+                    {/* Right */}
+                    <div style={{ padding: '36px 40px' }}>
+                      <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 15, color: 'rgba(255,255,255,0.5)', lineHeight: 1.8, marginBottom: 24 }}>{mr.desc}</p>
+
+                      <button
+                        onClick={() => setExpanded(expanded === 0 ? null : 0)}
+                        style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'none', border: '1px solid rgba(0,196,212,0.2)', color: 'var(--teal)', padding: '8px 14px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', cursor: 'pointer', borderRadius: 3, transition: 'all 0.2s' }}
+                      >
+                        <motion.span animate={{ rotate: expanded === 0 ? 90 : 0 }} style={{ display: 'inline-block', fontSize: 12 }}>›</motion.span>
+                        {expanded === 0 ? t('products.hideDeliverables') : t('products.viewDeliverables')}
+                      </button>
+
+                      <AnimatePresence>
+                        {expanded === 0 && (
+                          <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: 0.3 }}
+                            style={{ overflow: 'hidden' }}
+                          >
+                            <div style={{ marginTop: 16 }}>
+                              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 10 }}>{t('products.whatsDelivered')}</div>
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+                                {mr.deliverables.map(d => (
+                                  <div key={d} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '9px 12px', background: 'rgba(255,255,255,0.025)' }}>
+                                    <div style={{ width: 4, height: 4, background: 'var(--teal)', borderRadius: '50%', flexShrink: 0, marginTop: 7 }} />
+                                    <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.55 }}>{d}</div>
+                                  </div>
+                                ))}
+                              </div>
+                              {mr.sample?.type === 'evc' && <EvcSample data={mr.sample} />}
+                              {mr.sample?.type === 'personas' && <PersonaSample data={mr.sample} />}
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </div>
+                  </div>
+                </div>
+              </FadeIn>
+            </div>
+          </section>
+        )
+      })()}
+
+      {/* ── ADD-ON PRODUCTS ────────────────────────────────────────── */}
+      <section style={{ background: 'var(--navy-2)', padding: '80px 60px' }} className="prod-section">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.35)', marginBottom: 12 }}>
+              {t('products.addOnsLabel') || 'Requires Market Research'}
+            </div>
+            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.3rem,2.5vw,1.8rem)', fontWeight: 300, letterSpacing: '-0.01em', lineHeight: 1.2, marginBottom: 48 }}>
+              {t('products.addOnsTitle') || 'Build on top of your research.'}
+            </h2>
+          </FadeIn>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2 }} className="addon-grid">
+            {products.slice(1).map((p, i) => (
+              <FadeIn key={p.num} delay={i * 0.06}>
+                <div style={{
+                  background: 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(255,255,255,0.06)',
+                  borderTop: '3px solid rgba(255,255,255,0.08)',
+                  height: '100%',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  transition: 'border-color 0.2s',
+                }}>
+                  <div style={{ padding: '28px 24px', flex: 1, display: 'flex', flexDirection: 'column' }}>
                     <div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.18)', marginBottom: 6 }}>{p.num}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 12 }}>{p.for}</div>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', lineHeight: 1.25, marginBottom: p.tagline ? 6 : 16 }}>{p.name}</div>
-                      {p.tagline && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, fontStyle: 'italic', color: 'rgba(255,255,255,0.55)', lineHeight: 1.4, marginBottom: 16 }}>{p.tagline}</div>}
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', lineHeight: 1.25, marginBottom: p.tagline ? 6 : 12 }}>{p.name}</div>
+                      {p.tagline && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, fontStyle: 'italic', color: 'rgba(255,255,255,0.55)', lineHeight: 1.4, marginBottom: 12 }}>{p.tagline}</div>}
                     </div>
+                    <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.4)', lineHeight: 1.7, marginBottom: 20, flex: 1 }}>{p.desc}</p>
+
                     <div>
-                      <div style={{ background: 'rgba(255,255,255,0.04)', padding: '12px 14px', marginBottom: 8 }}>
-                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 17, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
+                      <div style={{ background: 'rgba(255,255,255,0.04)', padding: '12px 14px', marginBottom: 10 }}>
+                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                       </div>
                       {p.memberRateNote && (
-                        <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)', textDecoration: 'none', display: 'block', marginBottom: 12, opacity: 0.8 }}>
+                        <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)', textDecoration: 'none', display: 'block', marginBottom: 10, opacity: 0.8 }}>
                           {p.memberRateNote} →
                         </Link>
                       )}
-                      <Link to={p.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
-                        {p.ctaLabel || t('products.briefProduct')}
-                      </Link>
+
+                      <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
+                        <Link to={p.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
+                          {p.ctaLabel || t('products.briefProduct')}
+                        </Link>
+                        <button
+                          onClick={() => setExpanded(expanded === (i + 1) ? null : (i + 1))}
+                          style={{ display: 'flex', alignItems: 'center', gap: 6, background: 'none', border: 'none', color: 'rgba(255,255,255,0.4)', padding: '8px 0', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.06em', textTransform: 'uppercase', cursor: 'pointer', transition: 'all 0.2s' }}
+                        >
+                          <motion.span animate={{ rotate: expanded === (i + 1) ? 90 : 0 }} style={{ display: 'inline-block', fontSize: 12 }}>›</motion.span>
+                          {expanded === (i + 1) ? t('products.hideDeliverables') : t('products.viewDeliverables')}
+                        </button>
+                      </div>
                     </div>
                   </div>
 
-                  {/* Right */}
-                  <div style={{ padding: '28px 36px' }}>
-                    <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 14, color: 'rgba(255,255,255,0.45)', lineHeight: 1.75, marginBottom: 20 }}>{p.desc}</p>
-
-                    {/* Toggle deliverables */}
-                    <button
-                      onClick={() => setExpanded(expanded === i ? null : i)}
-                      style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'none', border: '1px solid rgba(255,255,255,0.1)', color: 'rgba(255,255,255,0.5)', padding: '8px 14px', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', cursor: 'pointer', borderRadius: 3, transition: 'all 0.2s' }}
-                    >
-                      <motion.span animate={{ rotate: expanded === i ? 90 : 0 }} style={{ display: 'inline-block', fontSize: 12 }}>›</motion.span>
-                      {expanded === i ? t('products.hideDeliverables') : t('products.viewDeliverables')}
-                    </button>
-
-                    <AnimatePresence>
-                      {expanded === i && (
-                        <motion.div
-                          initial={{ opacity: 0, height: 0 }}
-                          animate={{ opacity: 1, height: 'auto' }}
-                          exit={{ opacity: 0, height: 0 }}
-                          transition={{ duration: 0.3 }}
-                          style={{ overflow: 'hidden' }}
-                        >
-                          <div style={{ marginTop: 16 }}>
-                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 10 }}>{t('products.whatsDelivered')}</div>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                              {p.deliverables.map(d => (
-                                <div key={d} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '9px 12px', background: 'rgba(255,255,255,0.025)' }}>
-                                  <div style={{ width: 4, height: 4, background: 'var(--teal)', borderRadius: '50%', flexShrink: 0, marginTop: 7 }} />
-                                  <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.55 }}>{d}</div>
-                                </div>
-                              ))}
-                            </div>
-                            {p.sample?.type === 'evc' && <EvcSample data={p.sample} />}
-                            {p.sample?.type === 'ivs' && <IvsSample data={p.sample} />}
-                            {p.sample?.type === 'signal' && <SignalSample data={p.sample} />}
-                            {p.sample?.type === 'personas' && <PersonaSample data={p.sample} />}
-                            {p.sample?.type === 'growth' && <GrowthSample />}
+                  <AnimatePresence>
+                    {expanded === (i + 1) && (
+                      <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        style={{ overflow: 'hidden' }}
+                      >
+                        <div style={{ padding: '0 24px 24px', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+                          <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: 10, marginTop: 20 }}>{t('products.whatsDelivered')}</div>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+                            {p.deliverables.map(d => (
+                              <div key={d} style={{ display: 'flex', gap: 10, alignItems: 'flex-start', padding: '9px 12px', background: 'rgba(255,255,255,0.025)' }}>
+                                <div style={{ width: 4, height: 4, background: 'var(--teal)', borderRadius: '50%', flexShrink: 0, marginTop: 7 }} />
+                                <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.55 }}>{d}</div>
+                              </div>
+                            ))}
                           </div>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
-                  </div>
+                          {p.sample?.type === 'evc' && <EvcSample data={p.sample} />}
+                          {p.sample?.type === 'ivs' && <IvsSample data={p.sample} />}
+                          {p.sample?.type === 'signal' && <SignalSample data={p.sample} />}
+                          {p.sample?.type === 'personas' && <PersonaSample data={p.sample} />}
+                          {p.sample?.type === 'growth' && <GrowthSample />}
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
                 </div>
-              </div>
-            </FadeIn>
-          ))}
+              </FadeIn>
+            ))}
+          </div>
         </div>
         <style>{`
           @media (max-width: 720px) {
             .prod-row { grid-template-columns: 1fr !important; }
             .prod-row > div:first-child { border-right: none !important; border-bottom: 1px solid rgba(255,255,255,0.06); }
             .prod-section { padding: 60px 24px !important; }
+            .addon-grid { grid-template-columns: 1fr !important; }
           }
         `}</style>
       </section>
