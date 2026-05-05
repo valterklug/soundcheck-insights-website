@@ -41,6 +41,14 @@ export default function Partner() {
 
           {/* Rules table */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 2, marginBottom: 48 }}>
+            {/* Header row */}
+            <div style={{ display: 'grid', gridTemplateColumns: '120px 160px 1fr 100px 100px', alignItems: 'center', padding: '12px 24px', gap: 16 }} className="rules-row">
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>Tier</div>
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>Who</div>
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>Terms</div>
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', textAlign: 'center' }}>Soundcheck</div>
+              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--orange)', textAlign: 'center' }}>Operator</div>
+            </div>
             {rules.map((r, i) => (
               <FadeIn key={i} delay={i * 0.04}>
                 <div style={{ display: 'grid', gridTemplateColumns: '120px 160px 1fr 100px 100px', alignItems: 'center', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '18px 24px', gap: 16 }} className="rules-row">
