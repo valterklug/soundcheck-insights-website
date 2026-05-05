@@ -15,16 +15,12 @@ import Products from './pages/Products'
 import Resources from './pages/Resources'
 import Partner from './pages/Partner'
 import OurPartners from './pages/OurPartners'
-import ForInvestors from './pages/ForInvestors'
 import ExpansionReport from './pages/ExpansionReport'
 import ScaleAssessment from './pages/ScaleAssessment'
-// BusinessPlan removed — route redirects to /products
 import VirtualFocusGroups from './pages/VirtualFocusGroups'
 import ResearchPlatform from './pages/ResearchPlatform'
 import ConsumerJourneys from './pages/ConsumerJourneys'
-import IdeaValidation from './pages/IdeaValidation'
 import ManaTech from './pages/ManaTech'
-import InvestorVetting from './pages/InvestorVetting'
 import Contact from './pages/Contact'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
@@ -58,19 +54,19 @@ const routes = [
   { path: '/', element: <Home /> },
   { path: '/how-it-works', element: <HowItWorks /> },
   { path: '/for-agencies', element: <ForAgencies /> },
-  { path: '/for-investors', element: <ForInvestors /> },
+  { path: '/for-investors', element: <Navigate to="/products" replace /> },
   { path: '/products', element: <Products /> },
   { path: '/expansion-report', element: <ExpansionReport /> },
   { path: '/growth-roadmap', element: <Navigate to="/scale-assessment" replace /> },
   { path: '/scale-assessment', element: <ScaleAssessment /> },
-  { path: '/idea-validation', element: <IdeaValidation /> },
+  { path: '/idea-validation', element: <Navigate to="/products" replace /> },
   { path: '/business-plan', element: <Navigate to="/products" replace /> },
   { path: '/virtual-focus-groups', element: <VirtualFocusGroups /> },
   { path: '/research-platform', element: <ResearchPlatform /> },
   { path: '/consumer-journeys', element: <ConsumerJourneys /> },
   { path: '/market-research', element: <ResearchPlatform /> },
-  { path: '/founder-pass', element: <Navigate to="/idea-validation" replace /> },
-  { path: '/investor-vetting', element: <InvestorVetting /> },
+  { path: '/founder-pass', element: <Navigate to="/products" replace /> },
+  { path: '/investor-vetting', element: <Navigate to="/products" replace /> },
   { path: '/mana-tech', element: <ManaTech /> },
   { path: '/resources', element: <Resources /> },
   { path: '/partner', element: <Partner /> },

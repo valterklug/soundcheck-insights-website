@@ -12,7 +12,7 @@ const organizationSchema = {
   name: 'Soundcheck Insights',
   url: SITE_URL,
   logo: `${SITE_URL}/logo-neg.png`,
-  description: 'AI-powered market intelligence platform for agencies, consultancies, and investors. Fixed-scope research products delivered under your brand.',
+  description: 'AI-native market intelligence platform for operators — agencies, consultancies, and fractional executives delivering productized research to international brands.',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'info@soundcheckinsights.com',
@@ -58,37 +58,36 @@ function faqSchema(items) {
 // ─── Page Configs ─────────────────────────────────────────────────────────────
 const seoConfig = {
   '/': {
-    title: 'Soundcheck Insights — AI Market Intelligence for Agencies & Investors',
-    description: 'AI-powered market intelligence platform for agencies, consultancies, and investors. Six fixed-scope research products delivered under your brand in as little as 48 hours.',
+    title: 'Soundcheck Insights — AI-Native Market Intelligence for Operators',
+    description: 'AI-native market intelligence for operators — agencies, consultancies, and fractional executives delivering productized research, validation, and strategic insights to international brands entering and scaling in the US.',
     image: '/og/og-home.png',
-    keywords: 'market intelligence, AI research, agency platform, white-label research, market analysis, competitive intelligence, business intelligence',
+    keywords: 'market intelligence, AI research, agency platform, white-label research, market analysis, competitive intelligence, operator platform, fractional executive',
     schema: {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Soundcheck Insights',
       url: SITE_URL,
-      description: 'AI-powered market intelligence platform for agencies, consultancies, and investors.',
+      description: 'AI-native market intelligence for operators — agencies, consultancies, and fractional executives.',
       publisher: organizationSchema,
     },
   },
 
   '/products': {
     title: 'Research Products',
-    description: 'Six fixed-scope market intelligence products: Expansion Reports, Idea Validation, Business Plans, Focus Groups, Growth Roadmaps, and Funding Vetting. Fixed price, fixed timeline, white-label ready.',
+    description: 'Five fixed-scope market intelligence products for operators: International Viability Analysis, Scale Assessment, Market Research, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline, white-label ready.',
     image: '/og/og-products.png',
-    keywords: 'market research products, expansion report, idea validation, business plan, focus groups, growth roadmap, funding vetting, white-label research',
+    keywords: 'market research products, expansion report, scale assessment, market research, customer journey maps, virtual focus groups, white-label research, operator platform',
     schema: {
       '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: 'Soundcheck Insights Research Products',
-      numberOfItems: 6,
+      numberOfItems: 5,
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'International Expansion Viability Report', url: `${SITE_URL}/expansion-report` },
-        { '@type': 'ListItem', position: 2, name: 'Idea Validation Analysis', url: `${SITE_URL}/idea-validation` },
-        { '@type': 'ListItem', position: 3, name: 'Business Plan Development', url: `${SITE_URL}/business-plan` },
-        { '@type': 'ListItem', position: 4, name: 'AI Virtual Focus Groups', url: `${SITE_URL}/products` },
-        { '@type': 'ListItem', position: 5, name: 'US Growth Roadmap', url: `${SITE_URL}/growth-roadmap` },
-        { '@type': 'ListItem', position: 6, name: 'Funding Vetting Analysis', url: `${SITE_URL}/for-investors` },
+        { '@type': 'ListItem', position: 1, name: 'International Viability Analysis', url: `${SITE_URL}/expansion-report` },
+        { '@type': 'ListItem', position: 2, name: 'Scale Assessment', url: `${SITE_URL}/scale-assessment` },
+        { '@type': 'ListItem', position: 3, name: 'Market Research', url: `${SITE_URL}/research-platform` },
+        { '@type': 'ListItem', position: 4, name: 'Customer Journey Maps', url: `${SITE_URL}/consumer-journeys` },
+        { '@type': 'ListItem', position: 5, name: 'Virtual Focus Groups', url: `${SITE_URL}/virtual-focus-groups` },
       ],
     },
   },
@@ -125,18 +124,7 @@ const seoConfig = {
     ),
   },
 
-  '/for-investors': {
-    title: 'For Investors — Funding Vetting Analysis',
-    description: 'Structured triage for your deal pipeline. Two independent interviews, contradiction analysis, and a one-page ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company. 7-day delivery.',
-    image: '/og/og-for-investors.png',
-    keywords: 'VC due diligence, startup vetting, deal pipeline triage, investor intelligence, funding analysis, signal brief',
-    schema: serviceSchema(
-      'Funding Vetting Analysis',
-      'Two structured interviews — founder team and real customer — with independent research and a Signal Brief verdict. ADVANCE, CONDITIONAL, or STOP in 7 business days.',
-      '3000',
-      '/for-investors',
-    ),
-  },
+  // /for-investors removed — redirects to /products
 
   '/expansion-report': {
     title: 'International Expansion Viability Report',
@@ -151,18 +139,7 @@ const seoConfig = {
     ),
   },
 
-  '/idea-validation': {
-    title: 'Idea Validation Analysis',
-    description: 'Know if your idea has a market before you spend a dollar building it. IVS Score (0-100), market sizing, competitive analysis, and customer willingness-to-pay. US$799. 48-hour delivery. No calls needed.',
-    image: '/og/og-idea-validation.png',
-    keywords: 'idea validation, market validation, startup idea testing, IVS score, business idea analysis, willingness to pay',
-    schema: serviceSchema(
-      'Idea Validation Analysis',
-      'AI-powered idea validation with IVS Score (0-100) covering problem validity, market opportunity, competitive whitespace, customer demand signals, and idea differentiation. 48-hour delivery.',
-      '799',
-      '/idea-validation',
-    ),
-  },
+  // /idea-validation removed — redirects to /products
 
   '/business-plan': {
     title: 'Business Plan Development',
@@ -203,20 +180,9 @@ const seoConfig = {
     ),
   },
 
-  // /founder-pass removed — redirects to /idea-validation
+  // /founder-pass, /idea-validation, /investor-vetting, /for-investors — all redirect to /products
 
-  '/investor-vetting': {
-    title: 'Investor Opportunity Vetting',
-    description: 'Independent vetting infrastructure for investors who run pipeline at scale. Single vettings from $1,500 or subscription tiers from $2,500/month. Standardized methodology.',
-    image: '/og/og-investor-vetting.png',
-    keywords: 'investor vetting, deal evaluation, VC due diligence, startup vetting, investment analysis, portfolio evaluation, deal flow intelligence',
-    schema: serviceSchema(
-      'Investor Opportunity Vetting',
-      'Standardized vetting reports for VCs, PE firms, family offices, and angel syndicates. Founder assessment, market validation, competitive landscape, traction check, and risk frame.',
-      '1500',
-      '/investor-vetting',
-    ),
-  },
+  // /investor-vetting removed — redirects to /products
 
   '/virtual-focus-groups': {
     title: 'Virtual Focus Group Sessions · Module 03',
@@ -251,8 +217,8 @@ const seoConfig = {
     keywords: 'customer journey maps, buyer journey, customer journey mapping, brand touchpoints, gap analysis, persona journey, purchase funnel',
     schema: serviceSchema(
       'Customer Journey Maps',
-      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $500 per persona.',
-      '500',
+      'Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where your touchpoints meet them or miss them. $400 per persona.',
+      '400',
       '/consumer-journeys',
     ),
   },
@@ -279,9 +245,9 @@ const seoConfig = {
 
   '/mana-tech': {
     title: 'Mana Tech Member Rate — 25% Off All Products',
-    description: 'Decision-grade market intelligence for Mana Tech members, Scale2Miami cohort founders, and the mentor network. 25% off MSRP on all seven Soundcheck products.',
+    description: 'Decision-grade market intelligence for Mana Tech operators, Scale2Miami ecosystem partners, and the mentor network. 25% off MSRP on all five Soundcheck products.',
     image: '/og/og-products.png',
-    keywords: 'mana tech, scale2miami, mana hubs, member rate, startup market intelligence, cross-border expansion, miami startup',
+    keywords: 'mana tech, scale2miami, mana hubs, member rate, operator market intelligence, cross-border expansion, miami agency',
   },
 
   '/our-partners': {

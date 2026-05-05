@@ -8,10 +8,8 @@ const memberRates = [
   { name: 'International Viability Analysis', standard: '$5,000', member: '$3,750', link: '/expansion-report' },
   { name: 'Scale Assessment', standard: '$9,500–$14,500', member: '$7,125–$10,875', link: '/scale-assessment' },
   { name: 'Market Research', standard: 'from $4,000', member: 'from $3,000', link: '/research-platform' },
-  { name: 'Customer Journey Maps', standard: '$500/persona', member: '$375/persona', link: '/consumer-journeys' },
+  { name: 'Customer Journey Maps', standard: '$400/persona', member: '$300/persona', link: '/consumer-journeys' },
   { name: 'Virtual Focus Groups', standard: '$4,000/session', member: '$3,000/session', link: '/virtual-focus-groups' },
-  { name: 'Investor Opportunity Vetting', standard: '$1,500–$2,500', member: '$1,125–$1,875', link: '/investor-vetting' },
-  { name: 'Idea Validation Analysis', standard: '$799', member: '$599', link: '/idea-validation' },
 ]
 
 export default function ManaTech() {
@@ -23,7 +21,7 @@ export default function ManaTech() {
     <PageWrapper>
       <SEO
         title="Mana Tech Member Rate — 25% Off All Products"
-        description="Decision-grade market intelligence for Mana Tech members, Scale2Miami cohort founders, and the mentor network. 25% off MSRP on all seven Soundcheck products."
+        description="Decision-grade market intelligence for Mana Tech members, Scale2Miami cohort founders, and the mentor network. 25% off MSRP on all five Soundcheck products."
         path="/mana-tech"
       />
 
@@ -33,9 +31,9 @@ export default function ManaTech() {
           <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 16 }}>
             Mana Hubs Member-Based · Soundcheck Insights
           </div>
-          <h1 className="page-h1">Built inside the Mana Tech ecosystem.<br/>For the founders, mentors, and operators who run it.</h1>
+          <h1 className="page-h1">Built inside the Mana Tech ecosystem.<br/>For the operators, mentors, and agencies who run it.</h1>
           <p className="page-sub" style={{ maxWidth: 760 }}>
-            Decision-grade market intelligence for cross-border expansion, available to Mana Tech members, Scale2Miami cohort founders, and the mentor network at 25% off MSRP.
+            Decision-grade market intelligence for operators delivering to international brands, available to Mana Tech members, Scale2Miami ecosystem partners, and the mentor network at 25% off MSRP.
           </p>
           <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 28 }}>
             <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary">Brief a Product</Link>
@@ -78,14 +76,14 @@ export default function ManaTech() {
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', lineHeight: 1.1, marginBottom: 48 }}>
-              Why Soundcheck for Mana Tech founders.
+              Why Soundcheck for Mana Tech operators.
             </h2>
           </FadeIn>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="why-grid">
             {[
-              { title: 'De-risk your market entry', desc: 'Most cohort founders are international entrepreneurs targeting a new market. The International Viability Analysis was built for exactly this transition — decision-grade evidence before you commit capital.' },
+              { title: 'De-risk your clients\' market entry', desc: 'Most operators in the ecosystem serve international brands entering the US. The International Viability Analysis was built for exactly this transition — decision-grade evidence before your clients commit capital.' },
               { title: 'Built by an insider', desc: 'Soundcheck founder Valter Klug is a Mana Hubs member, trilingual, with 28 years across the US-LatAm bridge. Same building, same ecosystem, same mission.' },
-              { title: 'Investor-grade evidence for Demo Day', desc: 'Turn intuition into validated decision frameworks before you stand in front of the Investment Committee. IVS Scores, CVE Scores, and market sizing that investors recognize.' },
+              { title: 'White-label delivery under your brand', desc: 'Every product is operator-facing. You deliver the intelligence under your brand, at your price point, with your strategic layer on top. Soundcheck is your production engine.' },
             ].map((item, i) => (
               <FadeIn key={i} delay={i * 0.08}>
                 <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', padding: '32px 24px', height: '100%' }}>
@@ -104,7 +102,7 @@ export default function ManaTech() {
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
             <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', lineHeight: 1.1, marginBottom: 16 }}>
-              All seven products. 25% off MSRP.
+              All five products. 25% off MSRP.
             </h2>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 48, maxWidth: 680 }}>
               The Member Rate applies to all direct Soundcheck engagements. Same deliverables, same timelines, same quality — just aligned pricing for the ecosystem.

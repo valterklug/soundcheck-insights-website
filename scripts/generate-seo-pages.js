@@ -24,13 +24,13 @@ const SITE_NAME = 'Soundcheck Insights'
 // ─── Per-page SEO data ────────────────────────────────────────────────────────
 const pages = {
   '/': {
-    title: 'Soundcheck Insights — AI Market Intelligence for Agencies & Investors',
-    description: 'AI-powered market intelligence platform for agencies, consultancies, and investors. Six fixed-scope research products delivered under your brand in as little as 48 hours.',
+    title: 'Soundcheck Insights — AI-Native Market Intelligence for Operators',
+    description: 'AI-native market intelligence for operators — agencies, consultancies, and fractional executives delivering productized research to international brands entering and scaling in the US.',
     image: '/og/og-home.png',
   },
   '/products': {
     title: 'Research Products | Soundcheck Insights',
-    description: 'Six fixed-scope market intelligence products: Expansion Reports, Idea Validation, Business Plans, Focus Groups, Growth Roadmaps, and Funding Vetting. Fixed price, fixed timeline, white-label ready.',
+    description: 'Five fixed-scope market intelligence products for operators: International Viability Analysis, Scale Assessment, Market Research, Customer Journey Maps, and Virtual Focus Groups.',
     image: '/og/og-products.png',
   },
   '/how-it-works': {
@@ -40,48 +40,18 @@ const pages = {
   },
   '/for-agencies': {
     title: 'For Agencies & Consultancies | Soundcheck Insights',
-    description: 'Add a $400 to $1,250+/hour revenue line to your practice with zero new headcount. White-label market intelligence you operate for your clients.',
+    description: 'Add a very profitable service offering to your business without adding headcount. White-label market intelligence you operate for your clients.',
     image: '/og/og-for-agencies.png',
   },
-  '/for-investors': {
-    title: 'For Investors — Funding Vetting Analysis | Soundcheck Insights',
-    description: 'Structured triage for your deal pipeline. Two independent interviews, contradiction analysis, and a one-page ADVANCE / CONDITIONAL / STOP verdict. US$3,000 per company.',
-    image: '/og/og-for-investors.png',
-  },
   '/expansion-report': {
-    title: 'International Expansion Viability Report | Soundcheck Insights',
-    description: 'Decision-grade market entry intelligence. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, and 12-month roadmap. 100+ pages in 14 days.',
+    title: 'International Viability Analysis | Soundcheck Insights',
+    description: 'Decision-grade market entry intelligence. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, and phased roadmap. 100+ pages in 2–3 weeks.',
     image: '/og/og-expansion-report.png',
-  },
-  '/idea-validation': {
-    title: 'Idea Validation Analysis | Soundcheck Insights',
-    description: 'Know if your idea has a market before you spend a dollar building it. IVS Score (0-100), market sizing, competitive analysis. US$799. 48-hour delivery.',
-    image: '/og/og-idea-validation.png',
-  },
-  '/business-plan': {
-    title: 'Business Plan Development | Soundcheck Insights',
-    description: 'Professional, audience-specific business plans. 6 configurations: Investor, Bank/SBA, Immigration (E-2/EB-5/L-1A), Franchise, CPG, Founder. US$5,000+.',
-    image: '/og/og-business-plan.png',
-  },
-  '/growth-roadmap': {
-    title: 'US Growth Roadmap | Soundcheck Insights',
-    description: 'For B2B service companies and CPG brands that have stalled. GPS Score (0-100), ranked growth levers with investment estimates, and a 90-day action plan.',
-    image: '/og/og-growth-roadmap.png',
   },
   '/scale-assessment': {
     title: 'Scale Assessment | Soundcheck Insights',
-    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan with AI-augmented intelligence.',
+    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan.',
     image: '/og/og-scale-assessment.png',
-  },
-  '/founder-pass': {
-    title: 'Idea Validation Analysis | Soundcheck Insights',
-    description: 'IVS Score 0-100 across six dimensions. Market sizing, competitors, demand signals. $799. 48-hour delivery.',
-    image: '/og/og-idea-validation.png',
-  },
-  '/investor-vetting': {
-    title: 'Investor Opportunity Vetting | Soundcheck Insights',
-    description: 'Independent vetting infrastructure for investors who run pipeline at scale. Single vettings from $1,500 or subscription tiers from $2,500/month.',
-    image: '/og/og-investor-vetting.png',
   },
   '/virtual-focus-groups': {
     title: 'Virtual Focus Group Sessions · Module 03 | Soundcheck Insights',
@@ -95,7 +65,7 @@ const pages = {
   },
   '/consumer-journeys': {
     title: 'Customer Journey Maps · Module 02 | Soundcheck Insights',
-    description: 'Brand-specific customer journey maps. $500 per persona.',
+    description: 'Brand-specific customer journey maps. $400 per persona.',
     image: '/og/og-products.png',
   },
   '/market-research': {
@@ -105,12 +75,12 @@ const pages = {
   },
   '/mana-tech': {
     title: 'Mana Tech Member Rate — 25% Off | Soundcheck Insights',
-    description: 'Decision-grade market intelligence for Mana Tech members, Scale2Miami cohort founders, and the mentor network. 25% off MSRP on all seven products.',
+    description: 'Decision-grade market intelligence for Mana Tech operators, Scale2Miami ecosystem partners, and the mentor network. 25% off MSRP on all five products.',
     image: '/og/og-products.png',
   },
   '/partner': {
-    title: 'Request Platform Access | Soundcheck Insights',
-    description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. Self-serve or full-service.',
+    title: 'Become an Operator Partner | Soundcheck Insights',
+    description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. White-label delivery, operator economics, Mana Tech member rates.',
     image: '/og/og-partner.png',
   },
   '/our-partners': {
@@ -125,7 +95,7 @@ const pages = {
   },
   '/contact': {
     title: 'Contact Soundcheck Insights',
-    description: 'Brief a product, ask about agency partnerships, or tell us what you need. Response within 2 business days.',
+    description: 'Brief a product, ask about operator partnerships, or tell us what you need. Response within 2 business days.',
     image: '/og/og-contact.png',
   },
   '/articles/us-market-assumptions': {

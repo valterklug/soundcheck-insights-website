@@ -22,7 +22,7 @@ export default function ConsumerJourneys() {
     <PageWrapper>
       <SEO
         title="Customer Journey Maps"
-        description="See how your buyer moves from discovery to loyalty. Brand-specific journey maps built from your market research and persona data. $500 per persona. 3–5 business days."
+        description="See how your buyer moves from discovery to loyalty. Brand-specific journey maps built from your market research and persona data. $400 per persona. 2–3 day delivery."
         path="/consumer-journeys"
         image="/og/og-consumer-journeys.png"
         schema={faqSchema(faqs)}

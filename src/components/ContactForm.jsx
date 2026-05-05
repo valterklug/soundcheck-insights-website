@@ -85,15 +85,14 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
             {...register('topic', { required: 'Please select a topic' })}
           >
             <option value="">Select one</option>
-            <option value="agency-partnership">Agency partnership inquiry</option>
-            <option value="brief-expansion">Brief — Market Summary &amp; Expansion Assessment</option>
-            <option value="brief-validation">Brief — Idea Validation</option>
-            <option value="brief-bizplan">Brief — Business Plan Development</option>
-            <option value="brief-focusgroups">Brief — AI Virtual Focus Groups</option>
-            <option value="brief-growthmap">Brief — US Growth Roadmap</option>
-            <option value="brief-funding">Brief — Funding Vetting (Investor)</option>
+            <option value="agency-partnership">I'm an agency or consultancy</option>
+            <option value="fractional-exec">I'm a fractional executive or independent consultant</option>
+            <option value="brand">I'm a brand exploring intelligence services</option>
+            <option value="brief-expansion">Brief — International Viability Analysis</option>
+            <option value="brief-scale">Brief — Scale Assessment</option>
+            <option value="brief-research">Brief — Market Research</option>
+            <option value="brief-focusgroups">Brief — Virtual Focus Groups</option>
             <option value="pricing">Pricing &amp; availability</option>
-            <option value="brand">I'm a brand (not an agency)</option>
             <option value="press">Press / media</option>
             <option value="other">Other</option>
           </select>

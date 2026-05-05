@@ -2,7 +2,6 @@
   "nav": {
     "howItWorks": "How It Works",
     "forAgencies": "For Agencies",
-    "forInvestors": "For Investors",
     "products": "Products",
     "resources": "Resources",
     "partnerWithUs": "Partner with Us",
@@ -17,7 +16,7 @@
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
-    "tagline": "AI-powered market intelligence platform for agencies and consultancies.",
+    "tagline": "AI-native market intelligence platform for operators — agencies, consultancies, and fractional executives.",
     "foundedBy": "Founded by Valter Klug",
     "location": "Miami, FL",
     "platform": "Platform",
@@ -29,13 +28,13 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Investors",
-    "heroTitle1": "AI does the research.",
-    "heroTitle2": "You",
-    "heroTitle3": "augment it",
-    "heroTitle4": "with your expertise.",
-    "heroDesc": "Soundcheck is a market intelligence platform you operate for your clients. You validate the output. You deliver under your brand. You set the price.",
-    "requestAccess": "Request Platform Access →",
+    "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Fractional Executives",
+    "heroTitle1": "AI-native market intelligence",
+    "heroTitle2": "",
+    "heroTitle3": "for international brands",
+    "heroTitle4": "entering and scaling in the US.",
+    "heroDesc": "Test before you invest. Validation, research, focus groups, and strategic insights — productized, AI-accelerated, in days, not months. Delivered by operators, under their own brand.",
+    "requestAccess": "Become an Operator Partner →",
     "seeHowItWorks": "See How It Works",
     "stats": [
       {
@@ -104,12 +103,12 @@
         "tag": "Your brand · Your credit · Your next contract"
       }
     ],
-    "productsLabel": "Seven Products",
-    "productsTitle": "Seven products you can offer\nyour clients starting today.",
+    "productsLabel": "Five Products",
+    "productsTitle": "Five products you can deliver\nto your clients starting today.",
     "products": [
       {
         "num": "01",
-        "for": "Brands & Agencies · Market Expansion",
+        "for": "Operators & Brands · Market Expansion",
         "name": "International Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap for any new market. 100+ pages.",
         "delivery": "2–3 week delivery · White-label included",
@@ -127,7 +126,7 @@
       },
       {
         "num": "03",
-        "for": "Agencies · Brands · Founders",
+        "for": "Operators · Brands · Consumer Intelligence",
         "name": "Market Research",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel.",
         "delivery": "From $4,000 · 5–10 day delivery",
@@ -136,38 +135,20 @@
       },
       {
         "num": "04",
-        "for": "Agencies · Brands · Founders",
+        "for": "Operators · Brands · Consumer Intelligence",
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
-        "delivery": "$500/persona · 2–3 day delivery",
+        "delivery": "$400/persona · 2–3 day delivery",
         "link": "/consumer-journeys",
         "memberRateNote": "Mana Tech Member Rate available"
       },
       {
         "num": "05",
-        "for": "Agencies · Brands · Founders",
+        "for": "Operators · Brands · Consumer Intelligence",
         "name": "Virtual Focus Groups",
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
         "delivery": "$4,000/session · 1–3 day delivery",
         "link": "/virtual-focus-groups",
-        "memberRateNote": "Mana Tech Member Rate available"
-      },
-      {
-        "num": "06",
-        "for": "VCs · PE · Family Offices · Angels",
-        "name": "Investor Opportunity Vetting",
-        "desc": "Independent vetting with ADVANCE / CONDITIONAL / STOP verdicts. Two interviews, independent research, contradiction analysis.",
-        "delivery": "7-day delivery · Subscriptions available",
-        "link": "/investor-vetting",
-        "memberRateNote": "Mana Tech Member Rate available"
-      },
-      {
-        "num": "07",
-        "for": "Founders · Pre-MVP · Early-Stage",
-        "name": "Idea Validation Analysis",
-        "desc": "IVS Score 0–100 across six dimensions. Market sizing, competitors, demand signals. Automated 48-hour delivery, no calls needed.",
-        "delivery": "$799 · 48-hour delivery",
-        "link": "/idea-validation",
         "memberRateNote": "Mana Tech Member Rate available"
       }
     ],
@@ -200,7 +181,7 @@
     "marginValue": "$4,500+",
     "ctaTitle": "Start with one report.\nSee what $400+/hour feels like.",
     "ctaSub": "Most operators start on an existing client. Low risk, immediate value, and you see the full workflow in practice before you scale it.",
-    "ctaButton": "Request Platform Access →",
+    "ctaButton": "Become an Operator Partner →",
     "modulesLabel": "The Consumer Intelligence Platform",
     "modulesTitle": "One workflow. Three modules. As much or as little as the project needs.",
     "modules": [
@@ -214,7 +195,7 @@
         "num": "02",
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
-        "price": "$500 per persona · pick as many as you need"
+        "price": "$400 per persona · pick as many as you need"
       },
       {
         "num": "03",
@@ -433,7 +414,7 @@
       }
     ],
     "whiteLabelLabel": "White-Label Products",
-    "whiteLabelTitle": "Three products you can deliver\nunder your brand today.",
+    "whiteLabelTitle": "Five products you can deliver\nunder your brand today.",
     "whiteLabelSub": "Each product is designed for white-label delivery. Your brand, your cover page, your client relationship. You set the price and keep the margin.",
     "whiteLabelProducts": [
       {
@@ -493,15 +474,12 @@
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Seven fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand — or direct to your team. You set the price for your clients.",
+    "heroSub": "Five fixed-scope products designed to be briefed, delivered, and deployed under your agency's brand. You set the price for your clients.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
     "sampleOutput": "Sample Output · Score",
-    "sampleSignalBrief": "Sample Output · Signal Brief",
-    "sampleIVA": "Sample Output · Idea Validation Analysis",
     "sampleGrowthLevers": "Sample Output · Growth Levers (Ranked)",
-    "verdict": "VERDICT:",
     "viewFullSample": "View Full Sample →",
     "viewFullSampleReport": "View Full Sample Report →",
     "briefProduct": "Brief This Product →",
@@ -552,7 +530,7 @@
       },
       {
         "num": "03",
-        "for": "Agencies · Brands · Founders",
+        "for": "Operators · Brands · Consumer Intelligence",
         "name": "Market Research",
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier.",
@@ -571,11 +549,11 @@
       },
       {
         "num": "04",
-        "for": "Agencies · Brands · Founders",
+        "for": "Operators · Brands · Consumer Intelligence",
         "name": "Customer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Requires completed Market Research.",
-        "price": "US$500 per persona",
+        "price": "US$400 per persona",
         "delivery": "2–3 day delivery · White-label included",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
@@ -589,7 +567,7 @@
       },
       {
         "num": "05",
-        "for": "Agencies · Brands · Founders",
+        "for": "Operators · Brands · Consumer Intelligence",
         "name": "Virtual Focus Groups",
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
         "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights, and iterative feedback.",
@@ -606,223 +584,8 @@
         ],
         "link": "/virtual-focus-groups",
         "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
-      },
-      {
-        "num": "06",
-        "for": "VCs · PE Firms · Family Offices · Angel Syndicates",
-        "name": "Investor Opportunity Vetting",
-        "desc": "Independent vetting infrastructure for investors who run pipeline at scale. Two structured interviews — founder team + real customer. Independent research surfaces contradictions and delivers an ADVANCE / CONDITIONAL / STOP verdict with evidence.",
-        "price": "US$1,500–$2,500 per analysis · Subscriptions from $2,500/mo",
-        "delivery": "7-day delivery · Volume discounts · Subscription available",
-        "ctaLabel": "See Investor Vetting Details →",
-        "deliverables": [
-          "Full Intelligence Report — 10-section evidence record with contradiction log",
-          "Signal Brief — one-page ADVANCE / CONDITIONAL / STOP verdict",
-          "Subscription tiers: Starter ($2,500/mo), Professional ($7,500/mo), Enterprise ($15,000/mo)",
-          "Self-serve platform access for subscription customers"
-        ],
-        "link": "/investor-vetting",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
-      },
-      {
-        "num": "07",
-        "for": "Founders · Pre-MVP · Early-Stage",
-        "name": "Idea Validation Analysis",
-        "tagline": "Know if the market is real before you build.",
-        "desc": "AI-driven IVS scoring 0–100 across six signal dimensions. Automated 48-hour delivery. The right starting point for early-stage validation, regardless of company stage or membership status.",
-        "price": "US$799",
-        "delivery": "48-hour delivery · No calls needed · Automated",
-        "ctaLabel": "See Idea Validation Details →",
-        "deliverables": [
-          "IVS Score (0–100) — weighted scoring across six dimensions: Problem Validity, Market Opportunity, Competitive Whitespace, Customer Demand Signals, Idea Differentiation, Timing",
-          "Market sizing snapshot — TAM/SAM/SOM with sourced data",
-          "Top 5 competitors mapped with positioning analysis",
-          "Customer willingness-to-pay signals",
-          "Go / Conditional / Stop recommendation with next-step roadmap",
-          "5–7 page report, delivered in 48 hours"
-        ],
-        "link": "/idea-validation",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
       }
     ]
-  },
-  "forInvestors": {
-    "heroLabel": "For Investors",
-    "heroTitle": "Investor Opportunity Vetting.\nPipeline at scale.",
-    "heroSub": "Independent vetting infrastructure for VCs, PE firms, family offices, and angel syndicates who run deal pipeline at volume. Standardized methodology. Sourced evidence. Transparent scoring. Single vettings from $1,500 or subscription tiers for high-volume evaluation.",
-    "requestEngagement": "Request a Vetting →",
-    "viewSamples": "See Full Product Details →",
-    "heroStats": [
-      {
-        "num": "7",
-        "label": "BUSINESS DAYS",
-        "sub": "single vetting turnaround"
-      },
-      {
-        "num": "3",
-        "label": "SUBSCRIPTION TIERS",
-        "sub": "10 to 100 vettings/month"
-      },
-      {
-        "num": "$1,500+",
-        "label": "",
-        "sub": "per vetting or from $2,500/mo"
-      }
-    ],
-    "problemLabel": "The real cost",
-    "problemTitle": "Most early filtering happens informally. That's the problem.",
-    "problemDesc1": "Pitch decks are prepared for the best possible impression. Founders know how to answer standard questions. Reference calls go through the company's own contacts. By the time you discover the revenue isn't as clean as the deck suggests, or that the founder can't explain why they're losing deals, or that their most loyal-sounding customer is actively evaluating alternatives, your associates have already spent 15+ hours.",
-    "problemDesc2": "Soundcheck runs two structured interviews independently — one with the leadership team, one with a real customer we select from a list the company provides. We find where their stories don't match. You get the verdict before your team invests.",
-    "problemCards": [
-      {
-        "title": "What we replace",
-        "text": "The unstructured first-round conversations your analysts are already having — just structured, documented, and with an independent customer source added."
-      },
-      {
-        "title": "What we don't replace",
-        "text": "Full due diligence. Legal review. Financial audits. Technical assessments. Soundcheck is the filter before the filter — not the close."
-      },
-      {
-        "title": "What it costs to skip this",
-        "text": "15–20 associate hours per company that fails in round two. Multiply that by your deal flow volume."
-      }
-    ],
-    "stepsLabel": "Four steps. Seven days.",
-    "stepsTitle": "What happens between briefing and verdict.",
-    "steps": [
-      {
-        "num": "01",
-        "title": "You brief us — not the company.",
-        "body": "You tell us which company you're evaluating. We prepare the pre-interview market and competitive research independently, without any input from the company. This becomes the baseline we test against in both interviews.",
-        "meta": "~15 min on your end · AI-generated research brief · no company contact yet"
-      },
-      {
-        "num": "02",
-        "title": "Interview 1 — Leadership Team (60 min)",
-        "body": "A structured conversation with the founder/CEO and any available CFO or Head of Sales. Five blocks: market insight, sales and customer intelligence, financials, the moat, and deal structure. Transcript processed and analyzed against our pre-research.",
-        "meta": "Scheduled by you · Facilitated by Soundcheck · Recorded with consent"
-      },
-      {
-        "num": "03",
-        "title": "Interview 2 — A Real Customer (45–60 min)",
-        "body": "We ask the company for 5 customer names. We choose one — mid-list, not their most obvious advocate. An independent call covering product centrality, usage reality, NRR signals, and competitive awareness. This is where contradictions surface.",
-        "meta": "Customer selected by us · Company doesn't know which customer we called"
-      },
-      {
-        "num": "04",
-        "title": "Full Intelligence Report + Signal Brief",
-        "body": "The AI generates a 10-section evidence record from both interviews. The consultant adds their observation notes and signs the Signal Brief — a one-page ADVANCE / CONDITIONAL / STOP verdict with the evidence and the 3 questions your team should answer next.",
-        "meta": "Signal Brief + Full Intelligence Report · Both delivered as standard"
-      }
-    ],
-    "signalsLabel": "What we test",
-    "signalsTitle": "Six signals. Every engagement.",
-    "signalsSub": "Every engagement tests the same six signals — regardless of company stage, sector, or business model. Every rating is backed by at least two sourced observations, one from each interview.",
-    "signals": [
-      {
-        "num": "1",
-        "name": "Market Reality",
-        "desc": "Is the opportunity real and is the timing right now — not in theory?"
-      },
-      {
-        "num": "2",
-        "name": "Revenue Quality",
-        "desc": "Is revenue sticky, recurring, and growing? NRR direction cross-validated by the customer."
-      },
-      {
-        "num": "3",
-        "name": "Defensibility",
-        "desc": "Is there something structural that takes 18+ months for a well-funded rival to copy?"
-      },
-      {
-        "num": "4",
-        "name": "Founder Clarity",
-        "desc": "Does the CEO know their numbers, understand their losses, and acknowledge what's broken?"
-      },
-      {
-        "num": "5",
-        "name": "No Deal-Killers",
-        "desc": "Any structural blockers hiding below the pitch — cap table, concentration, litigation?"
-      },
-      {
-        "num": "6",
-        "name": "Exit Logic",
-        "desc": "Is there a realistic return path at this valuation? Named acquirers, specific rationale."
-      }
-    ],
-    "verdicts": [
-      {
-        "label": "ADVANCE",
-        "text": "4 or more signals Strong. No structural blockers. Continue to deeper diligence."
-      },
-      {
-        "label": "CONDITIONAL",
-        "text": "3 Strong signals + one named condition to verify before advancing."
-      },
-      {
-        "label": "STOP",
-        "text": "Any single structural blocker confirmed. Specific finding, named and sourced."
-      }
-    ],
-    "samplesLabel": "See the output",
-    "samplesTitle": "Three companies. Three verdicts. Real format.",
-    "samplesSub": "These are sample Signal Briefs — fictional companies, real format. Each one shows a different verdict: ADVANCE, CONDITIONAL, and STOP. Click through to see exactly what your team receives at the end of each engagement.",
-    "viewSample": "View Sample →",
-    "fitLabel": "Built for your deal flow",
-    "fitTitle": "Where Soundcheck fits in your process.",
-    "earlyStage": {
-      "title": "Early-Stage Funds",
-      "desc": "You move fast and evaluate volume. Soundcheck fits between initial screening and the first internal deep-dive — the moment when a company passes the pitch test but hasn't been stress-tested by anyone outside the firm.",
-      "bestFor": "Best for:",
-      "items": [
-        "Pre-seed through Series B triage",
-        "Deals sourced outside your core network",
-        "Markets where your team lacks deep domain familiarity",
-        "Verifying NRR and retention claims before committing associate hours"
-      ]
-    },
-    "growthStage": {
-      "title": "Growth-Stage Funds",
-      "desc": "At Series B and beyond, the pitch gets more polished but the fundamentals don't always keep up. Soundcheck surfaces discrepancies between what the founder says and what a real customer confirms, before your partners commit time.",
-      "bestFor": "Best for:",
-      "items": [
-        "Series B+ evaluation and follow-on decisions",
-        "Deals where the deck looks strong but references feel curated",
-        "Sectors outside your partners' primary expertise",
-        "First-pass validation before engaging the full diligence team"
-      ]
-    },
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
-    "faqs": [
-      {
-        "q": "Does the company know they're being evaluated?",
-        "a": "They know they're participating in a structured market intelligence process on behalf of an investor. We don't identify the investor firm. The company is told upfront that this includes an independent customer interview — they provide 5 names, we choose who we call."
-      },
-      {
-        "q": "What if the company refuses the customer interview?",
-        "a": "A refusal gets noted in the Signal Brief and flagged as a transparency concern. It shifts the verdict toward CONDITIONAL at best. A company that won't let a customer speak independently is telling you something."
-      },
-      {
-        "q": "How is this different from what your analysts already do in round one?",
-        "a": "Your analysts probably have some version of this conversation informally. Soundcheck makes it structured, consistent, and documented — with a contradiction log that catches discrepancies across two separate calls, and a one-page output that travels cleanly to IC without a 20-minute briefing."
-      },
-      {
-        "q": "Can we run this without the company knowing we're evaluating them?",
-        "a": "No. Both interviews require the company's participation and consent to record. The framing is neutral — \"structured investment intelligence process\" — but they are aware. The value comes from the structured extraction and the independent customer source, not from surprise."
-      },
-      {
-        "q": "What's the turnaround if we need it faster?",
-        "a": "Standard is 7 business days from the date both interviews are completed. Rush delivery (3 business days) is available for an additional US$1,000 — subject to availability. Contact us before briefing to confirm."
-      },
-      {
-        "q": "Do you offer volume pricing?",
-        "a": "Yes. Firms running 5 or more evaluations per quarter qualify for volume pricing. We also offer white-label delivery — the Full Intelligence Report and Signal Brief under your firm's branding. Talk to us about what fits your pipeline volume."
-      }
-    ],
-    "ctaTitle": "Your next deal is already in your pipeline.\nFind out if it deserves your team's time.",
-    "ctaButton": "Request an Engagement →",
-    "ctaLink": "Or view sample Signal Briefs first →"
   },
   "contact": {
     "heroLabel": "Get in Touch",
@@ -1025,263 +788,6 @@
     "subscribing": "Subscribing…",
     "subscribeSuccess": "✓ You're on the list. First briefing arrives next month.",
     "subscribeFooter": "Monthly. No spam. Unsubscribe anytime."
-  },
-  "businessPlan": {
-    "heroLabel": "Product Deep-Dive · Business Plan",
-    "heroTitle": "A business plan built for\nthe reader who decides.",
-    "heroSub": "Not a template. Not a pitch deck. A professional, audience-specific business plan built from structured intake data, a stakeholder interview, and independent research. Every claim sourced. Every projection documented. Every section weighted for the specific reader who will make the decision.",
-    "briefButton": "Brief This Plan →",
-    "seePlanTypes": "See Plan Types →",
-    "heroStats": [
-      {
-        "num": "10-14",
-        "label": "DAYS",
-        "sub": "from intake to delivery"
-      },
-      {
-        "num": "6",
-        "label": "PLAN TYPES",
-        "sub": "audience-specific configurations"
-      },
-      {
-        "num": "10",
-        "label": "SECTIONS",
-        "sub": "every claim sourced"
-      }
-    ],
-    "whoLabel": "Built for real decisions",
-    "whoTitle": "Who commissions this plan.",
-    "whoItems": [
-      {
-        "title": "Entrepreneurs and founders",
-        "text": "You need a professional plan to raise capital, secure a loan, or align your team around a strategy. Not a template filled with generic language. A document built from your actual business data and independent market research."
-      },
-      {
-        "title": "International investors seeking US visas",
-        "text": "E-2, EB-5, or L-1A. Your immigration attorney needs a business plan that meets the Matter of Ho standard. We produce the plan. Your attorney files the petition."
-      },
-      {
-        "title": "Agencies and consultancies",
-        "text": "Your client needs a business plan. You need a research-grade document to deliver under your brand. The white-label version ships ready for your client's leadership team."
-      }
-    ],
-    "typesLabel": "6 audience-specific configurations",
-    "typesTitle": "One structure. Six configurations.",
-    "typesSub": "Every plan follows the same 10-section core structure. But the emphasis, depth, financial projection horizon, and supporting evidence requirements adapt to the audience. The intake questionnaire determines which configuration applies.",
-    "planTypes": [
-      {
-        "type": "Type A",
-        "name": "Investor Plan",
-        "subname": "VC / Angel",
-        "desc": "Unit economics, TAM/SAM/SOM, competitive moat, team, exit thesis. 3-5 year projections with monthly Year 1 detail. 20-35 pages."
-      },
-      {
-        "type": "Type B",
-        "name": "Bank / SBA Loan Plan",
-        "desc": "Cash flow projections, debt service coverage, collateral, owner experience, use of funds. Monthly Year 1, quarterly Year 2. 20-40 pages."
-      },
-      {
-        "type": "Type C",
-        "name": "Immigration Plan",
-        "subname": "E-2 / EB-5 / L-1A",
-        "desc": "Legal defensibility under the Matter of Ho standard. Job creation, economic impact, 5-year projections, 30-50% appendix of supporting exhibits. 30-60+ pages."
-      },
-      {
-        "type": "Type D",
-        "name": "Franchise Plan",
-        "desc": "FDD Item 7 and Item 19 alignment. Territory analysis, royalty-adjusted unit economics, franchisor performance data. 20-35 pages."
-      },
-      {
-        "type": "Type E",
-        "name": "CPG / Consumer Product",
-        "desc": "Distribution strategy (retail, DTC, Amazon), COGS and margin structure, supply chain, FDA/labeling compliance, go-to-market by channel. 25-40 pages."
-      },
-      {
-        "type": "Type F",
-        "name": "Founder's Internal Plan",
-        "desc": "Strategic clarity for the founding team. No external audience. Shorter, more direct. Honest gap assessment. 10-20 pages."
-      }
-    ],
-    "insideLabel": "10 sections. Every claim sourced.",
-    "insideTitle": "What's inside the plan.",
-    "insideSub": "All plan types follow this 10-section structure. Emphasis and depth vary by audience configuration.",
-    "sections": [
-      {
-        "num": "1",
-        "title": "Executive Summary",
-        "sub": "The decision page.",
-        "items": [
-          "Business overview, problem/opportunity, solution, market snapshot.",
-          "Team credentials and key milestones to date.",
-          "Financial snapshot with the specific ask (if fundraising).",
-          "The single most important thing the reader needs to know."
-        ]
-      },
-      {
-        "num": "2",
-        "title": "Company Description",
-        "sub": "Who you are and where you stand.",
-        "items": [
-          "Legal entity, founding story, mission, vision, current stage.",
-          "Location, ownership structure, key milestones.",
-          "What makes this company real, not theoretical."
-        ]
-      },
-      {
-        "num": "3",
-        "title": "Products & Services",
-        "sub": "What you sell and why it matters.",
-        "items": [
-          "Features, benefits, development stage, product roadmap.",
-          "IP, patents, or proprietary technology (if applicable).",
-          "Regulatory requirements and compliance status."
-        ]
-      },
-      {
-        "num": "4",
-        "title": "Market Analysis",
-        "sub": "The largest section. Every number sourced.",
-        "items": [
-          "TAM / SAM / SOM with calculation logic and confidence labels.",
-          "Market trends, growth drivers, timing factors.",
-          "Target customer profile with segments, triggers, and barriers."
-        ]
-      },
-      {
-        "num": "5",
-        "title": "Competitive Analysis",
-        "sub": "Who else solves this problem.",
-        "items": [
-          "3 to 8 direct competitors profiled with positioning and pricing.",
-          "Competitive matrix with differentiation strategy.",
-          "Switching costs and moat assessment."
-        ]
-      },
-      {
-        "num": "6",
-        "title": "Marketing & Sales Strategy",
-        "sub": "How you acquire and keep customers.",
-        "items": [
-          "Customer acquisition channels with CAC targets.",
-          "Pricing strategy with margin analysis.",
-          "Go-to-market timeline and launch sequencing."
-        ]
-      },
-      {
-        "num": "7",
-        "title": "Operations Plan",
-        "sub": "How the business actually runs.",
-        "items": [
-          "Facilities, supply chain, technology stack, key processes.",
-          "Staffing plan with hiring timeline.",
-          "For immigration plans: detailed job creation plan with BLS-sourced wages."
-        ]
-      },
-      {
-        "num": "8",
-        "title": "Organization & Management",
-        "sub": "The team behind the plan.",
-        "items": [
-          "Team bios and organizational chart (current and projected).",
-          "Advisory board and key hires planned.",
-          "Gap analysis: what roles are missing and when they get filled."
-        ]
-      },
-      {
-        "num": "9",
-        "title": "Financial Projections",
-        "sub": "The numbers that matter.",
-        "items": [
-          "Income statement, cash flow, balance sheet (3-5 years).",
-          "Documented assumptions for every line item.",
-          "Scenario analysis: conservative, base, and upside.",
-          "Break-even analysis with unit economics.",
-          "For bank plans: debt service coverage ratio. For immigration: 5-year minimum."
-        ]
-      },
-      {
-        "num": "10",
-        "title": "Appendix & Exhibits",
-        "sub": "Full transparency.",
-        "items": [
-          "Resumes, market research sources, contracts, letters of intent.",
-          "For immigration plans: proof of investment source, property documentation.",
-          "Job descriptions, BLS wage data, organizational charts.",
-          "Every assumption or proxy used, logged with confidence levels."
-        ]
-      }
-    ],
-    "delivLabel": "What you receive",
-    "delivTitle": "The full delivery package.",
-    "fullPlanTitle": "Full Business Plan",
-    "fullPlanDesc": "Professional .docx format, audience-formatted and white-label ready. 10-section structure with sourced claims, documented assumptions, and confidence-labeled projections throughout.",
-    "fullPlanItems": [
-      "10-section MECE structure",
-      "Audience-specific emphasis and depth",
-      "Confidence-labeled projections",
-      "Sourced market and competitive data",
-      "Immigration appendix with exhibits (Type C)",
-      "White-label ready"
-    ],
-    "execTitle": "Executive Summary One-Pager",
-    "execDesc": "A condensed visual version of the key findings. Business snapshot, market opportunity, financial highlights, team overview, and the specific ask. Designed for investor meetings, board presentations, and partner conversations.",
-    "execItems": [
-      "Business snapshot with key metrics",
-      "Market opportunity sizing",
-      "Financial highlights and projections",
-      "Team overview",
-      "The specific ask (fundraising, loan, visa)",
-      "Designed for screen and print"
-    ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
-    "price": "US$5,000+",
-    "perPlan": "per plan",
-    "pricingDetails": [
-      {
-        "title": "10-14 day delivery",
-        "sub": "From intake to final plan"
-      },
-      {
-        "title": "White-label included",
-        "sub": "Delivered under your brand"
-      },
-      {
-        "title": "1 revision round",
-        "sub": "Included in the base price"
-      }
-    ],
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
-    "faqs": [
-      {
-        "q": "What information do you need from us to start?",
-        "a": "We send you a structured intake questionnaire covering your business, market, team, financials, and the specific audience for the plan. Most clients complete it in 45 to 60 minutes. After we review it, we schedule a 60 to 90 minute stakeholder interview to fill gaps and pressure-test key assumptions."
-      },
-      {
-        "q": "How is this different from a business plan template?",
-        "a": "Templates give you a structure to fill in yourself. This product gives you a finished, professional document built from structured data collection, a stakeholder interview, and independent market and competitive research. Every claim is sourced. Every financial projection carries documented assumptions. The plan is formatted and weighted for the specific audience that will read it."
-      },
-      {
-        "q": "Do you write immigration business plans?",
-        "a": "Yes. We produce business plans for E-2 Treaty Investor, EB-5 Immigrant Investor, and L-1A Intracompany Transferee (New Office) visa applications. The plan meets the Matter of Ho legal standard with job creation projections, economic impact evidence, and an appendix of supporting exhibits. We do not provide legal advice. Your immigration attorney is responsible for the legal strategy and petition filing."
-      },
-      {
-        "q": "Can our agency white-label this?",
-        "a": "Yes. The plan is designed for white-label delivery. We provide it under your brand, your cover page, your agency name. Your client never sees Soundcheck Insights unless you want them to."
-      },
-      {
-        "q": "What if my client needs changes after delivery?",
-        "a": "One revision round is included in the base price. If the client wants to adjust assumptions, explore a different scenario, or update the financial projections, we can update the relevant sections. Additional revision rounds are available at a flat rate."
-      },
-      {
-        "q": "What languages are available?",
-        "a": "English is the default. Spanish and Brazilian Portuguese are also available. Contact us to confirm availability and timeline for your target language."
-      }
-    ],
-    "ctaTitle": "Your plan should be as serious\nas your ambition.",
-    "ctaButton": "Brief This Plan →",
-    "ctaLink": "Or explore all research products →"
   },
   "growthRoadmap": {
     "heroLabel": "Product Deep-Dive · US Growth Roadmap",
@@ -1861,248 +1367,11 @@
       {
         "q": "What if our client needs changes after delivery?",
         "a": "One revision round is included. If the client wants to explore a different entry path or adjust assumptions, we can update the relevant sections. Additional revision rounds are available at a flat rate."
-      },
-      {
-        "q": "Do you offer a lighter version for early-stage exploration?",
-        "a": "Yes. Our Idea Validation product (US$3k+, 7-day delivery) is a go/no-go recommendation for founders testing a concept before committing capital. If the idea passes validation, the full Expansion Report is the natural next step."
       }
     ],
     "ctaTitle": "Your next market is waiting. Know if it's real before you commit.",
     "ctaButton": "Brief This Report →",
     "ctaLink": "Or explore all research products →"
-  },
-  "ideaValidation": {
-    "heroLabel": "Idea Validation Analysis · Soundcheck Insights",
-    "heroTitle": "Your idea might be great.",
-    "heroTitleHighlight": "market",
-    "heroTitleEnd": "will decide.",
-    "heroSub": "Before you build, hire, or fundraise, know if the market is real. Soundcheck runs independent AI research on your idea: market sizing, competitive landscape, customer demand, and what your target buyer would actually pay. You fill a 10-minute form. We deliver a full analysis and your IVS score in 48 hours.",
-    "validateButton": "Validate My Idea →",
-    "sampleButton": "See a Sample Report →",
-    "heroStats": [
-      {
-        "num": "48",
-        "label": "HOURS",
-        "sub": "from form submission to full report"
-      },
-      {
-        "num": "US$799",
-        "label": "",
-        "sub": "fixed price, no calls, no scheduling"
-      },
-      {
-        "num": "10",
-        "label": "MINUTES",
-        "sub": "to complete the intake form"
-      }
-    ],
-    "problemLabel": "The real cost of skipping validation",
-    "problemTitle": "90% of startups fail. Most of them had positive early feedback.",
-    "problemText1": "Friends say it's a great idea. Online research feels promising. The competitor landscape looks manageable. Then you spend six months building something nobody pays for.",
-    "problemText2": "The problem isn't enthusiasm. It's the difference between people saying they'd use something and people actually paying for it. Soundcheck separates those two signals with independent market research, not opinions. Before you write a line of code, sign a lease, or pitch an investor.",
-    "problemCards": [
-      {
-        "title": "What most founders skip",
-        "text": "Independent validation of whether the problem is genuinely urgent, not just interesting. If it's not a problem people actively seek to solve, they won't pay to fix it."
-      },
-      {
-        "title": "What Soundcheck adds",
-        "text": "Desk research plus a structured scoring model. The IVS gives you a number you can share with a co-founder, an advisor, or an investor that says exactly where your idea is strong and where it's fragile."
-      },
-      {
-        "title": "What it replaces",
-        "text": "Weeks of unstructured Googling, a $5,000 market research firm, or asking ChatGPT without knowing if you're asking the right questions. Same output. 48 hours. $799."
-      }
-    ],
-    "howLabel": "Three steps. 48 hours.",
-    "howTitle": "No calls. No scheduling. No waiting.",
-    "steps": [
-      {
-        "num": "01",
-        "title": "Fill the intake form (10 minutes)",
-        "body": "Tell us about your idea, the problem it solves, who it's for, what geography you're targeting, and how you're thinking about pricing. 15 structured questions designed to extract exactly what the AI needs to run a real analysis. No fluff, no essays.",
-        "meta": "One question per screen · Mobile-friendly · ~10 minutes · Saves automatically"
-      },
-      {
-        "num": "02",
-        "title": "AI runs independent market research",
-        "body": "Soundcheck's AI independently sizes the market for your target geography, maps the competitive landscape (including competitors you may not know about), surfaces demand signals from public data, and runs a WTP proxy using comparable market pricing. This is not an echo of what you told us. It's independent research.",
-        "meta": "Runs automatically after form submission · Completed in under 48 hours"
-      },
-      {
-        "num": "03",
-        "title": "Receive your full report + IVS Score",
-        "body": "You get two documents: the full Idea Validation Analysis (8 to 12 pages covering all five dimensions in detail) and the Idea Summary Card, a one-page visual you can pin to a wall, share with a co-founder, or show an advisor. Your IVS score tells you exactly where you stand and what to do next.",
-        "meta": "Delivered by email as PDF · No login required · Download immediately"
-      }
-    ],
-    "ivsLabel": "The score that makes it concrete",
-    "ivsTitle": "One number. Five dimensions. Total clarity.",
-    "ivsSub": "Every Idea Validation Analysis produces an IVS (Idea Viability Score) from 0 to 100. It's not a prediction. It's a structured, evidence-based assessment of where your idea stands across five dimensions that determine whether a market exists and whether someone would pay to enter it.",
-    "dimensions": [
-      {
-        "pts": "25",
-        "name": "Problem Validity",
-        "desc": "Is this a Tier 1 problem — urgent, frequent, and costly to the people who have it?"
-      },
-      {
-        "pts": "20",
-        "name": "Market Opportunity",
-        "desc": "Is the market large enough and growing in your target geography?"
-      },
-      {
-        "pts": "20",
-        "name": "Competitive Whitespace",
-        "desc": "Is there a genuine gap, or is the space already well-served?"
-      },
-      {
-        "pts": "20",
-        "name": "Customer Demand Signals",
-        "desc": "Are there public signals that your target customer wants and would pay for this?"
-      },
-      {
-        "pts": "15",
-        "name": "Idea Differentiation",
-        "desc": "Is your approach meaningfully different from what already exists?"
-      }
-    ],
-    "tiers": [
-      {
-        "range": "75 to 100",
-        "label": "Strong Signal",
-        "color": "var(--teal)",
-        "meaning": "Real problem, real market, real differentiation. Build with urgency.",
-        "action": "Move to business plan. Test pricing with real buyers this month."
-      },
-      {
-        "range": "50 to 74",
-        "label": "Worth Exploring",
-        "color": "#FBBF24",
-        "meaning": "Promising but key uncertainties remain. Not ready to build. Ready to test.",
-        "action": "Run 2 to 3 targeted experiments. Re-assess in 30 days."
-      },
-      {
-        "range": "25 to 49",
-        "label": "Needs Rethinking",
-        "color": "#F97316",
-        "meaning": "Problem or market is real but the approach has structural gaps.",
-        "action": "Pivot the solution before investing further. Report specifies what."
-      },
-      {
-        "range": "0 to 24",
-        "label": "Don't Build Yet",
-        "color": "#EF4444",
-        "meaning": "Critical gap in problem validity, market size, or differentiation.",
-        "action": "Stop. Rebuild the hypothesis. The report explains exactly why."
-      }
-    ],
-    "ivsNote": "The IVS is a direction indicator, not a success prediction. A score of 80 means the market conditions are favorable, not that the business will work. A score of 30 means something specific is broken. The report tells you exactly what.",
-    "receiveLabel": "Two documents. Delivered together.",
-    "receiveTitle": "The full picture, and the one page you share.",
-    "fullReport": {
-      "title": "The Full Idea Validation Analysis (8 to 12 pages)",
-      "desc": "A structured, evidence-based report covering all five IVS dimensions in full detail. Written in plain language. Not academic, not hedged.",
-      "items": [
-        "Idea Snapshot: how the AI understood and classified your idea",
-        "Problem & Market: Tier 1 test, TAM/SAM/SOM, timing thesis",
-        "Competition Reality Check: landscape map, whitespace analysis, differentiation verdict",
-        "Customer & Demand Intelligence: ICP profile, demand signals, WTP analysis",
-        "Viability Verdict + IVS: your score, dimension breakdown, top 3 risks, top 3 strengths",
-        "Executive Summary: one-page synthesis written for sharing"
-      ]
-    },
-    "summaryCard": {
-      "title": "The Idea Summary Card (1 page)",
-      "desc": "A designed, print-ready one-pager with your IVS score, dimension breakdown, 3 key findings, the top risk, the WTP range vs. your proposed price, and the 3 specific next steps.",
-      "desc2": "Pin it to a wall. Share it with your co-founder. Show it to an advisor. It says exactly where you stand without requiring them to read 12 pages."
-    },
-    "pricingAmount": "US$799",
-    "pricingPer": "per idea",
-    "pricingDelivery": "48-hour delivery from form submission",
-    "pricingIncludes": "Includes: Full Idea Validation Analysis + Idea Summary Card, delivered as PDF · Available in English, Portuguese (Brazilian), Spanish, and Italian",
-    "sampleLabel": "See the output",
-    "sampleTitle": "What a real report looks like.",
-    "sampleSub": "This is a sample Idea Validation Analysis for a fictional B2B SaaS concept targeting restaurant inventory management in Florida. It shows the IVS score, dimension breakdown, key findings, and the three next steps the founder should take this month.",
-    "sampleCardLabel": "Sample · Idea Summary Card",
-    "sampleCardName": "Restaurant Inventory Intelligence App",
-    "sampleCardMeta": "B2B SaaS · United States (Florida) · Proposed price: $79/month",
-    "sampleScore": "68",
-    "sampleScoreMax": "100",
-    "sampleTier": "Worth Exploring",
-    "sampleTierSub": "Promising. Key uncertainties remain.",
-    "sampleBarsLabel": [
-      "Problem Validity",
-      "Market Opportunity",
-      "Competitive Whitespace",
-      "Customer Demand Signals",
-      "Idea Differentiation"
-    ],
-    "sampleWtpLabel": "WTP Analysis",
-    "sampleWtp": "Floor: $29/mo · Range: $49 to $99/mo · Ceiling: $149/mo · Proposed price ($79/mo) is within acceptable range.",
-    "sampleCta": "Get My Idea Validated →",
-    "whoLabel": "Built for your moment",
-    "whoTitle": "Whether this is your first idea or your fifth.",
-    "audiences": [
-      {
-        "title": "First-Time Entrepreneurs",
-        "desc": "You have an idea you can't stop thinking about. You've done some research but you're not sure what you don't know. You need someone to tell you honestly whether this is worth the next two years of your life.",
-        "bestFor": "Best for:",
-        "items": [
-          "Ideas at the 'should I quit my job?' stage",
-          "Pre-revenue, pre-prototype concepts",
-          "Founders who want an external perspective before pitching friends or family for money",
-          "Anyone who has been told 'that's a great idea' but hasn't heard 'here's the evidence'"
-        ]
-      },
-      {
-        "title": "Serial Entrepreneurs & Side-Project Builders",
-        "desc": "You've built things before. You know the pattern: skip validation, fall in love with the solution, launch to silence. This time you want the market data before you start building.",
-        "bestFor": "Best for:",
-        "items": [
-          "Evaluating multiple ideas quickly before committing to one",
-          "Testing a new geography or market segment for an existing product",
-          "Getting a second opinion when your own research tells you what you want to hear",
-          "Producing a shareable artifact before pitching a co-founder or early investor"
-        ]
-      }
-    ],
-    "notForNote": "What this isn't: The Idea Validation Analysis answers market questions, not execution questions. It will tell you if a market exists and if customers would pay. It won't tell you how to build the product, find a co-founder, or raise a round. For those questions, look at Soundcheck's Business Plan Development and Custom Solutions.",
-    "faqLabel": "Common questions",
-    "faqTitle": "Straight answers.",
-    "faqs": [
-      {
-        "q": "Why can't I just use ChatGPT for this?",
-        "a": "You can, and most people do. The difference is structure, independence, and a scoreable output. ChatGPT will tell you what you want to hear if you aren't careful about how you prompt it. Soundcheck runs against a fixed methodology with the same 15 questions, the same 5 scoring dimensions, the same WTP analysis framework. The output is consistent, comparable, and shareable. The IVS score is something you can hand to an advisor or investor. A ChatGPT conversation is not."
-      },
-      {
-        "q": "What if my idea is in an early, undefined market?",
-        "a": "Early markets are where this analysis is most valuable. If the category doesn't have clear benchmarks yet, the report says so explicitly, and the IVS reflects it. A low score in an early market often means 'the timing isn't right yet' rather than 'the idea is wrong.' The competitive whitespace and timing signal sections are written specifically to distinguish between the two."
-      },
-      {
-        "q": "Is the report AI-generated? Will a human review it?",
-        "a": "The report is fully AI-generated from your intake form and independent public research. No consultant reviews or edits the output before delivery. That's what makes the 48-hour turnaround and $799 price possible. The methodology is designed to make the AI's analysis rigorous. The prompts are built around the same frameworks a senior market analyst would apply. If you want a consultant to review and advise on the findings, that's available as an add-on. Contact us."
-      },
-      {
-        "q": "What if my idea is a physical product, not software?",
-        "a": "The Idea Validation Analysis works for any business type: SaaS, app, physical product, service business, marketplace. The intake form asks you to specify your business model type and the AI calibrates the analysis accordingly. WTP benchmarks, competitive comparables, and market sizing methodology all adapt to the model type you select."
-      },
-      {
-        "q": "Can I validate more than one idea?",
-        "a": "Yes. Each analysis is per-idea and per-geography. If you have three ideas you're considering, you can run three separate analyses. Running them in parallel is absolutely possible. Each takes 10 minutes to brief."
-      },
-      {
-        "q": "What if I disagree with the IVS score?",
-        "a": "The report shows you the full dimension breakdown and every piece of evidence behind each score. If you think a dimension was scored incorrectly because the AI missed a key data point or competitor, you can contact us and we'll review the specific section. Material factual errors are corrected at no charge."
-      },
-      {
-        "q": "What languages is the report available in?",
-        "a": "English is the default. Portuguese (Brazilian), Spanish, and Italian are also available. Select your preferred language at the end of the intake form and the full report and Summary Card will be delivered in that language. Same price, same timeline."
-      }
-    ],
-    "ctaTitle": "You have the idea.",
-    "ctaTitleEnd": "Now find out if the market agrees.",
-    "ctaButton": "Validate My Idea →",
-    "ctaAlt": "Or see a sample report first →"
   },
   "usMarketArticle": {},
   "virtualFocusGroups": {
@@ -2326,143 +1595,6 @@
       }
     ]
   },
-  "investorVetting": {
-    "heroLabel": "Investor Opportunity Vetting",
-    "heroTitle1": "Evaluate deals at scale",
-    "heroTitle2": "with independent intelligence.",
-    "heroSub": "Independent vetting infrastructure for investors who run pipeline at scale. Evaluate founders, validate markets, assess traction, and identify risks—without building an in-house research team.",
-    "requestAccess": "Get started →",
-    "learnMore": "Learn more ↓",
-    "heroStats": [
-      {
-        "label": "SINGLE VETTING",
-        "value": "7 BUSINESS DAYS"
-      },
-      {
-        "label": "SUBSCRIPTION TIERS",
-        "value": "3 OPTIONS"
-      },
-      {
-        "label": "PRICING RANGE",
-        "value": "$1,500–$15,000/mo"
-      }
-    ],
-    "positioningLabel": "Why Vetting Infrastructure",
-    "positioningTitle": "Investors don't buy reports one at a time. They buy evaluation infrastructure.",
-    "positioningDesc1": "You already subscribe to PitchBook, Crunchbase Pro, Tracxn. Those tools tell you what exists. Soundcheck is the intelligence layer that tells you what to think about what exists. Different layer of the stack.",
-    "positioningDesc2": "Whether you're evaluating 5 deals a month or 50, you need a consistent, defensible evaluation methodology. That's what Soundcheck provides—the infrastructure to vet at scale, with transparency and sourcing built in.",
-    "tiersLabel": "Pricing & Availability",
-    "tiersTitle": "Two tiers: transactional and strategic.",
-    "tierASingleLabel": "Tier A — Single Opportunity Vetting",
-    "tierASingleTitle": "One deal at a time.",
-    "tierAInstitutional": "Institutional VC/PE",
-    "tierAInstitutionalDesc": "Per vetting. No commitment, no subscription.",
-    "tierAAngelFamily": "Angel / Family Office",
-    "tierAAngelFamilyDesc": "$1,000 each in bundle of 3. Or $1,500 single.",
-    "tierASingleDesc": "Use case: Evaluating a Series A lead or exploring a secondary. Get a standardized vetting report in 7 business days.",
-    "tierAAvailability": "Available now",
-    "tierBSubscriptionLabel": "Tier B — Investor Subscription",
-    "tierBSubscriptionTitle": "Subscription model (coming soon).",
-    "tierBDesc": "Strategic pricing for investors who vet 10+ deals per month. Starter, Professional, and Enterprise tiers with varying scope, vetting volume, and expert review hours.",
-    "tierBComingSoon": "Coming Soon",
-    "tierBLaunchTimeline": "Tier B launches after we've delivered 10+ manual vettings and validated the methodology with paying customers. Expected Q1 2027.",
-    "tierBEarlyPhase": "Early Phase — Tier A Only",
-    "deliverablesLabel": "What's in a Vetting Report",
-    "deliverablesTitle": "Every single vetting includes these seven elements.",
-    "singleVettingItems": [
-      {
-        "label": "Founder",
-        "title": "Founder & team assessment — background, track record, complementary skills, red flags."
-      },
-      {
-        "label": "Market",
-        "title": "Market opportunity validation — TAM, growth trajectory, competitive intensity, tailwinds."
-      },
-      {
-        "label": "Competition",
-        "title": "Competitive landscape — direct and indirect competitors, differentiation, moats."
-      },
-      {
-        "label": "Traction",
-        "title": "Traction validity check — growth rate authenticity, cohort analysis, retention signals."
-      },
-      {
-        "label": "Financials",
-        "title": "Financial sanity check — burn rate, runway, unit economics, path to profitability questions."
-      },
-      {
-        "label": "Risk",
-        "title": "Risk frame — deal-breakers, execution risk, market risk, founder risk, macroeconomic risk."
-      },
-      {
-        "label": "Questions",
-        "title": "Recommended diligence questions — critical follow-ups for your team, phrased for a founder call."
-      }
-    ],
-    "subscriptionTableLabel": "Strategic Tier Breakdown",
-    "subscriptionTableTitle": "Subscription tiers for investors running high-volume pipeline.",
-    "subscriptionTiers": [
-      {
-        "name": "Starter",
-        "price": "$2,500",
-        "vettingsPerMonth": "Up to 10",
-        "perVettingCost": "$250",
-        "scope": "Light scope, self-serve",
-        "expertReview": "None"
-      },
-      {
-        "name": "Professional",
-        "price": "$7,500",
-        "vettingsPerMonth": "Up to 40",
-        "perVettingCost": "$187",
-        "scope": "Full scope",
-        "expertReview": "2 hrs/month"
-      },
-      {
-        "name": "Enterprise",
-        "price": "$15,000",
-        "vettingsPerMonth": "Up to 100",
-        "perVettingCost": "$150",
-        "scope": "Full scope + custom criteria",
-        "expertReview": "8 hrs/month + integrations"
-      }
-    ],
-    "trustLabel": "How We Build Trust",
-    "trustTitle": "We validate manually before we scale the subscription product.",
-    "trustDesc": "Tier A customers today become Tier B subscribers tomorrow. We're running Phase 1: manual vettings, real feedback, real improvements to methodology.",
-    "trustPhase1": "Every vetting is reviewed by our research team for sourcing, confidence labeling, and strategic framing before delivery. We're building the methodology to a standard we can automate later—not automating first and hoping it works.",
-    "faqLabel": "FAQ",
-    "faqTitle": "Questions we get asked.",
-    "faqs": [
-      {
-        "q": "When is the subscription available?",
-        "a": "Tier A (single vettings) is available now. Tier B (subscription) launches after we've delivered 10+ manual vettings and validated the methodology with paying customers. Expected Q1 2027."
-      },
-      {
-        "q": "What's the turnaround?",
-        "a": "7 business days for single vettings. Subscription customers get priority processing and faster turnaround times depending on tier."
-      },
-      {
-        "q": "Is this AI-generated?",
-        "a": "The platform does the analytical heavy lifting—aggregating data, building analytical frameworks, scoring dimensions. Expert review is included at Professional and Enterprise tiers for validation and nuance. Tier A single vettings include quality assurance review."
-      },
-      {
-        "q": "Can we customize vetting criteria?",
-        "a": "Yes. Enterprise subscribers can define custom scoring dimensions and evaluation criteria specific to their thesis, risk profile, and industry focus."
-      },
-      {
-        "q": "How is this different from Crunchbase or PitchBook?",
-        "a": "Those are data tools—they tell you what exists. Soundcheck is an intelligence layer—it tells you what to think about what exists. Different layer of the stack. You subscribe to those for data; you subscribe to us for analysis and evaluation."
-      },
-      {
-        "q": "What if we disagree with the verdict?",
-        "a": "Every claim is sourced and every score is transparent. If a dimension was scored incorrectly due to missing information, we'll review at no charge and provide an updated assessment."
-      }
-    ],
-    "ctaTitle": "Ready to evaluate at scale?",
-    "ctaSub": "Start with a single vetting, or talk to us about a subscription tier for your fund.",
-    "ctaButton": "Request a vetting →"
-  },
   "scaleAssessment": {
     "heroLabel": "Product Deep-Dive · Scale Assessment",
     "heroTitle": "Growth is what they sold you.\nScale is what you actually need.",
@@ -2683,7 +1815,7 @@
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
         "delivery": "3–5 business days from brand intake",
-        "pricing": "$500 per persona · pick any number from your panel",
+        "pricing": "$400 per persona · pick any number from your panel",
         "link": "/consumer-journeys",
         "linkLabel": "See full details →"
       },
@@ -2831,7 +1963,7 @@
       }
     ],
     "pricingTitle": "Pricing",
-    "pricingAmount": "$500 per persona",
+    "pricingAmount": "$400 per persona",
     "pricingSub": "Select any number of personas from your panel. No minimum.",
     "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
     "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 20 personas = $10,000",

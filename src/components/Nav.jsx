@@ -25,7 +25,6 @@ export default function Nav() {
     { label: t('nav.products'), to: getLocalizedPath('/products', lang) },
     { label: t('nav.howItWorks'), to: getLocalizedPath('/how-it-works', lang) },
     { label: t('nav.forAgencies'), to: getLocalizedPath('/for-agencies', lang) },
-    { label: t('nav.forInvestors'), to: getLocalizedPath('/for-investors', lang) },
     { label: t('nav.partnerWithUs'), to: getLocalizedPath('/partner', lang) },
     { label: t('nav.ourPartners'), to: getLocalizedPath('/our-partners', lang) },
   ]

@@ -2,7 +2,6 @@
   "nav": {
     "howItWorks": "Cómo Funciona",
     "forAgencies": "Para Agencias",
-    "forInvestors": "Para Inversionistas",
     "products": "Productos",
     "resources": "Recursos",
     "partnerWithUs": "Asociarse Con Nosotros",
@@ -17,7 +16,7 @@
     "virtualFocusGroups": "Sesiones de Grupos Focales Virtuales"
   },
   "footer": {
-    "tagline": "Plataforma de inteligencia de mercado impulsada por IA para agencias y consultoras.",
+    "tagline": "Plataforma de inteligencia de mercado AI-native para operadores — agencias, consultorías y ejecutivos fraccionales.",
     "foundedBy": "Fundada por Valter Klug",
     "location": "Miami, FL",
     "platform": "Plataforma",
@@ -29,13 +28,13 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "Plataforma de Inteligencia de Mercado · Para Agencias, Consultoras e Inversionistas",
-    "heroTitle1": "La IA realiza la investigación.",
-    "heroTitle2": "Usted",
-    "heroTitle3": "la amplía",
-    "heroTitle4": "con su experiencia.",
-    "heroDesc": "Soundcheck es una plataforma de inteligencia de mercado que usted opera para sus clientes. Usted valida el resultado. Usted entrega bajo su marca. Usted establece el precio.",
-    "requestAccess": "Solicitar Acceso a la Plataforma →",
+    "heroBadge": "Plataforma de Inteligencia de Mercado · Para Agencias, Consultorías y Ejecutivos Fraccionales",
+    "heroTitle1": "Inteligencia de mercado AI-native",
+    "heroTitle2": "",
+    "heroTitle3": "para marcas internacionales",
+    "heroTitle4": "entrando y escalando en EE.UU.",
+    "heroDesc": "Pruebe antes de invertir. Validación, investigación, focus groups e insights estratégicos — productizados, acelerados por IA, en días, no meses. Entregados por operadores, bajo su propia marca.",
+    "requestAccess": "Conviértase en Operador →",
     "seeHowItWorks": "Ver Cómo Funciona",
     "stats": [
       {
@@ -104,70 +103,52 @@
         "tag": "Su marca · Su crédito · Su próximo contrato"
       }
     ],
-    "productsLabel": "Siete Productos",
-    "productsTitle": "Siete productos que puedes ofrecer\na tus clientes hoy mismo.",
+    "productsLabel": "Cinco Productos",
+    "productsTitle": "Cinco productos que puede entregar\na sus clientes desde hoy.",
     "products": [
       {
         "num": "01",
-        "for": "Marcas y Agencias · Expansión de Mercado",
+        "for": "Operadores y Marcas · Expansión de Mercado",
         "name": "Análisis de Viabilidad Internacional",
-        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales, caminos estratégicos y hoja de ruta para cualquier nuevo mercado. 100+ páginas.",
+        "desc": "Puntaje CVE, panorama competitivo, marco regulatorio, canales de distribución, rutas estratégicas y hoja de ruta para cualquier nuevo mercado. 100+ páginas.",
         "delivery": "Entrega en 2–3 semanas · White-label incluido",
         "link": "/expansion-report",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "02",
-        "for": "Marcas US y Agencias · Inteligencia Estratégica",
+        "for": "Marcas y Agencias en EE.UU. · Inteligencia Estratégica",
         "name": "Scale Assessment",
-        "desc": "Scale Diagnostic, posición competitiva, preparación operativa y plan de 24 meses. Framework Too Small To Fall.",
+        "desc": "Diagnóstico de Escala, posición competitiva, preparación operacional y plan de 24 meses con compuertas go/no-go. Construido sobre el framework Too Small To Fall.",
         "delivery": "Entrega en 3–4 semanas · White-label incluido",
         "link": "/scale-assessment",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "03",
-        "for": "Agencias · Marcas · Fundadores",
+        "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Investigación de Mercado",
-        "desc": "Tres informes de nivel decisorio — Análisis de Mercado, del Consumidor y Panorama Competitivo — más panel de personas.",
-        "delivery": "Desde $4.000 · Entrega en 5–10 días",
+        "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas basado en investigación.",
+        "delivery": "Desde $4,000 · Entrega en 5–10 días",
         "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "04",
-        "for": "Agencias · Marcas · Fundadores",
-        "name": "Mapas de Jornada del Cliente",
-        "desc": "Mapas de jornada específicos por marca mostrando touchpoints, fricciones y oportunidades. Dashboard visual + PDF.",
-        "delivery": "$500/persona · Entrega en 2–3 días",
+        "for": "Operadores · Marcas · Inteligencia del Consumidor",
+        "name": "Mapas de Viaje del Cliente",
+        "desc": "Mapas de viaje específicos para la marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy.",
+        "delivery": "$400/persona · Entrega en 2–3 días",
         "link": "/consumer-journeys",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
       {
         "num": "05",
-        "for": "Agencias · Marcas · Fundadores",
+        "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Focus Groups Virtuales",
-        "desc": "Sesiones de focus group con IA probando conceptos contra panel de personas. Votos, citas textuales e insights.",
-        "delivery": "$4.000/sesión · Entrega en 1–3 días",
+        "desc": "Sesiones de focus group con IA testando conceptos contra su panel de personas. Votos de preferencia, citas textuales e insights estratégicos.",
+        "delivery": "$4,000/sesión · Entrega en 1–3 días",
         "link": "/virtual-focus-groups",
-        "memberRateNote": "Tarifa Mana Tech disponible"
-      },
-      {
-        "num": "06",
-        "for": "VCs · PE · Family Offices · Ángeles",
-        "name": "Investor Opportunity Vetting",
-        "desc": "Vetting independiente con veredictos ADVANCE / CONDITIONAL / STOP. Dos entrevistas, investigación independiente.",
-        "delivery": "Entrega en 7 días · Suscripciones disponibles",
-        "link": "/investor-vetting",
-        "memberRateNote": "Tarifa Mana Tech disponible"
-      },
-      {
-        "num": "07",
-        "for": "Fundadores · Pre-MVP · Etapa Temprana",
-        "name": "Idea Validation Analysis",
-        "desc": "IVS Score 0–100 en seis dimensiones. Dimensionamiento de mercado, competidores, señales de demanda. Entrega automatizada en 48 horas.",
-        "delivery": "$799 · Entrega en 48 horas",
-        "link": "/idea-validation",
         "memberRateNote": "Tarifa Mana Tech disponible"
       }
     ],
@@ -200,7 +181,7 @@
     "marginValue": "$4,500+",
     "ctaTitle": "Comience con un informe.\nVea qué se siente ganar US$400+/hora.",
     "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato, y ve el flujo de trabajo completo en práctica antes de escalarlo.",
-    "ctaButton": "Solicitar Acceso a la Plataforma →",
+    "ctaButton": "Conviértase en Operador →",
     "modulesLabel": "La Plataforma de Inteligencia del Consumidor",
     "modulesTitle": "Un flujo de trabajo. Tres módulos. Tan completo o simple como el proyecto requiera.",
     "modules": [
@@ -214,7 +195,7 @@
         "num": "02",
         "name": "Mapas de Viaje del Cliente",
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona descubre, evalúa y compra — y dónde tus puntos de contacto se alinean o no con ellos.",
-        "price": "US$500 por persona · elige tantas como necesites"
+        "price": "$400 por persona · elige las que necesites"
       },
       {
         "num": "03",
@@ -328,7 +309,7 @@
     "ctaTitle": "¿Listo para ejecutar su primer informe?",
     "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato.",
     "ctaButton1": "Solicitar Acceso a la Plataforma",
-    "ctaButton2": "Explorar los 6 Productos"
+    "ctaButton2": "Explorar los 5 Productos"
   },
   "forAgencies": {
     "heroLabel": "Para Agencias y Consultorías",
@@ -493,7 +474,7 @@
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia que su agencia implementa.\nResultados que sus clientes no olvidarán.",
-    "heroSub": "Siete productos de alcance fijo diseñados para ser briefeados, entregados y desplegados bajo la marca de tu agencia — o directamente a tu equipo. Tú defines el precio para tus clientes.",
+    "heroSub": "Cinco productos de alcance fijo diseñados para ser briefeados, entregados y desplegados bajo la marca de su agencia. Usted fija el precio para sus clientes.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -552,7 +533,7 @@
       },
       {
         "num": "03",
-        "for": "Agencias · Marcas · Fundadores",
+        "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Investigación de Mercado",
         "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
@@ -571,11 +552,11 @@
       },
       {
         "num": "04",
-        "for": "Agencias · Marcas · Fundadores",
+        "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Mapas de Jornada del Cliente",
         "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
         "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
-        "price": "US$500 por persona",
+        "price": "US$400 por persona",
         "delivery": "Entrega en 2–3 días · White-label incluido",
         "ctaLabel": "Ver Detalles de Mapas de Jornada →",
         "deliverables": [
@@ -589,7 +570,7 @@
       },
       {
         "num": "05",
-        "for": "Agencias · Marcas · Fundadores",
+        "for": "Operadores · Marcas · Inteligencia del Consumidor",
         "name": "Focus Groups Virtuales",
         "tagline": "Pruebe cualquier concepto contra su audiencia real — en horas, no semanas.",
         "desc": "Sesiones de focus group con IA que prueban conceptos, mensajes, packaging, precios o posicionamiento contra el panel completo de personas. Votos de preferencia, citas textuales e insights estratégicos.",
@@ -606,223 +587,8 @@
         ],
         "link": "/virtual-focus-groups",
         "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
-      },
-      {
-        "num": "06",
-        "for": "VCs · PE · Family Offices · Ángeles",
-        "name": "Investor Opportunity Vetting",
-        "desc": "Infraestructura de vetting independiente para inversores que gestionan pipeline a escala. Dos entrevistas estructuradas — equipo fundador + cliente real. Investigación independiente que identifica contradicciones y entrega veredicto ADVANCE / CONDITIONAL / STOP.",
-        "price": "US$1.500–$2.500 por análisis · Suscripciones desde $2.500/mes",
-        "delivery": "Entrega en 7 días · Descuentos por volumen · Suscripción disponible",
-        "ctaLabel": "Ver Detalles de Investor Vetting →",
-        "deliverables": [
-          "Informe Completo — registro de evidencia de 10 secciones",
-          "Signal Brief — veredicto de una página ADVANCE / CONDITIONAL / STOP",
-          "Niveles de suscripción: Starter ($2.500/mes), Professional ($7.500/mes), Enterprise ($15.000/mes)",
-          "Acceso a plataforma self-serve para suscriptores"
-        ],
-        "link": "/investor-vetting",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
-      },
-      {
-        "num": "07",
-        "for": "Fundadores · Pre-MVP · Etapa Temprana",
-        "name": "Idea Validation Analysis",
-        "tagline": "Sepa si el mercado es real antes de construir.",
-        "desc": "Puntuación IVS de 0 a 100 impulsada por IA a través de seis dimensiones de señal. Entrega automatizada en 48 horas. El punto de partida correcto para validación temprana, independientemente de la etapa de la empresa o membresía.",
-        "price": "US$799",
-        "delivery": "Entrega en 48 horas · Sin llamadas · Automatizado",
-        "ctaLabel": "Ver Detalles de Idea Validation →",
-        "deliverables": [
-          "IVS Score (0–100) — puntuación ponderada en seis dimensiones",
-          "Snapshot de dimensionamiento de mercado — TAM/SAM/SOM con datos referenciados",
-          "Top 5 competidores mapeados con análisis de posicionamiento",
-          "Señales de disposición a pagar del cliente",
-          "Recomendación Go / Conditional / Stop con hoja de ruta",
-          "Informe de 5–7 páginas, entregado en 48 horas"
-        ],
-        "link": "/idea-validation",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
       }
     ]
-  },
-  "forInvestors": {
-    "heroLabel": "Para Inversionistas",
-    "heroTitle": "Evaluación de Oportunidades para Inversores.\nPipeline a escala.",
-    "heroSub": "Infraestructura de evaluación independiente para VCs, firmas de private equity, oficinas familiares, y sindicatos de ángeles que manejan pipeline de acuerdos en volumen. Metodología estandarizada. Evidencia documentada. Puntuación transparente. Evaluaciones individuales desde US$1,500 o tiers de suscripción para evaluación de alto volumen.",
-    "requestEngagement": "Solicitar una reunión →",
-    "viewSamples": "Ver ejemplos de Signal Briefs →",
-    "heroStats": [
-      {
-        "num": "7",
-        "label": "DÍAS HÁBILES",
-        "sub": "tiempo de evaluación individual"
-      },
-      {
-        "num": "3",
-        "label": "TIERS DE SUSCRIPCIÓN",
-        "sub": "10 a 100 evaluaciones/mes"
-      },
-      {
-        "num": "$1,500+",
-        "label": "",
-        "sub": "por evaluación o desde US$2,500/mes"
-      }
-    ],
-    "problemLabel": "El costo real",
-    "problemTitle": "La mayoría del filtrado temprano ocurre informalmente. Ese es el problema.",
-    "problemDesc1": "Los pitch decks se preparan para causar la mejor impresión posible. Los emprendedores saben cómo responder preguntas estándar. Las listas de referencia incluyen contactos cercanos a la empresa. Para cuando descubre que los ingresos no son tan limpios como sugiere el deck, o que el fundador no puede explicar por qué está perdiendo dinero, o que su cliente más leal está evaluando alternativas, sus analistas ya han desperdiciado más de 15 horas.",
-    "problemDesc2": "Soundcheck ejecuta dos entrevistas de forma independiente — una con el equipo de liderazgo, otra con un cliente real que seleccionamos aleatoriamente de una lista que la empresa proporciona. Identificamos si sus historias no coinciden. Usted recibe el veredicto antes de que su equipo invierta.",
-    "problemCards": [
-      {
-        "title": "Lo que reemplazamos",
-        "text": "Las conversaciones informales de primera ronda que sus analistas ya están teniendo — solo que estructuradas, documentadas, con una fuente de cliente independiente agregada."
-      },
-      {
-        "title": "Lo que no reemplazamos",
-        "text": "Debida diligencia completa. Revisión legal. Auditorías financieras. Evaluaciones técnicas. Soundcheck es el filtro antes del filtro — no el cierre."
-      },
-      {
-        "title": "Lo que cuesta omitir esto",
-        "text": "15–20 horas de analista por empresa que fracasa en ronda dos. Multiplique eso por el volumen de su flujo de operaciones."
-      }
-    ],
-    "stepsLabel": "Cuatro pasos. Siete días.",
-    "stepsTitle": "Lo que sucede entre la propuesta y el veredicto.",
-    "steps": [
-      {
-        "num": "01",
-        "title": "Usted nos da los datos — no la empresa.",
-        "body": "Nos dice cuál empresa está evaluando. Preparamos la investigación de mercado previa a la entrevista y análisis competitivo de forma independiente, sin ningún aporte de la empresa. Esto se convierte en la línea de base que probamos en ambas entrevistas.",
-        "meta": "~15 min de su lado · Brief de investigación generado por IA · sin contacto de empresa aún"
-      },
-      {
-        "num": "02",
-        "title": "Entrevista 1 — Equipo de Liderazgo (60 min)",
-        "body": "Una conversación estructurada con el fundador/CEO y cualquier CFO o Director de Ventas disponible. Cinco bloques: visión de mercado, inteligencia de ventas y cliente, finanzas, el diferencial competitivo, y estructura del acuerdo. Transcripción procesada y analizada contra nuestra investigación previa.",
-        "meta": "Programada por usted · Facilitada por Soundcheck · Grabada con consentimiento"
-      },
-      {
-        "num": "03",
-        "title": "Entrevista 2 — Un Cliente Real (45–60 min)",
-        "body": "Pedimos a la empresa 5 nombres de clientes. Elegimos uno — de nivel medio, no su defensor más obvio. Una llamada independiente que cubre centralidad del producto, realidad de uso, señales de NRR, y conciencia competitiva. Aquí es donde surgen las contradicciones.",
-        "meta": "Cliente seleccionado por nosotros · Empresa no sabe qué cliente llamamos"
-      },
-      {
-        "num": "04",
-        "title": "Informe de Inteligencia Completo + Signal Brief",
-        "body": "La IA genera un registro de evidencia de 10 secciones de ambas entrevistas. El consultor agrega sus notas de observación y firma el Signal Brief — un veredicto de una página AVANZAR / CONDICIONAL / DETENER con la evidencia y las 3 preguntas que su equipo debe responder a continuación.",
-        "meta": "Signal Brief + Informe de Inteligencia Completo · Ambos entregados como estándar"
-      }
-    ],
-    "signalsLabel": "Lo que probamos",
-    "signalsTitle": "Seis señales. Cada participación.",
-    "signalsSub": "Cada participación prueba las mismas seis señales, independientemente de la etapa de la empresa, sector o modelo de negocio. Cada calificación se respalda con al menos dos observaciones documentadas, una de cada entrevista.",
-    "signals": [
-      {
-        "num": "1",
-        "name": "Realidad del Mercado",
-        "desc": "¿Es real la oportunidad y es el momento correcto ahora — no en teoría?"
-      },
-      {
-        "num": "2",
-        "name": "Calidad de Ingresos",
-        "desc": "¿Son los ingresos adhesivos, recurrentes y crecientes? Dirección de NRR validada de forma cruzada por el cliente."
-      },
-      {
-        "num": "3",
-        "name": "Defensa",
-        "desc": "¿Hay algo estructural que le toma 18+ meses a un rival bien financiado copiar?"
-      },
-      {
-        "num": "4",
-        "name": "Claridad del Fundador",
-        "desc": "¿Conoce el CEO sus números, entiende sus pérdidas, y reconoce qué está roto?"
-      },
-      {
-        "num": "5",
-        "name": "Sin Rompedores de Acuerdo",
-        "desc": "¿Hay bloqueadores estructurales escondidos debajo del pitch — tabla de capitalización, concentración, litigio?"
-      },
-      {
-        "num": "6",
-        "name": "Lógica de Salida",
-        "desc": "¿Hay una ruta de retorno realista con esta valuación? Adquirentes nombrados, fundamento específico."
-      }
-    ],
-    "verdicts": [
-      {
-        "label": "AVANZAR",
-        "text": "4 o más señales Fuertes. Sin bloqueadores estructurales. Continuar con debida diligencia más profunda."
-      },
-      {
-        "label": "CONDICIONAL",
-        "text": "3 señales Fuertes + una condición nombrada para verificar antes de avanzar."
-      },
-      {
-        "label": "DETENER",
-        "text": "Cualquier bloqueador estructural único confirmado. Hallazgo específico, nombrado y con fuente."
-      }
-    ],
-    "samplesLabel": "Ver el resultado",
-    "samplesTitle": "Tres empresas. Tres veredictos. Formato real.",
-    "samplesSub": "Estos son resúmenes de señal de muestra: empresas ficticias, formato real. Cada uno muestra un veredicto diferente: AVANZAR, CONDICIONAL y DETENER. Haga clic para ver exactamente lo que su equipo recibe al final de cada participación.",
-    "viewSample": "Ver muestra →",
-    "fitLabel": "Construido para su flujo de transacciones",
-    "fitTitle": "Dónde encaja Soundcheck en su proceso.",
-    "earlyStage": {
-      "title": "Fondos en etapa temprana",
-      "desc": "Se mueve rápidamente y evalúa volumen. Soundcheck encaja entre el filtrado inicial y el primer análisis profundo interno: el momento en que una empresa pasa la prueba de pitch pero no ha sido sometida a pruebas de estrés por nadie fuera de la firma.",
-      "bestFor": "Mejor para:",
-      "items": [
-        "Clasificación de Pre-Seed hasta Series B",
-        "Operaciones obtenidas fuera de su red principal",
-        "Mercados donde su equipo carece de familiaridad profunda del dominio",
-        "Verificación de afirmaciones de NRR y retención antes de comprometer horas de analista"
-      ]
-    },
-    "growthStage": {
-      "title": "Fondos en etapa de crecimiento",
-      "desc": "En Series B y más allá, el pitch se vuelve más pulido pero los fundamentos no siempre se ponen al día. Soundcheck identifica discrepancias entre lo que el fundador dice y lo que un cliente real confirma, antes de que sus socios dediquen tiempo.",
-      "bestFor": "Mejor para:",
-      "items": [
-        "Evaluación Series B+ y decisiones de seguimiento",
-        "Operaciones donde el deck se ve fuerte pero las referencias se sienten seleccionadas",
-        "Sectores fuera de la experiencia principal de sus partners",
-        "Validación de primer pase antes de envolver el equipo de debida diligencia completo"
-      ]
-    },
-    "faqLabel": "Preguntas frecuentes",
-    "faqTitle": "Respuestas directas.",
-    "faqs": [
-      {
-        "q": "¿Sabe la empresa que está siendo evaluada?",
-        "a": "Saben que están participando en un proceso de inteligencia de mercado estructurado en nombre de un inversor. No identificamos la firma de inversión. A la empresa se le dice por adelantado que esto incluye una entrevista de cliente independiente — proporcionan 5 nombres, nosotros elegimos a quién llamamos."
-      },
-      {
-        "q": "¿Qué pasa si la empresa rechaza la entrevista de cliente?",
-        "a": "Un rechazo se anota en el Signal Brief y se marca como inquietud de transparencia. Desplaza el veredicto hacia CONDICIONAL en el mejor de los casos. Una empresa que no permitirá que un cliente hable de forma independiente le está diciendo algo."
-      },
-      {
-        "q": "¿Cómo es esto diferente de lo que sus analistas ya hacen en ronda uno?",
-        "a": "Sus analistas probablemente tienen alguna versión de esta conversación informalmente. Soundcheck la hace estructurada, consistente, y documentada — con un registro de contradicciones que captura discrepancias entre dos llamadas separadas, y una salida de una página que viaja limpiamente a IC sin una charla de 20 minutos."
-      },
-      {
-        "q": "¿Podemos ejecutar esto sin que la empresa sepa que la estamos evaluando?",
-        "a": "No. Ambas entrevistas requieren participación de la empresa y consentimiento para grabar. El enfoque es neutral — \"proceso de inteligencia de inversión estructurado\" — pero son conscientes. El valor viene de la extracción estructurada y la fuente de cliente independiente, no de la sorpresa."
-      },
-      {
-        "q": "¿Cuál es el tiempo de respuesta si lo necesitamos más rápido?",
-        "a": "El estándar es 7 días hábiles a partir de la fecha en que ambas entrevistas se completan. La entrega acelerada (3 días hábiles) está disponible por un adicional de US$1,000 — sujeto a disponibilidad. Contáctenos antes del briefing para confirmar."
-      },
-      {
-        "q": "¿Ofrecen precios por volumen?",
-        "a": "Sí. Las firmas que ejecutan 5 o más evaluaciones por trimestre califican para precios por volumen. También ofrecemos entrega de etiqueta blanca — el Informe de Inteligencia Completo y Signal Brief bajo la marca de su firma. Hable con nosotros sobre qué se ajusta a su volumen de flujo de operaciones."
-      }
-    ],
-    "ctaTitle": "Su próxima transacción ya está en su cartera.\nDescubra si merece el tiempo de su equipo.",
-    "ctaButton": "Solicitar una participación →",
-    "ctaLink": "O ver resúmenes de señal de muestra primero →"
   },
   "contact": {
     "heroLabel": "Póngase en contacto",
@@ -1025,263 +791,6 @@
     "subscribing": "Suscribiéndose…",
     "subscribeSuccess": "✓ Está en la lista. El primer resumen llega el próximo mes.",
     "subscribeFooter": "Mensualmente. Sin spam. Darse de baja en cualquier momento."
-  },
-  "businessPlan": {
-    "heroLabel": "Profundización del producto · Plan de negocios",
-    "heroTitle": "Un plan de negocios construido para\nel lector que decide.",
-    "heroSub": "No es una plantilla. No es un pitch deck. Un plan de negocios profesional específico de la audiencia construido a partir de datos de entrada estructurados, una entrevista de partes interesadas e investigación independiente. Cada afirmación documentada. Cada proyección documentada. Cada sección ponderada para el lector específico que tomará la decisión.",
-    "briefButton": "Proponer este plan →",
-    "seePlanTypes": "Ver tipos de planes →",
-    "heroStats": [
-      {
-        "num": "10-14",
-        "label": "DÍAS",
-        "sub": "desde la consulta inicial hasta la entrega"
-      },
-      {
-        "num": "6",
-        "label": "TIPOS DE PLAN",
-        "sub": "configuraciones específicas por audiencia"
-      },
-      {
-        "num": "10",
-        "label": "SECCIONES",
-        "sub": "cada afirmación documentada"
-      }
-    ],
-    "whoLabel": "Construido para decisiones reales",
-    "whoTitle": "Quién encarga este plan.",
-    "whoItems": [
-      {
-        "title": "Emprendedores y fundadores",
-        "text": "Necesita un plan profesional para obtener capital, asegurar un préstamo o alinear a su equipo en torno a una estrategia. No un documento template relleno de lenguaje genérico. Un documento construido desde datos reales de su negocio e investigación de mercado independiente."
-      },
-      {
-        "title": "Inversionistas internacionales que buscan visas estadounidenses",
-        "text": "E-2, EB-5 o L-1A. Su abogado de inmigración necesita un plan empresarial que cumpla con el estándar Matter of Ho. Nosotros producimos el plan. Su abogado presenta la petición."
-      },
-      {
-        "title": "Agencias y consultorías",
-        "text": "Su cliente necesita un plan empresarial. Usted necesita un documento de calidad investigativa para entregar bajo su marca. La versión white-label está lista para el equipo directivo de su cliente."
-      }
-    ],
-    "typesLabel": "6 configuraciones específicas de audiencia",
-    "typesTitle": "Una estructura. Seis configuraciones.",
-    "typesSub": "Cada plan sigue la misma estructura central de 10 secciones. Pero el énfasis, profundidad, horizonte de proyección financiera y requisitos de evidencia de apoyo se adaptan a la audiencia. El cuestionario de entrada determina qué configuración se aplica.",
-    "planTypes": [
-      {
-        "type": "Tipo A",
-        "name": "Plan para Inversionistas",
-        "subname": "Capital Venture / Angel",
-        "desc": "Economía unitaria, TAM/SAM/SOM, ventaja competitiva, equipo, tesis de salida. Proyecciones de 3-5 años con detalle mensual Año 1. 20-35 páginas."
-      },
-      {
-        "type": "Tipo B",
-        "name": "Plan para Préstamo Bancario / SBA",
-        "desc": "Proyecciones de flujo de caja, cobertura del servicio de deuda, garantías, experiencia del propietario, uso de fondos. Año 1 mensual, Año 2 trimestral. 20-40 páginas."
-      },
-      {
-        "type": "Tipo C",
-        "name": "Plan de Inmigración",
-        "subname": "E-2 / EB-5 / L-1A",
-        "desc": "Defensa legal bajo el estándar Matter of Ho. Creación de empleos, impacto económico, proyecciones de 5 años, apéndice de 30-50% con documentos de apoyo. 30-60+ páginas."
-      },
-      {
-        "type": "Tipo D",
-        "name": "Plan de Franquicia",
-        "desc": "Alineación con Item 7 y Item 19 del FDD. Análisis de territorio, economía unitaria ajustada por regalías, datos de desempeño del franquiciador. 20-35 páginas."
-      },
-      {
-        "type": "Tipo E",
-        "name": "Producto de Consumo / CPG",
-        "desc": "Estrategia de distribución (retail, directo al consumidor, Amazon), estructura de COGS y márgenes, cadena de suministro, cumplimiento FDA/etiquetado, entrada al mercado por canal. 25-40 páginas."
-      },
-      {
-        "type": "Tipo F",
-        "name": "Plan Interno del Fundador",
-        "desc": "Claridad estratégica para el equipo fundador. Sin audiencia externa. Más corto y directo. Evaluación honesta de brechas. 10-20 páginas."
-      }
-    ],
-    "insideLabel": "10 secciones. Cada afirmación está respaldada.",
-    "insideTitle": "Qué hay dentro del plan.",
-    "insideSub": "Todos los tipos de planes siguen esta estructura de 10 secciones. El énfasis y la profundidad varían según la configuración de la audiencia.",
-    "sections": [
-      {
-        "num": "1",
-        "title": "Resumen Ejecutivo",
-        "sub": "La página de decisión.",
-        "items": [
-          "Descripción general del negocio, problema/oportunidad, solución, snapshot del mercado.",
-          "Credenciales del equipo y hitos clave hasta la fecha.",
-          "Snapshot financiero con la solicitud específica (si se trata de recaudación).",
-          "Lo único más importante que el lector necesita saber."
-        ]
-      },
-      {
-        "num": "2",
-        "title": "Descripción de la Empresa",
-        "sub": "Quiénes son y dónde se encuentran.",
-        "items": [
-          "Entidad legal, historia de fundación, misión, visión, etapa actual.",
-          "Ubicación, estructura de propiedad, hitos clave.",
-          "Qué hace que esta empresa sea real, no teórica."
-        ]
-      },
-      {
-        "num": "3",
-        "title": "Productos & Services",
-        "sub": "Qué venden y por qué importa.",
-        "items": [
-          "Características, beneficios, etapa de desarrollo, hoja de ruta del producto.",
-          "Propiedad intelectual, patentes o tecnología propietaria (si aplica).",
-          "Requisitos normativos y estado de cumplimiento."
-        ]
-      },
-      {
-        "num": "4",
-        "title": "Análisis de Mercado",
-        "sub": "La sección más grande. Cada número documentado.",
-        "items": [
-          "TAM / SAM / SOM con lógica de cálculo y etiquetas de confianza.",
-          "Tendencias del mercado, factores de crecimiento, factores de temporalidad.",
-          "Perfil del cliente objetivo con segmentos, disparadores y barreras."
-        ]
-      },
-      {
-        "num": "5",
-        "title": "Análisis Competitivo",
-        "sub": "Quién más resuelve este problema.",
-        "items": [
-          "3 a 8 competidores directos perfilados con posicionamiento y precios.",
-          "Matriz competitiva con estrategia de diferenciación.",
-          "Costos de cambio y evaluación de ventaja competitiva."
-        ]
-      },
-      {
-        "num": "6",
-        "title": "Estrategia de Marketing y Ventas",
-        "sub": "Cómo adquiere y retiene clientes.",
-        "items": [
-          "Canales de adquisición de clientes con objetivos de CAC.",
-          "Estrategia de precios con análisis de márgenes.",
-          "Cronograma de entrada al mercado y secuencia de lanzamiento."
-        ]
-      },
-      {
-        "num": "7",
-        "title": "Plan de Operaciones",
-        "sub": "Cómo funciona realmente el negocio.",
-        "items": [
-          "Instalaciones, cadena de suministro, stack tecnológico, procesos clave.",
-          "Plan de personal con cronograma de contratación.",
-          "Para planes de inmigración: plan detallado de creación de empleos con salarios de fuentes BLS."
-        ]
-      },
-      {
-        "num": "8",
-        "title": "Organización y Gestión",
-        "sub": "El equipo detrás del plan.",
-        "items": [
-          "Biografías del equipo y organigrama (actual y proyectado).",
-          "Junta asesora e incorporaciones clave planeadas.",
-          "Análisis de brechas: qué roles faltan y cuándo se llenan."
-        ]
-      },
-      {
-        "num": "9",
-        "title": "Proyecciones Financieras",
-        "sub": "Los números que importan.",
-        "items": [
-          "Estado de resultados, flujo de caja, balance (3-5 años).",
-          "Supuestos documentados para cada línea.",
-          "Análisis de escenarios: conservador, base e optimista.",
-          "Análisis de punto de equilibrio con economía unitaria.",
-          "Para planes bancarios: ratio de cobertura del servicio de deuda. Para inmigración: 5 años mínimo."
-        ]
-      },
-      {
-        "num": "10",
-        "title": "Apéndice y Anexos",
-        "sub": "Transparencia total.",
-        "items": [
-          "Currículos, fuentes de investigación de mercado, contratos, cartas de intención.",
-          "Para planes de inmigración: prueba de fuente de inversión, documentación de propiedad.",
-          "Descripciones de puesto, datos salariales BLS, organigramas.",
-          "Cada supuesto o proxy utilizado, registrado con niveles de confianza."
-        ]
-      }
-    ],
-    "delivLabel": "Lo que recibe",
-    "delivTitle": "El paquete de entrega completo.",
-    "fullPlanTitle": "Plan de negocios completo",
-    "fullPlanDesc": "Formato .docx profesional, formateado para la audiencia y listo para marca blanca. Estructura de 10 secciones con afirmaciones documentadas, suposiciones documentadas y proyecciones etiquetadas con confianza en toda.",
-    "fullPlanItems": [
-      "Estructura MECE de 10 secciones",
-      "Énfasis y profundidad específicos por audiencia",
-      "Proyecciones etiquetadas con confianza",
-      "Datos de mercado y competencia documentados",
-      "Apéndice de inmigración con anexos (Tipo C)",
-      "Listo para white-label"
-    ],
-    "execTitle": "Resumen ejecutivo de una página",
-    "execDesc": "Una versión visual condensada de los hallazgos clave. Instantánea del negocio, oportunidad de mercado, aspectos financieros destacados, descripción general del equipo y la solicitud específica. Diseñado para reuniones de inversores, presentaciones de junta directiva y conversaciones con socios.",
-    "execItems": [
-      "Snapshot del negocio con métricas clave",
-      "Dimensionamiento de oportunidad de mercado",
-      "Highlights financieros y proyecciones",
-      "Descripción general del equipo",
-      "La solicitud específica (recaudación, préstamo, visa)",
-      "Diseñado para pantalla e impresión"
-    ],
-    "pricingLabel": "Precios y entrega",
-    "pricingTitle": "Alcance fijo. Precio fijo. Sin sorpresas.",
-    "price": "US$5,000+",
-    "perPlan": "por plan",
-    "pricingDetails": [
-      {
-        "title": "Entrega de 10-14 días",
-        "sub": "Desde la consulta inicial hasta el plan final"
-      },
-      {
-        "title": "White-label incluido",
-        "sub": "Entregado bajo su marca"
-      },
-      {
-        "title": "1 ronda de revisión",
-        "sub": "Incluida en el precio base"
-      }
-    ],
-    "faqLabel": "Preguntas frecuentes",
-    "faqTitle": "Respuestas directas.",
-    "faqs": [
-      {
-        "q": "¿Qué información necesita de nosotros para empezar?",
-        "a": "Le enviaremos un cuestionario de consulta estructurado cubriendo su negocio, mercado, equipo, finanzas y la audiencia específica del plan. La mayoría de los clientes lo completan en 45 a 60 minutos. Después de revisarlo, programamos una entrevista de partes interesadas de 60 a 90 minutos para llenar brechas y presionar los supuestos clave."
-      },
-      {
-        "q": "¿Cómo es esto diferente de un template de plan empresarial?",
-        "a": "Los templates le dan una estructura para que la complete usted mismo. Este producto le proporciona un documento terminado y profesional construido desde recopilación de datos estructurada, una entrevista de partes interesadas e investigación independiente de mercado y competencia. Cada afirmación está documentada. Cada proyección financiera tiene supuestos documentados. El plan está formateado y ponderado para la audiencia específica que lo leerá."
-      },
-      {
-        "q": "¿Escriben planes empresariales de inmigración?",
-        "a": "Sí. Producimos planes empresariales para solicitudes de visa de Inversionista de Tratado E-2, Inversionista Inmigrante EB-5 e Intraempresa Transferida L-1A (Oficina Nueva). El plan cumple con el estándar legal Matter of Ho con proyecciones de creación de empleos, evidencia de impacto económico y un apéndice de documentos de apoyo. No proporcionamos asesoría legal. Su abogado de inmigración es responsable de la estrategia legal y la presentación de la petición."
-      },
-      {
-        "q": "¿Pueden nuestros agencia hacer white-label de esto?",
-        "a": "Sí. El plan está diseñado para entrega white-label. Se lo proporcionamos bajo su marca, su portada, su nombre de agencia. Su cliente nunca ve Soundcheck Insights a menos que usted quiera que lo vea."
-      },
-      {
-        "q": "¿Qué ocurre si mi cliente necesita cambios después de la entrega?",
-        "a": "Una ronda de revisión está incluida en el precio base. Si el cliente desea ajustar supuestos, explorar un escenario diferente o actualizar las proyecciones financieras, podemos actualizar las secciones relevantes. Hay rondas de revisión adicionales disponibles a una tarifa fija."
-      },
-      {
-        "q": "¿Qué idiomas están disponibles?",
-        "a": "English is the default. Spanish and Brazilian Portuguese are also available. Contacto us to confirm availability and timeline for your target language."
-      }
-    ],
-    "ctaTitle": "Su plan debe ser tan serio\ncomo su ambición.",
-    "ctaButton": "Proponer este plan →",
-    "ctaLink": "O explore todos los productos de investigación →"
   },
   "growthRoadmap": {
     "heroLabel": "Profundización del producto · Hoja de ruta de crecimiento en EE.UU.",
@@ -1861,248 +1370,11 @@
       {
         "q": "¿Qué pasa si nuestro cliente necesita cambios después de la entrega?",
         "a": "Una ronda de revisión está incluida. Si el cliente quiere explorar un camino de entrada diferente o ajustar supuestos, podemos actualizar las secciones relevantes. Rondas de revisión adicionales están disponibles a una tarifa fija."
-      },
-      {
-        "q": "¿Ofrecen una versión más ligera para exploración en etapa temprana?",
-        "a": "Sí. Nuestro producto Idea Validation (US$3k+, entrega de 7 días) es una recomendación sí/no para fundadores probando un concepto antes de comprometer capital. Si la idea pasa validación, el Informe de Expansión Completo es el siguiente paso natural."
       }
     ],
     "ctaTitle": "Tu próximo mercado está esperando. Sabe si es real antes de comprometer.",
     "ctaButton": "Proponer este Informe →",
     "ctaLink": "O explora todos los productos de investigación →"
-  },
-  "ideaValidation": {
-    "heroLabel": "Análisis de Validación de Idea · Soundcheck Insights",
-    "heroTitle": "Tu idea podría ser excelente.",
-    "heroTitleHighlight": "mercado",
-    "heroTitleEnd": "lo decidirá.",
-    "heroSub": "Antes de construir, contratar o recaudar fondos, sabe si el mercado es real. Soundcheck ejecuta investigación de IA independiente en tu idea: dimensionamiento de mercado, panorama competitivo, demanda de clientes y lo que tu comprador objetivo pagaría realmente. Completas un formulario de 10 minutos. Entregamos un análisis completo y tu puntuación IVS en 48 horas.",
-    "validateButton": "Validar Mi Idea →",
-    "sampleButton": "Ver un Informe de Muestra →",
-    "heroStats": [
-      {
-        "num": "48",
-        "label": "HORAS",
-        "sub": "desde envío de formulario hasta informe completo"
-      },
-      {
-        "num": "US$799",
-        "label": "",
-        "sub": "precio fijo, sin llamadas, sin programación"
-      },
-      {
-        "num": "10",
-        "label": "MINUTOS",
-        "sub": "para completar el formulario de entrada"
-      }
-    ],
-    "problemLabel": "El costo real de saltarse la validación",
-    "problemTitle": "El 90% de las startups fracasan. La mayoría tuvo reacciones tempranas positivas.",
-    "problemText1": "Tus amigos dicen que es una idea excelente. La investigación en línea parece prometedora. El panorama competitivo se ve manejable. Luego gastas seis meses construyendo algo por lo que nadie pagará.",
-    "problemText2": "El problema no es el entusiasmo. Es la diferencia entre que las personas digan que usarían algo y que realmente paguen por ello. Soundcheck separa esas dos señales con investigación de mercado independiente, no opiniones. Antes de que escribas una línea de código, firmes un arrendamiento o lances un discurso de inversión.",
-    "problemCards": [
-      {
-        "title": "Lo que la mayoría de los fundadores omiten",
-        "text": "Validación independiente de si el problema es genuinamente urgente, no solo interesante. Si no es un problema que las personas busquen resolver activamente, no pagarán para solucionarlo."
-      },
-      {
-        "title": "Lo que Soundcheck agrega",
-        "text": "Investigación de escritorio más un modelo de puntuación estructurado. El IVS te da un número que puedes compartir con un cofundador, un asesor o un inversor que dice exactamente dónde tu idea es fuerte y dónde es frágil."
-      },
-      {
-        "title": "Lo que reemplaza",
-        "text": "Semanas de búsqueda en Google no estructurada, una firma de investigación de mercado de $5,000, o preguntar a ChatGPT sin saber si estás haciendo las preguntas correctas. Mismo resultado. 48 horas. $799."
-      }
-    ],
-    "howLabel": "Tres pasos. 48 horas.",
-    "howTitle": "Sin llamadas. Sin programación. Sin esperas.",
-    "steps": [
-      {
-        "num": "01",
-        "title": "Completa el formulario de entrada (10 minutos)",
-        "body": "Cuéntanos sobre tu idea, el problema que resuelve, para quién es, qué geografía estás enfocando y cómo estás pensando en los precios. 15 preguntas estructuradas diseñadas para extraer exactamente lo que la IA necesita para ejecutar un análisis real. Sin rellenos, sin ensayos.",
-        "meta": "Una pregunta por pantalla · Versión móvil · ~10 minutos · Se guarda automáticamente"
-      },
-      {
-        "num": "02",
-        "title": "La IA ejecuta investigación de mercado independiente",
-        "body": "La IA de Soundcheck dimensiona independientemente el mercado para tu geografía objetivo, mapea el panorama competitivo (incluyendo competidores que podrías no conocer), identifica señales de demanda de datos públicos y ejecuta un proxy WTP usando precios de mercado comparables. Esto no es un eco de lo que nos contaste. Es investigación independiente.",
-        "meta": "Se ejecuta automáticamente después del envío del formulario · Se completa en menos de 48 horas"
-      },
-      {
-        "num": "03",
-        "title": "Recibe tu informe completo + Puntuación IVS",
-        "body": "Recibes dos documentos: el Análisis Completo de Validación de Idea (8 a 12 páginas cubriendo las cinco dimensiones en detalle) y la Tarjeta de Resumen de Idea, un visual de una página que puedes clavar en una pared, compartir con un cofundador o mostrar a un asesor. Tu puntuación IVS te dice exactamente dónde estás y qué hacer a continuación.",
-        "meta": "Entregado por correo electrónico como PDF · Sin inicio de sesión requerido · Descargar inmediatamente"
-      }
-    ],
-    "ivsLabel": "La puntuación que lo hace concreto",
-    "ivsTitle": "Un número. Cinco dimensiones. Claridad total.",
-    "ivsSub": "Cada Análisis de Validación de Idea produce un IVS (Puntuación de Viabilidad de Idea) de 0 a 100. No es una predicción. Es una evaluación estructurada y basada en evidencia de dónde está tu idea en cinco dimensiones que determinan si existe un mercado y si alguien pagaría para entrar en él.",
-    "dimensions": [
-      {
-        "pts": "25",
-        "name": "Validez del Problema",
-        "desc": "¿Es este un problema de Nivel 1 — urgente, frecuente y costoso para quienes lo tienen?"
-      },
-      {
-        "pts": "20",
-        "name": "Oportunidad de Mercado",
-        "desc": "¿El mercado es lo suficientemente grande y está creciendo en tu geografía objetivo?"
-      },
-      {
-        "pts": "20",
-        "name": "Espacio en Blanco Competitivo",
-        "desc": "¿Hay una brecha genuina, o el espacio ya está bien servido?"
-      },
-      {
-        "pts": "20",
-        "name": "Señales de Demanda del Cliente",
-        "desc": "¿Hay señales públicas de que tu cliente objetivo quiere esto y pagaría por ello?"
-      },
-      {
-        "pts": "15",
-        "name": "Diferenciación de la Idea",
-        "desc": "¿Tu enfoque es significativamente diferente de lo que ya existe?"
-      }
-    ],
-    "tiers": [
-      {
-        "range": "75 a 100",
-        "label": "Señal Fuerte",
-        "color": "var(--teal)",
-        "meaning": "Problema real, mercado real, diferenciación real. Construye con urgencia.",
-        "action": "Pasa a plan comercial. Prueba precios con compradores reales este mes."
-      },
-      {
-        "range": "50 a 74",
-        "label": "Digno de Explorar",
-        "color": "#FBBF24",
-        "meaning": "Prometedor pero quedan incertidumbres clave. No listo para construir. Listo para probar.",
-        "action": "Ejecuta 2 a 3 experimentos dirigidos. Reevalúa en 30 días."
-      },
-      {
-        "range": "25 a 49",
-        "label": "Necesita Repensar",
-        "color": "#F97316",
-        "meaning": "El problema o mercado es real pero el enfoque tiene brechas estructurales.",
-        "action": "Gira la solución antes de invertir más. El informe especifica qué."
-      },
-      {
-        "range": "0 a 24",
-        "label": "No Construyas Aún",
-        "color": "#EF4444",
-        "meaning": "Brecha crítica en validez del problema, tamaño del mercado o diferenciación.",
-        "action": "Detente. Reconstruye la hipótesis. El informe explica exactamente por qué."
-      }
-    ],
-    "ivsNote": "El IVS es un indicador de dirección, no una predicción de éxito. Una puntuación de 80 significa que las condiciones del mercado son favorables, no que el negocio funcionará. Una puntuación de 30 significa que algo específico está roto. El informe te dice exactamente qué.",
-    "receiveLabel": "Dos documentos. Entregados juntos.",
-    "receiveTitle": "La imagen completa, y la página que compartes.",
-    "fullReport": {
-      "title": "El Análisis Completo de Validación de Idea (8 a 12 páginas)",
-      "desc": "Un informe estructurado y basado en evidencia cubriendo las cinco dimensiones de IVS en detalle completo. Escrito en lenguaje simple. No académico, no cubierto.",
-      "items": [
-        "Instantánea de la Idea: cómo la IA entendió y clasificó tu idea",
-        "Problema & Mercado: prueba de Nivel 1, TAM/SAM/SOM, tesis de temporización",
-        "Verificación de Realidad Competitiva: mapa de paisaje, análisis de espacio en blanco, veredicto de diferenciación",
-        "Inteligencia de Cliente y Demanda: perfil de ICP, señales de demanda, análisis de WTP",
-        "Veredicto de Viabilidad + IVS: tu puntuación, desglose de dimensión, top 3 riesgos, top 3 fortalezas",
-        "Resumen Ejecutivo: síntesis de una página escrita para compartir"
-      ]
-    },
-    "summaryCard": {
-      "title": "La Tarjeta de Resumen de Idea (1 página)",
-      "desc": "Una hoja lista para imprimir diseñada con tu puntuación IVS, desglose de dimensión, 3 hallazgos clave, el riesgo principal, el rango de WTP vs. tu precio propuesto, y los 3 próximos pasos específicos.",
-      "desc2": "Clávala en una pared. Compártela con tu cofundador. Muéstrasela a un asesor. Dice exactamente dónde estás sin requerir que lean 12 páginas."
-    },
-    "pricingAmount": "US$799",
-    "pricingPer": "por idea",
-    "pricingDelivery": "Entrega de 48 horas desde envío de formulario",
-    "pricingIncludes": "Incluye: Análisis Completo de Validación de Idea + Tarjeta de Resumen de Idea, entregado como PDF · Disponible en inglés, portugués (brasileño), español e italiano",
-    "sampleLabel": "Ver el resultado",
-    "sampleTitle": "Cómo se ve un informe real.",
-    "sampleSub": "Este es un Análisis de Validación de Idea de muestra para un concepto B2B SaaS ficticio dirigido a gestión de inventario de restaurantes en Florida. Muestra la puntuación IVS, desglose de dimensión, hallazgos clave y los tres próximos pasos que el fundador debe tomar este mes.",
-    "sampleCardLabel": "Muestra · Tarjeta de Resumen de Idea",
-    "sampleCardName": "Aplicación de Inteligencia de Inventario de Restaurante",
-    "sampleCardMeta": "B2B SaaS · Estados Unidos (Florida) · Precio propuesto: $79/mes",
-    "sampleScore": "68",
-    "sampleScoreMax": "100",
-    "sampleTier": "Digno de Explorar",
-    "sampleTierSub": "Prometedor. Quedan incertidumbres clave.",
-    "sampleBarsLabel": [
-      "Validez del Problema",
-      "Oportunidad de Mercado",
-      "Espacio en Blanco Competitivo",
-      "Señales de Demanda del Cliente",
-      "Diferenciación de la Idea"
-    ],
-    "sampleWtpLabel": "Análisis de WTP",
-    "sampleWtp": "Piso: $29/mes · Rango: $49 a $99/mes · Techo: $149/mes · El precio propuesto ($79/mes) está dentro del rango aceptable.",
-    "sampleCta": "Validar Mi Idea →",
-    "whoLabel": "Construido para tu momento",
-    "whoTitle": "Ya sea que esta sea tu primera idea o tu quinta.",
-    "audiences": [
-      {
-        "title": "Emprendedores Primerizos",
-        "desc": "Tienes una idea que no puedes dejar de pensar. Has hecho algo de investigación pero no estás seguro de lo que no sabes. Necesitas que alguien te diga honestamente si vale la pena los próximos dos años de tu vida.",
-        "bestFor": "Mejor para:",
-        "items": [
-          "Ideas en la etapa '¿debería renunciar a mi trabajo?'",
-          "Conceptos pre-ingresos, pre-prototipo",
-          "Fundadores que quieren una perspectiva externa antes de lanzar a amigos o familia por dinero",
-          "Cualquiera que haya sido contado 'es una idea excelente' pero no ha escuchado 'aquí está la evidencia'"
-        ]
-      },
-      {
-        "title": "Emprendedores Seriales y Constructores de Proyectos Secundarios",
-        "desc": "Has construido cosas antes. Conoces el patrón: salta validación, enamórate de la solución, lanza al silencio. Esta vez quieres los datos del mercado antes de comenzar a construir.",
-        "bestFor": "Mejor para:",
-        "items": [
-          "Evaluar múltiples ideas rápidamente antes de comprometerse con una",
-          "Probar una nueva geografía o segmento de mercado para un producto existente",
-          "Obtener una segunda opinión cuando tu propia investigación te dice lo que quieres escuchar",
-          "Producir un artefacto compartible antes de lanzar un cofundador o inversor temprano"
-        ]
-      }
-    ],
-    "notForNote": "Lo que esto no es: El Análisis de Validación de Idea responde preguntas de mercado, no preguntas de ejecución. Te dirá si existe un mercado y si los clientes pagarían. No te dirá cómo construir el producto, encontrar un cofundador o recaudar una ronda. Para esas preguntas, mira el Desarrollo del Plan de Negocio de Soundcheck y Soluciones Personalizadas.",
-    "faqLabel": "Preguntas comunes",
-    "faqTitle": "Respuestas directas.",
-    "faqs": [
-      {
-        "q": "¿Por qué no puedo simplemente usar ChatGPT para esto?",
-        "a": "Puedes, y la mayoría lo hace. La diferencia es estructura, independencia y un resultado puntuable. ChatGPT te dirá lo que quieres escuchar si no tienes cuidado con cómo lo preguntas. Soundcheck funciona con una metodología fija con las mismas 15 preguntas, las mismas 5 dimensiones de puntuación, el mismo marco de análisis de WTP. El resultado es consistente, comparable y compartible. La puntuación IVS es algo que puedes entregar a un asesor o inversor. Una conversación de ChatGPT no."
-      },
-      {
-        "q": "¿Y si mi idea está en un mercado temprano, indefinido?",
-        "a": "Los mercados tempranos son donde este análisis es más valioso. Si la categoría no tiene puntos de referencia claros, el informe lo dice explícitamente y el IVS lo refleja. Una puntuación baja en un mercado temprano a menudo significa 'el timing aún no es el correcto' en lugar de 'la idea es incorrecta.' Las secciones de espacio en blanco competitivo y señales de timing están escritas específicamente para distinguir entre las dos."
-      },
-      {
-        "q": "¿Es el informe generado por IA? ¿Un humano lo revisará?",
-        "a": "El informe se genera completamente con IA a partir de tu formulario de entrada e investigación pública independiente. Ningún consultor revisa o edita el resultado antes de la entrega. Eso es lo que hace posible la devolución de 48 horas y el precio de $799. La metodología está diseñada para que el análisis de la IA sea riguroso. Los prompts se construyen alrededor de los mismos marcos que un analista de mercado senior aplicaría. Si quieres que un consultor revise y aconseje sobre los hallazgos, eso está disponible como complemento. Contáctanos."
-      },
-      {
-        "q": "¿Y si mi idea es un producto físico, no software?",
-        "a": "El Análisis de Validación de Idea funciona para cualquier tipo de negocio: SaaS, aplicación, producto físico, negocio de servicios, mercado. El formulario de entrada te pide que especifiques tu tipo de modelo de negocio y la IA calibra el análisis en consecuencia. Puntos de referencia de WTP, comparables competitivos y metodología de dimensionamiento de mercado se adaptan al tipo de modelo que selecciones."
-      },
-      {
-        "q": "¿Puedo validar más de una idea?",
-        "a": "Sí. Cada análisis es por idea y por geografía. Si tienes tres ideas que estás considerando, puedes ejecutar tres análisis separados. Ejecutarlos en paralelo es absolutamente posible. Cada uno toma 10 minutos para presentar."
-      },
-      {
-        "q": "¿Y si no estoy de acuerdo con la puntuación IVS?",
-        "a": "El informe te muestra el desglose de dimensión completo y cada pieza de evidencia detrás de cada puntuación. Si crees que una dimensión fue puntuada incorrectamente porque la IA se perdió un punto de dato clave o competidor, puedes contactarnos y revisaremos la sección específica. Los errores de hecho materiales se corrigen sin cargo."
-      },
-      {
-        "q": "¿En qué idiomas está disponible el informe?",
-        "a": "El inglés es el predeterminado. Portugués (brasileño), español e italiano también están disponibles. Selecciona tu idioma preferido al final del formulario de entrada y el informe completo y la Tarjeta de Resumen se entregarán en ese idioma. Mismo precio, mismo timeline."
-      }
-    ],
-    "ctaTitle": "Tienes la idea.",
-    "ctaTitleEnd": "Ahora averigua si el mercado está de acuerdo.",
-    "ctaButton": "Validar Mi Idea →",
-    "ctaAlt": "O ve un informe de muestra primero →"
   },
   "usMarketArticle": {},
   "virtualFocusGroups": {
@@ -2353,143 +1625,6 @@
       }
     ]
   },
-  "investorVetting": {
-    "heroLabel": "Investor Opportunity Vetting",
-    "heroTitle1": "Evalúe acuerdos a escala",
-    "heroTitle2": "con inteligencia independiente.",
-    "heroSub": "Infraestructura de evaluación independiente para inversores que manejan pipeline a escala. Evalúe fundadores, valide mercados, evalúe tracción, e identifique riesgos—sin construir un equipo de investigación interno.",
-    "requestAccess": "Comience →",
-    "learnMore": "Aprenda más ↓",
-    "heroStats": [
-      {
-        "label": "EVALUACIÓN INDIVIDUAL",
-        "value": "7 DÍAS HÁBILES"
-      },
-      {
-        "label": "TIERS DE SUSCRIPCIÓN",
-        "value": "3 OPCIONES"
-      },
-      {
-        "label": "RANGO DE PRECIOS",
-        "value": "US$1,500–US$15,000/mes"
-      }
-    ],
-    "positioningLabel": "¿Por qué Infraestructura de Evaluación?",
-    "positioningTitle": "Los inversores no compran informes uno a la vez. Compran infraestructura de evaluación.",
-    "positioningDesc1": "Ya se suscribe a PitchBook, Crunchbase Pro, Tracxn. Esas herramientas le dicen qué existe. Soundcheck es la capa de inteligencia que le dice qué pensar sobre lo que existe. Capa diferente del stack.",
-    "positioningDesc2": "Ya sea evaluando 5 acuerdos al mes o 50, necesita una metodología de evaluación consistente y defendible. Eso es lo que Soundcheck proporciona—la infraestructura para evaluar a escala, con transparencia y documentación incorporadas.",
-    "tiersLabel": "Precios y Disponibilidad",
-    "tiersTitle": "Dos tiers: transaccional y estratégico.",
-    "tierASingleLabel": "Tier A — Evaluación de Oportunidad Individual",
-    "tierASingleTitle": "Un acuerdo a la vez.",
-    "tierAInstitutional": "VC/PE Institucional",
-    "tierAInstitutionalDesc": "Por evaluación. Sin compromiso, sin suscripción.",
-    "tierAAngelFamily": "Ángel / Oficina Familiar",
-    "tierAAngelFamilyDesc": "US$1,000 cada una en paquete de 3. O US$1,500 individual.",
-    "tierASingleDesc": "Caso de uso: Evaluación de una líder de Series A o exploración de una secundaria. Obtenga un informe de evaluación estandarizado en 7 días hábiles.",
-    "tierAAvailability": "Disponible ahora",
-    "tierBSubscriptionLabel": "Tier B — Suscripción del Inversor",
-    "tierBSubscriptionTitle": "Modelo de suscripción (próximamente).",
-    "tierBDesc": "Precios estratégicos para inversores que evalúan 10+ acuerdos por mes. Tiers Starter, Professional, y Enterprise con volumen variable, evaluaciones, y horas de revisión de expertos.",
-    "tierBComingSoon": "Próximamente",
-    "tierBLaunchTimeline": "Tier B se lanza después de que hayamos entregado 10+ evaluaciones manuales y validado la metodología con clientes pagadores. Esperado Q1 2027.",
-    "tierBEarlyPhase": "Fase Temprana — Solo Tier A",
-    "deliverablesLabel": "Qué hay en un Informe de Evaluación",
-    "deliverablesTitle": "Cada evaluación individual incluye estos siete elementos.",
-    "singleVettingItems": [
-      {
-        "label": "Fundador",
-        "title": "Evaluación de fundador y equipo — antecedentes, historial de éxito, habilidades complementarias, red flags."
-      },
-      {
-        "label": "Mercado",
-        "title": "Validación de oportunidad de mercado — TAM, trayectoria de crecimiento, intensidad competitiva, vientos favorables."
-      },
-      {
-        "label": "Competencia",
-        "title": "Panorama competitivo — competidores directos e indirectos, diferenciación, defensas."
-      },
-      {
-        "label": "Tracción",
-        "title": "Revisión de validez de tracción — autenticidad de tasa de crecimiento, análisis de cohorte, señales de retención."
-      },
-      {
-        "label": "Finanzas",
-        "title": "Revisión de cordura financiera — tasa de quema, runway, economía unitaria, preguntas de camino a rentabilidad."
-      },
-      {
-        "label": "Riesgo",
-        "title": "Marco de riesgo — deal-breakers, riesgo de ejecución, riesgo de mercado, riesgo de fundador, riesgo macroeconómico."
-      },
-      {
-        "label": "Preguntas",
-        "title": "Preguntas recomendadas para debida diligencia — seguimientos críticos para su equipo, fraseados para una llamada fundadora."
-      }
-    ],
-    "subscriptionTableLabel": "Desglose de Tier Estratégico",
-    "subscriptionTableTitle": "Tiers de suscripción para inversores que manejan pipeline de alto volumen.",
-    "subscriptionTiers": [
-      {
-        "name": "Starter",
-        "price": "US$2,500",
-        "vettingsPerMonth": "Hasta 10",
-        "perVettingCost": "US$250",
-        "scope": "Alcance ligero, auto-servicio",
-        "expertReview": "Ninguno"
-      },
-      {
-        "name": "Professional",
-        "price": "US$7,500",
-        "vettingsPerMonth": "Hasta 40",
-        "perVettingCost": "US$187",
-        "scope": "Alcance completo",
-        "expertReview": "2 hrs/mes"
-      },
-      {
-        "name": "Enterprise",
-        "price": "US$15,000",
-        "vettingsPerMonth": "Hasta 100",
-        "perVettingCost": "US$150",
-        "scope": "Alcance completo + criterios personalizados",
-        "expertReview": "8 hrs/mes + integraciones"
-      }
-    ],
-    "trustLabel": "Cómo Construimos Confianza",
-    "trustTitle": "Validamos manualmente antes de escalar el producto de suscripción.",
-    "trustDesc": "Los clientes de Tier A hoy se convierten en suscriptores de Tier B mañana. Estamos ejecutando Fase 1: evaluaciones manuales, retroalimentación real, mejoras reales a la metodología.",
-    "trustPhase1": "Cada evaluación es revisada por nuestro equipo de investigación para documentación, etiquetado de confianza, y framing estratégico antes de entrega. Estamos construyendo la metodología a un estándar que podamos automatizar después—no automatizando primero y esperando que funcione.",
-    "faqLabel": "Preguntas Frecuentes",
-    "faqTitle": "Preguntas que nos hacen.",
-    "faqs": [
-      {
-        "q": "¿Cuándo está disponible la suscripción?",
-        "a": "Tier A (evaluaciones individuales) está disponible ahora. Tier B (suscripción) se lanza después de que entregemos 10+ evaluaciones manuales y validemos la metodología con clientes pagadores. Esperado Q1 2027."
-      },
-      {
-        "q": "¿Cuál es el turnaround?",
-        "a": "7 días hábiles para evaluaciones individuales. Los clientes de suscripción obtienen procesamiento prioritario y tiempos de turnaround más rápidos dependiendo del tier."
-      },
-      {
-        "q": "¿Esto es generado por IA?",
-        "a": "La plataforma realiza el trabajo analítico pesado—agregando datos, construyendo marcos analíticos, dimensiones de puntuación. La revisión de expertos se incluye en los tiers Professional y Enterprise para validación y matiz. Las evaluaciones individuales de Tier A incluyen revisión de aseguramiento de calidad."
-      },
-      {
-        "q": "¿Podemos personalizar criterios de evaluación?",
-        "a": "Sí. Los suscriptores de Enterprise pueden definir dimensiones de puntuación personalizadas y criterios de evaluación específicos para su tesis, perfil de riesgo, y enfoque de industria."
-      },
-      {
-        "q": "¿Cómo es diferente de Crunchbase o PitchBook?",
-        "a": "Esas son herramientas de datos—le dicen qué existe. Soundcheck es una capa de inteligencia—le dice qué pensar sobre lo que existe. Capa diferente del stack. Se suscribe a esas para datos; se suscribe a nosotros para análisis y evaluación."
-      },
-      {
-        "q": "¿Qué pasa si no estamos de acuerdo con el veredicto?",
-        "a": "Cada afirmación está documentada y cada puntuación es transparente. Si una dimensión fue puntuada incorrectamente debido a información faltante, revisaremos sin cargo y proporcionaremos una evaluación actualizada."
-      }
-    ],
-    "ctaTitle": "¿Listo para evaluar a escala?",
-    "ctaSub": "Comience con una evaluación individual, o hable con nosotros sobre un tier de suscripción para su fondo.",
-    "ctaButton": "Solicite una evaluación →"
-  },
   "scaleAssessment": {
     "heroLabel": "Análisis Profundo de Producto · Scale Assessment",
     "heroTitle": "Crecimiento es lo que te vendieron.\nEscala es lo que realmente necesitas.",
@@ -2710,7 +1845,7 @@
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona seleccionada se mueve desde la primera conciencia hasta la defensa de la marca — y dónde tus puntos de contacto actuales o planeados se alinean con ellos o no. Construido a partir de tu investigación de mercado y panel de personas. Una breve toma de requerimientos de marca (~15 minutos) captura tu estrategia go-to-market. El sistema genera un mapa de viaje visual para cada persona seleccionada.",
         "whatYouGet": "Visión general del embudo + línea temporal por persona + análisis de brechas + exportación PDF",
         "delivery": "3–5 días de negocio desde la toma de requerimientos de marca",
-        "pricing": "US$500 por persona · elige cualquier número de tu panel",
+        "pricing": "US$400 por persona · elige cualquier número de tu panel",
         "link": "/consumer-journeys",
         "linkLabel": "Ver detalles completos →"
       },
@@ -2858,7 +1993,7 @@
       }
     ],
     "pricingTitle": "Precios",
-    "pricingAmount": "US$500 por persona",
+    "pricingAmount": "US$400 por persona",
     "pricingSub": "Selecciona cualquier número de personas de tu panel. Sin mínimo.",
     "pricingIncludes": "Toma de Requerimientos de Puntos de Contacto de Marca (formulario guiado, ~15 min) · Generación de viaje completo · Panel de Control de Visión General del Embudo · Tarjetas de Viaje por Persona · Análisis de Brechas con Puntuaciones de Severidad · Resumen ejecutivo · Exportación PDF white-label · Historial de versiones",
     "pricingExamples": "6 personas = US$3,000 | 10 personas = US$5,000 | 20 personas = US$10,000",
