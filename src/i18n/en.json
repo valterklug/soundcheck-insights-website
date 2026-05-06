@@ -28,12 +28,12 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Fractional Executives",
+    "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Marketing Executives",
     "heroTitle1": "AI-native market intelligence",
     "heroTitle2": "",
     "heroTitle3": "for international brands",
-    "heroTitle4": "entering and scaling in the US.",
-    "heroDesc": "Test before you invest. Validation, research, focus groups, and strategic insights — productized, AI-accelerated, in days, not months. Delivered by operators, under their own brand.",
+    "heroTitle4": "entering and scaling in a new market.",
+    "heroDesc": "Test before you invest. Validation, research, focus groups, and strategic insights — productized, AI-accelerated, in days, not months. Delivered by Soundcheck directly, or by operators, white-labeled.",
     "requestAccess": "Become an Operator Partner →",
     "seeHowItWorks": "See How It Works",
     "stats": [
@@ -126,7 +126,7 @@
       },
       {
         "num": "03",
-        "for": "US Brands & Agencies · Strategic Intelligence",
+        "for": "Established Brands & Agencies · Strategic Intelligence",
         "name": "Scale Assessment",
         "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
         "delivery": "$4,000 · Requires Market Research",
@@ -457,7 +457,7 @@
       {
         "num": "03",
         "name": "Scale Assessment",
-        "audience": "US Brands · Strategic Intelligence",
+        "audience": "Established Brands · Strategic Intelligence",
         "desc": "Scale Diagnostic, operational readiness, competitive position, phased 24-month plan with go/no-go gates, and 90-day intelligence layer.",
         "delivery": "3–4 week delivery",
         "price": "MSRP: $4,000",
@@ -568,10 +568,10 @@
       },
       {
         "num": "03",
-        "for": "US Brands & Agencies · Strategic Intelligence",
+        "for": "Established Brands & Agencies · Strategic Intelligence",
         "name": "Scale Assessment",
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
-        "desc": "For US-market consumer brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
+        "desc": "For established brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
         "price": "US$4,000",
         "delivery": "3–4 week delivery · Requires Market Research · White-label included",
         "ctaLabel": "See Full Assessment Details →",
@@ -1618,7 +1618,7 @@
   "scaleAssessment": {
     "heroLabel": "Product Deep-Dive · Scale Assessment",
     "heroTitle": "Growth is what they sold you.\nScale is what you actually need.",
-    "heroSub": "The Scale Assessment is built for US-market consumer brands at strategic inflection points. It answers a different question than most market intelligence: not where can you grow, but whether you are built to scale durably — and what you need to build first if you are not.",
+    "heroSub": "The Scale Assessment is built for established brands at strategic inflection points. It answers a different question than most market intelligence: not where can you grow, but whether you are built to scale durably — and what you need to build first if you are not.",
     "briefButton": "Brief This Assessment →",
     "seeInside": "See What's Inside ↓",
     "heroStats": [
@@ -1649,15 +1649,15 @@
     "scaleDesc": "Structural. Diagnostic. Identifies what must be true operationally before expansion is durable. Informed by the Too Small To Fall framework.",
     "whoLabel": "Who commissions this",
     "whoTitle": "Built for brands at inflection points.",
-    "whoSub": "US-market consumer brands (typically $10M–$250M revenue) evaluating expansion, category extension, or strategic moves. Brands entering the US from elsewhere. Mid-market companies facing decisions that will define the next 3–5 years.",
+    "whoSub": "Established consumer brands (typically $10M–$250M revenue) evaluating expansion, category extension, or strategic moves. Brands entering new markets. Mid-market companies facing decisions that will define the next 3–5 years.",
     "whoCards": [
       {
-        "title": "US consumer brands",
-        "desc": "Established companies evaluating category extension, geographic expansion, or channel diversification. You have revenue and product-market fit. You need to know if the infrastructure supports the ambition."
+        "title": "Established consumer brands",
+        "desc": "Companies with revenue and product-market fit evaluating category extension, geographic expansion, or channel diversification. You need to know if the infrastructure supports the ambition."
       },
       {
-        "title": "Brands entering the US",
-        "desc": "International brands entering the US market who need to understand not just the opportunity, but whether their operational model can scale in a new environment."
+        "title": "Brands entering new markets",
+        "desc": "International brands expanding into a new geography who need to understand not just the opportunity, but whether their operational model can scale in a new environment."
       },
       {
         "title": "Agencies (white-label)",

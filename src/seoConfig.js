@@ -169,7 +169,7 @@ const seoConfig = {
 
   '/scale-assessment': {
     title: 'Scale Assessment',
-    description: 'For US consumer brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan. $4,000. Requires Market Research.',
+    description: 'For established brands at strategic inflection points. Know whether you are built to scale, identify defensible expansion opportunities, and get a 24-month phased scale plan. $4,000. Requires Market Research.',
     image: '/og/og-scale-assessment.png',
     keywords: 'scale assessment, scaling strategy, operational readiness, business scaling, consumer brand growth, market expansion, AI market intelligence',
     schema: serviceSchema(

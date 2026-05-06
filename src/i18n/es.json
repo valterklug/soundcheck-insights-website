@@ -28,12 +28,12 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "Plataforma de Inteligencia de Mercado · Para Agencias, Consultorías y Ejecutivos Fraccionales",
+    "heroBadge": "Plataforma de Inteligencia de Mercado · Para Agencias, Consultorías y Ejecutivos de Marketing",
     "heroTitle1": "Inteligencia de mercado AI-native",
     "heroTitle2": "",
     "heroTitle3": "para marcas internacionales",
-    "heroTitle4": "entrando y escalando en EE.UU.",
-    "heroDesc": "Pruebe antes de invertir. Validación, investigación, focus groups e insights estratégicos — productizados, acelerados por IA, en días, no meses. Entregados por operadores, bajo su propia marca.",
+    "heroTitle4": "entrando y escalando en un nuevo mercado.",
+    "heroDesc": "Pruebe antes de invertir. Validación, investigación, focus groups e insights estratégicos — productizados, acelerados por IA, en días, no meses. Entregados por Soundcheck directamente, o por operadores, bajo white-label.",
     "requestAccess": "Conviértase en Operador →",
     "seeHowItWorks": "Ver Cómo Funciona",
     "stats": [
@@ -126,7 +126,7 @@
       },
       {
         "num": "03",
-        "for": "Marcas y Agencias en EE.UU. · Inteligencia Estratégica",
+        "for": "Marcas Establecidas y Agencias · Inteligencia Estratégica",
         "name": "Scale Assessment",
         "desc": "Diagnóstico de Escala, posición competitiva, preparación operacional y plan de 24 meses. Framework Too Small To Fall.",
         "delivery": "$4,000 · Requiere Investigación de Mercado",
@@ -553,10 +553,10 @@
       },
       {
         "num": "03",
-        "for": "Marcas US y Agencias · Inteligencia Estratégica",
+        "for": "Marcas Establecidas y Agencias · Inteligencia Estratégica",
         "name": "Scale Assessment",
         "tagline": "Crecimiento es lo que te vendieron. Escala es lo que realmente necesitas.",
-        "desc": "Para marcas de consumo en el mercado estadounidense en puntos de inflexión estratégicos. Responde si estás construido para escalar de manera durable — y qué necesitas construir primero si no lo estás.",
+        "desc": "Para marcas establecidas en puntos de inflexión estratégicos. Responde si estás construido para escalar de manera durable — y qué necesitas construir primero si no lo estás.",
         "price": "US$4,000",
         "delivery": "Entrega en 3–4 semanas · Requiere Investigación de Mercado · White-label incluido",
         "ctaLabel": "Ver Detalles del Assessment →",
@@ -1650,7 +1650,7 @@
   "scaleAssessment": {
     "heroLabel": "Análisis Profundo de Producto · Scale Assessment",
     "heroTitle": "Crecimiento es lo que te vendieron.\nEscala es lo que realmente necesitas.",
-    "heroSub": "El Scale Assessment está diseñado para marcas de consumidor del mercado estadounidense en puntos de inflexión estratégica. Responde una pregunta distinta a la mayoría de inteligencia de mercado: no dónde puedes crecer, sino si estás construido para escalar de forma duradera — y qué necesitas construir primero si no lo estás.",
+    "heroSub": "El Scale Assessment está diseñado para marcas establecidas en puntos de inflexión estratégica. Responde una pregunta distinta a la mayoría de inteligencia de mercado: no dónde puedes crecer, sino si estás construido para escalar de forma duradera — y qué necesitas construir primero si no lo estás.",
     "briefButton": "Solicitar Este Assessment →",
     "seeInside": "Ver Qué Incluye ↓",
     "heroStats": [
@@ -1681,15 +1681,15 @@
     "scaleDesc": "Estructural. Diagnóstico. Identifica qué debe ser verdad operacionalmente antes de que la expansión sea duradera. Informado por el marco Too Small To Fall.",
     "whoLabel": "Quién encarga esto",
     "whoTitle": "Diseñado para marcas en puntos de inflexión.",
-    "whoSub": "Marcas de consumidor del mercado estadounidense (típicamente $10M–$250M en ingresos) evaluando expansión, extensión de categoría, o movimientos estratégicos. Marcas que entran a EE.UU. desde otros lugares. Empresas de mid-market enfrentando decisiones que definirán los próximos 3–5 años.",
+    "whoSub": "Marcas de consumidor establecidas (típicamente $10M–$250M en ingresos) evaluando expansión, extensión de categoría, o movimientos estratégicos. Marcas que entran a nuevos mercados. Empresas de mid-market enfrentando decisiones que definirán los próximos 3–5 años.",
     "whoCards": [
       {
-        "title": "Marcas de consumidor estadounidenses",
-        "desc": "Empresas establecidas evaluando extensión de categoría, expansión geográfica, o diversificación de canales. Tienes ingresos y product-market fit. Necesitas saber si la infraestructura respalda la ambición."
+        "title": "Marcas de consumidor establecidas",
+        "desc": "Empresas con ingresos y product-market fit evaluando extensión de categoría, expansión geográfica, o diversificación de canales. Necesitas saber si la infraestructura respalda la ambición."
       },
       {
-        "title": "Marcas que entran a EE.UU.",
-        "desc": "Marcas internacionales que entran al mercado estadounidense que necesitan entender no solo la oportunidad, sino si su modelo operacional puede escalar en un nuevo entorno."
+        "title": "Marcas que entran a nuevos mercados",
+        "desc": "Marcas internacionales expandiéndose a una nueva geografía que necesitan entender no solo la oportunidad, sino si su modelo operacional puede escalar en un nuevo entorno."
       },
       {
         "title": "Agencias (white-label)",
