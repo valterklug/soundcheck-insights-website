@@ -510,8 +510,8 @@
   },
   "products": {
     "heroLabel": "Research Products",
-    "heroTitle": "Intelligence your agency deploys.\nResults your clients remember.",
-    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. Designed for white-label delivery under your agency's brand.",
+    "heroTitle": "Decision-grade intelligence.\nFixed scope. Fixed price.",
+    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. Available directly from Soundcheck or through our operator network. All prices shown are MSRP.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -523,8 +523,8 @@
     "foundationLabel": "The Foundation · Every Engagement Starts Here",
     "addOnsLabel": "Requires Market Research",
     "addOnsTitle": "Build on top of your research.",
-    "ctaTitle": "Ready to brief your first product?",
-    "ctaSub": "Tell us what you're working on. We'll match you to the right product and turnaround.",
+    "ctaTitle": "Ready to get started?",
+    "ctaSub": "Tell us what you're working on. We'll match you to the right product and timeline — whether you're buying directly or delivering through your agency.",
     "ctaButton": "Brief a Product →",
     "items": [
       {
@@ -534,7 +534,7 @@
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 8, or 10 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
         "price": "US$3,000 / $3,500 / $4,000 (S / M / L)",
-        "delivery": "5–10 day delivery · White-label included",
+        "delivery": "5–10 day delivery · MSRP",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
@@ -552,7 +552,7 @@
         "name": "International Expansion Viability (IXV)",
         "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
         "price": "US$2,000",
-        "delivery": "2–3 week delivery · Requires Market Research · White-label included",
+        "delivery": "2–3 week delivery · Requires Market Research",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
           "CVE Score (Coefficient of Viability of Expansion) — weighted scoring (0 to 100)",
@@ -573,7 +573,7 @@
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
         "desc": "For established brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
         "price": "US$4,000",
-        "delivery": "3–4 week delivery · Requires Market Research · White-label included",
+        "delivery": "3–4 week delivery · Requires Market Research",
         "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
           "Scale Diagnostic — built to grow vs. built to scale (Too Small To Fall framework)",
@@ -595,7 +595,7 @@
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Attaches to a completed Market Research.",
         "price": "US$500 per persona",
-        "delivery": "2–3 day delivery · Requires Market Research · White-label included",
+        "delivery": "2–3 day delivery · Requires Market Research",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
           "Per-persona journey map — awareness through advocacy, brand-specific touchpoints",
@@ -613,7 +613,7 @@
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
         "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Add a re-test pack for iterative testing.",
         "price": "US$3,000/session · +$2,000 re-test pack",
-        "delivery": "1–3 day delivery · Requires Market Research · White-label included",
+        "delivery": "1–3 day delivery · Requires Market Research",
         "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
           "Full focus group session — test any concept against persona panel",

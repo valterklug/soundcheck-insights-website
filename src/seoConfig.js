@@ -74,9 +74,9 @@ const seoConfig = {
 
   '/products': {
     title: 'Research Products',
-    description: 'Five fixed-scope market intelligence products for operators: International Viability Analysis, Scale Assessment, Market Research, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline, white-label ready.',
+    description: 'Five fixed-scope market intelligence products: Market Research, International Viability Analysis, Scale Assessment, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline. Available directly or through operator partners.',
     image: '/og/og-products.png',
-    keywords: 'market research products, expansion report, scale assessment, market research, customer journey maps, virtual focus groups, white-label research, operator platform',
+    keywords: 'market research products, expansion report, scale assessment, market research, customer journey maps, virtual focus groups, market intelligence, consumer research',
     schema: {
       '@context': 'https://schema.org',
       '@type': 'ItemList',

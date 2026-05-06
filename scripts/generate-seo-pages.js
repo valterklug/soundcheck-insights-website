@@ -30,7 +30,7 @@ const pages = {
   },
   '/products': {
     title: 'Research Products | Soundcheck Insights',
-    description: 'Five fixed-scope market intelligence products for operators: International Viability Analysis, Scale Assessment, Market Research, Customer Journey Maps, and Virtual Focus Groups.',
+    description: 'Five fixed-scope market intelligence products: Market Research, International Viability Analysis, Scale Assessment, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline.',
     image: '/og/og-products.png',
   },
   '/how-it-works': {

@@ -111,7 +111,7 @@
         "for": "Ponto de Partida · Todo Engajamento",
         "name": "Pesquisa de Mercado",
         "desc": "Três relatórios — Análise de Mercado, Análise do Consumidor, Cenário Competitivo — mais um painel de personas. A base de tudo.",
-        "delivery": "A partir de $3.000 · Tiers S/M/L · White-label incluído",
+        "delivery": "A partir de $3.000 · Tiers S/M/L",
         "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech disponível"
       },
@@ -492,8 +492,8 @@
   },
   "products": {
     "heroLabel": "Produtos de Pesquisa",
-    "heroTitle": "Inteligência que sua agência implementa.\nResultados que seus clientes não vão esquecer.",
-    "heroSub": "Cinco produtos modulares. Todo engajamento começa com Pesquisa de Mercado — os outros quatro se vinculam a ela. Projetados para entrega white-label sob a marca da sua agência.",
+    "heroTitle": "Inteligência de nível decisório.\nEscopo fixo. Preço fixo.",
+    "heroSub": "Cinco produtos modulares. Todo engajamento começa com Pesquisa de Mercado — os outros quatro se vinculam a ela. Disponíveis diretamente da Soundcheck ou através da nossa rede de operadores. Todos os preços são MSRP.",
     "viewDeliverables": "Ver O Que é Entregue",
     "hideDeliverables": "Ocultar O Que é Entregue",
     "whatsDelivered": "O Que é Entregue",
@@ -508,8 +508,8 @@
     "foundationLabel": "A Base · Tudo Começa Aqui",
     "addOnsLabel": "Requer Pesquisa de Mercado",
     "addOnsTitle": "Construa sobre sua pesquisa.",
-    "ctaTitle": "Pronto para fazer o brief do seu primeiro produto?",
-    "ctaSub": "Conte-nos no que está trabalhando. Vamos encontrar o produto certo e o prazo para você.",
+    "ctaTitle": "Pronto para começar?",
+    "ctaSub": "Conte-nos no que está trabalhando. Vamos conectar você ao produto e prazo certos — seja comprando diretamente ou entregando através da sua agência.",
     "ctaButton": "Fazer Brief de um Produto →",
     "items": [
       {
@@ -519,7 +519,7 @@
         "tagline": "Personas baseadas em pesquisa e inteligência de mercado de nível decisório.",
         "desc": "Três relatórios de nível decisório — Análise de Mercado, Análise do Consumidor, Panorama Competitivo — mais um painel de personas com 6, 12 ou 20 buyer personas dependendo do nível.",
         "price": "US$3.000 / $3.500 / $4.000 (S / M / L)",
-        "delivery": "Entrega em 5–10 dias · White-label incluído",
+        "delivery": "Entrega em 5–10 dias",
         "ctaLabel": "Ver Detalhes da Pesquisa →",
         "deliverables": [
           "Relatório de Análise de Mercado — dimensionamento, tendências, panorama regulatório",
@@ -537,7 +537,7 @@
         "name": "Viabilidade de Expansão Internacional (IXV)",
         "desc": "Inteligência de entrada no mercado para qualquer empresa planejando expandir para um novo mercado. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
         "price": "US$2.000",
-        "delivery": "Entrega em 2–3 semanas · Requer Pesquisa de Mercado · White-label incluído",
+        "delivery": "Entrega em 2–3 semanas · Requer Pesquisa de Mercado",
         "ctaLabel": "Ver Detalhes do Relatório →",
         "deliverables": [
           "CVE Score — pontuação ponderada de 3 dimensões (0 a 100)",
@@ -558,7 +558,7 @@
         "tagline": "Crescimento é o que te venderam. Escala é o que você realmente precisa.",
         "desc": "Para marcas estabelecidas em pontos de inflexão estratégicos. Responde se você está construído para escalar de forma durável — e o que precisa construir primeiro se não estiver.",
         "price": "US$4.000",
-        "delivery": "Entrega em 3–4 semanas · Requer Pesquisa de Mercado · White-label incluído",
+        "delivery": "Entrega em 3–4 semanas · Requer Pesquisa de Mercado",
         "ctaLabel": "Ver Detalhes do Assessment →",
         "deliverables": [
           "Scale Diagnostic — construído para crescer vs. construído para escalar",
@@ -579,7 +579,7 @@
         "tagline": "Veja exatamente onde sua marca conecta — e onde perde pessoas.",
         "desc": "Mapas de jornada específicos por marca mostrando como cada persona se move do awareness à advocacy — e onde os touchpoints da marca se alinham, falham ou criam fricção.",
         "price": "US$500 por persona",
-        "delivery": "Entrega em 2–3 dias · White-label incluído",
+        "delivery": "Entrega em 2–3 dias",
         "ctaLabel": "Ver Detalhes dos Mapas de Jornada →",
         "deliverables": [
           "Mapa de jornada por persona — awareness até advocacy, touchpoints específicos",
@@ -597,7 +597,7 @@
         "tagline": "Teste qualquer conceito contra seu público real — em horas, não semanas.",
         "desc": "Sessões de focus group com IA que testam conceitos, mensagens, packaging, preços ou posicionamento contra o painel completo de personas. Votos de preferência, citações textuais e insights estratégicos.",
         "price": "US$3.000/sessão · +$2.000 pack de re-teste",
-        "delivery": "Entrega em 1–3 dias · Requer Pesquisa de Mercado · White-label incluído",
+        "delivery": "Entrega em 1–3 dias · Requer Pesquisa de Mercado",
         "ctaLabel": "Ver Detalhes dos Focus Groups →",
         "deliverables": [
           "Sessão completa de focus group — teste qualquer conceito",
