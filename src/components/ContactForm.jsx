@@ -88,7 +88,7 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
             <option value="agency-partnership">I'm an agency or consultancy</option>
             <option value="fractional-exec">I'm a fractional executive or independent consultant</option>
             <option value="brand">I'm a brand exploring intelligence services</option>
-            <option value="brief-expansion">Brief — International Viability Analysis</option>
+            <option value="brief-expansion">Brief — GoGlobal (International Expansion Assessment)</option>
             <option value="brief-scale">Brief — Scale Assessment</option>
             <option value="brief-research">Brief — Market Research</option>
             <option value="brief-focusgroups">Brief — Virtual Focus Groups</option>

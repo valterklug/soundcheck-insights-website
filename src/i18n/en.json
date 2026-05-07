@@ -118,7 +118,7 @@
       {
         "num": "02",
         "for": "Operators & Brands · Market Expansion",
-        "name": "International Expansion Viability (IXV)",
+        "name": "GoGlobal - International Expansion Assessment",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to your Market Research.",
         "delivery": "$2,000 · Requires Market Research",
         "link": "/expansion-report",
@@ -210,7 +210,7 @@
       },
       {
         "num": "04",
-        "name": "International Expansion Viability",
+        "name": "GoGlobal - International Expansion Assessment",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, and a phased roadmap for market entry.",
         "price": "$2,000",
         "link": "/expansion-report"
@@ -447,7 +447,7 @@
       },
       {
         "num": "02",
-        "name": "International Expansion Viability (IXV)",
+        "name": "GoGlobal - International Expansion Assessment",
         "audience": "International Brands · Market Entry",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to Market Research.",
         "delivery": "2–3 week delivery",
@@ -549,7 +549,7 @@
       {
         "num": "02",
         "for": "Operators & Brands · Market Expansion",
-        "name": "International Expansion Viability (IXV)",
+        "name": "GoGlobal - International Expansion Assessment",
         "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
         "price": "US$2,000",
         "delivery": "2–3 week delivery · Requires Market Research",
@@ -1075,9 +1075,9 @@
     "ctaLink": "Or explore all research products →"
   },
   "expansionReport": {
-    "heroLabel": "Product Deep-Dive · International Viability Analysis",
+    "heroLabel": "Product Deep-Dive · GoGlobal - International Expansion Assessment",
     "heroTitle": "Before You Invest in Expansion, Know What You're Walking Into",
-    "heroSub": "The International Viability Analysis is built for any company evaluating expansion into a new market — whether entering a new country, a new region, or an adjacent category in unfamiliar territory. Not a data dump. A decision-grade document with sourced evidence, a proprietary CVE Score, strategic paths, and a phased roadmap your team can execute from Day 1.",
+    "heroSub": "GoGlobal is built for any company evaluating expansion into a new market — whether entering a new country, a new region, or an adjacent category in unfamiliar territory. Not a data dump. A decision-grade document with sourced evidence, a proprietary CVE Score, strategic paths, and a phased roadmap your team can execute from Day 1.",
     "briefButton": "Brief This Report →",
     "seeInsideButton": "See What's Inside →",
     "heroStats": [

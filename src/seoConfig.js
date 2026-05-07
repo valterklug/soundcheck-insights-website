@@ -74,7 +74,7 @@ const seoConfig = {
 
   '/products': {
     title: 'Research Products',
-    description: 'Five fixed-scope market intelligence products: Market Research, International Viability Analysis, Scale Assessment, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline. Available directly or through operator partners.',
+    description: 'Five fixed-scope market intelligence products: Market Research, GoGlobal - International Expansion Assessment, Scale Assessment, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline. Available directly or through operator partners.',
     image: '/og/og-products.png',
     keywords: 'market research products, expansion report, scale assessment, market research, customer journey maps, virtual focus groups, market intelligence, consumer research',
     schema: {
@@ -83,7 +83,7 @@ const seoConfig = {
       name: 'Soundcheck Insights Research Products',
       numberOfItems: 5,
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'International Viability Analysis', url: `${SITE_URL}/expansion-report` },
+        { '@type': 'ListItem', position: 1, name: 'GoGlobal - International Expansion Assessment', url: `${SITE_URL}/expansion-report` },
         { '@type': 'ListItem', position: 2, name: 'Scale Assessment', url: `${SITE_URL}/scale-assessment` },
         { '@type': 'ListItem', position: 3, name: 'Market Research', url: `${SITE_URL}/research-platform` },
         { '@type': 'ListItem', position: 4, name: 'Customer Journey Maps', url: `${SITE_URL}/consumer-journeys` },
@@ -127,12 +127,12 @@ const seoConfig = {
   // /for-investors removed — redirects to /products
 
   '/expansion-report': {
-    title: 'International Expansion Viability Report',
+    title: 'GoGlobal - International Expansion Assessment',
     description: 'Decision-grade market entry intelligence for international brands. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages in 14 days.',
     image: '/og/og-expansion-report.png',
     keywords: 'international expansion, market entry report, CVE score, market expansion, brand expansion, viability analysis, new market entry',
     schema: serviceSchema(
-      'International Expansion Viability Report',
+      'GoGlobal - International Expansion Assessment',
       'Market entry intelligence with CVE Score, competitive landscape analysis, regulatory framework, distribution channel mapping, and phased roadmap. Attaches to Market Research.',
       '2000',
       '/expansion-report',

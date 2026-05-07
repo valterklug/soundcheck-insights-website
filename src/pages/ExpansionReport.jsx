@@ -22,7 +22,7 @@ export default function ExpansionReport() {
   return (
     <PageWrapper>
       <SEO
-        title="International Expansion Viability Report"
+        title="GoGlobal - International Expansion Assessment"
         description="Decision-grade market entry intelligence for international brands. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap. 100+ pages in 14 days."
         path="/expansion-report"
         image="/og/og-expansion-report.png"

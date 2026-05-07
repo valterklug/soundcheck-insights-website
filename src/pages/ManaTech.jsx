@@ -6,7 +6,7 @@ import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 const memberRates = [
   { name: 'Market Research (S/M/L)', standard: '$3,000 / $3,500 / $4,000', member: '$2,250 / $2,625 / $3,000', link: '/research-platform' },
-  { name: 'International Expansion Viability (IXV)', standard: '$2,000', member: '$1,500', link: '/expansion-report' },
+  { name: 'GoGlobal - International Expansion Assessment', standard: '$2,000', member: '$1,500', link: '/expansion-report' },
   { name: 'Scale Assessment', standard: '$4,000', member: '$3,000', link: '/scale-assessment' },
   { name: 'Customer Journey Maps', standard: '$500/persona', member: '$375/persona', link: '/consumer-journeys' },
   { name: 'Virtual Focus Groups', standard: '$3,000/session', member: '$2,250/session', link: '/virtual-focus-groups' },
@@ -82,7 +82,7 @@ export default function ManaTech() {
           </FadeIn>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }} className="why-grid">
             {[
-              { title: 'De-risk your clients\' market entry', desc: 'Most operators in the ecosystem serve international brands entering the US. The International Viability Analysis was built for exactly this transition — decision-grade evidence before your clients commit capital.' },
+              { title: 'De-risk your clients\' market entry', desc: 'Most operators in the ecosystem serve international brands entering the US. GoGlobal was built for exactly this transition — decision-grade evidence before your clients commit capital.' },
               { title: 'Built by an insider', desc: 'Soundcheck founder Valter Klug is a Mana Hubs member, trilingual, with 28 years across the US-LatAm bridge. Same building, same ecosystem, same mission.' },
               { title: 'White-label delivery under your brand', desc: 'Every product is operator-facing. You deliver the intelligence under your brand, at your price point, with your strategic layer on top. Soundcheck is your production engine.' },
             ].map((item, i) => (
