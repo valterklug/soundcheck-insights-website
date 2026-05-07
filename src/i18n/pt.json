@@ -118,7 +118,7 @@
       {
         "num": "02",
         "for": "Operadores e Marcas · Expansão de Mercado",
-        "name": "GoGlobal - International Expansion Assessment",
+        "name": "GoGlobal Viability Analysis",
         "desc": "Score CVE, cenário competitivo, regulamentação, canais de distribuição, caminhos estratégicos e roadmap. Vinculado à Pesquisa de Mercado.",
         "delivery": "$2.000 · Requer Pesquisa de Mercado",
         "link": "/expansion-report",
@@ -210,7 +210,7 @@
       },
       {
         "num": "04",
-        "name": "GoGlobal - International Expansion Assessment",
+        "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, panorama competitivo, resumo regulatório, mapa de canais de distribuição e roadmap escalonado para entrada no mercado.",
         "price": "$2.000",
         "link": "/expansion-report"
@@ -438,7 +438,7 @@
     "whiteLabelProducts": [
       {
         "num": "01",
-        "name": "GoGlobal - International Expansion Assessment",
+        "name": "GoGlobal Viability Analysis",
         "audience": "Marcas Internacionais · Entrada no Mercado",
         "desc": "Inteligência de entrada no mercado com decisão de grau. CVE Score proprietário, panorama competitivo, visão geral regulatória, mapa de canais de distribuição, três caminhos estratégicos e roteiro de 12 meses. 100+ páginas.",
         "delivery": "Entrega em 14 dias",
@@ -534,7 +534,7 @@
       {
         "num": "02",
         "for": "Marcas e Agências · Expansão de Mercado",
-        "name": "GoGlobal - International Expansion Assessment",
+        "name": "GoGlobal Viability Analysis",
         "desc": "Inteligência de entrada no mercado para qualquer empresa planejando expandir para um novo mercado. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
         "price": "US$2.000",
         "delivery": "Entrega em 2–3 semanas · Requer Pesquisa de Mercado",
@@ -1080,7 +1080,7 @@
     "ctaLink": "Ou explore todos os produtos de pesquisa →"
   },
   "expansionReport": {
-    "heroLabel": "Produto em Detalhe · GoGlobal - International Expansion Assessment",
+    "heroLabel": "Produto em Detalhe · GoGlobal Viability Analysis",
     "heroTitle": "Antes de Investir na Expansão, Saiba no Que Está Entrando",
     "heroSub": "GoGlobal é feito para qualquer empresa avaliando expansão para um novo mercado — seja entrando em um novo país, uma nova região ou uma categoria adjacente em território desconhecido. Não é um despejo de dados. É um documento de nível decisório com evidências referenciadas, um CVE Score proprietário, caminhos estratégicos e um roadmap por fases que sua equipe pode executar desde o Dia 1.",
     "briefButton": "Apresente Este Relatório →",

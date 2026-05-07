@@ -30,7 +30,7 @@ const pages = {
   },
   '/products': {
     title: 'Research Products | Soundcheck Insights',
-    description: 'Five fixed-scope market intelligence products: Market Research, GoGlobal (International Expansion Assessment), Scale Assessment, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline.',
+    description: 'Five fixed-scope market intelligence products: Market Research, GoGlobal Viability Analysis, Scale Assessment, Customer Journey Maps, and Virtual Focus Groups. Fixed price, fixed timeline.',
     image: '/og/og-products.png',
   },
   '/how-it-works': {
@@ -44,7 +44,7 @@ const pages = {
     image: '/og/og-for-agencies.png',
   },
   '/expansion-report': {
-    title: 'GoGlobal - International Expansion Assessment | Soundcheck Insights',
+    title: 'GoGlobal Viability Analysis | Soundcheck Insights',
     description: 'CVE Score, competitive landscape, regulatory snapshot, distribution channel map, and phased roadmap. $2,000. Requires Market Research.',
     image: '/og/og-expansion-report.png',
   },

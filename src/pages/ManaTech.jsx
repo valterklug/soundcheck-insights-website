@@ -6,7 +6,7 @@ import { getLangFromPath, getLocalizedPath } from '../i18n'
 
 const memberRates = [
   { name: 'Market Research (S/M/L)', standard: '$3,000 / $3,500 / $4,000', member: '$2,250 / $2,625 / $3,000', link: '/research-platform' },
-  { name: 'GoGlobal - International Expansion Assessment', standard: '$2,000', member: '$1,500', link: '/expansion-report' },
+  { name: 'GoGlobal Viability Analysis', standard: '$2,000', member: '$1,500', link: '/expansion-report' },
   { name: 'Scale Assessment', standard: '$4,000', member: '$3,000', link: '/scale-assessment' },
   { name: 'Customer Journey Maps', standard: '$500/persona', member: '$375/persona', link: '/consumer-journeys' },
   { name: 'Virtual Focus Groups', standard: '$3,000/session', member: '$2,250/session', link: '/virtual-focus-groups' },
