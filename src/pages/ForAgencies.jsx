@@ -47,42 +47,52 @@ export default function ForAgencies() {
           </FadeIn>
           <FadeIn delay={0.15}>
             <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"rgba(255,255,255,0.25)",marginBottom:14}}>{t('forAgencies.economicsHeader')}</div>
-            {/* Two-tier header */}
-            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:0}}>
-              <div style={{padding:"12px 18px",background:"rgba(255,255,255,0.01)"}}></div>
-              <div style={{padding:"12px 18px",background:"rgba(0,196,212,0.06)",border:"1px solid rgba(0,196,212,0.15)",textAlign:"center"}}>
-                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--teal)"}}>{t('forAgencies.selfServe')}</div>
-                <div style={{fontFamily:"Inter,sans-serif",fontSize:10,color:"rgba(255,255,255,0.3)",marginTop:2}}>{t('forAgencies.selfServeDesc')}</div>
+            {/* Three-tier header */}
+            <div style={{display:"grid",gridTemplateColumns:"1.4fr 1fr 1fr 1fr",gap:0}} className="econ-grid">
+              <div style={{padding:"12px 14px",background:"rgba(255,255,255,0.01)"}}></div>
+              <div style={{padding:"12px 14px",background:"rgba(255,255,255,0.04)",border:"1px solid rgba(255,255,255,0.08)",textAlign:"center"}}>
+                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"rgba(255,255,255,0.6)"}}>{t('forAgencies.tierTrial')}</div>
+                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierTrialDesc')}</div>
               </div>
-              <div style={{padding:"12px 18px",background:"rgba(232,71,42,0.06)",border:"1px solid rgba(232,71,42,0.15)",textAlign:"center"}}>
-                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--orange)"}}>{t('forAgencies.fullService')}</div>
-                <div style={{fontFamily:"Inter,sans-serif",fontSize:10,color:"rgba(255,255,255,0.3)",marginTop:2}}>{t('forAgencies.fullServiceDesc')}</div>
+              <div style={{padding:"12px 14px",background:"rgba(0,196,212,0.06)",border:"1px solid rgba(0,196,212,0.15)",textAlign:"center"}}>
+                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--teal)"}}>{t('forAgencies.tierStandard')}</div>
+                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierStandardDesc')}</div>
+              </div>
+              <div style={{padding:"12px 14px",background:"rgba(232,71,42,0.06)",border:"1px solid rgba(232,71,42,0.15)",textAlign:"center"}}>
+                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--orange)"}}>{t('forAgencies.tierManaTech')}</div>
+                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierManaTechDesc')}</div>
               </div>
             </div>
             {/* Table rows */}
-            {t('forAgencies.economicsRows', { returnObjects: true }).map(([l,v1,v2])=>(
-              <div key={l} style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:0,marginBottom:1}}>
-                <div style={{padding:"13px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",display:"flex",alignItems:"center"}}>
-                  <span style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.45)"}}>{l}</span>
+            {t('forAgencies.economicsRows', { returnObjects: true }).map(([l,v1,v2,v3])=>(
+              <div key={l} style={{display:"grid",gridTemplateColumns:"1.4fr 1fr 1fr 1fr",gap:0,marginBottom:1}} className="econ-grid">
+                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",display:"flex",alignItems:"center"}}>
+                  <span style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.45)"}}>{l}</span>
                 </div>
-                <div style={{padding:"13px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:500,color:"#fff"}}>{v1}</span>
+                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:"#fff"}}>{v1}</span>
                 </div>
-                <div style={{padding:"13px 18px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:500,color:"#fff"}}>{v2}</span>
+                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:"#fff"}}>{v2}</span>
+                </div>
+                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:"#fff"}}>{v3}</span>
                 </div>
               </div>
             ))}
             {/* Margin row */}
-            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:0,marginTop:2}}>
-              <div style={{padding:"16px 18px",background:"var(--orange)",display:"flex",alignItems:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:600,color:"#fff"}}>{t('forAgencies.yourMargin')}</span>
+            <div style={{display:"grid",gridTemplateColumns:"1.4fr 1fr 1fr 1fr",gap:0,marginTop:2}} className="econ-grid">
+              <div style={{padding:"14px 14px",background:"var(--orange)",display:"flex",alignItems:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:11,fontWeight:600,color:"#fff"}}>{t('forAgencies.yourMargin')}</span>
               </div>
-              <div style={{padding:"16px 18px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:20,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginSelfServe')}</span>
+              <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginTrial')}</span>
               </div>
-              <div style={{padding:"16px 18px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:20,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginFullService')}</span>
+              <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginStandard')}</span>
+              </div>
+              <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginManaTech')}</span>
               </div>
             </div>
           </FadeIn>
@@ -105,7 +115,7 @@ export default function ForAgencies() {
             ))}
           </StaggerContainer>
         </div>
-        <style>{"@media(max-width:900px){.offer-grid{grid-template-columns:1fr!important}.section-pad{padding:60px 24px!important}}"}</style>
+        <style>{"@media(max-width:900px){.offer-grid{grid-template-columns:1fr!important}.section-pad{padding:60px 24px!important}.econ-grid{grid-template-columns:1.6fr 1fr 1fr 1fr!important;font-size:0.85em}}"}</style>
       </section>
 
       <section style={{background:"var(--navy)",padding:"80px 60px",borderTop:"1px solid rgba(0,196,212,0.12)"}} className="section-pad">

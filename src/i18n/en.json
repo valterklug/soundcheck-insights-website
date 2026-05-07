@@ -158,7 +158,7 @@
     "economicsTitle2": "No new headcount.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Real Economics · Standard Partner (on a $7,000 engagement)",
+    "economicsHeader": "Real Economics · Standard Tier (on a $7,000 engagement)",
     "economicsRows": [
       [
         "Soundcheck platform fee",
@@ -170,11 +170,11 @@
       ],
       [
         "Your time investment",
-        "2–6 hours"
+        "6–10 hours"
       ],
       [
         "Effective hourly rate",
-        "$800–$2,450/h"
+        "$490–$817/h"
       ]
     ],
     "marginLabel": "Your margin per engagement",
@@ -363,41 +363,49 @@
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Operator Partnership (on a $7,000 engagement)",
-    "selfServe": "Standard Partner",
-    "selfServeDesc": "30% platform fee",
-    "fullService": "Mana Tech Partner",
-    "fullServiceDesc": "25% platform fee",
+    "economicsHeader": "Real Economics · Operator Tiers (on a $7,000 engagement)",
+    "tierTrial": "Trial",
+    "tierTrialDesc": "No setup · 2-project cap",
+    "tierStandard": "Standard",
+    "tierStandardDesc": "$1,500 setup · $1,500/Q min",
+    "tierManaTech": "Mana Tech",
+    "tierManaTechDesc": "Setup waived · $1,000/Q min",
     "economicsRows": [
       [
-        "Soundcheck platform fee",
-        "30% of MSRP",
-        "25% of MSRP"
+        "Platform fee",
+        "35%",
+        "30%",
+        "25%"
       ],
       [
-        "On a $7,000 engagement",
+        "Soundcheck takes",
+        "$2,450",
         "$2,100",
         "$1,750"
       ],
       [
         "Your agency keeps",
+        "$4,550",
         "$4,900",
         "$5,250"
       ],
       [
         "Your time investment",
-        "2–6 hours",
-        "2–6 hours"
+        "6–10 hours",
+        "6–10 hours",
+        "6–10 hours"
       ],
       [
         "Effective hourly rate",
-        "$800–$2,450/h",
-        "$875–$2,625/h"
+        "$455–$758/h",
+        "$490–$817/h",
+        "$525–$875/h"
       ]
     ],
     "yourMargin": "Your margin",
-    "marginSelfServe": "$4,900",
-    "marginFullService": "$5,250",
+    "marginTrial": "$4,550",
+    "marginStandard": "$4,900",
+    "marginManaTech": "$5,250",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [

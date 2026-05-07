@@ -158,7 +158,7 @@
     "economicsTitle2": "Sem novas contratações.",
     "economicsDesc": "A plataforma cuida do trabalho analítico pesado. Seu papel é capturar o briefing, aplicar seu julgamento profissional e apresentar os achados com o contexto estratégico que só você pode oferecer.",
     "economicsLink": "Análise Econômica Completa →",
-    "economicsHeader": "Economia Real · Parceiro Padrão (em um engajamento de $7.000)",
+    "economicsHeader": "Economia Real · Nível Standard (em um engajamento de $7.000)",
     "economicsRows": [
       [
         "Taxa plataforma Soundcheck",
@@ -170,11 +170,11 @@
       ],
       [
         "Seu investimento de tempo",
-        "2–6 horas"
+        "6–10 horas"
       ],
       [
         "Taxa efetiva por hora",
-        "$800–$2.450/h"
+        "$490–$817/h"
       ]
     ],
     "marginLabel": "Sua margem por engajamento",
@@ -363,41 +363,49 @@
     "businessCaseDesc1": "Antes de abrir isso como uma plataforma, eu executei todos os relatórios Soundcheck pessoalmente. Não como prova de conceito — porque a economia era muito convincente para não provar primeiro.",
     "businessCaseDesc2": "A plataforma realiza o trabalho analítico pesado: agregação de dados, mapeamento competitivo, pontuação de viabilidade, geração de relatórios. Seu papel é capturar as informações corretas do cliente antecipadamente, aplicar seu julgamento profissional ao resultado da IA e apresentar os resultados com o contexto estratégico que apenas um especialista real pode fornecer.",
     "businessCaseDesc3": "É isso que seu cliente está pagando.",
-    "economicsHeader": "Economia Real · White-Label (em um engajamento de $7,000)",
-    "selfServe": "Partner Padrão",
-    "selfServeDesc": "40% fee de plataforma",
-    "fullService": "Partner Fundador",
-    "fullServiceDesc": "30% fee de plataforma (primeiros 2 partners, ano 1)",
+    "economicsHeader": "Economia Real · Níveis de Operador (em um engajamento de $7,000)",
+    "tierTrial": "Trial",
+    "tierTrialDesc": "Sem setup · Limite de 2 projetos",
+    "tierStandard": "Standard",
+    "tierStandardDesc": "$1,500 setup · $1,500/Q mín",
+    "tierManaTech": "Mana Tech",
+    "tierManaTechDesc": "Setup isento · $1,000/Q mín",
     "economicsRows": [
       [
-        "Fee de plataforma Soundcheck",
-        "40% do MSRP",
-        "30% do MSRP"
+        "Fee de plataforma",
+        "35%",
+        "30%",
+        "25%"
       ],
       [
-        "Em um engajamento de $7,500",
-        "$3,000",
-        "$2,250"
+        "Soundcheck recebe",
+        "$2,450",
+        "$2,100",
+        "$1,750"
       ],
       [
         "Sua agência fica com",
-        "$4,500",
+        "$4,550",
+        "$4,900",
         "$5,250"
       ],
       [
         "Seu investimento de tempo",
-        "2–6 horas",
-        "2–6 horas"
+        "6–10 horas",
+        "6–10 horas",
+        "6–10 horas"
       ],
       [
         "Taxa efetiva por hora",
-        "$750–$2,175/h",
-        "$875–$2,625/h"
+        "$455–$758/h",
+        "$490–$817/h",
+        "$525–$875/h"
       ]
     ],
     "yourMargin": "Sua margem",
-    "marginSelfServe": "$4,500",
-    "marginFullService": "$5,250",
+    "marginTrial": "$4,550",
+    "marginStandard": "$4,900",
+    "marginManaTech": "$5,250",
     "operatorLabel": "O Que Você Recebe como Operador",
     "operatorTitle": "Tudo o que você precisa para entregar inteligência no nível de uma empresa de pesquisa.",
     "operatorItems": [
