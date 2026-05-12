@@ -91,7 +91,7 @@
       {
         "num": "02",
         "title": "A plataforma gera o relatório",
-        "tag": "Automatizado · 30–50 páginas · Dias 1–5"
+        "tag": "Automatizado · 100+ páginas · Dias 1–5"
       },
       {
         "num": "03",
@@ -266,7 +266,7 @@
         "label": "A plataforma gera o relatório",
         "timing": "Dias 1-5 · Automatizado",
         "title": "O que levaria 3-4 semanas é executado em menos de 5 dias.",
-        "body": "O motor IA do Soundcheck agrega dados de mercado, constrói mapas competitivos, calcula pontuações de viabilidade e produz uma análise estruturada de 30-50 páginas. Você não precisa fazer nada durante essa fase.",
+        "body": "O motor IA do Soundcheck agrega dados de mercado, constrói mapas competitivos, calcula pontuações de viabilidade e produz uma análise estruturada de 100+ páginas. Você não precisa fazer nada durante essa fase.",
         "tag": "Automatizado · Nenhuma entrada necessária de você"
       },
       {
@@ -294,7 +294,7 @@
       "Mapeamento de panorama competitivo",
       "Compilação de benchmarks da indústria",
       "Pontuação de viabilidade em 10 dimensões",
-      "Montagem de relatório estruturado (30-50 páginas)"
+      "Montagem de relatório estruturado (100+ páginas)"
     ],
     "youBring": "Você traz",
     "youItems": [
@@ -313,7 +313,7 @@
       {
         "icon": "📊",
         "title": "Relatório Completo",
-        "sub": "30–50 páginas de análise"
+        "sub": "100+ páginas de análise"
       },
       {
         "icon": "📐",
@@ -417,7 +417,7 @@
       },
       {
         "icon": "📊",
-        "title": "Relatórios de Pesquisa de 30-50 Páginas",
+        "title": "Relatórios de Pesquisa de 100+ Páginas",
         "desc": "Análise gerada por IA cobrindo dimensionamento de mercado, paisagem competitiva, pontuação de viabilidade, snapshot regulatório e mapas de distribuição."
       },
       {

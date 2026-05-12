@@ -91,7 +91,7 @@
       {
         "num": "02",
         "title": "Platform generates the report",
-        "tag": "Automated · 30–50 pages · Days 1–5"
+        "tag": "Automated · 100+ pages · Days 1–5"
       },
       {
         "num": "03",
@@ -266,7 +266,7 @@
         "label": "Platform generates the report",
         "timing": "Days 1-5 · Automated",
         "title": "What would take 3-4 weeks runs in under 5 days.",
-        "body": "The Soundcheck AI engine aggregates market data, builds competitive maps, calculates viability scores, and produces a structured 30-50 page analysis. You don't need to do anything during this phase.",
+        "body": "The Soundcheck AI engine aggregates market data, builds competitive maps, calculates viability scores, and produces a structured 100+ pages of analysis. You don't need to do anything during this phase.",
         "tag": "Automated · No input needed from you"
       },
       {
@@ -294,7 +294,7 @@
       "Competitive landscape mapping",
       "Industry benchmark compilation",
       "Viability scoring across 10 dimensions",
-      "Structured report assembly (30-50 pages)"
+      "Structured report assembly (100+ pages)"
     ],
     "youBring": "You bring",
     "youItems": [
@@ -313,7 +313,7 @@
       {
         "icon": "📊",
         "title": "Full Report",
-        "sub": "30-50 pages of analysis"
+        "sub": "100+ pages of analysis"
       },
       {
         "icon": "📐",
@@ -417,7 +417,7 @@
       },
       {
         "icon": "📊",
-        "title": "30–50 Page Research Reports",
+        "title": "100+ Page Research Reports",
         "desc": "AI-generated analysis covering market sizing, competitive landscape, viability scoring, regulatory snapshot, and distribution maps."
       },
       {
