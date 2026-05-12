@@ -86,7 +86,20 @@ export default function Nav() {
         <LanguageToggle />
       </div>
 
-      <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ padding: '9px 20px', fontSize: 13, flexShrink: 0, marginLeft: 12 }}
+      <a href="https://www.soundcheck.report/sign-in" target="_blank" rel="noopener noreferrer"
+        style={{
+          fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500,
+          color: 'rgba(255,255,255,0.45)', padding: '9px 16px', flexShrink: 0, marginLeft: 8,
+          textDecoration: 'none', transition: 'color 0.2s',
+        }}
+        onMouseEnter={e => e.target.style.color = '#fff'}
+        onMouseLeave={e => e.target.style.color = 'rgba(255,255,255,0.45)'}
+        data-desktop="true"
+      >
+        {t('nav.signIn')}
+      </a>
+
+      <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ padding: '9px 20px', fontSize: 13, flexShrink: 0, marginLeft: 4 }}
         data-desktop="true"
       >
         {t('nav.getStarted')}
@@ -164,9 +177,19 @@ export default function Nav() {
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: (links.length + 0.5) * 0.04 }}
-              style={{ marginTop: 16 }}
+              style={{ marginTop: 16, display: 'flex', gap: 10 }}
             >
-              <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
+              <a href="https://www.soundcheck.report/sign-in" target="_blank" rel="noopener noreferrer"
+                style={{
+                  flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500,
+                  color: 'rgba(255,255,255,0.5)', textDecoration: 'none',
+                  border: '1px solid rgba(255,255,255,0.15)', borderRadius: 6, padding: '12px 16px',
+                }}
+              >
+                {t('nav.signIn')}
+              </a>
+              <Link to={getLocalizedPath('/contact', lang)} className="btn btn-primary" style={{ flex: 1, justifyContent: 'center' }}>
                 {t('nav.getStarted')}
               </Link>
             </motion.div>
