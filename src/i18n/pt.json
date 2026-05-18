@@ -2074,34 +2074,34 @@
       {
         "stat": "1:1",
         "title": "Acesso ao fundador + suporte personalizado",
-        "desc": "Acesso direto a Valter Klug — o fundador que entregou 21+ projetos como Operador Zero. Suporte personalizado nas suas duas primeiras entregas. Grupo de pares da coorte."
+        "desc": "Acesso direto a Valter Klug — o fundador que entregou 20+ projetos como Operador Zero. Suporte personalizado nas suas duas primeiras entregas. Grupo de pares da coorte."
       }
     ],
     "mathLabel": "A Conta",
     "mathTitle": "Como um projeto típico funciona.",
-    "mathDesc": "Pegue um projeto típico: Market Research Standard ($3.750) + GoGlobal Viability Analysis ($4.000) = $7.750 MSRP. Seu cliente paga $7.750. Veja o que você fica — e quanto custa em tempo.",
-    "mathTableHeader": "MR Standard + GoGlobal · $7.750 MSRP",
+    "mathDesc": "Pegue um projeto típico: Market Research Standard ($3.750) + GoGlobal Viability Analysis ($2.000) = $5.750 MSRP. Seu cliente paga $5.750. Veja o que você fica — e quanto custa em tempo.",
+    "mathTableHeader": "MR Standard + GoGlobal · $5.750 MSRP",
     "mathColStandard": "Tier Padrão (70/30)",
     "mathColFounding": "Operador Fundador",
     "mathRows": [
-      ["Taxa de plataforma Soundcheck", "30% · $2.325", "15% · $1.163"],
-      ["Você fica com", "$5.425", "$6.588"],
+      ["Taxa de plataforma Soundcheck", "30% · $1.725", "15% · $863"],
+      ["Você fica com", "$4.025", "$4.888"],
       ["Seu investimento de tempo", "6–10 horas", "6–10 horas"],
-      ["Após os primeiros 2 projetos (75/25)", "—", "$5.813"]
+      ["Após os primeiros 2 projetos (75/25)", "—", "$4.313"]
     ],
     "mathEffectiveRate": "Taxa efetiva por hora",
-    "mathRateStandard": "$543–$904/hr",
-    "mathRateFounding": "$659–$1.098/hr",
+    "mathRateStandard": "$403–$671/hr",
+    "mathRateFounding": "$489–$815/hr",
     "mathFootnote": "Primeiros 2 projetos no 85/15. Cada projeto seguinte no 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~5–8 horas).",
     "toolkitLabel": "Seu Kit de Operador",
     "toolkitTitle": "Cinco produtos. Sua marca. Sua margem.",
     "toolkitDesc": "Todo projeto começa com Market Research como base. Adicione módulos conforme a necessidade do seu cliente. Tudo entregue white-label sob sua marca. Projeto típico: $5K–$13K.",
     "toolkitItems": [
-      { "label": "Base", "name": "Market Research", "price": "A partir de $3.000", "color": "#94A3B8" },
-      { "label": "Módulo", "name": "GoGlobal", "price": "$4.000", "color": "#2DD4BF" },
-      { "label": "Módulo", "name": "Scale Assessment", "price": "$4.000", "color": "#FF6B47" },
-      { "label": "Módulo", "name": "Customer Journey", "price": "$500/persona", "color": "#A78BFA" },
-      { "label": "Módulo", "name": "Virtual Focus Group", "price": "$3.000", "color": "#FBBF24" }
+      { "label": "Base", "name": "Market Research", "price": "$3.000 – $4.500", "color": "#94A3B8" },
+      { "label": "Módulo", "name": "GoGlobal", "price": "+ $2.000", "color": "#2DD4BF" },
+      { "label": "Módulo", "name": "Scale Assessment", "price": "+ $4.000", "color": "#FF6B47" },
+      { "label": "Módulo", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
+      { "label": "Módulo", "name": "Virtual Focus Group", "price": "+ $3.000", "color": "#FBBF24" }
     ],
     "toolkitTypical": "Projeto típico: $5K–$13K MSRP · Operadores Fundadores ficam com 75–85%",
     "profileLabel": "Para Quem É",
@@ -2112,7 +2112,7 @@
       "Atualmente atende 3–8 clientes ativos que regularmente enfrentam decisões estratégicas sobre mercados, posicionamento ou crescimento",
       "Seus clientes fazem perguntas de pesquisa que você não consegue responder com credibilidade sem ferramentas que você não tem",
       "Já perdeu RFPs para empresas maiores com departamentos de pesquisa — ou simplesmente pulou a pesquisa",
-      "Faz parte de (ou está próximo de) Chameleon Collective, Pavilion, Mana Tech, ou comunidades de agências boutique"
+      "Faz parte de (ou está próximo de) Pavilion, Mana Tech, ou comunidades de agências boutique"
     ],
     "selectionLabel": "Critérios de Seleção",
     "selectionTitle": "O que estamos buscando.",
@@ -2124,7 +2124,7 @@
     ],
     "proofLabel": "Validado pelo Operador Zero",
     "proofTitle": "Você não está fazendo beta test. Está entrando em um modelo comprovado.",
-    "proofDesc": "Antes de abrir a plataforma para operadores, o fundador do Soundcheck entregou 21+ projetos pagos ele mesmo — como Operador Zero através da sua prática na Chameleon Collective. Mesma metodologia. Mesma plataforma. Mesma economia. O modelo funciona. Você entra nele, não o testa.",
+    "proofDesc": "Antes de abrir a plataforma para operadores, o fundador do Soundcheck entregou 20+ projetos pagos ele mesmo — como Operador Zero. Mesma metodologia. Mesma plataforma. Mesma economia. O modelo funciona. Você entra nele, não o testa.",
     "proofStat1": "projetos pagos entregues",
     "proofStat2": "parcerias de operadores assinadas",
     "proofStat3": "países atendidos",

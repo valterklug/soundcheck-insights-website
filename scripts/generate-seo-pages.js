@@ -78,6 +78,11 @@ const pages = {
     description: 'Decision-grade market intelligence for Mana Tech operators, Scale2Miami ecosystem partners, and the mentor network. 25% off MSRP on all five products.',
     image: '/og/og-products.png',
   },
+  '/founding-cohort': {
+    title: 'Founding Operator Cohort — 10 Seats | Soundcheck Insights',
+    description: 'Join the first cohort of Soundcheck operators. Keep 85% on your first 2 projects, then 75% for life. White-label market intelligence for agencies and consultancies.',
+    image: '/og/og-for-agencies.png',
+  },
   '/partner': {
     title: 'Become an Operator Partner | Soundcheck Insights',
     description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. White-label delivery, operator economics, Mana Tech member rates.',

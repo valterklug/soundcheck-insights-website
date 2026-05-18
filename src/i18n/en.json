@@ -2047,34 +2047,34 @@
       {
         "stat": "1:1",
         "title": "Founder access + hands-on support",
-        "desc": "Direct access to Valter Klug — the founder who delivered 21+ engagements as Operator Zero. Hands-on support through your first two deliveries. Cohort peer group."
+        "desc": "Direct access to Valter Klug — the founder who delivered 20+ engagements as Operator Zero. Hands-on support through your first two deliveries. Cohort peer group."
       }
     ],
     "mathLabel": "The Math",
     "mathTitle": "What a single engagement looks like.",
-    "mathDesc": "Take a typical engagement: Market Research Standard ($3,750) + GoGlobal Viability Analysis ($4,000) = $7,750 MSRP. Your client pays $7,750. Here's what you keep — and what it costs you in time.",
-    "mathTableHeader": "MR Standard + GoGlobal · $7,750 MSRP",
+    "mathDesc": "Take a typical engagement: Market Research Standard ($3,750) + GoGlobal Viability Analysis ($2,000) = $5,750 MSRP. Your client pays $5,750. Here's what you keep — and what it costs you in time.",
+    "mathTableHeader": "MR Standard + GoGlobal · $5,750 MSRP",
     "mathColStandard": "Standard Tier (70/30)",
     "mathColFounding": "Founding Operator",
     "mathRows": [
-      ["Soundcheck platform fee", "30% · $2,325", "15% · $1,163"],
-      ["You keep", "$5,425", "$6,588"],
+      ["Soundcheck platform fee", "30% · $1,725", "15% · $863"],
+      ["You keep", "$4,025", "$4,888"],
       ["Your time investment", "6–10 hours", "6–10 hours"],
-      ["After first 2 projects (75/25)", "—", "$5,813"]
+      ["After first 2 projects (75/25)", "—", "$4,313"]
     ],
     "mathEffectiveRate": "Effective hourly rate",
-    "mathRateStandard": "$543–$904/hr",
-    "mathRateFounding": "$659–$1,098/hr",
+    "mathRateStandard": "$403–$671/hr",
+    "mathRateFounding": "$489–$815/hr",
     "mathFootnote": "First 2 projects at 85/15. Every subsequent project at 75/25 — for life. Standard tier shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~5–8 hours).",
     "toolkitLabel": "Your Operator Toolkit",
     "toolkitTitle": "Five products. Your brand. Your margin.",
     "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
     "toolkitItems": [
-      { "label": "Foundation", "name": "Market Research", "price": "From $3,000", "color": "#94A3B8" },
-      { "label": "Add-on", "name": "GoGlobal", "price": "$4,000", "color": "#2DD4BF" },
-      { "label": "Add-on", "name": "Scale Assessment", "price": "$4,000", "color": "#FF6B47" },
-      { "label": "Add-on", "name": "Customer Journey", "price": "$500/persona", "color": "#A78BFA" },
-      { "label": "Add-on", "name": "Virtual Focus Group", "price": "$3,000", "color": "#FBBF24" }
+      { "label": "Foundation", "name": "Market Research", "price": "$3,000 – $4,500", "color": "#94A3B8" },
+      { "label": "Add-on", "name": "GoGlobal", "price": "+ $2,000", "color": "#2DD4BF" },
+      { "label": "Add-on", "name": "Scale Assessment", "price": "+ $4,000", "color": "#FF6B47" },
+      { "label": "Add-on", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
+      { "label": "Add-on", "name": "Virtual Focus Group", "price": "+ $3,000", "color": "#FBBF24" }
     ],
     "toolkitTypical": "Typical engagement: $5K–$13K MSRP · Founding Operators keep 75–85%",
     "profileLabel": "Who This Is For",
@@ -2085,7 +2085,7 @@
       "You're currently serving 3–8 active clients who regularly face strategic decisions about markets, positioning, or growth",
       "Your clients ask research questions you can't answer credibly without tools you don't have",
       "You've lost RFPs to bigger firms with research arms — or you've skipped the research entirely",
-      "You're part of (or adjacent to) Chameleon Collective, Pavilion, Mana Tech, or boutique-agency peer communities"
+      "You're part of (or adjacent to) Pavilion, Mana Tech, or boutique-agency peer communities"
     ],
     "selectionLabel": "Selection Criteria",
     "selectionTitle": "What we're looking for.",
@@ -2097,7 +2097,7 @@
     ],
     "proofLabel": "Validated by Operator Zero",
     "proofTitle": "You're not beta-testing. You're joining a proven model.",
-    "proofDesc": "Before opening the platform to operators, Soundcheck's founder delivered 21+ paid engagements himself — as Operator Zero through his Chameleon Collective practice. Same methodology. Same platform. Same economics. The model works. You're joining it, not testing it.",
+    "proofDesc": "Before opening the platform to operators, Soundcheck's founder delivered 20+ paid engagements himself — as Operator Zero. Same methodology. Same platform. Same economics. The model works. You're joining it, not testing it.",
     "proofStat1": "paid engagements delivered",
     "proofStat2": "operator partnerships signed",
     "proofStat3": "countries served",

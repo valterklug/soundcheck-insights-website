@@ -330,7 +330,7 @@ export default function FoundingCohort() {
             display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 2,
           }} className="grid-4">
             {[
-              { num: '21+', label: t('foundingCohort.proofStat1') },
+              { num: '20+', label: t('foundingCohort.proofStat1') },
               { num: '9', label: t('foundingCohort.proofStat2') },
               { num: '4', label: t('foundingCohort.proofStat3') },
               { num: '$0', label: t('foundingCohort.proofStat4') },
