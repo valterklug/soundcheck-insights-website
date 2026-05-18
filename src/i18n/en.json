@@ -2020,5 +2020,130 @@
         "a": "The brand intake takes approximately 15 minutes to complete. Generation takes 3–5 minutes after you click Run. Total time from start to deliverable: under 25 minutes."
       }
     ]
+  },
+  "foundingCohort": {
+    "heroLabel": "Founding Operator Cohort · Now Accepting Applications",
+    "heroTitle1": "10 Seats. Application Only.",
+    "heroTitle2": "Your research practice starts here.",
+    "heroSub": "Build a market intelligence practice on Soundcheck. Keep 85% of your first two engagements. Then 75% — for life. Direct access to the founder. Hands-on support through your first deliveries.",
+    "chipSeats": "seats available",
+    "chipFirst2": "yours on first 2 projects",
+    "chipForLife": "yours on every project after — for life",
+    "chipSetup": "setup fee",
+    "heroCta": "Apply Now →",
+    "dealLabel": "The Founding Operator Offer",
+    "dealTitle": "Economics that reward early operators. Permanently.",
+    "benefits": [
+      {
+        "stat": "85/15",
+        "title": "Your first 2 projects",
+        "desc": "You keep 85% of MSRP. Soundcheck takes only 15% — half the standard platform fee. Zero setup cost. Start with a real client engagement."
+      },
+      {
+        "stat": "75/25",
+        "title": "Every project after — for life",
+        "desc": "After your first two engagements, your permanent rate locks at 75/25. Not for 12 months. Not for 24 months. For life. This rate never changes."
+      },
+      {
+        "stat": "1:1",
+        "title": "Founder access + hands-on support",
+        "desc": "Direct access to Valter Klug — the founder who delivered 21+ engagements as Operator Zero. Hands-on support through your first two deliveries. Cohort peer group."
+      }
+    ],
+    "mathLabel": "The Math",
+    "mathTitle": "What a single engagement looks like.",
+    "mathDesc": "Take a typical engagement: Market Research Standard ($3,750) + GoGlobal Viability Analysis ($4,000) = $7,750 MSRP. Your client pays $7,750. Here's what you keep — and what it costs you in time.",
+    "mathTableHeader": "MR Standard + GoGlobal · $7,750 MSRP",
+    "mathColStandard": "Standard Tier (70/30)",
+    "mathColFounding": "Founding Operator",
+    "mathRows": [
+      ["Soundcheck platform fee", "30% · $2,325", "15% · $1,163"],
+      ["You keep", "$5,425", "$6,588"],
+      ["Your time investment", "6–10 hours", "6–10 hours"],
+      ["After first 2 projects (75/25)", "—", "$5,813"]
+    ],
+    "mathEffectiveRate": "Effective hourly rate",
+    "mathRateStandard": "$543–$904/hr",
+    "mathRateFounding": "$659–$1,098/hr",
+    "mathFootnote": "First 2 projects at 85/15. Every subsequent project at 75/25 — for life. Standard tier shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~5–8 hours).",
+    "toolkitLabel": "Your Operator Toolkit",
+    "toolkitTitle": "Five products. Your brand. Your margin.",
+    "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
+    "toolkitItems": [
+      { "label": "Foundation", "name": "Market Research", "price": "From $3,000", "color": "#94A3B8" },
+      { "label": "Add-on", "name": "GoGlobal", "price": "$4,000", "color": "#2DD4BF" },
+      { "label": "Add-on", "name": "Scale Assessment", "price": "$4,000", "color": "#FF6B47" },
+      { "label": "Add-on", "name": "Customer Journey", "price": "$500/persona", "color": "#A78BFA" },
+      { "label": "Add-on", "name": "Virtual Focus Group", "price": "$3,000", "color": "#FBBF24" }
+    ],
+    "toolkitTypical": "Typical engagement: $5K–$13K MSRP · Founding Operators keep 75–85%",
+    "profileLabel": "Who This Is For",
+    "profileTitle": "You might be a Founding Operator if…",
+    "profileItems": [
+      "You run a boutique agency (1–20 people), an independent strategy consultancy, or a fractional CMO/CSO/CGO practice",
+      "You have 10–25 years of senior brand, strategy, or marketing experience",
+      "You're currently serving 3–8 active clients who regularly face strategic decisions about markets, positioning, or growth",
+      "Your clients ask research questions you can't answer credibly without tools you don't have",
+      "You've lost RFPs to bigger firms with research arms — or you've skipped the research entirely",
+      "You're part of (or adjacent to) Chameleon Collective, Pavilion, Mana Tech, or boutique-agency peer communities"
+    ],
+    "selectionLabel": "Selection Criteria",
+    "selectionTitle": "What we're looking for.",
+    "selectionItems": [
+      "Clients in your pipeline who would benefit from market intelligence — you have a real engagement in mind, not a theoretical one",
+      "Methodology fit — you think strategically, not just executionally. You're comfortable validating research and adding professional judgment",
+      "Willingness to deliver at quality — the Soundcheck methodology has standards, and you'll uphold them",
+      "Ambition to build a recurring research practice, not just run a one-off project"
+    ],
+    "proofLabel": "Validated by Operator Zero",
+    "proofTitle": "You're not beta-testing. You're joining a proven model.",
+    "proofDesc": "Before opening the platform to operators, Soundcheck's founder delivered 21+ paid engagements himself — as Operator Zero through his Chameleon Collective practice. Same methodology. Same platform. Same economics. The model works. You're joining it, not testing it.",
+    "proofStat1": "paid engagements delivered",
+    "proofStat2": "operator partnerships signed",
+    "proofStat3": "countries served",
+    "proofStat4": "marketing spend to date",
+    "faqLabel": "Common Questions",
+    "faqTitle": "Before you apply.",
+    "faqItems": [
+      {
+        "q": "Do I need to pay anything upfront?",
+        "a": "No. There is no setup fee for Founding Operators. You start earning from your first client engagement. Soundcheck takes its share (15% on your first two projects, 25% thereafter) only when you deliver and get paid."
+      },
+      {
+        "q": "What does 'for life' actually mean?",
+        "a": "It means what it says. Your 75/25 rate is locked permanently. Not for a contract term. Not until a pricing review. If you deliver your first two engagements and stay active, your Founding Operator rate stays at 75/25 for every engagement you ever deliver through Soundcheck."
+      },
+      {
+        "q": "What if I don't have a client ready right now?",
+        "a": "You should have one in mind — even if not confirmed yet. The Founding Cohort is designed for operators who will deliver their first engagement within 60–90 days of joining. If you're more exploratory, consider starting as a referrer (20% commission on intros, no delivery required) and applying for a future cohort."
+      },
+      {
+        "q": "Do my clients see Soundcheck's brand?",
+        "a": "No. Everything is white-label by default. Your client sees your brand, your cover page, your agency name on the deliverable. Soundcheck is the infrastructure — you are the intelligence partner."
+      },
+      {
+        "q": "How much time does each engagement take?",
+        "a": "6–10 hours of your time total. About 1 hour for the client intake call, and 5–8 hours validating the AI-generated research with your professional judgment. The platform handles the heavy research lifting — you deliver the intelligence."
+      },
+      {
+        "q": "What kind of support do I get?",
+        "a": "Direct access to Valter Klug (founder, Operator Zero) for your first two engagements. That means hands-on guidance through intake, validation, and delivery. Plus cohort peer group access and a dedicated onboarding process."
+      },
+      {
+        "q": "Can I bring my own pricing?",
+        "a": "You can charge your client whatever you want. The MSRP is Soundcheck's base pricing. Many operators add a strategy markup or bundle Soundcheck deliverables into larger engagements. Soundcheck's share is calculated on MSRP, not on what you charge your client."
+      },
+      {
+        "q": "How is this different from a Trial tier?",
+        "a": "Trial gives you 65% on 2 projects with a $300 setup fee, then graduates to Standard (70/30). Founding Operators get 85% on 2 projects with zero setup, then 75/25 for life. The Founding Cohort is a better deal — and it comes with founder access and hands-on support that Trial doesn't include."
+      }
+    ],
+    "formLabel": "Apply Now",
+    "formTitle": "Founding Operator Cohort Application",
+    "formDesc": "10 seats. We review every application personally. If you have clients who need market intelligence and you're ready to deliver, tell us about your practice.",
+    "formButton": "Submit Application →",
+    "ctaTitle": "10 seats. The economics won't be repeated.",
+    "ctaSub": "The Founding Operator Cohort is a one-time offer. 85/15 on your first two projects, then 75/25 for life. Once the 10 seats are filled, the next cohort starts at standard rates.",
+    "ctaButton": "Apply Now →"
   }
 }

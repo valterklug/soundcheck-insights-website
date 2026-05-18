@@ -2047,5 +2047,130 @@
         "a": "A intake de marca leva aproximadamente 15 minutos para completar. A geração leva 3–5 minutos depois que você clica em Run. Tempo total do início ao deliverable: menos de 25 minutos."
       }
     ]
+  },
+  "foundingCohort": {
+    "heroLabel": "Coorte de Operadores Fundadores · Aceitando Candidaturas",
+    "heroTitle1": "10 Vagas. Apenas por Candidatura.",
+    "heroTitle2": "Sua prática de pesquisa começa aqui.",
+    "heroSub": "Construa uma prática de inteligência de mercado no Soundcheck. Fique com 85% dos seus dois primeiros projetos. Depois, 75% — para sempre. Acesso direto ao fundador. Suporte personalizado nas suas primeiras entregas.",
+    "chipSeats": "vagas disponíveis",
+    "chipFirst2": "seu nos primeiros 2 projetos",
+    "chipForLife": "seu em cada projeto depois — para sempre",
+    "chipSetup": "taxa de ativação",
+    "heroCta": "Candidatar-se Agora →",
+    "dealLabel": "A Oferta para Operadores Fundadores",
+    "dealTitle": "Economia que recompensa operadores pioneiros. Permanentemente.",
+    "benefits": [
+      {
+        "stat": "85/15",
+        "title": "Seus primeiros 2 projetos",
+        "desc": "Você fica com 85% do MSRP. Soundcheck recebe apenas 15% — metade da taxa padrão da plataforma. Sem custo de ativação. Comece com um projeto real de cliente."
+      },
+      {
+        "stat": "75/25",
+        "title": "Cada projeto depois — para sempre",
+        "desc": "Após seus dois primeiros projetos, sua taxa permanente é fixada em 75/25. Não por 12 meses. Não por 24 meses. Para sempre. Essa taxa nunca muda."
+      },
+      {
+        "stat": "1:1",
+        "title": "Acesso ao fundador + suporte personalizado",
+        "desc": "Acesso direto a Valter Klug — o fundador que entregou 21+ projetos como Operador Zero. Suporte personalizado nas suas duas primeiras entregas. Grupo de pares da coorte."
+      }
+    ],
+    "mathLabel": "A Conta",
+    "mathTitle": "Como um projeto típico funciona.",
+    "mathDesc": "Pegue um projeto típico: Market Research Standard ($3.750) + GoGlobal Viability Analysis ($4.000) = $7.750 MSRP. Seu cliente paga $7.750. Veja o que você fica — e quanto custa em tempo.",
+    "mathTableHeader": "MR Standard + GoGlobal · $7.750 MSRP",
+    "mathColStandard": "Tier Padrão (70/30)",
+    "mathColFounding": "Operador Fundador",
+    "mathRows": [
+      ["Taxa de plataforma Soundcheck", "30% · $2.325", "15% · $1.163"],
+      ["Você fica com", "$5.425", "$6.588"],
+      ["Seu investimento de tempo", "6–10 horas", "6–10 horas"],
+      ["Após os primeiros 2 projetos (75/25)", "—", "$5.813"]
+    ],
+    "mathEffectiveRate": "Taxa efetiva por hora",
+    "mathRateStandard": "$543–$904/hr",
+    "mathRateFounding": "$659–$1.098/hr",
+    "mathFootnote": "Primeiros 2 projetos no 85/15. Cada projeto seguinte no 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~5–8 horas).",
+    "toolkitLabel": "Seu Kit de Operador",
+    "toolkitTitle": "Cinco produtos. Sua marca. Sua margem.",
+    "toolkitDesc": "Todo projeto começa com Market Research como base. Adicione módulos conforme a necessidade do seu cliente. Tudo entregue white-label sob sua marca. Projeto típico: $5K–$13K.",
+    "toolkitItems": [
+      { "label": "Base", "name": "Market Research", "price": "A partir de $3.000", "color": "#94A3B8" },
+      { "label": "Módulo", "name": "GoGlobal", "price": "$4.000", "color": "#2DD4BF" },
+      { "label": "Módulo", "name": "Scale Assessment", "price": "$4.000", "color": "#FF6B47" },
+      { "label": "Módulo", "name": "Customer Journey", "price": "$500/persona", "color": "#A78BFA" },
+      { "label": "Módulo", "name": "Virtual Focus Group", "price": "$3.000", "color": "#FBBF24" }
+    ],
+    "toolkitTypical": "Projeto típico: $5K–$13K MSRP · Operadores Fundadores ficam com 75–85%",
+    "profileLabel": "Para Quem É",
+    "profileTitle": "Você pode ser um Operador Fundador se…",
+    "profileItems": [
+      "Você dirige uma agência boutique (1–20 pessoas), uma consultoria estratégica independente, ou uma prática de CMO/CSO/CGO fracional",
+      "Tem 10–25 anos de experiência sênior em branding, estratégia ou marketing",
+      "Atualmente atende 3–8 clientes ativos que regularmente enfrentam decisões estratégicas sobre mercados, posicionamento ou crescimento",
+      "Seus clientes fazem perguntas de pesquisa que você não consegue responder com credibilidade sem ferramentas que você não tem",
+      "Já perdeu RFPs para empresas maiores com departamentos de pesquisa — ou simplesmente pulou a pesquisa",
+      "Faz parte de (ou está próximo de) Chameleon Collective, Pavilion, Mana Tech, ou comunidades de agências boutique"
+    ],
+    "selectionLabel": "Critérios de Seleção",
+    "selectionTitle": "O que estamos buscando.",
+    "selectionItems": [
+      "Clientes no seu pipeline que se beneficiariam de inteligência de mercado — você tem um projeto real em mente, não um teórico",
+      "Afinidade metodológica — você pensa estrategicamente, não apenas em execução. Você se sente confortável validando pesquisa e adicionando julgamento profissional",
+      "Disposição para entregar com qualidade — a metodologia do Soundcheck tem padrões, e você vai mantê-los",
+      "Ambição de construir uma prática de pesquisa recorrente, não apenas executar um projeto único"
+    ],
+    "proofLabel": "Validado pelo Operador Zero",
+    "proofTitle": "Você não está fazendo beta test. Está entrando em um modelo comprovado.",
+    "proofDesc": "Antes de abrir a plataforma para operadores, o fundador do Soundcheck entregou 21+ projetos pagos ele mesmo — como Operador Zero através da sua prática na Chameleon Collective. Mesma metodologia. Mesma plataforma. Mesma economia. O modelo funciona. Você entra nele, não o testa.",
+    "proofStat1": "projetos pagos entregues",
+    "proofStat2": "parcerias de operadores assinadas",
+    "proofStat3": "países atendidos",
+    "proofStat4": "investimento em marketing até hoje",
+    "faqLabel": "Perguntas Frequentes",
+    "faqTitle": "Antes de se candidatar.",
+    "faqItems": [
+      {
+        "q": "Preciso pagar algo antecipadamente?",
+        "a": "Não. Não há taxa de ativação para Operadores Fundadores. Você começa a ganhar desde o seu primeiro projeto. Soundcheck recebe sua parte (15% nos seus dois primeiros projetos, 25% depois) apenas quando você entrega e recebe o pagamento."
+      },
+      {
+        "q": "O que 'para sempre' realmente significa?",
+        "a": "Significa o que diz. Sua taxa 75/25 é fixada permanentemente. Não por um prazo de contrato. Não até uma revisão de preços. Se você entregar seus dois primeiros projetos e se mantiver ativo, sua taxa de Operador Fundador permanece em 75/25 para cada projeto que você entregar através do Soundcheck."
+      },
+      {
+        "q": "E se eu não tiver um cliente pronto agora?",
+        "a": "Você deveria ter um em mente — mesmo que não confirmado ainda. A Coorte Fundadora é projetada para operadores que entregarão seu primeiro projeto em 60–90 dias. Se estiver mais em fase exploratória, considere começar como referenciador (20% de comissão por intros, sem entrega requerida) e se candidatar a uma coorte futura."
+      },
+      {
+        "q": "Meus clientes veem a marca do Soundcheck?",
+        "a": "Não. Tudo é white-label por padrão. Seu cliente vê sua marca, sua capa, o nome da sua agência no entregável. Soundcheck é a infraestrutura — você é o parceiro de inteligência."
+      },
+      {
+        "q": "Quanto tempo cada projeto leva?",
+        "a": "6–10 horas do seu tempo total. Aproximadamente 1 hora para a chamada de intake com o cliente, e 5–8 horas validando a pesquisa gerada por IA com seu julgamento profissional. A plataforma faz o trabalho pesado de pesquisa — você entrega a inteligência."
+      },
+      {
+        "q": "Que tipo de suporte eu recebo?",
+        "a": "Acesso direto a Valter Klug (fundador, Operador Zero) para seus dois primeiros projetos. Isso significa orientação personalizada durante o intake, validação e entrega. Mais acesso ao grupo de pares da coorte e um processo de onboarding dedicado."
+      },
+      {
+        "q": "Posso colocar meu próprio preço?",
+        "a": "Você pode cobrar do seu cliente o que quiser. O MSRP é o preço base do Soundcheck. Muitos operadores adicionam um markup estratégico ou empacotam os entregáveis do Soundcheck em projetos maiores. A parte do Soundcheck é calculada sobre o MSRP, não sobre o que você cobra do seu cliente."
+      },
+      {
+        "q": "Como isso é diferente do tier Trial?",
+        "a": "Trial dá 65% em 2 projetos com uma taxa de ativação de $300, depois passa para Standard (70/30). Operadores Fundadores obtêm 85% em 2 projetos sem taxa de ativação, depois 75/25 para sempre. A Coorte Fundadora é um acordo melhor — e vem com acesso ao fundador e suporte personalizado que o Trial não inclui."
+      }
+    ],
+    "formLabel": "Candidatar-se Agora",
+    "formTitle": "Candidatura à Coorte de Operadores Fundadores",
+    "formDesc": "10 vagas. Revisamos cada candidatura pessoalmente. Se você tem clientes que precisam de inteligência de mercado e está pronto para entregar, nos conte sobre sua prática.",
+    "formButton": "Enviar Candidatura →",
+    "ctaTitle": "10 vagas. A economia não será repetida.",
+    "ctaSub": "A Coorte de Operadores Fundadores é uma oferta única. 85/15 nos seus dois primeiros projetos, depois 75/25 para sempre. Uma vez que as 10 vagas sejam preenchidas, a próxima coorte começa com tarifas padrão.",
+    "ctaButton": "Candidatar-se Agora →"
   }
 }

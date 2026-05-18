@@ -100,6 +100,78 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         </div>
       )}
 
+      {/* Cohort application fields */}
+      {fields === 'cohort' && (
+        <>
+          <div className="form-grid">
+            <div className="form-group">
+              <label className={labelClass}>Practice / Agency Name</label>
+              <input type="text" className={fieldClass} placeholder="Your consultancy or agency" {...register('practiceName', { required: 'Practice name is required' })} />
+              {errors.practiceName && <span className="form-error-msg">{errors.practiceName.message}</span>}
+            </div>
+            <div className="form-group">
+              <label className={labelClass}>Team Size</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('teamSize', { required: 'Please select team size' })}>
+                <option value="">Select team size</option>
+                <option value="solo">Solo / Independent</option>
+                <option value="2-5">2–5 people</option>
+                <option value="6-15">6–15 people</option>
+                <option value="16+">16+ people</option>
+              </select>
+              {errors.teamSize && <span className="form-error-msg">{errors.teamSize.message}</span>}
+            </div>
+          </div>
+          <div className="form-grid">
+            <div className="form-group">
+              <label className={labelClass}>Your Role</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('role', { required: 'Please select your role' })}>
+                <option value="">Select one</option>
+                <option value="agency-owner">Agency / Consultancy Owner</option>
+                <option value="fractional-cmo">Fractional CMO / CSO / CGO</option>
+                <option value="independent-consultant">Independent Strategy Consultant</option>
+                <option value="partner-director">Partner / Director at an Agency</option>
+                <option value="other">Other</option>
+              </select>
+              {errors.role && <span className="form-error-msg">{errors.role.message}</span>}
+            </div>
+            <div className="form-group">
+              <label className={labelClass}>Active Client Count</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('clientCount', { required: 'Please select client count' })}>
+                <option value="">Select range</option>
+                <option value="1-2">1–2 clients</option>
+                <option value="3-5">3–5 clients</option>
+                <option value="6-10">6–10 clients</option>
+                <option value="10+">10+ clients</option>
+              </select>
+              {errors.clientCount && <span className="form-error-msg">{errors.clientCount.message}</span>}
+            </div>
+          </div>
+          <div className="form-group">
+            <label className={labelClass}>What types of clients do you serve?</label>
+            <input
+              type="text"
+              className={fieldClass}
+              placeholder="e.g., LATAM brands entering US, CPG founders, PE-backed companies, B2B SaaS..."
+              {...register('clientTypes', { required: 'Please describe your client types' })}
+            />
+            {errors.clientTypes && <span className="form-error-msg">{errors.clientTypes.message}</span>}
+          </div>
+          <div className="form-group">
+            <label className={labelClass}>How did you hear about Soundcheck?</label>
+            <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('source')}>
+              <option value="">Select one</option>
+              <option value="chameleon">Chameleon Collective</option>
+              <option value="manatech">Mana Tech / Scale2Miami</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="book">Too Small To Fall (book)</option>
+              <option value="referral">Referral from a colleague</option>
+              <option value="event">Conference / Event</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </>
+      )}
+
       {/* Partner form extra fields */}
       {fields === 'partner' && (
         <>
@@ -142,8 +214,8 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         </>
       )}
 
-      {/* Mana Tech affiliation */}
-      <div className="form-group">
+      {/* Mana Tech affiliation — not shown on cohort form */}
+      {fields !== 'cohort' && <div className="form-group">
         <label className={labelClass}>Mana Tech Member ID or Affiliation <span style={{ fontWeight: 400, opacity: 0.5 }}>(optional)</span></label>
         <input
           type="text"
@@ -154,17 +226,19 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: dark ? 'rgba(255,255,255,0.3)' : '#999', display: 'block', marginTop: 4 }}>
           Mana Tech members, Scale2Miami founders, and mentors receive 25% off MSRP.
         </span>
-      </div>
+      </div>}
 
       {/* Message */}
       <div className="form-group">
         <label className={labelClass}>
-          {fields === 'partner' ? 'Tell us about your research needs' : 'Message'}
+          {fields === 'cohort' ? 'Why do you want to join the Founding Cohort?' : fields === 'partner' ? 'Tell us about your research needs' : 'Message'}
         </label>
         <textarea
           className={fieldClass}
           placeholder={
-            fields === 'partner'
+            fields === 'cohort'
+              ? 'What draws you to building a research practice on Soundcheck? Do you have a client engagement in mind for your first project?'
+              : fields === 'partner'
               ? 'What types of clients do you work with? What research challenges do you face?'
               : 'Tell us what you\'re working on. The more context you share, the better we can help.'
           }
