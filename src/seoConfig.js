@@ -12,7 +12,7 @@ const organizationSchema = {
   name: 'Soundcheck Insights',
   url: SITE_URL,
   logo: `${SITE_URL}/logo-neg.png`,
-  description: 'AI-native market intelligence platform for operators — agencies, consultancies, and fractional executives delivering productized research to international brands.',
+  description: 'Decision-grade market intelligence platform for operators — agencies, consultancies, and fractional executives delivering productized research to international brands.',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'info@soundcheckinsights.com',
@@ -58,8 +58,8 @@ function faqSchema(items) {
 // ─── Page Configs ─────────────────────────────────────────────────────────────
 const seoConfig = {
   '/': {
-    title: 'Soundcheck Insights — AI-Native Market Intelligence for Operators',
-    description: 'AI-native market intelligence for operators — agencies, consultancies, and fractional executives delivering productized research, validation, and strategic insights to international brands entering and scaling in the US.',
+    title: 'Soundcheck Insights — Market Intelligence Platform for Operators',
+    description: 'Decision-grade market intelligence for operators — agencies, consultancies, and fractional executives delivering productized research, validation, and strategic insights to international brands entering and scaling in the US.',
     image: '/og/og-home.png',
     keywords: 'market intelligence, AI research, agency platform, white-label research, market analysis, competitive intelligence, operator platform, fractional executive',
     schema: {
@@ -67,7 +67,7 @@ const seoConfig = {
       '@type': 'WebSite',
       name: 'Soundcheck Insights',
       url: SITE_URL,
-      description: 'AI-native market intelligence for operators — agencies, consultancies, and fractional executives.',
+      description: 'Decision-grade market intelligence for operators — agencies, consultancies, and fractional executives.',
       publisher: organizationSchema,
     },
   },

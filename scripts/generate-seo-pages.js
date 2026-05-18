@@ -24,8 +24,8 @@ const SITE_NAME = 'Soundcheck Insights'
 // ─── Per-page SEO data ────────────────────────────────────────────────────────
 const pages = {
   '/': {
-    title: 'Soundcheck Insights — AI-Native Market Intelligence for Operators',
-    description: 'AI-native market intelligence for operators — agencies, consultancies, and fractional executives delivering productized research to international brands entering and scaling in the US.',
+    title: 'Soundcheck Insights — Market Intelligence Platform for Operators',
+    description: 'Decision-grade market intelligence for operators — agencies, consultancies, and fractional executives delivering productized research to international brands entering and scaling in the US.',
     image: '/og/og-home.png',
   },
   '/products': {

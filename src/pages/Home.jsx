@@ -160,7 +160,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
               style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}
             >
-              <Link to={getLocalizedPath('/partner', lang)} className="btn btn-primary">{t('home.requestAccess')}</Link>
+              <Link to={getLocalizedPath('/founding-cohort', lang)} className="btn btn-primary">{t('home.requestAccess')}</Link>
               <Link to={getLocalizedPath('/how-it-works', lang)} className="btn btn-secondary">{t('home.seeHowItWorks')}</Link>
             </motion.div>
             <motion.div
@@ -402,7 +402,7 @@ export default function Home() {
           <p className="cta-strip-sub">{t('home.ctaSub')}</p>
         </FadeIn>
         <div className="cta-actions">
-          <Link to={getLocalizedPath('/partner', lang)} className="btn btn-white">{t('home.ctaButton')}</Link>
+          <Link to={getLocalizedPath('/founding-cohort', lang)} className="btn btn-white">{t('home.ctaButton')}</Link>
         </div>
       </section>
     </PageWrapper>

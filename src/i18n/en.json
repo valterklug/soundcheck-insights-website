@@ -17,7 +17,7 @@
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
-    "tagline": "AI-native market intelligence platform for operators — agencies, consultancies, and fractional executives.",
+    "tagline": "Decision-grade market intelligence platform for operators — agencies, consultancies, and fractional executives.",
     "foundedBy": "Founded by Valter Klug",
     "location": "Miami, FL",
     "platform": "Platform",
@@ -30,12 +30,12 @@
   },
   "home": {
     "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Marketing Executives",
-    "heroTitle1": "AI-native market intelligence",
-    "heroTitle2": "",
-    "heroTitle3": "for international brands",
-    "heroTitle4": "entering and scaling in a new market.",
-    "heroDesc": "Test before you invest. Validation, research, focus groups, and strategic insights — productized, AI-accelerated, in days, not months. Delivered by Soundcheck directly, or by operators, white-labeled.",
-    "requestAccess": "Become an Operator Partner →",
+    "heroTitle1": "Add market intelligence",
+    "heroTitle2": "to your practice.",
+    "heroTitle3": "Without adding",
+    "heroTitle4": "the team.",
+    "heroDesc": "Soundcheck is a productized research platform for agencies, consultants, and fractional executives. Your clients get decision-grade intelligence. You keep 75–85% of every engagement. White-label by default.",
+    "requestAccess": "Apply for Founding Cohort →",
     "seeHowItWorks": "See How It Works",
     "stats": [
       {
@@ -112,7 +112,7 @@
         "for": "The Starting Point · Every Engagement",
         "name": "Market Research",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel. Every other product builds on this.",
-        "delivery": "From $3,000 · S/M/L tiers · White-label included",
+        "delivery": "From $3,000 · Mini/Standard/Premium tiers · White-label included",
         "link": "/research-platform",
         "memberRateNote": "Mana Tech Member Rate available"
       },
@@ -155,19 +155,19 @@
     ],
     "viewAllProducts": "View All Products →",
     "economicsLabel": "The Business Case",
-    "economicsTitle1": "Keep 70% of MSRP.",
+    "economicsTitle1": "Keep 75–85% of MSRP.",
     "economicsTitle2": "No new headcount.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Real Economics · Standard Tier (on a $7,000 engagement)",
+    "economicsHeader": "Founding Operator Economics (on a $5,750 engagement)",
     "economicsRows": [
       [
         "Soundcheck platform fee",
-        "30% of MSRP · $2,100"
+        "15% · $863 (first 2 projects)"
       ],
       [
-        "Your agency keeps",
-        "70% of MSRP · $4,900"
+        "You keep",
+        "85% · $4,888"
       ],
       [
         "Your time investment",
@@ -175,14 +175,14 @@
       ],
       [
         "Effective hourly rate",
-        "$490–$817/h"
+        "$489–$815/h"
       ]
     ],
     "marginLabel": "Your margin per engagement",
-    "marginValue": "$4,900+",
-    "ctaTitle": "Start with a trial.\nTwo engagements. No commitment.",
-    "ctaSub": "Most operators start on an existing client. Trial at 35% of MSRP — no setup fee, no annual commitment. Convert within 90 days and your trial fees credit toward setup.",
-    "ctaButton": "Become an Operator Partner →",
+    "marginValue": "$4,888+",
+    "ctaTitle": "Join the Founding Operator Cohort.\n10 seats. Application only.",
+    "ctaSub": "Keep 85% of your first two projects. Then 75% — for life. Direct access to the founder. White-label by default.",
+    "ctaButton": "Apply for Founding Cohort →",
     "modulesLabel": "Five Products · One Platform",
     "modulesTitle": "Every engagement starts with Market Research. Build from there.",
     "modulesFoundation": "The Foundation",
@@ -192,7 +192,7 @@
         "num": "01",
         "name": "Market Research",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded buyer persona panel. The required foundation for every other product.",
-        "price": "S / M / L tiers: $3,000 · $3,500 · $4,000",
+        "price": "Mini / Standard / Premium: $3,000 · $3,750 · $4,500",
         "link": "/market-research"
       },
       {
@@ -364,7 +364,7 @@
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Operator Tiers (on a $7,000 engagement)",
+    "economicsHeader": "Real Economics · Operator Tiers (on a $5,750 engagement)",
     "tierTrial": "Trial",
     "tierTrialDesc": "No setup · 2-project cap",
     "tierStandard": "Standard",
@@ -380,15 +380,15 @@
       ],
       [
         "Soundcheck takes",
-        "$2,450",
-        "$2,100",
-        "$1,750"
+        "$2,013",
+        "$1,725",
+        "$1,438"
       ],
       [
-        "Your agency keeps",
-        "$4,550",
-        "$4,900",
-        "$5,250"
+        "You keep",
+        "$3,738",
+        "$4,025",
+        "$4,313"
       ],
       [
         "Your time investment",
@@ -398,15 +398,15 @@
       ],
       [
         "Effective hourly rate",
-        "$455–$758/h",
-        "$490–$817/h",
-        "$525–$875/h"
+        "$374–$623/h",
+        "$403–$671/h",
+        "$431–$719/h"
       ]
     ],
     "yourMargin": "Your margin",
-    "marginTrial": "$4,550",
-    "marginStandard": "$4,900",
-    "marginManaTech": "$5,250",
+    "marginTrial": "$3,738",
+    "marginStandard": "$4,025",
+    "marginManaTech": "$4,313",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [
@@ -447,11 +447,11 @@
     "whiteLabelProducts": [
       {
         "num": "01",
-        "name": "Market Research (S / M / L)",
+        "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Required for every engagement",
         "desc": "Three decision-grade reports plus a persona panel with 6, 8, or 10 buyer personas. The foundation every other product builds on.",
         "delivery": "5–10 day delivery",
-        "price": "MSRP: $3,000 / $3,500 / $4,000",
+        "price": "MSRP: $3,000 / $3,750 / $4,500",
         "link": "/research-platform"
       },
       {
@@ -542,15 +542,15 @@
         "name": "Market Research",
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 8, or 10 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
-        "price": "US$3,000 / $3,500 / $4,000 (S / M / L)",
+        "price": "US$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)",
         "delivery": "5–10 day delivery · MSRP",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
           "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
           "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
-          "Persona Panel — 6, 8, or 10 research-grounded buyer personas (S/M/L tiers)",
-          "S/M/L pricing: $3,000 / $3,500 / $4,000"
+          "Persona Panel — 6, 8, or 10 research-grounded buyer personas (Mini/Standard/Premium tiers)",
+          "Mini/Standard/Premium pricing: $3,000 / $3,750 / $4,500"
         ],
         "link": "/research-platform",
         "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
@@ -1833,7 +1833,7 @@
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
         "delivery": "2–3 weeks from signed intake",
-        "pricing": "Small $4,000 (6 personas) · Medium $6,000 (12 personas) · Large $8,000 (20 personas)",
+        "pricing": "Mini $3,000 (6 personas) · Standard $3,750 (12 personas) · Premium $4,500 (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
       },
@@ -1855,7 +1855,7 @@
         "desc": "Test packaging, taglines, creative territories, product concepts, or pricing claims against your full persona panel. Each session includes three rounds of iterative feedback — refine the concept between rounds without starting a new session. Panels are reusable across multiple sessions and product lines.",
         "whatYouGet": "Dashboard with preference votes, verbatim quotes, strategic insights + 3 feedback rounds",
         "delivery": "3–5 business days",
-        "pricing": "$4,000 per session · additional feedback rounds $50 each",
+        "pricing": "$3,000 per session · +$2,000 re-test pack",
         "link": "/virtual-focus-groups",
         "linkLabel": "See full details →"
       }
@@ -1872,38 +1872,38 @@
     "pricingRows": [
       {
         "name": "Starter",
-        "research": "Research S ($4,000)",
+        "research": "Research Mini ($3,000)",
         "journeys": "6 personas ($3,000)",
-        "vfg": "1 session ($4,000)",
-        "total": "$11,000"
+        "vfg": "1 session ($3,000)",
+        "total": "$9,000"
       },
       {
         "name": "Growth",
-        "research": "Research M ($6,000)",
-        "journeys": "8 personas ($3,200)",
-        "vfg": "1 session ($4,000)",
-        "total": "$13,200"
+        "research": "Research Standard ($3,750)",
+        "journeys": "8 personas ($4,000)",
+        "vfg": "1 session ($3,000)",
+        "total": "$10,750"
       },
       {
         "name": "Full Scale",
-        "research": "Research L ($8,000)",
-        "journeys": "10 personas ($4,000)",
-        "vfg": "1 session ($4,000)",
-        "total": "$16,000"
+        "research": "Research Premium ($4,500)",
+        "journeys": "10 personas ($5,000)",
+        "vfg": "1 session ($3,000)",
+        "total": "$12,500"
       },
       {
         "name": "Research Only",
-        "research": "Research S ($4,000)",
+        "research": "Research Mini ($3,000)",
         "journeys": "—",
         "vfg": "—",
-        "total": "$4,000"
+        "total": "$3,000"
       },
       {
         "name": "Research + Journeys",
-        "research": "Research M ($6,000)",
+        "research": "Research Standard ($3,750)",
         "journeys": "6 personas ($3,000)",
         "vfg": "—",
-        "total": "$9,000"
+        "total": "$6,750"
       }
     ],
     "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",

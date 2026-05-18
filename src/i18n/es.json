@@ -17,7 +17,7 @@
     "virtualFocusGroups": "Sesiones de Grupos Focales Virtuales"
   },
   "footer": {
-    "tagline": "Plataforma de inteligencia de mercado AI-native para operadores — agencias, consultorías y ejecutivos fraccionales.",
+    "tagline": "Plataforma de inteligencia de mercado decision-grade para operadores — agencias, consultorías y ejecutivos fraccionales.",
     "foundedBy": "Fundada por Valter Klug",
     "location": "Miami, FL",
     "platform": "Plataforma",
@@ -30,12 +30,12 @@
   },
   "home": {
     "heroBadge": "Plataforma de Inteligencia de Mercado · Para Agencias, Consultorías y Ejecutivos de Marketing",
-    "heroTitle1": "Inteligencia de mercado AI-native",
-    "heroTitle2": "",
-    "heroTitle3": "para marcas internacionales",
-    "heroTitle4": "entrando y escalando en un nuevo mercado.",
-    "heroDesc": "Pruebe antes de invertir. Validación, investigación, focus groups e insights estratégicos — productizados, acelerados por IA, en días, no meses. Entregados por Soundcheck directamente, o por operadores, bajo white-label.",
-    "requestAccess": "Conviértase en Operador →",
+    "heroTitle1": "Agrega inteligencia de mercado",
+    "heroTitle2": "a tu práctica.",
+    "heroTitle3": "Sin agregar",
+    "heroTitle4": "el equipo.",
+    "heroDesc": "Soundcheck es una plataforma de investigación productizada para agencias, consultores y ejecutivos fraccionales. Tus clientes obtienen inteligencia decision-grade. Tú te quedas con 75–85% de cada proyecto. White-label por defecto.",
+    "requestAccess": "Aplica a la Cohorte Fundadora →",
     "seeHowItWorks": "Ver Cómo Funciona",
     "stats": [
       {
@@ -112,7 +112,7 @@
         "for": "Punto de Partida · Cada Compromiso",
         "name": "Investigación de Mercado",
         "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas. La base de todo lo demás.",
-        "delivery": "Desde $3,000 · Tiers S/M/L",
+        "delivery": "Desde $3,000 · Tiers Mini/Standard/Premium",
         "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech disponible"
       },
@@ -155,19 +155,19 @@
     ],
     "viewAllProducts": "Ver Todos los Productos →",
     "economicsLabel": "El Caso de Negocio",
-    "economicsTitle1": "Quédese con el 70% del MSRP.",
+    "economicsTitle1": "Quédate con el 75–85% del MSRP.",
     "economicsTitle2": "Sin nuevas contrataciones.",
     "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Tu rol es capturar el brief, aplicar tu juicio profesional y presentar los hallazgos con el contexto estratégico que solo tú puedes proveer.",
     "economicsLink": "Desglose Completo de Economía →",
-    "economicsHeader": "Economía Real · Nivel Standard (en un compromiso de $7,000)",
+    "economicsHeader": "Economía del Operador Fundador (en un proyecto de $5,750)",
     "economicsRows": [
       [
         "Tarifa plataforma Soundcheck",
-        "30% del MSRP · $2,100"
+        "15% · $863 (primeros 2 proyectos)"
       ],
       [
         "Su agencia retiene",
-        "70% del MSRP · $4,900"
+        "85% · $4,888"
       ],
       [
         "Su inversión de tiempo",
@@ -175,14 +175,14 @@
       ],
       [
         "Tarifa efectiva por hora",
-        "$490–$817/h"
+        "$489–$815/h"
       ]
     ],
     "marginLabel": "Tu margen por compromiso",
-    "marginValue": "$4,900+",
-    "ctaTitle": "Comience con una prueba.\nDos compromisos. Sin obligación.",
-    "ctaSub": "La mayoría de los operadores comienzan con un cliente existente. Prueba al 35% del MSRP — sin tarifa de setup, sin compromiso anual.",
-    "ctaButton": "Conviértase en Operador →",
+    "marginValue": "$4,888+",
+    "ctaTitle": "Únete a la Cohorte de Operadores Fundadores.\n10 plazas. Solo por aplicación.",
+    "ctaSub": "Quédate con el 85% de tus primeros dos proyectos. Después el 75% — de por vida. Acceso directo al fundador. White-label por defecto.",
+    "ctaButton": "Aplica a la Cohorte Fundadora →",
     "modulesLabel": "Cinco Productos · Una Plataforma",
     "modulesTitle": "Todo comienza con la Investigación de Mercado. Construya a partir de ahí.",
     "modulesFoundation": "La Base",
@@ -192,7 +192,7 @@
         "num": "01",
         "name": "Investigación de Mercado",
         "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de buyer personas basado en la investigación. La base requerida para todos los demás productos.",
-        "price": "Tiers S / M / L: $3,000 · $3,500 · $4,000",
+        "price": "Mini / Standard / Premium: $3,000 · $3,750 · $4,500",
         "link": "/market-research"
       },
       {
@@ -364,7 +364,7 @@
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
-    "economicsHeader": "Economía Real · Niveles de Operador (en un compromiso de $7,000)",
+    "economicsHeader": "Economía Real · Niveles de Operador (en un compromiso de $5,750)",
     "tierTrial": "Trial",
     "tierTrialDesc": "Sin setup · Límite de 2 proyectos",
     "tierStandard": "Standard",
@@ -380,15 +380,15 @@
       ],
       [
         "Soundcheck recibe",
-        "$2,450",
-        "$2,100",
-        "$1,750"
+        "$2,013",
+        "$1,725",
+        "$1,438"
       ],
       [
         "Tu agencia se queda con",
-        "$4,550",
-        "$4,900",
-        "$5,250"
+        "$3,738",
+        "$4,025",
+        "$4,313"
       ],
       [
         "Tu inversión de tiempo",
@@ -398,15 +398,15 @@
       ],
       [
         "Tarifa efectiva por hora",
-        "$455–$758/h",
-        "$490–$817/h",
-        "$525–$875/h"
+        "$374–$623/h",
+        "$403–$671/h",
+        "$431–$719/h"
       ]
     ],
     "yourMargin": "Tu margen",
-    "marginTrial": "$4,550",
-    "marginStandard": "$4,900",
-    "marginManaTech": "$5,250",
+    "marginTrial": "$3,738",
+    "marginStandard": "$4,025",
+    "marginManaTech": "$4,313",
     "operatorLabel": "Lo que obtiene como operador",
     "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
@@ -447,29 +447,47 @@
     "whiteLabelProducts": [
       {
         "num": "01",
-        "name": "GoGlobal Viability Analysis",
-        "audience": "Marcas Internacionales · Entrada en el Mercado",
-        "desc": "Inteligencia de entrada de mercado de grado decisivo. CVE Score propietario, panorama competitivo, análisis regulatorio, mapa de canales de distribución, tres caminos estratégicos, y roadmap de 12 meses. Más de 100 páginas.",
-        "delivery": "Entrega en 14 días",
-        "price": "Precio sugerido al cliente: US$5k+",
-        "link": "/expansion-report"
+        "name": "Market Research (Mini / Standard / Premium)",
+        "audience": "Requerido para cada proyecto",
+        "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 8 o 10 buyer personas. La base sobre la que se construye cada otro producto.",
+        "delivery": "Entrega en 5–10 días",
+        "price": "MSRP: $3,000 / $3,750 / $4,500",
+        "link": "/research-platform"
       },
       {
         "num": "02",
-        "name": "US Growth Roadmap",
-        "audience": "Pequeñas y Medianas Empresas de EE.UU.",
-        "desc": "Para empresas de servicios B2B y marcas CPG que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacios en blanco, palancas de crecimiento clasificadas con estimaciones de inversión, y plan de acción de 90 días.",
-        "delivery": "Entrega en 14 días",
-        "price": "Precio sugerido al cliente: US$5k+",
-        "link": "/growth-roadmap"
+        "name": "GoGlobal Viability Analysis",
+        "audience": "Marcas Internacionales · Entrada en el Mercado",
+        "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, caminos estratégicos y hoja de ruta por fases. Se adjunta a Market Research.",
+        "delivery": "Entrega en 2–3 semanas",
+        "price": "MSRP: $2,000",
+        "link": "/expansion-report"
       },
       {
         "num": "03",
-        "name": "AI Virtual Focus Groups",
-        "audience": "Agencias · Consultorías · Departamentos de Marketing",
-        "desc": "Pruebe conceptos creativos, ideas de productos, precios y posicionamiento con personas generadas por IA que reflejan su audiencia objetivo. Sin reclutamiento. Sin programación. Paneles reutilizables.",
-        "delivery": "Entrega en 1–7 días",
-        "price": "Definición de Persona: US$3k · Sesión: US$2k+",
+        "name": "Scale Assessment",
+        "audience": "Marcas Establecidas · Inteligencia Estratégica",
+        "desc": "Scale Diagnostic, preparación operacional, posición competitiva, plan por fases de 24 meses con puertas de go/no-go, y capa de inteligencia de 90 días.",
+        "delivery": "Entrega en 3–4 semanas",
+        "price": "MSRP: $4,000",
+        "link": "/scale-assessment"
+      },
+      {
+        "num": "04",
+        "name": "Mapas de Viaje del Cliente",
+        "audience": "Inteligencia del Consumidor",
+        "desc": "Mapas de viaje por persona mostrando desde el awareness hasta la advocacy, con análisis de fricción y oportunidad.",
+        "delivery": "Entrega en 2–3 días",
+        "price": "MSRP: $500/persona",
+        "link": "/consumer-journeys"
+      },
+      {
+        "num": "05",
+        "name": "Focus Groups Virtuales",
+        "audience": "Prueba de Concepto · Investigación del Consumidor",
+        "desc": "Prueba packaging, conceptos, precios y territorios creativos contra tu panel de personas. Tres rondas de feedback iterativo por sesión.",
+        "delivery": "Entrega en 3–5 días",
+        "price": "MSRP: $3,000/sesión",
         "link": "/virtual-focus-groups"
       }
     ],
@@ -527,15 +545,15 @@
         "name": "Investigación de Mercado",
         "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
-        "price": "US$3,000 / $3,500 / $4,000 (S / M / L)",
+        "price": "US$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)",
         "delivery": "Entrega en 5–10 días",
         "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
           "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
           "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
           "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
-          "Panel de Personas — 6, 8 o 10 buyer personas (niveles S/M/L)",
-          "Precios S/M/L: $4.000 / $6.000 / $8.000"
+          "Panel de Personas — 6, 8 o 10 buyer personas (niveles Mini/Standard/Premium)",
+          "Precios Mini/Standard/Premium: $3,000 / $3,750 / $4,500"
         ],
         "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
@@ -1865,7 +1883,7 @@
         "desc": "Tres informes de nivel decisivo generados a partir de una toma de requerimientos de 60 minutos: Análisis de Mercado, Análisis del Consumidor, y Paisaje Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y una clasificación de fuente. Incluye un panel de personas compradoras — 6, 12, o 20 personas según el nivel — fundamentadas en la investigación, no construidas a partir de suposiciones.",
         "whatYouGet": "3 informes de investigación marcados + panel de personas editable",
         "delivery": "2–3 semanas desde la toma de requerimientos firmada",
-        "pricing": "Pequeño US$4,000 (6 personas) · Mediano US$6,000 (12 personas) · Grande US$8,000 (20 personas)",
+        "pricing": "Mini US$3,000 (6 personas) · Standard US$3,750 (12 personas) · Premium US$4,500 (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalles completos →"
       },
@@ -1887,7 +1905,7 @@
         "desc": "Prueba empaques, eslóganes, territorios creativos, conceptos de productos, o afirmaciones de precios contra tu panel completo de personas. Cada sesión incluye tres rondas de retroalimentación iterativa — refina el concepto entre rondas sin iniciar una nueva sesión. Los paneles son reutilizables en múltiples sesiones y líneas de productos.",
         "whatYouGet": "Panel con votos de preferencia, citas textuales, perspectivas estratégicas + 3 rondas de retroalimentación",
         "delivery": "3–5 días de negocio",
-        "pricing": "US$4,000 por sesión · rondas de retroalimentación adicionales US$50 cada una",
+        "pricing": "US$3,000 por sesión · rondas de retroalimentación adicionales US$50 cada una",
         "link": "/virtual-focus-groups",
         "linkLabel": "Ver detalles completos →"
       }
@@ -1904,38 +1922,38 @@
     "pricingRows": [
       {
         "name": "Iniciador",
-        "research": "Investigación P (US$4,000)",
+        "research": "Investigación Mini (US$3,000)",
         "journeys": "6 personas (US$3,000)",
-        "vfg": "1 sesión (US$4,000)",
-        "total": "US$11,000"
+        "vfg": "1 sesión (US$3,000)",
+        "total": "US$9,000"
       },
       {
         "name": "Crecimiento",
-        "research": "Investigación M (US$6,000)",
+        "research": "Investigación Standard (US$3,750)",
         "journeys": "8 personas (US$3,200)",
-        "vfg": "1 sesión (US$4,000)",
-        "total": "US$13,200"
+        "vfg": "1 sesión (US$3,000)",
+        "total": "US$10,750"
       },
       {
         "name": "Escala Completa",
-        "research": "Investigación G (US$8,000)",
+        "research": "Investigación Premium (US$4,500)",
         "journeys": "10 personas (US$4,000)",
-        "vfg": "1 sesión (US$4,000)",
-        "total": "US$16,000"
+        "vfg": "1 sesión (US$3,000)",
+        "total": "US$12,500"
       },
       {
         "name": "Solo Investigación",
-        "research": "Investigación P (US$4,000)",
+        "research": "Investigación Mini (US$3,000)",
         "journeys": "—",
         "vfg": "—",
-        "total": "US$4,000"
+        "total": "US$3,000"
       },
       {
         "name": "Investigación + Viajes",
-        "research": "Investigación M (US$6,000)",
+        "research": "Investigación Standard (US$3,750)",
         "journeys": "6 personas (US$3,000)",
         "vfg": "—",
-        "total": "US$9,000"
+        "total": "US$6,750"
       }
     ],
     "pricingNote": "Precios mayoristas para agencias disponibles — vea los modelos de partnership y divisiones de ingresos.",
