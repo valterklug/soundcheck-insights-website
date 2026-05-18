@@ -39,7 +39,7 @@
     "seeHowItWorks": "Ver Cómo Funciona",
     "stats": [
       {
-        "value": "6–10h",
+        "value": "~5h",
         "label": "Su tiempo por informe"
       },
       {
@@ -59,7 +59,7 @@
       {
         "icon": "⏱",
         "title": "La investigación toma demasiado tiempo",
-        "text": "Un equipo junior necesita 3–4 semanas para producir lo que Soundcheck entrega en menos de 5 días."
+        "text": "Un equipo junior necesita 3–4 semanas para producir lo que la plataforma Soundcheck entrega en menos de 24 horas."
       },
       {
         "icon": "💸",
@@ -91,12 +91,12 @@
       {
         "num": "02",
         "title": "La plataforma genera el informe",
-        "tag": "Automatizado · 100+ páginas · Días 1–5"
+        "tag": "Automatizado · 100+ páginas · Día 1"
       },
       {
         "num": "03",
         "title": "Usted valida con su experiencia",
-        "tag": "Su tiempo · ~5–8h · Su capa estratégica"
+        "tag": "Su tiempo · ~4h · Su capa estratégica"
       },
       {
         "num": "04",
@@ -171,11 +171,11 @@
       ],
       [
         "Su inversión de tiempo",
-        "6–10 horas"
+        "~5 horas"
       ],
       [
         "Tarifa efectiva por hora",
-        "$489–$815/h"
+        "~$978/h"
       ]
     ],
     "marginLabel": "Tu margen por compromiso",
@@ -231,10 +231,10 @@
     "heroTitle1": "La IA realiza la investigación.",
     "heroTitle2": "Usted",
     "heroTitle3": "entrega la inteligencia.",
-    "heroSub": "Cómo las agencias usan Soundcheck para producir informes de mercado de grado decisión — en 6–10 horas de su tiempo, entregados bajo su marca.",
+    "heroSub": "Cómo las agencias usan Soundcheck para producir informes de mercado de grado decisión — en ~5 horas de su tiempo, entregados bajo su marca.",
     "chips": [
       {
-        "value": "6-10h",
+        "value": "~5h",
         "label": "su tiempo por informe"
       },
       {
@@ -264,15 +264,15 @@
       {
         "num": "Fase 02",
         "label": "La plataforma genera el informe",
-        "timing": "Días 1–5 · Automatizado",
-        "title": "Lo que tomaría 3–4 semanas se ejecuta en menos de 5 días.",
+        "timing": "Día 1 · Automatizado",
+        "title": "Lo que tomaría 3–4 semanas se ejecuta en menos de 24 horas.",
         "body": "El motor de IA de Soundcheck agrega datos de mercado, construye mapas competitivos, calcula puntuaciones de viabilidad y produce un análisis estructurado de 100+ páginas. Usted no necesita hacer nada durante esta fase.",
         "tag": "Automatizado · No requiere entrada de su parte"
       },
       {
         "num": "Fase 03",
         "label": "Usted valida con su experiencia",
-        "timing": "Días 6–12 · Su tiempo: ~5–8h",
+        "timing": "Días 2–13 · Su tiempo: ~4h",
         "title": "Aquí es donde entra en juego su valor como profesional.",
         "body": "Revisa el resultado generado por IA contra su propio conocimiento de mercado, agrega contexto estratégico y narrativa, ajusta cualquier sección que no coincida con su análisis, y construye su capa de recomendaciones sobre la base. El resultado se convierte en el suyo, no en el nuestro.",
         "tag": "Su experiencia · Su capa estratégica"
@@ -392,15 +392,15 @@
       ],
       [
         "Tu inversión de tiempo",
-        "6–10 horas",
-        "6–10 horas",
-        "6–10 horas"
+        "~5 horas",
+        "~5 horas",
+        "~5 horas"
       ],
       [
         "Tarifa efectiva por hora",
-        "$374–$623/h",
-        "$403–$671/h",
-        "$431–$719/h"
+        "~$748/h",
+        "~$805/h",
+        "~$863/h"
       ]
     ],
     "yourMargin": "Tu margen",
@@ -450,7 +450,7 @@
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Requerido para cada proyecto",
         "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 8 o 10 buyer personas. La base sobre la que se construye cada otro producto.",
-        "delivery": "Entrega en 5–10 días",
+        "delivery": "Entrega en 14 días",
         "price": "MSRP: $3,000 / $3,750 / $4,500",
         "link": "/research-platform"
       },
@@ -546,7 +546,7 @@
         "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
         "price": "US$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)",
-        "delivery": "Entrega en 5–10 días",
+        "delivery": "Entrega en 14 días",
         "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
           "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
@@ -1882,7 +1882,7 @@
         "tag": "El cimiento. Requerido para todos los otros módulos.",
         "desc": "Tres informes de nivel decisivo generados a partir de una toma de requerimientos de 60 minutos: Análisis de Mercado, Análisis del Consumidor, y Paisaje Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y una clasificación de fuente. Incluye un panel de personas compradoras — 6, 12, o 20 personas según el nivel — fundamentadas en la investigación, no construidas a partir de suposiciones.",
         "whatYouGet": "3 informes de investigación marcados + panel de personas editable",
-        "delivery": "2–3 semanas desde la toma de requerimientos firmada",
+        "delivery": "14 días desde el intake firmado",
         "pricing": "Mini US$3,000 (6 personas) · Standard US$3,750 (12 personas) · Premium US$4,500 (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalles completos →"
@@ -2109,13 +2109,13 @@
     "mathRows": [
       ["Tarifa de plataforma Soundcheck", "30% · $1,725", "15% · $863"],
       ["Tú te quedas", "$4,025", "$4,888"],
-      ["Tu inversión de tiempo", "6–10 horas", "6–10 horas"],
+      ["Tu inversión de tiempo", "~5 horas", "~5 horas"],
       ["Después de los primeros 2 proyectos (75/25)", "—", "$4,313"]
     ],
     "mathEffectiveRate": "Tarifa efectiva por hora",
-    "mathRateStandard": "$403–$671/hr",
-    "mathRateFounding": "$489–$815/hr",
-    "mathFootnote": "Primeros 2 proyectos al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación experta (~5–8 horas).",
+    "mathRateStandard": "~$805/hr",
+    "mathRateFounding": "~$978/hr",
+    "mathFootnote": "Primeros 2 proyectos al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
     "toolkitLabel": "Tu Kit de Operador",
     "toolkitTitle": "Cinco productos. Tu marca. Tu margen.",
     "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Todo entregado white-label bajo tu marca. Proyecto típico: $5K–$13K.",
@@ -2173,7 +2173,7 @@
       },
       {
         "q": "¿Cuánto tiempo toma cada proyecto?",
-        "a": "6–10 horas de tu tiempo total. Aproximadamente 1 hora para la llamada de intake con el cliente, y 5–8 horas validando la investigación generada por IA con tu juicio profesional. La plataforma hace el trabajo pesado de investigación — tú entregas la inteligencia."
+        "a": "Aproximadamente 5 horas de tu tiempo total. Alrededor de 1 hora para la llamada de intake con el cliente, y ~4 horas validando el informe con tu juicio profesional. La plataforma genera el informe completo en menos de 24 horas — tú entregas la inteligencia."
       },
       {
         "q": "¿Qué tipo de soporte recibo?",

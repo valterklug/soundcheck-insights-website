@@ -39,7 +39,7 @@
     "seeHowItWorks": "See How It Works",
     "stats": [
       {
-        "value": "6–10h",
+        "value": "~5h",
         "label": "Your time per report"
       },
       {
@@ -59,7 +59,7 @@
       {
         "icon": "⏱",
         "title": "Research takes too long",
-        "text": "A junior team needs 3–4 weeks to produce what Soundcheck delivers in under 5 days."
+        "text": "A junior team needs 3–4 weeks to produce what Soundcheck generates in under 24 hours."
       },
       {
         "icon": "💸",
@@ -91,12 +91,12 @@
       {
         "num": "02",
         "title": "Platform generates the report",
-        "tag": "Automated · 100+ pages · Days 1–5"
+        "tag": "Automated · 100+ pages · Day 1"
       },
       {
         "num": "03",
         "title": "You validate with your expertise",
-        "tag": "Your time · ~5–8h · Your strategic layer"
+        "tag": "Your time · ~4h · Your strategic layer"
       },
       {
         "num": "04",
@@ -171,11 +171,11 @@
       ],
       [
         "Your time investment",
-        "6–10 hours"
+        "~5 hours"
       ],
       [
         "Effective hourly rate",
-        "$489–$815/h"
+        "~$978/h"
       ]
     ],
     "marginLabel": "Your margin per engagement",
@@ -231,10 +231,10 @@
     "heroTitle1": "The AI does the research.",
     "heroTitle2": "You",
     "heroTitle3": "deliver the intelligence.",
-    "heroSub": "How agencies use Soundcheck to produce decision-grade market reports — in 6-10 hours of their time, delivered under their brand.",
+    "heroSub": "How operators use Soundcheck to produce decision-grade market reports — in ~5 hours of their time, delivered under their brand.",
     "chips": [
       {
-        "value": "6-10h",
+        "value": "~5h",
         "label": "your time per report"
       },
       {
@@ -264,17 +264,17 @@
       {
         "num": "Phase 02",
         "label": "Platform generates the report",
-        "timing": "Days 1-5 · Automated",
-        "title": "What would take 3-4 weeks runs in under 5 days.",
-        "body": "The Soundcheck AI engine aggregates market data, builds competitive maps, calculates viability scores, and produces a structured 100+ pages of analysis. You don't need to do anything during this phase.",
+        "timing": "Day 1 · Automated",
+        "title": "What would take 3–4 weeks generates in under 24 hours.",
+        "body": "The Soundcheck platform aggregates market data, builds competitive maps, calculates viability scores, and produces 100+ pages of structured analysis — in hours, not weeks. You don't need to do anything during this phase.",
         "tag": "Automated · No input needed from you"
       },
       {
         "num": "Phase 03",
         "label": "You validate with your expertise",
-        "timing": "Days 6-12 · Your time: ~5-8h",
+        "timing": "Days 2–13 · Your time: ~4h",
         "title": "This is where your value as a practitioner comes in.",
-        "body": "You review the AI-generated output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The output becomes yours, not ours.",
+        "body": "You review the platform output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The 14-day timeline gives you legroom to manage multiple projects. The output becomes yours, not ours.",
         "tag": "Your expertise · Your strategic layer"
       },
       {
@@ -392,15 +392,15 @@
       ],
       [
         "Your time investment",
-        "6–10 hours",
-        "6–10 hours",
-        "6–10 hours"
+        "~5 hours",
+        "~5 hours",
+        "~5 hours"
       ],
       [
         "Effective hourly rate",
-        "$374–$623/h",
-        "$403–$671/h",
-        "$431–$719/h"
+        "~$748/h",
+        "~$805/h",
+        "~$863/h"
       ]
     ],
     "yourMargin": "Your margin",
@@ -450,7 +450,7 @@
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Required for every engagement",
         "desc": "Three decision-grade reports plus a persona panel with 6, 8, or 10 buyer personas. The foundation every other product builds on.",
-        "delivery": "5–10 day delivery",
+        "delivery": "14-day delivery",
         "price": "MSRP: $3,000 / $3,750 / $4,500",
         "link": "/research-platform"
       },
@@ -543,7 +543,7 @@
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 8, or 10 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
         "price": "US$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)",
-        "delivery": "5–10 day delivery · MSRP",
+        "delivery": "14-day delivery · MSRP",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
@@ -1832,7 +1832,7 @@
         "tag": "The foundation. Required for all other modules.",
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
-        "delivery": "2–3 weeks from signed intake",
+        "delivery": "14 days from signed intake",
         "pricing": "Mini $3,000 (6 personas) · Standard $3,750 (12 personas) · Premium $4,500 (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
@@ -2059,13 +2059,13 @@
     "mathRows": [
       ["Soundcheck platform fee", "30% · $1,725", "15% · $863"],
       ["You keep", "$4,025", "$4,888"],
-      ["Your time investment", "6–10 hours", "6–10 hours"],
+      ["Your time investment", "~5 hours", "~5 hours"],
       ["After first 2 projects (75/25)", "—", "$4,313"]
     ],
     "mathEffectiveRate": "Effective hourly rate",
-    "mathRateStandard": "$403–$671/hr",
-    "mathRateFounding": "$489–$815/hr",
-    "mathFootnote": "First 2 projects at 85/15. Every subsequent project at 75/25 — for life. Standard tier shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~5–8 hours).",
+    "mathRateStandard": "~$805/hr",
+    "mathRateFounding": "~$978/hr",
+    "mathFootnote": "First 2 projects at 85/15. Every subsequent project at 75/25 — for life. Standard tier shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
     "toolkitLabel": "Your Operator Toolkit",
     "toolkitTitle": "Five products. Your brand. Your margin.",
     "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
@@ -2123,7 +2123,7 @@
       },
       {
         "q": "How much time does each engagement take?",
-        "a": "6–10 hours of your time total. About 1 hour for the client intake call, and 5–8 hours validating the AI-generated research with your professional judgment. The platform handles the heavy research lifting — you deliver the intelligence."
+        "a": "About 5 hours of your time total. ~1 hour for the client intake call, and ~4 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours — the 14-day delivery timeline gives you legroom to manage multiple projects. You deliver the intelligence."
       },
       {
         "q": "What kind of support do I get?",
