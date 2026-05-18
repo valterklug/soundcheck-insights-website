@@ -35,7 +35,7 @@ export default function FoundingCohort() {
           {/* Urgency chips */}
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 28 }}>
             <div className="chip"><strong>10</strong> {t('foundingCohort.chipSeats')}</div>
-            <div className="chip"><strong>85%</strong> {t('foundingCohort.chipFirst2')}</div>
+            <div className="chip"><strong>90%</strong> {t('foundingCohort.chipFirst2')}</div>
             <div className="chip"><strong>75%</strong> {t('foundingCohort.chipForLife')}</div>
             <div className="chip"><strong>0</strong> {t('foundingCohort.chipSetup')}</div>
           </div>

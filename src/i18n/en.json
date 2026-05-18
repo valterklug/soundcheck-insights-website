@@ -34,7 +34,7 @@
     "heroTitle2": "to your practice.",
     "heroTitle3": "Without adding",
     "heroTitle4": "the team.",
-    "heroDesc": "Soundcheck is a productized research platform for agencies, consultants, and fractional executives. Your clients get decision-grade intelligence. You keep 75–85% of every engagement. White-label by default.",
+    "heroDesc": "Soundcheck is a productized research platform for agencies, consultants, and fractional executives. Your clients get decision-grade intelligence. You keep 75–90% of every engagement. White-label by default.",
     "requestAccess": "Apply for Founding Cohort →",
     "seeHowItWorks": "See How It Works",
     "stats": [
@@ -155,7 +155,7 @@
     ],
     "viewAllProducts": "View All Products →",
     "economicsLabel": "The Business Case",
-    "economicsTitle1": "Keep 75–85% of MSRP.",
+    "economicsTitle1": "Keep 75–90% of MSRP.",
     "economicsTitle2": "No new headcount.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
@@ -163,11 +163,11 @@
     "economicsRows": [
       [
         "Soundcheck platform fee",
-        "15% · $863 (first 2 projects)"
+        "10% · $575 (first 2 projects)"
       ],
       [
         "You keep",
-        "85% · $4,888"
+        "90% · $5,175"
       ],
       [
         "Your time investment",
@@ -175,13 +175,13 @@
       ],
       [
         "Effective hourly rate",
-        "~$978/h"
+        "~$1,035/h"
       ]
     ],
     "marginLabel": "Your margin per engagement",
-    "marginValue": "$4,888+",
+    "marginValue": "$5,175+",
     "ctaTitle": "Join the Founding Operator Cohort.\n10 seats. Application only.",
-    "ctaSub": "Keep 85% of your first two projects. Then 75% — for life. Direct access to the founder. White-label by default.",
+    "ctaSub": "Keep 90% of your first two projects. Then 75% — for life. Direct access to the founder. White-label by default.",
     "ctaButton": "Apply for Founding Cohort →",
     "modulesLabel": "Five Products · One Platform",
     "modulesTitle": "Every engagement starts with Market Research. Build from there.",
@@ -2025,7 +2025,7 @@
     "heroLabel": "Founding Operator Cohort · Now Accepting Applications",
     "heroTitle1": "10 Seats. Application Only.",
     "heroTitle2": "Your research practice starts here.",
-    "heroSub": "Build a market intelligence practice on Soundcheck. Keep 85% of your first two engagements. Then 75% — for life. Direct access to the founder. Hands-on support through your first deliveries.",
+    "heroSub": "Build a market intelligence practice on Soundcheck. Keep 90% of your first two engagements. Then 85% during onboarding. Then 75% — for life. Direct access to the founder.",
     "chipSeats": "seats available",
     "chipFirst2": "yours on first 2 projects",
     "chipForLife": "yours on every project after — for life",
@@ -2035,19 +2035,24 @@
     "dealTitle": "Economics that reward early operators. Permanently.",
     "benefits": [
       {
-        "stat": "85/15",
+        "stat": "90/10",
         "title": "Your first 2 projects",
-        "desc": "You keep 85% of MSRP. Soundcheck takes only 15% — half the standard platform fee. Zero setup cost. Start with a real client engagement."
+        "desc": "You keep 90% of MSRP. Soundcheck takes only 10% — a third of the standard platform fee. Zero setup cost. Start with a real client engagement."
+      },
+      {
+        "stat": "85/15",
+        "title": "During onboarding (first 4 months)",
+        "desc": "After your first two projects, your rate moves to 85/15 for the remainder of the 4-month onboarding period. Still well below the standard 30% platform fee."
       },
       {
         "stat": "75/25",
-        "title": "Every project after — for life",
-        "desc": "After your first two engagements, your permanent rate locks at 75/25. Not for 12 months. Not for 24 months. For life. This rate never changes."
+        "title": "After onboarding — for life",
+        "desc": "Once your onboarding period ends, your permanent rate locks at 75/25. Not for a contract term. Not until a pricing review. For life. This rate never changes."
       },
       {
         "stat": "1:1",
         "title": "Founder access + hands-on support",
-        "desc": "Direct access to Valter Klug — the founder who delivered 20+ engagements as Operator Zero. Hands-on support through your first two deliveries. Cohort peer group."
+        "desc": "Direct access to Valter Klug — the founder who delivered 20+ engagements as Operator Zero. Hands-on support through your first deliveries. Cohort peer group."
       }
     ],
     "mathLabel": "The Math",
@@ -2057,15 +2062,16 @@
     "mathColStandard": "Standard Tier (70/30)",
     "mathColFounding": "Founding Operator",
     "mathRows": [
-      ["Soundcheck platform fee", "30% · $1,725", "15% · $863"],
-      ["You keep", "$4,025", "$4,888"],
+      ["Soundcheck platform fee", "30% · $1,725", "10% · $575"],
+      ["You keep", "$4,025", "$5,175"],
       ["Your time investment", "~5 hours", "~5 hours"],
-      ["After first 2 projects (75/25)", "—", "$4,313"]
+      ["During onboarding (85/15)", "—", "$4,888"],
+      ["After onboarding (75/25 for life)", "—", "$4,313"]
     ],
     "mathEffectiveRate": "Effective hourly rate",
     "mathRateStandard": "~$805/hr",
-    "mathRateFounding": "~$978/hr",
-    "mathFootnote": "First 2 projects at 85/15. Every subsequent project at 75/25 — for life. Standard tier shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
+    "mathRateFounding": "~$1,035/hr",
+    "mathFootnote": "First 2 projects at 90/10. Remaining onboarding period (4 months) at 85/15. Every project after onboarding at 75/25 — for life. Standard tier (70/30) shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
     "toolkitLabel": "Your Operator Toolkit",
     "toolkitTitle": "Five products. Your brand. Your margin.",
     "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
@@ -2076,7 +2082,7 @@
       { "label": "Add-on", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
       { "label": "Add-on", "name": "Virtual Focus Group", "price": "+ $3,000", "color": "#FBBF24" }
     ],
-    "toolkitTypical": "Typical engagement: $5K–$13K MSRP · Founding Operators keep 75–85%",
+    "toolkitTypical": "Typical engagement: $5K–$13K MSRP · Founding Operators keep 75–90%",
     "profileLabel": "Who This Is For",
     "profileTitle": "You might be a Founding Operator if…",
     "profileItems": [
@@ -2107,11 +2113,11 @@
     "faqItems": [
       {
         "q": "Do I need to pay anything upfront?",
-        "a": "No. There is no setup fee for Founding Operators. You start earning from your first client engagement. Soundcheck takes its share (15% on your first two projects, 25% thereafter) only when you deliver and get paid."
+        "a": "No. There is no setup fee for Founding Operators. You start earning from your first client engagement. Soundcheck takes its share (10% on your first two projects, 15% during onboarding, 25% after) only when you deliver and get paid."
       },
       {
         "q": "What does 'for life' actually mean?",
-        "a": "It means what it says. Your 75/25 rate is locked permanently. Not for a contract term. Not until a pricing review. If you deliver your first two engagements and stay active, your Founding Operator rate stays at 75/25 for every engagement you ever deliver through Soundcheck."
+        "a": "It means what it says. After your 4-month onboarding, your 75/25 rate is locked permanently. Not for a contract term. Not until a pricing review. Your Founding Operator rate stays at 75/25 for every engagement you ever deliver through Soundcheck — versus 70/30 on the standard plan."
       },
       {
         "q": "What if I don't have a client ready right now?",
@@ -2135,7 +2141,7 @@
       },
       {
         "q": "How is this different from a Trial tier?",
-        "a": "Trial gives you 65% on 2 projects with a $300 setup fee, then graduates to Standard (70/30). Founding Operators get 85% on 2 projects with zero setup, then 75/25 for life. The Founding Cohort is a better deal — and it comes with founder access and hands-on support that Trial doesn't include."
+        "a": "Trial gives you 65% on 2 projects with a $300 setup fee, then graduates to Standard (70/30). Founding Operators get 90% on their first 2 projects with zero setup, 85% during the 4-month onboarding, then 75/25 for life. The Founding Cohort is a significantly better deal — and it comes with founder access and hands-on support that Trial doesn't include."
       }
     ],
     "formLabel": "Apply Now",
@@ -2143,7 +2149,7 @@
     "formDesc": "10 seats. We review every application personally. If you have clients who need market intelligence and you're ready to deliver, tell us about your practice.",
     "formButton": "Submit Application →",
     "ctaTitle": "10 seats. The economics won't be repeated.",
-    "ctaSub": "The Founding Operator Cohort is a one-time offer. 85/15 on your first two projects, then 75/25 for life. Once the 10 seats are filled, the next cohort starts at standard rates.",
+    "ctaSub": "The Founding Operator Cohort is a one-time offer. 90/10 on your first two projects, 85/15 during onboarding, then 75/25 for life. Once the 10 seats are filled, the next cohort starts at standard rates.",
     "ctaButton": "Apply Now →"
   }
 }

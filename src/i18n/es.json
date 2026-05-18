@@ -34,7 +34,7 @@
     "heroTitle2": "a tu práctica.",
     "heroTitle3": "Sin agregar",
     "heroTitle4": "el equipo.",
-    "heroDesc": "Soundcheck es una plataforma de investigación productizada para agencias, consultores y ejecutivos fraccionales. Tus clientes obtienen inteligencia decision-grade. Tú te quedas con 75–85% de cada proyecto. White-label por defecto.",
+    "heroDesc": "Soundcheck es una plataforma de investigación productizada para agencias, consultores y ejecutivos fraccionales. Tus clientes obtienen inteligencia decision-grade. Tú te quedas con 75–90% de cada proyecto. White-label por defecto.",
     "requestAccess": "Aplica a la Cohorte Fundadora →",
     "seeHowItWorks": "Ver Cómo Funciona",
     "stats": [
@@ -155,7 +155,7 @@
     ],
     "viewAllProducts": "Ver Todos los Productos →",
     "economicsLabel": "El Caso de Negocio",
-    "economicsTitle1": "Quédate con el 75–85% del MSRP.",
+    "economicsTitle1": "Quédate con el 75–90% del MSRP.",
     "economicsTitle2": "Sin nuevas contrataciones.",
     "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Tu rol es capturar el brief, aplicar tu juicio profesional y presentar los hallazgos con el contexto estratégico que solo tú puedes proveer.",
     "economicsLink": "Desglose Completo de Economía →",
@@ -163,11 +163,11 @@
     "economicsRows": [
       [
         "Tarifa plataforma Soundcheck",
-        "15% · $863 (primeros 2 proyectos)"
+        "10% · $575 (primeros 2 proyectos)"
       ],
       [
         "Su agencia retiene",
-        "85% · $4,888"
+        "90% · $5,175"
       ],
       [
         "Su inversión de tiempo",
@@ -175,13 +175,13 @@
       ],
       [
         "Tarifa efectiva por hora",
-        "~$978/h"
+        "~$1,035/h"
       ]
     ],
     "marginLabel": "Tu margen por compromiso",
-    "marginValue": "$4,888+",
+    "marginValue": "$5,175+",
     "ctaTitle": "Únete a la Cohorte de Operadores Fundadores.\n10 plazas. Solo por aplicación.",
-    "ctaSub": "Quédate con el 85% de tus primeros dos proyectos. Después el 75% — de por vida. Acceso directo al fundador. White-label por defecto.",
+    "ctaSub": "Quédate con el 90% de tus primeros dos proyectos. Después el 85% durante el onboarding, luego el 75% — de por vida. Acceso directo al fundador. White-label por defecto.",
     "ctaButton": "Aplica a la Cohorte Fundadora →",
     "modulesLabel": "Cinco Productos · Una Plataforma",
     "modulesTitle": "Todo comienza con la Investigación de Mercado. Construya a partir de ahí.",
@@ -2075,7 +2075,7 @@
     "heroLabel": "Cohorte de Operadores Fundadores · Aceptando Aplicaciones",
     "heroTitle1": "10 Plazas. Solo por Aplicación.",
     "heroTitle2": "Tu práctica de investigación comienza aquí.",
-    "heroSub": "Construye una práctica de inteligencia de mercado en Soundcheck. Quédate con el 85% de tus primeros dos proyectos. Después, 75% — de por vida. Acceso directo al fundador. Soporte personalizado en tus primeras entregas.",
+    "heroSub": "Construye una práctica de inteligencia de mercado en Soundcheck. Quédate con el 90% de tus primeros dos proyectos. Luego 85% durante el onboarding (primeros 4 meses). Después, 75% — de por vida. Acceso directo al fundador. Soporte personalizado en tus primeras entregas.",
     "chipSeats": "plazas disponibles",
     "chipFirst2": "tuyo en los primeros 2 proyectos",
     "chipForLife": "tuyo en cada proyecto después — de por vida",
@@ -2085,14 +2085,19 @@
     "dealTitle": "Economía que recompensa a los operadores tempranos. Permanentemente.",
     "benefits": [
       {
-        "stat": "85/15",
+        "stat": "90/10",
         "title": "Tus primeros 2 proyectos",
-        "desc": "Te quedas con el 85% del MSRP. Soundcheck toma solo 15% — la mitad de la tarifa estándar de plataforma. Sin costo de activación. Comienza con un cliente real."
+        "desc": "Te quedas con el 90% del MSRP. Soundcheck toma solo 10% — un tercio de la tarifa estándar de plataforma. Sin costo de activación. Comienza con un cliente real."
+      },
+      {
+        "stat": "85/15",
+        "title": "Durante el onboarding (primeros 4 meses)",
+        "desc": "Durante el resto de tu período de onboarding, tu tarifa pasa a 85/15. Sigues quedándote con la gran mayoría mientras construyes tu práctica."
       },
       {
         "stat": "75/25",
-        "title": "Cada proyecto después — de por vida",
-        "desc": "Después de tus primeros dos proyectos, tu tarifa permanente se fija en 75/25. No por 12 meses. No por 24 meses. De por vida. Esta tarifa nunca cambia."
+        "title": "Después del onboarding — de por vida",
+        "desc": "Una vez que completas el onboarding, tu tarifa permanente se fija en 75/25. No por 12 meses. No por 24 meses. De por vida. Esta tarifa nunca cambia."
       },
       {
         "stat": "1:1",
@@ -2107,15 +2112,16 @@
     "mathColStandard": "Tier Estándar (70/30)",
     "mathColFounding": "Operador Fundador",
     "mathRows": [
-      ["Tarifa de plataforma Soundcheck", "30% · $1,725", "15% · $863"],
-      ["Tú te quedas", "$4,025", "$4,888"],
+      ["Tarifa de plataforma Soundcheck", "30% · $1,725", "10% · $575"],
+      ["Tú te quedas", "$4,025", "$5,175"],
       ["Tu inversión de tiempo", "~5 horas", "~5 horas"],
-      ["Después de los primeros 2 proyectos (75/25)", "—", "$4,313"]
+      ["Durante onboarding (85/15)", "—", "$4,888"],
+      ["Después del onboarding (75/25)", "—", "$4,313"]
     ],
     "mathEffectiveRate": "Tarifa efectiva por hora",
     "mathRateStandard": "~$805/hr",
-    "mathRateFounding": "~$978/hr",
-    "mathFootnote": "Primeros 2 proyectos al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
+    "mathRateFounding": "~$1,035/hr",
+    "mathFootnote": "Primeros 2 proyectos al 90/10. Durante el onboarding (primeros 4 meses) al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
     "toolkitLabel": "Tu Kit de Operador",
     "toolkitTitle": "Cinco productos. Tu marca. Tu margen.",
     "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Todo entregado white-label bajo tu marca. Proyecto típico: $5K–$13K.",
@@ -2126,7 +2132,7 @@
       { "label": "Módulo", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
       { "label": "Módulo", "name": "Virtual Focus Group", "price": "+ $3,000", "color": "#FBBF24" }
     ],
-    "toolkitTypical": "Proyecto típico: $5K–$13K MSRP · Operadores Fundadores se quedan con 75–85%",
+    "toolkitTypical": "Proyecto típico: $5K–$13K MSRP · Operadores Fundadores se quedan con 75–90%",
     "profileLabel": "Para Quién Es",
     "profileTitle": "Podrías ser un Operador Fundador si…",
     "profileItems": [
@@ -2157,11 +2163,11 @@
     "faqItems": [
       {
         "q": "¿Necesito pagar algo por adelantado?",
-        "a": "No. No hay tarifa de activación para Operadores Fundadores. Comienzas a ganar desde tu primer proyecto. Soundcheck toma su parte (15% en tus primeros dos proyectos, 25% después) solo cuando entregas y cobras."
+        "a": "No. No hay tarifa de activación para Operadores Fundadores. Comienzas a ganar desde tu primer proyecto. Soundcheck toma su parte (10% en tus primeros dos proyectos, 15% durante el onboarding, 25% después) solo cuando entregas y cobras."
       },
       {
         "q": "¿Qué significa realmente 'de por vida'?",
-        "a": "Significa lo que dice. Tu tarifa 75/25 se fija permanentemente. No por un plazo de contrato. No hasta una revisión de precios. Si entregas tus primeros dos proyectos y te mantienes activo, tu tarifa de Operador Fundador se mantiene en 75/25 para cada proyecto que entregues a través de Soundcheck."
+        "a": "Significa lo que dice. Tu tarifa 75/25 se fija permanentemente después del onboarding. No por un plazo de contrato. No hasta una revisión de precios. Si completas el onboarding y te mantienes activo, tu tarifa de Operador Fundador se mantiene en 75/25 para cada proyecto que entregues a través de Soundcheck."
       },
       {
         "q": "¿Qué pasa si no tengo un cliente listo ahora?",
@@ -2185,7 +2191,7 @@
       },
       {
         "q": "¿En qué se diferencia del tier Trial?",
-        "a": "Trial te da 65% en 2 proyectos con una tarifa de activación de $300, luego pasa a Standard (70/30). Los Operadores Fundadores obtienen 85% en 2 proyectos sin tarifa de activación, luego 75/25 de por vida. La Cohorte Fundadora es un mejor trato — e incluye acceso al fundador y soporte personalizado que el Trial no incluye."
+        "a": "Trial te da 65% en 2 proyectos con una tarifa de activación de $300, luego pasa a Standard (70/30). Los Operadores Fundadores obtienen 90% en sus primeros 2 proyectos sin tarifa de activación, luego 85/15 durante el onboarding, y 75/25 de por vida. La Cohorte Fundadora es un mejor trato — e incluye acceso al fundador y soporte personalizado que el Trial no incluye."
       }
     ],
     "formLabel": "Aplicar Ahora",
@@ -2193,7 +2199,7 @@
     "formDesc": "10 plazas. Revisamos cada aplicación personalmente. Si tienes clientes que necesitan inteligencia de mercado y estás listo para entregar, cuéntanos sobre tu práctica.",
     "formButton": "Enviar Aplicación →",
     "ctaTitle": "10 plazas. La economía no se repetirá.",
-    "ctaSub": "La Cohorte de Operadores Fundadores es una oferta única. 85/15 en tus primeros dos proyectos, luego 75/25 de por vida. Una vez que las 10 plazas se llenen, la próxima cohorte comienza con tarifas estándar.",
+    "ctaSub": "La Cohorte de Operadores Fundadores es una oferta única. 90/10 en tus primeros dos proyectos, luego 85/15 durante el onboarding, luego 75/25 de por vida. Una vez que las 10 plazas se llenen, la próxima cohorte comienza con tarifas estándar.",
     "ctaButton": "Aplicar Ahora →"
   }
 }

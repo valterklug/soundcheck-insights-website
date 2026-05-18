@@ -34,7 +34,7 @@
     "heroTitle2": "à sua prática.",
     "heroTitle3": "Sem adicionar",
     "heroTitle4": "a equipe.",
-    "heroDesc": "Soundcheck é uma plataforma de pesquisa produtizada para agências, consultores e executivos fracionais. Seus clientes recebem inteligência decision-grade. Você fica com 75–85% de cada projeto. White-label por padrão.",
+    "heroDesc": "Soundcheck é uma plataforma de pesquisa produtizada para agências, consultores e executivos fracionais. Seus clientes recebem inteligência decision-grade. Você fica com 75–90% de cada projeto. White-label por padrão.",
     "requestAccess": "Aplique para a Coorte Fundadora →",
     "seeHowItWorks": "Veja Como Funciona",
     "stats": [
@@ -155,7 +155,7 @@
     ],
     "viewAllProducts": "Ver Todos os Produtos →",
     "economicsLabel": "O Caso de Negócio",
-    "economicsTitle1": "Fique com 75–85% do MSRP.",
+    "economicsTitle1": "Fique com 75–90% do MSRP.",
     "economicsTitle2": "Sem novas contratações.",
     "economicsDesc": "A plataforma cuida do trabalho analítico pesado. Seu papel é capturar o briefing, aplicar seu julgamento profissional e apresentar os achados com o contexto estratégico que só você pode oferecer.",
     "economicsLink": "Análise Econômica Completa →",
@@ -163,11 +163,11 @@
     "economicsRows": [
       [
         "Taxa plataforma Soundcheck",
-        "15% · $863 (primeiros 2 projetos)"
+        "10% · $575 (primeiros 2 projetos)"
       ],
       [
         "Sua agência retém",
-        "85% · $4.888"
+        "90% · $5.175"
       ],
       [
         "Seu investimento de tempo",
@@ -175,13 +175,13 @@
       ],
       [
         "Taxa efetiva por hora",
-        "~$978/h"
+        "~$1.035/h"
       ]
     ],
     "marginLabel": "Sua margem por engajamento",
-    "marginValue": "$4.888+",
+    "marginValue": "$5.175+",
     "ctaTitle": "Junte-se à Coorte de Operadores Fundadores.\n10 vagas. Apenas por aplicação.",
-    "ctaSub": "Fique com 85% dos seus dois primeiros projetos. Depois 75% — para sempre. Acesso direto ao fundador. White-label por padrão.",
+    "ctaSub": "Fique com 90% dos seus dois primeiros projetos. Depois 85% durante o onboarding. Depois 75% — para sempre. Acesso direto ao fundador. White-label por padrão.",
     "ctaButton": "Aplique para a Coorte Fundadora →",
     "modulesLabel": "Cinco Produtos · Uma Plataforma",
     "modulesTitle": "Tudo começa com a Pesquisa de Mercado. Construa a partir daí.",
@@ -2070,7 +2070,7 @@
     "heroLabel": "Coorte de Operadores Fundadores · Aceitando Candidaturas",
     "heroTitle1": "10 Vagas. Apenas por Candidatura.",
     "heroTitle2": "Sua prática de pesquisa começa aqui.",
-    "heroSub": "Construa uma prática de inteligência de mercado no Soundcheck. Fique com 85% dos seus dois primeiros projetos. Depois, 75% — para sempre. Acesso direto ao fundador. Suporte personalizado nas suas primeiras entregas.",
+    "heroSub": "Construa uma prática de inteligência de mercado no Soundcheck. Fique com 90% dos seus dois primeiros projetos. Depois, 85% durante o onboarding (primeiros 4 meses). Depois, 75% — para sempre. Acesso direto ao fundador. Suporte personalizado nas suas primeiras entregas.",
     "chipSeats": "vagas disponíveis",
     "chipFirst2": "seu nos primeiros 2 projetos",
     "chipForLife": "seu em cada projeto depois — para sempre",
@@ -2080,14 +2080,19 @@
     "dealTitle": "Economia que recompensa operadores pioneiros. Permanentemente.",
     "benefits": [
       {
-        "stat": "85/15",
+        "stat": "90/10",
         "title": "Seus primeiros 2 projetos",
-        "desc": "Você fica com 85% do MSRP. Soundcheck recebe apenas 15% — metade da taxa padrão da plataforma. Sem custo de ativação. Comece com um projeto real de cliente."
+        "desc": "Você fica com 90% do MSRP. Soundcheck recebe apenas 10% — um terço da taxa padrão. Sem custo de ativação. Comece com um projeto real de cliente."
+      },
+      {
+        "stat": "85/15",
+        "title": "Durante o onboarding (primeiros 4 meses)",
+        "desc": "Após seus dois primeiros projetos, você entra no período de onboarding. Você fica com 85% — Soundcheck recebe 15% pelo restante dos seus primeiros 4 meses."
       },
       {
         "stat": "75/25",
-        "title": "Cada projeto depois — para sempre",
-        "desc": "Após seus dois primeiros projetos, sua taxa permanente é fixada em 75/25. Não por 12 meses. Não por 24 meses. Para sempre. Essa taxa nunca muda."
+        "title": "Após o onboarding — para sempre",
+        "desc": "Após o onboarding, sua taxa permanente é fixada em 75/25. Não por 12 meses. Não por 24 meses. Para sempre. Essa taxa nunca muda."
       },
       {
         "stat": "1:1",
@@ -2102,15 +2107,16 @@
     "mathColStandard": "Tier Padrão (70/30)",
     "mathColFounding": "Operador Fundador",
     "mathRows": [
-      ["Taxa de plataforma Soundcheck", "30% · $1.725", "15% · $863"],
-      ["Você fica com", "$4.025", "$4.888"],
-      ["Seu investimento de tempo", "~5 horas", "~5 horas"],
-      ["Após os primeiros 2 projetos (75/25)", "—", "$4.313"]
+      ["Taxa de plataforma Soundcheck", "30% · $1.725", "10% · $575"],
+      ["Você fica com", "$4.025", "$5.175"],
+      ["Durante o onboarding (85/15)", "—", "$4.888"],
+      ["Após o onboarding (75/25)", "—", "$4.313"],
+      ["Seu investimento de tempo", "~5 horas", "~5 horas"]
     ],
     "mathEffectiveRate": "Taxa efetiva por hora",
     "mathRateStandard": "~$805/hr",
-    "mathRateFounding": "~$978/hr",
-    "mathFootnote": "Primeiros 2 projetos no 85/15. Cada projeto seguinte no 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~4 horas). A plataforma gera o relatório em menos de 24 horas.",
+    "mathRateFounding": "~$1.035/hr",
+    "mathFootnote": "Primeiros 2 projetos no 90/10. Durante o onboarding (primeiros 4 meses após o cadastro) no 85/15. Após o onboarding, 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~4 horas). A plataforma gera o relatório em menos de 24 horas.",
     "toolkitLabel": "Seu Kit de Operador",
     "toolkitTitle": "Cinco produtos. Sua marca. Sua margem.",
     "toolkitDesc": "Todo projeto começa com Market Research como base. Adicione módulos conforme a necessidade do seu cliente. Tudo entregue white-label sob sua marca. Projeto típico: $5K–$13K.",
@@ -2121,7 +2127,7 @@
       { "label": "Módulo", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
       { "label": "Módulo", "name": "Virtual Focus Group", "price": "+ $3.000", "color": "#FBBF24" }
     ],
-    "toolkitTypical": "Projeto típico: $5K–$13K MSRP · Operadores Fundadores ficam com 75–85%",
+    "toolkitTypical": "Projeto típico: $5K–$13K MSRP · Operadores Fundadores ficam com 75–90%",
     "profileLabel": "Para Quem É",
     "profileTitle": "Você pode ser um Operador Fundador se…",
     "profileItems": [
@@ -2152,11 +2158,11 @@
     "faqItems": [
       {
         "q": "Preciso pagar algo antecipadamente?",
-        "a": "Não. Não há taxa de ativação para Operadores Fundadores. Você começa a ganhar desde o seu primeiro projeto. Soundcheck recebe sua parte (15% nos seus dois primeiros projetos, 25% depois) apenas quando você entrega e recebe o pagamento."
+        "a": "Não. Não há taxa de ativação para Operadores Fundadores. Você começa a ganhar desde o seu primeiro projeto. Soundcheck recebe sua parte (10% nos seus dois primeiros projetos, 15% durante o onboarding, 25% depois) apenas quando você entrega e recebe o pagamento."
       },
       {
         "q": "O que 'para sempre' realmente significa?",
-        "a": "Significa o que diz. Sua taxa 75/25 é fixada permanentemente. Não por um prazo de contrato. Não até uma revisão de preços. Se você entregar seus dois primeiros projetos e se mantiver ativo, sua taxa de Operador Fundador permanece em 75/25 para cada projeto que você entregar através do Soundcheck."
+        "a": "Significa o que diz. Sua taxa 75/25 é fixada permanentemente após o onboarding. Não por um prazo de contrato. Não até uma revisão de preços. Você começa em 90/10 (primeiros 2 projetos), depois 85/15 (durante o onboarding de 4 meses), e depois 75/25 para sempre. Uma vez no 75/25, essa taxa nunca muda."
       },
       {
         "q": "E se eu não tiver um cliente pronto agora?",
@@ -2180,7 +2186,7 @@
       },
       {
         "q": "Como isso é diferente do tier Trial?",
-        "a": "Trial dá 65% em 2 projetos com uma taxa de ativação de $300, depois passa para Standard (70/30). Operadores Fundadores obtêm 85% em 2 projetos sem taxa de ativação, depois 75/25 para sempre. A Coorte Fundadora é um acordo melhor — e vem com acesso ao fundador e suporte personalizado que o Trial não inclui."
+        "a": "Trial dá 65% em 2 projetos com uma taxa de ativação de $300, depois passa para Standard (70/30). Operadores Fundadores obtêm 90% em 2 projetos sem taxa de ativação, depois 85/15 durante o onboarding, depois 75/25 para sempre. A Coorte Fundadora é um acordo melhor — e vem com acesso ao fundador e suporte personalizado que o Trial não inclui."
       }
     ],
     "formLabel": "Candidatar-se Agora",
@@ -2188,7 +2194,7 @@
     "formDesc": "10 vagas. Revisamos cada candidatura pessoalmente. Se você tem clientes que precisam de inteligência de mercado e está pronto para entregar, nos conte sobre sua prática.",
     "formButton": "Enviar Candidatura →",
     "ctaTitle": "10 vagas. A economia não será repetida.",
-    "ctaSub": "A Coorte de Operadores Fundadores é uma oferta única. 85/15 nos seus dois primeiros projetos, depois 75/25 para sempre. Uma vez que as 10 vagas sejam preenchidas, a próxima coorte começa com tarifas padrão.",
+    "ctaSub": "A Coorte de Operadores Fundadores é uma oferta única. 90/10 nos seus dois primeiros projetos, depois 85/15 durante o onboarding, depois 75/25 para sempre. Uma vez que as 10 vagas sejam preenchidas, a próxima coorte começa com tarifas padrão.",
     "ctaButton": "Candidatar-se Agora →"
   }
 }
