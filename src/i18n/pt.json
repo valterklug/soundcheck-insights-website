@@ -159,15 +159,15 @@
     "economicsTitle2": "Sem novas contratações.",
     "economicsDesc": "A plataforma cuida do trabalho analítico pesado. Seu papel é capturar o briefing, aplicar seu julgamento profissional e apresentar os achados com o contexto estratégico que só você pode oferecer.",
     "economicsLink": "Análise Econômica Completa →",
-    "economicsHeader": "Economia do Operador Fundador (em um projeto de $5.750)",
+    "economicsHeader": "Economia do Operador Fundador (em um projeto de $5.500)",
     "economicsRows": [
       [
         "Taxa plataforma Soundcheck",
-        "10% · $575 (primeiros 2 projetos)"
+        "10% · $550 (primeiros 2 projetos)"
       ],
       [
         "Sua agência retém",
-        "90% · $5.175"
+        "90% · $4.950"
       ],
       [
         "Seu investimento de tempo",
@@ -175,11 +175,11 @@
       ],
       [
         "Taxa efetiva por hora",
-        "~$1.035/h"
+        "~$990/h"
       ]
     ],
     "marginLabel": "Sua margem por engajamento",
-    "marginValue": "$5.175+",
+    "marginValue": "$4.950+",
     "ctaTitle": "Junte-se à Coorte de Operadores Fundadores.\n10 vagas. Apenas por aplicação.",
     "ctaSub": "Fique com 90% dos seus dois primeiros projetos. Depois 85% durante o onboarding. Depois 75% — para sempre. Acesso direto ao fundador. White-label por padrão.",
     "ctaButton": "Aplique para a Coorte Fundadora →",
@@ -192,7 +192,7 @@
         "num": "01",
         "name": "Pesquisa de Mercado",
         "desc": "Três relatórios — Análise de Mercado, Análise do Consumidor, Panorama Competitivo — mais um painel de buyer personas baseado na pesquisa. A base obrigatória para todos os outros produtos.",
-        "price": "Mini / Standard / Premium: $3.000 · $3.750 · $4.500",
+        "price": "Mini / Standard / Premium: $3.000 · $3.500 · $4.000",
         "link": "/market-research"
       },
       {
@@ -364,7 +364,7 @@
     "businessCaseDesc1": "Antes de abrir isso como uma plataforma, eu executei todos os relatórios Soundcheck pessoalmente. Não como prova de conceito — porque a economia era muito convincente para não provar primeiro.",
     "businessCaseDesc2": "A plataforma realiza o trabalho analítico pesado: agregação de dados, mapeamento competitivo, pontuação de viabilidade, geração de relatórios. Seu papel é capturar as informações corretas do cliente antecipadamente, aplicar seu julgamento profissional ao resultado da IA e apresentar os resultados com o contexto estratégico que apenas um especialista real pode fornecer.",
     "businessCaseDesc3": "É isso que seu cliente está pagando.",
-    "economicsHeader": "Economia Real · Níveis de Operador (em um engajamento de $5.750)",
+    "economicsHeader": "Economia Real · Níveis de Operador (em um engajamento de $5.500)",
     "tierTrial": "Trial",
     "tierTrialDesc": "Sem setup · Limite de 2 projetos",
     "tierStandard": "Standard",
@@ -380,15 +380,15 @@
       ],
       [
         "Soundcheck recebe",
-        "$2.013",
-        "$1.725",
-        "$1.438"
+        "$1.925",
+        "$1.650",
+        "$1.375"
       ],
       [
         "Sua agência fica com",
-        "$3.738",
-        "$4.025",
-        "$4.313"
+        "$3.575",
+        "$3.850",
+        "$4.125"
       ],
       [
         "Seu investimento de tempo",
@@ -398,15 +398,15 @@
       ],
       [
         "Taxa efetiva por hora",
-        "~$748/h",
-        "~$805/h",
-        "~$863/h"
+        "~$715/h",
+        "~$770/h",
+        "~$825/h"
       ]
     ],
     "yourMargin": "Sua margem",
-    "marginTrial": "$3.738",
-    "marginStandard": "$4.025",
-    "marginManaTech": "$4.313",
+    "marginTrial": "$3.575",
+    "marginStandard": "$3.850",
+    "marginManaTech": "$4.125",
     "operatorLabel": "O Que Você Recebe como Operador",
     "operatorTitle": "Tudo o que você precisa para entregar inteligência no nível de uma empresa de pesquisa.",
     "operatorItems": [
@@ -451,7 +451,7 @@
         "audience": "Necessário para todo engajamento",
         "desc": "Três relatórios de nível decisório mais um painel de personas com 6, 8 ou 10 buyer personas. A base sobre a qual todos os outros produtos se constroem.",
         "delivery": "Entrega em 14 dias",
-        "price": "MSRP: $3.000 / $3.750 / $4.500",
+        "price": "MSRP: $3.000 / $3.500 / $4.000",
         "link": "/research-platform"
       },
       {
@@ -545,7 +545,7 @@
         "name": "Pesquisa de Mercado",
         "tagline": "Personas baseadas em pesquisa e inteligência de mercado de nível decisório.",
         "desc": "Três relatórios de nível decisório — Análise de Mercado, Análise do Consumidor, Panorama Competitivo — mais um painel de personas com 6, 12 ou 20 buyer personas dependendo do nível.",
-        "price": "US$3.000 / $3.750 / $4.500 (Mini / Standard / Premium)",
+        "price": "US$3.000 / $3.500 / $4.000 (Mini / Standard / Premium)",
         "delivery": "Entrega em 14 dias",
         "ctaLabel": "Ver Detalhes da Pesquisa →",
         "deliverables": [
@@ -553,7 +553,7 @@
           "Relatório de Análise do Consumidor — demografia, psicografia, comportamentos",
           "Relatório de Panorama Competitivo — mapa de posicionamento, benchmarks de preços",
           "Painel de Personas — 6, 8 ou 10 buyer personas (níveis Mini/Standard/Premium)",
-          "Preços Mini/Standard/Premium: $3.000 / $3.750 / $4.500"
+          "Preços Mini/Standard/Premium: $3.000 / $3.500 / $4.000"
         ],
         "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech: 25% de desconto — ver elegibilidade"
@@ -1878,7 +1878,7 @@
         "desc": "Três relatórios de qualidade de decisão gerados a partir de uma intake de 60 minutos: Análise de Mercado, Análise de Consumidor e Panorama Competitivo. Cada afirmação etiquetada com um rótulo de confiança e tier de fonte. Inclui painel de personas de comprador — 6, 12 ou 20 personas, dependendo do tier — grounded na pesquisa, não construído a partir de suposições.",
         "whatYouGet": "3 relatórios de pesquisa em marca + painel de personas editável",
         "delivery": "14 dias desde o intake assinado",
-        "pricing": "Mini US$3.000 (6 personas) · Standard US$3.750 (12 personas) · Premium US$4.500 (20 personas)",
+        "pricing": "Mini US$3.000 (6 personas) · Standard US$3.500 (12 personas) · Premium US$4.000 (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalhes completos →"
       },
@@ -1924,17 +1924,17 @@
       },
       {
         "name": "Growth",
-        "research": "Pesquisa Standard (US$3.750)",
+        "research": "Pesquisa Standard (US$3.500)",
         "journeys": "8 personas (US$ 3.200)",
         "vfg": "1 sessão (US$3.000)",
-        "total": "US$10.750"
+        "total": "US$10.500"
       },
       {
         "name": "Full Scale",
-        "research": "Pesquisa Premium (US$4.500)",
+        "research": "Pesquisa Premium (US$4.000)",
         "journeys": "10 personas (US$ 4.000)",
         "vfg": "1 sessão (US$3.000)",
-        "total": "US$12.500"
+        "total": "US$12.000"
       },
       {
         "name": "Research Only",
@@ -1945,10 +1945,10 @@
       },
       {
         "name": "Research + Journeys",
-        "research": "Pesquisa Standard (US$3.750)",
+        "research": "Pesquisa Standard (US$3.500)",
         "journeys": "6 personas (US$ 3.000)",
         "vfg": "—",
-        "total": "US$6.750"
+        "total": "US$6.500"
       }
     ],
     "pricingNote": "Preços de atacado para agências disponíveis — veja os modelos de parceria e divisões de receita.",
@@ -2102,26 +2102,26 @@
     ],
     "mathLabel": "A Conta",
     "mathTitle": "Como um projeto típico funciona.",
-    "mathDesc": "Pegue um projeto típico: Market Research Standard ($3.750) + GoGlobal Viability Analysis ($2.000) = $5.750 MSRP. Seu cliente paga $5.750. Veja o que você fica — e quanto custa em tempo.",
-    "mathTableHeader": "MR Standard + GoGlobal · $5.750 MSRP",
+    "mathDesc": "Pegue um projeto típico: Market Research Standard ($3.500) + GoGlobal Viability Analysis ($2.000) = $5.500 MSRP. Seu cliente paga $5.500. Veja o que você fica — e quanto custa em tempo.",
+    "mathTableHeader": "MR Standard + GoGlobal · $5.500 MSRP",
     "mathColStandard": "Tier Padrão (70/30)",
     "mathColFounding": "Operador Fundador",
     "mathRows": [
-      ["Taxa de plataforma Soundcheck", "30% · $1.725", "10% · $575"],
-      ["Você fica com", "$4.025", "$5.175"],
-      ["Durante o onboarding (85/15)", "—", "$4.888"],
-      ["Após o onboarding (75/25)", "—", "$4.313"],
+      ["Taxa de plataforma Soundcheck", "30% · $1.650", "10% · $550"],
+      ["Você fica com", "$3.850", "$4.950"],
+      ["Durante o onboarding (85/15)", "—", "$4.675"],
+      ["Após o onboarding (75/25)", "—", "$4.125"],
       ["Seu investimento de tempo", "~5 horas", "~5 horas"]
     ],
     "mathEffectiveRate": "Taxa efetiva por hora",
-    "mathRateStandard": "~$805/hr",
-    "mathRateFounding": "~$1.035/hr",
+    "mathRateStandard": "~$770/hr",
+    "mathRateFounding": "~$990/hr",
     "mathFootnote": "Primeiros 2 projetos no 90/10. Durante o onboarding (primeiras 4 semanas após o cadastro) no 85/15. Após o onboarding, 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~4 horas). A plataforma gera o relatório em menos de 24 horas.",
     "toolkitLabel": "Seu Kit de Operador",
     "toolkitTitle": "Cinco produtos. Sua marca. Sua margem.",
     "toolkitDesc": "Todo projeto começa com Market Research como base. Adicione módulos conforme a necessidade do seu cliente. Tudo entregue white-label sob sua marca. Projeto típico: $5K–$13K.",
     "toolkitItems": [
-      { "label": "Base", "name": "Market Research", "price": "$3.000 – $4.500", "color": "#94A3B8" },
+      { "label": "Base", "name": "Market Research", "price": "$3.000 – $4.000", "color": "#94A3B8" },
       { "label": "Módulo", "name": "GoGlobal", "price": "+ $2.000", "color": "#2DD4BF" },
       { "label": "Módulo", "name": "Scale Assessment", "price": "+ $4.000", "color": "#FF6B47" },
       { "label": "Módulo", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },

@@ -159,15 +159,15 @@
     "economicsTitle2": "Sin nuevas contrataciones.",
     "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Tu rol es capturar el brief, aplicar tu juicio profesional y presentar los hallazgos con el contexto estratégico que solo tú puedes proveer.",
     "economicsLink": "Desglose Completo de Economía →",
-    "economicsHeader": "Economía del Operador Fundador (en un proyecto de $5,750)",
+    "economicsHeader": "Economía del Operador Fundador (en un proyecto de $5,500)",
     "economicsRows": [
       [
         "Tarifa plataforma Soundcheck",
-        "10% · $575 (primeros 2 proyectos)"
+        "10% · $550 (primeros 2 proyectos)"
       ],
       [
         "Su agencia retiene",
-        "90% · $5,175"
+        "90% · $4,950"
       ],
       [
         "Su inversión de tiempo",
@@ -175,11 +175,11 @@
       ],
       [
         "Tarifa efectiva por hora",
-        "~$1,035/h"
+        "~$990/h"
       ]
     ],
     "marginLabel": "Tu margen por compromiso",
-    "marginValue": "$5,175+",
+    "marginValue": "$4,950+",
     "ctaTitle": "Únete a la Cohorte de Operadores Fundadores.\n10 plazas. Solo por aplicación.",
     "ctaSub": "Quédate con el 90% de tus primeros dos proyectos. Después el 85% durante el onboarding, luego el 75% — de por vida. Acceso directo al fundador. White-label por defecto.",
     "ctaButton": "Aplica a la Cohorte Fundadora →",
@@ -192,7 +192,7 @@
         "num": "01",
         "name": "Investigación de Mercado",
         "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de buyer personas basado en la investigación. La base requerida para todos los demás productos.",
-        "price": "Mini / Standard / Premium: $3,000 · $3,750 · $4,500",
+        "price": "Mini / Standard / Premium: $3,000 · $3,500 · $4,000",
         "link": "/market-research"
       },
       {
@@ -364,7 +364,7 @@
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
-    "economicsHeader": "Economía Real · Niveles de Operador (en un compromiso de $5,750)",
+    "economicsHeader": "Economía Real · Niveles de Operador (en un compromiso de $5,500)",
     "tierTrial": "Trial",
     "tierTrialDesc": "Sin setup · Límite de 2 proyectos",
     "tierStandard": "Standard",
@@ -380,15 +380,15 @@
       ],
       [
         "Soundcheck recibe",
-        "$2,013",
-        "$1,725",
-        "$1,438"
+        "$1,925",
+        "$1,650",
+        "$1,375"
       ],
       [
         "Tu agencia se queda con",
-        "$3,738",
-        "$4,025",
-        "$4,313"
+        "$3,575",
+        "$3,850",
+        "$4,125"
       ],
       [
         "Tu inversión de tiempo",
@@ -398,15 +398,15 @@
       ],
       [
         "Tarifa efectiva por hora",
-        "~$748/h",
-        "~$805/h",
-        "~$863/h"
+        "~$715/h",
+        "~$770/h",
+        "~$825/h"
       ]
     ],
     "yourMargin": "Tu margen",
-    "marginTrial": "$3,738",
-    "marginStandard": "$4,025",
-    "marginManaTech": "$4,313",
+    "marginTrial": "$3,575",
+    "marginStandard": "$3,850",
+    "marginManaTech": "$4,125",
     "operatorLabel": "Lo que obtiene como operador",
     "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
@@ -451,7 +451,7 @@
         "audience": "Requerido para cada proyecto",
         "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 8 o 10 buyer personas. La base sobre la que se construye cada otro producto.",
         "delivery": "Entrega en 14 días",
-        "price": "MSRP: $3,000 / $3,750 / $4,500",
+        "price": "MSRP: $3,000 / $3,500 / $4,000",
         "link": "/research-platform"
       },
       {
@@ -545,7 +545,7 @@
         "name": "Investigación de Mercado",
         "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
-        "price": "US$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)",
+        "price": "US$3,000 / $3,500 / $4,000 (Mini / Standard / Premium)",
         "delivery": "Entrega en 14 días",
         "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
@@ -553,7 +553,7 @@
           "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
           "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
           "Panel de Personas — 6, 8 o 10 buyer personas (niveles Mini/Standard/Premium)",
-          "Precios Mini/Standard/Premium: $3,000 / $3,750 / $4,500"
+          "Precios Mini/Standard/Premium: $3,000 / $3,500 / $4,000"
         ],
         "link": "/research-platform",
         "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
@@ -1883,7 +1883,7 @@
         "desc": "Tres informes de nivel decisivo generados a partir de una toma de requerimientos de 60 minutos: Análisis de Mercado, Análisis del Consumidor, y Paisaje Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y una clasificación de fuente. Incluye un panel de personas compradoras — 6, 12, o 20 personas según el nivel — fundamentadas en la investigación, no construidas a partir de suposiciones.",
         "whatYouGet": "3 informes de investigación marcados + panel de personas editable",
         "delivery": "14 días desde el intake firmado",
-        "pricing": "Mini US$3,000 (6 personas) · Standard US$3,750 (12 personas) · Premium US$4,500 (20 personas)",
+        "pricing": "Mini US$3,000 (6 personas) · Standard US$3,500 (12 personas) · Premium US$4,000 (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalles completos →"
       },
@@ -1929,17 +1929,17 @@
       },
       {
         "name": "Crecimiento",
-        "research": "Investigación Standard (US$3,750)",
+        "research": "Investigación Standard (US$3,500)",
         "journeys": "8 personas (US$3,200)",
         "vfg": "1 sesión (US$3,000)",
-        "total": "US$10,750"
+        "total": "US$10,500"
       },
       {
         "name": "Escala Completa",
-        "research": "Investigación Premium (US$4,500)",
+        "research": "Investigación Premium (US$4,000)",
         "journeys": "10 personas (US$4,000)",
         "vfg": "1 sesión (US$3,000)",
-        "total": "US$12,500"
+        "total": "US$12,000"
       },
       {
         "name": "Solo Investigación",
@@ -1950,10 +1950,10 @@
       },
       {
         "name": "Investigación + Viajes",
-        "research": "Investigación Standard (US$3,750)",
+        "research": "Investigación Standard (US$3,500)",
         "journeys": "6 personas (US$3,000)",
         "vfg": "—",
-        "total": "US$6,750"
+        "total": "US$6,500"
       }
     ],
     "pricingNote": "Precios mayoristas para agencias disponibles — vea los modelos de partnership y divisiones de ingresos.",
@@ -2107,26 +2107,26 @@
     ],
     "mathLabel": "Las Cuentas",
     "mathTitle": "Cómo se ve un proyecto típico.",
-    "mathDesc": "Toma un proyecto típico: Market Research Standard ($3,750) + GoGlobal Viability Analysis ($2,000) = $5,750 MSRP. Tu cliente paga $5,750. Esto es lo que te queda — y lo que te cuesta en tiempo.",
-    "mathTableHeader": "MR Standard + GoGlobal · $5,750 MSRP",
+    "mathDesc": "Toma un proyecto típico: Market Research Standard ($3,500) + GoGlobal Viability Analysis ($2,000) = $5,500 MSRP. Tu cliente paga $5,500. Esto es lo que te queda — y lo que te cuesta en tiempo.",
+    "mathTableHeader": "MR Standard + GoGlobal · $5,500 MSRP",
     "mathColStandard": "Tier Estándar (70/30)",
     "mathColFounding": "Operador Fundador",
     "mathRows": [
-      ["Tarifa de plataforma Soundcheck", "30% · $1,725", "10% · $575"],
-      ["Tú te quedas", "$4,025", "$5,175"],
+      ["Tarifa de plataforma Soundcheck", "30% · $1,650", "10% · $550"],
+      ["Tú te quedas", "$3,850", "$4,950"],
       ["Tu inversión de tiempo", "~5 horas", "~5 horas"],
-      ["Durante onboarding (85/15)", "—", "$4,888"],
-      ["Después del onboarding (75/25)", "—", "$4,313"]
+      ["Durante onboarding (85/15)", "—", "$4,675"],
+      ["Después del onboarding (75/25)", "—", "$4,125"]
     ],
     "mathEffectiveRate": "Tarifa efectiva por hora",
-    "mathRateStandard": "~$805/hr",
-    "mathRateFounding": "~$1,035/hr",
+    "mathRateStandard": "~$770/hr",
+    "mathRateFounding": "~$990/hr",
     "mathFootnote": "Primeros 2 proyectos al 90/10. Durante el onboarding (primeras 4 semanas) al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
     "toolkitLabel": "Tu Kit de Operador",
     "toolkitTitle": "Cinco productos. Tu marca. Tu margen.",
     "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Todo entregado white-label bajo tu marca. Proyecto típico: $5K–$13K.",
     "toolkitItems": [
-      { "label": "Base", "name": "Market Research", "price": "$3,000 – $4,500", "color": "#94A3B8" },
+      { "label": "Base", "name": "Market Research", "price": "$3,000 – $4,000", "color": "#94A3B8" },
       { "label": "Módulo", "name": "GoGlobal", "price": "+ $2,000", "color": "#2DD4BF" },
       { "label": "Módulo", "name": "Scale Assessment", "price": "+ $4,000", "color": "#FF6B47" },
       { "label": "Módulo", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },

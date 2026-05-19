@@ -159,15 +159,15 @@
     "economicsTitle2": "No new headcount.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Founding Operator Economics (on a $5,750 engagement)",
+    "economicsHeader": "Founding Operator Economics (on a $5,500 engagement)",
     "economicsRows": [
       [
         "Soundcheck platform fee",
-        "10% · $575 (first 2 projects)"
+        "10% · $550 (first 2 projects)"
       ],
       [
         "You keep",
-        "90% · $5,175"
+        "90% · $4,950"
       ],
       [
         "Your time investment",
@@ -175,11 +175,11 @@
       ],
       [
         "Effective hourly rate",
-        "~$1,035/h"
+        "~$990/h"
       ]
     ],
     "marginLabel": "Your margin per engagement",
-    "marginValue": "$5,175+",
+    "marginValue": "$4,950+",
     "ctaTitle": "Join the Founding Operator Cohort.\n10 seats. Application only.",
     "ctaSub": "Keep 90% of your first two projects. Then 75% — for life. Direct access to the founder. White-label by default.",
     "ctaButton": "Apply for Founding Cohort →",
@@ -192,7 +192,7 @@
         "num": "01",
         "name": "Market Research",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded buyer persona panel. The required foundation for every other product.",
-        "price": "Mini / Standard / Premium: $3,000 · $3,750 · $4,500",
+        "price": "Mini / Standard / Premium: $3,000 · $3,500 · $4,000",
         "link": "/market-research"
       },
       {
@@ -364,7 +364,7 @@
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Operator Tiers (on a $5,750 engagement)",
+    "economicsHeader": "Real Economics · Operator Tiers (on a $5,500 engagement)",
     "tierTrial": "Trial",
     "tierTrialDesc": "No setup · 2-project cap",
     "tierStandard": "Standard",
@@ -380,15 +380,15 @@
       ],
       [
         "Soundcheck takes",
-        "$2,013",
-        "$1,725",
-        "$1,438"
+        "$1,925",
+        "$1,650",
+        "$1,375"
       ],
       [
         "You keep",
-        "$3,738",
-        "$4,025",
-        "$4,313"
+        "$3,575",
+        "$3,850",
+        "$4,125"
       ],
       [
         "Your time investment",
@@ -398,15 +398,15 @@
       ],
       [
         "Effective hourly rate",
-        "~$748/h",
-        "~$805/h",
-        "~$863/h"
+        "~$715/h",
+        "~$770/h",
+        "~$825/h"
       ]
     ],
     "yourMargin": "Your margin",
-    "marginTrial": "$3,738",
-    "marginStandard": "$4,025",
-    "marginManaTech": "$4,313",
+    "marginTrial": "$3,575",
+    "marginStandard": "$3,850",
+    "marginManaTech": "$4,125",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [
@@ -451,7 +451,7 @@
         "audience": "Required for every engagement",
         "desc": "Three decision-grade reports plus a persona panel with 6, 8, or 10 buyer personas. The foundation every other product builds on.",
         "delivery": "14-day delivery",
-        "price": "MSRP: $3,000 / $3,750 / $4,500",
+        "price": "MSRP: $3,000 / $3,500 / $4,000",
         "link": "/research-platform"
       },
       {
@@ -542,7 +542,7 @@
         "name": "Market Research",
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 8, or 10 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
-        "price": "US$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)",
+        "price": "US$3,000 / $3,500 / $4,000 (Mini / Standard / Premium)",
         "delivery": "14-day delivery · MSRP",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
@@ -550,7 +550,7 @@
           "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
           "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
           "Persona Panel — 6, 8, or 10 research-grounded buyer personas (Mini/Standard/Premium tiers)",
-          "Mini/Standard/Premium pricing: $3,000 / $3,750 / $4,500"
+          "Mini/Standard/Premium pricing: $3,000 / $3,500 / $4,000"
         ],
         "link": "/research-platform",
         "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
@@ -1833,7 +1833,7 @@
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
         "delivery": "14 days from signed intake",
-        "pricing": "Mini $3,000 (6 personas) · Standard $3,750 (12 personas) · Premium $4,500 (20 personas)",
+        "pricing": "Mini $3,000 (6 personas) · Standard $3,500 (12 personas) · Premium $4,000 (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
       },
@@ -1879,17 +1879,17 @@
       },
       {
         "name": "Growth",
-        "research": "Research Standard ($3,750)",
+        "research": "Research Standard ($3,500)",
         "journeys": "8 personas ($4,000)",
         "vfg": "1 session ($3,000)",
-        "total": "$10,750"
+        "total": "$10,500"
       },
       {
         "name": "Full Scale",
-        "research": "Research Premium ($4,500)",
+        "research": "Research Premium ($4,000)",
         "journeys": "10 personas ($5,000)",
         "vfg": "1 session ($3,000)",
-        "total": "$12,500"
+        "total": "$12,000"
       },
       {
         "name": "Research Only",
@@ -1900,10 +1900,10 @@
       },
       {
         "name": "Research + Journeys",
-        "research": "Research Standard ($3,750)",
+        "research": "Research Standard ($3,500)",
         "journeys": "6 personas ($3,000)",
         "vfg": "—",
-        "total": "$6,750"
+        "total": "$6,500"
       }
     ],
     "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
@@ -2057,26 +2057,26 @@
     ],
     "mathLabel": "The Math",
     "mathTitle": "What a single engagement looks like.",
-    "mathDesc": "Take a typical engagement: Market Research Standard ($3,750) + GoGlobal Viability Analysis ($2,000) = $5,750 MSRP. Your client pays $5,750. Here's what you keep — and what it costs you in time.",
-    "mathTableHeader": "MR Standard + GoGlobal · $5,750 MSRP",
+    "mathDesc": "Take a typical engagement: Market Research Standard ($3,500) + GoGlobal Viability Analysis ($2,000) = $5,500 MSRP. Your client pays $5,500. Here's what you keep — and what it costs you in time.",
+    "mathTableHeader": "MR Standard + GoGlobal · $5,500 MSRP",
     "mathColStandard": "Standard Tier (70/30)",
     "mathColFounding": "Founding Operator",
     "mathRows": [
-      ["Soundcheck platform fee", "30% · $1,725", "10% · $575"],
-      ["You keep", "$4,025", "$5,175"],
+      ["Soundcheck platform fee", "30% · $1,650", "10% · $550"],
+      ["You keep", "$3,850", "$4,950"],
       ["Your time investment", "~5 hours", "~5 hours"],
-      ["During onboarding (85/15)", "—", "$4,888"],
-      ["After onboarding (75/25 for life)", "—", "$4,313"]
+      ["During onboarding (85/15)", "—", "$4,675"],
+      ["After onboarding (75/25 for life)", "—", "$4,125"]
     ],
     "mathEffectiveRate": "Effective hourly rate",
-    "mathRateStandard": "~$805/hr",
-    "mathRateFounding": "~$1,035/hr",
+    "mathRateStandard": "~$770/hr",
+    "mathRateFounding": "~$990/hr",
     "mathFootnote": "First 2 projects at 90/10. Remaining onboarding period (4 weeks) at 85/15. Every project after onboarding at 75/25 — for life. Standard tier (70/30) shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
     "toolkitLabel": "Your Operator Toolkit",
     "toolkitTitle": "Five products. Your brand. Your margin.",
     "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
     "toolkitItems": [
-      { "label": "Foundation", "name": "Market Research", "price": "$3,000 – $4,500", "color": "#94A3B8" },
+      { "label": "Foundation", "name": "Market Research", "price": "$3,000 – $4,000", "color": "#94A3B8" },
       { "label": "Add-on", "name": "GoGlobal", "price": "+ $2,000", "color": "#2DD4BF" },
       { "label": "Add-on", "name": "Scale Assessment", "price": "+ $4,000", "color": "#FF6B47" },
       { "label": "Add-on", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
