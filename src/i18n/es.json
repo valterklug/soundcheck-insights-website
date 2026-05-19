@@ -2075,7 +2075,7 @@
     "heroLabel": "Cohorte de Operadores Fundadores · Aceptando Aplicaciones",
     "heroTitle1": "10 Plazas. Solo por Aplicación.",
     "heroTitle2": "Tu práctica de investigación comienza aquí.",
-    "heroSub": "Construye una práctica de inteligencia de mercado en Soundcheck. Quédate con el 90% de tus primeros dos proyectos. Luego 85% durante el onboarding (primeros 4 meses). Después, 75% — de por vida. Acceso directo al fundador. Soporte personalizado en tus primeras entregas.",
+    "heroSub": "Construye una práctica de inteligencia de mercado en Soundcheck. Quédate con el 90% de tus primeros dos proyectos. Luego 85% durante el onboarding (primeras 4 semanas). Después, 75% — de por vida. Acceso directo al fundador. Soporte personalizado en tus primeras entregas.",
     "chipSeats": "plazas disponibles",
     "chipFirst2": "tuyo en los primeros 2 proyectos",
     "chipForLife": "tuyo en cada proyecto después — de por vida",
@@ -2091,7 +2091,7 @@
       },
       {
         "stat": "85/15",
-        "title": "Durante el onboarding (primeros 4 meses)",
+        "title": "Durante el onboarding (primeras 4 semanas)",
         "desc": "Durante el resto de tu período de onboarding, tu tarifa pasa a 85/15. Sigues quedándote con la gran mayoría mientras construyes tu práctica."
       },
       {
@@ -2121,7 +2121,7 @@
     "mathEffectiveRate": "Tarifa efectiva por hora",
     "mathRateStandard": "~$805/hr",
     "mathRateFounding": "~$1,035/hr",
-    "mathFootnote": "Primeros 2 proyectos al 90/10. Durante el onboarding (primeros 4 meses) al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
+    "mathFootnote": "Primeros 2 proyectos al 90/10. Durante el onboarding (primeras 4 semanas) al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
     "toolkitLabel": "Tu Kit de Operador",
     "toolkitTitle": "Cinco productos. Tu marca. Tu margen.",
     "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Todo entregado white-label bajo tu marca. Proyecto típico: $5K–$13K.",

@@ -68,8 +68,8 @@ export default function FoundingCohort() {
             </h2>
           </FadeIn>
 
-          <StaggerContainer className="grid-3" style={{
-            display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2,
+          <StaggerContainer className="grid-benefits" style={{
+            display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2,
           }}>
             {benefits.map((b, i) => (
               <StaggerItem key={i}>
@@ -461,11 +461,13 @@ export default function FoundingCohort() {
 
       <style>{`
         @media (max-width: 960px) {
+          .grid-benefits { grid-template-columns: repeat(2, 1fr) !important; }
           .grid-5 { grid-template-columns: repeat(2, 1fr) !important; }
           .grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
           .cta-strip { grid-template-columns: 1fr !important; text-align: center; }
         }
         @media (max-width: 640px) {
+          .grid-benefits { grid-template-columns: 1fr !important; }
           .grid-5 { grid-template-columns: 1fr !important; }
         }
       `}</style>

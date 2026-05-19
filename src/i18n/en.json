@@ -2041,8 +2041,8 @@
       },
       {
         "stat": "85/15",
-        "title": "During onboarding (first 4 months)",
-        "desc": "After your first two projects, your rate moves to 85/15 for the remainder of the 4-month onboarding period. Still well below the standard 30% platform fee."
+        "title": "During onboarding (first 4 weeks)",
+        "desc": "After your first two projects, your rate moves to 85/15 for the remainder of the 4-week onboarding period. Still well below the standard 30% platform fee."
       },
       {
         "stat": "75/25",
@@ -2071,7 +2071,7 @@
     "mathEffectiveRate": "Effective hourly rate",
     "mathRateStandard": "~$805/hr",
     "mathRateFounding": "~$1,035/hr",
-    "mathFootnote": "First 2 projects at 90/10. Remaining onboarding period (4 months) at 85/15. Every project after onboarding at 75/25 — for life. Standard tier (70/30) shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
+    "mathFootnote": "First 2 projects at 90/10. Remaining onboarding period (4 weeks) at 85/15. Every project after onboarding at 75/25 — for life. Standard tier (70/30) shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
     "toolkitLabel": "Your Operator Toolkit",
     "toolkitTitle": "Five products. Your brand. Your margin.",
     "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
@@ -2117,7 +2117,7 @@
       },
       {
         "q": "What does 'for life' actually mean?",
-        "a": "It means what it says. After your 4-month onboarding, your 75/25 rate is locked permanently. Not for a contract term. Not until a pricing review. Your Founding Operator rate stays at 75/25 for every engagement you ever deliver through Soundcheck — versus 70/30 on the standard plan."
+        "a": "It means what it says. After your 4-week onboarding, your 75/25 rate is locked permanently. Not for a contract term. Not until a pricing review. Your Founding Operator rate stays at 75/25 for every engagement you ever deliver through Soundcheck — versus 70/30 on the standard plan."
       },
       {
         "q": "What if I don't have a client ready right now?",
@@ -2141,7 +2141,7 @@
       },
       {
         "q": "How is this different from a Trial tier?",
-        "a": "Trial gives you 65% on 2 projects with a $300 setup fee, then graduates to Standard (70/30). Founding Operators get 90% on their first 2 projects with zero setup, 85% during the 4-month onboarding, then 75/25 for life. The Founding Cohort is a significantly better deal — and it comes with founder access and hands-on support that Trial doesn't include."
+        "a": "Trial gives you 65% on 2 projects with a $300 setup fee, then graduates to Standard (70/30). Founding Operators get 90% on their first 2 projects with zero setup, 85% during the 4-week onboarding, then 75/25 for life. The Founding Cohort is a significantly better deal — and it comes with founder access and hands-on support that Trial doesn't include."
       }
     ],
     "formLabel": "Apply Now",

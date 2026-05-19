@@ -2070,7 +2070,7 @@
     "heroLabel": "Coorte de Operadores Fundadores · Aceitando Candidaturas",
     "heroTitle1": "10 Vagas. Apenas por Candidatura.",
     "heroTitle2": "Sua prática de pesquisa começa aqui.",
-    "heroSub": "Construa uma prática de inteligência de mercado no Soundcheck. Fique com 90% dos seus dois primeiros projetos. Depois, 85% durante o onboarding (primeiros 4 meses). Depois, 75% — para sempre. Acesso direto ao fundador. Suporte personalizado nas suas primeiras entregas.",
+    "heroSub": "Construa uma prática de inteligência de mercado no Soundcheck. Fique com 90% dos seus dois primeiros projetos. Depois, 85% durante o onboarding (primeiras 4 semanas). Depois, 75% — para sempre. Acesso direto ao fundador. Suporte personalizado nas suas primeiras entregas.",
     "chipSeats": "vagas disponíveis",
     "chipFirst2": "seu nos primeiros 2 projetos",
     "chipForLife": "seu em cada projeto depois — para sempre",
@@ -2086,8 +2086,8 @@
       },
       {
         "stat": "85/15",
-        "title": "Durante o onboarding (primeiros 4 meses)",
-        "desc": "Após seus dois primeiros projetos, você entra no período de onboarding. Você fica com 85% — Soundcheck recebe 15% pelo restante dos seus primeiros 4 meses."
+        "title": "Durante o onboarding (primeiras 4 semanas)",
+        "desc": "Após seus dois primeiros projetos, você entra no período de onboarding. Você fica com 85% — Soundcheck recebe 15% pelo restante das suas primeiras 4 semanas."
       },
       {
         "stat": "75/25",
@@ -2116,7 +2116,7 @@
     "mathEffectiveRate": "Taxa efetiva por hora",
     "mathRateStandard": "~$805/hr",
     "mathRateFounding": "~$1.035/hr",
-    "mathFootnote": "Primeiros 2 projetos no 90/10. Durante o onboarding (primeiros 4 meses após o cadastro) no 85/15. Após o onboarding, 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~4 horas). A plataforma gera o relatório em menos de 24 horas.",
+    "mathFootnote": "Primeiros 2 projetos no 90/10. Durante o onboarding (primeiras 4 semanas após o cadastro) no 85/15. Após o onboarding, 75/25 — para sempre. Tier padrão mostrado para comparação. O investimento de tempo inclui intake do cliente (~1 hora) e validação especializada (~4 horas). A plataforma gera o relatório em menos de 24 horas.",
     "toolkitLabel": "Seu Kit de Operador",
     "toolkitTitle": "Cinco produtos. Sua marca. Sua margem.",
     "toolkitDesc": "Todo projeto começa com Market Research como base. Adicione módulos conforme a necessidade do seu cliente. Tudo entregue white-label sob sua marca. Projeto típico: $5K–$13K.",
@@ -2162,7 +2162,7 @@
       },
       {
         "q": "O que 'para sempre' realmente significa?",
-        "a": "Significa o que diz. Sua taxa 75/25 é fixada permanentemente após o onboarding. Não por um prazo de contrato. Não até uma revisão de preços. Você começa em 90/10 (primeiros 2 projetos), depois 85/15 (durante o onboarding de 4 meses), e depois 75/25 para sempre. Uma vez no 75/25, essa taxa nunca muda."
+        "a": "Significa o que diz. Sua taxa 75/25 é fixada permanentemente após o onboarding. Não por um prazo de contrato. Não até uma revisão de preços. Você começa em 90/10 (primeiros 2 projetos), depois 85/15 (durante o onboarding de 4 semanas), e depois 75/25 para sempre. Uma vez no 75/25, essa taxa nunca muda."
       },
       {
         "q": "E se eu não tiver um cliente pronto agora?",
