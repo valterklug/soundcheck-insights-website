@@ -449,7 +449,7 @@
         "num": "01",
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Requerido para cada proyecto",
-        "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 8 o 10 buyer personas. La base sobre la que se construye cada otro producto.",
+        "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 12 o 20 buyer personas. La base sobre la que se construye cada otro producto.",
         "delivery": "Entrega en 14 días",
         "price": "MSRP: $3,000 / $3,500 / $4,000",
         "link": "/research-platform"
@@ -552,7 +552,7 @@
           "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
           "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
           "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
-          "Panel de Personas — 6, 8 o 10 buyer personas (niveles Mini/Standard/Premium)",
+          "Panel de Personas — 6, 12 o 20 buyer personas (niveles Mini/Standard/Premium)",
           "Precios Mini/Standard/Premium: $3,000 / $3,500 / $4,000"
         ],
         "link": "/research-platform",

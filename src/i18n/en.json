@@ -449,7 +449,7 @@
         "num": "01",
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Required for every engagement",
-        "desc": "Three decision-grade reports plus a persona panel with 6, 8, or 10 buyer personas. The foundation every other product builds on.",
+        "desc": "Three decision-grade reports plus a persona panel with 6, 12, or 20 buyer personas. The foundation every other product builds on.",
         "delivery": "14-day delivery",
         "price": "MSRP: $3,000 / $3,500 / $4,000",
         "link": "/research-platform"
@@ -541,7 +541,7 @@
         "for": "The Starting Point · Every Engagement",
         "name": "Market Research",
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
-        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 8, or 10 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
+        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
         "price": "US$3,000 / $3,500 / $4,000 (Mini / Standard / Premium)",
         "delivery": "14-day delivery · MSRP",
         "ctaLabel": "See Market Research Details →",
@@ -549,7 +549,7 @@
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
           "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
           "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
-          "Persona Panel — 6, 8, or 10 research-grounded buyer personas (Mini/Standard/Premium tiers)",
+          "Persona Panel — 6, 12, or 20 research-grounded buyer personas (Mini/Standard/Premium tiers)",
           "Mini/Standard/Premium pricing: $3,000 / $3,500 / $4,000"
         ],
         "link": "/research-platform",
@@ -1995,7 +1995,7 @@
     "pricingAmount": "$500 per persona",
     "pricingSub": "Select any number of personas from your panel. No minimum.",
     "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
-    "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 10 personas = $5,000",
+    "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 20 personas = $10,000",
     "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
     "faqTitle": "Common questions",
     "faqs": [
