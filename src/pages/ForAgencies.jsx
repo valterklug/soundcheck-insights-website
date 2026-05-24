@@ -59,8 +59,8 @@ export default function ForAgencies() {
                 <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierStandardDesc')}</div>
               </div>
               <div style={{padding:"12px 14px",background:"rgba(232,71,42,0.06)",border:"1px solid rgba(232,71,42,0.15)",textAlign:"center"}}>
-                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--orange)"}}>{t('forAgencies.tierManaTech')}</div>
-                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierManaTechDesc')}</div>
+                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--orange)"}}>{t('forAgencies.tierFounding')}</div>
+                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierFoundingDesc')}</div>
               </div>
             </div>
             {/* Table rows */}
@@ -92,7 +92,7 @@ export default function ForAgencies() {
                 <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginStandard')}</span>
               </div>
               <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginManaTech')}</span>
+                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginFounding')}</span>
               </div>
             </div>
           </FadeIn>

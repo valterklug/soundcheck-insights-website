@@ -10,6 +10,8 @@ export default function FoundingCohort() {
   const lang = getLangFromPath(location.pathname)
 
   const benefits = t('foundingCohort.benefits', { returnObjects: true })
+  const howSteps = t('foundingCohort.howSteps', { returnObjects: true })
+  const whyReasons = t('foundingCohort.whyReasons', { returnObjects: true })
   const profileItems = t('foundingCohort.profileItems', { returnObjects: true })
   const selectionItems = t('foundingCohort.selectionItems', { returnObjects: true })
   const toolkitItems = t('foundingCohort.toolkitItems', { returnObjects: true })
@@ -30,14 +32,13 @@ export default function FoundingCohort() {
             {t('foundingCohort.heroTitle1')}<br />
             <span className="text-orange">{t('foundingCohort.heroTitle2')}</span>
           </h1>
-          <p className="page-sub" style={{ maxWidth: 640 }}>{t('foundingCohort.heroSub')}</p>
+          <p className="page-sub" style={{ maxWidth: 660 }}>{t('foundingCohort.heroSub')}</p>
 
           {/* Urgency chips */}
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 28 }}>
             <div className="chip"><strong>10</strong> {t('foundingCohort.chipSeats')}</div>
-            <div className="chip"><strong>90%</strong> {t('foundingCohort.chipFirst2')}</div>
-            <div className="chip"><strong>75%</strong> {t('foundingCohort.chipForLife')}</div>
-            <div className="chip"><strong>0</strong> {t('foundingCohort.chipSetup')}</div>
+            <div className="chip"><strong>$0</strong> {t('foundingCohort.chipSetup')}</div>
+            <div className="chip">{t('foundingCohort.chipRate')}</div>
           </div>
 
           <a href="#apply" style={{
@@ -55,32 +56,88 @@ export default function FoundingCohort() {
         </div>
       </section>
 
-      {/* ── The Deal: 3 benefit cards ── */}
+      {/* ── How It Works ── */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
           <FadeIn>
-            <span className="sc-label">{t('foundingCohort.dealLabel')}</span>
+            <span className="sc-label">{t('foundingCohort.howLabel')}</span>
             <h2 style={{
               fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.5rem)',
               fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 40,
             }}>
-              {t('foundingCohort.dealTitle')}
+              {t('foundingCohort.howTitle')}
             </h2>
           </FadeIn>
 
-          <StaggerContainer className="grid-benefits" style={{
-            display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2,
-          }}>
-            {benefits.map((b, i) => (
+          <StaggerContainer style={{
+            display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2,
+          }} className="grid-3">
+            {howSteps.map((step, i) => (
               <StaggerItem key={i}>
                 <div style={{
-                  background: i === 0 ? 'rgba(232,71,42,0.05)' : 'rgba(255,255,255,0.03)',
-                  border: i === 0 ? '1px solid rgba(232,71,42,0.2)' : '1px solid rgba(0,196,212,0.14)',
+                  background: 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(0,196,212,0.14)',
                   padding: '36px 28px', height: '100%',
                 }}>
                   <div style={{
-                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(2rem,4vw,3rem)',
-                    fontWeight: 300, color: i === 0 ? 'var(--orange)' : '#fff', marginBottom: 8,
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: '0.7rem', fontWeight: 500,
+                    letterSpacing: '0.18em', textTransform: 'uppercase',
+                    color: 'var(--teal)', marginBottom: 12,
+                  }}>
+                    {step.num}
+                  </div>
+                  <div style={{
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: '1.25rem', fontWeight: 500,
+                    color: '#fff', marginBottom: 12,
+                  }}>
+                    {step.title}
+                  </div>
+                  <p style={{
+                    fontFamily: 'Inter, sans-serif', fontSize: '0.875rem',
+                    color: 'rgba(255,255,255,0.5)', lineHeight: 1.65,
+                  }}>
+                    {step.desc}
+                  </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
+      {/* ── Founding Pricing: 3 benefit cards ── */}
+      <section style={{ background: 'var(--navy-2)', padding: '80px 60px' }} className="section-pad">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <span className="sc-label sc-label-orange">{t('foundingCohort.pricingLabel')}</span>
+            <h2 style={{
+              fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.5rem)',
+              fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 14,
+            }}>
+              {t('foundingCohort.pricingTitle')}
+            </h2>
+            <p style={{
+              fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem',
+              color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 40, maxWidth: 700,
+            }}>
+              {t('foundingCohort.pricingDesc')}
+            </p>
+          </FadeIn>
+
+          <StaggerContainer style={{
+            display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2,
+          }} className="grid-3">
+            {benefits.map((b, i) => (
+              <StaggerItem key={i}>
+                <div style={{
+                  background: i === 0 ? 'rgba(232,71,42,0.05)' : i === 2 ? 'rgba(0,196,212,0.04)' : 'rgba(255,255,255,0.03)',
+                  border: i === 0 ? '1px solid rgba(232,71,42,0.2)' : i === 2 ? '1px solid rgba(0,196,212,0.2)' : '1px solid rgba(0,196,212,0.14)',
+                  padding: '36px 28px', height: '100%',
+                }}>
+                  <div style={{
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.6rem,3vw,2.2rem)',
+                    fontWeight: 300, color: i === 0 ? 'var(--orange)' : i === 2 ? 'var(--teal)' : '#fff', marginBottom: 8,
+                    letterSpacing: '-0.01em',
                   }}>
                     {b.stat}
                   </div>
@@ -103,8 +160,8 @@ export default function FoundingCohort() {
         </div>
       </section>
 
-      {/* ── The Math ── */}
-      <section style={{ background: 'var(--navy-2)', padding: '80px 60px' }} className="section-pad">
+      {/* ── The Math: Worked Example ── */}
+      <section style={{ background: 'var(--navy)', padding: '80px 60px' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'start' }} className="grid-2">
           <FadeIn>
             <span className="sc-label sc-label-orange">{t('foundingCohort.mathLabel')}</span>
@@ -123,7 +180,7 @@ export default function FoundingCohort() {
           </FadeIn>
 
           <FadeIn delay={0.15}>
-            {/* Comparison table */}
+            {/* Table header */}
             <div style={{
               fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500,
               letterSpacing: '0.15em', textTransform: 'uppercase',
@@ -132,7 +189,7 @@ export default function FoundingCohort() {
               {t('foundingCohort.mathTableHeader')}
             </div>
 
-            {/* Headers */}
+            {/* Column Headers */}
             <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr', gap: 0 }} className="econ-grid">
               <div style={{ padding: '12px 14px', background: 'rgba(255,255,255,0.01)' }} />
               <div style={{
@@ -191,6 +248,55 @@ export default function FoundingCohort() {
         </div>
       </section>
 
+      {/* ── Why This Cohort ── */}
+      <section style={{ background: 'var(--navy-2)', padding: '80px 60px' }} className="section-pad">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <span className="sc-label">{t('foundingCohort.whyLabel')}</span>
+            <h2 style={{
+              fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)',
+              fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 40,
+            }}>
+              {t('foundingCohort.whyTitle')}
+            </h2>
+          </FadeIn>
+
+          <StaggerContainer style={{
+            display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2,
+          }} className="grid-3">
+            {whyReasons.map((r, i) => (
+              <StaggerItem key={i}>
+                <div style={{
+                  background: 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(0,196,212,0.14)',
+                  padding: '36px 28px', height: '100%',
+                }}>
+                  <div style={{
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: '0.7rem', fontWeight: 600,
+                    letterSpacing: '0.15em', textTransform: 'uppercase',
+                    color: 'var(--teal)', marginBottom: 12,
+                  }}>
+                    {r.stat}
+                  </div>
+                  <div style={{
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: '1.1rem', fontWeight: 500,
+                    color: '#fff', marginBottom: 10,
+                  }}>
+                    {r.title}
+                  </div>
+                  <p style={{
+                    fontFamily: 'Inter, sans-serif', fontSize: '0.875rem',
+                    color: 'rgba(255,255,255,0.5)', lineHeight: 1.65,
+                  }}>
+                    {r.desc}
+                  </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+        </div>
+      </section>
+
       {/* ── Your Toolkit ── */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>
@@ -204,7 +310,7 @@ export default function FoundingCohort() {
             </h2>
             <p style={{
               fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem',
-              color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 40, maxWidth: 680,
+              color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 40, maxWidth: 700,
             }}>
               {t('foundingCohort.toolkitDesc')}
             </p>
@@ -237,8 +343,16 @@ export default function FoundingCohort() {
                     fontFamily: 'Inter, sans-serif', fontSize: '0.8rem',
                     color: 'rgba(255,255,255,0.4)', lineHeight: 1.5,
                   }}>
-                    {item.price}
+                    {item.cost}
                   </div>
+                  {item.sells && (
+                    <div style={{
+                      fontFamily: 'Inter, sans-serif', fontSize: '0.7rem',
+                      color: 'rgba(255,255,255,0.25)', lineHeight: 1.4, marginTop: 4,
+                    }}>
+                      {item.sells}
+                    </div>
+                  )}
                 </div>
               </StaggerItem>
             ))}
@@ -307,61 +421,8 @@ export default function FoundingCohort() {
         </div>
       </section>
 
-      {/* ── Operator Zero Proof ── */}
-      <section style={{ background: 'var(--navy)', padding: '80px 60px' }} className="section-pad">
-        <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
-          <FadeIn>
-            <span className="sc-label">{t('foundingCohort.proofLabel')}</span>
-            <h2 style={{
-              fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)',
-              fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.15, marginBottom: 24,
-            }}>
-              {t('foundingCohort.proofTitle')}
-            </h2>
-            <p style={{
-              fontFamily: 'Inter, sans-serif', fontSize: '1.0625rem',
-              color: 'rgba(255,255,255,0.55)', lineHeight: 1.75, marginBottom: 40,
-            }}>
-              {t('foundingCohort.proofDesc')}
-            </p>
-          </FadeIn>
-
-          <StaggerContainer style={{
-            display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 2,
-          }} className="grid-4">
-            {[
-              { num: '20+', label: t('foundingCohort.proofStat1') },
-              { num: '9', label: t('foundingCohort.proofStat2') },
-              { num: '4', label: t('foundingCohort.proofStat3') },
-              { num: '$0', label: t('foundingCohort.proofStat4') },
-            ].map((s, i) => (
-              <StaggerItem key={i}>
-                <div style={{
-                  background: 'rgba(255,255,255,0.03)',
-                  border: '1px solid rgba(0,196,212,0.14)',
-                  padding: '28px 16px',
-                }}>
-                  <div style={{
-                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.8rem,3vw,2.5rem)',
-                    fontWeight: 300, color: 'var(--teal)', marginBottom: 6,
-                  }}>
-                    {s.num}
-                  </div>
-                  <div style={{
-                    fontFamily: 'Inter, sans-serif', fontSize: '0.75rem',
-                    color: 'rgba(255,255,255,0.4)', lineHeight: 1.4,
-                  }}>
-                    {s.label}
-                  </div>
-                </div>
-              </StaggerItem>
-            ))}
-          </StaggerContainer>
-        </div>
-      </section>
-
       {/* ── FAQ ── */}
-      <section style={{ background: 'var(--navy-2)', padding: '80px 60px' }} className="section-pad">
+      <section style={{ background: 'var(--navy)', padding: '80px 60px' }} className="section-pad">
         <div style={{ maxWidth: 800, margin: '0 auto' }}>
           <FadeIn>
             <span className="sc-label">{t('foundingCohort.faqLabel')}</span>
@@ -398,7 +459,7 @@ export default function FoundingCohort() {
       </section>
 
       {/* ── Application Form ── */}
-      <section id="apply" style={{ background: 'var(--navy)', padding: '80px 60px' }} className="section-pad">
+      <section id="apply" style={{ background: 'var(--navy-2)', padding: '80px 60px' }} className="section-pad">
         <div style={{ maxWidth: 700, margin: '0 auto' }}>
           <FadeIn>
             <span className="sc-label sc-label-orange">{t('foundingCohort.formLabel')}</span>
@@ -461,13 +522,12 @@ export default function FoundingCohort() {
 
       <style>{`
         @media (max-width: 960px) {
-          .grid-benefits { grid-template-columns: repeat(2, 1fr) !important; }
+          .grid-3 { grid-template-columns: 1fr !important; }
           .grid-5 { grid-template-columns: repeat(2, 1fr) !important; }
           .grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
           .cta-strip { grid-template-columns: 1fr !important; text-align: center; }
         }
         @media (max-width: 640px) {
-          .grid-benefits { grid-template-columns: 1fr !important; }
           .grid-5 { grid-template-columns: 1fr !important; }
         }
       `}</style>

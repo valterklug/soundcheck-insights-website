@@ -15,7 +15,6 @@ export default function Footer() {
     { label: t('nav.partnerWithUs'), to: getLocalizedPath('/partner', lang) },
     { label: t('nav.ourPartners'), to: getLocalizedPath('/our-partners', lang) },
     { label: t('footer.contact'), to: getLocalizedPath('/contact', lang) },
-    { label: 'For Mana Tech Members', to: getLocalizedPath('/mana-tech', lang) },
   ]
 
   return (

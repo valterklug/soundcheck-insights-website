@@ -238,14 +238,14 @@ const seoConfig = {
 
   '/founding-cohort': {
     title: 'Founding Operator Cohort — 10 Seats, Application Only',
-    description: 'Join the first cohort of Soundcheck operators. Keep 85% on your first 2 projects, then 75% for life. White-label market intelligence for agencies, consultancies, and fractional executives. 10 seats available.',
+    description: 'Join the first cohort of Soundcheck operators. Platform cost starts at $550 per engagement, locked at 20% off standard for life. White-label market intelligence for agencies, consultancies, and fractional executives. 10 seats available.',
     image: '/og/og-for-agencies.png',
     keywords: 'founding operator, operator cohort, market intelligence practice, agency research, white-label research, fractional CMO, consultancy research, operator platform',
     schema: {
       '@context': 'https://schema.org',
       '@type': 'Event',
       name: 'Soundcheck Insights Founding Operator Cohort',
-      description: 'Application-only cohort for agencies and consultancies building a market intelligence practice on Soundcheck. 10 seats. 85/15 split on first 2 projects, then 75/25 for life.',
+      description: 'Application-only cohort for agencies and consultancies building a market intelligence practice on Soundcheck. 10 seats. Platform cost from $550 per engagement, locking at 20% off standard for life.',
       organizer: { '@type': 'Organization', name: 'Soundcheck Insights' },
       maximumAttendeeCapacity: 10,
       eventAttendanceMode: 'https://schema.org/OnlineEventAttendanceMode',
@@ -260,8 +260,8 @@ const seoConfig = {
   },
 
   '/mana-tech': {
-    title: 'Mana Tech Member Rate — 25% Off All Products',
-    description: 'Decision-grade market intelligence for Mana Tech operators, Scale2Miami ecosystem partners, and the mentor network. 25% off MSRP on all five Soundcheck products.',
+    title: 'Mana Tech Partnership — Soundcheck Insights',
+    description: 'Soundcheck Insights partnership with Mana Tech ecosystem for Scale2Miami cohort founders, Mana Hubs members, and the mentor network.',
     image: '/og/og-products.png',
     keywords: 'mana tech, scale2miami, mana hubs, member rate, operator market intelligence, cross-border expansion, miami agency',
   },

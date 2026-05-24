@@ -224,7 +224,7 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
           {...register('manaTechAffiliation')}
         />
         <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: dark ? 'rgba(255,255,255,0.3)' : '#999', display: 'block', marginTop: 4 }}>
-          Mana Tech members, Scale2Miami founders, and mentors receive 25% off MSRP.
+          Scale2Miami cohort founders and Mana Hubs members may qualify for ecosystem pricing.
         </span>
       </div>}
 

@@ -75,12 +75,12 @@ const pages = {
   },
   '/mana-tech': {
     title: 'Mana Tech Member Rate — 25% Off | Soundcheck Insights',
-    description: 'Decision-grade market intelligence for Mana Tech operators, Scale2Miami ecosystem partners, and the mentor network. 25% off MSRP on all five products.',
+    description: 'Soundcheck Insights partnership with the Mana Tech ecosystem.',
     image: '/og/og-products.png',
   },
   '/founding-cohort': {
     title: 'Founding Operator Cohort — 10 Seats | Soundcheck Insights',
-    description: 'Join the first cohort of Soundcheck operators. Keep 85% on your first 2 projects, then 75% for life. White-label market intelligence for agencies and consultancies.',
+    description: 'Join the first cohort of Soundcheck operators. Platform cost starts at $550 per engagement, locked at 20% off standard for life. White-label market intelligence for agencies and consultancies.',
     image: '/og/og-for-agencies.png',
   },
   '/partner': {

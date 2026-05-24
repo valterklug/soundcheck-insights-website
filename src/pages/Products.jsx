@@ -190,11 +190,6 @@ export default function Products() {
                           <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 19, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{mr.price}</div>
                           <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>{mr.delivery}</div>
                         </div>
-                        {mr.memberRateNote && (
-                          <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)', textDecoration: 'none', display: 'block', marginBottom: 12, opacity: 0.8 }}>
-                            {mr.memberRateNote} →
-                          </Link>
-                        )}
                         <Link to={mr.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
                           {mr.ctaLabel || t('products.briefProduct')}
                         </Link>
@@ -285,12 +280,6 @@ export default function Products() {
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                       </div>
-                      {p.memberRateNote && (
-                        <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)', textDecoration: 'none', display: 'block', marginBottom: 10, opacity: 0.8 }}>
-                          {p.memberRateNote} →
-                        </Link>
-                      )}
-
                       <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
                         <Link to={p.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
                           {p.ctaLabel || t('products.briefProduct')}

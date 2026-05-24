@@ -113,8 +113,7 @@
         "name": "Market Research",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel. Every other product builds on this.",
         "delivery": "From $3,000 · Mini/Standard/Premium tiers · White-label included",
-        "link": "/research-platform",
-        "memberRateNote": "Mana Tech Member Rate available"
+        "link": "/research-platform"
       },
       {
         "num": "02",
@@ -122,8 +121,7 @@
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to your Market Research.",
         "delivery": "$2,000 · Requires Market Research",
-        "link": "/expansion-report",
-        "memberRateNote": "Mana Tech Member Rate available"
+        "link": "/expansion-report"
       },
       {
         "num": "03",
@@ -131,8 +129,7 @@
         "name": "Scale Assessment",
         "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
         "delivery": "$4,000 · Requires Market Research",
-        "link": "/scale-assessment",
-        "memberRateNote": "Mana Tech Member Rate available"
+        "link": "/scale-assessment"
       },
       {
         "num": "04",
@@ -140,8 +137,7 @@
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
         "delivery": "$500/persona · Requires Market Research",
-        "link": "/consumer-journeys",
-        "memberRateNote": "Mana Tech Member Rate available"
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
@@ -149,39 +145,38 @@
         "name": "Virtual Focus Groups",
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
         "delivery": "$3,000/session · Requires Market Research",
-        "link": "/virtual-focus-groups",
-        "memberRateNote": "Mana Tech Member Rate available"
+        "link": "/virtual-focus-groups"
       }
     ],
     "viewAllProducts": "View All Products →",
     "economicsLabel": "The Business Case",
-    "economicsTitle1": "Keep 75–90% of MSRP.",
-    "economicsTitle2": "No new headcount.",
+    "economicsTitle1": "Your platform cost: $550.",
+    "economicsTitle2": "You set the client price.",
     "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
     "economicsLink": "Full Economics Breakdown →",
     "economicsHeader": "Founding Operator Economics (on a $5,500 engagement)",
     "economicsRows": [
       [
-        "Soundcheck platform fee",
-        "10% · $550 (first 2 projects)"
+        "Your platform cost",
+        "$550 (first 2 projects)"
       ],
       [
-        "You keep",
-        "90% · $4,950"
+        "You charge your client",
+        "You set the price"
       ],
       [
         "Your time investment",
         "~5 hours"
       ],
       [
-        "Effective hourly rate",
-        "~$990/h"
+        "For-life platform cost",
+        "$1,320 per engagement"
       ]
     ],
-    "marginLabel": "Your margin per engagement",
-    "marginValue": "$4,950+",
+    "marginLabel": "You keep the difference",
+    "marginValue": "100%",
     "ctaTitle": "Join the Founding Operator Cohort.\n10 seats. Application only.",
-    "ctaSub": "Keep 90% of your first two projects. Then 75% — for life. Direct access to the founder. White-label by default.",
+    "ctaSub": "Platform cost starts at $550 per engagement. Locks at 20% off standard for life. Direct access to the founder. White-label by default.",
     "ctaButton": "Apply for Founding Cohort →",
     "modulesLabel": "Five Products · One Platform",
     "modulesTitle": "Every engagement starts with Market Research. Build from there.",
@@ -345,8 +340,8 @@
       },
       {
         "icon": "💰",
-        "value": "$2,100–$4,200+",
-        "label": "per engagement (at MSRP)"
+        "value": "$3,575–$4,180+",
+        "label": "margin per engagement"
       },
       {
         "icon": "🏷",
@@ -369,26 +364,26 @@
     "tierTrialDesc": "No setup · 2-project cap",
     "tierStandard": "Standard",
     "tierStandardDesc": "$1,500 setup · $1,500/Q min",
-    "tierManaTech": "Mana Tech",
-    "tierManaTechDesc": "Setup waived · $1,000/Q min",
+    "tierFounding": "Founding",
+    "tierFoundingDesc": "10 seats · locked for life",
     "economicsRows": [
       [
-        "Platform fee",
-        "35%",
-        "30%",
-        "25%"
-      ],
-      [
-        "Soundcheck takes",
+        "Platform cost",
         "$1,925",
         "$1,650",
-        "$1,375"
+        "$1,320"
       ],
       [
-        "You keep",
+        "Platform cost as % of MSRP",
+        "35%",
+        "30%",
+        "24%"
+      ],
+      [
+        "You keep (at MSRP)",
         "$3,575",
         "$3,850",
-        "$4,125"
+        "$4,180"
       ],
       [
         "Your time investment",
@@ -400,13 +395,13 @@
         "Effective hourly rate",
         "~$715/h",
         "~$770/h",
-        "~$825/h"
+        "~$836/h"
       ]
     ],
     "yourMargin": "Your margin",
     "marginTrial": "$3,575",
     "marginStandard": "$3,850",
-    "marginManaTech": "$4,125",
+    "marginFounding": "$4,180",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [
@@ -514,7 +509,7 @@
     "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
     "notSureLink": "Ask us directly →",
     "ctaTitle": "Start with a trial.\nTwo engagements. No commitment.",
-    "ctaSub": "Trial at 35% of MSRP — no setup fee, no annual commitment. Convert within 90 days and trial fees credit toward your $2,500 setup.",
+    "ctaSub": "Trial tier: $1,925 platform cost per $5,500 engagement. No setup fee, no annual commitment. Convert within 90 days and trial fees credit toward your setup.",
     "ctaButton": "Start a Trial →"
   },
   "products": {
@@ -552,8 +547,7 @@
           "Persona Panel — 6, 12, or 20 research-grounded buyer personas (Mini/Standard/Premium tiers)",
           "Mini/Standard/Premium pricing: $3,000 / $3,500 / $4,000"
         ],
-        "link": "/research-platform",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
+        "link": "/research-platform"
       },
       {
         "num": "02",
@@ -572,8 +566,7 @@
           "Risks & Watchpoints — scored, ranked, and mitigated",
           "Requires completed Market Research as evidence base"
         ],
-        "link": "/expansion-report",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
+        "link": "/expansion-report"
       },
       {
         "num": "03",
@@ -594,8 +587,7 @@
           "Risk Frame — 6–8 risks scored by probability × impact",
           "Requires completed Market Research as evidence base"
         ],
-        "link": "/scale-assessment",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
+        "link": "/scale-assessment"
       },
       {
         "num": "04",
@@ -612,8 +604,7 @@
           "Visual dashboard + PDF export",
           "Requires completed Market Research (persona panel)"
         ],
-        "link": "/consumer-journeys",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
@@ -632,8 +623,7 @@
           "Panels reusable across sessions and product lines",
           "Requires completed Market Research (persona panel)"
         ],
-        "link": "/virtual-focus-groups",
-        "memberRateNote": "Mana Tech Member Rate: 25% off — see eligibility"
+        "link": "/virtual-focus-groups"
       }
     ]
   },
@@ -708,24 +698,17 @@
           "partner": "70% of MSRP"
         },
         {
-          "rule": "Mana Tech",
-          "scenario": "Mana Tech Ecosystem Partner",
-          "desc": "Setup fee waived. $4,000 annual minimum (prepaid quarterly at $1,000). Same platform access. For agencies and consultants in the Mana Tech network.",
-          "soundcheck": "25% of MSRP",
-          "partner": "75% of MSRP"
-        },
-        {
           "rule": "Direct",
           "scenario": "Direct Sale (Soundcheck-led)",
-          "desc": "Soundcheck runs the engagement directly. End customer pays MSRP. Mana Tech ecosystem end customers receive 25% loyalty discount. Partners who refer direct clients earn a 20% finder's fee for 12 months.",
+          "desc": "Soundcheck runs the engagement directly. End customer pays MSRP. Partners who refer direct clients earn a 20% finder's fee for 12 months.",
           "soundcheck": "80% of MSRP",
           "partner": "20% referral fee"
         }
       ],
       "setupFees": {
         "title": "Partnership Terms",
-        "reports": "$2,500 one-time setup fee (waived for Mana Tech partners)",
-        "vfg": "Annual minimum: $6,000 Standard / $4,000 Mana Tech",
+        "reports": "$2,500 one-time setup fee",
+        "vfg": "Annual minimum: $6,000",
         "minimum": "Prepaid quarterly — unused balance rolls forward within contract year",
         "term": "Per-project rate drawn against prepaid quarterly balance",
         "termination": "Trial: 2 engagements, no commitment. Convert within 90 days for setup credit."
@@ -736,8 +719,7 @@
         "Below-MSRP selling: operator absorbs the discount, Soundcheck share stays at MSRP rate.",
         "Single invoicing — one party bills the client. Simple terms.",
         "Every engagement starts with Market Research. Downstream products attach to it."
-      ],
-      "memberRateNote": "Note: Mana Tech ecosystem end customers receive 25% off MSRP on direct sales. Mana Tech partner operators pay 25% of MSRP (vs. 30% Standard)."
+      ]
     }
   },
   "ourPartners": {
@@ -2022,134 +2004,215 @@
     ]
   },
   "foundingCohort": {
-    "heroLabel": "Founding Operator Cohort · Now Accepting Applications",
-    "heroTitle1": "10 Seats. Application Only.",
-    "heroTitle2": "Your research practice starts here.",
-    "heroSub": "Build a market intelligence practice on Soundcheck. Keep 90% of your first two engagements. Then 85% during onboarding. Then 75% — for life. Direct access to the founder.",
+    "heroLabel": "Founding Operator Cohort · 10 Seats · Application Only",
+    "heroTitle1": "Build a research practice.",
+    "heroTitle2": "At the best rate we will ever offer.",
+    "heroSub": "Generate white-label market intelligence on the Soundcheck platform. You run the research. You set the price. You keep everything above your platform cost. Founding operators lock the lowest rate we will ever offer. For life.",
     "chipSeats": "seats available",
-    "chipFirst2": "yours on first 2 projects",
-    "chipForLife": "yours on every project after — for life",
     "chipSetup": "setup fee",
+    "chipRate": "Lowest rate, locked for life",
     "heroCta": "Apply Now →",
-    "dealLabel": "The Founding Operator Offer",
-    "dealTitle": "Economics that reward early operators. Permanently.",
+    "howLabel": "How It Works",
+    "howTitle": "Self-serve research. Your brand. Your price.",
+    "howSteps": [
+      {
+        "num": "01",
+        "title": "Generate",
+        "desc": "Log in to the platform. Run the client intake. Generate the full research base: Market Analysis, Consumer Analysis, Competitive Landscape, and a research-grounded persona panel. Output is ready in under 24 hours."
+      },
+      {
+        "num": "02",
+        "title": "Augment",
+        "desc": "Review and validate with your professional judgment. Your senior expertise is what separates this from raw AI output, and what justifies the price you charge your client. About 4 hours per project."
+      },
+      {
+        "num": "03",
+        "title": "Deliver",
+        "desc": "White-label from the moment it generates. Your brand, your cover page, your client relationship. Soundcheck is the infrastructure. You are the intelligence partner."
+      }
+    ],
+    "pricingLabel": "Founding Operator Pricing",
+    "pricingTitle": "Your cost per project. You set the client price.",
+    "pricingDesc": "You pay a flat platform fee per product. Charge your client whatever the engagement is worth. Keep the difference. Founding operators start at the lowest cost we will ever offer, and it gets better over time.",
     "benefits": [
       {
-        "stat": "90/10",
+        "stat": "1/3 of standard",
         "title": "Your first 2 projects",
-        "desc": "You keep 90% of MSRP. Soundcheck takes only 10% — a third of the standard platform fee. Zero setup cost. Start with a real client engagement."
+        "desc": "Your platform cost starts at one-third of the standard rate. A GoGlobal Viability Analysis costs you $200. Standard operators pay $600. Zero setup fee."
       },
       {
-        "stat": "85/15",
-        "title": "During onboarding (first 4 weeks)",
-        "desc": "After your first two projects, your rate moves to 85/15 for the remainder of the 4-week onboarding period. Still well below the standard 30% platform fee."
+        "stat": "Half of standard",
+        "title": "During onboarding (4 weeks)",
+        "desc": "After your first two projects, your cost moves to half of the standard rate for the rest of your 4-week onboarding period."
       },
       {
-        "stat": "75/25",
-        "title": "After onboarding — for life",
-        "desc": "Once your onboarding period ends, your permanent rate locks at 75/25. Not for a contract term. Not until a pricing review. For life. This rate never changes."
-      },
-      {
-        "stat": "1:1",
-        "title": "Founder access + hands-on support",
-        "desc": "Direct access to Valter Klug — the founder who delivered 20+ engagements as Operator Zero. Hands-on support through your first deliveries. Cohort peer group."
+        "stat": "20% off standard",
+        "title": "After onboarding, for life",
+        "desc": "Your permanent platform cost locks at 20% below standard. Not for a contract term. Not until a pricing review. This rate is frozen at today's prices and never increases. Only this first cohort gets it."
       }
     ],
     "mathLabel": "The Math",
-    "mathTitle": "What a single engagement looks like.",
-    "mathDesc": "Take a typical engagement: Market Research Standard ($3,500) + GoGlobal Viability Analysis ($2,000) = $5,500 MSRP. Your client pays $5,500. Here's what you keep — and what it costs you in time.",
-    "mathTableHeader": "MR Standard + GoGlobal · $5,500 MSRP",
-    "mathColStandard": "Standard Tier (70/30)",
-    "mathColFounding": "Founding Operator",
+    "mathTitle": "What a single engagement looks like in dollars.",
+    "mathDesc": "Take a typical engagement: Market Research Standard + GoGlobal Viability Analysis. You generate the research on the platform. You charge your client. You keep everything above your platform cost.",
+    "mathTableHeader": "MR Standard + GoGlobal",
+    "mathColStandard": "Standard Operator",
+    "mathColFounding": "Founding (first 2)",
     "mathRows": [
-      ["Soundcheck platform fee", "30% · $1,650", "10% · $550"],
-      ["You keep", "$3,850", "$4,950"],
-      ["Your time investment", "~5 hours", "~5 hours"],
-      ["During onboarding (85/15)", "—", "$4,675"],
-      ["After onboarding (75/25 for life)", "—", "$4,125"]
+      [
+        "Your platform cost",
+        "$1,650",
+        "$550"
+      ],
+      [
+        "You charge your client",
+        "$5,500+",
+        "$5,500+"
+      ],
+      [
+        "You keep the difference",
+        "$3,850+",
+        "$4,950+"
+      ],
+      [
+        "Your time investment",
+        "~5 hours",
+        "~5 hours"
+      ],
+      [
+        "Platform cost during onboarding",
+        "$1,650",
+        "$825"
+      ],
+      [
+        "Platform cost after onboarding (for life)",
+        "$1,650",
+        "$1,320"
+      ]
     ],
-    "mathEffectiveRate": "Effective hourly rate",
+    "mathEffectiveRate": "Effective hourly rate (first 2 projects, ~5h)",
     "mathRateStandard": "~$770/hr",
     "mathRateFounding": "~$990/hr",
-    "mathFootnote": "First 2 projects at 90/10. Remaining onboarding period (4 weeks) at 85/15. Every project after onboarding at 75/25 — for life. Standard tier (70/30) shown for comparison. Time investment includes client intake (~1 hour) and expert validation (~4 hours). Platform generates the research base in under 24 hours.",
-    "toolkitLabel": "Your Operator Toolkit",
-    "toolkitTitle": "Five products. Your brand. Your margin.",
-    "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. All delivered white-label under your brand. Typical engagement: $5K–$13K.",
-    "toolkitItems": [
-      { "label": "Foundation", "name": "Market Research", "price": "$3,000 – $4,000", "color": "#94A3B8" },
-      { "label": "Add-on", "name": "GoGlobal", "price": "+ $2,000", "color": "#2DD4BF" },
-      { "label": "Add-on", "name": "Scale Assessment", "price": "+ $4,000", "color": "#FF6B47" },
-      { "label": "Add-on", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
-      { "label": "Add-on", "name": "Virtual Focus Group", "price": "+ $3,000", "color": "#FBBF24" }
+    "mathFootnote": "First 2 projects at 1/3 of standard cost. Remaining onboarding (4 weeks) at half of standard. Every project after onboarding: 20% off standard, locked for life. Operator time: ~1 hour intake + ~4 hours validation. Platform generates the research base in under 24 hours.",
+    "whyLabel": "Why This Cohort",
+    "whyTitle": "Three reasons to apply now.",
+    "whyReasons": [
+      {
+        "stat": "LOCKED",
+        "title": "Lifetime pricing, frozen today",
+        "desc": "Your founding rate is frozen at today's platform cost. Standard rates will increase as the platform matures. Founding operators never see those increases. The rate you lock today stays with you for every project you ever deliver."
+      },
+      {
+        "stat": "1:1",
+        "title": "Founder access",
+        "desc": "Direct access to Valter Klug, who delivered 20+ engagements as Operator Zero before opening the platform. Hands-on support through your first two projects. Cohort peer group."
+      },
+      {
+        "stat": "FIRST",
+        "title": "First-mover status",
+        "desc": "Founding Operator credentialing. You are in the first cohort of a platform built to scale. Early operators shape the methodology and the community."
+      }
     ],
-    "toolkitTypical": "Typical engagement: $5K–$13K MSRP · Founding Operators keep 75–90%",
+    "toolkitLabel": "Your Product Toolkit",
+    "toolkitTitle": "Five products. You generate. You price. You deliver.",
+    "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. You generate the research on the platform, validate it with your expertise, and deliver under your brand. These are your founding platform costs (for life, after onboarding).",
+    "toolkitItems": [
+      {
+        "label": "Foundation",
+        "name": "Market Research",
+        "cost": "Your cost: $720 – $960",
+        "sells": "Clients pay $3,000 – $4,000+",
+        "color": "#94A3B8"
+      },
+      {
+        "label": "Add-on",
+        "name": "GoGlobal",
+        "cost": "Your cost: $480",
+        "sells": "Clients pay $2,000+",
+        "color": "#2DD4BF"
+      },
+      {
+        "label": "Add-on",
+        "name": "Scale Assessment",
+        "cost": "Your cost: $960",
+        "sells": "Clients pay $4,000+",
+        "color": "#FF6B47"
+      },
+      {
+        "label": "Add-on",
+        "name": "Customer Journey",
+        "cost": "Your cost: $120/persona",
+        "sells": "Clients pay $500+/persona",
+        "color": "#A78BFA"
+      },
+      {
+        "label": "Add-on",
+        "name": "Virtual Focus Group",
+        "cost": "Your cost: $720",
+        "sells": "Clients pay $3,000+",
+        "color": "#FBBF24"
+      }
+    ],
+    "toolkitTypical": "Typical engagement: $5K–$13K client price. Your platform cost: $1,200–$3,200. You keep the difference.",
     "profileLabel": "Who This Is For",
-    "profileTitle": "You might be a Founding Operator if…",
+    "profileTitle": "You might be a Founding Operator if...",
     "profileItems": [
-      "You run a boutique agency (1–20 people), an independent strategy consultancy, or a fractional CMO/CSO/CGO practice",
-      "You have 10–25 years of senior brand, strategy, or marketing experience",
-      "You're currently serving 3–8 active clients who regularly face strategic decisions about markets, positioning, or growth",
-      "Your clients ask research questions you can't answer credibly without tools you don't have",
-      "You've lost RFPs to bigger firms with research arms — or you've skipped the research entirely",
-      "You're part of (or adjacent to) Pavilion, Mana Tech, or boutique-agency peer communities"
+      "You run a boutique agency (1-20 people), an independent strategy consultancy, or a fractional CMO/CSO/CGO practice",
+      "You have 10-25 years of senior brand, strategy, or marketing experience",
+      "You are currently serving 3-8 active clients who regularly face strategic decisions about markets, positioning, or growth",
+      "Your clients ask research questions you cannot answer credibly without tools you do not have",
+      "You have lost RFPs to bigger firms with research arms, or you have skipped the research entirely",
+      "You are part of (or adjacent to) Pavilion, Mana Tech, or boutique-agency peer communities"
     ],
     "selectionLabel": "Selection Criteria",
-    "selectionTitle": "What we're looking for.",
+    "selectionTitle": "What we are looking for.",
     "selectionItems": [
-      "Clients in your pipeline who would benefit from market intelligence — you have a real engagement in mind, not a theoretical one",
-      "Methodology fit — you think strategically, not just executionally. You're comfortable validating research and adding professional judgment",
-      "Willingness to deliver at quality — the Soundcheck methodology has standards, and you'll uphold them",
+      "Clients in your pipeline who would benefit from market intelligence. You have a real engagement in mind, not a theoretical one",
+      "Methodology fit. You think strategically, not just executionally. You are comfortable validating research and adding professional judgment",
+      "Willingness to deliver at quality. The Soundcheck methodology has standards, and you will uphold them",
       "Ambition to build a recurring research practice, not just run a one-off project"
     ],
-    "proofLabel": "Validated by Operator Zero",
-    "proofTitle": "You're not beta-testing. You're joining a proven model.",
-    "proofDesc": "Before opening the platform to operators, Soundcheck's founder delivered 20+ paid engagements himself — as Operator Zero. Same methodology. Same platform. Same economics. The model works. You're joining it, not testing it.",
-    "proofStat1": "paid engagements delivered",
-    "proofStat2": "operator partnerships signed",
-    "proofStat3": "countries served",
-    "proofStat4": "marketing spend to date",
     "faqLabel": "Common Questions",
     "faqTitle": "Before you apply.",
     "faqItems": [
       {
         "q": "Do I need to pay anything upfront?",
-        "a": "No. There is no setup fee for Founding Operators. You start earning from your first client engagement. Soundcheck takes its share (10% on your first two projects, 15% during onboarding, 25% after) only when you deliver and get paid."
+        "a": "No. There is no setup fee for Founding Operators. You pay only the platform cost per product, per project, when you deliver. No subscription, no minimum commitment, no upfront investment."
       },
       {
         "q": "What does 'for life' actually mean?",
-        "a": "It means what it says. After your 4-week onboarding, your 75/25 rate is locked permanently. Not for a contract term. Not until a pricing review. Your Founding Operator rate stays at 75/25 for every engagement you ever deliver through Soundcheck — versus 70/30 on the standard plan."
+        "a": "Your founding rate is frozen at today's standard pricing and locked permanently after onboarding. Not for a contract term. Not until a pricing review. When standard rates increase in the future, your platform cost stays the same. Only this first cohort gets this lock."
       },
       {
-        "q": "What if I don't have a client ready right now?",
-        "a": "You should have one in mind — even if not confirmed yet. The Founding Cohort is designed for operators who will deliver their first engagement within 60–90 days of joining. If you're more exploratory, consider starting as a referrer (20% commission on intros, no delivery required) and applying for a future cohort."
+        "q": "What if I do not have a client ready right now?",
+        "a": "You should have one in mind, even if not confirmed yet. The Founding Cohort is designed for operators who will deliver their first engagement within 60-90 days of joining. If you are more exploratory, consider applying for a future cohort when you have a real project."
       },
       {
         "q": "Do my clients see Soundcheck's brand?",
-        "a": "No. Everything is white-label by default. Your client sees your brand, your cover page, your agency name on the deliverable. Soundcheck is the infrastructure — you are the intelligence partner."
+        "a": "No. Everything is white-label from the moment you generate it. Your client sees your brand, your cover page, your agency name on the deliverable. Soundcheck is the infrastructure. You are the intelligence partner."
       },
       {
         "q": "How much time does each engagement take?",
-        "a": "About 5 hours of your time total. ~1 hour for the client intake call, and ~4 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours — the 14-day delivery timeline gives you legroom to manage multiple projects. You deliver the intelligence."
+        "a": "About 5 hours of your time total. ~1 hour for the client intake, and ~4 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 14-day delivery timeline gives you legroom to manage multiple projects."
       },
       {
         "q": "What kind of support do I get?",
         "a": "Direct access to Valter Klug (founder, Operator Zero) for your first two engagements. That means hands-on guidance through intake, validation, and delivery. Plus cohort peer group access and a dedicated onboarding process."
       },
       {
-        "q": "Can I bring my own pricing?",
-        "a": "You can charge your client whatever you want. The MSRP is Soundcheck's base pricing. Many operators add a strategy markup or bundle Soundcheck deliverables into larger engagements. Soundcheck's share is calculated on MSRP, not on what you charge your client."
+        "q": "Can I set my own pricing?",
+        "a": "Yes. You charge your client whatever the work is worth. Your platform cost is fixed per product. Everything above that cost is yours. Many operators add a strategy markup or bundle Soundcheck deliverables into larger engagements."
       },
       {
         "q": "How is this different from a Trial tier?",
-        "a": "Trial gives you 65% on 2 projects with a $300 setup fee, then graduates to Standard (70/30). Founding Operators get 90% on their first 2 projects with zero setup, 85% during the 4-week onboarding, then 75/25 for life. The Founding Cohort is a significantly better deal — and it comes with founder access and hands-on support that Trial doesn't include."
+        "a": "Trial operators pay a higher platform cost per project (about 17% above standard) and are limited to 2 projects before graduating to Standard. Founding Operators start at 1/3 of the standard cost with zero setup, move to half during onboarding, then lock 20% below standard for life. The Founding Cohort is a significantly better deal, and it comes with founder access and hands-on support that Trial does not include."
       }
     ],
     "formLabel": "Apply Now",
     "formTitle": "Founding Operator Cohort Application",
-    "formDesc": "10 seats. We review every application personally. If you have clients who need market intelligence and you're ready to deliver, tell us about your practice.",
+    "formDesc": "10 seats. We review every application personally. If you have clients who need market intelligence and you are ready to deliver, tell us about your practice.",
     "formButton": "Submit Application →",
-    "ctaTitle": "10 seats. The economics won't be repeated.",
-    "ctaSub": "The Founding Operator Cohort is a one-time offer. 90/10 on your first two projects, 85/15 during onboarding, then 75/25 for life. Once the 10 seats are filled, the next cohort starts at standard rates.",
+    "ctaTitle": "10 seats. This rate will not be repeated.",
+    "ctaSub": "The Founding Operator Cohort is a one-time offer. Start at 1/3 of the standard platform cost. Lock 20% below standard for life. Once the 10 seats are filled, the next cohort starts at standard rates.",
     "ctaButton": "Apply Now →"
   }
 }

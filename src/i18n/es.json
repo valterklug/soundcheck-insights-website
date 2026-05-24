@@ -113,8 +113,7 @@
         "name": "Investigación de Mercado",
         "desc": "Tres reportes — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas. La base de todo lo demás.",
         "delivery": "Desde $3,000 · Tiers Mini/Standard/Premium",
-        "link": "/research-platform",
-        "memberRateNote": "Tarifa Mana Tech disponible"
+        "link": "/research-platform"
       },
       {
         "num": "02",
@@ -122,8 +121,7 @@
         "name": "GoGlobal Viability Analysis",
         "desc": "Puntaje CVE, panorama competitivo, marco regulatorio, canales de distribución, rutas estratégicas y hoja de ruta. Se adjunta a su Investigación de Mercado.",
         "delivery": "$2,000 · Requiere Investigación de Mercado",
-        "link": "/expansion-report",
-        "memberRateNote": "Tarifa Mana Tech disponible"
+        "link": "/expansion-report"
       },
       {
         "num": "03",
@@ -131,8 +129,7 @@
         "name": "Scale Assessment",
         "desc": "Diagnóstico de Escala, posición competitiva, preparación operacional y plan de 24 meses. Framework Too Small To Fall.",
         "delivery": "$4,000 · Requiere Investigación de Mercado",
-        "link": "/scale-assessment",
-        "memberRateNote": "Tarifa Mana Tech disponible"
+        "link": "/scale-assessment"
       },
       {
         "num": "04",
@@ -140,8 +137,7 @@
         "name": "Mapas de Viaje del Cliente",
         "desc": "Mapas de viaje específicos para la marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy.",
         "delivery": "$500/persona · Requiere Investigación de Mercado",
-        "link": "/consumer-journeys",
-        "memberRateNote": "Tarifa Mana Tech disponible"
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
@@ -149,39 +145,38 @@
         "name": "Focus Groups Virtuales",
         "desc": "Sesiones de focus group con IA testando conceptos contra su panel de personas. Votos de preferencia, citas textuales e insights estratégicos.",
         "delivery": "$3,000/sesión · Requiere Investigación de Mercado",
-        "link": "/virtual-focus-groups",
-        "memberRateNote": "Tarifa Mana Tech disponible"
+        "link": "/virtual-focus-groups"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
     "economicsLabel": "El Caso de Negocio",
-    "economicsTitle1": "Quédate con el 75–90% del MSRP.",
-    "economicsTitle2": "Sin nuevas contrataciones.",
+    "economicsTitle1": "Tu costo de plataforma: $550.",
+    "economicsTitle2": "Tú defines el precio al cliente.",
     "economicsDesc": "La plataforma maneja el trabajo analítico pesado. Tu rol es capturar el brief, aplicar tu juicio profesional y presentar los hallazgos con el contexto estratégico que solo tú puedes proveer.",
     "economicsLink": "Desglose Completo de Economía →",
     "economicsHeader": "Economía del Operador Fundador (en un proyecto de $5,500)",
     "economicsRows": [
       [
-        "Tarifa plataforma Soundcheck",
-        "10% · $550 (primeros 2 proyectos)"
+        "Tu costo de plataforma",
+        "$550 (primeros 2 proyectos)"
       ],
       [
-        "Su agencia retiene",
-        "90% · $4,950"
+        "Tú cobras a tu cliente",
+        "Tú defines el precio"
       ],
       [
-        "Su inversión de tiempo",
+        "Tu inversión de tiempo",
         "~5 horas"
       ],
       [
-        "Tarifa efectiva por hora",
-        "~$990/h"
+        "Costo de plataforma de por vida",
+        "$1,320 por proyecto"
       ]
     ],
-    "marginLabel": "Tu margen por compromiso",
-    "marginValue": "$4,950+",
+    "marginLabel": "Tú te quedas con la diferencia",
+    "marginValue": "100%",
     "ctaTitle": "Únete a la Cohorte de Operadores Fundadores.\n10 plazas. Solo por aplicación.",
-    "ctaSub": "Quédate con el 90% de tus primeros dos proyectos. Después el 85% durante el onboarding, luego el 75% — de por vida. Acceso directo al fundador. White-label por defecto.",
+    "ctaSub": "Costo de plataforma desde $550 por proyecto. Se fija en 20% por debajo del estándar de por vida. Acceso directo al fundador. White-label por defecto.",
     "ctaButton": "Aplica a la Cohorte Fundadora →",
     "modulesLabel": "Cinco Productos · Una Plataforma",
     "modulesTitle": "Todo comienza con la Investigación de Mercado. Construya a partir de ahí.",
@@ -369,26 +364,26 @@
     "tierTrialDesc": "Sin setup · Límite de 2 proyectos",
     "tierStandard": "Standard",
     "tierStandardDesc": "$1,500 setup · $1,500/Q mín",
-    "tierManaTech": "Mana Tech",
-    "tierManaTechDesc": "Setup exento · $1,000/Q mín",
+    "tierFounding": "Founding",
+    "tierFoundingDesc": "10 plazas · fijado de por vida",
     "economicsRows": [
       [
-        "Fee de plataforma",
-        "35%",
-        "30%",
-        "25%"
-      ],
-      [
-        "Soundcheck recibe",
+        "Costo de plataforma",
         "$1,925",
         "$1,650",
-        "$1,375"
+        "$1,320"
       ],
       [
-        "Tu agencia se queda con",
+        "Costo como % del MSRP",
+        "35%",
+        "30%",
+        "24%"
+      ],
+      [
+        "Tú te quedas con (al MSRP)",
         "$3,575",
         "$3,850",
-        "$4,125"
+        "$4,180"
       ],
       [
         "Tu inversión de tiempo",
@@ -400,13 +395,13 @@
         "Tarifa efectiva por hora",
         "~$715/h",
         "~$770/h",
-        "~$825/h"
+        "~$836/h"
       ]
     ],
     "yourMargin": "Tu margen",
     "marginTrial": "$3,575",
     "marginStandard": "$3,850",
-    "marginManaTech": "$4,125",
+    "marginFounding": "$4,180",
     "operatorLabel": "Lo que obtiene como operador",
     "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
@@ -513,9 +508,9 @@
     "notSureTitle": "¿No está seguro de si esto es lo correcto para usted?",
     "notSureDesc": "Cuéntenos sobre su práctica y le daremos una respuesta honesta.",
     "notSureLink": "Pregúntenos directamente →",
-    "ctaTitle": "Comience con un informe.\nVea qué se siente ganar US$400+/hora.",
-    "ctaSub": "La mayoría de operadores ejecutan su primer informe en un cliente existente.",
-    "ctaButton": "Solicitar Acceso a la Plataforma →"
+    "ctaTitle": "Comience con un trial.\nDos proyectos. Sin compromiso.",
+    "ctaSub": "Tier Trial: costo de plataforma de $1,925 por proyecto de $5,500. Sin tarifa de setup, sin compromiso anual. Convierta en 90 días y los fees de trial se acreditan a su setup.",
+    "ctaButton": "Iniciar un Trial →"
   },
   "products": {
     "heroLabel": "Productos de Investigación",
@@ -555,8 +550,7 @@
           "Panel de Personas — 6, 12 o 20 buyer personas (niveles Mini/Standard/Premium)",
           "Precios Mini/Standard/Premium: $3,000 / $3,500 / $4,000"
         ],
-        "link": "/research-platform",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
+        "link": "/research-platform"
       },
       {
         "num": "02",
@@ -575,8 +569,7 @@
           "Riesgos y Alertas — clasificados, rankeados y mitigados",
           "Informe de 100+ Páginas + Resumen Visual Ejecutivo (white-labeled)"
         ],
-        "link": "/expansion-report",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
+        "link": "/expansion-report"
       },
       {
         "num": "03",
@@ -596,8 +589,7 @@
           "Capa de Inteligencia AI — 90 días de monitoreo de mercado incluidos",
           "Marco de Riesgos — 6–8 riesgos por probabilidad × impacto"
         ],
-        "link": "/scale-assessment",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
+        "link": "/scale-assessment"
       },
       {
         "num": "04",
@@ -614,8 +606,7 @@
           "Dashboard visual + exportación PDF",
           "Requiere Investigación de Mercado completada (panel de personas)"
         ],
-        "link": "/consumer-journeys",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
+        "link": "/consumer-journeys"
       },
       {
         "num": "05",
@@ -634,8 +625,7 @@
           "Paneles reutilizables entre sesiones y líneas de producto",
           "Requiere Investigación de Mercado completada (panel de personas)"
         ],
-        "link": "/virtual-focus-groups",
-        "memberRateNote": "Tarifa Mana Tech: 25% de descuento — ver elegibilidad"
+        "link": "/virtual-focus-groups"
       }
     ]
   },
@@ -696,71 +686,42 @@
       "subtitle": "Todos los porcentajes de ingresos se aplican a ingresos netos (facturación bruta menos costos directos del proyecto). Una factura al cliente. Términos simples.",
       "rules": [
         {
-          "rule": "Rule 1A",
-          "scenario": "Introducción Pasiva",
-          "desc": "El referidor envía un correo de presentación. Sin participación adicional.",
-          "soundcheck": "85%",
-          "partner": "15%"
+          "rule": "Trial",
+          "scenario": "Operador Primera Vez",
+          "desc": "Sin tarifa de setup, sin compromiso anual. 2 proyectos completos para evaluar la plataforma. Los fees de trial se acreditan al setup si convierte en 90 días.",
+          "soundcheck": "35% del MSRP",
+          "partner": "65% del MSRP"
         },
         {
-          "rule": "Rule 1B",
-          "scenario": "Referidor Activo",
-          "desc": "El referidor hace la presentación, respalda a Soundcheck, asiste a la primera llamada, ayuda con el posicionamiento.",
-          "soundcheck": "75%",
-          "partner": "25%"
-        },
-        {
-          "rule": "Rule 2A",
-          "scenario": "Colaboración Ligera",
-          "desc": "El socio trae al cliente, mantiene la relación, gestiona la comunicación. Soundcheck entrega el trabajo analítico.",
-          "soundcheck": "60%",
-          "partner": "40%"
-        },
-        {
-          "rule": "Rule 2B",
-          "scenario": "Verdadera Colaboración",
-          "desc": "Ambas partes co-entregan — talleres conjuntos, presentaciones conjuntas, análisis conjunto.",
-          "soundcheck": "50%",
-          "partner": "50%"
-        },
-        {
-          "rule": "Rule 3",
-          "scenario": "Plataforma White-Label",
-          "desc": "La agencia utiliza la plataforma Soundcheck para entregar a sus propios clientes. Cuota de configuración + cuota de plataforma por engagement.",
-          "soundcheck": "40% de MSRP",
-          "partner": "60% de MSRP + sobreprecio"
-        },
-        {
-          "rule": "Rule 3 (Founding)",
-          "scenario": "White-Label — Socios Fundadores",
-          "desc": "Primeros 2 socios white-label, solo en el año 1. A cambio de derechos de caso de estudio y estatus de referencia.",
-          "soundcheck": "30% de MSRP",
-          "partner": "70% de MSRP + sobreprecio"
+          "rule": "Standard",
+          "scenario": "Socio Estándar",
+          "desc": "Tarifa de setup de $2,500. Mínimo anual de $6,000 (prepago trimestral a $1,500). Acceso completo a la plataforma, todos los 5 productos, marca blanca.",
+          "soundcheck": "30% del MSRP",
+          "partner": "70% del MSRP"
         },
         {
           "rule": "Directo",
           "scenario": "Venta Directa (Soundcheck)",
-          "desc": "Soundcheck gestiona el compromiso directamente. El cliente paga MSRP. Clientes del ecosistema Mana Tech reciben 25% de descuento. Los socios que refieran clientes directos reciben una comisión del 20% durante 12 meses.",
+          "desc": "Soundcheck gestiona el compromiso directamente. El cliente paga MSRP. Los socios que refieran clientes directos reciben una comisión del 20% durante 12 meses.",
           "soundcheck": "80% del MSRP",
           "partner": "20% comisión"
         }
       ],
       "setupFees": {
-        "title": "Configuración White-Label",
-        "reports": "$5,000 única (Reportes)",
-        "vfg": "$10,000 única (Grupos de Enfoque Virtual)",
-        "minimum": "$25,000 compromiso anual mínimo",
-        "term": "Mínimo 2 años, después renovaciones anuales",
-        "termination": "Ambas partes con aviso de 60 días al cierre del año"
+        "title": "Términos de Asociación",
+        "reports": "Tarifa de setup única de $2,500",
+        "vfg": "Mínimo anual: $6,000",
+        "minimum": "Prepago trimestral — el saldo no utilizado se acumula dentro del año del contrato",
+        "term": "Tarifa por proyecto descontada del saldo trimestral prepagado",
+        "termination": "Trial: 2 proyectos, sin compromiso. Convierta en 90 días para crédito de setup."
       },
       "principles": [
-        "Todos los porcentajes de ingresos se aplican a ingresos netos — los costos directos se deducen primero antes de cualquier porcentaje.",
-        "La facturación única es obligatoria — una parte factura al cliente, paga a la otra Net 30.",
-        "Los precios están escalonados por mercado del cliente, no por sentimiento de relación.",
-        "Los engagements gratuitos están prohibidos. El piso es $750.",
-        "La validación manual precede a la inversión en productos — vende primero, construye después."
-      ],
-      "memberRateNote": "Nota: Los precios MSRP para operadores son separados de la Tarifa Mana Tech. Los operadores facturan a clientes finales a MSRP; la Tarifa Mana Tech aplica solo a compromisos directos con Soundcheck."
+        "La participación de Soundcheck se calcula sobre el MSRP publicado, no sobre el precio de venta del operador.",
+        "Los operadores retienen el 100% de cualquier margen capturado por encima del MSRP.",
+        "Venta por debajo del MSRP: el operador absorbe el descuento, la participación de Soundcheck se mantiene a la tasa del MSRP.",
+        "Facturación única — una parte factura al cliente. Términos simples.",
+        "Todo compromiso comienza con Market Research. Los productos downstream se adjuntan a ella."
+      ]
     }
   },
   "ourPartners": {
@@ -2072,134 +2033,215 @@
     ]
   },
   "foundingCohort": {
-    "heroLabel": "Cohorte de Operadores Fundadores · Aceptando Aplicaciones",
-    "heroTitle1": "10 Plazas. Solo por Aplicación.",
-    "heroTitle2": "Tu práctica de investigación comienza aquí.",
-    "heroSub": "Construye una práctica de inteligencia de mercado en Soundcheck. Quédate con el 90% de tus primeros dos proyectos. Luego 85% durante el onboarding (primeras 4 semanas). Después, 75% — de por vida. Acceso directo al fundador. Soporte personalizado en tus primeras entregas.",
+    "heroLabel": "Cohorte de Operadores Fundadores · 10 Plazas · Solo por Aplicación",
+    "heroTitle1": "Construye una práctica de investigación.",
+    "heroTitle2": "A la mejor tarifa que jamás ofreceremos.",
+    "heroSub": "Genera inteligencia de mercado white-label en la plataforma Soundcheck. Tú ejecutas la investigación. Tú defines el precio. Tú te quedas con todo lo que supere tu costo de plataforma. Los operadores fundadores fijan la tarifa más baja que jamás ofreceremos. De por vida.",
     "chipSeats": "plazas disponibles",
-    "chipFirst2": "tuyo en los primeros 2 proyectos",
-    "chipForLife": "tuyo en cada proyecto después — de por vida",
     "chipSetup": "tarifa de activación",
+    "chipRate": "Menor tarifa, fijada de por vida",
     "heroCta": "Aplicar Ahora →",
-    "dealLabel": "La Oferta para Operadores Fundadores",
-    "dealTitle": "Economía que recompensa a los operadores tempranos. Permanentemente.",
+    "howLabel": "Cómo Funciona",
+    "howTitle": "Investigación self-serve. Tu marca. Tu precio.",
+    "howSteps": [
+      {
+        "num": "01",
+        "title": "Genera",
+        "desc": "Inicia sesión en la plataforma. Ejecuta el intake del cliente. Genera la base de investigación completa: Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo, y un panel de personas basado en investigación. Resultado listo en menos de 24 horas."
+      },
+      {
+        "num": "02",
+        "title": "Aumenta",
+        "desc": "Revisa y valida con tu juicio profesional. Tu experiencia senior es lo que separa esto del output bruto de IA, y lo que justifica el precio que cobras a tu cliente. Aproximadamente 4 horas por proyecto."
+      },
+      {
+        "num": "03",
+        "title": "Entrega",
+        "desc": "White-label desde el momento en que se genera. Tu marca, tu portada, tu relación con el cliente. Soundcheck es la infraestructura. Tú eres el socio de inteligencia."
+      }
+    ],
+    "pricingLabel": "Precios del Operador Fundador",
+    "pricingTitle": "Tu costo por proyecto. Tú defines el precio al cliente.",
+    "pricingDesc": "Pagas un fee fijo de plataforma por producto. Cobra a tu cliente lo que el proyecto vale. Quédate con la diferencia. Los operadores fundadores comienzan con el menor costo que jamás ofreceremos, y mejora con el tiempo.",
     "benefits": [
       {
-        "stat": "90/10",
+        "stat": "1/3 del estándar",
         "title": "Tus primeros 2 proyectos",
-        "desc": "Te quedas con el 90% del MSRP. Soundcheck toma solo 10% — un tercio de la tarifa estándar de plataforma. Sin costo de activación. Comienza con un cliente real."
+        "desc": "Tu costo de plataforma comienza en un tercio de la tarifa estándar. Un GoGlobal Viability Analysis te cuesta $200. Los operadores estándar pagan $600. Sin tarifa de activación."
       },
       {
-        "stat": "85/15",
-        "title": "Durante el onboarding (primeras 4 semanas)",
-        "desc": "Durante el resto de tu período de onboarding, tu tarifa pasa a 85/15. Sigues quedándote con la gran mayoría mientras construyes tu práctica."
+        "stat": "Mitad del estándar",
+        "title": "Durante el onboarding (4 semanas)",
+        "desc": "Después de tus primeros dos proyectos, tu costo pasa a la mitad de la tarifa estándar por el resto de tu período de onboarding de 4 semanas."
       },
       {
-        "stat": "75/25",
-        "title": "Después del onboarding — de por vida",
-        "desc": "Una vez que completas el onboarding, tu tarifa permanente se fija en 75/25. No por 12 meses. No por 24 meses. De por vida. Esta tarifa nunca cambia."
-      },
-      {
-        "stat": "1:1",
-        "title": "Acceso al fundador + soporte personalizado",
-        "desc": "Acceso directo a Valter Klug — el fundador que entregó 20+ proyectos como Operador Cero. Soporte personalizado en tus primeras dos entregas. Grupo de pares de la cohorte."
+        "stat": "20% bajo el estándar",
+        "title": "Después del onboarding, de por vida",
+        "desc": "Tu costo permanente de plataforma se fija en 20% por debajo del estándar. No por un plazo de contrato. No hasta una revisión de precios. Esta tarifa se congela a los precios de hoy y nunca aumenta. Solo esta primera cohorte la obtiene."
       }
     ],
     "mathLabel": "Las Cuentas",
-    "mathTitle": "Cómo se ve un proyecto típico.",
-    "mathDesc": "Toma un proyecto típico: Market Research Standard ($3,500) + GoGlobal Viability Analysis ($2,000) = $5,500 MSRP. Tu cliente paga $5,500. Esto es lo que te queda — y lo que te cuesta en tiempo.",
-    "mathTableHeader": "MR Standard + GoGlobal · $5,500 MSRP",
-    "mathColStandard": "Tier Estándar (70/30)",
-    "mathColFounding": "Operador Fundador",
+    "mathTitle": "Cómo se ve un proyecto en dólares.",
+    "mathDesc": "Toma un proyecto típico: Market Research Standard + GoGlobal Viability Analysis. Generas la investigación en la plataforma. Cobras a tu cliente. Te quedas con todo lo que supere tu costo de plataforma.",
+    "mathTableHeader": "MR Standard + GoGlobal",
+    "mathColStandard": "Operador Estándar",
+    "mathColFounding": "Fundador (primeros 2)",
     "mathRows": [
-      ["Tarifa de plataforma Soundcheck", "30% · $1,650", "10% · $550"],
-      ["Tú te quedas", "$3,850", "$4,950"],
-      ["Tu inversión de tiempo", "~5 horas", "~5 horas"],
-      ["Durante onboarding (85/15)", "—", "$4,675"],
-      ["Después del onboarding (75/25)", "—", "$4,125"]
+      [
+        "Tu costo de plataforma",
+        "$1,650",
+        "$550"
+      ],
+      [
+        "Tú cobras a tu cliente",
+        "$5,500+",
+        "$5,500+"
+      ],
+      [
+        "Tú te quedas con la diferencia",
+        "$3,850+",
+        "$4,950+"
+      ],
+      [
+        "Tu inversión de tiempo",
+        "~5 horas",
+        "~5 horas"
+      ],
+      [
+        "Costo de plataforma durante onboarding",
+        "$1,650",
+        "$825"
+      ],
+      [
+        "Costo de plataforma después del onboarding (de por vida)",
+        "$1,650",
+        "$1,320"
+      ]
     ],
-    "mathEffectiveRate": "Tarifa efectiva por hora",
+    "mathEffectiveRate": "Tarifa efectiva por hora (primeros 2 proyectos, ~5h)",
     "mathRateStandard": "~$770/hr",
     "mathRateFounding": "~$990/hr",
-    "mathFootnote": "Primeros 2 proyectos al 90/10. Durante el onboarding (primeras 4 semanas) al 85/15. Cada proyecto posterior al 75/25 — de por vida. Tier estándar mostrado para comparación. La inversión de tiempo incluye intake del cliente (~1 hora) y validación del informe (~4 horas) — la plataforma genera el informe en menos de 24 horas.",
-    "toolkitLabel": "Tu Kit de Operador",
-    "toolkitTitle": "Cinco productos. Tu marca. Tu margen.",
-    "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Todo entregado white-label bajo tu marca. Proyecto típico: $5K–$13K.",
-    "toolkitItems": [
-      { "label": "Base", "name": "Market Research", "price": "$3,000 – $4,000", "color": "#94A3B8" },
-      { "label": "Módulo", "name": "GoGlobal", "price": "+ $2,000", "color": "#2DD4BF" },
-      { "label": "Módulo", "name": "Scale Assessment", "price": "+ $4,000", "color": "#FF6B47" },
-      { "label": "Módulo", "name": "Customer Journey", "price": "+ $500/persona", "color": "#A78BFA" },
-      { "label": "Módulo", "name": "Virtual Focus Group", "price": "+ $3,000", "color": "#FBBF24" }
+    "mathFootnote": "Primeros 2 proyectos a 1/3 del costo estándar. Resto del onboarding (4 semanas) a la mitad del estándar. Cada proyecto después del onboarding: 20% bajo el estándar, fijado de por vida. Tiempo del operador: ~1 hora intake + ~4 horas validación. La plataforma genera la base de investigación en menos de 24 horas.",
+    "whyLabel": "Por Qué Esta Cohorte",
+    "whyTitle": "Tres razones para aplicar ahora.",
+    "whyReasons": [
+      {
+        "stat": "FIJADO",
+        "title": "Precios de por vida, congelados hoy",
+        "desc": "Tu tarifa fundadora se congela al costo de plataforma de hoy. Las tarifas estándar aumentarán conforme la plataforma madure. Los operadores fundadores nunca ven esos aumentos. La tarifa que fijas hoy se mantiene para cada proyecto que entregues."
+      },
+      {
+        "stat": "1:1",
+        "title": "Acceso al fundador",
+        "desc": "Acceso directo a Valter Klug, quien entregó 20+ proyectos como Operador Cero antes de abrir la plataforma. Soporte personalizado en tus primeros dos proyectos. Grupo de pares de la cohorte."
+      },
+      {
+        "stat": "PRIMERO",
+        "title": "Estatus de primer movedor",
+        "desc": "Credencial de Operador Fundador. Estás en la primera cohorte de una plataforma construida para escalar. Los primeros operadores dan forma a la metodología y la comunidad."
+      }
     ],
-    "toolkitTypical": "Proyecto típico: $5K–$13K MSRP · Operadores Fundadores se quedan con 75–90%",
+    "toolkitLabel": "Tu Kit de Productos",
+    "toolkitTitle": "Cinco productos. Tú generas. Tú defines el precio. Tú entregas.",
+    "toolkitDesc": "Todo proyecto comienza con Market Research como base. Agrega módulos según lo que tu cliente necesite. Generas la investigación en la plataforma, la validas con tu expertise, y entregas bajo tu marca. Estos son tus costos fundadores de plataforma (de por vida, después del onboarding).",
+    "toolkitItems": [
+      {
+        "label": "Base",
+        "name": "Market Research",
+        "cost": "Tu costo: $720 – $960",
+        "sells": "Clientes pagan $3,000 – $4,000+",
+        "color": "#94A3B8"
+      },
+      {
+        "label": "Módulo",
+        "name": "GoGlobal",
+        "cost": "Tu costo: $480",
+        "sells": "Clientes pagan $2,000+",
+        "color": "#2DD4BF"
+      },
+      {
+        "label": "Módulo",
+        "name": "Scale Assessment",
+        "cost": "Tu costo: $960",
+        "sells": "Clientes pagan $4,000+",
+        "color": "#FF6B47"
+      },
+      {
+        "label": "Módulo",
+        "name": "Customer Journey",
+        "cost": "Tu costo: $120/persona",
+        "sells": "Clientes pagan $500+/persona",
+        "color": "#A78BFA"
+      },
+      {
+        "label": "Módulo",
+        "name": "Virtual Focus Group",
+        "cost": "Tu costo: $720",
+        "sells": "Clientes pagan $3,000+",
+        "color": "#FBBF24"
+      }
+    ],
+    "toolkitTypical": "Proyecto típico: $5K–$13K precio al cliente. Tu costo de plataforma: $1,200–$3,200. Tú te quedas con la diferencia.",
     "profileLabel": "Para Quién Es",
-    "profileTitle": "Podrías ser un Operador Fundador si…",
+    "profileTitle": "Podrías ser un Operador Fundador si...",
     "profileItems": [
-      "Diriges una agencia boutique (1–20 personas), una consultoría estratégica independiente, o una práctica de CMO/CSO/CGO fraccional",
-      "Tienes 10–25 años de experiencia senior en branding, estrategia o marketing",
-      "Actualmente atiendes 3–8 clientes activos que regularmente enfrentan decisiones estratégicas sobre mercados, posicionamiento o crecimiento",
+      "Diriges una agencia boutique (1-20 personas), una consultoría estratégica independiente, o una práctica de CMO/CSO/CGO fraccional",
+      "Tienes 10-25 años de experiencia senior en branding, estrategia o marketing",
+      "Actualmente atiendes 3-8 clientes activos que regularmente enfrentan decisiones estratégicas sobre mercados, posicionamiento o crecimiento",
       "Tus clientes hacen preguntas de investigación que no puedes responder con credibilidad sin herramientas que no tienes",
-      "Has perdido RFPs ante firmas más grandes con departamentos de investigación — o simplemente omitiste la investigación",
+      "Has perdido RFPs ante firmas más grandes con departamentos de investigación, o simplemente omitiste la investigación",
       "Formas parte de (o estás cerca de) Pavilion, Mana Tech, o comunidades de agencias boutique"
     ],
     "selectionLabel": "Criterios de Selección",
     "selectionTitle": "Lo que buscamos.",
     "selectionItems": [
-      "Clientes en tu pipeline que se beneficiarían de inteligencia de mercado — tienes un proyecto real en mente, no uno teórico",
-      "Afinidad metodológica — piensas estratégicamente, no solo en ejecución. Te sientes cómodo validando investigación y agregando juicio profesional",
-      "Disposición para entregar con calidad — la metodología de Soundcheck tiene estándares, y tú los vas a mantener",
+      "Clientes en tu pipeline que se beneficiarían de inteligencia de mercado. Tienes un proyecto real en mente, no uno teórico",
+      "Afinidad metodológica. Piensas estratégicamente, no solo en ejecución. Te sientes cómodo validando investigación y agregando juicio profesional",
+      "Disposición para entregar con calidad. La metodología de Soundcheck tiene estándares, y tú los mantendrás",
       "Ambición de construir una práctica de investigación recurrente, no solo ejecutar un proyecto único"
     ],
-    "proofLabel": "Validado por el Operador Cero",
-    "proofTitle": "No estás haciendo beta testing. Te unes a un modelo probado.",
-    "proofDesc": "Antes de abrir la plataforma a operadores, el fundador de Soundcheck entregó 20+ proyectos pagados él mismo — como Operador Cero. Misma metodología. Misma plataforma. Misma economía. El modelo funciona. Tú te unes a él, no lo pruebas.",
-    "proofStat1": "proyectos pagados entregados",
-    "proofStat2": "alianzas de operadores firmadas",
-    "proofStat3": "países atendidos",
-    "proofStat4": "inversión en marketing hasta hoy",
     "faqLabel": "Preguntas Frecuentes",
     "faqTitle": "Antes de aplicar.",
     "faqItems": [
       {
         "q": "¿Necesito pagar algo por adelantado?",
-        "a": "No. No hay tarifa de activación para Operadores Fundadores. Comienzas a ganar desde tu primer proyecto. Soundcheck toma su parte (10% en tus primeros dos proyectos, 15% durante el onboarding, 25% después) solo cuando entregas y cobras."
+        "a": "No. No hay tarifa de activación para Operadores Fundadores. Pagas solo el costo de plataforma por producto, por proyecto, cuando entregas. Sin suscripción, sin compromiso mínimo, sin inversión inicial."
       },
       {
         "q": "¿Qué significa realmente 'de por vida'?",
-        "a": "Significa lo que dice. Tu tarifa 75/25 se fija permanentemente después del onboarding. No por un plazo de contrato. No hasta una revisión de precios. Si completas el onboarding y te mantienes activo, tu tarifa de Operador Fundador se mantiene en 75/25 para cada proyecto que entregues a través de Soundcheck."
+        "a": "Tu tarifa fundadora se congela al precio estándar de hoy y se fija permanentemente después del onboarding. No por un plazo de contrato. No hasta una revisión de precios. Cuando las tarifas estándar aumenten en el futuro, tu costo de plataforma se mantiene igual. Solo esta primera cohorte obtiene este bloqueo."
       },
       {
         "q": "¿Qué pasa si no tengo un cliente listo ahora?",
-        "a": "Deberías tener uno en mente — aunque no esté confirmado aún. La Cohorte Fundadora está diseñada para operadores que entregarán su primer proyecto en 60–90 días. Si estás más en modo exploratorio, considera comenzar como referidor (20% de comisión por intros, sin entrega requerida) y aplicar a una futura cohorte."
+        "a": "Deberías tener uno en mente, aunque no esté confirmado aún. La Cohorte Fundadora está diseñada para operadores que entregarán su primer proyecto en 60-90 días. Si estás más en modo exploratorio, considera aplicar a una cohorte futura cuando tengas un proyecto real."
       },
       {
         "q": "¿Mis clientes ven la marca de Soundcheck?",
-        "a": "No. Todo es white-label por defecto. Tu cliente ve tu marca, tu portada, el nombre de tu agencia en el entregable. Soundcheck es la infraestructura — tú eres el socio de inteligencia."
+        "a": "No. Todo es white-label desde el momento en que se genera. Tu cliente ve tu marca, tu portada, el nombre de tu agencia en el entregable. Soundcheck es la infraestructura. Tú eres el socio de inteligencia."
       },
       {
         "q": "¿Cuánto tiempo toma cada proyecto?",
-        "a": "Aproximadamente 5 horas de tu tiempo total. Alrededor de 1 hora para la llamada de intake con el cliente, y ~4 horas validando el informe con tu juicio profesional. La plataforma genera el informe completo en menos de 24 horas — tú entregas la inteligencia."
+        "a": "Aproximadamente 5 horas de tu tiempo total. ~1 hora para el intake del cliente, y ~4 horas validando la investigación con tu juicio profesional. La plataforma genera la base de investigación completa en menos de 24 horas. El plazo de entrega de 14 días te da margen para manejar múltiples proyectos."
       },
       {
         "q": "¿Qué tipo de soporte recibo?",
-        "a": "Acceso directo a Valter Klug (fundador, Operador Cero) para tus primeros dos proyectos. Eso significa guía personalizada a través del intake, validación y entrega. Más acceso al grupo de pares de la cohorte y un proceso de onboarding dedicado."
+        "a": "Acceso directo a Valter Klug (fundador, Operador Cero) para tus primeros dos proyectos. Eso significa guía personalizada durante intake, validación y entrega. Más acceso al grupo de pares de la cohorte y un proceso de onboarding dedicado."
       },
       {
         "q": "¿Puedo poner mi propio precio?",
-        "a": "Puedes cobrarle a tu cliente lo que quieras. El MSRP es el precio base de Soundcheck. Muchos operadores agregan un markup estratégico o empaquetan los entregables de Soundcheck en proyectos más grandes. La parte de Soundcheck se calcula sobre el MSRP, no sobre lo que tú cobras."
+        "a": "Sí. Cobras a tu cliente lo que el trabajo vale. Tu costo de plataforma es fijo por producto. Todo lo que supere ese costo es tuyo. Muchos operadores agregan un markup estratégico o empaquetan los entregables de Soundcheck en proyectos más grandes."
       },
       {
         "q": "¿En qué se diferencia del tier Trial?",
-        "a": "Trial te da 65% en 2 proyectos con una tarifa de activación de $300, luego pasa a Standard (70/30). Los Operadores Fundadores obtienen 90% en sus primeros 2 proyectos sin tarifa de activación, luego 85/15 durante el onboarding, y 75/25 de por vida. La Cohorte Fundadora es un mejor trato — e incluye acceso al fundador y soporte personalizado que el Trial no incluye."
+        "a": "Los operadores Trial pagan un costo de plataforma más alto por proyecto (aproximadamente 17% por encima del estándar) y están limitados a 2 proyectos antes de pasar a Standard. Los Operadores Fundadores comienzan a 1/3 del costo estándar sin setup, pasan a la mitad durante el onboarding, y luego fijan 20% por debajo del estándar de por vida. La Cohorte Fundadora es un trato significativamente mejor, e incluye acceso al fundador y soporte personalizado que el Trial no incluye."
       }
     ],
     "formLabel": "Aplicar Ahora",
     "formTitle": "Aplicación a la Cohorte de Operadores Fundadores",
     "formDesc": "10 plazas. Revisamos cada aplicación personalmente. Si tienes clientes que necesitan inteligencia de mercado y estás listo para entregar, cuéntanos sobre tu práctica.",
     "formButton": "Enviar Aplicación →",
-    "ctaTitle": "10 plazas. La economía no se repetirá.",
-    "ctaSub": "La Cohorte de Operadores Fundadores es una oferta única. 90/10 en tus primeros dos proyectos, luego 85/15 durante el onboarding, luego 75/25 de por vida. Una vez que las 10 plazas se llenen, la próxima cohorte comienza con tarifas estándar.",
+    "ctaTitle": "10 plazas. Esta tarifa no se repetirá.",
+    "ctaSub": "La Cohorte de Operadores Fundadores es una oferta única. Comienza a 1/3 del costo estándar de plataforma. Fija 20% por debajo del estándar de por vida. Una vez que las 10 plazas se llenen, la próxima cohorte comienza con tarifas estándar.",
     "ctaButton": "Aplicar Ahora →"
   }
 }

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLocation } from 'react-router-dom'
@@ -100,21 +99,6 @@ function NetworkViz() {
   )
 }
 
-function ManaTechBanner({ lang }) {
-  const [dismissed, setDismissed] = useState(() => {
-    try { return localStorage.getItem('mana-banner-dismissed') === '1' } catch { return false }
-  })
-  if (dismissed) return null
-  return (
-    <div style={{ background: 'rgba(0,196,212,0.08)', borderBottom: '1px solid rgba(0,196,212,0.15)', padding: '10px 60px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, position: 'relative' }} className="mana-banner">
-      <Link to={getLocalizedPath('/mana-tech', lang)} style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'var(--teal)', textDecoration: 'none' }}>
-        Mana Hubs member, Scale2Miami cohort founder, or mentor? Get 25% off MSRP →
-      </Link>
-      <button onClick={() => { setDismissed(true); try { localStorage.setItem('mana-banner-dismissed', '1') } catch {} }} style={{ position: 'absolute', right: 24, background: 'none', border: 'none', color: 'rgba(255,255,255,0.3)', cursor: 'pointer', fontSize: 18, lineHeight: 1, padding: 4 }} aria-label="Dismiss">×</button>
-    </div>
-  )
-}
-
 export default function Home() {
   const { t } = useTranslation()
   const location = useLocation()
@@ -128,7 +112,6 @@ export default function Home() {
 
   return (
     <PageWrapper>
-      <ManaTechBanner lang={lang} />
       {/* ── HERO ──────────────────────────────────────────────────────── */}
       <section style={{ background: 'var(--navy)', padding: '90px 60px 80px', position: 'relative', overflow: 'hidden' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse 70% 80% at 80% 50%, rgba(0,196,212,0.07) 0%, transparent 70%)', pointerEvents: 'none' }}/>
@@ -274,8 +257,7 @@ export default function Home() {
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--teal)', marginBottom: 14 }}>{p.for}</div>
                       <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 500, color: '#fff', marginBottom: 10, lineHeight: 1.25 }}>{p.name}</div>
                       <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 20 }}>{p.desc}</p>
-                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)', marginBottom: p.memberRateNote ? 10 : 0 }}>{p.delivery}</div>
-                      {p.memberRateNote && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 10, color: 'var(--teal)', opacity: 0.7 }}>{p.memberRateNote}</div>}
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                     </div>
                   </Link>
                 </HoverCard>
