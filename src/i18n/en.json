@@ -43,7 +43,7 @@
         "label": "Your time per report"
       },
       {
-        "value": "14 days",
+        "value": "1 week",
         "label": "Brief to delivery"
       },
       {
@@ -233,7 +233,7 @@
         "label": "your time per report"
       },
       {
-        "value": "14 days",
+        "value": "1 week",
         "label": "brief to delivery"
       },
       {
@@ -246,7 +246,7 @@
       }
     ],
     "phasesLabel": "The Four Phases",
-    "phasesTitle": "From brief to client-ready report in 14 days.",
+    "phasesTitle": "From brief to client-ready report in 1 week.",
     "phases": [
       {
         "num": "Phase 01",
@@ -267,9 +267,9 @@
       {
         "num": "Phase 03",
         "label": "You validate with your expertise",
-        "timing": "Days 2–13 · Your time: ~4h",
+        "timing": "Days 2–7 · Your time: ~4h",
         "title": "This is where your value as a practitioner comes in.",
-        "body": "You review the platform output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The 14-day timeline gives you legroom to manage multiple projects. The output becomes yours, not ours.",
+        "body": "You review the platform output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The 1-week timeline gives you legroom to manage multiple projects. The output becomes yours, not ours.",
         "tag": "Your expertise · Your strategic layer"
       },
       {
@@ -445,7 +445,7 @@
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Required for every engagement",
         "desc": "Three decision-grade reports plus a persona panel with 6, 12, or 20 buyer personas. The foundation every other product builds on.",
-        "delivery": "14-day delivery",
+        "delivery": "Operators usually deliver in 1 week",
         "price": "Standard cost: $900 / $1,050 / $1,200",
         "link": "/research-platform"
       },
@@ -454,7 +454,7 @@
         "name": "GoGlobal Viability Analysis",
         "audience": "International Brands · Market Entry",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to Market Research.",
-        "delivery": "2–3 week delivery",
+        "delivery": "Operators usually deliver in 2 weeks (incl. Market Research)",
         "price": "Standard cost: $600",
         "link": "/expansion-report"
       },
@@ -463,7 +463,7 @@
         "name": "Scale Assessment",
         "audience": "Established Brands · Strategic Intelligence",
         "desc": "Scale Diagnostic, operational readiness, competitive position, phased 24-month plan with go/no-go gates, and 90-day intelligence layer.",
-        "delivery": "3–4 week delivery",
+        "delivery": "Operators usually deliver in 2 weeks (incl. Market Research)",
         "price": "Standard cost: $1,200",
         "link": "/scale-assessment"
       },
@@ -472,7 +472,7 @@
         "name": "Customer Journey Maps",
         "audience": "Consumer Intelligence",
         "desc": "Per-persona journey maps showing awareness through advocacy, with friction and opportunity analysis.",
-        "delivery": "2–3 day delivery",
+        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
         "price": "Standard cost: $150/persona",
         "link": "/consumer-journeys"
       },
@@ -481,7 +481,7 @@
         "name": "Virtual Focus Groups",
         "audience": "Consumer Intelligence",
         "desc": "AI-powered concept testing against your persona panel. Preference votes, verbatim quotes, strategic insights.",
-        "delivery": "1–3 day delivery",
+        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
         "price": "Standard cost: $900/session · +$600 re-test",
         "link": "/virtual-focus-groups"
       }
@@ -538,7 +538,7 @@
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
         "price": "Standard cost: $900 / $1,050 / $1,200 (Mini / Standard / Premium)",
-        "delivery": "14-day delivery",
+        "delivery": "Operators usually deliver in 1 week",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
@@ -555,7 +555,7 @@
         "name": "GoGlobal Viability Analysis",
         "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
         "price": "Standard cost: $600",
-        "delivery": "2–3 week delivery · Requires Market Research",
+        "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
           "CVE Score (Coefficient of Viability of Expansion) — weighted scoring (0 to 100)",
@@ -575,7 +575,7 @@
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
         "desc": "For established brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
         "price": "Standard cost: $1,200",
-        "delivery": "3–4 week delivery · Requires Market Research",
+        "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
           "Scale Diagnostic — built to grow vs. built to scale (Too Small To Fall framework)",
@@ -596,7 +596,7 @@
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Attaches to a completed Market Research.",
         "price": "Standard cost: $150/persona",
-        "delivery": "2–3 day delivery · Requires Market Research",
+        "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
           "Per-persona journey map — awareness through advocacy, brand-specific touchpoints",
@@ -613,7 +613,7 @@
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
         "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Add a re-test pack for iterative testing.",
         "price": "Standard cost: $900/session · +$600 re-test",
-        "delivery": "1–3 day delivery · Requires Market Research",
+        "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
         "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
           "Full focus group session — test any concept against persona panel",
@@ -803,7 +803,7 @@
   "growthRoadmap": {
     "heroLabel": "Product Deep-Dive · US Growth Roadmap",
     "heroTitle": "Reignite Your Business Growth\nwith a Clear, Evidence-Based Roadmap",
-    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — delivered in 14 days.",
+    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — operators usually deliver in 1 week.",
     "briefButton": "Brief This Report →",
     "seeSegments": "See Both Segments →",
     "heroStats": [
@@ -813,9 +813,9 @@
         "sub": "sourced research and strategy"
       },
       {
-        "num": "14",
-        "label": "DAYS",
-        "sub": "from intake to delivery"
+        "num": "1",
+        "label": "WEEK",
+        "sub": "operators usually deliver in"
       },
       {
         "num": "US$5k+",
@@ -933,8 +933,8 @@
     "perReport": "per report",
     "pricingDetails": [
       {
-        "title": "14-day delivery",
-        "sub": "From intake form to final report"
+        "title": "1-week delivery",
+        "sub": "Operators usually deliver in 1 week"
       },
       {
         "title": "White-label included",
@@ -1042,7 +1042,7 @@
       },
       {
         "q": "How is this different from hiring a consultant?",
-        "a": "A consultant gives you one opinion and charges monthly. This delivers a structured, evidence-based growth roadmap with ranked moves, investment estimates, and an action plan — in 14 days, at a fixed price. Every recommendation is sourced, not just experienced. And you get the full methodology, not a black box."
+        "a": "A consultant gives you one opinion and charges monthly. This delivers a structured, evidence-based growth roadmap with ranked moves, investment estimates, and an action plan — in 1 week, at a fixed price. Every recommendation is sourced, not just experienced. And you get the full methodology, not a black box."
       },
       {
         "q": "Is this only for US-based businesses?",
@@ -1058,7 +1058,7 @@
       },
       {
         "q": "What do we get at the end?",
-        "a": "Two deliverables: a full In-Depth Viability Report (40–60+ pages, .docx, white-labeled) and an Executive Presentation for leadership or board conversations. Both are delivered within 14 days. One revision round is included."
+        "a": "Two deliverables: a full In-Depth Viability Report (40–60+ pages, .docx, white-labeled) and an Executive Presentation for leadership or board conversations. Both are typically delivered within 2 weeks. One revision round is included."
       }
     ],
     "ctaTitle": "Growth doesn't restart by accident.\nKnow exactly where to invest next.",
@@ -1078,9 +1078,9 @@
         "sub": "sourced research and strategy"
       },
       {
-        "num": "2–3",
+        "num": "2",
         "label": "WEEKS",
-        "sub": "from signed engagement to delivery"
+        "sub": "operators usually deliver in (incl. Market Research)"
       },
       {
         "num": "US$2,000",
@@ -1340,8 +1340,8 @@
     "pricingPer": "per report",
     "pricingFeatures": [
       {
-        "title": "14-day delivery",
-        "sub": "From intake form to final report"
+        "title": "2-week delivery",
+        "sub": "Operators usually deliver in 2 weeks (incl. Market Research)"
       },
       {
         "title": "White-label included",
@@ -1396,8 +1396,9 @@
         "label": "/ SESSION"
       },
       {
-        "num": "3–5",
-        "label": "BUSINESS DAYS"
+        "num": "7",
+        "label": "BUSINESS DAYS",
+        "sub": "operators usually deliver in (incl. Market Research)"
       },
       {
         "num": "3",
@@ -1597,7 +1598,7 @@
       {
         "num": "3",
         "title": "Run",
-        "desc": "Results are delivered to a branded dashboard in 3–5 business days"
+        "desc": "Results delivered within the 7 business day timeline"
       },
       {
         "num": "4",
@@ -1614,9 +1615,9 @@
     "seeInside": "See What's Inside ↓",
     "heroStats": [
       {
-        "num": "3–4",
+        "num": "2",
         "label": "WEEKS",
-        "sub": "from signed engagement to delivery"
+        "sub": "operators usually deliver in (incl. Market Research)"
       },
       {
         "num": "US$9.5k–$14.5k",
@@ -1752,8 +1753,8 @@
     "priceSubtitle": "per assessment",
     "pricingDetails": [
       {
-        "title": "3–4 week delivery",
-        "sub": "From signed engagement to final report"
+        "title": "2-week delivery",
+        "sub": "Operators usually deliver in 2 weeks (incl. Market Research)"
       },
       {
         "title": "White-label included",
@@ -1814,7 +1815,7 @@
         "tag": "The foundation. Required for all other modules.",
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
-        "delivery": "14 days from signed intake",
+        "delivery": "Operators usually deliver in 1 week",
         "pricing": "Mini $3,000 (6 personas) · Standard $3,500 (12 personas) · Premium $4,000 (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
@@ -1825,7 +1826,7 @@
         "tag": "Add-on. Requires Market Research.",
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
-        "delivery": "3–5 business days from brand intake",
+        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
         "pricing": "$500 per persona · pick any number from your panel",
         "link": "/consumer-journeys",
         "linkLabel": "See full details →"
@@ -1836,7 +1837,7 @@
         "tag": "Add-on. Requires Market Research.",
         "desc": "Test packaging, taglines, creative territories, product concepts, or pricing claims against your full persona panel. Each session includes three rounds of iterative feedback — refine the concept between rounds without starting a new session. Panels are reusable across multiple sessions and product lines.",
         "whatYouGet": "Dashboard with preference votes, verbatim quotes, strategic insights + 3 feedback rounds",
-        "delivery": "3–5 business days",
+        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
         "pricing": "$3,000 per session · +$2,000 re-test pack",
         "link": "/virtual-focus-groups",
         "linkLabel": "See full details →"
@@ -1906,8 +1907,9 @@
         "label": "PER PERSONA"
       },
       {
-        "num": "3–5",
-        "label": "BUSINESS DAYS"
+        "num": "7",
+        "label": "BUSINESS DAYS",
+        "sub": "operators usually deliver in (incl. Market Research)"
       },
       {
         "num": "6",
@@ -2192,7 +2194,7 @@
       },
       {
         "q": "How much time does each engagement take?",
-        "a": "About 5 hours of your time total. ~1 hour for the client intake, and ~4 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 14-day delivery timeline gives you legroom to manage multiple projects."
+        "a": "About 5 hours of your time total. ~1 hour for the client intake, and ~4 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 1-week delivery timeline gives you legroom to manage multiple projects."
       },
       {
         "q": "What kind of support do I get?",

@@ -43,7 +43,7 @@
         "label": "Seu tempo por relatório"
       },
       {
-        "value": "14 dias",
+        "value": "1 semana",
         "label": "Do briefing à entrega"
       },
       {
@@ -233,7 +233,7 @@
         "label": "seu tempo por relatório"
       },
       {
-        "value": "14 dias",
+        "value": "1 semana",
         "label": "briefing à entrega"
       },
       {
@@ -246,7 +246,7 @@
       }
     ],
     "phasesLabel": "As Quatro Fases",
-    "phasesTitle": "De briefing a relatório pronto para o cliente em até 14 dias.",
+    "phasesTitle": "De briefing a relatório pronto para o cliente em 1 semana.",
     "phases": [
       {
         "num": "Fase 01",
@@ -267,7 +267,7 @@
       {
         "num": "Fase 03",
         "label": "Você valida com sua expertise",
-        "timing": "Dias 2–13 · Seu tempo: ~4h",
+        "timing": "Dias 2–7 · Seu tempo: ~4h",
         "title": "É aqui que seu valor como profissional entra.",
         "body": "Você analisa o resultado gerado por IA em relação ao seu próprio conhecimento de mercado, adiciona contexto estratégico e narrativa, ajusta qualquer seção que não corresponda à sua leitura e constrói sua camada de recomendações. O resultado se torna seu, não nosso.",
         "tag": "Sua expertise · Sua camada estratégica"
@@ -445,7 +445,7 @@
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Necessário para todo engajamento",
         "desc": "Três relatórios de nível decisório mais um painel de personas com 6, 12 ou 20 buyer personas. A base sobre a qual todos os outros produtos se constroem.",
-        "delivery": "Entrega em 14 dias",
+        "delivery": "Operadores geralmente entregam em 1 semana",
         "price": "Custo padrão: $900 / $1.050 / $1.200",
         "link": "/research-platform"
       },
@@ -454,7 +454,7 @@
         "name": "GoGlobal Viability Analysis",
         "audience": "Marcas Internacionais · Entrada no Mercado",
         "desc": "CVE Score, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, caminhos estratégicos e roadmap por fases. Vincula-se à Pesquisa de Mercado.",
-        "delivery": "Entrega em 2–3 semanas",
+        "delivery": "Operadores geralmente entregam em 2 semanas (incl. Market Research)",
         "price": "Custo padrão: $600",
         "link": "/expansion-report"
       },
@@ -463,7 +463,7 @@
         "name": "Scale Assessment",
         "audience": "Marcas Estabelecidas · Inteligência Estratégica",
         "desc": "Diagnóstico de Escala, prontidão operacional, posição competitiva, plano por fases de 24 meses com gates go/no-go e camada de inteligência de 90 dias.",
-        "delivery": "Entrega em 3–4 semanas",
+        "delivery": "Operadores geralmente entregam em 2 semanas (incl. Market Research)",
         "price": "Custo padrão: $1.200",
         "link": "/scale-assessment"
       },
@@ -472,7 +472,7 @@
         "name": "Mapas de Jornada do Cliente",
         "audience": "Inteligência do Consumidor",
         "desc": "Mapas de jornada por persona mostrando awareness até advocacy, com análise de fricção e oportunidades.",
-        "delivery": "Entrega em 2–3 dias",
+        "delivery": "Operadores geralmente entregam em 7 dias úteis (incl. Market Research)",
         "price": "Custo padrão: $150/persona",
         "link": "/consumer-journeys"
       },
@@ -481,7 +481,7 @@
         "name": "Focus Groups Virtuais",
         "audience": "Inteligência do Consumidor",
         "desc": "Teste de conceitos com IA contra seu painel de personas. Votos de preferência, citações textuais, insights estratégicos.",
-        "delivery": "Entrega em 1–3 dias",
+        "delivery": "Operadores geralmente entregam em 7 dias úteis (incl. Market Research)",
         "price": "Custo padrão: $900/sessão · +$600 re-teste",
         "link": "/virtual-focus-groups"
       }
@@ -541,7 +541,7 @@
         "tagline": "Personas baseadas em pesquisa e inteligência de mercado de nível decisório.",
         "desc": "Três relatórios de nível decisório — Análise de Mercado, Análise do Consumidor, Panorama Competitivo — mais um painel de personas com 6, 12 ou 20 buyer personas dependendo do nível.",
         "price": "Custo padrão: $900 / $1.050 / $1.200 (Mini / Standard / Premium)",
-        "delivery": "Entrega em 14 dias",
+        "delivery": "Operadores geralmente entregam em 1 semana",
         "ctaLabel": "Ver Detalhes da Pesquisa →",
         "deliverables": [
           "Relatório de Análise de Mercado — dimensionamento, tendências, panorama regulatório",
@@ -558,7 +558,7 @@
         "name": "GoGlobal Viability Analysis",
         "desc": "Inteligência de entrada no mercado para qualquer empresa planejando expandir para um novo mercado. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
         "price": "Custo padrão: $600",
-        "delivery": "Entrega em 2–3 semanas · Requer Pesquisa de Mercado",
+        "delivery": "Operadores geralmente entregam em 2 semanas · Inclui Market Research",
         "ctaLabel": "Ver Detalhes do Relatório →",
         "deliverables": [
           "CVE Score — pontuação ponderada de 3 dimensões (0 a 100)",
@@ -578,7 +578,7 @@
         "tagline": "Crescimento é o que te venderam. Escala é o que você realmente precisa.",
         "desc": "Para marcas estabelecidas em pontos de inflexão estratégicos. Responde se você está construído para escalar de forma durável — e o que precisa construir primeiro se não estiver.",
         "price": "Custo padrão: $1.200",
-        "delivery": "Entrega em 3–4 semanas · Requer Pesquisa de Mercado",
+        "delivery": "Operadores geralmente entregam em 2 semanas · Inclui Market Research",
         "ctaLabel": "Ver Detalhes do Assessment →",
         "deliverables": [
           "Scale Diagnostic — construído para crescer vs. construído para escalar",
@@ -598,7 +598,7 @@
         "tagline": "Veja exatamente onde sua marca conecta — e onde perde pessoas.",
         "desc": "Mapas de jornada específicos por marca mostrando como cada persona se move do awareness à advocacy — e onde os touchpoints da marca se alinham, falham ou criam fricção.",
         "price": "Custo padrão: $150 por persona",
-        "delivery": "Entrega em 2–3 dias",
+        "delivery": "Operadores geralmente entregam em 7 dias úteis · Inclui Market Research",
         "ctaLabel": "Ver Detalhes dos Mapas de Jornada →",
         "deliverables": [
           "Mapa de jornada por persona — awareness até advocacy, touchpoints específicos",
@@ -615,7 +615,7 @@
         "tagline": "Teste qualquer conceito contra seu público real — em horas, não semanas.",
         "desc": "Sessões de focus group com IA que testam conceitos, mensagens, packaging, preços ou posicionamento contra o painel completo de personas. Votos de preferência, citações textuais e insights estratégicos.",
         "price": "Custo padrão: $900/sessão · +$600 pack de re-teste",
-        "delivery": "Entrega em 1–3 dias · Requer Pesquisa de Mercado",
+        "delivery": "Operadores geralmente entregam em 7 dias úteis · Inclui Market Research",
         "ctaLabel": "Ver Detalhes dos Focus Groups →",
         "deliverables": [
           "Sessão completa de focus group — teste qualquer conceito",
@@ -805,7 +805,7 @@
   "growthRoadmap": {
     "heroLabel": "Análise Profunda do Produto · Mapa de Crescimento EUA",
     "heroTitle": "Reinicie Seu Crescimento Empresarial\ncom um Mapa Claro e Baseado em Evidências",
-    "heroSub": "O Mapa de Crescimento EUA da Soundcheck Insights foi construído para pequenas e médias empresas que estagnaram. Análise de mercado, inteligência competitiva, identificação de espaço em branco, palancas de crescimento classificadas, estimativas de investimento e um plano de ação de 90 dias — entregue em 14 dias.",
+    "heroSub": "O Mapa de Crescimento EUA da Soundcheck Insights foi construído para pequenas e médias empresas que estagnaram. Análise de mercado, inteligência competitiva, identificação de espaço em branco, palancas de crescimento classificadas, estimativas de investimento e um plano de ação de 90 dias — operadores geralmente entregam em 1 semana.",
     "briefButton": "Apresente Este Relatório →",
     "seeSegments": "Ver Ambos os Segmentos →",
     "heroStats": [
@@ -815,9 +815,9 @@
         "sub": "pesquisa e estratégia documentadas"
       },
       {
-        "num": "14",
-        "label": "DIAS",
-        "sub": "da consulta inicial até a entrega"
+        "num": "1",
+        "label": "SEMANA",
+        "sub": "operadores geralmente entregam em"
       },
       {
         "num": "US$5k+",
@@ -935,8 +935,8 @@
     "perReport": "por relatório",
     "pricingDetails": [
       {
-        "title": "Entrega em 14 dias",
-        "sub": "Do formulário de consulta inicial ao relatório final"
+        "title": "Entrega em 1 semana",
+        "sub": "Operadores geralmente entregam em 1 semana"
       },
       {
         "title": "White-label incluído",
@@ -1044,7 +1044,7 @@
       },
       {
         "q": "Como isso é diferente de contratar um consultor?",
-        "a": "Um consultor lhe dá uma opinião e cobra mensalmente. Isto entrega um roadmap de crescimento estruturado e baseado em evidências com movimentos classificados, estimativas de investimento e um plano de ação — em 14 dias, a preço fixo. Cada recomendação é documentada, não apenas experimentada. E você recebe a metodologia completa, não uma caixa preta."
+        "a": "Um consultor lhe dá uma opinião e cobra mensalmente. Isto entrega um roadmap de crescimento estruturado e baseado em evidências com movimentos classificados, estimativas de investimento e um plano de ação — em 1 semana, a preço fixo. Cada recomendação é documentada, não apenas experimentada. E você recebe a metodologia completa, não uma caixa preta."
       },
       {
         "q": "Isto é apenas para negócios baseados nos EUA?",
@@ -1060,7 +1060,7 @@
       },
       {
         "q": "O que obtemos ao final?",
-        "a": "Dois entregáveis: um Relatório Completo de Viabilidade de Crescimento (40–60+ páginas, .docx, white-label) e uma Apresentação Executiva para conversas de liderança ou conselho. Ambos são entregues em 14 dias. Uma rodada de revisão está incluída."
+        "a": "Dois entregáveis: um Relatório Completo de Viabilidade de Crescimento (40–60+ páginas, .docx, white-label) e uma Apresentação Executiva para conversas de liderança ou conselho. Ambos são tipicamente entregues em 1 semana. Uma rodada de revisão está incluída."
       }
     ],
     "ctaTitle": "O crescimento não reinicia por acaso.\nSaiba exatamente onde investir próximo.",
@@ -1080,9 +1080,9 @@
         "sub": "pesquisa verificada e estratégia"
       },
       {
-        "num": "2–3",
+        "num": "2",
         "label": "SEMANAS",
-        "sub": "da assinatura do contrato à entrega"
+        "sub": "operadores geralmente entregam em (incl. Market Research)"
       },
       {
         "num": "US$2.000",
@@ -1342,8 +1342,8 @@
     "pricingPer": "por relatório",
     "pricingFeatures": [
       {
-        "title": "Entrega de 14 dias",
-        "sub": "Do formulário de início ao relatório final"
+        "title": "Entrega em 2 semanas",
+        "sub": "Operadores geralmente entregam em 2 semanas (incl. Market Research)"
       },
       {
         "title": "White-label incluído",
@@ -1397,20 +1397,21 @@
     "howItWorks": "Como funciona ↓",
     "heroStats": [
       {
-        "label": "CONCEITO → VEREDICTO",
-        "value": "2–3 dias"
+        "num": "US$4.000",
+        "label": "/ SESSÃO"
       },
       {
-        "label": "REFAZER UM CONCEITO",
-        "value": "15–40 segundos"
+        "num": "7",
+        "label": "DIAS ÚTEIS",
+        "sub": "operadores geralmente entregam em (incl. Market Research)"
       },
       {
-        "label": "PAINÉIS DE PERSONAS",
-        "value": "Reutilizáveis, editáveis"
+        "num": "3",
+        "label": "RODADAS DE FEEDBACK INCLUÍDAS"
       },
       {
-        "label": "CUSTO VS. TRADICIONAL",
-        "value": "~5–10× menor"
+        "num": "♻",
+        "label": "PAINÉIS REUTILIZÁVEIS"
       }
     ],
     "advantagesLabel": "Por Que Funciona",
@@ -1580,14 +1581,14 @@
           "name": "VFG Mini",
           "price": "US$3.500",
           "scope": "6 personas · 1 tópico",
-          "delivery": "3–5 dias úteis",
+          "delivery": "7 dias úteis",
           "best": "Teste de conceito único, insight direcional rápido"
         },
         {
           "name": "VFG Standard",
           "price": "US$7.500",
           "scope": "12 personas · 3 tópicos",
-          "delivery": "3–5 dias úteis",
+          "delivery": "7 dias úteis",
           "best": "Comparação multi-conceito, estratégia de posicionamento"
         },
         {
@@ -1621,7 +1622,7 @@
       {
         "num": "3",
         "title": "Execute",
-        "desc": "Resultados são entregues em um dashboard em marca em 3–5 dias úteis"
+        "desc": "Resultados são entregues em um dashboard em marca dentro do prazo de 7 dias úteis"
       },
       {
         "num": "4",
@@ -1638,9 +1639,9 @@
     "seeInside": "Veja O Que Está Incluído ↓",
     "heroStats": [
       {
-        "num": "3–4",
+        "num": "2",
         "label": "SEMANAS",
-        "sub": "do contrato assinado à entrega"
+        "sub": "operadores geralmente entregam em (incl. Market Research)"
       },
       {
         "num": "US$9.5k–$14.5k",
@@ -1776,8 +1777,8 @@
     "priceSubtitle": "por assessment",
     "pricingDetails": [
       {
-        "title": "Entrega de 3–4 semanas",
-        "sub": "Do contrato assinado ao relatório final"
+        "title": "Entrega em 2 semanas",
+        "sub": "Operadores geralmente entregam em 2 semanas (incl. Market Research)"
       },
       {
         "title": "White-label incluído",
@@ -1838,7 +1839,7 @@
         "tag": "A base. Obrigatório para todos os outros módulos.",
         "desc": "Três relatórios de qualidade de decisão gerados a partir de uma intake de 60 minutos: Análise de Mercado, Análise de Consumidor e Panorama Competitivo. Cada afirmação etiquetada com um rótulo de confiança e tier de fonte. Inclui painel de personas de comprador — 6, 12 ou 20 personas, dependendo do tier — grounded na pesquisa, não construído a partir de suposições.",
         "whatYouGet": "3 relatórios de pesquisa em marca + painel de personas editável",
-        "delivery": "14 dias desde o intake assinado",
+        "delivery": "Operadores geralmente entregam em 1 semana",
         "pricing": "Mini US$3.000 (6 personas) · Standard US$3.500 (12 personas) · Premium US$4.000 (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalhes completos →"
@@ -1849,7 +1850,7 @@
         "tag": "Complemento. Requer Market Research.",
         "desc": "Mapas de jornada específicos da marca que mostram como cada persona selecionada se move de primeira conscientização para defesa da marca — e onde seus pontos de contato atuais ou planejados os encontram ou os perdem. Construído a partir de sua pesquisa de mercado e painel de personas. Uma intake de marca breve (~15 minutos) captura sua estratégia de canal. O sistema gera um mapa de jornada visual para cada persona selecionada.",
         "whatYouGet": "Visão geral do funil + timeline por persona + análise de gaps + export PDF",
-        "delivery": "3–5 dias úteis após intake da marca",
+        "delivery": "Operadores geralmente entregam em 7 dias úteis (incl. Market Research)",
         "pricing": "US$ 400 por persona · escolha quantas precisar do seu painel",
         "link": "/consumer-journeys",
         "linkLabel": "Ver detalhes completos →"
@@ -1860,7 +1861,7 @@
         "tag": "Complemento. Requer Market Research.",
         "desc": "Teste embalagem, taglines, territórios criativos, conceitos de produto ou claims de preço contra seu painel completo de personas. Cada sessão inclui três rodadas de feedback iterativo — refine o conceito entre rodadas sem iniciar uma nova sessão. Painéis são reutilizáveis em múltiplas sessões e linhas de produtos.",
         "whatYouGet": "Dashboard com votações de preferência, citações literais, insights estratégicos + 3 rodadas de feedback",
-        "delivery": "3–5 dias úteis",
+        "delivery": "Operadores geralmente entregam em 7 dias úteis (incl. Market Research)",
         "pricing": "US$ 4.000 por sessão · rodadas de feedback adicionais US$ 50 cada",
         "link": "/virtual-focus-groups",
         "linkLabel": "Ver detalhes completos →"
@@ -1930,8 +1931,9 @@
         "label": "POR PERSONA"
       },
       {
-        "num": "3–5",
-        "label": "DIAS ÚTEIS"
+        "num": "7",
+        "label": "DIAS ÚTEIS",
+        "sub": "operadores geralmente entregam em (incl. Market Research)"
       },
       {
         "num": "6",
@@ -2216,7 +2218,7 @@
       },
       {
         "q": "Quanto tempo cada projeto leva?",
-        "a": "Aproximadamente 5 horas do seu tempo total. ~1 hora para o intake do cliente, e ~4 horas validando a pesquisa com seu julgamento profissional. A plataforma gera a base de pesquisa completa em menos de 24 horas. O prazo de entrega de 14 dias dá margem para gerenciar múltiplos projetos."
+        "a": "Aproximadamente 5 horas do seu tempo total. ~1 hora para o intake do cliente, e ~4 horas validando a pesquisa com seu julgamento profissional. A plataforma gera a base de pesquisa completa em menos de 24 horas. O prazo de entrega de 1 semana dá margem para gerenciar múltiplos projetos."
       },
       {
         "q": "Que tipo de suporte eu recebo?",
