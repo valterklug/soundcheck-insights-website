@@ -340,8 +340,8 @@
       },
       {
         "icon": "💰",
-        "value": "US$3.000–US$5.000+",
-        "label": "por engajamento"
+        "value": "$3.900–$4.560+",
+        "label": "margem por engajamento"
       },
       {
         "icon": "🏷",
@@ -359,7 +359,7 @@
     "businessCaseDesc1": "Antes de abrir isso como uma plataforma, eu executei todos os relatórios Soundcheck pessoalmente. Não como prova de conceito — porque a economia era muito convincente para não provar primeiro.",
     "businessCaseDesc2": "A plataforma realiza o trabalho analítico pesado: agregação de dados, mapeamento competitivo, pontuação de viabilidade, geração de relatórios. Seu papel é capturar as informações corretas do cliente antecipadamente, aplicar seu julgamento profissional ao resultado da IA e apresentar os resultados com o contexto estratégico que apenas um especialista real pode fornecer.",
     "businessCaseDesc3": "É isso que seu cliente está pagando.",
-    "economicsHeader": "Economia Real · Níveis de Operador (em um engajamento de $5.500)",
+    "economicsHeader": "Economia Real · Níveis de Operador (em um engajamento de $6.000)",
     "tierTrial": "Trial",
     "tierTrialDesc": "Sem setup · Limite de 2 projetos",
     "tierStandard": "Standard",
@@ -369,9 +369,9 @@
     "economicsRows": [
       [
         "Custo de plataforma",
-        "$1.925",
-        "$1.650",
-        "$1.320"
+        "$2.100",
+        "$1.800",
+        "$1.440"
       ],
       [
         "Custo como % do MSRP",
@@ -381,9 +381,9 @@
       ],
       [
         "Você fica com (ao MSRP)",
-        "$3.575",
-        "$3.850",
-        "$4.180"
+        "$3.900",
+        "$4.200",
+        "$4.560"
       ],
       [
         "Seu investimento de tempo",
@@ -393,15 +393,15 @@
       ],
       [
         "Taxa efetiva por hora",
-        "~$715/h",
-        "~$770/h",
-        "~$836/h"
+        "~$780/h",
+        "~$840/h",
+        "~$912/h"
       ]
     ],
     "yourMargin": "Sua margem",
-    "marginTrial": "$3.575",
-    "marginStandard": "$3.850",
-    "marginFounding": "$4.180",
+    "marginTrial": "$3.900",
+    "marginStandard": "$4.200",
+    "marginFounding": "$4.560",
     "operatorLabel": "O Que Você Recebe como Operador",
     "operatorTitle": "Tudo o que você precisa para entregar inteligência no nível de uma empresa de pesquisa.",
     "operatorItems": [
@@ -446,7 +446,7 @@
         "audience": "Necessário para todo engajamento",
         "desc": "Três relatórios de nível decisório mais um painel de personas com 6, 12 ou 20 buyer personas. A base sobre a qual todos os outros produtos se constroem.",
         "delivery": "Entrega em 14 dias",
-        "price": "MSRP: $3.000 / $3.500 / $4.000",
+        "price": "Custo padrão: $900 / $1.050 / $1.200",
         "link": "/research-platform"
       },
       {
@@ -455,7 +455,7 @@
         "audience": "Marcas Internacionais · Entrada no Mercado",
         "desc": "CVE Score, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, caminhos estratégicos e roadmap por fases. Vincula-se à Pesquisa de Mercado.",
         "delivery": "Entrega em 2–3 semanas",
-        "price": "MSRP: $2.000",
+        "price": "Custo padrão: $600",
         "link": "/expansion-report"
       },
       {
@@ -464,7 +464,7 @@
         "audience": "Marcas Estabelecidas · Inteligência Estratégica",
         "desc": "Diagnóstico de Escala, prontidão operacional, posição competitiva, plano por fases de 24 meses com gates go/no-go e camada de inteligência de 90 dias.",
         "delivery": "Entrega em 3–4 semanas",
-        "price": "MSRP: $4.000",
+        "price": "Custo padrão: $1.200",
         "link": "/scale-assessment"
       },
       {
@@ -473,7 +473,7 @@
         "audience": "Inteligência do Consumidor",
         "desc": "Mapas de jornada por persona mostrando awareness até advocacy, com análise de fricção e oportunidades.",
         "delivery": "Entrega em 2–3 dias",
-        "price": "MSRP: $500/persona",
+        "price": "Custo padrão: $150/persona",
         "link": "/consumer-journeys"
       },
       {
@@ -482,7 +482,7 @@
         "audience": "Inteligência do Consumidor",
         "desc": "Teste de conceitos com IA contra seu painel de personas. Votos de preferência, citações textuais, insights estratégicos.",
         "delivery": "Entrega em 1–3 dias",
-        "price": "MSRP: $3.000/sessão · +$2.000 re-teste",
+        "price": "Custo padrão: $900/sessão · +$600 re-teste",
         "link": "/virtual-focus-groups"
       }
     ],
@@ -509,13 +509,13 @@
     "notSureDesc": "Conte-nos sobre sua prática e daremos uma resposta honesta.",
     "notSureLink": "Pergunte-nos diretamente →",
     "ctaTitle": "Comece com um trial.\nDois projetos. Sem compromisso.",
-    "ctaSub": "Tier Trial: custo de plataforma de $1.925 por projeto de $5.500. Sem taxa de setup, sem compromisso anual. Converta em 90 dias e os fees de trial se creditam ao seu setup.",
+    "ctaSub": "Tier Trial: custo de plataforma de $2.100 por engajamento de $6.000. Sem taxa de setup, sem compromisso anual. Converta em 90 dias e os fees de trial se creditam ao seu setup.",
     "ctaButton": "Iniciar um Trial →"
   },
   "products": {
     "heroLabel": "Produtos de Pesquisa",
     "heroTitle": "Inteligência de nível decisório.\nEscopo fixo. Preço fixo.",
-    "heroSub": "Cinco produtos modulares. Todo engajamento começa com Pesquisa de Mercado — os outros quatro se vinculam a ela. Disponíveis diretamente da Soundcheck ou através da nossa rede de operadores. Todos os preços são MSRP.",
+    "heroSub": "Cinco produtos modulares. Todo engajamento começa com Pesquisa de Mercado — os outros quatro se vinculam a ela. Todos os preços mostrados são custos de plataforma do operador padrão. Você define o preço ao cliente.",
     "viewDeliverables": "Ver O Que é Entregue",
     "hideDeliverables": "Ocultar O Que é Entregue",
     "whatsDelivered": "O Que é Entregue",
@@ -540,7 +540,7 @@
         "name": "Pesquisa de Mercado",
         "tagline": "Personas baseadas em pesquisa e inteligência de mercado de nível decisório.",
         "desc": "Três relatórios de nível decisório — Análise de Mercado, Análise do Consumidor, Panorama Competitivo — mais um painel de personas com 6, 12 ou 20 buyer personas dependendo do nível.",
-        "price": "US$3.000 / $3.500 / $4.000 (Mini / Standard / Premium)",
+        "price": "Custo padrão: $900 / $1.050 / $1.200 (Mini / Standard / Premium)",
         "delivery": "Entrega em 14 dias",
         "ctaLabel": "Ver Detalhes da Pesquisa →",
         "deliverables": [
@@ -548,7 +548,7 @@
           "Relatório de Análise do Consumidor — demografia, psicografia, comportamentos",
           "Relatório de Panorama Competitivo — mapa de posicionamento, benchmarks de preços",
           "Painel de Personas — 6, 12 ou 20 buyer personas (níveis Mini/Standard/Premium)",
-          "Preços Mini/Standard/Premium: $3.000 / $3.500 / $4.000"
+          "Custo padrão do operador: $900 / $1.050 / $1.200 (Mini/Standard/Premium)"
         ],
         "link": "/research-platform"
       },
@@ -557,7 +557,7 @@
         "for": "Marcas e Agências · Expansão de Mercado",
         "name": "GoGlobal Viability Analysis",
         "desc": "Inteligência de entrada no mercado para qualquer empresa planejando expandir para um novo mercado. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
-        "price": "US$2.000",
+        "price": "Custo padrão: $600",
         "delivery": "Entrega em 2–3 semanas · Requer Pesquisa de Mercado",
         "ctaLabel": "Ver Detalhes do Relatório →",
         "deliverables": [
@@ -577,7 +577,7 @@
         "name": "Scale Assessment",
         "tagline": "Crescimento é o que te venderam. Escala é o que você realmente precisa.",
         "desc": "Para marcas estabelecidas em pontos de inflexão estratégicos. Responde se você está construído para escalar de forma durável — e o que precisa construir primeiro se não estiver.",
-        "price": "US$4.000",
+        "price": "Custo padrão: $1.200",
         "delivery": "Entrega em 3–4 semanas · Requer Pesquisa de Mercado",
         "ctaLabel": "Ver Detalhes do Assessment →",
         "deliverables": [
@@ -597,7 +597,7 @@
         "name": "Mapas de Jornada do Cliente",
         "tagline": "Veja exatamente onde sua marca conecta — e onde perde pessoas.",
         "desc": "Mapas de jornada específicos por marca mostrando como cada persona se move do awareness à advocacy — e onde os touchpoints da marca se alinham, falham ou criam fricção.",
-        "price": "US$500 por persona",
+        "price": "Custo padrão: $150 por persona",
         "delivery": "Entrega em 2–3 dias",
         "ctaLabel": "Ver Detalhes dos Mapas de Jornada →",
         "deliverables": [
@@ -614,7 +614,7 @@
         "name": "Focus Groups Virtuais",
         "tagline": "Teste qualquer conceito contra seu público real — em horas, não semanas.",
         "desc": "Sessões de focus group com IA que testam conceitos, mensagens, packaging, preços ou posicionamento contra o painel completo de personas. Votos de preferência, citações textuais e insights estratégicos.",
-        "price": "US$3.000/sessão · +$2.000 pack de re-teste",
+        "price": "Custo padrão: $900/sessão · +$600 pack de re-teste",
         "delivery": "Entrega em 1–3 dias · Requer Pesquisa de Mercado",
         "ctaLabel": "Ver Detalhes dos Focus Groups →",
         "deliverables": [
