@@ -2040,7 +2040,7 @@
       {
         "stat": "1/3 of standard",
         "title": "Your first 2 projects",
-        "desc": "Your platform cost starts at one-third of the standard rate. A GoGlobal Viability Analysis costs you $200. Standard operators pay $600. Zero setup fee."
+        "desc": "Your platform cost starts at one-third of the standard rate. A GoGlobal Viability Analysis costs you $200 (added to the market research cost). Standard operators pay $600. Zero setup fee."
       },
       {
         "stat": "Half of standard",
@@ -2059,41 +2059,43 @@
     "mathTableHeader": "MR Standard + GoGlobal",
     "mathColStandard": "Standard Operator",
     "mathColFounding": "Founding (first 2)",
+    "mathColOnboarding": "Onboarding (4 weeks)",
+    "mathColForLife": "After Onboarding (for life)",
     "mathRows": [
       [
         "Your platform cost",
         "$1,650",
-        "$550"
+        "$550",
+        "$825",
+        "$1,320"
       ],
       [
         "You charge your client",
+        "$5,500+",
+        "$5,500+",
         "$5,500+",
         "$5,500+"
       ],
       [
         "You keep the difference",
         "$3,850+",
-        "$4,950+"
+        "$4,950+",
+        "$4,675+",
+        "$4,180+"
       ],
       [
         "Your time investment",
         "~5 hours",
+        "~5 hours",
+        "~5 hours",
         "~5 hours"
-      ],
-      [
-        "Platform cost during onboarding",
-        "$1,650",
-        "$825"
-      ],
-      [
-        "Platform cost after onboarding (for life)",
-        "$1,650",
-        "$1,320"
       ]
     ],
-    "mathEffectiveRate": "Effective hourly rate (first 2 projects, ~5h)",
+    "mathEffectiveRate": "Effective hourly rate (~5h)",
     "mathRateStandard": "~$770/hr",
     "mathRateFounding": "~$990/hr",
+    "mathRateOnboarding": "~$935/hr",
+    "mathRateForLife": "~$836/hr",
     "mathFootnote": "First 2 projects at 1/3 of standard cost. Remaining onboarding (4 weeks) at half of standard. Every project after onboarding: 20% off standard, locked for life. Operator time: ~1 hour intake + ~4 hours validation. Platform generates the research base in under 24 hours.",
     "whyLabel": "Why This Cohort",
     "whyTitle": "Three reasons to apply now.",
@@ -2116,7 +2118,7 @@
     ],
     "toolkitLabel": "Your Product Toolkit",
     "toolkitTitle": "Five products. You generate. You price. You deliver.",
-    "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. You generate the research on the platform, validate it with your expertise, and deliver under your brand. These are your founding platform costs (for life, after onboarding).",
+    "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. You generate the research on the platform, validate it with your expertise, and deliver under your brand. These are your founding platform costs after the onboarding period — locked at 20% off standard, for life.",
     "toolkitItems": [
       {
         "label": "Foundation",

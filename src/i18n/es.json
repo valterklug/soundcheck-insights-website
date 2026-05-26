@@ -2069,7 +2069,7 @@
       {
         "stat": "1/3 del estándar",
         "title": "Tus primeros 2 proyectos",
-        "desc": "Tu costo de plataforma comienza en un tercio de la tarifa estándar. Un GoGlobal Viability Analysis te cuesta $200. Los operadores estándar pagan $600. Sin tarifa de activación."
+        "desc": "Tu costo de plataforma comienza en un tercio de la tarifa estándar. Un GoGlobal Viability Analysis te cuesta $200 (sumado al costo del Market Research). Los operadores estándar pagan $600. Sin tarifa de activación."
       },
       {
         "stat": "Mitad del estándar",
@@ -2087,42 +2087,20 @@
     "mathDesc": "Toma un proyecto típico: Market Research Standard + GoGlobal Viability Analysis. Generas la investigación en la plataforma. Cobras a tu cliente. Te quedas con todo lo que supere tu costo de plataforma.",
     "mathTableHeader": "MR Standard + GoGlobal",
     "mathColStandard": "Operador Estándar",
-    "mathColFounding": "Fundador (primeros 2)",
+    "mathColFounding": "Founding (primeros 2)",
+    "mathColOnboarding": "Onboarding (4 semanas)",
+    "mathColForLife": "Después del Onboarding (de por vida)",
     "mathRows": [
-      [
-        "Tu costo de plataforma",
-        "$1,650",
-        "$550"
-      ],
-      [
-        "Tú cobras a tu cliente",
-        "$5,500+",
-        "$5,500+"
-      ],
-      [
-        "Tú te quedas con la diferencia",
-        "$3,850+",
-        "$4,950+"
-      ],
-      [
-        "Tu inversión de tiempo",
-        "~5 horas",
-        "~5 horas"
-      ],
-      [
-        "Costo de plataforma durante onboarding",
-        "$1,650",
-        "$825"
-      ],
-      [
-        "Costo de plataforma después del onboarding (de por vida)",
-        "$1,650",
-        "$1,320"
-      ]
+      ["Tu costo de plataforma", "$1,650", "$550", "$825", "$1,320"],
+      ["Cobras a tu cliente", "$5,500+", "$5,500+", "$5,500+", "$5,500+"],
+      ["Te quedas con la diferencia", "$3,850+", "$4,950+", "$4,675+", "$4,180+"],
+      ["Tu inversión de tiempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
     ],
-    "mathEffectiveRate": "Tarifa efectiva por hora (primeros 2 proyectos, ~5h)",
+    "mathEffectiveRate": "Tarifa por hora efectiva (~5h)",
     "mathRateStandard": "~$770/hr",
     "mathRateFounding": "~$990/hr",
+    "mathRateOnboarding": "~$935/h",
+    "mathRateForLife": "~$836/h",
     "mathFootnote": "Primeros 2 proyectos a 1/3 del costo estándar. Resto del onboarding (4 semanas) a la mitad del estándar. Cada proyecto después del onboarding: 20% bajo el estándar, fijado de por vida. Tiempo del operador: ~1 hora intake + ~4 horas validación. La plataforma genera la base de investigación en menos de 24 horas.",
     "whyLabel": "Por Qué Esta Cohorte",
     "whyTitle": "Tres razones para aplicar ahora.",
@@ -2145,7 +2123,7 @@
     ],
     "toolkitLabel": "Tu Kit de Productos",
     "toolkitTitle": "Cinco productos. Tú generas. Tú defines el precio. Tú entregas.",
-    "toolkitDesc": "Todo proyecto comienza con Market Research como base. Agrega módulos según lo que tu cliente necesite. Generas la investigación en la plataforma, la validas con tu expertise, y entregas bajo tu marca. Estos son tus costos fundadores de plataforma (de por vida, después del onboarding).",
+    "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según lo que tu cliente necesite. Generas la investigación en la plataforma, la validas con tu expertise y entregas bajo tu marca. Estos son tus costos de plataforma como Founding Operator después del período de onboarding — fijados en 20% por debajo del estándar, de por vida.",
     "toolkitItems": [
       {
         "label": "Base",

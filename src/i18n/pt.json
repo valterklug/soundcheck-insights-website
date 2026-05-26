@@ -275,7 +275,7 @@
       {
         "num": "Fase 04",
         "label": "Você entrega sob sua marca",
-        "timing": "Dia 14 · Seu tempo: ~1h",
+        "timing": "Dia 7 · Seu tempo: ~1h",
         "title": "Você apresenta. Você recebe o crédito. Você abre a próxima conversa.",
         "body": "Você apresenta o relatório finalizado ao seu cliente white-label sob sua agência. O nome do Soundcheck nunca aparece. Você recebe o crédito, aprofunda o relacionamento e abre a próxima conversa.",
         "tag": "Sua marca · Seu crédito · Seu próximo engajamento"
@@ -2064,7 +2064,7 @@
       {
         "stat": "1/3 do padrão",
         "title": "Seus primeiros 2 projetos",
-        "desc": "Seu custo de plataforma começa em um terço da tarifa padrão. Um GoGlobal Viability Analysis custa $200. Operadores padrão pagam $600. Sem taxa de ativação."
+        "desc": "Seu custo de plataforma começa em um terço da tarifa padrão. Um GoGlobal Viability Analysis custa $200 (somado ao custo do Market Research). Operadores padrão pagam $600. Sem taxa de ativação."
       },
       {
         "stat": "Metade do padrão",
@@ -2083,41 +2083,19 @@
     "mathTableHeader": "MR Standard + GoGlobal",
     "mathColStandard": "Operador Padrão",
     "mathColFounding": "Fundador (primeiros 2)",
+    "mathColOnboarding": "Onboarding (4 semanas)",
+    "mathColForLife": "Após Onboarding (para sempre)",
     "mathRows": [
-      [
-        "Seu custo de plataforma",
-        "$1.650",
-        "$550"
-      ],
-      [
-        "Você cobra do seu cliente",
-        "$5.500+",
-        "$5.500+"
-      ],
-      [
-        "Você fica com a diferença",
-        "$3.850+",
-        "$4.950+"
-      ],
-      [
-        "Seu investimento de tempo",
-        "~5 horas",
-        "~5 horas"
-      ],
-      [
-        "Custo de plataforma durante onboarding",
-        "$1.650",
-        "$825"
-      ],
-      [
-        "Custo de plataforma após onboarding (para sempre)",
-        "$1.650",
-        "$1.320"
-      ]
+      ["Seu custo na plataforma", "$1.650", "$550", "$825", "$1.320"],
+      ["Você cobra do cliente", "$5.500+", "$5.500+", "$5.500+", "$5.500+"],
+      ["Você fica com a diferença", "$3.850+", "$4.950+", "$4.675+", "$4.180+"],
+      ["Seu investimento de tempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
     ],
-    "mathEffectiveRate": "Taxa efetiva por hora (primeiros 2 projetos, ~5h)",
+    "mathEffectiveRate": "Taxa horária efetiva (~5h)",
     "mathRateStandard": "~$770/hr",
     "mathRateFounding": "~$990/hr",
+    "mathRateOnboarding": "~$935/h",
+    "mathRateForLife": "~$836/h",
     "mathFootnote": "Primeiros 2 projetos a 1/3 do custo padrão. Restante do onboarding (4 semanas) na metade do padrão. Todo projeto após o onboarding: 20% abaixo do padrão, fixado para sempre. Tempo do operador: ~1 hora intake + ~4 horas validação. A plataforma gera a base de pesquisa em menos de 24 horas.",
     "whyLabel": "Por Que Esta Coorte",
     "whyTitle": "Três razões para se candidatar agora.",
@@ -2140,7 +2118,7 @@
     ],
     "toolkitLabel": "Seu Kit de Produtos",
     "toolkitTitle": "Cinco produtos. Você gera. Você define o preço. Você entrega.",
-    "toolkitDesc": "Todo projeto começa com Market Research como base. Adicione módulos baseado no que seu cliente precisa. Você gera a pesquisa na plataforma, valida com sua expertise, e entrega sob sua marca. Estes são seus custos fundadores de plataforma (para sempre, após o onboarding).",
+    "toolkitDesc": "Todo projeto começa com o Market Research como base. Adicione módulos conforme a necessidade do cliente. Você gera a pesquisa na plataforma, valida com sua expertise e entrega com sua marca. Estes são seus custos de plataforma como Founding Operator após o período de onboarding — fixados em 20% abaixo do padrão, para sempre.",
     "toolkitItems": [
       {
         "label": "Base",

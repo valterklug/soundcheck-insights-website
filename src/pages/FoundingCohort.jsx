@@ -190,7 +190,7 @@ export default function FoundingCohort() {
             </div>
 
             {/* Column Headers */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr', gap: 0 }} className="econ-grid">
+            <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: 0 }} className="econ-grid">
               <div style={{ padding: '12px 14px', background: 'rgba(255,255,255,0.01)' }} />
               <div style={{
                 padding: '12px 14px', background: 'rgba(255,255,255,0.04)',
@@ -208,11 +208,27 @@ export default function FoundingCohort() {
                   {t('foundingCohort.mathColFounding')}
                 </div>
               </div>
+              <div style={{
+                padding: '12px 14px', background: 'rgba(45,212,191,0.06)',
+                border: '1px solid rgba(45,212,191,0.15)', textAlign: 'center',
+              }}>
+                <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#2DD4BF', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                  {t('foundingCohort.mathColOnboarding')}
+                </div>
+              </div>
+              <div style={{
+                padding: '12px 14px', background: 'rgba(0,196,212,0.06)',
+                border: '1px solid rgba(0,196,212,0.15)', textAlign: 'center',
+              }}>
+                <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#00C4D4', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                  {t('foundingCohort.mathColForLife')}
+                </div>
+              </div>
             </div>
 
             {/* Rows */}
-            {t('foundingCohort.mathRows', { returnObjects: true }).map(([label, std, founding], i) => (
-              <div key={i} style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr', gap: 0, marginBottom: 1 }} className="econ-grid">
+            {t('foundingCohort.mathRows', { returnObjects: true }).map(([label, std, founding, onboarding, forLife], i) => (
+              <div key={i} style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: 0, marginBottom: 1 }} className="econ-grid">
                 <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center' }}>
                   <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(255,255,255,0.45)' }}>{label}</span>
                 </div>
@@ -222,11 +238,17 @@ export default function FoundingCohort() {
                 <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#fff' }}>{founding}</span>
                 </div>
+                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#2DD4BF' }}>{onboarding}</span>
+                </div>
+                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#00C4D4' }}>{forLife}</span>
+                </div>
               </div>
             ))}
 
             {/* Highlight row */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr', gap: 0, marginTop: 1 }} className="econ-grid">
+            <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: 0, marginTop: 1 }} className="econ-grid">
               <div style={{ padding: '14px 14px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', display: 'flex', alignItems: 'center' }}>
                 <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, color: 'var(--orange)' }}>{t('foundingCohort.mathEffectiveRate')}</span>
               </div>
@@ -235,6 +257,12 @@ export default function FoundingCohort() {
               </div>
               <div style={{ padding: '14px 14px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: 'var(--orange)' }}>{t('foundingCohort.mathRateFounding')}</span>
+              </div>
+              <div style={{ padding: '14px 14px', background: 'rgba(45,212,191,0.08)', border: '1px solid rgba(45,212,191,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: '#2DD4BF' }}>{t('foundingCohort.mathRateOnboarding')}</span>
+              </div>
+              <div style={{ padding: '14px 14px', background: 'rgba(0,196,212,0.08)', border: '1px solid rgba(0,196,212,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: '#00C4D4' }}>{t('foundingCohort.mathRateForLife')}</span>
               </div>
             </div>
 
