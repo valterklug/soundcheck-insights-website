@@ -515,7 +515,8 @@
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia de nivel decisorio.\nAlcance fijo. Precio fijo.",
-    "heroSub": "Cinco productos modulares. Cada compromiso comienza con Investigación de Mercado — los otros cuatro se adjuntan. Todos los precios mostrados son costos de plataforma del operador estándar. Usted define el precio al cliente.",
+    "heroSub": "Cinco productos modulares. Cada proyecto comienza con Market Research — los otros cuatro se integran a él. Esta página es para operadores que entregan a través de la plataforma Soundcheck. Los precios mostrados son tu costo de plataforma, no lo que cobras a los clientes.",
+    "operatorNotice": "Los precios en esta página son costos de plataforma para operadores — lo que pagas para generar la investigación. Tú defines el precio al cliente.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -530,8 +531,10 @@
     "foundationLabel": "La Base · Todo Comienza Aquí",
     "addOnsLabel": "Requiere Investigación de Mercado",
     "addOnsTitle": "Construya sobre su investigación.",
-    "ctaTitle": "¿Listo para comenzar?",
-    "ctaSub": "Cuéntenos en qué está trabajando. Lo conectaremos con el producto y cronograma adecuados — ya sea que compre directamente o entregue a través de su agencia.",
+    "ctaTitle": "¿Listo para entregar investigación a tus clientes?",
+    "ctaSub": "Cuéntanos qué necesita tu cliente. Te conectamos con el producto y los tiempos adecuados. Si eres una marca buscando investigación, conéctate con uno de nuestros operadores — ellos entregan bajo su propia marca, con la tecnología de Soundcheck.",
+    "clientNote": "¿Buscas investigación de mercado para tu negocio? Nuestros operadores entregan estos productos bajo su propia marca. Contáctanos y te conectamos con el socio adecuado.",
+    "clientNoteLink": "Contáctanos →",
     "ctaButton": "Briefear un Producto →",
     "items": [
       {
@@ -540,7 +543,8 @@
         "name": "Investigación de Mercado",
         "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
-        "price": "Costo estándar: $900 / $1,050 / $1,200 (Mini / Standard / Premium)",
+        "price": "Tu costo de plataforma: $900 / $1.050 / $1.200 (Mini / Standard / Premium)",
+        "clientPrice": "Precio sugerido al cliente: $3.000 / $3.500 / $4.000",
         "delivery": "Los operadores suelen entregar en 1 semana",
         "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
@@ -548,7 +552,7 @@
           "Informe de Análisis del Consumidor — demografía, psicografía, comportamientos",
           "Informe de Panorama Competitivo — mapa de posicionamiento, benchmarks de precios",
           "Panel de Personas — 6, 12 o 20 buyer personas (niveles Mini/Standard/Premium)",
-          "Costo estándar del operador: $900 / $1,050 / $1,200 (Mini/Standard/Premium)"
+          "Costo de plataforma para operadores: $900 / $1.050 / $1.200 (Mini/Standard/Premium)"
         ],
         "link": "/research-platform"
       },
@@ -557,7 +561,8 @@
         "for": "Marcas y Agencias · Expansión de Mercado",
         "name": "GoGlobal Viability Analysis",
         "desc": "Inteligencia de entrada al mercado para cualquier empresa que planea expandirse a un nuevo mercado. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta por fases.",
-        "price": "Costo estándar: $600",
+        "price": "Tu costo de plataforma: $600 (complemento de Market Research)",
+        "clientPrice": "Precio sugerido al cliente: $2.000",
         "delivery": "Los operadores suelen entregar en 2 semanas · Incluye Market Research",
         "ctaLabel": "Ver Detalles del Informe →",
         "deliverables": [
@@ -577,7 +582,8 @@
         "name": "Scale Assessment",
         "tagline": "Crecimiento es lo que te vendieron. Escala es lo que realmente necesitas.",
         "desc": "Para marcas establecidas en puntos de inflexión estratégicos. Responde si estás construido para escalar de manera durable — y qué necesitas construir primero si no lo estás.",
-        "price": "Costo estándar: $1,200",
+        "price": "Tu costo de plataforma: $1.200 (complemento de Market Research)",
+        "clientPrice": "Precio sugerido al cliente: $4.000",
         "delivery": "Los operadores suelen entregar en 2 semanas · Incluye Market Research",
         "ctaLabel": "Ver Detalles del Assessment →",
         "deliverables": [
@@ -597,7 +603,8 @@
         "name": "Mapas de Jornada del Cliente",
         "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
         "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
-        "price": "Costo estándar: $150 por persona",
+        "price": "Tu costo de plataforma: $150/persona (complemento de Market Research)",
+        "clientPrice": "Precio sugerido al cliente: $500/persona",
         "delivery": "Los operadores suelen entregar en 7 días hábiles · Incluye Market Research",
         "ctaLabel": "Ver Detalles de Mapas de Jornada →",
         "deliverables": [
@@ -614,7 +621,8 @@
         "name": "Focus Groups Virtuales",
         "tagline": "Pruebe cualquier concepto contra su audiencia real — en horas, no semanas.",
         "desc": "Sesiones de focus group con IA que prueban conceptos, mensajes, packaging, precios o posicionamiento contra el panel completo de personas. Votos de preferencia, citas textuales e insights estratégicos.",
-        "price": "Costo estándar: $900/sesión · +$600 pack de re-test",
+        "price": "Tu costo de plataforma: $900/sesión · +$600 re-test (complemento de Market Research)",
+        "clientPrice": "Precio sugerido al cliente: $3.000/sesión",
         "delivery": "Los operadores suelen entregar en 7 días hábiles · Incluye Market Research",
         "ctaLabel": "Ver Detalles de Focus Groups →",
         "deliverables": [
@@ -2092,8 +2100,8 @@
     "mathColForLife": "Después del Onboarding (de por vida)",
     "mathRows": [
       ["Tu costo de plataforma", "$1,650", "$550", "$825", "$1,320"],
-      ["Cobras a tu cliente", "$5,500+", "$5,500+", "$5,500+", "$5,500+"],
-      ["Te quedas con la diferencia", "$3,850+", "$4,950+", "$4,675+", "$4,180+"],
+      ["Tú cobras a tu cliente", "$5,500+", "$5,500+", "$5,500+", "$5,500+"],
+      ["Tú te quedas con la diferencia", "$3,850+", "$4,950+", "$4,675+", "$4,180+"],
       ["Tu inversión de tiempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
     ],
     "mathEffectiveRate": "Tarifa por hora efectiva (~5h)",
@@ -2123,7 +2131,7 @@
     ],
     "toolkitLabel": "Tu Kit de Productos",
     "toolkitTitle": "Cinco productos. Tú generas. Tú defines el precio. Tú entregas.",
-    "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según lo que tu cliente necesite. Generas la investigación en la plataforma, la validas con tu expertise y entregas bajo tu marca. Estos son tus costos de plataforma como Founding Operator después del período de onboarding — fijados en 20% por debajo del estándar, de por vida.",
+    "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Generas la investigación en la plataforma, la validas con tu expertise y entregas con tu marca. Estos son tus costos de plataforma como Founding Operator después del período de onboarding — fijados en 20% menos que el estándar, de por vida.",
     "toolkitItems": [
       {
         "label": "Base",

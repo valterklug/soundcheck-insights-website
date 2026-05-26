@@ -159,6 +159,36 @@ export default function Products() {
         </div>
       </section>
 
+      {/* ── Operator Notice Banner ── */}
+      <div style={{
+        background: 'rgba(0,196,212,0.06)',
+        borderBottom: '1px solid rgba(0,196,212,0.12)',
+        padding: '14px 60px',
+      }} className="section-pad-x">
+        <div style={{
+          maxWidth: 1200, margin: '0 auto',
+          display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap',
+          justifyContent: 'space-between',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--teal)' }}>
+              For Operators
+            </span>
+            <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.5)' }}>
+              {t('products.operatorNotice')}
+            </span>
+          </div>
+          {t('products.clientNote') && (
+            <Link to={getLocalizedPath('/contact', lang)} style={{
+              fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'var(--teal)',
+              textDecoration: 'none', whiteSpace: 'nowrap',
+            }}>
+              {t('products.clientNoteLink')}
+            </Link>
+          )}
+        </div>
+      </div>
+
       {/* ── MARKET RESEARCH — THE FOUNDATION ──────────────────────── */}
       {products.length > 0 && (() => {
         const mr = products[0]
@@ -188,6 +218,7 @@ export default function Products() {
                       <div>
                         <div style={{ background: 'rgba(0,196,212,0.06)', border: '1px solid rgba(0,196,212,0.1)', padding: '14px 16px', marginBottom: 10 }}>
                           <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 19, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{mr.price}</div>
+                          {mr.clientPrice && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(45,212,191,0.6)', marginBottom: 6 }}>{mr.clientPrice}</div>}
                           <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)' }}>{mr.delivery}</div>
                         </div>
                         <Link to={mr.link} className="btn btn-primary" style={{ fontSize: 12, padding: '10px 18px', display: 'inline-flex' }}>
@@ -278,6 +309,7 @@ export default function Products() {
                     <div>
                       <div style={{ background: 'rgba(255,255,255,0.04)', padding: '12px 14px', marginBottom: 10 }}>
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 16, fontWeight: 400, color: '#fff', marginBottom: 3 }}>{p.price}</div>
+                        {p.clientPrice && <div style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(45,212,191,0.6)', marginBottom: 6 }}>{p.clientPrice}</div>}
                         <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.2)' }}>{p.delivery}</div>
                       </div>
                       <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
@@ -346,6 +378,12 @@ export default function Products() {
         <div className="cta-actions">
           <Link to={getLocalizedPath('/contact', lang)} className="btn btn-white">{t('products.ctaButton')}</Link>
         </div>
+        <p style={{
+          fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.35)',
+          marginTop: 20, maxWidth: 600, lineHeight: 1.6,
+        }}>
+          {t('products.clientNote')}
+        </p>
       </section>
     </PageWrapper>
   )

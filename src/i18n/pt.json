@@ -515,7 +515,8 @@
   "products": {
     "heroLabel": "Produtos de Pesquisa",
     "heroTitle": "Inteligência de nível decisório.\nEscopo fixo. Preço fixo.",
-    "heroSub": "Cinco produtos modulares. Todo engajamento começa com Pesquisa de Mercado — os outros quatro se vinculam a ela. Todos os preços mostrados são custos de plataforma do operador padrão. Você define o preço ao cliente.",
+    "heroSub": "Cinco produtos modulares. Todo projeto começa com Market Research — os outros quatro se integram a ele. Esta página é para operadores que entregam pela plataforma Soundcheck. Os preços mostrados são seu custo de plataforma, não o que você cobra dos clientes.",
+    "operatorNotice": "Os preços nesta página são custos de plataforma para operadores — o que você paga para gerar a pesquisa. Você define o preço ao cliente.",
     "viewDeliverables": "Ver O Que é Entregue",
     "hideDeliverables": "Ocultar O Que é Entregue",
     "whatsDelivered": "O Que é Entregue",
@@ -530,8 +531,10 @@
     "foundationLabel": "A Base · Tudo Começa Aqui",
     "addOnsLabel": "Requer Pesquisa de Mercado",
     "addOnsTitle": "Construa sobre sua pesquisa.",
-    "ctaTitle": "Pronto para começar?",
-    "ctaSub": "Conte-nos no que está trabalhando. Vamos conectar você ao produto e prazo certos — seja comprando diretamente ou entregando através da sua agência.",
+    "ctaTitle": "Pronto para entregar pesquisa aos seus clientes?",
+    "ctaSub": "Conte-nos o que seu cliente precisa. Conectamos você ao produto e cronograma certos. Se você é uma marca buscando pesquisa, conecte-se com um de nossos operadores — eles entregam sob sua própria marca, com a tecnologia da Soundcheck.",
+    "clientNote": "Procurando pesquisa de mercado para seu negócio? Nossos operadores entregam esses produtos sob sua própria marca. Entre em contato e conectamos você ao parceiro certo.",
+    "clientNoteLink": "Fale conosco →",
     "ctaButton": "Fazer Brief de um Produto →",
     "items": [
       {
@@ -540,7 +543,8 @@
         "name": "Pesquisa de Mercado",
         "tagline": "Personas baseadas em pesquisa e inteligência de mercado de nível decisório.",
         "desc": "Três relatórios de nível decisório — Análise de Mercado, Análise do Consumidor, Panorama Competitivo — mais um painel de personas com 6, 12 ou 20 buyer personas dependendo do nível.",
-        "price": "Custo padrão: $900 / $1.050 / $1.200 (Mini / Standard / Premium)",
+        "price": "Seu custo de plataforma: $900 / $1.050 / $1.200 (Mini / Standard / Premium)",
+        "clientPrice": "Preço sugerido ao cliente: $3.000 / $3.500 / $4.000",
         "delivery": "Operadores geralmente entregam em 1 semana",
         "ctaLabel": "Ver Detalhes da Pesquisa →",
         "deliverables": [
@@ -548,7 +552,7 @@
           "Relatório de Análise do Consumidor — demografia, psicografia, comportamentos",
           "Relatório de Panorama Competitivo — mapa de posicionamento, benchmarks de preços",
           "Painel de Personas — 6, 12 ou 20 buyer personas (níveis Mini/Standard/Premium)",
-          "Custo padrão do operador: $900 / $1.050 / $1.200 (Mini/Standard/Premium)"
+          "Custo de plataforma para operadores: $900 / $1.050 / $1.200 (Mini/Standard/Premium)"
         ],
         "link": "/research-platform"
       },
@@ -557,7 +561,8 @@
         "for": "Marcas e Agências · Expansão de Mercado",
         "name": "GoGlobal Viability Analysis",
         "desc": "Inteligência de entrada no mercado para qualquer empresa planejando expandir para um novo mercado. CVE Score proprietário, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap por fases.",
-        "price": "Custo padrão: $600",
+        "price": "Seu custo de plataforma: $600 (complemento ao Market Research)",
+        "clientPrice": "Preço sugerido ao cliente: $2.000",
         "delivery": "Operadores geralmente entregam em 2 semanas · Inclui Market Research",
         "ctaLabel": "Ver Detalhes do Relatório →",
         "deliverables": [
@@ -577,7 +582,8 @@
         "name": "Scale Assessment",
         "tagline": "Crescimento é o que te venderam. Escala é o que você realmente precisa.",
         "desc": "Para marcas estabelecidas em pontos de inflexão estratégicos. Responde se você está construído para escalar de forma durável — e o que precisa construir primeiro se não estiver.",
-        "price": "Custo padrão: $1.200",
+        "price": "Seu custo de plataforma: $1.200 (complemento ao Market Research)",
+        "clientPrice": "Preço sugerido ao cliente: $4.000",
         "delivery": "Operadores geralmente entregam em 2 semanas · Inclui Market Research",
         "ctaLabel": "Ver Detalhes do Assessment →",
         "deliverables": [
@@ -597,7 +603,8 @@
         "name": "Mapas de Jornada do Cliente",
         "tagline": "Veja exatamente onde sua marca conecta — e onde perde pessoas.",
         "desc": "Mapas de jornada específicos por marca mostrando como cada persona se move do awareness à advocacy — e onde os touchpoints da marca se alinham, falham ou criam fricção.",
-        "price": "Custo padrão: $150 por persona",
+        "price": "Seu custo de plataforma: $150/persona (complemento ao Market Research)",
+        "clientPrice": "Preço sugerido ao cliente: $500/persona",
         "delivery": "Operadores geralmente entregam em 7 dias úteis · Inclui Market Research",
         "ctaLabel": "Ver Detalhes dos Mapas de Jornada →",
         "deliverables": [
@@ -614,7 +621,8 @@
         "name": "Focus Groups Virtuais",
         "tagline": "Teste qualquer conceito contra seu público real — em horas, não semanas.",
         "desc": "Sessões de focus group com IA que testam conceitos, mensagens, packaging, preços ou posicionamento contra o painel completo de personas. Votos de preferência, citações textuais e insights estratégicos.",
-        "price": "Custo padrão: $900/sessão · +$600 pack de re-teste",
+        "price": "Seu custo de plataforma: $900/sessão · +$600 re-teste (complemento ao Market Research)",
+        "clientPrice": "Preço sugerido ao cliente: $3.000/sessão",
         "delivery": "Operadores geralmente entregam em 7 dias úteis · Inclui Market Research",
         "ctaLabel": "Ver Detalhes dos Focus Groups →",
         "deliverables": [

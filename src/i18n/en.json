@@ -515,7 +515,8 @@
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Decision-grade intelligence.\nFixed scope. Fixed price.",
-    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. All prices shown are standard operator platform costs. You set the client price.",
+    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. This page is for operators delivering through the Soundcheck platform. Prices shown are your platform cost, not what you charge clients.",
+    "operatorNotice": "Prices on this page are operator platform costs — what you pay to generate the research. You set the client price.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -527,9 +528,11 @@
     "foundationLabel": "The Foundation · Every Engagement Starts Here",
     "addOnsLabel": "Requires Market Research",
     "addOnsTitle": "Build on top of your research.",
-    "ctaTitle": "Ready to get started?",
-    "ctaSub": "Tell us what you're working on. We'll match you to the right product and timeline — whether you're buying directly or delivering through your agency.",
+    "ctaTitle": "Ready to deliver research to your clients?",
+    "ctaSub": "Tell us what your client needs. We'll match you to the right product and timeline. If you're a brand looking for research, connect with one of our operators — they deliver under their own brand, powered by Soundcheck.",
     "ctaButton": "Brief a Product →",
+    "clientNote": "Looking for market research for your business? Our operators deliver these products under their own brand. Contact us and we'll connect you with the right partner.",
+    "clientNoteLink": "Contact us →",
     "items": [
       {
         "num": "01",
@@ -537,7 +540,8 @@
         "name": "Market Research",
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
-        "price": "Standard cost: $900 / $1,050 / $1,200 (Mini / Standard / Premium)",
+        "price": "Your platform cost: $900 / $1,050 / $1,200 (Mini / Standard / Premium)",
+        "clientPrice": "Suggested end-client price: $3,000 / $3,500 / $4,000",
         "delivery": "Operators usually deliver in 1 week",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
@@ -545,7 +549,7 @@
           "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
           "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
           "Persona Panel — 6, 12, or 20 research-grounded buyer personas (Mini/Standard/Premium tiers)",
-          "Standard operator cost: $900 / $1,050 / $1,200 (Mini/Standard/Premium)"
+          "Operator platform cost: $900 / $1,050 / $1,200 (Mini/Standard/Premium)"
         ],
         "link": "/research-platform"
       },
@@ -554,7 +558,8 @@
         "for": "Operators & Brands · Market Expansion",
         "name": "GoGlobal Viability Analysis",
         "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
-        "price": "Standard cost: $600",
+        "price": "Your platform cost: $600 (add-on to Market Research)",
+        "clientPrice": "Suggested end-client price: $2,000",
         "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
@@ -574,7 +579,8 @@
         "name": "Scale Assessment",
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
         "desc": "For established brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
-        "price": "Standard cost: $1,200",
+        "price": "Your platform cost: $1,200 (add-on to Market Research)",
+        "clientPrice": "Suggested end-client price: $4,000",
         "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
@@ -595,7 +601,8 @@
         "name": "Customer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Attaches to a completed Market Research.",
-        "price": "Standard cost: $150/persona",
+        "price": "Your platform cost: $150/persona (add-on to Market Research)",
+        "clientPrice": "Suggested end-client price: $500/persona",
         "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
@@ -612,7 +619,8 @@
         "name": "Virtual Focus Groups",
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
         "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Add a re-test pack for iterative testing.",
-        "price": "Standard cost: $900/session · +$600 re-test",
+        "price": "Your platform cost: $900/session · +$600 re-test (add-on to Market Research)",
+        "clientPrice": "Suggested end-client price: $3,000/session",
         "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
         "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
