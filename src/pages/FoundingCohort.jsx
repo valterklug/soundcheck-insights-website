@@ -190,79 +190,93 @@ export default function FoundingCohort() {
             </div>
 
             {/* Column Headers */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: 0 }} className="econ-grid">
-              <div style={{ padding: '12px 14px', background: 'rgba(255,255,255,0.01)' }} />
+            <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr', gap: 0 }} className="econ-grid">
+              <div style={{ padding: '12px 10px', background: 'rgba(255,255,255,0.01)' }} />
               <div style={{
-                padding: '12px 14px', background: 'rgba(255,255,255,0.04)',
-                border: '1px solid rgba(255,255,255,0.08)', textAlign: 'center',
+                padding: '12px 8px', background: 'rgba(232,71,42,0.08)',
+                border: '1px solid rgba(232,71,42,0.2)', textAlign: 'center',
               }}>
-                <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.5)', fontFamily: 'IBM Plex Sans, sans-serif' }}>
-                  {t('foundingCohort.mathColStandard')}
+                <div style={{ fontSize: 9, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--orange)', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                  {t('foundingCohort.mathColTest')}
                 </div>
               </div>
               <div style={{
-                padding: '12px 14px', background: 'rgba(232,71,42,0.06)',
+                padding: '12px 8px', background: 'rgba(232,71,42,0.06)',
                 border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center',
               }}>
-                <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--orange)', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                <div style={{ fontSize: 9, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--orange)', fontFamily: 'IBM Plex Sans, sans-serif' }}>
                   {t('foundingCohort.mathColFounding')}
                 </div>
               </div>
               <div style={{
-                padding: '12px 14px', background: 'rgba(45,212,191,0.06)',
+                padding: '12px 8px', background: 'rgba(45,212,191,0.06)',
                 border: '1px solid rgba(45,212,191,0.15)', textAlign: 'center',
               }}>
-                <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#2DD4BF', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                <div style={{ fontSize: 9, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#2DD4BF', fontFamily: 'IBM Plex Sans, sans-serif' }}>
                   {t('foundingCohort.mathColOnboarding')}
                 </div>
               </div>
               <div style={{
-                padding: '12px 14px', background: 'rgba(0,196,212,0.06)',
+                padding: '12px 8px', background: 'rgba(0,196,212,0.06)',
                 border: '1px solid rgba(0,196,212,0.15)', textAlign: 'center',
               }}>
-                <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#00C4D4', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                <div style={{ fontSize: 9, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#00C4D4', fontFamily: 'IBM Plex Sans, sans-serif' }}>
                   {t('foundingCohort.mathColForLife')}
+                </div>
+              </div>
+              <div style={{
+                padding: '12px 8px', background: 'rgba(255,255,255,0.04)',
+                border: '1px solid rgba(255,255,255,0.08)', textAlign: 'center',
+              }}>
+                <div style={{ fontSize: 9, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)', fontFamily: 'IBM Plex Sans, sans-serif' }}>
+                  {t('foundingCohort.mathColStandard')}
                 </div>
               </div>
             </div>
 
             {/* Rows */}
-            {t('foundingCohort.mathRows', { returnObjects: true }).map(([label, std, founding, onboarding, forLife], i) => (
-              <div key={i} style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: 0, marginBottom: 1 }} className="econ-grid">
-                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center' }}>
+            {t('foundingCohort.mathRows', { returnObjects: true }).map(([label, test, next2, onboarding, forLife, standard], i) => (
+              <div key={i} style={{ display: 'grid', gridTemplateColumns: '1.5fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr', gap: 0, marginBottom: 1 }} className="econ-grid">
+                <div style={{ padding: '11px 10px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center' }}>
                   <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: 'rgba(255,255,255,0.45)' }}>{label}</span>
                 </div>
-                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'rgba(255,255,255,0.6)' }}>{std}</span>
+                <div style={{ padding: '11px 8px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700, color: 'var(--orange)' }}>{test}</span>
                 </div>
-                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#fff' }}>{founding}</span>
+                <div style={{ padding: '11px 8px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#fff' }}>{next2}</span>
                 </div>
-                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ padding: '11px 8px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#2DD4BF' }}>{onboarding}</span>
                 </div>
-                <div style={{ padding: '11px 14px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ padding: '11px 8px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600, color: '#00C4D4' }}>{forLife}</span>
+                </div>
+                <div style={{ padding: '11px 8px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'rgba(255,255,255,0.4)' }}>{standard}</span>
                 </div>
               </div>
             ))}
 
             {/* Highlight row */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr 1fr 1fr 1fr', gap: 0, marginTop: 1 }} className="econ-grid">
-              <div style={{ padding: '14px 14px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', display: 'flex', alignItems: 'center' }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, color: 'var(--orange)' }}>{t('foundingCohort.mathEffectiveRate')}</span>
+            <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr', gap: 0, marginTop: 1 }} className="econ-grid">
+              <div style={{ padding: '14px 10px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', display: 'flex', alignItems: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 600, color: 'var(--orange)' }}>{t('foundingCohort.mathEffectiveRate')}</span>
               </div>
-              <div style={{ padding: '14px 14px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 500, color: 'rgba(255,255,255,0.6)' }}>{t('foundingCohort.mathRateStandard')}</span>
+              <div style={{ padding: '14px 8px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700, color: 'var(--orange)' }}>{t('foundingCohort.mathRateTest')}</span>
               </div>
-              <div style={{ padding: '14px 14px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: 'var(--orange)' }}>{t('foundingCohort.mathRateFounding')}</span>
+              <div style={{ padding: '14px 8px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700, color: 'var(--orange)' }}>{t('foundingCohort.mathRateFounding')}</span>
               </div>
-              <div style={{ padding: '14px 14px', background: 'rgba(45,212,191,0.08)', border: '1px solid rgba(45,212,191,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: '#2DD4BF' }}>{t('foundingCohort.mathRateOnboarding')}</span>
+              <div style={{ padding: '14px 8px', background: 'rgba(45,212,191,0.08)', border: '1px solid rgba(45,212,191,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700, color: '#2DD4BF' }}>{t('foundingCohort.mathRateOnboarding')}</span>
               </div>
-              <div style={{ padding: '14px 14px', background: 'rgba(0,196,212,0.08)', border: '1px solid rgba(0,196,212,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 700, color: '#00C4D4' }}>{t('foundingCohort.mathRateForLife')}</span>
+              <div style={{ padding: '14px 8px', background: 'rgba(0,196,212,0.08)', border: '1px solid rgba(0,196,212,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 700, color: '#00C4D4' }}>{t('foundingCohort.mathRateForLife')}</span>
+              </div>
+              <div style={{ padding: '14px 8px', background: 'rgba(232,71,42,0.08)', border: '1px solid rgba(232,71,42,0.15)', textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 500, color: 'rgba(255,255,255,0.4)' }}>{t('foundingCohort.mathRateStandard')}</span>
               </div>
             </div>
 

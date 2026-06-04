@@ -2072,44 +2072,51 @@
     ],
     "pricingLabel": "Precios del Operador Fundador",
     "pricingTitle": "Tu costo por proyecto. Tú defines el precio al cliente.",
-    "pricingDesc": "Pagas un fee fijo de plataforma por producto. Cobra a tu cliente lo que el proyecto vale. Quédate con la diferencia. Los operadores fundadores comienzan con el menor costo que jamás ofreceremos, y mejora con el tiempo.",
+    "pricingDesc": "Pagas una tarifa fija de plataforma por producto. Cobra a tu cliente lo que el proyecto valga. Quédate con la diferencia. Los Founding Operators comienzan con un proyecto de prueba gratuito y progresan a través de niveles con descuento durante un onboarding de cuatro semanas con guía personal de Valter.",
     "benefits": [
       {
+        "stat": "Gratis",
+        "title": "Tu primer proyecto",
+        "desc": "Tu primer proyecto es por nuestra cuenta. Prueba la plataforma con un proyecto real de cliente — costo cero, riesgo cero. Aprende todo el flujo de trabajo con la guía personal de Valter: intake, generación, validación y entrega."
+      },
+      {
         "stat": "1/3 del estándar",
-        "title": "Tus primeros 2 proyectos",
-        "desc": "Tu costo de plataforma comienza en un tercio de la tarifa estándar. Un GoGlobal Viability Analysis te cuesta $200 (sumado al costo del Market Research). Los operadores estándar pagan $600. Sin tarifa de activación."
+        "title": "Tus próximos 2 proyectos",
+        "desc": "Tu costo de plataforma baja a un tercio de la tarifa estándar. Un GoGlobal Viability Analysis te cuesta $200 (sumado al costo del Market Research). Los operadores estándar pagan $600. Sin cuota de configuración."
       },
       {
         "stat": "Mitad del estándar",
-        "title": "Durante el onboarding (4 semanas)",
-        "desc": "Después de tus primeros dos proyectos, tu costo pasa a la mitad de la tarifa estándar por el resto de tu período de onboarding de 4 semanas."
+        "title": "Resto del onboarding (4 semanas)",
+        "desc": "Después de tus primeros tres proyectos, tu costo pasa a la mitad de la tarifa estándar durante el resto de tu período de onboarding de 4 semanas. Este también es el momento de compartir feedback y reportar bugs para ayudarnos a mejorar la plataforma."
       },
       {
-        "stat": "20% bajo el estándar",
+        "stat": "20% menos que el estándar",
         "title": "Después del onboarding, de por vida",
-        "desc": "Tu costo permanente de plataforma se fija en 20% por debajo del estándar. No por un plazo de contrato. No hasta una revisión de precios. Esta tarifa se congela a los precios de hoy y nunca aumenta. Solo esta primera cohorte la obtiene."
+        "desc": "Tu costo permanente de plataforma se fija en 20% menos que el estándar. No por un período de contrato. No hasta una revisión de precios. Esta tarifa se congela a los precios de hoy y nunca aumenta. Solo esta primera cohorte lo obtiene."
       }
     ],
     "mathLabel": "Las Cuentas",
     "mathTitle": "Cómo se ve un proyecto en dólares.",
     "mathDesc": "Toma un proyecto típico: Market Research Standard + GoGlobal Viability Analysis. Generas la investigación en la plataforma. Cobras a tu cliente. Te quedas con todo lo que supere tu costo de plataforma.",
     "mathTableHeader": "MR Standard + GoGlobal",
-    "mathColStandard": "Operador Estándar",
-    "mathColFounding": "Founding (primeros 2)",
-    "mathColOnboarding": "Onboarding (4 semanas)",
-    "mathColForLife": "Después del Onboarding (de por vida)",
+    "mathColTest": "Prueba Inicial",
+    "mathColFounding": "Próximos 2 Proyectos",
+    "mathColOnboarding": "Onboarding (4 sem.)",
+    "mathColForLife": "Después del Onboarding",
+    "mathColStandard": "Estándar",
     "mathRows": [
-      ["Tu costo de plataforma", "$1,650", "$550", "$825", "$1,320"],
-      ["Tú cobras a tu cliente", "$5,500+", "$5,500+", "$5,500+", "$5,500+"],
-      ["Tú te quedas con la diferencia", "$3,850+", "$4,950+", "$4,675+", "$4,180+"],
-      ["Tu inversión de tiempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
+      ["Tu costo de plataforma", "$0", "$550", "$825", "$1.320", "$1.650"],
+      ["Tú cobras a tu cliente", "$5.500+", "$5.500+", "$5.500+", "$5.500+", "$5.500+"],
+      ["Tú te quedas con la diferencia", "$5.500+", "$4.950+", "$4.675+", "$4.180+", "$3.850+"],
+      ["Tu inversión de tiempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
     ],
     "mathEffectiveRate": "Tarifa por hora efectiva (~5h)",
+    "mathRateTest": "~$1.100/h",
     "mathRateStandard": "~$770/hr",
     "mathRateFounding": "~$990/hr",
     "mathRateOnboarding": "~$935/h",
     "mathRateForLife": "~$836/h",
-    "mathFootnote": "Primeros 2 proyectos a 1/3 del costo estándar. Resto del onboarding (4 semanas) a la mitad del estándar. Cada proyecto después del onboarding: 20% bajo el estándar, fijado de por vida. Tiempo del operador: ~1 hora intake + ~4 horas validación. La plataforma genera la base de investigación en menos de 24 horas.",
+    "mathFootnote": "Primer proyecto gratis. Próximos 2 proyectos a 1/3 del costo estándar. Resto del onboarding (4 semanas) a mitad del estándar. Cada proyecto después del onboarding: 20% menos que el estándar, fijado de por vida. Tiempo del operador: ~1 hora de intake + ~4 horas de validación. La plataforma genera la base de investigación en menos de 24 horas.",
     "whyLabel": "Por Qué Esta Cohorte",
     "whyTitle": "Tres razones para aplicar ahora.",
     "whyReasons": [
@@ -2130,7 +2137,7 @@
       }
     ],
     "toolkitLabel": "Tu Kit de Productos",
-    "toolkitTitle": "Cinco productos. Tú generas. Tú defines el precio. Tú entregas.",
+    "toolkitTitle": "Seis productos. Tú generas. Tú pones el precio. Tú entregas.",
     "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Generas la investigación en la plataforma, la validas con tu expertise y entregas con tu marca. Estos son tus costos de plataforma como Founding Operator después del período de onboarding — fijados en 20% menos que el estándar, de por vida.",
     "toolkitItems": [
       {
@@ -2167,6 +2174,13 @@
         "cost": "Tu costo: $720",
         "sells": "Clientes pagan $3,000+",
         "color": "#FBBF24"
+      },
+      {
+        "label": "Add-on",
+        "name": "Monthly Updates",
+        "cost": "Tu costo: $200/mes por proyecto",
+        "sells": "Clientes pagan $500+/mes",
+        "color": "#38BDF8"
       }
     ],
     "toolkitTypical": "Proyecto típico: $5K–$13K precio al cliente. Tu costo de plataforma: $1,200–$3,200. Tú te quedas con la diferencia.",
@@ -2193,7 +2207,7 @@
     "faqItems": [
       {
         "q": "¿Necesito pagar algo por adelantado?",
-        "a": "No. No hay tarifa de activación para Operadores Fundadores. Pagas solo el costo de plataforma por producto, por proyecto, cuando entregas. Sin suscripción, sin compromiso mínimo, sin inversión inicial."
+        "a": "No. No hay cuota de configuración, y tu primer proyecto es completamente gratis. Después de eso, pagas solo el costo de plataforma por producto, por proyecto, cuando entregas. Sin suscripción, sin compromiso mínimo, sin inversión inicial."
       },
       {
         "q": "¿Qué significa realmente 'de por vida'?",
@@ -2213,7 +2227,7 @@
       },
       {
         "q": "¿Qué tipo de soporte recibo?",
-        "a": "Acceso directo a Valter Klug (fundador, Operador Cero) para tus primeros dos proyectos. Eso significa guía personalizada durante intake, validación y entrega. Más acceso al grupo de pares de la cohorte y un proceso de onboarding dedicado."
+        "a": "Acceso directo a Valter Klug (fundador, Operator Zero) durante todo tu onboarding de cuatro semanas. Eso significa demos personales, guía práctica en intake, validación y entrega, y soporte dedicado. Más acceso al grupo de pares de la cohorte. La fase de onboarding también es tu momento para compartir feedback y reportar bugs."
       },
       {
         "q": "¿Puedo poner mi propio precio?",
@@ -2221,7 +2235,7 @@
       },
       {
         "q": "¿En qué se diferencia del tier Trial?",
-        "a": "Los operadores Trial pagan un costo de plataforma más alto por proyecto (aproximadamente 17% por encima del estándar) y están limitados a 2 proyectos antes de pasar a Standard. Los Operadores Fundadores comienzan a 1/3 del costo estándar sin setup, pasan a la mitad durante el onboarding, y luego fijan 20% por debajo del estándar de por vida. La Cohorte Fundadora es un trato significativamente mejor, e incluye acceso al fundador y soporte personalizado que el Trial no incluye."
+        "a": "Los operadores Trial pagan un costo de plataforma más alto por proyecto (aproximadamente 17% sobre el estándar) y están limitados a 2 proyectos antes de pasar a Standard. Los Founding Operators obtienen un primer proyecto gratis, luego 1/3 del estándar para los siguientes dos, mitad del estándar durante el resto del onboarding, y fijan 20% menos que el estándar de por vida. La Founding Cohort es un trato significativamente mejor, e incluye acceso al fundador, demos personales y soporte práctico que Trial no incluye."
       }
     ],
     "formLabel": "Aplicar Ahora",
@@ -2229,7 +2243,7 @@
     "formDesc": "10 plazas. Revisamos cada aplicación personalmente. Si tienes clientes que necesitan inteligencia de mercado y estás listo para entregar, cuéntanos sobre tu práctica.",
     "formButton": "Enviar Aplicación →",
     "ctaTitle": "10 plazas. Esta tarifa no se repetirá.",
-    "ctaSub": "La Cohorte de Operadores Fundadores es una oferta única. Comienza a 1/3 del costo estándar de plataforma. Fija 20% por debajo del estándar de por vida. Una vez que las 10 plazas se llenen, la próxima cohorte comienza con tarifas estándar.",
+    "ctaSub": "La Founding Operator Cohort es una oferta única. Primer proyecto gratis. Fija 20% menos que el estándar de por vida. Cuatro semanas de onboarding personal con Valter. Una vez que los 10 asientos se llenen, la próxima cohorte comienza a tarifas estándar.",
     "ctaButton": "Aplicar Ahora →"
   }
 }

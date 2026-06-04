@@ -2043,17 +2043,22 @@
     ],
     "pricingLabel": "Founding Operator Pricing",
     "pricingTitle": "Your cost per project. You set the client price.",
-    "pricingDesc": "You pay a flat platform fee per product. Charge your client whatever the engagement is worth. Keep the difference. Founding operators start at the lowest cost we will ever offer, and it gets better over time.",
+    "pricingDesc": "You pay a flat platform fee per product. Charge your client whatever the engagement is worth. Keep the difference. Founding operators start with a free test project and progress through discounted tiers during a four-week onboarding with personal guidance from Valter.",
     "benefits": [
       {
+        "stat": "Free",
+        "title": "Your first project",
+        "desc": "Your first project is on us. Test the platform with a real client engagement — zero cost, zero risk. Learn the full workflow with Valter's personal guidance: intake, generation, validation, and delivery."
+      },
+      {
         "stat": "1/3 of standard",
-        "title": "Your first 2 projects",
-        "desc": "Your platform cost starts at one-third of the standard rate. A GoGlobal Viability Analysis costs you $200 (added to the market research cost). Standard operators pay $600. Zero setup fee."
+        "title": "Your next 2 projects",
+        "desc": "Your platform cost drops to one-third of the standard rate. A GoGlobal Viability Analysis costs you $200 (added to the market research cost). Standard operators pay $600. Zero setup fee."
       },
       {
         "stat": "Half of standard",
-        "title": "During onboarding (4 weeks)",
-        "desc": "After your first two projects, your cost moves to half of the standard rate for the rest of your 4-week onboarding period."
+        "title": "Remaining onboarding (4 weeks)",
+        "desc": "After your first three projects, your cost moves to half of the standard rate for the rest of your 4-week onboarding period. This is also when you share feedback and report bugs to help us refine the platform."
       },
       {
         "stat": "20% off standard",
@@ -2065,20 +2070,23 @@
     "mathTitle": "What a single engagement looks like in dollars.",
     "mathDesc": "Take a typical engagement: Market Research Standard + GoGlobal Viability Analysis. You generate the research on the platform. You charge your client. You keep everything above your platform cost.",
     "mathTableHeader": "MR Standard + GoGlobal",
-    "mathColStandard": "Standard Operator",
-    "mathColFounding": "Founding (first 2)",
-    "mathColOnboarding": "Onboarding (4 weeks)",
-    "mathColForLife": "After Onboarding (for life)",
+    "mathColTest": "First Test",
+    "mathColFounding": "Next 2 Projects",
+    "mathColOnboarding": "Onboarding (4 wks)",
+    "mathColForLife": "After Onboarding",
+    "mathColStandard": "Standard",
     "mathRows": [
       [
         "Your platform cost",
-        "$1,650",
+        "$0",
         "$550",
         "$825",
-        "$1,320"
+        "$1,320",
+        "$1,650"
       ],
       [
         "You charge your client",
+        "$5,500+",
         "$5,500+",
         "$5,500+",
         "$5,500+",
@@ -2086,13 +2094,15 @@
       ],
       [
         "You keep the difference",
-        "$3,850+",
+        "$5,500+",
         "$4,950+",
         "$4,675+",
-        "$4,180+"
+        "$4,180+",
+        "$3,850+"
       ],
       [
         "Your time investment",
+        "~5 hours",
         "~5 hours",
         "~5 hours",
         "~5 hours",
@@ -2100,11 +2110,12 @@
       ]
     ],
     "mathEffectiveRate": "Effective hourly rate (~5h)",
-    "mathRateStandard": "~$770/hr",
+    "mathRateTest": "~$1,100/hr",
     "mathRateFounding": "~$990/hr",
     "mathRateOnboarding": "~$935/hr",
     "mathRateForLife": "~$836/hr",
-    "mathFootnote": "First 2 projects at 1/3 of standard cost. Remaining onboarding (4 weeks) at half of standard. Every project after onboarding: 20% off standard, locked for life. Operator time: ~1 hour intake + ~4 hours validation. Platform generates the research base in under 24 hours.",
+    "mathRateStandard": "~$770/hr",
+    "mathFootnote": "First project free. Next 2 projects at 1/3 of standard. Remaining onboarding (4 weeks) at half of standard. Every project after onboarding: 20% off standard, locked for life. Operator time: ~1 hour intake + ~4 hours validation. Platform generates the research base in under 24 hours.",
     "whyLabel": "Why This Cohort",
     "whyTitle": "Three reasons to apply now.",
     "whyReasons": [
@@ -2125,7 +2136,7 @@
       }
     ],
     "toolkitLabel": "Your Product Toolkit",
-    "toolkitTitle": "Five products. You generate. You price. You deliver.",
+    "toolkitTitle": "Six products. You generate. You price. You deliver.",
     "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. You generate the research on the platform, validate it with your expertise, and deliver under your brand. These are your founding platform costs after the onboarding period — locked at 20% off standard, for life.",
     "toolkitItems": [
       {
@@ -2162,6 +2173,13 @@
         "cost": "Your cost: $720",
         "sells": "Clients pay $3,000+",
         "color": "#FBBF24"
+      },
+      {
+        "label": "Add-on",
+        "name": "Monthly Updates",
+        "cost": "Your cost: $200/mo per project",
+        "sells": "Clients pay $500+/mo",
+        "color": "#38BDF8"
       }
     ],
     "toolkitTypical": "Typical engagement: $5K–$13K client price. Your platform cost: $1,200–$3,200. You keep the difference.",
@@ -2188,7 +2206,7 @@
     "faqItems": [
       {
         "q": "Do I need to pay anything upfront?",
-        "a": "No. There is no setup fee for Founding Operators. You pay only the platform cost per product, per project, when you deliver. No subscription, no minimum commitment, no upfront investment."
+        "a": "No. There is no setup fee, and your first project is completely free. After that, you pay only the platform cost per product, per project, when you deliver. No subscription, no minimum commitment, no upfront investment."
       },
       {
         "q": "What does 'for life' actually mean?",
@@ -2208,7 +2226,7 @@
       },
       {
         "q": "What kind of support do I get?",
-        "a": "Direct access to Valter Klug (founder, Operator Zero) for your first two engagements. That means hands-on guidance through intake, validation, and delivery. Plus cohort peer group access and a dedicated onboarding process."
+        "a": "Direct access to Valter Klug (founder, Operator Zero) throughout your four-week onboarding. That means personal demos, hands-on guidance through intake, validation, and delivery, and dedicated support. Plus cohort peer group access. The onboarding phase is also your time to share feedback and report bugs."
       },
       {
         "q": "Can I set my own pricing?",
@@ -2216,7 +2234,7 @@
       },
       {
         "q": "How is this different from a Trial tier?",
-        "a": "Trial operators pay a higher platform cost per project (about 17% above standard) and are limited to 2 projects before graduating to Standard. Founding Operators start at 1/3 of the standard cost with zero setup, move to half during onboarding, then lock 20% below standard for life. The Founding Cohort is a significantly better deal, and it comes with founder access and hands-on support that Trial does not include."
+        "a": "Trial operators pay a higher platform cost per project (about 17% above standard) and are limited to 2 projects before graduating to Standard. Founding Operators get a free first project, then 1/3 of standard for the next two, half of standard during the rest of onboarding, and lock 20% below standard for life. The Founding Cohort is a significantly better deal, and it comes with founder access, personal demos, and hands-on support that Trial does not include."
       }
     ],
     "formLabel": "Apply Now",
@@ -2224,7 +2242,7 @@
     "formDesc": "10 seats. We review every application personally. If you have clients who need market intelligence and you are ready to deliver, tell us about your practice.",
     "formButton": "Submit Application →",
     "ctaTitle": "10 seats. This rate will not be repeated.",
-    "ctaSub": "The Founding Operator Cohort is a one-time offer. Start at 1/3 of the standard platform cost. Lock 20% below standard for life. Once the 10 seats are filled, the next cohort starts at standard rates.",
+    "ctaSub": "The Founding Operator Cohort is a one-time offer. First project free. Lock 20% below standard for life. Four weeks of personal onboarding with Valter. Once the 10 seats are filled, the next cohort starts at standard rates.",
     "ctaButton": "Apply Now →"
   }
 }
