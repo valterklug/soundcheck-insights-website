@@ -685,50 +685,7 @@
     ],
     "valterQuote": "\"I built this platform by running every report myself first. I review every platform access inquiry personally — and walk new operators through their first report.\"",
     "preferTalk": "Prefer to talk first?",
-    "reachOut": "Reach out directly or connect on LinkedIn.",
-    "commercialRules": {
-      "label": "Commercial Engagement Rules",
-      "title": "Transparent operator economics.\nNo surprises.",
-      "subtitle": "Soundcheck takes a percentage of MSRP per project. Operators keep all upside above MSRP — if your client relationship supports a higher price, that margin is yours.",
-      "rules": [
-        {
-          "rule": "Trial",
-          "scenario": "First-Time Operator",
-          "desc": "No setup fee, no annual commitment. 2 full client engagements to evaluate the platform. Trial fees credit toward setup if you convert within 90 days.",
-          "soundcheck": "35% of MSRP",
-          "partner": "65% of MSRP"
-        },
-        {
-          "rule": "Standard",
-          "scenario": "Standard Partner",
-          "desc": "$2,500 setup fee. $6,000 annual minimum (prepaid quarterly at $1,500). Full platform access, all 5 products, white-label branding.",
-          "soundcheck": "30% of MSRP",
-          "partner": "70% of MSRP"
-        },
-        {
-          "rule": "Direct",
-          "scenario": "Direct Sale (Soundcheck-led)",
-          "desc": "Soundcheck runs the engagement directly. End customer pays MSRP. Partners who refer direct clients earn a 20% finder's fee for 12 months.",
-          "soundcheck": "80% of MSRP",
-          "partner": "20% referral fee"
-        }
-      ],
-      "setupFees": {
-        "title": "Partnership Terms",
-        "reports": "$2,500 one-time setup fee",
-        "vfg": "Annual minimum: $6,000",
-        "minimum": "Prepaid quarterly — unused balance rolls forward within contract year",
-        "term": "Per-project rate drawn against prepaid quarterly balance",
-        "termination": "Trial: 2 engagements, no commitment. Convert within 90 days for setup credit."
-      },
-      "principles": [
-        "Soundcheck's share is calculated on published MSRP, not on the operator's selling price.",
-        "Operators retain 100% of any margin captured above MSRP.",
-        "Below-MSRP selling: operator absorbs the discount, Soundcheck share stays at MSRP rate.",
-        "Single invoicing — one party bills the client. Simple terms.",
-        "Every engagement starts with Market Research. Downstream products attach to it."
-      ]
-    }
+    "reachOut": "Reach out directly or connect on LinkedIn."
   },
   "ourPartners": {
     "heroLabel": "Our Partner Network",

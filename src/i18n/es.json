@@ -687,50 +687,7 @@
     ],
     "valterQuote": "\"Construí esta plataforma ejecutando cada informe personalmente. Analizo cada solicitud de acceso a la plataforma — y guío a nuevos operadores en la elaboración de su primer informe.\"",
     "preferTalk": "¿Prefiere hablar primero?",
-    "reachOut": "Comuníquese directamente o conéctese en LinkedIn.",
-    "commercialRules": {
-      "label": "Reglas de Participación Comercial",
-      "title": "Economía de colaboración transparente.\nSin sorpresas.",
-      "subtitle": "Todos los porcentajes de ingresos se aplican a ingresos netos (facturación bruta menos costos directos del proyecto). Una factura al cliente. Términos simples.",
-      "rules": [
-        {
-          "rule": "Trial",
-          "scenario": "Operador Primera Vez",
-          "desc": "Sin tarifa de setup, sin compromiso anual. 2 proyectos completos para evaluar la plataforma. Los fees de trial se acreditan al setup si convierte en 90 días.",
-          "soundcheck": "35% del MSRP",
-          "partner": "65% del MSRP"
-        },
-        {
-          "rule": "Standard",
-          "scenario": "Socio Estándar",
-          "desc": "Tarifa de setup de $2,500. Mínimo anual de $6,000 (prepago trimestral a $1,500). Acceso completo a la plataforma, todos los 5 productos, marca blanca.",
-          "soundcheck": "30% del MSRP",
-          "partner": "70% del MSRP"
-        },
-        {
-          "rule": "Directo",
-          "scenario": "Venta Directa (Soundcheck)",
-          "desc": "Soundcheck gestiona el compromiso directamente. El cliente paga MSRP. Los socios que refieran clientes directos reciben una comisión del 20% durante 12 meses.",
-          "soundcheck": "80% del MSRP",
-          "partner": "20% comisión"
-        }
-      ],
-      "setupFees": {
-        "title": "Términos de Asociación",
-        "reports": "Tarifa de setup única de $2,500",
-        "vfg": "Mínimo anual: $6,000",
-        "minimum": "Prepago trimestral — el saldo no utilizado se acumula dentro del año del contrato",
-        "term": "Tarifa por proyecto descontada del saldo trimestral prepagado",
-        "termination": "Trial: 2 proyectos, sin compromiso. Convierta en 90 días para crédito de setup."
-      },
-      "principles": [
-        "La participación de Soundcheck se calcula sobre el MSRP publicado, no sobre el precio de venta del operador.",
-        "Los operadores retienen el 100% de cualquier margen capturado por encima del MSRP.",
-        "Venta por debajo del MSRP: el operador absorbe el descuento, la participación de Soundcheck se mantiene a la tasa del MSRP.",
-        "Facturación única — una parte factura al cliente. Términos simples.",
-        "Todo compromiso comienza con Market Research. Los productos downstream se adjuntan a ella."
-      ]
-    }
+    "reachOut": "Comuníquese directamente o conéctese en LinkedIn."
   },
   "ourPartners": {
     "heroLabel": "Nuestra red de socios",

@@ -687,50 +687,7 @@
     ],
     "valterQuote": "\"Construí esta plataforma executando cada relatório pessoalmente. Analiso cada pedido de acesso à plataforma — e guio novos operadores na confecção de seu primeiro relatório.\"",
     "preferTalk": "Prefere conversar primeiro?",
-    "reachOut": "Entre em contato diretamente ou conecte-se no LinkedIn.",
-    "commercialRules": {
-      "label": "Regras de Engajamento Comercial",
-      "title": "Economia de parceria transparente.\nSem surpresas.",
-      "subtitle": "Todos os percentuais de receita se aplicam à receita líquida (faturamento bruto menos custos diretos do projeto). Uma única fatura ao cliente. Termos simples.",
-      "rules": [
-        {
-          "rule": "Trial",
-          "scenario": "Operador Primeira Vez",
-          "desc": "Sem taxa de setup, sem compromisso anual. 2 projetos completos para avaliar a plataforma. Os fees de trial se creditam ao setup se converter em 90 dias.",
-          "soundcheck": "35% do MSRP",
-          "partner": "65% do MSRP"
-        },
-        {
-          "rule": "Standard",
-          "scenario": "Parceiro Padrão",
-          "desc": "Taxa de setup de $2.500. Mínimo anual de $6.000 (prepago trimestral a $1.500). Acesso completo à plataforma, todos os 5 produtos, white-label.",
-          "soundcheck": "30% do MSRP",
-          "partner": "70% do MSRP"
-        },
-        {
-          "rule": "Direto",
-          "scenario": "Venda Direta (Soundcheck)",
-          "desc": "Soundcheck conduz o engajamento diretamente. O cliente paga MSRP. Parceiros que indicarem clientes diretos recebem comissão de 20% por 12 meses.",
-          "soundcheck": "80% do MSRP",
-          "partner": "20% comissão"
-        }
-      ],
-      "setupFees": {
-        "title": "Termos de Parceria",
-        "reports": "Taxa de setup única de $2.500",
-        "vfg": "Mínimo anual: $6.000",
-        "minimum": "Prepago trimestral — saldo não utilizado acumula dentro do ano do contrato",
-        "term": "Taxa por projeto descontada do saldo trimestral prepago",
-        "termination": "Trial: 2 projetos, sem compromisso. Converta em 90 dias para crédito de setup."
-      },
-      "principles": [
-        "A participação da Soundcheck é calculada sobre o MSRP publicado, não sobre o preço de venda do operador.",
-        "Operadores retêm 100% de qualquer margem capturada acima do MSRP.",
-        "Venda abaixo do MSRP: o operador absorve o desconto, a participação da Soundcheck permanece na taxa do MSRP.",
-        "Faturamento único — uma parte fatura o cliente. Termos simples.",
-        "Todo engajamento começa com Market Research. Produtos downstream se vinculam a ela."
-      ]
-    }
+    "reachOut": "Entre em contato diretamente ou conecte-se no LinkedIn."
   },
   "ourPartners": {
     "heroLabel": "Nossa Rede de Parceiros",
@@ -2100,10 +2057,38 @@
     "mathColForLife": "Após Onboarding",
     "mathColStandard": "Padrão",
     "mathRows": [
-      ["Seu custo na plataforma", "$0", "$550", "$825", "$1.320", "$1.650"],
-      ["Você cobra do cliente", "$5.500+", "$5.500+", "$5.500+", "$5.500+", "$5.500+"],
-      ["Você fica com a diferença", "$5.500+", "$4.950+", "$4.675+", "$4.180+", "$3.850+"],
-      ["Seu investimento de tempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
+      [
+        "Seu custo na plataforma",
+        "$0",
+        "$550",
+        "$825",
+        "$1.320",
+        "$1.650"
+      ],
+      [
+        "Você cobra do cliente",
+        "$5.500+",
+        "$5.500+",
+        "$5.500+",
+        "$5.500+",
+        "$5.500+"
+      ],
+      [
+        "Você fica com a diferença",
+        "$5.500+",
+        "$4.950+",
+        "$4.675+",
+        "$4.180+",
+        "$3.850+"
+      ],
+      [
+        "Seu investimento de tempo",
+        "~5 horas",
+        "~5 horas",
+        "~5 horas",
+        "~5 horas",
+        "~5 horas"
+      ]
     ],
     "mathEffectiveRate": "Taxa horária efetiva (~5h)",
     "mathRateTest": "~$1.100/h",
