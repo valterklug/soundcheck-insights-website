@@ -657,35 +657,35 @@
   },
   "partner": {
     "heroLabel": "Sea Nuestro Socio",
-    "heroTitle": "Agregue Soundcheck a su práctica.\nComience con un informe.",
-    "heroSub": "Cuéntenos sobre su empresa. Le mostraremos cómo acceder a la plataforma, precios, y cómo ejecutar su primer informe — típicamente con un cliente existente en su primera semana.",
-    "formTitle": "Sobre su empresa",
-    "formSub": "Cada solicitud de acceso es analizada personalmente por Valter Klug. Si hay compatibilidad, nos pondremos en contacto en un plazo de dos días hábiles.",
+    "heroTitle": "Refiere clientes a Soundcheck.\nGana comisión. Recibe referidos.",
+    "heroSub": "¿Conoces un fundador o CMO enfrentando una decisión de mercado? Refiérelo a Soundcheck. Ganas una comisión de referido del 20% en cada proyecto, y te agregamos a nuestra red de socios recomendados — para que cuando nuestros clientes necesiten tu expertise, los enviemos a ti.",
+    "formTitle": "Conviértete en socio de referidos",
+    "formSub": "Cuéntanos sobre tu práctica y los tipos de clientes que atiendes. Valter revisa cada solicitud personalmente.",
     "submitButton": "Enviar consulta de asociación →",
     "whatHappens": "Lo que sucede a continuación",
     "steps": [
       {
         "num": "01",
-        "title": "Analizamos su solicitud",
-        "body": "En un plazo de dos días hábiles. Cada solicitud es evaluada personalmente por nuestro fundador."
+        "title": "Tú refieres un cliente",
+        "body": "Presenta a un fundador, CMO o marca que necesite investigación de mercado o inteligencia. Una intro cálida o un email compartido es todo lo que se necesita."
       },
       {
         "num": "02",
-        "title": "Discovery Call (30 min)",
-        "body": "Lo guiaremos por la plataforma, analizaremos sus clientes y recomendaremos qué producto tiene más sentido para comenzar."
+        "title": "Nosotros manejamos el proyecto",
+        "body": "Soundcheck ejecuta la investigación a través de nuestra red de operadores. Tú te mantienes informado pero no necesitas entregar nada."
       },
       {
         "num": "03",
-        "title": "Primer informe — practicando",
-        "body": "La mayoría de los socios ejecutan su primer informe en un cliente existente. Usted verá el flujo de trabajo completo en la práctica."
+        "title": "Tú ganas 20% de comisión",
+        "body": "Por cada proyecto que genere tu referido, ganas el 20% del valor del proyecto. Pagado después del pago del cliente."
       },
       {
         "num": "04",
-        "title": "Acceso a la plataforma",
-        "body": "Pague por un informe para comenzar, o cierre un paquete mensual."
+        "title": "Te listamos como socio",
+        "body": "Te agregamos a nuestra red de socios recomendados. Cuando los clientes de Soundcheck necesiten servicios que tú ofreces, los referimos a ti."
       }
     ],
-    "valterQuote": "\"Construí esta plataforma ejecutando cada informe personalmente. Analizo cada solicitud de acceso a la plataforma — y guío a nuevos operadores en la elaboración de su primer informe.\"",
+    "valterQuote": "\"Nuestros socios son especialistas en quienes confiamos. Cuando refieren clientes a nosotros, nos encargamos de la investigación. Cuando nuestros clientes necesitan su expertise, se los enviamos de vuelta. Es una relación de dos vías.\"",
     "preferTalk": "¿Prefiere hablar primero?",
     "reachOut": "Comuníquese directamente o conéctese en LinkedIn."
   },

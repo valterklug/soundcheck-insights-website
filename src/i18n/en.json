@@ -655,35 +655,35 @@
   },
   "partner": {
     "heroLabel": "Partner with Us",
-    "heroTitle": "Add Soundcheck to your practice.\nStart with one report.",
-    "heroSub": "Tell us about your company. We'll walk you through platform access, pricing, and how to run your first report — typically on an existing client within your first week.",
-    "formTitle": "Tell us about your company",
-    "formSub": "Every access request is reviewed personally by Valter. If there's a fit, you'll hear back within two business days.",
+    "heroTitle": "Refer clients to Soundcheck.\nEarn commission. Get referred back.",
+    "heroSub": "Know a founder or CMO facing a market decision? Refer them to Soundcheck. You earn a 20% referral commission on every engagement, and we add you to our recommended partner network — so when our clients need your expertise, we send them your way.",
+    "formTitle": "Become a referral partner",
+    "formSub": "Tell us about your practice and the types of clients you serve. Valter reviews every inquiry personally.",
     "submitButton": "Submit Partnership Inquiry →",
-    "whatHappens": "What Happens Next",
+    "whatHappens": "How It Works",
     "steps": [
       {
         "num": "01",
-        "title": "We review your inquiry",
-        "body": "Within two business days. Every inquiry is reviewed personally by our founder."
+        "title": "You refer a client",
+        "body": "Introduce a founder, CMO, or brand that needs market research or intelligence. A warm intro or a shared email is all it takes."
       },
       {
         "num": "02",
-        "title": "Discovery call (30 min)",
-        "body": "We walk through the platform, your client types, and which product makes most sense to start with."
+        "title": "We handle the engagement",
+        "body": "Soundcheck runs the research through our operator network. You stay in the loop but don't need to deliver anything."
       },
       {
         "num": "03",
-        "title": "First report — live practice",
-        "body": "Most operators run their first report on an existing client. You see the full workflow in practice."
+        "title": "You earn 20% commission",
+        "body": "For every engagement your referral generates, you earn 20% of the project value. Paid after client payment."
       },
       {
         "num": "04",
-        "title": "Platform access confirmed",
-        "body": "Simple, clear terms. Pay-per-report to start, or monthly access. No long-term lock-in."
+        "title": "You get listed as a partner",
+        "body": "We add you to our recommended partner network. When Soundcheck clients need services you offer, we refer them to you."
       }
     ],
-    "valterQuote": "\"I built this platform by running every report myself first. I review every platform access inquiry personally — and walk new operators through their first report.\"",
+    "valterQuote": "\"Our partners are specialists we trust. When they refer clients to us, we take care of the research. When our clients need their expertise, we send them back. It's a two-way relationship.\"",
     "preferTalk": "Prefer to talk first?",
     "reachOut": "Reach out directly or connect on LinkedIn."
   },

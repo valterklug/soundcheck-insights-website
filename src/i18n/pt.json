@@ -657,35 +657,35 @@
   },
   "partner": {
     "heroLabel": "Seja Nosso Parceiro",
-    "heroTitle": "Agregue Soundcheck à sua prática.\nComece com um relatório.",
-    "heroSub": "Conte-nos sobre sua empresa. Vamos orientá-lo sobre acesso à plataforma, preços e como executar seu primeiro relatório — geralmente em um cliente existente dentro de sua primeira semana.",
-    "formTitle": "Sobre a sua empresa",
-    "formSub": "Cada solicitação de acesso é analisada pessoalmente por Valter Klug. Se houver compatibilidade, entraremos em contato em até dois dias úteis.",
+    "heroTitle": "Indique clientes para o Soundcheck.\nGanhe comissão. Receba indicações.",
+    "heroSub": "Conhece um fundador ou CMO enfrentando uma decisão de mercado? Indique para o Soundcheck. Você ganha uma comissão de indicação de 20% em cada projeto, e nós adicionamos você à nossa rede de parceiros recomendados — para que quando nossos clientes precisarem da sua expertise, nós os enviemos para você.",
+    "formTitle": "Torne-se um parceiro de indicação",
+    "formSub": "Conte-nos sobre sua prática e os tipos de clientes que você atende. Valter revisa cada solicitação pessoalmente.",
     "submitButton": "Enviar Consulta de Parceria →",
     "whatHappens": "O que Acontece Depois",
     "steps": [
       {
         "num": "01",
-        "title": "Analisamos seu pedido",
-        "body": "Em até dois dias úteis. Cada pedido é avaliado pessoalmente pelo nosso fundador."
+        "title": "Você indica um cliente",
+        "body": "Apresente um fundador, CMO ou marca que precise de pesquisa de mercado ou inteligência. Uma apresentação calorosa ou um e-mail compartilhado é tudo o que é necessário."
       },
       {
         "num": "02",
-        "title": "Discovery Call (30 min)",
-        "body": "Vamos guiá-lo pela plataforma, analisar seus clientes e recomendar qual produto faz mais sentido para começar."
+        "title": "Nós cuidamos do projeto",
+        "body": "O Soundcheck executa a pesquisa através da nossa rede de operadores. Você se mantém informado mas não precisa entregar nada."
       },
       {
         "num": "03",
-        "title": "Primeiro relatório — praticando",
-        "body": "A maioria dos parceiros executa seu primeiro relatório com um cliente existente. Você vê o fluxo de trabalho completo na prática."
+        "title": "Você ganha 20% de comissão",
+        "body": "Para cada projeto que sua indicação gerar, você ganha 20% do valor do projeto. Pago após o pagamento do cliente."
       },
       {
         "num": "04",
-        "title": "Acesso à plataforma",
-        "body": "Termos simples e claros. Pague por um relatório para começar, ou feche um pacote mensal. Sem contrato de longo prazo."
+        "title": "Você é listado como parceiro",
+        "body": "Nós adicionamos você à nossa rede de parceiros recomendados. Quando os clientes do Soundcheck precisarem de serviços que você oferece, nós os indicamos para você."
       }
     ],
-    "valterQuote": "\"Construí esta plataforma executando cada relatório pessoalmente. Analiso cada pedido de acesso à plataforma — e guio novos operadores na confecção de seu primeiro relatório.\"",
+    "valterQuote": "\"Nossos parceiros são especialistas em quem confiamos. Quando indicam clientes para nós, cuidamos da pesquisa. Quando nossos clientes precisam da expertise deles, enviamos de volta. É uma relação de mão dupla.\"",
     "preferTalk": "Prefere conversar primeiro?",
     "reachOut": "Entre em contato diretamente ou conecte-se no LinkedIn."
   },
