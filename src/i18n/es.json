@@ -1730,15 +1730,30 @@
     "deliverables": [
       {
         "title": "Reporte de Inteligencia Estratégica",
-        "desc": "Reporte completo cubriendo las 7 secciones. PDF profesional marcado, white-labeled bajo tu marca. Cada afirmación documentada."
+        "desc": "Reporte completo cubriendo las 7 secciones. PDF profesional marcado, white-labeled bajo tu marca. Cada afirmación documentada.",
+        "items": [
+          "SRS Score con banda de confianza y veredicto",
+          "Plan por fases de 24 meses con hitos y puntos de decision",
+          "Benchmarking competitivo de preparacion para escalar"
+        ]
       },
       {
         "title": "Deck de Resumen Ejecutivo",
-        "desc": "Presentación visual condensada para liderazgo. Hallazgos clave, resultado del diagnóstico de escala, posición competitiva, y ruta recomendada."
+        "desc": "Presentación visual condensada para liderazgo. Hallazgos clave, resultado del diagnóstico de escala, posición competitiva, y ruta recomendada.",
+        "items": [
+          "Veredicto del diagnostico de escala y factores clave",
+          "Principales oportunidades y bloqueadores estructurales",
+          "Ruta estrategica recomendada con perfil de riesgo"
+        ]
       },
       {
         "title": "Sesión de Estrategia de 2 Horas",
-        "desc": "Sesión de trabajo en vivo con tu equipo de liderazgo. Repasa hallazgos, cuestiona supuestos, alinéate en próximos pasos."
+        "desc": "Sesión de trabajo en vivo con tu equipo de liderazgo. Repasa hallazgos, cuestiona supuestos, alinéate en próximos pasos.",
+        "items": [
+          "Revision de hallazgos clave y metodologia SRS",
+          "Cuestionar y validar supuestos con su equipo",
+          "Alinear acciones prioritarias y primeros pasos a 30 dias"
+        ]
       }
     ],
     "pricingLabel": "Precios y entrega",
@@ -2062,10 +2077,38 @@
     "mathColForLife": "Después del Onboarding",
     "mathColStandard": "Estándar",
     "mathRows": [
-      ["Tu costo de plataforma", "$0", "$550", "$825", "$1.320", "$1.650"],
-      ["Tú cobras a tu cliente", "$5.500+", "$5.500+", "$5.500+", "$5.500+", "$5.500+"],
-      ["Tú te quedas con la diferencia", "$5.500+", "$4.950+", "$4.675+", "$4.180+", "$3.850+"],
-      ["Tu inversión de tiempo", "~5 horas", "~5 horas", "~5 horas", "~5 horas", "~5 horas"]
+      [
+        "Tu costo de plataforma",
+        "$0",
+        "$550",
+        "$825",
+        "$1.320",
+        "$1.650"
+      ],
+      [
+        "Tú cobras a tu cliente",
+        "$5.500+",
+        "$5.500+",
+        "$5.500+",
+        "$5.500+",
+        "$5.500+"
+      ],
+      [
+        "Tú te quedas con la diferencia",
+        "$5.500+",
+        "$4.950+",
+        "$4.675+",
+        "$4.180+",
+        "$3.850+"
+      ],
+      [
+        "Tu inversión de tiempo",
+        "~5 horas",
+        "~5 horas",
+        "~5 horas",
+        "~5 horas",
+        "~5 horas"
+      ]
     ],
     "mathEffectiveRate": "Tarifa por hora efectiva (~5h)",
     "mathRateTest": "~$1.100/h",

@@ -1701,15 +1701,30 @@
     "deliverables": [
       {
         "title": "Strategic Intelligence Report",
-        "desc": "Full report covering all 7 sections. Professional branded PDF, white-labeled under your brand. Every claim sourced."
+        "desc": "Full report covering all 7 sections. Professional branded PDF, white-labeled under your brand. Every claim sourced.",
+        "items": [
+          "SRS Score with confidence band and verdict",
+          "24-month phased plan with milestones and decision gates",
+          "Competitive scale-readiness benchmarking"
+        ]
       },
       {
         "title": "Executive Summary Deck",
-        "desc": "Condensed visual presentation for leadership. Key findings, scale diagnostic result, competitive position, and recommended path."
+        "desc": "Condensed visual presentation for leadership. Key findings, scale diagnostic result, competitive position, and recommended path.",
+        "items": [
+          "Scale diagnostic verdict and key drivers",
+          "Top opportunities and structural blockers",
+          "Recommended strategic path with risk profile"
+        ]
       },
       {
         "title": "2-Hour Strategy Session",
-        "desc": "Live working session with your leadership team. Walk through findings, challenge assumptions, align on next steps."
+        "desc": "Live working session with your leadership team. Walk through findings, challenge assumptions, align on next steps.",
+        "items": [
+          "Walk through key findings and SRS methodology",
+          "Challenge and validate assumptions with your team",
+          "Align on priority actions and 30-day first moves"
+        ]
       }
     ],
     "pricingLabel": "Pricing & delivery",
