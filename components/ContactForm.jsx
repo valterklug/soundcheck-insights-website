@@ -1,0 +1,279 @@
+'use client'
+
+import { useState } from 'react'
+import { useForm } from 'react-hook-form'
+import { motion, AnimatePresence } from 'framer-motion'
+
+const FORMSUBMIT_EMAIL = 'info@soundcheckinsights.com'
+
+export default function ContactForm({ dark = false, fields = 'contact', buttonLabel = 'Send Message →', formName = 'contact' }) {
+  const [status, setStatus] = useState('idle')
+  const { register, handleSubmit, reset, formState: { errors } } = useForm()
+
+  const onSubmit = async (data) => {
+    setStatus('submitting')
+    try {
+      const res = await fetch(`https://formsubmit.co/ajax/${FORMSUBMIT_EMAIL}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          ...data,
+          _subject: `[Soundcheck] ${formName} form - ${data.name}`,
+          _template: 'table',
+        }),
+      })
+      if (res.ok) {
+        setStatus('success')
+        if (data.manaTechAffiliation && window.gtag) {
+          window.gtag('event', 'mana_tech_lead', { affiliation: data.manaTechAffiliation })
+        }
+        reset()
+      } else {
+        setStatus('error')
+      }
+    } catch {
+      setStatus('error')
+    }
+  }
+
+  const fieldClass = dark ? 'form-field form-field-dark' : 'form-field'
+  const labelClass = dark ? 'form-label form-label-dark' : 'form-label'
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)} noValidate>
+      {/* Name + Email */}
+      <div className="form-grid">
+        <div className="form-group">
+          <label className={labelClass}>Your Name</label>
+          <input
+            type="text"
+            className={fieldClass}
+            placeholder="Jane Smith"
+            {...register('name', { required: 'Name is required' })}
+          />
+          {errors.name && <span className="form-error-msg">{errors.name.message}</span>}
+        </div>
+        <div className="form-group">
+          <label className={labelClass}>Email Address</label>
+          <input
+            type="email"
+            className={fieldClass}
+            placeholder="jane@youragency.com"
+            {...register('email', {
+              required: 'Email is required',
+              pattern: { value: /^\S+@\S+\.\S+$/, message: 'Please enter a valid email' }
+            })}
+          />
+          {errors.email && <span className="form-error-msg">{errors.email.message}</span>}
+        </div>
+      </div>
+
+      <div className="form-group"></div>
+
+      {/* Topic selector */}
+      {fields === 'contact' && (
+        <div className="form-group">
+          <label className={labelClass}>What&apos;s this about?</label>
+          <select
+            className={fieldClass}
+            style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}}
+            {...register('topic', { required: 'Please select a topic' })}
+          >
+            <option value="">Select one</option>
+            <option value="agency-partnership">I&apos;m an agency or consultancy</option>
+            <option value="fractional-exec">I&apos;m a fractional executive or independent consultant</option>
+            <option value="brand">I&apos;m a brand exploring intelligence services</option>
+            <option value="brief-expansion">Brief - GoGlobal Viability Analysis</option>
+            <option value="brief-scale">Brief - Scale Assessment</option>
+            <option value="brief-research">Brief - Market Research</option>
+            <option value="brief-focusgroups">Brief - Virtual Focus Groups</option>
+            <option value="pricing">Pricing &amp; availability</option>
+            <option value="press">Press / media</option>
+            <option value="other">Other</option>
+          </select>
+          {errors.topic && <span className="form-error-msg">{errors.topic.message}</span>}
+        </div>
+      )}
+
+      {/* Cohort application fields */}
+      {fields === 'cohort' && (
+        <>
+          <div className="form-grid">
+            <div className="form-group">
+              <label className={labelClass}>Practice / Agency Name</label>
+              <input type="text" className={fieldClass} placeholder="Your consultancy or agency" {...register('practiceName', { required: 'Practice name is required' })} />
+              {errors.practiceName && <span className="form-error-msg">{errors.practiceName.message}</span>}
+            </div>
+            <div className="form-group">
+              <label className={labelClass}>Team Size</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('teamSize', { required: 'Please select team size' })}>
+                <option value="">Select team size</option>
+                <option value="solo">Solo / Independent</option>
+                <option value="2-5">2-5 people</option>
+                <option value="6-15">6-15 people</option>
+                <option value="16+">16+ people</option>
+              </select>
+              {errors.teamSize && <span className="form-error-msg">{errors.teamSize.message}</span>}
+            </div>
+          </div>
+          <div className="form-grid">
+            <div className="form-group">
+              <label className={labelClass}>Your Role</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('role', { required: 'Please select your role' })}>
+                <option value="">Select one</option>
+                <option value="agency-owner">Agency / Consultancy Owner</option>
+                <option value="fractional-cmo">Fractional CMO / CSO / CGO</option>
+                <option value="independent-consultant">Independent Strategy Consultant</option>
+                <option value="partner-director">Partner / Director at an Agency</option>
+                <option value="other">Other</option>
+              </select>
+              {errors.role && <span className="form-error-msg">{errors.role.message}</span>}
+            </div>
+            <div className="form-group">
+              <label className={labelClass}>Active Client Count</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('clientCount', { required: 'Please select client count' })}>
+                <option value="">Select range</option>
+                <option value="1-2">1-2 clients</option>
+                <option value="3-5">3-5 clients</option>
+                <option value="6-10">6-10 clients</option>
+                <option value="10+">10+ clients</option>
+              </select>
+              {errors.clientCount && <span className="form-error-msg">{errors.clientCount.message}</span>}
+            </div>
+          </div>
+          <div className="form-group">
+            <label className={labelClass}>What types of clients do you serve?</label>
+            <input
+              type="text"
+              className={fieldClass}
+              placeholder="e.g., LATAM brands entering US, CPG founders, PE-backed companies, B2B SaaS..."
+              {...register('clientTypes', { required: 'Please describe your client types' })}
+            />
+            {errors.clientTypes && <span className="form-error-msg">{errors.clientTypes.message}</span>}
+          </div>
+          <div className="form-group">
+            <label className={labelClass}>How did you hear about Soundcheck?</label>
+            <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('source')}>
+              <option value="">Select one</option>
+              <option value="chameleon">Chameleon Collective</option>
+              <option value="manatech">Mana Tech / Scale2Miami</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="book">Too Small To Fall (book)</option>
+              <option value="referral">Referral from a colleague</option>
+              <option value="event">Conference / Event</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </>
+      )}
+
+      {/* Partner form extra fields */}
+      {fields === 'partner' && (
+        <>
+          <div className="form-grid">
+            <div className="form-group">
+              <label className={labelClass}>Company Name</label>
+              <input type="text" className={fieldClass} placeholder="Your Company" {...register('agencyName')} />
+            </div>
+            <div className="form-group">
+              <label className={labelClass}>Company Size</label>
+              <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('agencySize')}>
+                <option value="">Select team size</option>
+                <option>Solo / 1 person</option>
+                <option>2-5 people</option>
+                <option>6-15 people</option>
+                <option>16-50 people</option>
+                <option>50+ people</option>
+              </select>
+            </div>
+          </div>
+          <div className="form-group">
+            <label className={labelClass}>What kind of clients do you serve?</label>
+            <input
+              type="text"
+              className={fieldClass}
+              placeholder="e.g., CPG brands entering US, founders, PE-backed companies..."
+              {...register('clientTypes')}
+            />
+          </div>
+          <div className="form-group">
+            <label className={labelClass}>Partnership model you&apos;re interested in</label>
+            <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('partnershipModel')}>
+              <option value="">Select one</option>
+              <option>On-Demand (per project)</option>
+              <option>White-Label Partner (monthly)</option>
+              <option>Embedded Intelligence (custom)</option>
+              <option>Not sure - let&apos;s talk</option>
+            </select>
+          </div>
+        </>
+      )}
+
+      {/* Mana Tech affiliation */}
+      {fields !== 'cohort' && <div className="form-group">
+        <label className={labelClass}>Mana Tech Member ID or Affiliation <span style={{ fontWeight: 400, opacity: 0.5 }}>(optional)</span></label>
+        <input
+          type="text"
+          className={fieldClass}
+          placeholder="e.g., Mana Hubs member, Scale2Miami Cohort 3, Mentor"
+          {...register('manaTechAffiliation')}
+        />
+        <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: dark ? 'rgba(255,255,255,0.3)' : '#999', display: 'block', marginTop: 4 }}>
+          Scale2Miami cohort founders and Mana Hubs members may qualify for ecosystem pricing.
+        </span>
+      </div>}
+
+      {/* Message */}
+      <div className="form-group">
+        <label className={labelClass}>
+          {fields === 'cohort' ? 'Why do you want to join the Founding Cohort?' : fields === 'partner' ? 'Tell us about your research needs' : 'Message'}
+        </label>
+        <textarea
+          className={fieldClass}
+          placeholder={
+            fields === 'cohort'
+              ? 'What draws you to building a research practice on Soundcheck? Do you have a client engagement in mind for your first project?'
+              : fields === 'partner'
+              ? 'What types of clients do you work with? What research challenges do you face?'
+              : 'Tell us what you\'re working on. The more context you share, the better we can help.'
+          }
+          {...register('message', { required: 'Message is required' })}
+        />
+        {errors.message && <span className="form-error-msg">{errors.message.message}</span>}
+      </div>
+
+      {/* Submit */}
+      <button
+        type="submit"
+        className="form-submit"
+        disabled={status === 'submitting'}
+      >
+        {status === 'submitting' ? 'Sending…' : buttonLabel}
+      </button>
+      <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 11, color: dark ? 'rgba(255,255,255,0.25)' : '#999', marginTop: 10 }}>
+        No commitment required. Response within 2 business days.
+      </p>
+
+      {/* Status messages */}
+      <AnimatePresence>
+        {status === 'success' && (
+          <motion.div
+            className="form-success"
+            initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+          >
+            Message sent! Valter reviews every submission personally and will reply within one business day.
+          </motion.div>
+        )}
+        {status === 'error' && (
+          <motion.div
+            className="form-success"
+            style={{ background: 'rgba(232,71,42,0.1)', borderColor: 'rgba(232,71,42,0.3)', color: '#ff9080' }}
+            initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+          >
+            Something went wrong. Please email directly: <a href="mailto:info@soundcheckinsights.com" style={{ color: '#E8472A' }}>info@soundcheckinsights.com</a>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </form>
+  )
+}
