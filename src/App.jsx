@@ -23,6 +23,7 @@ import ConsumerJourneys from './pages/ConsumerJourneys'
 import ManaTech from './pages/ManaTech'
 import Contact from './pages/Contact'
 import FoundingCohort from './pages/FoundingCohort'
+import Partnerships from './pages/Partnerships'
 import USMarketAssumptions from './pages/articles/USMarketAssumptions'
 
 function ScrollToTop() {
@@ -73,6 +74,7 @@ const routes = [
   { path: '/partner', element: <Partner /> },
   { path: '/our-partners', element: <OurPartners /> },
   { path: '/founding-cohort', element: <FoundingCohort /> },
+  { path: '/partnerships', element: <Partnerships /> },
   { path: '/contact', element: <Contact /> },
   { path: '/articles/us-market-assumptions', element: <USMarketAssumptions /> },
 ]

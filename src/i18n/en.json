@@ -5,6 +5,7 @@
     "products": "Products",
     "resources": "Resources",
     "partnerWithUs": "Partner with Us",
+    "partnerships": "Partnerships",
     "ourPartners": "Our Partners",
     "signIn": "Sign In",
     "getStarted": "Get Started →",
@@ -2216,5 +2217,175 @@
     "ctaTitle": "10 seats. This rate will not be repeated.",
     "ctaSub": "The Founding Operator Cohort is a one-time offer. First project free. Lock 20% below standard for life. Four weeks of personal onboarding with Valter. Once the 10 seats are filled, the next cohort starts at standard rates.",
     "ctaButton": "Apply Now →"
+  },
+  "partnerships": {
+    "heroLabel": "For Trade Organizations, Chambers & Accelerators",
+    "heroTitle1": "Add market intelligence\n",
+    "heroTitle2": "to your member programs.",
+    "heroSub": "Your members are making high-stakes market decisions without proper intelligence. You can change that with a single partnership.",
+    "chips": [
+      { "value": "25%", "label": "off MSRP for members" },
+      { "value": "5", "label": "research products available" },
+      { "value": "85+", "label": "ecosystem orgs targeted" },
+      { "value": "2", "label": "partnership paths" }
+    ],
+    "problemLabel": "The Gap",
+    "problemTitle": "Your members need market intelligence. Most can't access it.",
+    "problemDesc": "Trade organizations, chambers, and accelerators exist to give members an edge. But when it comes to market research, members are on their own. They either skip the research entirely or rely on tools that won't hold up under scrutiny.",
+    "problemCards": [
+      {
+        "icon": "💸",
+        "title": "Research firms price out your members",
+        "text": "Traditional market research costs $50K to $100K+. For most SMEs and growth-stage companies, that budget simply doesn't exist."
+      },
+      {
+        "icon": "🎯",
+        "title": "Expensive decisions without evidence",
+        "text": "Your members are entering new markets, launching products, and making investment decisions based on instinct instead of intelligence."
+      },
+      {
+        "icon": "🤖",
+        "title": "Generic AI tools won't survive scrutiny",
+        "text": "ChatGPT summaries are not market research. When a board, investor, or partner asks for the source, there is nothing to point to."
+      },
+      {
+        "icon": "📋",
+        "title": "Your programs lack differentiation",
+        "text": "Networking events and mentorship are table stakes. The organizations that win member loyalty are the ones delivering tangible, decision-grade resources."
+      }
+    ],
+    "pathsLabel": "Two Ways to Partner",
+    "pathsTitle": "Choose the path that fits how your organization operates.",
+    "path1Label": "Member Rate",
+    "path1Title": "Done for you. 25% off for your members.",
+    "path1Desc": "Your members get preferred pricing on any Soundcheck engagement. Research is delivered by an experienced operator. Your organization makes no operational commitment. You add a high-value member benefit with zero lift.",
+    "path1Stats": [
+      { "value": "25%", "label": "off MSRP on every engagement" },
+      { "value": "$2,625", "label": "MR Standard (vs. $3,500 MSRP)" },
+      { "value": "0h", "label": "operational commitment from your org" }
+    ],
+    "path1BestFor": "Best for:",
+    "path1BestForItems": [
+      "Chambers offering member benefits programs",
+      "Associations running trade promotion initiatives",
+      "Networks that want to add value without adding operations",
+      "Organizations that don't have consulting or research arms"
+    ],
+    "path2Label": "Platform Access",
+    "path2Title": "Run it yourself. 20% off for life.",
+    "path2Desc": "Your organization gets access to the Soundcheck platform as an operator. White-label under your brand. Run intake with your team's expertise, validate with your market knowledge, deliver under your name. The rate is locked at 20% below standard for as long as you operate.",
+    "path2Stats": [
+      { "value": "20%", "label": "off standard operator rate, locked for life" },
+      { "value": "100%", "label": "white-labeled under your brand" },
+      { "value": "5", "label": "products you can deliver" }
+    ],
+    "path2BestFor": "Best for:",
+    "path2BestForItems": [
+      "Organizations with consulting or advisory arms",
+      "Accelerators embedding research into their curriculum",
+      "Incubators offering market validation to cohort companies",
+      "Economic development agencies running export-readiness programs"
+    ],
+    "productsLabel": "What Your Members Get",
+    "productsTitle": "Five research products at member rates.",
+    "productsSub": "Every engagement starts with Market Research. The other four products build on it. Prices shown are the 25% member discount off MSRP.",
+    "products": [
+      {
+        "num": "01",
+        "name": "Market Research",
+        "desc": "Three decision-grade reports plus a research-grounded persona panel. The foundation for every engagement.",
+        "price": "From $2,250 (Mini) · $2,625 (Standard) · $3,000 (Premium)"
+      },
+      {
+        "num": "02",
+        "name": "GoGlobal Viability Analysis",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution map, and phased entry roadmap.",
+        "price": "$1,500 (add-on to Market Research)"
+      },
+      {
+        "num": "03",
+        "name": "Scale Assessment",
+        "desc": "Scale diagnostic, competitive position, operational readiness, and a 24-month phased plan with go/no-go gates.",
+        "price": "$3,000 (add-on to Market Research)"
+      },
+      {
+        "num": "04",
+        "name": "Customer Journey Maps",
+        "desc": "Per-persona journey maps from awareness to advocacy, with friction and opportunity analysis.",
+        "price": "$375/persona (add-on to Market Research)"
+      },
+      {
+        "num": "05",
+        "name": "Virtual Focus Groups",
+        "desc": "AI-powered concept testing against a research-grounded persona panel. Three rounds of feedback per session.",
+        "price": "$2,250/session + $750/re-test (add-on to Market Research)"
+      }
+    ],
+    "whoLabel": "Who This Is For",
+    "whoTitle": "Built for organizations that accelerate their members.",
+    "whoCategories": [
+      { "icon": "🏛", "name": "Bi-national chambers of commerce" },
+      { "icon": "🌐", "name": "Foreign government trade promotion agencies" },
+      { "icon": "📈", "name": "Economic development organizations" },
+      { "icon": "🚀", "name": "Accelerators and incubators" },
+      { "icon": "🏢", "name": "SBA-funded networks and SBDCs" },
+      { "icon": "🎓", "name": "University innovation centers" },
+      { "icon": "🏅", "name": "National certification bodies (WBENC, NMSDC)" },
+      { "icon": "🤝", "name": "CEO peer advisory organizations" },
+      { "icon": "🏭", "name": "Industry confederation networks" },
+      { "icon": "🌎", "name": "SME development agencies" }
+    ],
+    "howLabel": "How It Works",
+    "howTitle": "Two paths. Both start with a conversation.",
+    "howPath1Title": "Member Rate path",
+    "howPath1Steps": [
+      { "num": "01", "title": "We agree on terms", "desc": "Your organization signs a partnership agreement. Your members get 25% off MSRP on any Soundcheck product." },
+      { "num": "02", "title": "Members engage directly", "desc": "When a member needs market intelligence, they engage through Soundcheck or an assigned operator. Your org makes the introduction." },
+      { "num": "03", "title": "Research is delivered", "desc": "The operator runs intake, the platform generates the report, the operator validates and delivers. Your member gets decision-grade intelligence at a preferred rate." }
+    ],
+    "howPath2Title": "Platform Access path",
+    "howPath2Steps": [
+      { "num": "01", "title": "Your team gets onboarded", "desc": "Valter walks your team through the full platform workflow. You learn intake, validation, and delivery." },
+      { "num": "02", "title": "You run it under your brand", "desc": "Your team conducts intake with member companies, the platform generates reports, your team validates and delivers under your brand." },
+      { "num": "03", "title": "Your program scales", "desc": "Every member engagement strengthens your program. You build a research capability without hiring researchers." }
+    ],
+    "ctaTitle": "Your members deserve better market intelligence.",
+    "ctaSub": "One partnership. Immediate access to five research products at preferred rates. No minimum commitment on the member rate path.",
+    "ctaButton": "Start the Conversation →",
+    "formTitle": "Partner with Soundcheck",
+    "formSub": "Tell us about your organization and the members you serve. Valter reviews every partnership inquiry personally.",
+    "formOrgName": "Organization name",
+    "formOrgNamePlaceholder": "e.g. Brazilian-American Chamber of Commerce",
+    "formContactName": "Your name",
+    "formContactNamePlaceholder": "First and last name",
+    "formEmail": "Work email",
+    "formEmailPlaceholder": "name@organization.org",
+    "formOrgType": "Organization type",
+    "formOrgTypeOptions": [
+      "Bi-national chamber of commerce",
+      "Trade promotion agency",
+      "Accelerator or incubator",
+      "Economic development organization",
+      "Industry association",
+      "University innovation center",
+      "SBA/SBDC network",
+      "Other"
+    ],
+    "formMemberCount": "Number of member companies",
+    "formMemberCountPlaceholder": "e.g. 500",
+    "formCorridor": "Primary market corridor",
+    "formCorridorPlaceholder": "e.g. Brazil to US, LatAm to Florida",
+    "formInterest": "Which path interests you?",
+    "formInterestOptions": [
+      "Member rate (done for you)",
+      "Platform access (run it ourselves)",
+      "Not sure yet, let's discuss"
+    ],
+    "formMessage": "Tell us about your program",
+    "formMessagePlaceholder": "What does your organization do for its members today? What would better market intelligence change?",
+    "formSubmit": "Submit Partnership Inquiry →",
+    "formThankYou": "Thank you.",
+    "formThankYouSub": "Valter reviews every partnership inquiry personally. Expect a response within 48 hours.",
+    "formError": "Something went wrong. Please try again or email info@soundcheckinsights.com directly."
   }
 }

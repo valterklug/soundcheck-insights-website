@@ -5,6 +5,7 @@
     "products": "Productos",
     "resources": "Recursos",
     "partnerWithUs": "Asociarse Con Nosotros",
+    "partnerships": "Alianzas",
     "ourPartners": "Nuestros Socios",
     "signIn": "Iniciar Sesión",
     "getStarted": "Comenzar →",
@@ -2245,5 +2246,175 @@
     "ctaTitle": "10 plazas. Esta tarifa no se repetirá.",
     "ctaSub": "La Founding Operator Cohort es una oferta única. Primer proyecto gratis. Fija 20% menos que el estándar de por vida. Cuatro semanas de onboarding personal con Valter. Una vez que los 10 asientos se llenen, la próxima cohorte comienza a tarifas estándar.",
     "ctaButton": "Aplicar Ahora →"
+  },
+  "partnerships": {
+    "heroLabel": "Para Organizaciones Comerciales, Cámaras y Aceleradoras",
+    "heroTitle1": "Agregue inteligencia de mercado\n",
+    "heroTitle2": "a los programas de sus miembros.",
+    "heroSub": "Sus miembros están tomando decisiones de mercado de alto impacto sin la inteligencia adecuada. Usted puede cambiar eso con una sola alianza.",
+    "chips": [
+      { "value": "25%", "label": "de descuento para miembros" },
+      { "value": "5", "label": "productos de investigación" },
+      { "value": "85+", "label": "organizaciones del ecosistema" },
+      { "value": "2", "label": "caminos de alianza" }
+    ],
+    "problemLabel": "La Brecha",
+    "problemTitle": "Sus miembros necesitan inteligencia de mercado. La mayoría no puede acceder a ella.",
+    "problemDesc": "Las organizaciones comerciales, cámaras y aceleradoras existen para dar a sus miembros una ventaja. Pero cuando se trata de investigación de mercado, los miembros están por su cuenta. O se saltan la investigación por completo, o usan herramientas que no resisten el escrutinio.",
+    "problemCards": [
+      {
+        "icon": "💸",
+        "title": "Las firmas de investigación están fuera del alcance de sus miembros",
+        "text": "La investigación de mercado tradicional cuesta entre US$50K y US$100K+. Para la mayoría de las pymes y empresas en etapa de crecimiento, ese presupuesto simplemente no existe."
+      },
+      {
+        "icon": "🎯",
+        "title": "Decisiones costosas sin evidencia",
+        "text": "Sus miembros están entrando a nuevos mercados, lanzando productos y tomando decisiones de inversión basándose en instinto, no en inteligencia."
+      },
+      {
+        "icon": "🤖",
+        "title": "Las herramientas genéricas de IA no resisten el escrutinio",
+        "text": "Los resúmenes de ChatGPT no son investigación de mercado. Cuando una junta, un inversionista o un socio pide la fuente, no hay nada que mostrar."
+      },
+      {
+        "icon": "📋",
+        "title": "Sus programas carecen de diferenciación",
+        "text": "Los eventos de networking y la mentoría son lo básico. Las organizaciones que ganan la lealtad de sus miembros son las que entregan recursos tangibles y de calidad para la toma de decisiones."
+      }
+    ],
+    "pathsLabel": "Dos Formas de Asociarse",
+    "pathsTitle": "Elija el camino que se ajusta a cómo opera su organización.",
+    "path1Label": "Tarifa para Miembros",
+    "path1Title": "Nosotros lo hacemos. 25% de descuento para sus miembros.",
+    "path1Desc": "Sus miembros obtienen precios preferenciales en cualquier proyecto de Soundcheck. La investigación es entregada por un operador experimentado. Su organización no asume ningún compromiso operativo. Usted agrega un beneficio de alto valor para sus miembros sin esfuerzo adicional.",
+    "path1Stats": [
+      { "value": "25%", "label": "de descuento en cada proyecto" },
+      { "value": "$2,625", "label": "MR Standard (vs. $3,500 MSRP)" },
+      { "value": "0h", "label": "compromiso operativo de su organización" }
+    ],
+    "path1BestFor": "Ideal para:",
+    "path1BestForItems": [
+      "Cámaras que ofrecen programas de beneficios para miembros",
+      "Asociaciones que ejecutan iniciativas de promoción comercial",
+      "Redes que quieren agregar valor sin agregar operaciones",
+      "Organizaciones que no tienen brazos de consultoría o investigación"
+    ],
+    "path2Label": "Acceso a la Plataforma",
+    "path2Title": "Opérelo usted mismo. 20% de descuento de por vida.",
+    "path2Desc": "Su organización obtiene acceso a la plataforma Soundcheck como operador. White-label bajo su marca. Ejecute la toma de requerimientos con la experiencia de su equipo, valide con su conocimiento de mercado, entregue bajo su nombre. La tarifa queda fijada en 20% por debajo del estándar mientras opere.",
+    "path2Stats": [
+      { "value": "20%", "label": "de descuento fijado de por vida" },
+      { "value": "100%", "label": "white-label bajo su marca" },
+      { "value": "5", "label": "productos que puede entregar" }
+    ],
+    "path2BestFor": "Ideal para:",
+    "path2BestForItems": [
+      "Organizaciones con brazos de consultoría o asesoría",
+      "Aceleradoras que integran investigación en su currículo",
+      "Incubadoras que ofrecen validación de mercado a sus cohortes",
+      "Agencias de desarrollo económico con programas de preparación para exportación"
+    ],
+    "productsLabel": "Lo Que Reciben Sus Miembros",
+    "productsTitle": "Cinco productos de investigación a tarifas para miembros.",
+    "productsSub": "Todo proyecto comienza con Market Research. Los otros cuatro productos se construyen sobre él. Los precios mostrados reflejan el 25% de descuento para miembros sobre el precio de lista.",
+    "products": [
+      {
+        "num": "01",
+        "name": "Market Research",
+        "desc": "Tres informes de nivel decisorio más un panel de personas basado en investigación. La base de todo proyecto.",
+        "price": "Desde $2,250 (Mini) · $2,625 (Standard) · $3,000 (Premium)"
+      },
+      {
+        "num": "02",
+        "name": "GoGlobal Viability Analysis",
+        "desc": "CVE Score, panorama competitivo, resumen regulatorio, mapa de distribución y hoja de ruta de entrada por fases.",
+        "price": "$1,500 (complemento de Market Research)"
+      },
+      {
+        "num": "03",
+        "name": "Scale Assessment",
+        "desc": "Diagnóstico de escala, posición competitiva, preparación operativa y plan de 24 meses con puertas de go/no-go.",
+        "price": "$3,000 (complemento de Market Research)"
+      },
+      {
+        "num": "04",
+        "name": "Customer Journey Maps",
+        "desc": "Mapas de viaje por persona desde el awareness hasta la advocacy, con análisis de fricción y oportunidad.",
+        "price": "$375/persona (complemento de Market Research)"
+      },
+      {
+        "num": "05",
+        "name": "Virtual Focus Groups",
+        "desc": "Prueba de concepto con IA contra un panel de personas basado en investigación. Tres rondas de feedback por sesión.",
+        "price": "$2,250/sesión + $750/re-test (complemento de Market Research)"
+      }
+    ],
+    "whoLabel": "Para Quién Es",
+    "whoTitle": "Construido para organizaciones que aceleran a sus miembros.",
+    "whoCategories": [
+      { "icon": "🏛", "name": "Cámaras de comercio binacionales" },
+      { "icon": "🌐", "name": "Agencias gubernamentales de promoción comercial" },
+      { "icon": "📈", "name": "Organizaciones de desarrollo económico" },
+      { "icon": "🚀", "name": "Aceleradoras e incubadoras" },
+      { "icon": "🏢", "name": "Redes financiadas por la SBA y SBDCs" },
+      { "icon": "🎓", "name": "Centros de innovación universitarios" },
+      { "icon": "🏅", "name": "Organismos nacionales de certificación (WBENC, NMSDC)" },
+      { "icon": "🤝", "name": "Organizaciones de pares para CEOs" },
+      { "icon": "🏭", "name": "Redes de confederaciones industriales" },
+      { "icon": "🌎", "name": "Agencias de desarrollo para pymes" }
+    ],
+    "howLabel": "Cómo Funciona",
+    "howTitle": "Dos caminos. Ambos comienzan con una conversación.",
+    "howPath1Title": "Camino de Tarifa para Miembros",
+    "howPath1Steps": [
+      { "num": "01", "title": "Acordamos los términos", "desc": "Su organización firma un acuerdo de alianza. Sus miembros obtienen 25% de descuento sobre el precio de lista en cualquier producto Soundcheck." },
+      { "num": "02", "title": "Los miembros participan directamente", "desc": "Cuando un miembro necesita inteligencia de mercado, se conecta a través de Soundcheck o un operador asignado. Su organización hace la presentación." },
+      { "num": "03", "title": "Se entrega la investigación", "desc": "El operador ejecuta el intake, la plataforma genera el informe, el operador valida y entrega. Su miembro recibe inteligencia de nivel decisorio a una tarifa preferencial." }
+    ],
+    "howPath2Title": "Camino de Acceso a la Plataforma",
+    "howPath2Steps": [
+      { "num": "01", "title": "Su equipo recibe capacitación", "desc": "Valter guía a su equipo a través del flujo de trabajo completo de la plataforma. Aprenden la toma de requerimientos, validación y entrega." },
+      { "num": "02", "title": "Usted lo opera bajo su marca", "desc": "Su equipo ejecuta el intake con las empresas miembro, la plataforma genera los informes, su equipo valida y entrega bajo su marca." },
+      { "num": "03", "title": "Su programa escala", "desc": "Cada proyecto con un miembro fortalece su programa. Usted construye una capacidad de investigación sin contratar investigadores." }
+    ],
+    "ctaTitle": "Sus miembros merecen mejor inteligencia de mercado.",
+    "ctaSub": "Una alianza. Acceso inmediato a cinco productos de investigación a tarifas preferenciales. Sin compromiso mínimo en el camino de tarifa para miembros.",
+    "ctaButton": "Iniciar la Conversación →",
+    "formTitle": "Asociarse con Soundcheck",
+    "formSub": "Cuéntenos sobre su organización y los miembros que atiende. Valter revisa cada consulta de alianza personalmente.",
+    "formOrgName": "Nombre de la organización",
+    "formOrgNamePlaceholder": "ej. Cámara de Comercio Brasil-Estados Unidos",
+    "formContactName": "Su nombre",
+    "formContactNamePlaceholder": "Nombre y apellido",
+    "formEmail": "Correo corporativo",
+    "formEmailPlaceholder": "nombre@organizacion.org",
+    "formOrgType": "Tipo de organización",
+    "formOrgTypeOptions": [
+      "Cámara de comercio binacional",
+      "Agencia de promoción comercial",
+      "Aceleradora o incubadora",
+      "Organización de desarrollo económico",
+      "Asociación industrial",
+      "Centro de innovación universitario",
+      "Red SBA/SBDC",
+      "Otro"
+    ],
+    "formMemberCount": "Número de empresas miembro",
+    "formMemberCountPlaceholder": "ej. 500",
+    "formCorridor": "Corredor de mercado principal",
+    "formCorridorPlaceholder": "ej. Brasil a EE.UU., LatAm a Florida",
+    "formInterest": "¿Qué camino le interesa?",
+    "formInterestOptions": [
+      "Tarifa para miembros (nosotros lo hacemos)",
+      "Acceso a la plataforma (lo operamos nosotros)",
+      "No estoy seguro aún, conversemos"
+    ],
+    "formMessage": "Cuéntenos sobre su programa",
+    "formMessagePlaceholder": "¿Qué hace su organización por sus miembros hoy? ¿Qué cambiaría con mejor inteligencia de mercado?",
+    "formSubmit": "Enviar Consulta de Alianza →",
+    "formThankYou": "Gracias.",
+    "formThankYouSub": "Valter revisa cada consulta de alianza personalmente. Espere una respuesta en las próximas 48 horas.",
+    "formError": "Algo salió mal. Intente de nuevo o escriba directamente a info@soundcheckinsights.com."
   }
 }

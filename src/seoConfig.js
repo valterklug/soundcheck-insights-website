@@ -252,6 +252,13 @@ const seoConfig = {
     },
   },
 
+  '/partnerships': {
+    title: 'Ecosystem Partnerships — Trade Organizations, Chambers & Accelerators',
+    description: 'Add market intelligence to your member programs. Two paths: member rate (25% off MSRP, delivered for your members) or platform access (run it yourself, 20% off for life). For bi-national chambers, trade promotion agencies, accelerators, incubators, and economic development organizations.',
+    image: '/og/og-partner.png',
+    keywords: 'ecosystem partnership, trade organization, chamber of commerce, accelerator, incubator, member benefits, market intelligence, international expansion, economic development',
+  },
+
   '/partner': {
     title: 'Request Platform Access',
     description: 'Join the Soundcheck operator network. Deliver AI-powered market intelligence under your brand. Self-serve or full-service. Operator onboarding included.',
