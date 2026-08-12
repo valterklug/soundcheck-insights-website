@@ -1876,7 +1876,9 @@
     "whoAgenciesDesc": "Add a structured consumer intelligence layer to what you sell — without building an in-house research team. Run one module for a quick-turnaround client. Chain all three for a full strategic engagement. White-label throughout.",
     "whoBrandsTitle": "For Brands & Marketing Teams",
     "whoBrandsDesc": "Run your own research, map how your target buyers make decisions, and test your concepts before committing to production or media spend. Brands work through one of our partner agencies.",
-    "whoCta": "Partner with Us →"
+    "whoCta": "Partner with Us →",
+    "ctaTitle": "Ready to run the research?",
+    "ctaSub": "Request access and we'll onboard your agency with a sample project in days. Brands work through a partner agency."
   },
   "consumerJourneys": {
     "heroLabel": "Customer Journey Maps · Module 02",

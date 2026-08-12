@@ -1905,7 +1905,9 @@
     "whoAgenciesDesc": "Agrega una capa de inteligencia del consumidor estructurada a lo que vendes — sin construir un equipo de investigación interno. Ejecuta un módulo para un cliente de entrega rápida. Encadena los tres para un compromiso estratégico completo. White-label en todo.",
     "whoBrandsTitle": "Para Marcas y Equipos de Marketing",
     "whoBrandsDesc": "Ejecuta tu propia investigación, mapea cómo tus compradores objetivo toman decisiones, y prueba tus conceptos antes de comprometerte con la producción o gasto en medios. Las marcas trabajan a través de una de nuestras agencias asociadas.",
-    "whoCta": "Asociarse Con Nosotros →"
+    "whoCta": "Asociarse Con Nosotros →",
+    "ctaTitle": "¿Listo para ejecutar la investigación?",
+    "ctaSub": "Solicite acceso y lo integraremos a su agencia con un proyecto de muestra en días. Las marcas trabajan a través de una agencia asociada."
   },
   "consumerJourneys": {
     "heroLabel": "Mapas de Viaje del Cliente · Módulo 02",

@@ -209,8 +209,8 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
         </>
       )}
 
-      {/* Mana Tech affiliation */}
-      {fields !== 'cohort' && <div className="form-group">
+      {/* Mana Tech affiliation — only on the general contact form */}
+      {fields === 'contact' && <div className="form-group">
         <label className={labelClass}>Mana Tech Member ID or Affiliation <span style={{ fontWeight: 400, opacity: 0.5 }}>(optional)</span></label>
         <input
           type="text"
