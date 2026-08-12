@@ -2416,5 +2416,72 @@
     "formThankYou": "Gracias.",
     "formThankYouSub": "Valter revisa cada consulta de alianza personalmente. Espere una respuesta en las próximas 48 horas.",
     "formError": "Algo salió mal. Intente de nuevo o escriba directamente a info@soundcheckinsights.com."
+  },
+  "samples": {
+    "heroLabel": "INFORMES DE MUESTRA",
+    "heroTitle": "Vea lo que recibe.",
+    "heroSub": "Cada compromiso produce entregables de calidad decisoria. Estas muestras fueron generadas para empresas ficticias para mostrar la profundidad, estructura y calidad del output de Soundcheck.",
+    "goGlobalLabel": "ANÁLISIS DE VIABILIDAD GOGLOBAL",
+    "goGlobalDesc": "Inteligencia completa de entrada al mercado para una marca ficticia ingresando al mercado estadounidense. Incluye CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta de 12 meses.",
+    "scaleLabel": "EVALUACIÓN SCALE",
+    "scaleDesc": "Auditoría de preparación estructural para una marca ficticia en un punto de inflexión de crecimiento. Incluye SRS Score, evaluación de preparación operativa, plan por fases de 24 meses y marco de riesgo a escala.",
+    "vfgLabel": "GRUPO FOCAL VIRTUAL",
+    "vfgDesc": "Sesión de prueba de conceptos impulsada por IA que muestra cómo las personas compradoras reaccionan a empaques, eslóganes y conceptos de posicionamiento en tiempo real.",
+    "cjLabel": "RECORRIDO DEL CONSUMIDOR",
+    "cjDesc": "Mapas de recorrido por persona a través de seis etapas desde la conciencia hasta la promoción, con auditoría de puntos de contacto de marca y análisis de brechas.",
+    "dashboard": "Dashboard Interactivo",
+    "fullReport": "Informe Completo (Google Docs)",
+    "presentationDeck": "Presentación",
+    "viewSample": "Ver Muestra",
+    "ctaTitle": "¿Listo para ver el suyo?",
+    "ctaSub": "Cada compromiso comienza con un brief. Cuéntenos qué decisión tiene frente a usted.",
+    "ctaButton": "Solicitar un Producto"
+  },
+  "decisionGrid": {
+    "label": "LO QUE OFREZCO",
+    "title1": "Cientos de decisiones.",
+    "title2": "Cinco módulos de producto.",
+    "title3": "Días, no meses.",
+    "desc": "Cada celda es una pregunta que podría estar haciéndose, del tipo que antes requería una firma de investigación a medida o simplemente se omitía. Con Soundcheck potenciando mi entrega, cada una se convierte en una decisión sobre la que puede actuar en días.",
+    "catalogNote": "La cuadrícula es mi catálogo de servicios.",
+    "catalogDesc": "La mayoría de los compromisos combinan la base de Market Research con uno o dos complementos, total típico $5,000 a $13,000. Cada módulo con precio separado. Pague solo por lo que compra.",
+    "mrLabel": "Market Research",
+    "mrSub": "FUNDACIÓN · SIEMPRE INCLUIDA",
+    "goGlobalLabel": "GoGlobal",
+    "goGlobalSub": "DECISIONES DE EXPANSIÓN",
+    "scaleLabel": "Scale",
+    "scaleSub": "PREPARACIÓN PARA CRECER",
+    "cjLabel": "Customer Journey",
+    "cjSub": "MAPEO DE EXPERIENCIA",
+    "vfgLabel": "Virtual Focus Group",
+    "vfgSub": "PRUEBA DE CONCEPTOS"
+  },
+  "differentiators": {
+    "label": "POR QUÉ SOUNDCHECK",
+    "title1": "Nuestros principales",
+    "title2": "diferenciadores.",
+    "desc": "La velocidad de un GPT. El rigor de una firma de investigación. Bajo su marca.",
+    "col1": "Consultor con ChatGPT / Claude",
+    "col2": "Investigación Tradicional",
+    "col3": "Soundcheck Insights",
+    "rows": [
+      "Entregado en días, no meses",
+      "Precios para el mercado medio, no $30K+",
+      "Seguridad: los datos del cliente no entrenan la IA",
+      "Fuentes escalonadas con evidencia citada",
+      "Calidad de decisión, defendible en sala de juntas",
+      "Validación humana senior en cada informe",
+      "Tipo de afirmación y nivel de confianza en cada declaración",
+      "Puntuación propietaria CVE / SRS",
+      "Entregado bajo su propia marca (white-label)"
+    ],
+    "footerBold": "velocidad, rigor y su marca en el informe.",
+    "footer": "El punto no es ser más rápido o más barato. Es ser la única opción que entrega las tres cosas:"
+  },
+  "sampleCta": {
+    "label": "VÉALO EN ACCIÓN",
+    "title": "Vea un informe de muestra.",
+    "desc": "Estas muestras fueron generadas para empresas ficticias para demostrar la profundidad y calidad del output de Soundcheck.",
+    "viewAll": "Ver todas las muestras →"
   }
 }

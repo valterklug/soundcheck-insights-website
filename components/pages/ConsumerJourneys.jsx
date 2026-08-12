@@ -5,6 +5,11 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
+import SampleCta from '@/components/SampleCta'
+
+const cjSamples = [
+  { type: 'viewSample', url: 'https://soundcheck.report/share/journey/CH8rMGjo4ijP' },
+]
 
 export default function ConsumerJourneys() {
   const t = useTranslations()
@@ -216,6 +221,9 @@ export default function ConsumerJourneys() {
           </div>
         </div>
       </section>
+
+      {/* Sample CTA */}
+      <SampleCta color="var(--teal-2)" links={cjSamples} />
 
       {/* Bottom CTA */}
       <section className="cta-strip">

@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation'
 
 import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
+import Differentiators from '@/components/Differentiators'
 
 export default function ForAgencies() {
   const t = useTranslations()
@@ -179,6 +180,9 @@ export default function ForAgencies() {
           </div>
         </div>
       </section>
+
+      {/* ── DIFFERENTIATORS ─────────────────────────────────────────── */}
+      <Differentiators />
 
       <section className="cta-strip">
         <FadeIn>

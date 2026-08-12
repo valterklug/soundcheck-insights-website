@@ -2387,5 +2387,72 @@
     "formThankYou": "Thank you.",
     "formThankYouSub": "Valter reviews every partnership inquiry personally. Expect a response within 48 hours.",
     "formError": "Something went wrong. Please try again or email info@soundcheckinsights.com directly."
+  },
+  "samples": {
+    "heroLabel": "SAMPLE REPORTS",
+    "heroTitle": "See what you get.",
+    "heroSub": "Every engagement produces decision-grade deliverables. These samples were generated for fictional companies to show the depth, structure, and quality of Soundcheck output.",
+    "goGlobalLabel": "GOGLOBAL VIABILITY ANALYSIS",
+    "goGlobalDesc": "Full market-entry intelligence for a fictional brand entering the US market. Includes CVE Score, competitive landscape, regulatory snapshot, distribution channel map, three strategic paths, and 12-month roadmap.",
+    "scaleLabel": "SCALE ASSESSMENT",
+    "scaleDesc": "Structural readiness audit for a fictional brand at a growth inflection point. Includes SRS Score, operational readiness assessment, 24-month phased plan, and risk frame at scale.",
+    "vfgLabel": "VIRTUAL FOCUS GROUP",
+    "vfgDesc": "AI-powered concept testing session showing how buyer personas react to packaging, taglines, and positioning concepts in real time.",
+    "cjLabel": "CUSTOMER JOURNEY",
+    "cjDesc": "Per-persona journey maps across six stages from awareness to advocacy, with brand-touchpoint audit and gap analysis.",
+    "dashboard": "Interactive Dashboard",
+    "fullReport": "Full Report (Google Docs)",
+    "presentationDeck": "Presentation Deck",
+    "viewSample": "View Sample",
+    "ctaTitle": "Ready to see yours?",
+    "ctaSub": "Every engagement starts with a brief. Tell us what decision is in front of you.",
+    "ctaButton": "Brief a Product"
+  },
+  "decisionGrid": {
+    "label": "WHAT I OFFER",
+    "title1": "Hundreds of decisions.",
+    "title2": "Five product modules.",
+    "title3": "Days, not months.",
+    "desc": "Every cell is a question you might be asking — the kind that used to require a bespoke research firm or got skipped entirely. With Soundcheck powering my delivery, every one becomes a decision you can act on in days.",
+    "catalogNote": "The grid is my service catalog.",
+    "catalogDesc": "Most engagements pair the Market Research foundation with one or two add-ons — typical total $5,000–$13,000. Each module priced separately. Pay only for what you buy.",
+    "mrLabel": "Market Research",
+    "mrSub": "FOUNDATION · ALWAYS INCLUDED",
+    "goGlobalLabel": "GoGlobal",
+    "goGlobalSub": "EXPANSION DECISIONS",
+    "scaleLabel": "Scale",
+    "scaleSub": "GROWTH READINESS",
+    "cjLabel": "Customer Journey",
+    "cjSub": "EXPERIENCE MAPPING",
+    "vfgLabel": "Virtual Focus Group",
+    "vfgSub": "CONCEPT TESTING"
+  },
+  "differentiators": {
+    "label": "WHY SOUNDCHECK",
+    "title1": "Our key",
+    "title2": "differentiators.",
+    "desc": "The speed of a GPT. The rigor of a research firm. Under your brand.",
+    "col1": "Consultant with ChatGPT / Claude",
+    "col2": "Traditional Research",
+    "col3": "Soundcheck Insights",
+    "rows": [
+      "Delivered in days, not months",
+      "Mid-market pricing, not $30K+",
+      "Security: client data doesn't train the AI",
+      "Tiered sources with cited evidence",
+      "Decision quality, defensible in boardroom",
+      "Senior human validation in every report",
+      "Claim type and confidence level on every statement",
+      "Proprietary CVE / SRS scoring",
+      "Delivered under your own brand (white-label)"
+    ],
+    "footerBold": "velocity, rigor, and your brand on the report.",
+    "footer": "The point isn't being faster or cheaper. It's being the only option that delivers all three:"
+  },
+  "sampleCta": {
+    "label": "SEE IT IN ACTION",
+    "title": "See a sample report.",
+    "desc": "These samples were generated for fictional companies to demonstrate the depth and quality of Soundcheck output.",
+    "viewAll": "View all samples →"
   }
 }

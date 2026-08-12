@@ -5,6 +5,13 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
+import SampleCta from '@/components/SampleCta'
+
+const goGlobalSamples = [
+  { type: 'dashboard', url: 'https://soundcheck.report/share/dashboard/9U6hrWfeTTZ5' },
+  { type: 'fullReport', url: 'https://docs.google.com/document/d/15HQXPDenu9AKM5ustpmJOkBqax3VLYaH3YpKYomtwR8' },
+  { type: 'presentationDeck', url: 'https://gamma.app/docs/ciad4h58l8df38n' },
+]
 
 export default function ExpansionReport() {
   const t = useTranslations()
@@ -346,6 +353,9 @@ export default function ExpansionReport() {
           </div>
         </div>
       </section>
+
+      {/* Sample CTA */}
+      <SampleCta color="var(--teal)" links={goGlobalSamples} />
 
       {/* Bottom CTA */}
       <section className="cta-strip">

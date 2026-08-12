@@ -5,6 +5,13 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
+import SampleCta from '@/components/SampleCta'
+
+const scaleSamples = [
+  { type: 'dashboard', url: 'https://soundcheck.report/share/dashboard/e6kXnM4ggR8t' },
+  { type: 'fullReport', url: 'https://docs.google.com/document/d/1iFyzyAPRufTnsR7PjTIcmRAGgVo40LWll7JJf40s5Ik/edit?usp=sharing' },
+  { type: 'presentationDeck', url: 'https://gamma.app/docs/zdca0zk5usap36y' },
+]
 
 export default function ScaleAssessment() {
   const t = useTranslations()
@@ -278,6 +285,9 @@ export default function ScaleAssessment() {
           </div>
         </div>
       </section>
+
+      {/* Sample CTA */}
+      <SampleCta color="var(--orange)" links={scaleSamples} />
 
       {/* Bottom CTA */}
       <section className="cta-strip">

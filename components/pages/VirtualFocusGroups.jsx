@@ -5,6 +5,11 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
+import SampleCta from '@/components/SampleCta'
+
+const vfgSamples = [
+  { type: 'viewSample', url: 'https://soundcheck.report/share/DfcnPoLQ6M8J' },
+]
 
 export default function VirtualFocusGroups() {
   const t = useTranslations()
@@ -374,6 +379,9 @@ export default function VirtualFocusGroups() {
           </div>
         </div>
       </section>
+
+      {/* Sample CTA */}
+      <SampleCta color="#9B8FFF" links={vfgSamples} />
 
       {/* Bottom CTA */}
       <section className="cta-strip">

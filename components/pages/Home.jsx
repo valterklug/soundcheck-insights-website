@@ -4,6 +4,8 @@ import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
 import { Link } from '@/i18n/navigation'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem, HoverCard } from '@/components/Animate'
+import DecisionGrid from '@/components/DecisionGrid'
+import Differentiators from '@/components/Differentiators'
 
 /* ── Network SVG Visualization ─────────────────────────────────────── */
 function NetworkViz() {
@@ -333,6 +335,12 @@ export default function HomePage() {
           </section>
         )
       })()}
+
+      {/* ── DECISION GRID ──────────────────────────────────────────── */}
+      <DecisionGrid />
+
+      {/* ── DIFFERENTIATORS ─────────────────────────────────────────── */}
+      <Differentiators />
 
       {/* ── ECONOMICS ────────────────────────────────────────────────── */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(232,71,42,0.15)' }} className="section-pad">

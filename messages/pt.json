@@ -2411,5 +2411,72 @@
     "formThankYou": "Obrigado.",
     "formThankYouSub": "Valter revisa cada consulta de parceria pessoalmente. Espere uma resposta em até 48 horas.",
     "formError": "Algo deu errado. Tente novamente ou escreva diretamente para info@soundcheckinsights.com."
+  },
+  "samples": {
+    "heroLabel": "RELATÓRIOS DE AMOSTRA",
+    "heroTitle": "Veja o que você recebe.",
+    "heroSub": "Cada engajamento produz entregáveis de qualidade decisória. Estas amostras foram geradas para empresas fictícias para mostrar a profundidade, estrutura e qualidade do output do Soundcheck.",
+    "goGlobalLabel": "ANÁLISE DE VIABILIDADE GOGLOBAL",
+    "goGlobalDesc": "Inteligência completa de entrada no mercado para uma marca fictícia entrando no mercado americano. Inclui CVE Score, panorama competitivo, snapshot regulatório, mapa de canais de distribuição, três caminhos estratégicos e roadmap de 12 meses.",
+    "scaleLabel": "AVALIAÇÃO SCALE",
+    "scaleDesc": "Auditoria de prontidão estrutural para uma marca fictícia em um ponto de inflexão de crescimento. Inclui SRS Score, avaliação de prontidão operacional, plano faseado de 24 meses e quadro de risco em escala.",
+    "vfgLabel": "GRUPO FOCAL VIRTUAL",
+    "vfgDesc": "Sessão de teste de conceitos com IA mostrando como as personas compradoras reagem a embalagens, slogans e conceitos de posicionamento em tempo real.",
+    "cjLabel": "JORNADA DO CONSUMIDOR",
+    "cjDesc": "Mapas de jornada por persona em seis etapas, da consciência à advocacy, com auditoria de pontos de contato da marca e análise de gaps.",
+    "dashboard": "Dashboard Interativo",
+    "fullReport": "Relatório Completo (Google Docs)",
+    "presentationDeck": "Apresentação",
+    "viewSample": "Ver Amostra",
+    "ctaTitle": "Pronto para ver o seu?",
+    "ctaSub": "Cada engajamento começa com um brief. Conte-nos qual decisão está à sua frente.",
+    "ctaButton": "Solicitar um Produto"
+  },
+  "decisionGrid": {
+    "label": "O QUE EU OFEREÇO",
+    "title1": "Centenas de decisões.",
+    "title2": "Cinco módulos de produto.",
+    "title3": "Dias, não meses.",
+    "desc": "Cada célula é uma pergunta que você pode estar se fazendo, do tipo que antes exigia uma firma de pesquisa sob medida ou simplesmente era ignorada. Com o Soundcheck potencializando minha entrega, cada uma se torna uma decisão sobre a qual você pode agir em dias.",
+    "catalogNote": "A grade é meu catálogo de serviços.",
+    "catalogDesc": "A maioria dos engajamentos combina a base de Market Research com um ou dois complementos, total típico de $5.000 a $13.000. Cada módulo com preço separado. Pague apenas pelo que comprar.",
+    "mrLabel": "Market Research",
+    "mrSub": "FUNDAÇÃO · SEMPRE INCLUÍDO",
+    "goGlobalLabel": "GoGlobal",
+    "goGlobalSub": "DECISÕES DE EXPANSÃO",
+    "scaleLabel": "Scale",
+    "scaleSub": "PRONTIDÃO PARA CRESCER",
+    "cjLabel": "Customer Journey",
+    "cjSub": "MAPEAMENTO DE EXPERIÊNCIA",
+    "vfgLabel": "Virtual Focus Group",
+    "vfgSub": "TESTE DE CONCEITOS"
+  },
+  "differentiators": {
+    "label": "POR QUE SOUNDCHECK",
+    "title1": "Nossos principais",
+    "title2": "diferenciais.",
+    "desc": "A velocidade de um GPT. O rigor de uma firma de pesquisa. Sob a sua marca.",
+    "col1": "Consultor com ChatGPT / Claude",
+    "col2": "Pesquisa Tradicional",
+    "col3": "Soundcheck Insights",
+    "rows": [
+      "Entregue em dias, não meses",
+      "Preços para o mid-market, não $30K+",
+      "Segurança: dados do cliente não treinam a IA",
+      "Fontes escalonadas com evidências citadas",
+      "Qualidade de decisão, defensável em reunião de diretoria",
+      "Validação humana sênior em cada relatório",
+      "Tipo de afirmação e nível de confiança em cada declaração",
+      "Pontuação proprietária CVE / SRS",
+      "Entregue sob a sua própria marca (white-label)"
+    ],
+    "footerBold": "velocidade, rigor e a sua marca no relatório.",
+    "footer": "O ponto não é ser mais rápido ou mais barato. É ser a única opção que entrega os três:"
+  },
+  "sampleCta": {
+    "label": "VEJA EM AÇÃO",
+    "title": "Veja um relatório de amostra.",
+    "desc": "Estas amostras foram geradas para empresas fictícias para demonstrar a profundidade e qualidade do output do Soundcheck.",
+    "viewAll": "Ver todas as amostras →"
   }
 }
