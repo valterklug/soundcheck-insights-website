@@ -5,12 +5,12 @@ import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
 
 const memberRates = [
-  { name: 'Market Research (Mini/Standard/Premium)', standard: '$3,000 / $3,500 / $4,000', member: '$2,250 / $2,625 / $3,000', link: '/research-platform' },
-  { name: 'GoGlobal Viability Analysis', standard: '$2,000', member: '$1,500', link: '/expansion-report' },
-  { name: 'Scale Assessment', standard: '$4,000', member: '$3,000', link: '/scale-assessment' },
-  { name: 'Customer Journey Maps', standard: '$500/persona', member: '$375/persona', link: '/consumer-journeys' },
-  { name: 'Virtual Focus Groups', standard: '$3,000/session', member: '$2,250/session', link: '/virtual-focus-groups' },
-  { name: 'VFG Re-Test Pack', standard: '+$2,000', member: '+$1,500', link: '/virtual-focus-groups' },
+  { name: 'Market Research (Mini/Standard/Premium)', scope: 'Three tiers available', member: '25% off', link: '/research-platform' },
+  { name: 'GoGlobal Viability Analysis', scope: 'Add-on to Market Research', member: '25% off', link: '/expansion-report' },
+  { name: 'Scale Assessment', scope: 'Add-on to Market Research', member: '25% off', link: '/scale-assessment' },
+  { name: 'Customer Journey Maps', scope: 'Per-persona pricing', member: '25% off', link: '/consumer-journeys' },
+  { name: 'Virtual Focus Groups', scope: 'Per-session pricing', member: '25% off', link: '/virtual-focus-groups' },
+  { name: 'VFG Re-Test Pack', scope: 'Available as add-on', member: '25% off', link: '/virtual-focus-groups' },
 ]
 
 export default function ManaTech() {
@@ -108,8 +108,8 @@ export default function ManaTech() {
                 <thead>
                   <tr>
                     <th style={{ padding: '16px 20px', textAlign: 'left', borderBottom: '1px solid rgba(255,255,255,0.1)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)' }}>Product</th>
-                    <th style={{ padding: '16px 20px', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)' }}>Standard</th>
-                    <th style={{ padding: '16px 20px', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--teal)' }}>Member Rate</th>
+                    <th style={{ padding: '16px 20px', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)' }}>Scope</th>
+                    <th style={{ padding: '16px 20px', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--teal)' }}>Member Benefit</th>
                     <th style={{ padding: '16px 20px', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.4)' }}></th>
                   </tr>
                 </thead>
@@ -117,7 +117,7 @@ export default function ManaTech() {
                   {memberRates.map((p, i) => (
                     <tr key={i} style={{ borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
                       <td style={{ padding: '20px', fontWeight: 500, color: '#fff' }}>{p.name}</td>
-                      <td style={{ padding: '20px', textAlign: 'center', color: 'rgba(255,255,255,0.4)', textDecoration: 'line-through' }}>{p.standard}</td>
+                      <td style={{ padding: '20px', textAlign: 'center', color: 'rgba(255,255,255,0.4)' }}>{p.scope}</td>
                       <td style={{ padding: '20px', textAlign: 'center', fontWeight: 500, color: 'var(--teal)' }}>{p.member}</td>
                       <td style={{ padding: '20px', textAlign: 'center' }}>
                         <Link href={p.link} style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, color: 'var(--teal)', textDecoration: 'none' }}>Details →</Link>

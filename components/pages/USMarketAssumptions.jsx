@@ -104,7 +104,7 @@ export default function USMarketAssumptions() {
               This is the assumption that enables all the others. Brands tell themselves that market research is a Phase 2 investment — something they'll do once they have initial traction. But the brands that wait for post-launch data to inform strategy are spending 3–5x more to fix problems that research would have prevented.
             </p>
             <p>
-              A $5,000 market expansion assessment takes 14 days and can identify category white space, regulatory red flags, distribution complexity, and competitive threats before a dollar is spent on packaging, logistics, or marketing. The alternative is learning those lessons through failed launches, retailer rejections, and capital depletion.
+              A structured market expansion assessment takes 14 days and can identify category white space, regulatory red flags, distribution complexity, and competitive threats before a dollar is spent on packaging, logistics, or marketing. The alternative is learning those lessons through failed launches, retailer rejections, and capital depletion.
             </p>
             <p>
               <strong>What agencies should do:</strong> Make research the first billable deliverable in every expansion engagement. Position it not as a cost, but as insurance — a structured, data-driven answer to the question: "Should we enter this market, and if so, how?" The EVC (Expansion Viability Coefficient) framework gives clients a single score and a clear recommendation. It's a conversation-ender for the "should we or shouldn't we" debate.

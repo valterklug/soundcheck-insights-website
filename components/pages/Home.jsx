@@ -65,14 +65,14 @@ function NetworkViz() {
         initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.8}}/>
       <motion.text x="220" y="207" fill="#00C4D4" fontSize="9.5" fontFamily="IBM Plex Sans,sans-serif" textAnchor="middle" fontWeight="500" letterSpacing="1.2"
         initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.9}}>SOUNDCHECK AI</motion.text>
-      <motion.rect x="52" y="107" width="100" height="22" rx="3" fill="rgba(0,0,0,0.75)"
+      <motion.rect x="42" y="107" width="120" height="22" rx="3" fill="rgba(0,0,0,0.75)"
         initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.85}}/>
       <motion.text x="102" y="122" fill="#E8472A" fontSize="9.5" fontFamily="IBM Plex Sans,sans-serif" textAnchor="middle" fontWeight="500" letterSpacing="1.2"
-        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.95}}>YOUR AGENCY</motion.text>
+        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.95}}>YOUR STRATEGIST</motion.text>
       <motion.rect x="295" y="50" width="140" height="58" rx="4" fill="rgba(10,22,40,0.92)" stroke="rgba(0,196,212,0.2)" strokeWidth="1"
         initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:1.0}}/>
       <motion.text x="311" y="69" fill="rgba(0,196,212,0.7)" fontSize="8" fontFamily="IBM Plex Sans,sans-serif" letterSpacing="1.5"
-        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.1}}>EVC SCORE</motion.text>
+        initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.1}}>CVE SCORE</motion.text>
       <motion.text x="311" y="93" fill="white" fontSize="20" fontFamily="IBM Plex Sans,sans-serif" fontWeight="300"
         initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.15}}>72%</motion.text>
       <motion.rect x="311" y="97" width="80" height="3" rx="1" fill="rgba(255,255,255,0.1)"
@@ -100,7 +100,6 @@ export default function HomePage() {
   const problemCards = t.raw('problemCards')
   const howSteps = t.raw('howSteps')
   const stats = t.raw('stats')
-  const economicsRows = t.raw('economicsRows')
 
   return (
     <PageWrapper>
@@ -123,7 +122,7 @@ export default function HomePage() {
               style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(2.2rem, 5vw, 4rem)', fontWeight: 300, letterSpacing: '-0.025em', lineHeight: 1.0, marginBottom: 22 }}
             >
               {t('heroTitle1')}<br />
-              <span style={{ color: 'var(--teal-2)' }}>{t('heroTitle2')}</span> {t('heroTitle3')}<br />{t('heroTitle4')}
+              <span style={{ color: 'var(--teal-2)' }}>{t('heroTitle2')}</span>
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}
@@ -135,7 +134,7 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
               style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}
             >
-              <Link href="/founding-cohort" className="btn btn-primary">{t('requestAccess')}</Link>
+              <Link href="/contact" className="btn btn-primary">{t('requestAccess')}</Link>
               <Link href="/how-it-works" className="btn btn-secondary">{t('seeHowItWorks')}</Link>
             </motion.div>
             <motion.div
@@ -286,16 +285,11 @@ export default function HomePage() {
                     {t('modulesFoundation')}
                   </div>
                   <Link href={foundation.link || '/market-research'} style={{ textDecoration: 'none', display: 'block' }}>
-                    <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.2)', borderTop: '3px solid var(--teal)', padding: '32px 28px', marginBottom: 40, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 40, alignItems: 'center', transition: 'border-color 0.2s' }} className="foundation-card">
-                      <div>
-                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: 'var(--teal)', letterSpacing: '0.1em', marginBottom: 10 }}>PRODUCT {foundation.num}</div>
-                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 20, fontWeight: 500, color: '#fff', marginBottom: 10 }}>{foundation.name}</div>
-                        <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, margin: 0 }}>{foundation.desc}</p>
-                      </div>
-                      <div style={{ textAlign: 'right' }}>
-                        <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: 'var(--teal)', marginBottom: 8 }}>{foundation.price}</div>
-                        <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, color: 'var(--teal)', opacity: 0.7 }}>See full details →</span>
-                      </div>
+                    <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.2)', borderTop: '3px solid var(--teal)', padding: '32px 28px', marginBottom: 40, transition: 'border-color 0.2s' }} className="foundation-card">
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 700, color: 'var(--teal)', letterSpacing: '0.1em', marginBottom: 10 }}>PRODUCT {foundation.num}</div>
+                      <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 20, fontWeight: 500, color: '#fff', marginBottom: 10 }}>{foundation.name}</div>
+                      <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)', lineHeight: 1.7, margin: 0, maxWidth: 700 }}>{foundation.desc}</p>
+                      <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, color: 'var(--teal)', opacity: 0.7, display: 'inline-block', marginTop: 16 }}>See full details →</span>
                     </div>
                   </Link>
                 </FadeIn>
@@ -315,8 +309,7 @@ export default function HomePage() {
                           <div style={{ background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderTop: '3px solid rgba(255,255,255,0.08)', padding: '24px 20px', height: '100%', display: 'flex', flexDirection: 'column', transition: 'border-color 0.2s' }}>
                             <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 700, color: 'rgba(255,255,255,0.3)', letterSpacing: '0.1em', marginBottom: 8 }}>PRODUCT {m.num}</div>
                             <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff', marginBottom: 8 }}>{m.name}</div>
-                            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, marginBottom: 14, flex: 1 }}>{m.desc}</p>
-                            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, color: 'var(--teal)' }}>{m.price}</div>
+                            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.4)', lineHeight: 1.6, flex: 1 }}>{m.desc}</p>
                           </div>
                         </Link>
                       </FadeIn>
@@ -331,47 +324,50 @@ export default function HomePage() {
                 </div>
               </FadeIn>
             </div>
-            <style>{`@media(max-width:900px){.foundation-card{grid-template-columns:1fr!important;text-align:left!important}.foundation-card>div:last-child{text-align:left!important}.addons-grid{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.addons-grid{grid-template-columns:repeat(2,1fr)!important}}`}</style>
+            <style>{`@media(max-width:900px){.foundation-card{grid-template-columns:1fr!important;text-align:left!important}.addons-grid{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.addons-grid{grid-template-columns:repeat(2,1fr)!important}}`}</style>
           </section>
         )
       })()}
+
+      {/* ── SAMPLE REPORTS CTA ──────────────────────────────────────── */}
+      <section style={{ background: 'var(--navy-2)', padding: '60px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <div style={{
+              display: 'grid', gridTemplateColumns: '1fr auto',
+              alignItems: 'center', gap: 40,
+              background: 'rgba(255,255,255,0.03)',
+              border: '1px solid rgba(255,255,255,0.06)',
+              borderLeft: '3px solid var(--orange)',
+              padding: '36px 40px',
+            }} className="sample-cta-home">
+              <div>
+                <span className="sc-label sc-label-orange">{t('sampleLabel')}</span>
+                <h3 style={{
+                  fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.2rem,2vw,1.6rem)',
+                  fontWeight: 300, letterSpacing: '-0.01em', lineHeight: 1.15, marginBottom: 8,
+                }}>
+                  {t('sampleTitle')}
+                </h3>
+                <p style={{
+                  fontFamily: 'Inter, sans-serif', fontSize: 13,
+                  color: 'rgba(255,255,255,0.4)', lineHeight: 1.65, maxWidth: 520,
+                }}>
+                  {t('sampleDesc')}
+                </p>
+              </div>
+              <Link href="/samples" className="btn btn-secondary">{t('sampleLink')}</Link>
+            </div>
+          </FadeIn>
+        </div>
+        <style>{`@media(max-width:700px){.sample-cta-home{grid-template-columns:1fr!important}}`}</style>
+      </section>
 
       {/* ── DECISION GRID ──────────────────────────────────────────── */}
       <DecisionGrid />
 
       {/* ── DIFFERENTIATORS ─────────────────────────────────────────── */}
       <Differentiators />
-
-      {/* ── ECONOMICS ────────────────────────────────────────────────── */}
-      <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(232,71,42,0.15)' }} className="section-pad">
-        <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'start' }} className="grid-2">
-          <FadeIn>
-            <span className="sc-label sc-label-orange">{t('economicsLabel')}</span>
-            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,2.8vw,2.2rem)', fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 18 }}>
-              {t('economicsTitle1')}<br />{t('economicsTitle2')}
-            </h2>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 24 }}>
-              {t('economicsDesc')}
-            </p>
-            <Link href="/for-agencies" className="text-link">{t('economicsLink')}</Link>
-          </FadeIn>
-          <FadeIn delay={0.15}>
-            <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 10, fontWeight: 500, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: 14 }}>{t('economicsHeader')}</div>
-            <div>
-              {economicsRows.map(([l, v])=>(
-                <div key={l} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '14px 18px', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.05)', marginBottom: 2 }}>
-                  <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 13, color: 'rgba(255,255,255,0.45)' }}>{l}</span>
-                  <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 14, fontWeight: 500, color: '#fff' }}>{v}</span>
-                </div>
-              ))}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '18px 18px', background: 'var(--orange)', marginTop: 2 }}>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, fontWeight: 600, color: '#fff' }}>{t('marginLabel')}</span>
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 22, fontWeight: 300, color: '#fff' }}>{t('marginValue')}</span>
-              </div>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
 
       {/* ── CTA ──────────────────────────────────────────────────────── */}
       <section className="cta-strip">
@@ -380,7 +376,7 @@ export default function HomePage() {
           <p className="cta-strip-sub">{t('ctaSub')}</p>
         </FadeIn>
         <div className="cta-actions">
-          <Link href="/founding-cohort" className="btn btn-white">{t('ctaButton')}</Link>
+          <Link href="/contact" className="btn btn-white">{t('ctaButton')}</Link>
         </div>
       </section>
     </PageWrapper>

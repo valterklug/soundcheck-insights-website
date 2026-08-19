@@ -225,8 +225,8 @@ export default function ScaleAssessment() {
           </FadeIn>
           <FadeIn delay={0.1}>
             <div style={{ background: 'rgba(255,165,0,0.03)', border: '1px solid rgba(255,165,0,0.15)', padding: '48px 40px', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 36, fontWeight: 300, color: '#fff', marginBottom: 4 }}>{t('scaleAssessment.price')}</div>
-              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 24 }}>{t('scaleAssessment.priceSubtitle')}</div>
+              {t('scaleAssessment.price') && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 36, fontWeight: 300, color: '#fff', marginBottom: 4 }}>{t('scaleAssessment.price')}</div>}
+              {t('scaleAssessment.priceSubtitle') && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 24 }}>{t('scaleAssessment.priceSubtitle')}</div>}
               <div style={{ display: 'flex', justifyContent: 'center', gap: 40, flexWrap: 'wrap', marginBottom: 28 }}>
                 {t.raw('scaleAssessment.pricingDetails').map(({ title, sub }) => (
                   <div key={title} style={{ textAlign: 'center' }}>

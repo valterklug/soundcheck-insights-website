@@ -293,8 +293,8 @@ export default function ExpansionReport() {
           </FadeIn>
           <FadeIn delay={0.1}>
             <div style={{ background: 'rgba(0,196,212,0.03)', border: '1px solid rgba(0,196,212,0.15)', padding: '48px 40px', textAlign: 'center' }}>
-              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 36, fontWeight: 300, color: '#fff', marginBottom: 4 }}>{t('expansionReport.pricingAmount')}</div>
-              <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 24 }}>{t('expansionReport.pricingPer')}</div>
+              {t('expansionReport.pricingAmount') && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 36, fontWeight: 300, color: '#fff', marginBottom: 4 }}>{t('expansionReport.pricingAmount')}</div>}
+              {t('expansionReport.pricingPer') && <div style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 500, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', marginBottom: 24 }}>{t('expansionReport.pricingPer')}</div>}
               <div style={{ display: 'flex', justifyContent: 'center', gap: 40, flexWrap: 'wrap', marginBottom: 28 }}>
                 {t.raw('expansionReport.pricingFeatures').map((feature) => (
                   <div key={feature.title} style={{ textAlign: 'center' }}>

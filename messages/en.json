@@ -30,197 +30,134 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "Market Intelligence Platform · For Agencies, Consultancies & Marketing Executives",
-    "heroTitle1": "Add market intelligence",
-    "heroTitle2": "to your practice.",
-    "heroTitle3": "Without adding",
-    "heroTitle4": "the team.",
-    "heroDesc": "Soundcheck is a productized research platform for agencies, consultants, and fractional executives. Your clients get decision-grade intelligence. You keep 75–90% of every engagement. White-label by default.",
-    "requestAccess": "Apply for Founding Cohort →",
+    "heroBadge": "AI-Powered Market Intelligence",
+    "heroTitle1": "Test before",
+    "heroTitle2": "you invest.",
+    "heroTitle3": "",
+    "heroTitle4": "",
+    "heroDesc": "Decision-grade market research, competitive analysis, and strategic intelligence. Powered by AI. Validated by a senior strategist. Delivered in days, not months.",
+    "requestAccess": "Get Started →",
     "seeHowItWorks": "See How It Works",
     "stats": [
-      {
-        "value": "~5h",
-        "label": "Your time per report"
-      },
-      {
-        "value": "1 week",
-        "label": "Brief to delivery"
-      },
-      {
-        "value": "100%",
-        "label": "Your brand"
-      }
+      { "value": "100+", "label": "Pages per report" },
+      { "value": "Days", "label": "Not months" },
+      { "value": "Human", "label": "Validated, always" }
     ],
-    "problemLabel": "The Problem",
-    "problemTitle": "Research is the most under-monetized capability in your practice.",
-    "problemDesc1": "Agencies deliver strategy, campaigns, and execution. But the intelligence layer — market analysis, viability assessment, competitive mapping — is either outsourced at high cost or skipped entirely.",
-    "problemDesc2": "The result: clients make expensive decisions without evidence. Agencies leave billable work on the table.",
+    "problemLabel": "The Gap",
+    "problemTitle": "The research you need exists. You just couldn't access it before.",
+    "problemDesc1": "Strategic decisions about market entry, competitive positioning, and growth require real intelligence. But traditional research firms charge $50K+ and take months. And ChatGPT outputs won't survive a board meeting.",
+    "problemDesc2": "Soundcheck closes that gap. AI-powered research with the rigor of a consulting firm, delivered at the speed and price point of an actual decision.",
     "problemCards": [
-      {
-        "icon": "⏱",
-        "title": "Research takes too long",
-        "text": "A junior team needs 3–4 weeks to produce what Soundcheck generates in under 24 hours."
-      },
-      {
-        "icon": "💸",
-        "title": "Traditional research costs too much",
-        "text": "Research firms charge $50K–$100K+. Your clients can't justify it. You can't margin it."
-      },
-      {
-        "icon": "🤝",
-        "title": "You have the client, not the infrastructure",
-        "text": "You have the relationship and the expertise. You just need the research engine."
-      },
-      {
-        "icon": "🏷",
-        "title": "Most research tools aren't white-label",
-        "text": "Soundcheck is operator-facing — you deliver under your brand. Always."
-      }
+      { "icon": "📊", "title": "Decision-grade, not draft-grade", "text": "Every claim tagged with confidence level and source tier. Every finding defensible in front of a board or investor." },
+      { "icon": "🧠", "title": "AI-powered, human-validated", "text": "The platform generates 100+ pages of structured research. A senior strategist validates every insight before delivery." },
+      { "icon": "⚡", "title": "Days, not months", "text": "From intake to delivery in one to two weeks. Traditional firms take 8 to 20 weeks for comparable depth." },
+      { "icon": "🔒", "title": "Your data stays private", "text": "Client data never trains the AI. Source-tiered methodology ensures traceability and confidentiality." }
     ],
     "howLabel": "How It Works",
-    "howTitle1": "You're the expert.",
-    "howTitle2": "We're the engine.",
-    "howDesc": "Soundcheck is not a research agency. It's a platform you operate. The AI aggregates, maps, and scores. You validate with your professional judgment and deliver under your brand.",
+    "howTitle1": "AI does the heavy lifting.",
+    "howTitle2": "A senior strategist does the thinking.",
+    "howDesc": "Every Soundcheck engagement combines AI-powered research generation with human expert validation. The result: the depth of a top consulting firm at a fraction of the cost and timeline.",
     "howLink": "See the Full Process →",
     "howSteps": [
-      {
-        "num": "01",
-        "title": "You run the client intake",
-        "tag": "Your time · ~1h · Your relationship"
-      },
-      {
-        "num": "02",
-        "title": "Platform generates the report",
-        "tag": "Automated · 100+ pages · Day 1"
-      },
-      {
-        "num": "03",
-        "title": "You validate with your expertise",
-        "tag": "Your time · ~4h · Your strategic layer"
-      },
-      {
-        "num": "04",
-        "title": "You deliver under your brand",
-        "tag": "Your brand · Your credit · Your next contract"
-      }
+      { "num": "01", "title": "You brief us on the decision ahead", "tag": "60-minute intake call" },
+      { "num": "02", "title": "AI generates the research base", "tag": "100+ pages of structured analysis" },
+      { "num": "03", "title": "Senior strategist validates every finding", "tag": "Professional judgment on every claim" },
+      { "num": "04", "title": "You receive your deliverables", "tag": "Reports, dashboards, and action plans" }
     ],
-    "productsLabel": "Five Products",
-    "productsTitle": "Five products you can deliver\nto your clients starting today.",
+    "productsLabel": "What We Deliver",
+    "productsTitle": "Five research products.\nEach built for a specific decision.",
     "products": [
       {
         "num": "01",
-        "for": "The Starting Point · Every Engagement",
+        "for": "The Foundation",
         "name": "Market Research",
-        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel. Every other product builds on this.",
-        "delivery": "From $3,000 · Mini/Standard/Premium tiers · White-label included",
+        "desc": "Three decision-grade reports: Market Analysis, Consumer Analysis, and Competitive Landscape. Plus a research-grounded buyer persona panel.",
+        "delivery": "Foundation for every engagement",
         "link": "/research-platform"
       },
       {
         "num": "02",
-        "for": "Operators & Brands · Market Expansion",
+        "for": "Market Expansion",
         "name": "GoGlobal Viability Analysis",
-        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to your Market Research.",
-        "delivery": "$2,000 · Requires Market Research",
+        "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap for market entry.",
+        "delivery": "Add-on to Market Research",
         "link": "/expansion-report"
       },
       {
         "num": "03",
-        "for": "Established Brands & Agencies · Strategic Intelligence",
+        "for": "Growth Readiness",
         "name": "Scale Assessment",
-        "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates. Built on the Too Small To Fall framework.",
-        "delivery": "$4,000 · Requires Market Research",
+        "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates.",
+        "delivery": "Add-on to Market Research",
         "link": "/scale-assessment"
       },
       {
         "num": "04",
-        "for": "Operators · Brands · Consumer Intelligence",
+        "for": "Experience Mapping",
         "name": "Customer Journey Maps",
-        "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard + PDF export.",
-        "delivery": "$500/persona · Requires Market Research",
+        "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard and PDF export.",
+        "delivery": "Add-on to Market Research",
         "link": "/consumer-journeys"
       },
       {
         "num": "05",
-        "for": "Operators · Brands · Consumer Intelligence",
+        "for": "Concept Testing",
         "name": "Virtual Focus Groups",
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
-        "delivery": "$3,000/session · Requires Market Research",
+        "delivery": "Add-on to Market Research",
         "link": "/virtual-focus-groups"
       }
     ],
     "viewAllProducts": "View All Products →",
-    "economicsLabel": "The Business Case",
-    "economicsTitle1": "Your platform cost: $550.",
-    "economicsTitle2": "You set the client price.",
-    "economicsDesc": "The platform handles the heavy analytical work. Your role is to capture the brief, apply your professional judgment, and present the findings with the strategic context only you can provide.",
-    "economicsLink": "Full Economics Breakdown →",
-    "economicsHeader": "Founding Operator Economics (on a $5,500 engagement)",
-    "economicsRows": [
-      [
-        "Your platform cost",
-        "$550 (first 2 projects)"
-      ],
-      [
-        "You charge your client",
-        "You set the price"
-      ],
-      [
-        "Your time investment",
-        "~5 hours"
-      ],
-      [
-        "For-life platform cost",
-        "$1,320 per engagement"
-      ]
-    ],
-    "marginLabel": "You keep the difference",
-    "marginValue": "100%",
-    "ctaTitle": "Join the Founding Operator Cohort.\n10 seats. Application only.",
-    "ctaSub": "Platform cost starts at $550 per engagement. Locks at 20% off standard for life. Direct access to the founder. White-label by default.",
-    "ctaButton": "Apply for Founding Cohort →",
-    "modulesLabel": "Five Products · One Platform",
+    "modulesLabel": "What You Get",
     "modulesTitle": "Every engagement starts with Market Research. Build from there.",
     "modulesFoundation": "The Foundation",
-    "modulesAddOns": "Build on top of your research",
+    "modulesAddOns": "Add depth as you need it",
     "modules": [
       {
         "num": "01",
         "name": "Market Research",
-        "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded buyer persona panel. The required foundation for every other product.",
-        "price": "Mini / Standard / Premium: $3,000 · $3,500 · $4,000",
+        "desc": "Three decision-grade reports: Market Analysis, Consumer Analysis, Competitive Landscape. Plus a research-grounded buyer persona panel. The required foundation for every other product.",
+        "price": "",
         "link": "/market-research"
       },
       {
         "num": "02",
         "name": "Customer Journey Maps",
-        "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys — and where your touchpoints meet them or miss them.",
-        "price": "$500 per persona",
+        "desc": "Brand-specific journey maps showing how each persona discovers, evaluates, and buys, and where your touchpoints meet them or miss them.",
+        "price": "",
         "link": "/consumer-journeys"
       },
       {
         "num": "03",
         "name": "Virtual Focus Groups",
         "desc": "Test packaging, concepts, pricing, and creative territories against your persona panel. Three rounds of iterative feedback per session.",
-        "price": "$3,000 per session · +$2,000 re-test pack",
+        "price": "",
         "link": "/virtual-focus-groups"
       },
       {
         "num": "04",
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, and a phased roadmap for market entry.",
-        "price": "$2,000",
+        "price": "",
         "link": "/expansion-report"
       },
       {
         "num": "05",
         "name": "Scale Assessment",
         "desc": "Scale diagnostic, market opportunity map, competitive position analysis, 24-month phased plan, and an AI-augmented intelligence layer.",
-        "price": "$4,000",
+        "price": "",
         "link": "/scale-assessment"
       }
     ],
-    "modulesCta": "See all products →"
+    "modulesCta": "See all products →",
+    "sampleLabel": "SEE IT IN ACTION",
+    "sampleTitle": "Don’t take our word for it. See a sample.",
+    "sampleDesc": "These samples were generated for fictional companies to demonstrate the depth and quality of Soundcheck output.",
+    "sampleLink": "View all sample reports →",
+    "ctaTitle": "Ready to make a smarter decision?",
+    "ctaSub": "Tell us what decision is in front of you. We will match you with the right product and timeline.",
+    "ctaButton": "Get Started →"
   },
   "howItWorks": {
     "heroLabel": "How the Platform Works",
@@ -515,9 +452,9 @@
   },
   "products": {
     "heroLabel": "Research Products",
-    "heroTitle": "Decision-grade intelligence.\nFixed scope. Fixed price.",
-    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. This page is for operators delivering through the Soundcheck platform. Prices shown are your platform cost, not what you charge clients.",
-    "operatorNotice": "Prices on this page are operator platform costs — what you pay to generate the research. You set the client price.",
+    "heroTitle": "Decision-grade intelligence.\nFixed scope. Modular delivery.",
+    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. Operators deliver through the Soundcheck platform under their own brand.",
+    "operatorNotice": "Operators set their own client pricing. Contact us for platform cost details.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -541,8 +478,8 @@
         "name": "Market Research",
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
-        "price": "Your platform cost: $900 / $1,050 / $1,200 (Mini / Standard / Premium)",
-        "clientPrice": "Suggested end-client price: $3,000 / $3,500 / $4,000",
+        "price": "Mini / Standard / Premium tiers available",
+        "clientPrice": "Operators set their own client pricing",
         "delivery": "Operators usually deliver in 1 week",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
@@ -550,7 +487,7 @@
           "Consumer Analysis Report — demographics, psychographics, buying behaviors, unmet needs",
           "Competitive Landscape Report — positioning map, pricing benchmarks, gap analysis",
           "Persona Panel — 6, 12, or 20 research-grounded buyer personas (Mini/Standard/Premium tiers)",
-          "Operator platform cost: $900 / $1,050 / $1,200 (Mini/Standard/Premium)"
+          "Mini / Standard / Premium tiers available"
         ],
         "link": "/research-platform"
       },
@@ -559,8 +496,8 @@
         "for": "Operators & Brands · Market Expansion",
         "name": "GoGlobal Viability Analysis",
         "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
-        "price": "Your platform cost: $600 (add-on to Market Research)",
-        "clientPrice": "Suggested end-client price: $2,000",
+        "price": "Add-on to Market Research",
+        "clientPrice": "Operators set their own client pricing",
         "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
@@ -580,8 +517,8 @@
         "name": "Scale Assessment",
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
         "desc": "For established brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
-        "price": "Your platform cost: $1,200 (add-on to Market Research)",
-        "clientPrice": "Suggested end-client price: $4,000",
+        "price": "Add-on to Market Research",
+        "clientPrice": "Operators set their own client pricing",
         "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
@@ -602,8 +539,8 @@
         "name": "Customer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Attaches to a completed Market Research.",
-        "price": "Your platform cost: $150/persona (add-on to Market Research)",
-        "clientPrice": "Suggested end-client price: $500/persona",
+        "price": "Per-persona pricing · Add-on to Market Research",
+        "clientPrice": "Operators set their own client pricing",
         "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
@@ -620,15 +557,15 @@
         "name": "Virtual Focus Groups",
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
         "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Add a re-test pack for iterative testing.",
-        "price": "Your platform cost: $900/session · +$600 re-test (add-on to Market Research)",
-        "clientPrice": "Suggested end-client price: $3,000/session",
+        "price": "Per-session pricing · Add-on to Market Research",
+        "clientPrice": "Operators set their own client pricing",
         "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
         "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
           "Full focus group session — test any concept against persona panel",
           "Preference votes + verbatim quotes from each persona",
           "Strategic insights and recommendation summary",
-          "Re-test pack: +$2,000 adds 2 additional re-tests to the session",
+          "Re-test pack available: adds 2 additional re-tests to the session",
           "Panels reusable across sessions and product lines",
           "Requires completed Market Research (persona panel)"
         ],
@@ -784,9 +721,9 @@
         "sub": "operators usually deliver in"
       },
       {
-        "num": "US$5k+",
-        "label": "",
-        "sub": "white-label included"
+        "num": "100%",
+        "label": "WHITE-LABEL",
+        "sub": "included with every report"
       }
     ],
     "segmentsLabel": "Two segments. One methodology.",
@@ -893,10 +830,10 @@
       "90-day roadmap summary",
       "Live Q&A session included"
     ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
-    "price": "US$5,000+",
-    "perReport": "per report",
+    "pricingLabel": "Delivery",
+    "pricingTitle": "Fixed scope. White-label included.",
+    "price": "",
+    "perReport": "",
     "pricingDetails": [
       {
         "title": "1-week delivery",
@@ -908,7 +845,7 @@
       },
       {
         "title": "1 revision round",
-        "sub": "Included in the base price"
+        "sub": "Included in every engagement"
       }
     ],
     "sections": [
@@ -1049,9 +986,9 @@
         "sub": "operators usually deliver in (incl. Market Research)"
       },
       {
-        "num": "US$2,000",
-        "label": "",
-        "sub": "white-label included · 2 revisions"
+        "num": "100%",
+        "label": "WHITE-LABEL",
+        "sub": "included · 2 revisions"
       }
     ],
     "whoLabel": "Built for real decisions",
@@ -1300,10 +1237,10 @@
         ]
       }
     ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Fixed price. No surprises.",
-    "pricingAmount": "US$5,000+",
-    "pricingPer": "per report",
+    "pricingLabel": "Delivery",
+    "pricingTitle": "Fixed scope. White-label included.",
+    "pricingAmount": "",
+    "pricingPer": "",
     "pricingFeatures": [
       {
         "title": "2-week delivery",
@@ -1315,7 +1252,7 @@
       },
       {
         "title": "1 revision round",
-        "sub": "Included in the base price"
+        "sub": "Included in every engagement"
       }
     ],
     "faqLabel": "Common questions",
@@ -1358,8 +1295,8 @@
     "howItWorks": "How it works ↓",
     "heroStats": [
       {
-        "num": "$4,000",
-        "label": "/ SESSION"
+        "num": "1",
+        "label": "SESSION"
       },
       {
         "num": "7",
@@ -1409,7 +1346,7 @@
     "whatTolerated": "What they've had to tolerate",
     "whatToleratedItems": [
       "6–12 week timelines for a single focus-group round.",
-      "$30k–$150k price tags for a small, hard-to-iterate panel.",
+      "Prohibitively expensive price tags for a small, hard-to-iterate panel.",
       "Moderator bias, social desirability distortion, one loud participant defining the whole discussion.",
       "A single round — if the findings don't match your hypotheses, too bad, budget's gone."
     ],
@@ -1528,20 +1465,20 @@
       },
       {
         "q": "How does the feedback rework work?",
-        "a": "Each session includes three rounds of iterative feedback. After reviewing the initial results, you can refine the concept — change a tagline, swap a visual, adjust a claim — and re-run the panel within the same session. No new project, no new cost. Each round delivers fresh results on the same dashboard. Additional rounds beyond three are $50 each."
+        "a": "Each session includes three rounds of iterative feedback. After reviewing the initial results, you can refine the concept — change a tagline, swap a visual, adjust a claim — and re-run the panel within the same session. No new project, no new cost. Each round delivers fresh results on the same dashboard. Additional rounds beyond the included three are available."
       }
     ],
     "ctaTitle": "Ready to run the research?",
     "ctaSub": "Request access and we'll onboard your agency with a sample project in days. Brands work through a partner agency.",
     "ctaButton": "Request access →",
     "pricing": {
-      "label": "Pricing",
-      "title": "Pricing",
-      "amount": "$4,000 per session",
-      "sub": "One price. No tiers. No matter how many personas are in your panel.",
+      "label": "What's Included",
+      "title": "What's Included",
+      "amount": "Per-session pricing",
+      "sub": "One price per session. No tiers. No matter how many personas are in your panel.",
       "includes": "Full panel test against all selected personas · Preference votes · Verbatim quotes · Strategic insights · Recommendation framework · 3 rounds of iterative feedback · Branded dashboard · Shareable link · White-label PDF report · 60-minute review call",
-      "extra": "Additional feedback rounds beyond 3 included: $50 each.",
-      "reuse": "Once a persona panel exists, run any number of sessions against it. New concept? New session. Same panel, same price, no setup fee.",
+      "extra": "Additional feedback rounds beyond the 3 included are available.",
+      "reuse": "Once a persona panel exists, run any number of sessions against it. New concept? New session. Same panel, no setup fee.",
       "wholesale": "See partnership models and revenue splits.",
       "projectNote": "Part of a larger project? See the project-size examples at /research-platform."
     },
@@ -1586,9 +1523,9 @@
         "sub": "operators usually deliver in (incl. Market Research)"
       },
       {
-        "num": "US$9.5k–$14.5k",
-        "label": "",
-        "sub": "fixed price, no hourly billing"
+        "num": "Fixed",
+        "label": "SCOPE",
+        "sub": "no hourly billing"
       },
       {
         "num": "24",
@@ -1728,10 +1665,10 @@
         ]
       }
     ],
-    "pricingLabel": "Pricing & delivery",
-    "pricingTitle": "Fixed scope. Premium positioning.",
-    "price": "US$4,000",
-    "priceSubtitle": "per assessment",
+    "pricingLabel": "Delivery",
+    "pricingTitle": "Fixed scope. White-label included.",
+    "price": "",
+    "priceSubtitle": "",
     "pricingDetails": [
       {
         "title": "2-week delivery",
@@ -1746,9 +1683,9 @@
         "sub": "Included in the base price"
       }
     ],
-    "introLabel": "Introductory Pricing",
+    "introLabel": "Introductory Offer",
     "introTitle": "Founding customer rate available.",
-    "introSub": "The first 5–10 customers receive the assessment at $4,000 (vs. $4,000 standard) in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
+    "introSub": "The first 5–10 customers receive the assessment at a preferred rate in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
     "faqLabel": "Common questions",
     "faqTitle": "Straight answers.",
     "faqs": [
@@ -1787,7 +1724,7 @@
     "heroSub": "Three modules. One workflow. As much or as little as the project needs.",
     "heroDesc": "Commission Market Research and get a research-grounded persona panel. Map how each persona buys with Customer Journey Maps. Pressure-test your concepts with Virtual Focus Group Sessions. Each module stands alone. All three compound.",
     "ctaButton": "Request Access →",
-    "seePricing": "See Pricing ↓",
+    "seePricing": "See Project Sizes ↓",
     "modulesTitle": "How the modules connect",
     "modules": [
       {
@@ -1797,7 +1734,7 @@
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
         "delivery": "Operators usually deliver in 1 week",
-        "pricing": "Mini $3,000 (6 personas) · Standard $3,500 (12 personas) · Premium $4,000 (20 personas)",
+        "pricing": "Mini (6 personas) · Standard (12 personas) · Premium (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
       },
@@ -1808,7 +1745,7 @@
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
         "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "pricing": "$500 per persona · pick any number from your panel",
+        "pricing": "Per-persona pricing · pick any number from your panel",
         "link": "/consumer-journeys",
         "linkLabel": "See full details →"
       },
@@ -1819,7 +1756,7 @@
         "desc": "Test packaging, taglines, creative territories, product concepts, or pricing claims against your full persona panel. Each session includes three rounds of iterative feedback — refine the concept between rounds without starting a new session. Panels are reusable across multiple sessions and product lines.",
         "whatYouGet": "Dashboard with preference votes, verbatim quotes, strategic insights + 3 feedback rounds",
         "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "pricing": "$3,000 per session · +$2,000 re-test pack",
+        "pricing": "Per-session pricing · re-test pack available",
         "link": "/virtual-focus-groups",
         "linkLabel": "See full details →"
       }
@@ -1831,46 +1768,46 @@
       "Market Research",
       "Customer Journeys",
       "VFG Session",
-      "Total"
+      "Modules"
     ],
     "pricingRows": [
       {
         "name": "Starter",
-        "research": "Research Mini ($3,000)",
-        "journeys": "6 personas ($3,000)",
-        "vfg": "1 session ($3,000)",
-        "total": "$9,000"
+        "research": "Research Mini",
+        "journeys": "6 personas",
+        "vfg": "1 session",
+        "total": "3 modules"
       },
       {
         "name": "Growth",
-        "research": "Research Standard ($3,500)",
-        "journeys": "8 personas ($4,000)",
-        "vfg": "1 session ($3,000)",
-        "total": "$10,500"
+        "research": "Research Standard",
+        "journeys": "8 personas",
+        "vfg": "1 session",
+        "total": "3 modules"
       },
       {
         "name": "Full Scale",
-        "research": "Research Premium ($4,000)",
-        "journeys": "10 personas ($5,000)",
-        "vfg": "1 session ($3,000)",
-        "total": "$12,000"
+        "research": "Research Premium",
+        "journeys": "10 personas",
+        "vfg": "1 session",
+        "total": "3 modules"
       },
       {
         "name": "Research Only",
-        "research": "Research Mini ($3,000)",
+        "research": "Research Mini",
         "journeys": "—",
         "vfg": "—",
-        "total": "$3,000"
+        "total": "1 module"
       },
       {
         "name": "Research + Journeys",
-        "research": "Research Standard ($3,500)",
-        "journeys": "6 personas ($3,000)",
+        "research": "Research Standard",
+        "journeys": "6 personas",
         "vfg": "—",
-        "total": "$6,500"
+        "total": "2 modules"
       }
     ],
-    "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
+    "pricingNote": "Operators set their own client pricing. Contact us for platform cost details.",
     "whoTitle": "Built for two kinds of operators",
     "whoAgenciesTitle": "For Agencies & Consultancies",
     "whoAgenciesDesc": "Add a structured consumer intelligence layer to what you sell — without building an in-house research team. Run one module for a quick-turnaround client. Chain all three for a full strategic engagement. White-label throughout.",
@@ -1886,8 +1823,8 @@
     "heroSub": "Customer Journey Maps show the full sequence of how each persona in your panel discovers, evaluates, purchases, and returns to your brand — and where your current or planned touchpoints align, miss, or create friction. Brand-specific. Grounded in your market research. Visual and exportable.",
     "heroStats": [
       {
-        "num": "$500",
-        "label": "PER PERSONA"
+        "num": "Per",
+        "label": "PERSONA"
       },
       {
         "num": "7",
@@ -1958,12 +1895,12 @@
         "desc": "Duplicate and re-run any journey after a brand updates its channel strategy. Both versions are stored with timestamps. No data is lost."
       }
     ],
-    "pricingTitle": "Pricing",
-    "pricingAmount": "$500 per persona",
+    "pricingTitle": "What's Included",
+    "pricingAmount": "Per-persona pricing",
     "pricingSub": "Select any number of personas from your panel. No minimum.",
     "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
-    "pricingExamples": "6 personas = $3,000 | 10 personas = $5,000 | 20 personas = $10,000",
-    "pricingNote": "Agency wholesale pricing available — see partnership models and revenue splits.",
+    "pricingExamples": "Select 6, 10, or all 20 personas from your panel",
+    "pricingNote": "Operators set their own client pricing. Contact us for platform cost details.",
     "faqTitle": "Common questions",
     "faqs": [
       {
@@ -2238,7 +2175,7 @@
       {
         "icon": "💸",
         "title": "Research firms price out your members",
-        "text": "Traditional market research costs $50K to $100K+. For most SMEs and growth-stage companies, that budget simply doesn't exist."
+        "text": "Traditional market research is prohibitively expensive. For most SMEs and growth-stage companies, that budget simply doesn't exist."
       },
       {
         "icon": "🎯",
@@ -2263,7 +2200,7 @@
     "path1Desc": "Your members get preferred pricing on any Soundcheck engagement. Research is delivered by an experienced operator. Your organization makes no operational commitment. You add a high-value member benefit with zero lift.",
     "path1Stats": [
       { "value": "25%", "label": "off MSRP on every engagement" },
-      { "value": "$2,625", "label": "MR Standard (vs. $3,500 MSRP)" },
+      { "value": "25%", "label": "discount on every product" },
       { "value": "0h", "label": "operational commitment from your org" }
     ],
     "path1BestFor": "Best for:",
@@ -2296,31 +2233,31 @@
         "num": "01",
         "name": "Market Research",
         "desc": "Three decision-grade reports plus a research-grounded persona panel. The foundation for every engagement.",
-        "price": "From $2,250 (Mini) · $2,625 (Standard) · $3,000 (Premium)"
+        "price": "Mini · Standard · Premium tiers available at member rates"
       },
       {
         "num": "02",
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution map, and phased entry roadmap.",
-        "price": "$1,500 (add-on to Market Research)"
+        "price": "Add-on to Market Research · member rate"
       },
       {
         "num": "03",
         "name": "Scale Assessment",
         "desc": "Scale diagnostic, competitive position, operational readiness, and a 24-month phased plan with go/no-go gates.",
-        "price": "$3,000 (add-on to Market Research)"
+        "price": "Add-on to Market Research · member rate"
       },
       {
         "num": "04",
         "name": "Customer Journey Maps",
         "desc": "Per-persona journey maps from awareness to advocacy, with friction and opportunity analysis.",
-        "price": "$375/persona (add-on to Market Research)"
+        "price": "Per-persona pricing · Add-on to Market Research · member rate"
       },
       {
         "num": "05",
         "name": "Virtual Focus Groups",
         "desc": "AI-powered concept testing against a research-grounded persona panel. Three rounds of feedback per session.",
-        "price": "$2,250/session + $750/re-test (add-on to Market Research)"
+        "price": "Per-session pricing · Add-on to Market Research · member rate"
       }
     ],
     "whoLabel": "Who This Is For",
@@ -2411,13 +2348,13 @@
     "ctaButton": "Brief a Product"
   },
   "decisionGrid": {
-    "label": "WHAT I OFFER",
+    "label": "WHAT WE DELIVER",
     "title1": "Hundreds of decisions.",
     "title2": "Five product modules.",
     "title3": "Days, not months.",
-    "desc": "Every cell is a question you might be asking — the kind that used to require a bespoke research firm or got skipped entirely. With Soundcheck powering my delivery, every one becomes a decision you can act on in days.",
-    "catalogNote": "The grid is my service catalog.",
-    "catalogDesc": "Most engagements pair the Market Research foundation with one or two add-ons — typical total $5,000–$13,000. Each module priced separately. Pay only for what you buy.",
+    "desc": "Every cell is a question you might be asking. The kind that used to require a bespoke research firm or got skipped entirely. With Soundcheck, every one becomes a decision you can act on in days.",
+    "catalogNote": "This is our product catalog.",
+    "catalogDesc": "Most engagements pair the Market Research foundation with one or two add-ons. Each module scoped separately. You choose what you need.",
     "mrLabel": "Market Research",
     "mrSub": "FOUNDATION · ALWAYS INCLUDED",
     "goGlobalLabel": "GoGlobal",
@@ -2439,7 +2376,7 @@
     "col3": "Soundcheck Insights",
     "rows": [
       "Delivered in days, not months",
-      "Mid-market pricing, not $30K+",
+      "Mid-market pricing, not enterprise-only",
       "Security: client data doesn't train the AI",
       "Tiered sources with cited evidence",
       "Decision quality, defensible in boardroom",
