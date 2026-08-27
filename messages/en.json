@@ -18,7 +18,7 @@
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
-    "tagline": "Decision-grade market intelligence platform for operators — agencies, consultancies, and fractional executives.",
+    "tagline": "White-label decision intelligence platform for advisors.",
     "foundedBy": "Founded by Valter Klug",
     "location": "Miami, FL",
     "platform": "Platform",
@@ -30,7 +30,7 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "AI-Powered Market Intelligence",
+    "heroBadge": "AI-Powered Decision Intelligence",
     "heroTitle1": "Test before",
     "heroTitle2": "you invest.",
     "heroTitle3": "",
@@ -188,7 +188,7 @@
     "phases": [
       {
         "num": "Phase 01",
-        "label": "You run the client intake",
+        "label": "Operator briefs the project",
         "timing": "Day 0 · Your time: ~1h",
         "title": "The most important hour in the process.",
         "body": "You lead a scoped conversation with your client: what market are they entering, what's the core business question, what decisions hang on the answer. You capture the brief and submit it through the platform — bringing the context no AI can infer.",
@@ -196,18 +196,18 @@
       },
       {
         "num": "Phase 02",
-        "label": "Platform generates the report",
+        "label": "Platform builds and audits the research",
         "timing": "Day 1 · Automated",
-        "title": "What would take 3–4 weeks generates in under 24 hours.",
-        "body": "The Soundcheck platform aggregates market data, builds competitive maps, calculates viability scores, and produces 100+ pages of structured analysis — in hours, not weeks. You don't need to do anything during this phase.",
-        "tag": "Automated · No input needed from you"
+        "title": "Dual-AI architecture: Claude builds, OpenAI audits.",
+        "body": "Claude (Anthropic) generates the full research base — market data, competitive maps, viability scores, and 100+ pages of structured analysis. Then OpenAI independently audits every claim, flagging unsupported assertions and source gaps. The platform applies Decision Assurance: evidence governance, decision scores, hard gates, automated repair, and re-verification. Only work that passes the Client Ready release gate moves forward.",
+        "tag": "Automated · Decision Assurance built in"
       },
       {
         "num": "Phase 03",
-        "label": "You validate with your expertise",
+        "label": "You add the human edge",
         "timing": "Days 2–7 · Your time: ~4h",
-        "title": "This is where your value as a practitioner comes in.",
-        "body": "You review the platform output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The 1-week timeline gives you legroom to manage multiple projects. The output becomes yours, not ours.",
+        "title": "Judgment, experience, and strategic context no AI can provide.",
+        "body": "You review the platform output against your own market knowledge, add strategic context and narrative, adjust any section that doesn't match your read, and build your recommendations layer on top. The dual-AI audit has already caught the errors — your time goes into improving the decision, not fixing the report.",
         "tag": "Your expertise · Your strategic layer"
       },
       {
@@ -225,8 +225,9 @@
     "platformItems": [
       "Market data aggregation at scale",
       "Competitive landscape mapping",
-      "Industry benchmark compilation",
-      "Viability scoring across 10 dimensions",
+      "Decision scores and hard gates (CVE, SRS)",
+      "Independent cross-model audit (Claude builds, OpenAI verifies)",
+      "Automated repair, re-verification, and Client Ready release gate",
       "Structured report assembly (100+ pages)"
     ],
     "youBring": "You bring",
@@ -269,7 +270,7 @@
     "heroTitle1": "Add a ",
     "heroTitle2": "very profitable",
     "heroTitle3": " service offering to your business, without adding headcount.",
-    "heroSub": "Soundcheck is a market intelligence platform you operate for your clients. Your expertise validates the AI output. You set the price. You own the relationship.",
+    "heroSub": "Soundcheck is a decision intelligence platform you operate for your clients. Your expertise validates the AI output. You set the price. You own the relationship.",
     "chips": [
       {
         "icon": "⏱",
@@ -290,6 +291,11 @@
         "icon": "🔍",
         "value": "You validate",
         "label": "the output"
+      },
+      {
+        "icon": "🎯",
+        "value": "Less time fixing the report.",
+        "label": "More time improving the decision."
       }
     ],
     "businessCaseLabel": "The Business Case",
@@ -628,7 +634,7 @@
   "ourPartners": {
     "heroLabel": "Our Partner Network",
     "heroTitle": "We'll point you to\nthe right expert.",
-    "heroSub": "Soundcheck Insights focuses on market intelligence and research. If what you need falls outside that scope, here are trusted partners we work with directly — each a specialist in their field.",
+    "heroSub": "Soundcheck Insights focuses on decision intelligence and research. If what you need falls outside that scope, here are trusted partners we work with directly — each a specialist in their field.",
     "forBrands": "For brands and businesses:",
     "forBrandsDesc": "If you're not an agency but need help entering the US market, this page will help you find the right expert faster.",
     "findPartner": "Find the Right Partner for Your Challenge",
@@ -1009,7 +1015,7 @@
     ],
     "cveLabel": "Proprietary metric",
     "cveTitle": "The CVE Score. Your viability in one number.",
-    "cveSub": "The Coefficient of Viability of Expansion is a weighted score from 0 to 100, computed across three dimensions: Market Opportunity (40%), Competitive Position (35%), and Internal Readiness (25%). Each dimension is scored independently with sourced evidence. The final number gives your team a single anchor for the go/no-go conversation.",
+    "cveSub": "The Coefficient of Viability of Expansion is a weighted score from 0 to 100, computed across three dimensions: Market Opportunity (40%), Competitive Position (35%), and Organizational Execution Capacity (25%). Each dimension is scored independently with sourced evidence. The final number gives your team a single anchor for the go/no-go conversation.",
     "cveSampleLabel": "Sample CVE",
     "cveSampleScore": "67",
     "cveSampleOut": "/ 100",
@@ -1026,7 +1032,7 @@
         "score": 68
       },
       {
-        "label": "Internal Readiness",
+        "label": "Organizational Execution Capacity",
         "weight": 25,
         "score": 58
       }
@@ -1079,7 +1085,7 @@
         "sub": "Your expansion viability in one number.",
         "items": [
           "Proprietary Coefficient of Viability of Expansion (0 to 100) scored across three weighted dimensions.",
-          "Market Opportunity (40%), Competitive Position (35%), Internal Readiness (25%).",
+          "Market Opportunity (40%), Competitive Position (35%), Organizational Execution Capacity (25%).",
           "Top 3 drivers pulling the score up, with supporting metrics.",
           "Top 3 drags pulling the score down, with specific evidence.",
           "Impact vs. Readiness matrix positioning your top strategic levers."
@@ -1513,7 +1519,7 @@
   "scaleAssessment": {
     "heroLabel": "Product Deep-Dive · Scale Assessment",
     "heroTitle": "Growth is what they sold you.\nScale is what you actually need.",
-    "heroSub": "The Scale Assessment is built for established brands at strategic inflection points. It answers a different question than most market intelligence: not where can you grow, but whether you are built to scale durably — and what you need to build first if you are not.",
+    "heroSub": "The Scale Assessment is built for established brands at strategic inflection points. It answers a different question than most decision intelligence: not where can you grow, but whether you are built to scale durably — and what you need to build first if you are not.",
     "briefButton": "Brief This Assessment →",
     "seeInside": "See What's Inside ↓",
     "heroStats": [
@@ -1535,7 +1541,7 @@
     ],
     "positionLabel": "The Difference",
     "positionTitle": "Growth vs. Scale. They are not the same question.",
-    "positionSub": "Most market intelligence answers where can I grow? The Scale Assessment answers should I grow, and how do I scale durably? The latter is far more valuable to senior buyers making decisions that affect the next 2–5 years.",
+    "positionSub": "Most decision intelligence answers where can I grow? The Scale Assessment answers should I grow, and how do I scale durably? The latter is far more valuable to senior buyers making decisions that affect the next 2–5 years.",
     "growthLabel": "GROWTH",
     "growthQuestion": "Where can I sell more?",
     "growthDesc": "Tactical. Channel-focused. Revenue-obsessed. Often leads to overextension, margin erosion, and operational fragility.",
@@ -1929,7 +1935,7 @@
     "heroLabel": "Founding Operator Cohort · 10 Seats · Application Only",
     "heroTitle1": "Build a research practice.",
     "heroTitle2": "At the best rate we will ever offer.",
-    "heroSub": "Generate white-label market intelligence on the Soundcheck platform. You run the research. You set the price. You keep everything above your platform cost. Founding operators lock the lowest rate we will ever offer. For life.",
+    "heroSub": "Generate white-label decision intelligence on the Soundcheck platform. You run the research. You set the price. You keep everything above your platform cost. Founding operators lock the lowest rate we will ever offer. For life.",
     "chipSeats": "seats available",
     "chipSetup": "setup fee",
     "chipRate": "Lowest rate, locked for life",
@@ -2108,7 +2114,7 @@
     "selectionLabel": "Selection Criteria",
     "selectionTitle": "What we are looking for.",
     "selectionItems": [
-      "Clients in your pipeline who would benefit from market intelligence. You have a real engagement in mind, not a theoretical one",
+      "Clients in your pipeline who would benefit from decision intelligence. You have a real engagement in mind, not a theoretical one",
       "Methodology fit. You think strategically, not just executionally. You are comfortable validating research and adding professional judgment",
       "Willingness to deliver at quality. The Soundcheck methodology has standards, and you will uphold them",
       "Ambition to build a recurring research practice, not just run a one-off project"
@@ -2151,7 +2157,7 @@
     ],
     "formLabel": "Apply Now",
     "formTitle": "Founding Operator Cohort Application",
-    "formDesc": "10 seats. We review every application personally. If you have clients who need market intelligence and you are ready to deliver, tell us about your practice.",
+    "formDesc": "10 seats. We review every application personally. If you have clients who need decision intelligence and you are ready to deliver, tell us about your practice.",
     "formButton": "Submit Application →",
     "ctaTitle": "10 seats. This rate will not be repeated.",
     "ctaSub": "The Founding Operator Cohort is a one-time offer. First project free. Lock 20% below standard for life. Four weeks of personal onboarding with Valter. Once the 10 seats are filled, the next cohort starts at standard rates.",
@@ -2159,7 +2165,7 @@
   },
   "partnerships": {
     "heroLabel": "For Trade Organizations, Chambers & Accelerators",
-    "heroTitle1": "Add market intelligence\n",
+    "heroTitle1": "Add decision intelligence\n",
     "heroTitle2": "to your member programs.",
     "heroSub": "Your members are making high-stakes market decisions without proper intelligence. You can change that with a single partnership.",
     "chips": [
@@ -2169,7 +2175,7 @@
       { "value": "2", "label": "partnership paths" }
     ],
     "problemLabel": "The Gap",
-    "problemTitle": "Your members need market intelligence. Most can't access it.",
+    "problemTitle": "Your members need decision intelligence. Most can't access it.",
     "problemDesc": "Trade organizations, chambers, and accelerators exist to give members an edge. But when it comes to market research, members are on their own. They either skip the research entirely or rely on tools that won't hold up under scrutiny.",
     "problemCards": [
       {
@@ -2279,7 +2285,7 @@
     "howPath1Title": "Member Rate path",
     "howPath1Steps": [
       { "num": "01", "title": "We agree on terms", "desc": "Your organization signs a partnership agreement. Your members get 25% off MSRP on any Soundcheck product." },
-      { "num": "02", "title": "Members engage directly", "desc": "When a member needs market intelligence, they engage through Soundcheck or an assigned operator. Your org makes the introduction." },
+      { "num": "02", "title": "Members engage directly", "desc": "When a member needs decision intelligence, they engage through Soundcheck or an assigned operator. Your org makes the introduction." },
       { "num": "03", "title": "Research is delivered", "desc": "The operator runs intake, the platform generates the report, the operator validates and delivers. Your member gets decision-grade intelligence at a preferred rate." }
     ],
     "howPath2Title": "Platform Access path",
@@ -2288,7 +2294,7 @@
       { "num": "02", "title": "You run it under your brand", "desc": "Your team conducts intake with member companies, the platform generates reports, your team validates and delivers under your brand." },
       { "num": "03", "title": "Your program scales", "desc": "Every member engagement strengthens your program. You build a research capability without hiring researchers." }
     ],
-    "ctaTitle": "Your members deserve better market intelligence.",
+    "ctaTitle": "Your members deserve better decision intelligence.",
     "ctaSub": "One partnership. Immediate access to five research products at preferred rates. No minimum commitment on the member rate path.",
     "ctaButton": "Start the Conversation →",
     "formTitle": "Partner with Soundcheck",
@@ -2321,7 +2327,7 @@
       "Not sure yet, let's discuss"
     ],
     "formMessage": "Tell us about your program",
-    "formMessagePlaceholder": "What does your organization do for its members today? What would better market intelligence change?",
+    "formMessagePlaceholder": "What does your organization do for its members today? What would better decision intelligence change?",
     "formSubmit": "Submit Partnership Inquiry →",
     "formThankYou": "Thank you.",
     "formThankYouSub": "Valter reviews every partnership inquiry personally. Expect a response within 48 hours.",
@@ -2370,20 +2376,22 @@
     "label": "WHY SOUNDCHECK",
     "title1": "Our key",
     "title2": "differentiators.",
-    "desc": "The speed of a GPT. The rigor of a research firm. Under your brand.",
-    "col1": "Consultant with ChatGPT / Claude",
+    "desc": "Decision Assurance — dual-AI architecture where Claude builds the research and OpenAI independently audits every claim. Hard gates that scores cannot override. The speed of AI, the rigor of a research firm, under your brand.",
+    "col1": "DIY with ChatGPT / AI Tools",
     "col2": "Traditional Research",
     "col3": "Soundcheck Insights",
     "rows": [
-      "Delivered in days, not months",
-      "Mid-market pricing, not enterprise-only",
-      "Security: client data doesn't train the AI",
-      "Tiered sources with cited evidence",
-      "Decision quality, defensible in boardroom",
-      "Senior human validation in every report",
-      "Claim type and confidence level on every statement",
-      "Proprietary CVE / SRS scoring",
-      "Delivered under your own brand (white-label)"
+      { "label": "Structured research methodology", "values": [false, true, true] },
+      { "label": "Source-tiered evidence governance", "values": [false, false, true] },
+      { "label": "Proprietary decision scores (CVE, SRS)", "values": [false, false, true] },
+      { "label": "Hard gates that scores cannot override", "values": [false, false, true] },
+      { "label": "Independent cross-model audit", "values": [false, false, true] },
+      { "label": "Automated repair and re-verification", "values": [false, false, true] },
+      { "label": "Client Ready release gate", "values": [false, false, true] },
+      { "label": "Current vs. optimized architecture", "values": [false, false, true] },
+      { "label": "Senior strategist validates every finding", "values": [false, true, true] },
+      { "label": "White-label, delivered under your brand", "values": [false, false, true] },
+      { "label": "Delivered in days, not months", "values": [true, false, true] }
     ],
     "footerBold": "velocity, rigor, and your brand on the report.",
     "footer": "The point isn't being faster or cheaper. It's being the only option that delivers all three:"

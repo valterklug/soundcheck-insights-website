@@ -18,7 +18,7 @@
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
-    "tagline": "Plataforma de inteligência de mercado decision-grade para operadores — agências, consultorias e executivos fracionais.",
+    "tagline": "Plataforma white-label de inteligência decisória para consultores.",
     "foundedBy": "Fundada por Valter Klug",
     "location": "Miami, FL",
     "platform": "Plataforma",
@@ -30,7 +30,7 @@
     "domain": "soundcheckinsights.com"
   },
   "home": {
-    "heroBadge": "Inteligência de Mercado com IA",
+    "heroBadge": "Inteligência Decisória com IA",
     "heroTitle1": "Teste antes",
     "heroTitle2": "de investir.",
     "heroTitle3": "",
@@ -229,7 +229,7 @@
     "phases": [
       {
         "num": "Fase 01",
-        "label": "Você executa a coleta de informações do cliente",
+        "label": "O operador apresenta o projeto",
         "timing": "Dia 0 · Seu tempo: ~1h",
         "title": "A hora mais importante do processo.",
         "body": "Você lidera uma conversa delimitada com seu cliente: que mercado ele está entrando, qual é a questão comercial fundamental, que decisões dependem da resposta. Você captura o briefing e o envia pela plataforma — trazendo o contexto que nenhuma IA pode inferir.",
@@ -237,18 +237,18 @@
       },
       {
         "num": "Fase 02",
-        "label": "A plataforma gera o relatório",
+        "label": "A plataforma constrói e audita a pesquisa",
         "timing": "Dia 1 · Automatizado",
-        "title": "O que levaria 3-4 semanas é executado em menos de 24 horas.",
-        "body": "O motor IA do Soundcheck agrega dados de mercado, constrói mapas competitivos, calcula pontuações de viabilidade e produz uma análise estruturada de 100+ páginas. Você não precisa fazer nada durante essa fase.",
-        "tag": "Automatizado · Nenhuma entrada necessária de você"
+        "title": "Arquitetura dual de IA: Claude constrói, OpenAI audita.",
+        "body": "Claude (Anthropic) gera a base de pesquisa completa — dados de mercado, mapas competitivos, pontuações de viabilidade e 100+ páginas de análise estruturada. Então OpenAI audita independentemente cada afirmação, sinalizando asserções sem suporte e lacunas de fonte. A plataforma aplica Decision Assurance: governança de evidência, scores de decisão, gates rígidos, reparo automatizado e re-verificação. Somente o trabalho que passa o gate de liberação Client Ready avança.",
+        "tag": "Automatizado · Decision Assurance integrado"
       },
       {
         "num": "Fase 03",
-        "label": "Você valida com sua expertise",
+        "label": "Você adiciona a vantagem humana",
         "timing": "Dias 2–7 · Seu tempo: ~4h",
-        "title": "É aqui que seu valor como profissional entra.",
-        "body": "Você analisa o resultado gerado por IA em relação ao seu próprio conhecimento de mercado, adiciona contexto estratégico e narrativa, ajusta qualquer seção que não corresponda à sua leitura e constrói sua camada de recomendações. O resultado se torna seu, não nosso.",
+        "title": "Julgamento, experiência e contexto estratégico que nenhuma IA pode fornecer.",
+        "body": "Você analisa o resultado da plataforma em relação ao seu próprio conhecimento de mercado, adiciona contexto estratégico e narrativa, ajusta qualquer seção que não corresponda à sua leitura, e constrói sua camada de recomendações. A auditoria dual de IA já detectou os erros — seu tempo vai para melhorar a decisão, não corrigir o relatório.",
         "tag": "Sua expertise · Sua camada estratégica"
       },
       {
@@ -266,8 +266,9 @@
     "platformItems": [
       "Agregação de dados de mercado em escala",
       "Mapeamento de panorama competitivo",
-      "Compilação de benchmarks da indústria",
-      "Pontuação de viabilidade em 10 dimensões",
+      "Scores de decisão e gates rígidos (CVE, SRS)",
+      "Auditoria independente entre modelos (Claude constrói, OpenAI verifica)",
+      "Reparo automatizado, re-verificação e gate de liberação Client Ready",
       "Montagem de relatório estruturado (100+ páginas)"
     ],
     "youBring": "Você traz",
@@ -310,7 +311,7 @@
     "heroTitle1": "Adicione uma oferta de serviço ",
     "heroTitle2": "muito lucrativa",
     "heroTitle3": " ao seu negócio, sem contratar mais ninguém.",
-    "heroSub": "Soundcheck é uma plataforma de inteligência de mercado que você opera para seus clientes. Sua expertise valida o resultado da IA. Você define o preço. Você possui o relacionamento.",
+    "heroSub": "Soundcheck é uma plataforma de inteligência decisória que você opera para seus clientes. Sua expertise valida o resultado da IA. Você define o preço. Você possui o relacionamento.",
     "chips": [
       {
         "icon": "⏱",
@@ -331,6 +332,11 @@
         "icon": "🔍",
         "value": "Você valida",
         "label": "o resultado"
+      },
+      {
+        "icon": "🎯",
+        "value": "Menos tempo corrigindo o relatório.",
+        "label": "Mais tempo melhorando a decisão."
       }
     ],
     "businessCaseLabel": "O Caso de Negócio",
@@ -671,7 +677,7 @@
   "ourPartners": {
     "heroLabel": "Nossa Rede de Parceiros",
     "heroTitle": "Vamos indicá-lo ao\nespecialista certo.",
-    "heroSub": "Soundcheck Insights foca em inteligência de mercado e pesquisa. Se o que você precisa está fora desse escopo, aqui estão parceiros confiáveis com os quais trabalhamos diretamente — cada um especialista em seu campo.",
+    "heroSub": "Soundcheck Insights foca em inteligência decisória e pesquisa. Se o que você precisa está fora desse escopo, aqui estão parceiros confiáveis com os quais trabalhamos diretamente — cada um especialista em seu campo.",
     "forBrands": "Para marcas e negócios:",
     "forBrandsDesc": "Se você não é uma agência mas precisa de ajuda para entrar no mercado dos EUA, esta página o ajudará a encontrar o especialista certo mais rápido.",
     "findPartner": "Encontre o Parceiro Certo para Seu Desafio",
@@ -1052,7 +1058,7 @@
     ],
     "cveLabel": "Métrica proprietária",
     "cveTitle": "A Pontuação CVE. Sua viabilidade em um número.",
-    "cveSub": "O Coeficiente de Viabilidade de Expansão é uma pontuação ponderada de 0 a 100, calculada em três dimensões: Oportunidade de Mercado (40%), Posição Competitiva (35%), e Prontidão Interna (25%). Cada dimensão é pontuada independentemente com evidência verificada. O número final dá à sua equipe uma âncora única para a conversa de sim/não.",
+    "cveSub": "O Coeficiente de Viabilidade de Expansão é uma pontuação ponderada de 0 a 100, calculada em três dimensões: Oportunidade de Mercado (40%), Posição Competitiva (35%), e Capacidade de Execução Organizacional (25%). Cada dimensão é pontuada independentemente com evidência verificada. O número final dá à sua equipe uma âncora única para a conversa de sim/não.",
     "cveSampleLabel": "CVE de Amostra",
     "cveSampleScore": "67",
     "cveSampleOut": "/ 100",
@@ -1069,7 +1075,7 @@
         "score": 68
       },
       {
-        "label": "Prontidão Interna",
+        "label": "Capacidade de Execução Organizacional",
         "weight": 25,
         "score": 58
       }
@@ -1122,7 +1128,7 @@
         "sub": "Sua viabilidade de expansão em um número.",
         "items": [
           "Coeficiente proprietário de Viabilidade de Expansão (0 a 100) pontuado em três dimensões ponderadas.",
-          "Oportunidade de Mercado (40%), Posição Competitiva (35%), Prontidão Interna (25%).",
+          "Oportunidade de Mercado (40%), Posição Competitiva (35%), Capacidade de Execução Organizacional (25%).",
           "Top 3 impulsores puxando a pontuação para cima, com métricas de apoio.",
           "Top 3 drags puxando a pontuação para baixo, com evidência específica.",
           "Matriz de Impacto vs. Prontidão posicionando suas principais alavancas estratégicas."
@@ -1578,7 +1584,7 @@
   "scaleAssessment": {
     "heroLabel": "Análise Profunda de Produto · Scale Assessment",
     "heroTitle": "Crescimento é o que eles te venderam.\nEscala é o que você realmente precisa.",
-    "heroSub": "O Scale Assessment foi construído para marcas estabelecidas em pontos de inflexão estratégica. Ele responde uma pergunta diferente da maioria da inteligência de mercado: não onde você pode crescer, mas se você está construído para escalar de forma durável — e o que você precisa construir primeiro se não estiver.",
+    "heroSub": "O Scale Assessment foi construído para marcas estabelecidas em pontos de inflexão estratégica. Ele responde uma pergunta diferente da maioria da inteligência decisória: não onde você pode crescer, mas se você está construído para escalar de forma durável — e o que você precisa construir primeiro se não estiver.",
     "briefButton": "Solicitar Este Assessment →",
     "seeInside": "Veja O Que Está Incluído ↓",
     "heroStats": [
@@ -1600,7 +1606,7 @@
     ],
     "positionLabel": "A Diferença",
     "positionTitle": "Crescimento vs. Escala. Não são a mesma pergunta.",
-    "positionSub": "A maioria da inteligência de mercado responde onde posso crescer? O Scale Assessment responde devo crescer e como faço para escalar de forma durável? O último é muito mais valioso para executivos sênior que tomam decisões que afetam os próximos 2–5 anos.",
+    "positionSub": "A maioria da inteligência decisória responde onde posso crescer? O Scale Assessment responde devo crescer e como faço para escalar de forma durável? O último é muito mais valioso para executivos sênior que tomam decisões que afetam os próximos 2–5 anos.",
     "growthLabel": "CRESCIMENTO",
     "growthQuestion": "Onde posso vender mais?",
     "growthDesc": "Tático. Focado em canal. Obcecado por receita. Frequentemente leva a superextensão, erosão de margem e fragilidade operacional.",
@@ -1994,7 +2000,7 @@
     "heroLabel": "Coorte de Operadores Fundadores · 10 Vagas · Apenas por Candidatura",
     "heroTitle1": "Construa uma prática de pesquisa.",
     "heroTitle2": "Na melhor tarifa que já ofereceremos.",
-    "heroSub": "Gere inteligência de mercado white-label na plataforma Soundcheck. Você executa a pesquisa. Você define o preço. Você fica com tudo acima do seu custo de plataforma. Operadores fundadores fixam a menor tarifa que jamais ofereceremos. Para sempre.",
+    "heroSub": "Gere inteligência decisória white-label na plataforma Soundcheck. Você executa a pesquisa. Você define o preço. Você fica com tudo acima do seu custo de plataforma. Operadores fundadores fixam a menor tarifa que jamais ofereceremos. Para sempre.",
     "chipSeats": "vagas disponíveis",
     "chipSetup": "taxa de ativação",
     "chipRate": "Menor tarifa, fixada para sempre",
@@ -2173,7 +2179,7 @@
     "selectionLabel": "Critérios de Seleção",
     "selectionTitle": "O que estamos buscando.",
     "selectionItems": [
-      "Clientes no seu pipeline que se beneficiariam de inteligência de mercado. Você tem um projeto real em mente, não um teórico",
+      "Clientes no seu pipeline que se beneficiariam de inteligência decisória. Você tem um projeto real em mente, não um teórico",
       "Afinidade metodológica. Você pensa estrategicamente, não apenas em execução. Você se sente confortável validando pesquisa e adicionando julgamento profissional",
       "Disposição para entregar com qualidade. A metodologia do Soundcheck tem padrões, e você vai mantê-los",
       "Ambição de construir uma prática de pesquisa recorrente, não apenas executar um projeto único"
@@ -2216,7 +2222,7 @@
     ],
     "formLabel": "Candidatar-se Agora",
     "formTitle": "Candidatura à Coorte de Operadores Fundadores",
-    "formDesc": "10 vagas. Revisamos cada candidatura pessoalmente. Se você tem clientes que precisam de inteligência de mercado e está pronto para entregar, nos conte sobre sua prática.",
+    "formDesc": "10 vagas. Revisamos cada candidatura pessoalmente. Se você tem clientes que precisam de inteligência decisória e está pronto para entregar, nos conte sobre sua prática.",
     "formButton": "Enviar Candidatura →",
     "ctaTitle": "10 vagas. Esta tarifa não será repetida.",
     "ctaSub": "A Founding Operator Cohort é uma oferta única. Primeiro projeto grátis. Fixe 20% abaixo do padrão para sempre. Quatro semanas de onboarding pessoal com Valter. Assim que os 10 assentos forem preenchidos, a próxima coorte começa com tarifas padrão.",
@@ -2224,7 +2230,7 @@
   },
   "partnerships": {
     "heroLabel": "Para Organizações Comerciais, Câmaras e Aceleradoras",
-    "heroTitle1": "Adicione inteligência de mercado\n",
+    "heroTitle1": "Adicione inteligência decisória\n",
     "heroTitle2": "aos programas dos seus associados.",
     "heroSub": "Seus associados estão tomando decisões de mercado de alto impacto sem a inteligência adequada. Você pode mudar isso com uma única parceria.",
     "chips": [
@@ -2246,7 +2252,7 @@
       }
     ],
     "problemLabel": "A Lacuna",
-    "problemTitle": "Seus associados precisam de inteligência de mercado. A maioria não consegue acessar.",
+    "problemTitle": "Seus associados precisam de inteligência decisória. A maioria não consegue acessar.",
     "problemDesc": "Organizações comerciais, câmaras e aceleradoras existem para dar aos seus associados uma vantagem. Mas quando se trata de pesquisa de mercado, os associados estão por conta própria. Ou pulam a pesquisa por completo, ou usam ferramentas que não resistem ao escrutínio.",
     "problemCards": [
       {
@@ -2411,7 +2417,7 @@
       {
         "num": "02",
         "title": "Associados contratam diretamente",
-        "desc": "Quando um associado precisa de inteligência de mercado, ele se conecta pelo Soundcheck ou um operador designado. Sua organização faz a apresentação."
+        "desc": "Quando um associado precisa de inteligência decisória, ele se conecta pelo Soundcheck ou um operador designado. Sua organização faz a apresentação."
       },
       {
         "num": "03",
@@ -2437,7 +2443,7 @@
         "desc": "Cada projeto com um associado fortalece seu programa. Você constrói capacidade de pesquisa sem contratar pesquisadores."
       }
     ],
-    "ctaTitle": "Seus associados merecem inteligência de mercado melhor.",
+    "ctaTitle": "Seus associados merecem inteligência decisória melhor.",
     "ctaSub": "Uma parceria. Acesso imediato a cinco produtos de pesquisa com tarifas preferenciais. Sem compromisso mínimo no caminho de tarifa para associados.",
     "ctaButton": "Iniciar a Conversa →",
     "formTitle": "Parceria com Soundcheck",
@@ -2470,7 +2476,7 @@
       "Ainda não tenho certeza, vamos conversar"
     ],
     "formMessage": "Conte-nos sobre seu programa",
-    "formMessagePlaceholder": "O que sua organização faz pelos associados hoje? O que mudaria com uma inteligência de mercado melhor?",
+    "formMessagePlaceholder": "O que sua organização faz pelos associados hoje? O que mudaria com uma inteligência decisória melhor?",
     "formSubmit": "Enviar Consulta de Parceria →",
     "formThankYou": "Obrigado.",
     "formThankYouSub": "Valter revisa cada consulta de parceria pessoalmente. Espere uma resposta em até 48 horas.",
@@ -2519,20 +2525,22 @@
     "label": "POR QUE SOUNDCHECK",
     "title1": "Nossos principais",
     "title2": "diferenciais.",
-    "desc": "A velocidade de um GPT. O rigor de uma firma de pesquisa. Sob a sua marca.",
-    "col1": "Consultor com ChatGPT / Claude",
+    "desc": "Decision Assurance — arquitetura dual de IA onde Claude constrói a pesquisa e OpenAI audita independentemente cada afirmação. Gates rígidos que scores não podem sobrepor. A velocidade da IA, o rigor de uma firma de pesquisa, sob a sua marca.",
+    "col1": "DIY com ChatGPT / Ferramentas de IA",
     "col2": "Pesquisa Tradicional",
     "col3": "Soundcheck Insights",
     "rows": [
-      "Entregue em dias, não meses",
-      "Preços para o mid-market, não apenas empresas",
-      "Segurança: dados do cliente não treinam a IA",
-      "Fontes escalonadas com evidências citadas",
-      "Qualidade de decisão, defensável em reunião de diretoria",
-      "Validação humana sênior em cada relatório",
-      "Tipo de afirmação e nível de confiança em cada declaração",
-      "Pontuação proprietária CVE / SRS",
-      "Entregue sob a sua própria marca (white-label)"
+      { "label": "Metodologia de pesquisa estruturada", "values": [false, true, true] },
+      { "label": "Governança de evidência com níveis de fonte", "values": [false, false, true] },
+      { "label": "Scores de decisão proprietários (CVE, SRS)", "values": [false, false, true] },
+      { "label": "Gates rígidos que scores não podem sobrepor", "values": [false, false, true] },
+      { "label": "Auditoria independente entre modelos de IA", "values": [false, false, true] },
+      { "label": "Reparo automatizado e re-verificação", "values": [false, false, true] },
+      { "label": "Gate de liberação Client Ready", "values": [false, false, true] },
+      { "label": "Arquitetura atual vs. otimizada", "values": [false, false, true] },
+      { "label": "Estrategista senior valida cada descoberta", "values": [false, true, true] },
+      { "label": "White-label, entregue sob sua marca", "values": [false, false, true] },
+      { "label": "Entregue em dias, não meses", "values": [true, false, true] }
     ],
     "footerBold": "velocidade, rigor e a sua marca no relatório.",
     "footer": "O ponto não é ser mais rápido ou mais barato. É ser a única opção que entrega os três:"

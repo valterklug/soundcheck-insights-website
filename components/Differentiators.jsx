@@ -3,18 +3,7 @@
 import { useTranslations } from 'next-intl'
 import { FadeIn } from '@/components/Animate'
 
-// [chatgpt, traditional, soundcheck] — true = check, false = cross
-const matrix = [
-  [true, false, true],
-  [true, false, true],
-  [false, true, true],
-  [false, true, true],
-  [false, true, true],
-  [false, true, true],
-  [false, false, true],
-  [false, false, true],
-  [false, false, true],
-]
+// Matrix values now come from translation rows as {label, values} objects
 
 function Check() {
   return <span style={{ color: 'var(--teal)', fontSize: 18 }}>✓</span>
@@ -71,26 +60,30 @@ export default function Differentiators() {
                 </tr>
               </thead>
               <tbody>
-                {rows.map((row, i) => (
-                  <tr key={i} style={{ borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
-                    <td style={{
-                      padding: '16px 20px',
-                      fontFamily: 'Inter, sans-serif', fontSize: 14, color: 'rgba(255,255,255,0.6)',
-                    }}>{row}</td>
-                    <td style={{ padding: '16px 20px', textAlign: 'center' }}>
-                      {matrix[i][0] ? <Check /> : <Cross />}
-                    </td>
-                    <td style={{ padding: '16px 20px', textAlign: 'center' }}>
-                      {matrix[i][1] ? <Check /> : <Cross />}
-                    </td>
-                    <td style={{
-                      padding: '16px 24px', textAlign: 'center',
-                      background: 'rgba(232,71,42,0.08)',
-                    }}>
-                      {matrix[i][2] ? <Check /> : <Cross />}
-                    </td>
-                  </tr>
-                ))}
+                {rows.map((row, i) => {
+                  const label = typeof row === 'string' ? row : row.label
+                  const vals = typeof row === 'string' ? [false, false, true] : row.values
+                  return (
+                    <tr key={i} style={{ borderBottom: '1px solid rgba(255,255,255,0.04)' }}>
+                      <td style={{
+                        padding: '16px 20px',
+                        fontFamily: 'Inter, sans-serif', fontSize: 14, color: 'rgba(255,255,255,0.6)',
+                      }}>{label}</td>
+                      <td style={{ padding: '16px 20px', textAlign: 'center' }}>
+                        {vals[0] ? <Check /> : <Cross />}
+                      </td>
+                      <td style={{ padding: '16px 20px', textAlign: 'center' }}>
+                        {vals[1] ? <Check /> : <Cross />}
+                      </td>
+                      <td style={{
+                        padding: '16px 24px', textAlign: 'center',
+                        background: 'rgba(232,71,42,0.08)',
+                      }}>
+                        {vals[2] ? <Check /> : <Cross />}
+                      </td>
+                    </tr>
+                  )
+                })}
               </tbody>
             </table>
           </div>
