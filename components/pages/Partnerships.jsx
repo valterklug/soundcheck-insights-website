@@ -16,6 +16,7 @@ export default function Partnerships() {
   const path2Stats = t.raw('partnerships.path2Stats')
   const path1BestForItems = t.raw('partnerships.path1BestForItems')
   const path2BestForItems = t.raw('partnerships.path2BestForItems')
+  const levels = t.raw('partnerships.levels')
   const products = t.raw('partnerships.products')
   const whoCategories = t.raw('partnerships.whoCategories')
   const howPath1Steps = t.raw('partnerships.howPath1Steps')
@@ -280,6 +281,76 @@ export default function Partnerships() {
               </div>
             </FadeIn>
           </div>
+        </div>
+      </section>
+
+      {/* ── 3b. Partnership Levels ── */}
+      <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid rgba(0,196,212,0.12)' }} className="section-pad">
+        <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+          <FadeIn>
+            <span className="sc-label">{t('partnerships.levelsLabel')}</span>
+            <h2 style={{
+              fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)',
+              fontWeight: 300, letterSpacing: '-0.015em', lineHeight: 1.1, marginBottom: 10,
+            }}>
+              {t('partnerships.levelsTitle')}
+            </h2>
+            <p style={{
+              fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem',
+              color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 40, maxWidth: 700,
+            }}>
+              {t('partnerships.levelsSub')}
+            </p>
+          </FadeIn>
+          <StaggerContainer className="offer-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }}>
+            {levels.map((lvl, i) => (
+              <StaggerItem key={i}>
+                <div style={{
+                  background: 'rgba(255,255,255,0.03)',
+                  border: '1px solid rgba(0,196,212,0.14)',
+                  borderTop: '3px solid var(--teal)',
+                  padding: '28px 22px', height: '100%',
+                  display: 'flex', flexDirection: 'column',
+                }}>
+                  <div style={{
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 12, fontWeight: 600,
+                    letterSpacing: '0.08em', color: 'var(--teal)', marginBottom: 6,
+                  }}>
+                    LEVEL {lvl.level}
+                  </div>
+                  <div style={{
+                    fontFamily: 'IBM Plex Sans, sans-serif', fontSize: '1.1rem', fontWeight: 500,
+                    color: '#fff', marginBottom: 10,
+                  }}>
+                    {lvl.name}
+                  </div>
+                  <p style={{
+                    fontFamily: 'Inter, sans-serif', fontSize: '0.8rem',
+                    color: 'rgba(255,255,255,0.5)', lineHeight: 1.65, marginBottom: 16, flex: 1,
+                  }}>
+                    {lvl.desc}
+                  </p>
+                  <div style={{
+                    background: 'rgba(0,196,212,0.06)', padding: '10px 12px',
+                    borderLeft: '2px solid var(--teal)',
+                  }}>
+                    <div style={{
+                      fontFamily: 'Inter, sans-serif', fontSize: 12,
+                      color: 'rgba(255,255,255,0.45)', lineHeight: 1.5,
+                    }}>
+                      <strong style={{ color: 'rgba(255,255,255,0.6)' }}>Best fit:</strong> {lvl.fit}
+                    </div>
+                  </div>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerContainer>
+          <p style={{
+            fontFamily: 'Inter, sans-serif', fontSize: '0.875rem',
+            color: 'rgba(255,255,255,0.4)', lineHeight: 1.65, marginTop: 24,
+          }}>
+            {t('partnerships.levelsNote')}
+          </p>
         </div>
       </section>
 
@@ -727,11 +798,13 @@ export default function Partnerships() {
         @media (max-width: 960px) {
           .grid-2 { grid-template-columns: 1fr !important; gap: 40px !important; }
           .grid-5 { grid-template-columns: repeat(2, 1fr) !important; }
+          .offer-grid { grid-template-columns: repeat(2, 1fr) !important; }
         }
         @media (max-width: 640px) {
           .grid-5 { grid-template-columns: 1fr !important; }
           .grid-2-inner { grid-template-columns: 1fr !important; }
           .form-grid-inner { grid-template-columns: 1fr !important; }
+          .offer-grid { grid-template-columns: 1fr !important; }
           .section-pad { padding: 60px 24px !important; }
         }
       `}</style>

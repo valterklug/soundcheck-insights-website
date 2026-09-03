@@ -14,6 +14,7 @@ export default function ForAgencies() {
   const whiteLabelProducts = t.raw('forAgencies.whiteLabelProducts')
   const worksWellItems = t.raw('forAgencies.worksWellItems')
   const notRightItems = t.raw('forAgencies.notRightItems')
+  const partnershipLevels = t.raw('forAgencies.partnershipLevels')
 
   // Process white-label products to add localized links
   const productsWithLinks = whiteLabelProducts.map(p => ({
@@ -47,53 +48,32 @@ export default function ForAgencies() {
           </FadeIn>
           <FadeIn delay={0.15}>
             <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"rgba(255,255,255,0.25)",marginBottom:14}}>{t('forAgencies.economicsHeader')}</div>
-            {/* Three-tier header */}
-            <div style={{display:"grid",gridTemplateColumns:"1.4fr 1fr 1fr 1fr",gap:0}} className="econ-grid">
-              <div style={{padding:"12px 14px",background:"rgba(255,255,255,0.01)"}}></div>
-              <div style={{padding:"12px 14px",background:"rgba(255,255,255,0.04)",border:"1px solid rgba(255,255,255,0.08)",textAlign:"center"}}>
-                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"rgba(255,255,255,0.6)"}}>{t('forAgencies.tierTrial')}</div>
-                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierTrialDesc')}</div>
-              </div>
-              <div style={{padding:"12px 14px",background:"rgba(0,196,212,0.06)",border:"1px solid rgba(0,196,212,0.15)",textAlign:"center"}}>
-                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--teal)"}}>{t('forAgencies.tierStandard')}</div>
-                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierStandardDesc')}</div>
-              </div>
-              <div style={{padding:"12px 14px",background:"rgba(232,71,42,0.06)",border:"1px solid rgba(232,71,42,0.15)",textAlign:"center"}}>
-                <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",color:"var(--orange)"}}>{t('forAgencies.tierFounding')}</div>
-                <div style={{fontFamily:"Inter,sans-serif",fontSize:9,color:"rgba(255,255,255,0.25)",marginTop:2}}>{t('forAgencies.tierFoundingDesc')}</div>
-              </div>
-            </div>
-            {/* Table rows */}
-            {t.raw('forAgencies.economicsRows').map(([l,v1,v2,v3])=>(
-              <div key={l} style={{display:"grid",gridTemplateColumns:"1.4fr 1fr 1fr 1fr",gap:0,marginBottom:1}} className="econ-grid">
-                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",display:"flex",alignItems:"center"}}>
-                  <span style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.45)"}}>{l}</span>
+            {/* Two-column economics table */}
+            {t.raw('forAgencies.economicsRows').map(([label, value], i) => (
+              <div key={label} style={{display:"grid",gridTemplateColumns:"1.6fr 1fr",gap:0,marginBottom:1}}>
+                <div style={{padding:"13px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",display:"flex",alignItems:"center"}}>
+                  <span style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.45)"}}>{label}</span>
                 </div>
-                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:"#fff"}}>{v1}</span>
-                </div>
-                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:"#fff"}}>{v2}</span>
-                </div>
-                <div style={{padding:"11px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:12,fontWeight:500,color:"#fff"}}>{v3}</span>
+                <div style={{padding:"13px 14px",background: i === 2 ? "rgba(232,71,42,0.08)" : "rgba(255,255,255,0.03)",border: i === 2 ? "1px solid rgba(232,71,42,0.2)" : "1px solid rgba(255,255,255,0.05)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize: i === 2 ? 17 : 13,fontWeight: i === 2 ? 600 : 500,color: i === 2 ? "var(--orange)" : "#fff"}}>{value}</span>
                 </div>
               </div>
             ))}
-            {/* Margin row */}
-            <div style={{display:"grid",gridTemplateColumns:"1.4fr 1fr 1fr 1fr",gap:0,marginTop:2}} className="econ-grid">
-              <div style={{padding:"14px 14px",background:"var(--orange)",display:"flex",alignItems:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:11,fontWeight:600,color:"#fff"}}>{t('forAgencies.yourMargin')}</span>
-              </div>
-              <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginTrial')}</span>
-              </div>
-              <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginStandard')}</span>
-              </div>
-              <div style={{padding:"14px 14px",background:"var(--orange)",textAlign:"center",display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:17,fontWeight:300,color:"#fff"}}>{t('forAgencies.marginFounding')}</span>
-              </div>
+            <p style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.3)",lineHeight:1.6,marginTop:12}}>{t('forAgencies.economicsNote')}</p>
+
+            {/* Five partnership levels */}
+            <div style={{marginTop:36}}>
+              <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.15em",textTransform:"uppercase",color:"rgba(255,255,255,0.25)",marginBottom:14}}>{t('forAgencies.partnershipLabel')}</div>
+              {partnershipLevels.map(lvl => (
+                <div key={lvl.level} style={{display:"flex",gap:14,alignItems:"flex-start",padding:"12px 14px",background:"rgba(255,255,255,0.02)",border:"1px solid rgba(255,255,255,0.05)",marginBottom:1}}>
+                  <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,color:"rgba(255,255,255,0.2)",letterSpacing:"0.1em",flexShrink:0,marginTop:2}}>{lvl.level}</span>
+                  <div>
+                    <span style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:13,fontWeight:600,color:"var(--teal)"}}>{lvl.name}</span>
+                    <span style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.4)",marginLeft:8}}>{lvl.desc}</span>
+                  </div>
+                </div>
+              ))}
+              <p style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.3)",lineHeight:1.6,marginTop:8}}>{t('forAgencies.partnershipNote')}</p>
             </div>
           </FadeIn>
         </div>
@@ -190,7 +170,7 @@ export default function ForAgencies() {
           <p className="cta-strip-sub">{t('forAgencies.ctaSub')}</p>
         </FadeIn>
         <div className="cta-actions">
-          <Link href="/partner" className="btn btn-white">{t('forAgencies.ctaButton')}</Link>
+          <Link href="/contact" className="btn btn-white">{t('forAgencies.ctaButton')}</Link>
         </div>
       </section>
     </PageWrapper>

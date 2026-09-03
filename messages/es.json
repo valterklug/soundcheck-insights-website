@@ -106,7 +106,7 @@
       }
     ],
     "productsLabel": "Lo Que Entregamos",
-    "productsTitle": "Cinco productos de investigación.\nCada uno diseñado para una decisión específica.",
+    "productsTitle": "Seis productos de investigación.\nCada uno diseñado para una decisión específica.",
     "products": [
       {
         "num": "01",
@@ -147,6 +147,14 @@
         "desc": "Sesiones de focus group con IA testando conceptos contra su panel de personas. Votos de preferencia, citas textuales e insights estratégicos.",
         "delivery": "Complemento de Investigación de Mercado",
         "link": "/virtual-focus-groups"
+      },
+      {
+        "num": "06",
+        "for": "Inteligencia Continua",
+        "name": "Living Intelligence",
+        "desc": "Actualizaciones mensuales sobre cambios en el mercado, la competencia y la regulación. Tu investigación se mantiene actualizada sin empezar de cero.",
+        "delivery": "Mensual, mínimo de 3 meses",
+        "link": "/living-intelligence"
       }
     ],
     "viewAllProducts": "Ver Todos los Productos →",
@@ -189,9 +197,48 @@
         "desc": "Diagnóstico de escala, mapa de oportunidades de mercado, análisis de posición competitiva, plan de 24 meses por fases y una capa de inteligencia aumentada por IA.",
         "price": "",
         "link": "/scale-assessment"
+      },
+      {
+        "num": "06",
+        "name": "Living Intelligence",
+        "desc": "Actualizaciones mensuales sobre mercado, competencia y regulación de cualquier compromiso completado. Tu investigación se mantiene actualizada sin empezar de cero.",
+        "price": "",
+        "link": "/living-intelligence"
       }
     ],
     "modulesCta": "Ver todos los productos →",
+    "deliverables": [
+      {
+        "icon": "📄",
+        "title": "Resumen Ejecutivo",
+        "sub": "Breve de decisión de 2–4 páginas"
+      },
+      {
+        "icon": "📊",
+        "title": "Informe Completo",
+        "sub": "100+ páginas de análisis"
+      },
+      {
+        "icon": "📐",
+        "title": "Presentación en Diapositivas",
+        "sub": "Diapositivas listas para cliente"
+      },
+      {
+        "icon": "🏷",
+        "title": "Etiquetado Blanco",
+        "sub": "Su marca en todo"
+      },
+      {
+        "icon": "📊",
+        "title": "Panel en Vivo",
+        "sub": "Interactivo, con tu marca, compartible"
+      },
+      {
+        "icon": "🤖",
+        "title": "Q&A del Cliente",
+        "sub": "Preguntas respondidas desde tu investigación"
+      }
+    ],
     "sampleLabel": "VÉALO EN ACCIÓN",
     "sampleTitle": "No confíe solo en nuestra palabra. Vea una muestra.",
     "sampleDesc": "Estas muestras fueron generadas para empresas ficticias para demostrar la profundidad y calidad del output de Soundcheck.",
@@ -205,10 +252,10 @@
     "heroTitle1": "La IA realiza la investigación.",
     "heroTitle2": "Usted",
     "heroTitle3": "entrega la inteligencia.",
-    "heroSub": "Cómo las agencias usan Soundcheck para producir informes de mercado de grado decisión — en ~5 horas de su tiempo, entregados bajo su marca.",
+    "heroSub": "Cómo las agencias usan Soundcheck para producir informes de mercado de grado decisión — en 6 a 10 horas de su tiempo, entregados bajo su marca.",
     "chips": [
       {
-        "value": "~5h",
+        "value": "6–10h",
         "label": "su tiempo por informe"
       },
       {
@@ -240,7 +287,7 @@
         "label": "La plataforma construye y audita la investigación",
         "timing": "Día 1 · Automatizado",
         "title": "Arquitectura dual de IA: Claude construye, OpenAI audita.",
-        "body": "Claude (Anthropic) genera la base de investigación completa — datos de mercado, mapas competitivos, puntuaciones de viabilidad y 100+ páginas de análisis estructurado. Luego OpenAI audita independientemente cada afirmación, señalando aserciones sin respaldo y brechas de fuente. La plataforma aplica Decision Assurance: gobernanza de evidencia, puntuaciones de decisión, puertas duras, reparación automatizada y re-verificación. Solo el trabajo que pasa la puerta de liberación Client Ready avanza.",
+        "body": "Claude (Anthropic) genera la base de investigación completa — datos de mercado, mapas competitivos, puntuaciones de viabilidad y 100+ páginas de análisis estructurado. Luego OpenAI audita independientemente cada afirmación, señalando aserciones sin respaldo y brechas de fuente. La plataforma aplica Decision Assurance: gobernanza de evidencia, puntuaciones de decisión, puertas duras, reparación automatizada y re-verificación. Solo el trabajo que pasa la puerta de liberación Operator Ready avanza.",
         "tag": "Automatizado · Decision Assurance integrado"
       },
       {
@@ -268,7 +315,7 @@
       "Mapeo de panorama competitivo",
       "Puntuaciones de decisión y puertas duras (CVE, SRS)",
       "Auditoría independiente entre modelos (Claude construye, OpenAI verifica)",
-      "Reparación automatizada, re-verificación y puerta de liberación Client Ready",
+      "Reparación automatizada, re-verificación y puerta de liberación Operator Ready",
       "Montaje de informes estructurados (100+ páginas)"
     ],
     "youBring": "Usted aporta",
@@ -299,12 +346,22 @@
         "icon": "🏷",
         "title": "Etiquetado Blanco",
         "sub": "Su marca en todo"
+      },
+      {
+        "icon": "📊",
+        "title": "Panel en Vivo",
+        "sub": "Interactivo, con tu marca, compartible"
+      },
+      {
+        "icon": "🤖",
+        "title": "Bot Q&A del Cliente",
+        "sub": "Respuestas basadas en su proyecto"
       }
     ],
     "ctaTitle": "¿Listo para ejecutar su primer informe?",
     "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato.",
     "ctaButton1": "Solicitar Acceso a la Plataforma",
-    "ctaButton2": "Explorar los 5 Productos"
+    "ctaButton2": "Explorar los 6 Productos"
   },
   "forAgencies": {
     "heroLabel": "Para Agencias y Consultorías",
@@ -315,12 +372,12 @@
     "chips": [
       {
         "icon": "⏱",
-        "value": "2–10h",
+        "value": "6–10h",
         "label": "por informe"
       },
       {
         "icon": "💰",
-        "value": "$3,900–$4,560+",
+        "value": "$3,800+",
         "label": "margen por compromiso"
       },
       {
@@ -344,49 +401,25 @@
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
-    "economicsHeader": "Economía Real · Niveles de Operador (en un compromiso de $6,000)",
-    "tierTrial": "Trial",
-    "tierTrialDesc": "Sin setup · Límite de 2 proyectos",
-    "tierStandard": "Standard",
-    "tierStandardDesc": "$1,500 setup · $1,500/Q mín",
-    "tierFounding": "Founding",
-    "tierFoundingDesc": "10 plazas · fijado de por vida",
+    "economicsHeader": "Economía Real · Market Research Mini + GoGlobal (compromiso de $5,000)",
     "economicsRows": [
-      [
-        "Costo de plataforma",
-        "$2,100",
-        "$1,800",
-        "$1,440"
-      ],
-      [
-        "Costo como % del MSRP",
-        "35%",
-        "30%",
-        "24%"
-      ],
-      [
-        "Tu agencia se queda con (al MSRP)",
-        "$3,900",
-        "$4,200",
-        "$4,560"
-      ],
-      [
-        "Tu inversión de tiempo",
-        "~5 horas",
-        "~5 horas",
-        "~5 horas"
-      ],
-      [
-        "Tarifa efectiva por hora",
-        "~$780/h",
-        "~$840/h",
-        "~$912/h"
-      ]
+      ["Tu cliente paga", "$5,000+"],
+      ["Tu costo de plataforma", "$1,200"],
+      ["Tú conservas", "$3,800+"],
+      ["Tu inversión de tiempo", "6–10 horas"],
+      ["Tarifa efectiva por hora", "~$380–$630/h"]
     ],
-    "yourMargin": "Tu margen",
-    "marginTrial": "$3,900",
-    "marginStandard": "$4,200",
-    "marginFounding": "$4,560",
+    "economicsNote": "El costo de plataforma es fijo por producto al 24% del MSRP. Tú defines el precio al cliente. Te quedas con todo por encima de tu costo. Sin necesidad de contratar personal adicional.",
+    "partnershipLabel": "Cinco Formas de Trabajar Juntos",
+    "partnershipTitle": "Comienza con una presentación. Construye hacia una práctica.",
+    "partnershipLevels": [
+      {"level": "01", "name": "Referir", "desc": "Presenta un cliente. Soundcheck vende y entrega. Tú ganas una comisión de referencia."},
+      {"level": "02", "name": "Co-entregar", "desc": "Vende y entrega junto con nosotros, bajo tu marca o la nuestra. Tú eliges."},
+      {"level": "03", "name": "White-label", "desc": "Genera en la plataforma, valida y edita fuera de ella, entrega bajo tu marca. Pagas la tarjeta de tarifas, conservas el resto."},
+      {"level": "04", "name": "Integrar", "desc": "Usa la plataforma como insumo de trabajo dentro de un compromiso de consultoría más largo. Reportes más actualizaciones mensuales como parte de tu retainer."},
+      {"level": "05", "name": "Enterprise", "desc": "Una versión dedicada de la plataforma para tu organización, con volumen anual y configuración personalizada."}
+    ],
+    "partnershipNote": "Los niveles 1 y 2 son puntos de entrada. Los niveles 3 al 5 son donde la alianza está diseñada para funcionar.",
     "operatorLabel": "Lo que obtiene como operador",
     "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
@@ -422,8 +455,8 @@
       }
     ],
     "whiteLabelLabel": "Productos White-Label",
-    "whiteLabelTitle": "Tres productos que puede entregar\nbajo su marca a partir de hoy.",
-    "whiteLabelSub": "Cada producto está diseñado para entrega white-label. Su marca, su portada, su relación con el cliente. Usted define el precio y conserva el margen.",
+    "whiteLabelTitle": "Seis productos modulares.\nMarket Research es el punto de partida.",
+    "whiteLabelSub": "Cada producto está diseñado para entrega white-label. Su marca, su portada, su relación con el cliente. Usted define el precio y conserva el margen. Cinco productos de investigación más Living Intelligence para inteligencia continua — todos construidos sobre una base de evidencia compartida.",
     "whiteLabelProducts": [
       {
         "num": "01",
@@ -431,7 +464,7 @@
         "audience": "Requerido para cada proyecto",
         "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 12 o 20 buyer personas. La base sobre la que se construye cada otro producto.",
         "delivery": "Los operadores suelen entregar en 1 semana",
-        "price": "Costo estándar: $900 / $1,050 / $1,200",
+        "price": "Costo estándar: $720 / $900 / $1,080",
         "link": "/research-platform"
       },
       {
@@ -440,7 +473,7 @@
         "audience": "Marcas Internacionales · Entrada en el Mercado",
         "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, caminos estratégicos y hoja de ruta por fases. Se adjunta a Market Research.",
         "delivery": "Los operadores suelen entregar en 2 semanas (incl. Market Research)",
-        "price": "Costo estándar: $600",
+        "price": "Costo estándar: $480",
         "link": "/expansion-report"
       },
       {
@@ -449,7 +482,7 @@
         "audience": "Marcas Establecidas · Inteligencia Estratégica",
         "desc": "Scale Diagnostic, preparación operacional, posición competitiva, plan por fases de 24 meses con puertas de go/no-go, y capa de inteligencia de 90 días.",
         "delivery": "Los operadores suelen entregar en 2 semanas (incl. Market Research)",
-        "price": "Costo estándar: $1,200",
+        "price": "Costo estándar: $480",
         "link": "/scale-assessment"
       },
       {
@@ -458,7 +491,7 @@
         "audience": "Inteligencia del Consumidor",
         "desc": "Mapas de viaje por persona mostrando desde el awareness hasta la advocacy, con análisis de fricción y oportunidad.",
         "delivery": "Los operadores suelen entregar en 7 días hábiles (incl. Market Research)",
-        "price": "Costo estándar: $150/persona",
+        "price": "Costo estándar: $120/persona",
         "link": "/consumer-journeys"
       },
       {
@@ -467,8 +500,17 @@
         "audience": "Prueba de Concepto · Investigación del Consumidor",
         "desc": "Prueba packaging, conceptos, precios y territorios creativos contra tu panel de personas. Tres rondas de feedback iterativo por sesión.",
         "delivery": "Los operadores suelen entregar en 7 días hábiles (incl. Market Research)",
-        "price": "Costo estándar: $900/sesión · +$600 re-test",
+        "price": "Costo estándar: $480/sesión · +$240 re-test",
         "link": "/virtual-focus-groups"
+      },
+      {
+        "num": "06",
+        "name": "Living Intelligence",
+        "audience": "Compromisos Continuos",
+        "desc": "Actualizaciones mensuales recurrentes sobre el panorama de mercado, regulatorio y competitivo. Un resumen de 'qué cambió' y la capacidad de hacer preguntas contra la base de evidencia del proyecto.",
+        "delivery": "Mensual, mínimo de 3 meses por compromiso",
+        "price": "Costo estándar: $240/mes",
+        "link": "/living-intelligence"
       }
     ],
     "seeFullDetails": "Ver detalles completos →",
@@ -493,14 +535,14 @@
     "notSureTitle": "¿No está seguro de si esto es lo correcto para usted?",
     "notSureDesc": "Cuéntenos sobre su práctica y le daremos una respuesta honesta.",
     "notSureLink": "Pregúntenos directamente →",
-    "ctaTitle": "Comience con un trial.\nDos compromisos. Sin compromiso.",
-    "ctaSub": "Tier Trial: costo de plataforma de $2,100 por compromiso de $6,000. Sin tarifa de setup, sin compromiso anual. Convierte en 90 días y los fees de trial se acreditan a tu setup.",
-    "ctaButton": "Iniciar un Trial →"
+    "ctaTitle": "Mira la plataforma en acción.\nUna conversación es todo lo que necesitas.",
+    "ctaSub": "Cuéntanos sobre tu práctica y te guiaremos a través de un compromiso real. Sin compromiso, sin tarifa de setup. Si encaja, encontraremos el nivel adecuado juntos.",
+    "ctaButton": "Habla con Nosotros →"
   },
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia de nivel decisorio.\nAlcance fijo. Precio fijo.",
-    "heroSub": "Cinco productos modulares. Cada proyecto comienza con Market Research — los otros cuatro se integran a él. Esta página es para operadores que entregan a través de la plataforma Soundcheck. Los precios mostrados son tu costo de plataforma, no lo que cobras a los clientes.",
+    "heroSub": "Seis productos modulares. Cada proyecto comienza con Market Research — los otros cinco se integran a él. Esta página es para operadores que entregan a través de la plataforma Soundcheck. Los precios mostrados son tu costo de plataforma, no lo que cobras a los clientes.",
     "operatorNotice": "Los precios en esta página son costos de plataforma para operadores — lo que pagas para generar la investigación. Tú defines el precio al cliente.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
@@ -2021,7 +2063,7 @@
       {
         "num": "02",
         "title": "Aumenta",
-        "desc": "Revisa y valida con tu juicio profesional. Tu experiencia senior es lo que separa esto del output bruto de IA, y lo que justifica el precio que cobras a tu cliente. Aproximadamente 4 horas por proyecto."
+        "desc": "Revisa y valida con tu juicio profesional. Tu experiencia senior es lo que separa esto del output bruto de IA, y lo que justifica el precio que cobras a tu cliente. Aproximadamente 5 a 9 horas por proyecto."
       },
       {
         "num": "03",
@@ -2170,7 +2212,7 @@
         "color": "#38BDF8"
       }
     ],
-    "toolkitTypical": "Proyecto típico: $5K–$13K precio al cliente. Tu costo de plataforma: $1,200–$3,200. Tú te quedas con la diferencia.",
+    "toolkitTypical": "Compromiso típico: $5,000–$12,000 precio al cliente. Tu costo de plataforma: $1,200–$2,760. Tú conservas la diferencia.",
     "profileLabel": "Para Quién Es",
     "profileTitle": "Podrías ser un Operador Fundador si...",
     "profileItems": [
@@ -2210,7 +2252,7 @@
       },
       {
         "q": "¿Cuánto tiempo toma cada proyecto?",
-        "a": "Aproximadamente 5 horas de tu tiempo total. ~1 hora para el intake del cliente, y ~4 horas validando la investigación con tu juicio profesional. La plataforma genera la base de investigación completa en menos de 24 horas. El plazo de entrega de 1 semana te da margen para manejar múltiples proyectos."
+        "a": "Aproximadamente 6 a 10 horas de tu tiempo total. ~1 hora para el intake del cliente, y ~5 a 9 horas validando la investigación con tu juicio profesional. La plataforma genera la base de investigación completa en menos de 24 horas. El plazo de entrega de 1 semana te da margen para manejar múltiples proyectos."
       },
       {
         "q": "¿Qué tipo de soporte recibo?",
@@ -2221,8 +2263,8 @@
         "a": "Sí. Cobras a tu cliente lo que el trabajo vale. Tu costo de plataforma es fijo por producto. Todo lo que supere ese costo es tuyo. Muchos operadores agregan un markup estratégico o empaquetan los entregables de Soundcheck en proyectos más grandes."
       },
       {
-        "q": "¿En qué se diferencia del tier Trial?",
-        "a": "Los operadores Trial pagan un costo de plataforma más alto por proyecto (aproximadamente 17% sobre el estándar) y están limitados a 2 proyectos antes de pasar a Standard. Los Founding Operators obtienen un primer proyecto gratis, luego 1/3 del estándar para los siguientes dos, mitad del estándar durante el resto del onboarding, y fijan 20% menos que el estándar de por vida. La Founding Cohort es un trato significativamente mejor, e incluye acceso al fundador, demos personales y soporte práctico que Trial no incluye."
+        "q": "¿En qué se diferencia de la tarifa estándar?",
+        "a": "Los operadores estándar pagan el costo completo de plataforma por producto. Los Operadores Fundadores aseguran tarifas Practice (20% de descuento sobre Estándar) sin cuota trimestral, de por vida. El Cohort Fundador también incluye un primer proyecto gratuito, acceso al fundador, demos personales y soporte de onboarding dedicado."
       }
     ],
     "formLabel": "Aplicar Ahora",
@@ -2244,7 +2286,7 @@
         "label": "de descuento para miembros"
       },
       {
-        "value": "5",
+        "value": "6",
         "label": "productos de investigación"
       },
       {
@@ -2252,8 +2294,8 @@
         "label": "organizaciones del ecosistema"
       },
       {
-        "value": "2",
-        "label": "caminos de alianza"
+        "value": "5",
+        "label": "niveles de asociación"
       }
     ],
     "problemLabel": "La Brecha",
@@ -2320,7 +2362,7 @@
         "label": "white-label bajo su marca"
       },
       {
-        "value": "5",
+        "value": "6",
         "label": "productos que puede entregar"
       }
     ],
@@ -2331,9 +2373,45 @@
       "Incubadoras que ofrecen validación de mercado a sus cohortes",
       "Agencias de desarrollo económico con programas de preparación para exportación"
     ],
+    "levelsLabel": "Niveles de Asociación",
+    "levelsTitle": "Cinco formas de trabajar con nosotros.",
+    "levelsSub": "Empiece con una introducción. Avance hacia una práctica dedicada.",
+    "levels": [
+      {
+        "level": "01",
+        "name": "Referir",
+        "desc": "Presente a un miembro que necesita investigación de mercado. Nosotros nos encargamos del resto. Usted fortalece la relación con el miembro.",
+        "fit": "Cámaras, asociaciones y directores de programas que quieren ofrecer acceso a investigación sin ejecutarla"
+      },
+      {
+        "level": "02",
+        "name": "Co-entregar",
+        "desc": "Entregue junto con Soundcheck, bajo la marca de su programa o la nuestra. Sus miembros reciben apoyo guiado durante todo el proceso.",
+        "fit": "Aceleradoras e incubadoras con programas de cohorte estructurados"
+      },
+      {
+        "level": "03",
+        "name": "Marca blanca",
+        "desc": "Su organización genera investigación en la plataforma, la valida con su experiencia y la entrega bajo su propia marca.",
+        "fit": "Organizaciones gremiales con capacidad de asesoría interna"
+      },
+      {
+        "level": "04",
+        "name": "Integrar",
+        "desc": "Integre la investigación de Soundcheck como una etapa definida en el currículo de su programa. Reportes más actualizaciones mensuales como insumo continuo para los miembros.",
+        "fit": "Aceleradoras y programas gremiales con currículos de varios meses"
+      },
+      {
+        "level": "05",
+        "name": "Empresarial",
+        "desc": "Una instancia dedicada de la plataforma para su organización, con volumen anual, configuración personalizada y acceso a nivel de miembros.",
+        "fit": "Grandes organizaciones gremiales y cámaras multinacionales"
+      }
+    ],
+    "levelsNote": "La mayoría de las asociaciones comienzan en el Nivel 1 o 2. La plataforma está diseñada para crecer con usted.",
     "productsLabel": "Lo Que Reciben Sus Miembros",
-    "productsTitle": "Cinco productos de investigación a tarifas para miembros.",
-    "productsSub": "Todo proyecto comienza con Market Research. Los otros cuatro productos se construyen sobre él. Los precios mostrados reflejan el 25% de descuento para miembros sobre el precio de lista.",
+    "productsTitle": "Seis productos de investigación a tarifas para miembros.",
+    "productsSub": "Todo proyecto comienza con Market Research. Los otros cinco productos se construyen sobre él. Los precios mostrados reflejan el 25% de descuento para miembros sobre el precio de lista.",
     "products": [
       {
         "num": "01",
@@ -2541,7 +2619,7 @@
       { "label": "Puertas duras que las puntuaciones no pueden anular", "values": [false, false, true] },
       { "label": "Auditoría independiente entre modelos de IA", "values": [false, false, true] },
       { "label": "Reparación automatizada y re-verificación", "values": [false, false, true] },
-      { "label": "Puerta de liberación Client Ready", "values": [false, false, true] },
+      { "label": "Puerta de liberación Operator Ready", "values": [false, false, true] },
       { "label": "Arquitectura actual vs. optimizada", "values": [false, false, true] },
       { "label": "Estratega senior valida cada hallazgo", "values": [false, true, true] },
       { "label": "White-label, entregado bajo su marca", "values": [false, false, true] },
@@ -2549,6 +2627,94 @@
     ],
     "footerBold": "velocidad, rigor y su marca en el informe.",
     "footer": "El punto no es ser más rápido o más barato. Es ser la única opción que entrega las tres cosas:"
+  },
+  "livingIntelligence": {
+    "heroLabel": "Suscripción Mensual Complementaria",
+    "heroTitle": "Tu investigación no caduca.",
+    "heroSub": "Living Intelligence mantiene tu panorama de mercado actualizado con informes mensuales sobre qué cambió y qué significa.",
+    "cta": "Habla con Nosotros",
+    "stepsLabel": "Cómo Funciona",
+    "stepsTitle": "Tres pasos para mantener tu inteligencia actualizada.",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Completa un engagement",
+        "desc": "Living Intelligence se construye sobre un engagement de investigación Soundcheck completado. Tu base de evidencia, personas de compradores y panorama competitivo se convierten en la base."
+      },
+      {
+        "num": "2",
+        "title": "Suscríbete a actualizaciones mensuales",
+        "desc": "Cada mes, buscamos novedades en tu mercado, competidores y entorno regulatorio, y luego escribimos un resumen de qué cambió y qué significa para tu estrategia."
+      },
+      {
+        "num": "3",
+        "title": "Haz preguntas contra tu evidencia",
+        "desc": "La base de evidencia de tu proyecto permanece activa. Haz preguntas, solicita comparaciones o profundiza en los cambios. Las respuestas se basan en investigación verificada, no en conocimiento general."
+      }
+    ],
+    "whatYouGetLabel": "Qué Recibes",
+    "whatYouGetTitle": "Entregables mensuales que te mantienen al día.",
+    "whatYouGet": [
+      {
+        "title": "Resumen mensual de \"qué cambió\"",
+        "desc": "Una actualización estructurada que cubre nuevos desarrollos del mercado, movimientos de la competencia y cambios regulatorios desde tu último reporte. Escrito para quienes toman decisiones, no volcados de datos."
+      },
+      {
+        "title": "Monitoreo competitivo y regulatorio",
+        "desc": "Rastreamos el panorama competitivo y el entorno regulatorio definidos en tu engagement original y señalamos cualquier cambio material."
+      },
+      {
+        "title": "Preguntas contra tu base de evidencia",
+        "desc": "Tu investigación original más cada actualización mensual forman una base de evidencia creciente. Haz preguntas y obtén respuestas basadas en tus datos verificados, no en resultados genéricos de IA."
+      },
+      {
+        "title": "Panorama de mercado actualizado sin empezar de nuevo",
+        "desc": "No necesitas encargar un nuevo engagement cada vez que el mercado cambia. Living Intelligence extiende la vida de tu inversión original."
+      }
+    ],
+    "fitLabel": "Para Quién Es",
+    "fitTitle": "Marcas y agencias que necesitan inteligencia continua.",
+    "forBrands": {
+      "label": "Para Marcas",
+      "title": "Los mercados se mueven. Tu investigación también debería.",
+      "desc": "Invertiste en investigación de grado decisional. Living Intelligence asegura que se mantenga actualizada mientras tu mercado, competidores y panorama regulatorio evolucionan.",
+      "items": [
+        "Completaste un engagement de Market Research, GoGlobal o Scale",
+        "Tu mercado o panorama competitivo cambia frecuentemente",
+        "Necesitas informar al liderazgo sobre novedades sin encargar investigación nueva",
+        "Quieres una base de evidencia continua que puedas consultar en cualquier momento"
+      ]
+    },
+    "forAgencies": {
+      "label": "Para Agencias y Operadores",
+      "title": "Convierte proyectos únicos en relaciones continuas.",
+      "desc": "Living Intelligence te da una razón para seguir comprometido después de la entrega. Las actualizaciones mensuales mantienen informados a tus clientes y activa tu relación de asesoría.",
+      "items": [
+        "Quieres ingresos recurrentes de engagements completados",
+        "Tus clientes piden actualizaciones pero no quieren encargar un proyecto completo de nuevo",
+        "Necesitas una forma de bajo esfuerzo para mantener las relaciones con clientes activas",
+        "Quieres agregar una capa de monitoreo a tu oferta de asesoría"
+      ]
+    },
+    "honestyLabel": "Qué Esperar",
+    "honestyTitle": "Qué es Living Intelligence y qué no es.",
+    "honestyIsTitle": "Qué es",
+    "honestyIs": [
+      "Búsquedas de actualización mensuales que encuentran novedades en tu mercado",
+      "Un resumen escrito explicando qué cambió y qué significa",
+      "Monitoreo competitivo y regulatorio continuo vinculado a tu engagement",
+      "Una base de evidencia consultable que crece con cada actualización",
+      "Una forma de extender la vida de tu inversión en investigación original"
+    ],
+    "honestyIsNotTitle": "Qué no es (aún)",
+    "honestyIsNot": [
+      "No re-evalúa automáticamente el análisis original cuando llegan nuevos datos (eso está en nuestra hoja de ruta)",
+      "No revisa reportes anteriores en su lugar -- las actualizaciones son aditivas",
+      "No es un sistema de alertas en tiempo real -- las actualizaciones se entregan mensualmente",
+      "No reemplaza un nuevo engagement cuando la pregunta estratégica cambia fundamentalmente"
+    ],
+    "ctaTitle": "La investigación no tiene que ser un evento único.",
+    "ctaSub": "Habla con nosotros sobre mantener tu inteligencia actualizada con Living Intelligence."
   },
   "sampleCta": {
     "label": "VÉALO EN ACCIÓN",

@@ -106,6 +106,14 @@
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
         "delivery": "Add-on to Market Research",
         "link": "/virtual-focus-groups"
+      },
+      {
+        "num": "06",
+        "for": "Ongoing Intelligence",
+        "name": "Living Intelligence",
+        "desc": "Monthly refreshes on market, competitive, and regulatory changes. Your research stays current without starting over.",
+        "delivery": "Monthly, 3-month minimum",
+        "link": "/living-intelligence"
       }
     ],
     "viewAllProducts": "View All Products →",
@@ -148,9 +156,48 @@
         "desc": "Scale diagnostic, market opportunity map, competitive position analysis, 24-month phased plan, and an AI-augmented intelligence layer.",
         "price": "",
         "link": "/scale-assessment"
+      },
+      {
+        "num": "06",
+        "name": "Living Intelligence",
+        "desc": "Monthly market, competitive, and regulatory updates on any completed engagement. Your research stays current without starting over.",
+        "price": "",
+        "link": "/living-intelligence"
       }
     ],
     "modulesCta": "See all products →",
+    "deliverables": [
+      {
+        "icon": "📄",
+        "title": "Executive Summary",
+        "sub": "2-4 page decision brief"
+      },
+      {
+        "icon": "📊",
+        "title": "Full Report",
+        "sub": "100+ pages of analysis"
+      },
+      {
+        "icon": "📐",
+        "title": "Presentation Deck",
+        "sub": "Client-ready slides"
+      },
+      {
+        "icon": "🏷",
+        "title": "White-Labeled",
+        "sub": "Your brand throughout"
+      },
+      {
+        "icon": "📊",
+        "title": "Live Dashboard",
+        "sub": "Interactive, branded, shareable"
+      },
+      {
+        "icon": "🤖",
+        "title": "Client Q&A",
+        "sub": "Questions answered from your research"
+      }
+    ],
     "sampleLabel": "SEE IT IN ACTION",
     "sampleTitle": "Don’t take our word for it. See a sample.",
     "sampleDesc": "These samples were generated for fictional companies to demonstrate the depth and quality of Soundcheck output.",
@@ -164,10 +211,10 @@
     "heroTitle1": "The AI does the research.",
     "heroTitle2": "You",
     "heroTitle3": "deliver the intelligence.",
-    "heroSub": "How operators use Soundcheck to produce decision-grade market reports — in ~5 hours of their time, delivered under their brand.",
+    "heroSub": "How operators use Soundcheck to produce decision-grade market reports in 6 to 10 hours of their time, delivered under their brand.",
     "chips": [
       {
-        "value": "~5h",
+        "value": "6–10h",
         "label": "your time per report"
       },
       {
@@ -199,7 +246,7 @@
         "label": "Platform builds and audits the research",
         "timing": "Day 1 · Automated",
         "title": "Dual-AI architecture: Claude builds, OpenAI audits.",
-        "body": "Claude (Anthropic) generates the full research base — market data, competitive maps, viability scores, and 100+ pages of structured analysis. Then OpenAI independently audits every claim, flagging unsupported assertions and source gaps. The platform applies Decision Assurance: evidence governance, decision scores, hard gates, automated repair, and re-verification. Only work that passes the Client Ready release gate moves forward.",
+        "body": "Claude (Anthropic) generates the full research base — market data, competitive maps, viability scores, and 100+ pages of structured analysis. Then OpenAI independently audits every claim, flagging unsupported assertions and source gaps. The platform applies Decision Assurance: evidence governance, decision scores, hard gates, automated repair, and re-verification. Only work that passes the Operator Ready release gate moves forward.",
         "tag": "Automated · Decision Assurance built in"
       },
       {
@@ -227,7 +274,7 @@
       "Competitive landscape mapping",
       "Decision scores and hard gates (CVE, SRS)",
       "Independent cross-model audit (Claude builds, OpenAI verifies)",
-      "Automated repair, re-verification, and Client Ready release gate",
+      "Automated repair, re-verification, and Operator Ready release gate",
       "Structured report assembly (100+ pages)"
     ],
     "youBring": "You bring",
@@ -258,6 +305,16 @@
         "icon": "🏷",
         "title": "White-Labeled",
         "sub": "Your brand throughout"
+      },
+      {
+        "icon": "📊",
+        "title": "Live Dashboard",
+        "sub": "Interactive, branded, shareable"
+      },
+      {
+        "icon": "🤖",
+        "title": "Client Q&A Bot",
+        "sub": "Answers grounded in their project"
       }
     ],
     "ctaTitle": "Ready to run your first report?",
@@ -274,12 +331,12 @@
     "chips": [
       {
         "icon": "⏱",
-        "value": "2–10h",
+        "value": "6–10h",
         "label": "per engagement"
       },
       {
         "icon": "💰",
-        "value": "$3,900–$4,560+",
+        "value": "$3,800+",
         "label": "margin per engagement"
       },
       {
@@ -303,49 +360,60 @@
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Operator Tiers (on a $6,000 engagement)",
-    "tierTrial": "Trial",
-    "tierTrialDesc": "No setup · 2-project cap",
-    "tierStandard": "Standard",
-    "tierStandardDesc": "$1,500 setup · $1,500/Q min",
-    "tierFounding": "Founding",
-    "tierFoundingDesc": "10 seats · locked for life",
+    "economicsHeader": "Real Economics · Market Research Mini + GoGlobal ($5,000 engagement)",
     "economicsRows": [
       [
-        "Platform cost",
-        "$2,100",
-        "$1,800",
-        "$1,440"
+        "Your client pays",
+        "$5,000+"
       ],
       [
-        "Platform cost as % of MSRP",
-        "35%",
-        "30%",
-        "24%"
+        "Your platform cost",
+        "$1,200"
       ],
       [
-        "You keep (at MSRP)",
-        "$3,900",
-        "$4,200",
-        "$4,560"
+        "You keep",
+        "$3,800+"
       ],
       [
         "Your time investment",
-        "~5 hours",
-        "~5 hours",
-        "~5 hours"
+        "6–10 hours"
       ],
       [
         "Effective hourly rate",
-        "~$780/h",
-        "~$840/h",
-        "~$912/h"
+        "~$380–$630/h"
       ]
     ],
-    "yourMargin": "Your margin",
-    "marginTrial": "$3,900",
-    "marginStandard": "$4,200",
-    "marginFounding": "$4,560",
+    "economicsNote": "Platform cost is fixed per product at 24% of MSRP. You set the client price. You keep everything above your cost. No new headcount required.",
+    "partnershipLabel": "Five Ways to Work Together",
+    "partnershipTitle": "Start with an introduction. Build toward a practice.",
+    "partnershipLevels": [
+      {
+        "level": "01",
+        "name": "Refer",
+        "desc": "Introduce a client. Soundcheck sells and delivers. You earn a referral fee."
+      },
+      {
+        "level": "02",
+        "name": "Co-deliver",
+        "desc": "Sell and deliver together, under your brand or ours. Your choice."
+      },
+      {
+        "level": "03",
+        "name": "White-label",
+        "desc": "Generate on the platform, validate and edit outside it, deliver under your brand. You pay the rate card, keep the rest."
+      },
+      {
+        "level": "04",
+        "name": "Embed",
+        "desc": "Use the platform as working input inside a longer consulting engagement. Reports plus monthly updates as part of your retainer."
+      },
+      {
+        "level": "05",
+        "name": "Enterprise",
+        "desc": "A dedicated version of the platform for your organization, with annual volume and custom configuration."
+      }
+    ],
+    "partnershipNote": "Levels 1 and 2 are on-ramps. Levels 3 to 5 are where the partnership is designed to live.",
     "operatorLabel": "What You Get as an Operator",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [
@@ -381,8 +449,8 @@
       }
     ],
     "whiteLabelLabel": "White-Label Products",
-    "whiteLabelTitle": "Five modular products.\nMarket Research is the starting point.",
-    "whiteLabelSub": "Every engagement begins with Market Research. The other four products attach to a completed research project — they consume its outputs as evidence. Operators compose any combination.",
+    "whiteLabelTitle": "Six modular products.\nMarket Research is the starting point.",
+    "whiteLabelSub": "Every engagement begins with Market Research. The other five products attach to a completed research project or its evidence base. Operators compose any combination.",
     "whiteLabelProducts": [
       {
         "num": "01",
@@ -390,7 +458,7 @@
         "audience": "Required for every engagement",
         "desc": "Three decision-grade reports plus a persona panel with 6, 12, or 20 buyer personas. The foundation every other product builds on.",
         "delivery": "Operators usually deliver in 1 week",
-        "price": "Standard cost: $900 / $1,050 / $1,200",
+        "price": "Standard cost: $720 / $900 / $1,080",
         "link": "/research-platform"
       },
       {
@@ -399,7 +467,7 @@
         "audience": "International Brands · Market Entry",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to Market Research.",
         "delivery": "Operators usually deliver in 2 weeks (incl. Market Research)",
-        "price": "Standard cost: $600",
+        "price": "Standard cost: $480",
         "link": "/expansion-report"
       },
       {
@@ -408,7 +476,7 @@
         "audience": "Established Brands · Strategic Intelligence",
         "desc": "Scale Diagnostic, operational readiness, competitive position, phased 24-month plan with go/no-go gates, and 90-day intelligence layer.",
         "delivery": "Operators usually deliver in 2 weeks (incl. Market Research)",
-        "price": "Standard cost: $1,200",
+        "price": "Standard cost: $480",
         "link": "/scale-assessment"
       },
       {
@@ -417,7 +485,7 @@
         "audience": "Consumer Intelligence",
         "desc": "Per-persona journey maps showing awareness through advocacy, with friction and opportunity analysis.",
         "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "price": "Standard cost: $150/persona",
+        "price": "Standard cost: $120/persona",
         "link": "/consumer-journeys"
       },
       {
@@ -426,8 +494,17 @@
         "audience": "Consumer Intelligence",
         "desc": "AI-powered concept testing against your persona panel. Preference votes, verbatim quotes, strategic insights.",
         "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "price": "Standard cost: $900/session · +$600 re-test",
+        "price": "Standard cost: $480/session · +$240 re-test",
         "link": "/virtual-focus-groups"
+      },
+      {
+        "num": "06",
+        "name": "Living Intelligence",
+        "audience": "Ongoing Engagements",
+        "desc": "Recurring monthly refreshes on the market, regulatory, and competitive picture. A 'what changed' brief and the ability to ask questions against the project's evidence base.",
+        "delivery": "Monthly, 3-month minimum per engagement",
+        "price": "Standard cost: $240/month",
+        "link": "/living-intelligence"
       }
     ],
     "seeFullDetails": "See Full Details →",
@@ -452,14 +529,14 @@
     "notSureTitle": "Not sure if this is right for you?",
     "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
     "notSureLink": "Ask us directly →",
-    "ctaTitle": "Start with a trial.\nTwo engagements. No commitment.",
-    "ctaSub": "Trial tier: $2,100 platform cost per $6,000 engagement. No setup fee, no annual commitment. Convert within 90 days and trial fees credit toward your setup.",
-    "ctaButton": "Start a Trial →"
+    "ctaTitle": "See the platform in action.\nOne conversation is all it takes.",
+    "ctaSub": "Tell us about your practice and we will walk you through a real engagement. No commitment, no setup fee. If it fits, we will find the right level together.",
+    "ctaButton": "Talk to Us →"
   },
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Decision-grade intelligence.\nFixed scope. Modular delivery.",
-    "heroSub": "Five modular products. Every engagement starts with Market Research — the other four attach to it. Operators deliver through the Soundcheck platform under their own brand.",
+    "heroSub": "Six modular products. Every engagement starts with Market Research. The other five build on the same evidence base. Operators deliver through the Soundcheck platform under their own brand.",
     "operatorNotice": "Operators set their own client pricing. Contact us for platform cost details.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
@@ -1951,7 +2028,7 @@
       {
         "num": "02",
         "title": "Augment",
-        "desc": "Review and validate with your professional judgment. Your senior expertise is what separates this from raw AI output, and what justifies the price you charge your client. About 4 hours per project."
+        "desc": "Review and validate with your professional judgment. Your senior expertise is what separates this from raw AI output, and what justifies the price you charge your client. About 5 to 9 hours per project."
       },
       {
         "num": "03",
@@ -2100,7 +2177,7 @@
         "color": "#38BDF8"
       }
     ],
-    "toolkitTypical": "Typical engagement: $5K–$13K client price. Your platform cost: $1,200–$3,200. You keep the difference.",
+    "toolkitTypical": "Typical engagement: $5,000–$12,000 client price. Your platform cost: $1,200–$2,760. You keep the difference.",
     "profileLabel": "Who This Is For",
     "profileTitle": "You might be a Founding Operator if...",
     "profileItems": [
@@ -2140,7 +2217,7 @@
       },
       {
         "q": "How much time does each engagement take?",
-        "a": "About 5 hours of your time total. ~1 hour for the client intake, and ~4 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 1-week delivery timeline gives you legroom to manage multiple projects."
+        "a": "About 6 to 10 hours of your time total. Around 1 hour for the client intake and 5 to 9 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 1-week delivery timeline gives you legroom to manage multiple projects."
       },
       {
         "q": "What kind of support do I get?",
@@ -2151,8 +2228,8 @@
         "a": "Yes. You charge your client whatever the work is worth. Your platform cost is fixed per product. Everything above that cost is yours. Many operators add a strategy markup or bundle Soundcheck deliverables into larger engagements."
       },
       {
-        "q": "How is this different from a Trial tier?",
-        "a": "Trial operators pay a higher platform cost per project (about 17% above standard) and are limited to 2 projects before graduating to Standard. Founding Operators get a free first project, then 1/3 of standard for the next two, half of standard during the rest of onboarding, and lock 20% below standard for life. The Founding Cohort is a significantly better deal, and it comes with founder access, personal demos, and hands-on support that Trial does not include."
+        "q": "How is this different from the standard rate?",
+        "a": "Standard operators pay the full platform cost per product. Founding Operators lock in Practice rates (20% off Standard) with no quarterly fee, for life. The Founding Cohort also includes a free first project, founder access, personal demos, and hands-on onboarding support."
       }
     ],
     "formLabel": "Apply Now",
@@ -2170,9 +2247,9 @@
     "heroSub": "Your members are making high-stakes market decisions without proper intelligence. You can change that with a single partnership.",
     "chips": [
       { "value": "25%", "label": "off MSRP for members" },
-      { "value": "5", "label": "research products available" },
+      { "value": "6", "label": "research products available" },
       { "value": "85+", "label": "ecosystem orgs targeted" },
-      { "value": "2", "label": "partnership paths" }
+      { "value": "5", "label": "partnership levels" }
     ],
     "problemLabel": "The Gap",
     "problemTitle": "Your members need decision intelligence. Most can't access it.",
@@ -2231,6 +2308,42 @@
       "Incubators offering market validation to cohort companies",
       "Economic development agencies running export-readiness programs"
     ],
+    "levelsLabel": "Partnership Levels",
+    "levelsTitle": "Five ways to work with us.",
+    "levelsSub": "Start with an introduction. Build toward a dedicated practice.",
+    "levels": [
+      {
+        "level": "01",
+        "name": "Refer",
+        "desc": "Introduce a member who needs market research. We handle the rest. You strengthen the member relationship.",
+        "fit": "Chambers, associations, and program directors who want to offer research access without delivering it"
+      },
+      {
+        "level": "02",
+        "name": "Co-deliver",
+        "desc": "Deliver together with Soundcheck, under your program brand or ours. Your members get guided support throughout.",
+        "fit": "Accelerators and incubators running structured cohort programs"
+      },
+      {
+        "level": "03",
+        "name": "White-label",
+        "desc": "Your organization generates research on the platform, validates it with your expertise, and delivers under your brand.",
+        "fit": "Trade organizations with in-house advisory capacity"
+      },
+      {
+        "level": "04",
+        "name": "Embed",
+        "desc": "Integrate Soundcheck research as a defined stage in your program curriculum. Reports plus monthly updates as ongoing member input.",
+        "fit": "Accelerators and trade programs with multi-month curricula"
+      },
+      {
+        "level": "05",
+        "name": "Enterprise",
+        "desc": "A dedicated instance of the platform for your organization, with annual volume, custom configuration, and member-level access.",
+        "fit": "Large trade organizations and multi-country chambers"
+      }
+    ],
+    "levelsNote": "Most partnerships begin at Level 1 or 2. The platform is designed to grow with you.",
     "productsLabel": "What Your Members Get",
     "productsTitle": "Five research products at member rates.",
     "productsSub": "Every engagement starts with Market Research. The other four products build on it. Prices shown are the 25% member discount off MSRP.",
@@ -2387,7 +2500,7 @@
       { "label": "Hard gates that scores cannot override", "values": [false, false, true] },
       { "label": "Independent cross-model audit", "values": [false, false, true] },
       { "label": "Automated repair and re-verification", "values": [false, false, true] },
-      { "label": "Client Ready release gate", "values": [false, false, true] },
+      { "label": "Operator Ready release gate", "values": [false, false, true] },
       { "label": "Current vs. optimized architecture", "values": [false, false, true] },
       { "label": "Senior strategist validates every finding", "values": [false, true, true] },
       { "label": "White-label, delivered under your brand", "values": [false, false, true] },
@@ -2395,6 +2508,94 @@
     ],
     "footerBold": "velocity, rigor, and your brand on the report.",
     "footer": "The point isn't being faster or cheaper. It's being the only option that delivers all three:"
+  },
+  "livingIntelligence": {
+    "heroLabel": "Monthly Subscription Add-On",
+    "heroTitle": "Your research doesn't expire.",
+    "heroSub": "Living Intelligence keeps your market picture current with monthly updates on what changed and what it means.",
+    "cta": "Talk to Us",
+    "stepsLabel": "How It Works",
+    "stepsTitle": "Three steps to keep your intelligence current.",
+    "steps": [
+      {
+        "num": "1",
+        "title": "Complete an engagement",
+        "desc": "Living Intelligence builds on a completed Soundcheck research engagement. Your evidence base, buyer personas, and competitive landscape become the foundation."
+      },
+      {
+        "num": "2",
+        "title": "Subscribe to monthly refreshes",
+        "desc": "Each month, we search for what's new across your market, competitors, and regulatory environment, then write up what changed and what it means for your strategy."
+      },
+      {
+        "num": "3",
+        "title": "Ask questions against your evidence",
+        "desc": "Your project's evidence base stays live. Ask questions, request comparisons, or drill into changes. The answers are grounded in verified research, not general knowledge."
+      }
+    ],
+    "whatYouGetLabel": "What You Get",
+    "whatYouGetTitle": "Monthly deliverables that keep you current.",
+    "whatYouGet": [
+      {
+        "title": "Monthly \"what changed\" brief",
+        "desc": "A structured update covering new market developments, competitor moves, and regulatory shifts since your last report. Written for decision-makers, not data dumps."
+      },
+      {
+        "title": "Competitive and regulatory monitoring",
+        "desc": "We track the competitive landscape and regulatory environment defined in your original engagement and flag anything that materially changes the picture."
+      },
+      {
+        "title": "Questions against your evidence base",
+        "desc": "Your original research plus every monthly update forms a growing evidence base. Ask questions and get answers grounded in your verified data, not generic AI output."
+      },
+      {
+        "title": "Updated market picture without starting over",
+        "desc": "No need to commission a new engagement every time the market shifts. Living Intelligence extends the life of your original investment."
+      }
+    ],
+    "fitLabel": "Who This Is For",
+    "fitTitle": "Brands and agencies that need ongoing intelligence.",
+    "forBrands": {
+      "label": "For Brands",
+      "title": "Markets move. Your research should too.",
+      "desc": "You invested in decision-grade research. Living Intelligence makes sure it stays current as your market, competitors, and regulatory landscape evolve.",
+      "items": [
+        "You completed a Market Research, GoGlobal, or Scale engagement",
+        "Your market or competitive landscape changes frequently",
+        "You need to brief leadership on what's new without commissioning fresh research",
+        "You want a running evidence base you can query at any time"
+      ]
+    },
+    "forAgencies": {
+      "label": "For Agencies & Operators",
+      "title": "Turn one-off projects into ongoing relationships.",
+      "desc": "Living Intelligence gives you a reason to stay engaged after delivery. Monthly updates keep your clients informed and keep your advisory relationship active.",
+      "items": [
+        "You want recurring revenue from completed engagements",
+        "Your clients ask for updates but don't want to re-commission a full project",
+        "You need a low-effort way to keep client relationships warm",
+        "You want to add a monitoring layer to your advisory offering"
+      ]
+    },
+    "honestyLabel": "What to Expect",
+    "honestyTitle": "What Living Intelligence is and what it isn't.",
+    "honestyIsTitle": "What it is",
+    "honestyIs": [
+      "Monthly refresh searches that find what's new in your market",
+      "A written brief explaining what changed and what it means",
+      "Ongoing competitive and regulatory monitoring tied to your engagement",
+      "A queryable evidence base that grows with every update",
+      "A way to extend the life of your original research investment"
+    ],
+    "honestyIsNotTitle": "What it isn't (yet)",
+    "honestyIsNot": [
+      "It does not automatically re-score the original analysis when new data arrives (that's on our roadmap)",
+      "It does not revise earlier reports in place -- updates are additive",
+      "It is not a real-time alerting system -- updates are delivered monthly",
+      "It does not replace a new engagement when the strategic question fundamentally changes"
+    ],
+    "ctaTitle": "The research doesn't have to be a one-off.",
+    "ctaSub": "Talk to us about keeping your intelligence current with Living Intelligence."
   },
   "sampleCta": {
     "label": "SEE IT IN ACTION",
