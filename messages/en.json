@@ -2,6 +2,8 @@
   "nav": {
     "howItWorks": "How It Works",
     "forAgencies": "For Agencies",
+    "forConsultants": "For Consultants",
+    "forBrands": "For Brands",
     "products": "Products",
     "resources": "Resources",
     "partnerWithUs": "Referral Program",
@@ -218,7 +220,7 @@
         "label": "your time per report"
       },
       {
-        "value": "1 week",
+        "value": "2 weeks",
         "label": "brief to delivery"
       },
       {
@@ -231,7 +233,7 @@
       }
     ],
     "phasesLabel": "The Four Phases",
-    "phasesTitle": "From brief to client-ready report in 1 week.",
+    "phasesTitle": "From brief to client-ready report in 2 weeks.",
     "phases": [
       {
         "num": "Phase 01",
@@ -521,16 +523,130 @@
     ],
     "notRight": "Probably not the right fit if:",
     "notRightItems": [
-      "You're a brand looking for research on your own business (see our direct products)",
+      "You're a brand looking for research on your own business",
       "You're looking for a tool to replace analyst judgment entirely",
       "You need real-time or continuous market monitoring",
       "You operate a market research firm with your own research infrastructure"
     ],
+    "seeBrands": "See For Brands →",
     "notSureTitle": "Not sure if this is right for you?",
     "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
     "notSureLink": "Ask us directly →",
     "ctaTitle": "See the platform in action.\nOne conversation is all it takes.",
     "ctaSub": "Tell us about your practice and we will walk you through a real engagement. No commitment, no setup fee. If it fits, we will find the right level together.",
+    "ctaButton": "Talk to Us →"
+  },
+  "forBrands": {
+    "heroLabel": "For Brands & Enterprises",
+    "heroTitle": "Decision-grade research. Delivered to you.",
+    "heroSub": "Whether you need a single engagement or ongoing intelligence for your entire team, we match you with the right approach.",
+    "heroCta": "Talk to Us",
+    "heroSecondary": "Brief Your Project",
+    "pathsLabel": "Two Paths",
+    "pathsTitle": "Choose the engagement that fits.",
+    "doneForYou": {
+      "label": "Done for You",
+      "title": "Done for You",
+      "subtitle": "A dedicated research engagement, delivered under your timeline.",
+      "desc": "Tell us the decision in front of you. We pair you with a senior strategist who runs the research, validates the analysis, and delivers a complete report you can act on.",
+      "whatYouGet": "What You Get",
+      "items": [
+        "A senior strategist manages your engagement end to end",
+        "Full research base: market analysis, competitive landscape, consumer insights",
+        "Branded deliverables: documents, slide decks, live dashboard",
+        "Typical turnaround: 2 weeks from brief to delivery",
+        "One round of revision included"
+      ],
+      "cta": "Brief Your Project →"
+    },
+    "enterprise": {
+      "label": "Enterprise",
+      "title": "Enterprise",
+      "subtitle": "Research capability for your entire organization.",
+      "desc": "A dedicated instance of the Soundcheck platform configured for your team. Multiple users, annual volume, custom branding, and priority support.",
+      "featuresLabel": "What Is Included",
+      "items": [
+        "Dedicated platform instance with your branding",
+        "Multiple user seats across departments",
+        "Annual volume with predictable cost",
+        "Custom configuration and integration support",
+        "Living Intelligence subscriptions for ongoing monitoring",
+        "Priority support and a named account manager"
+      ],
+      "bestFor": "Best for organizations running multiple research projects per quarter, or teams that need always-on competitive and market intelligence.",
+      "cta": "Talk to Us About Enterprise →"
+    },
+    "gridLabel": "What We Research",
+    "gridTitle": "Six research products. Start with the question.",
+    "gridSub": "Every engagement begins with Market Research. Add what you need.",
+    "products": [
+      {
+        "id": "market-research",
+        "icon": "📊",
+        "name": "Market Research",
+        "question": "Who is buying this, and who else is selling it?",
+        "desc": "The foundation. Market sizing, competitive landscape, and research-grounded buyer personas for your category."
+      },
+      {
+        "id": "goglobal",
+        "icon": "🌍",
+        "name": "GoGlobal Viability Analysis",
+        "question": "Should we enter this market, and how?",
+        "desc": "Market entry intelligence with a viability score, regulatory snapshot, distribution map, and a 12-month roadmap."
+      },
+      {
+        "id": "scale",
+        "icon": "📈",
+        "name": "Scale Assessment",
+        "question": "Why aren't we growing, and what do we change?",
+        "desc": "For brands at an inflection point. Identifies what is blocking growth and delivers a phased scale plan."
+      },
+      {
+        "id": "customer-journey",
+        "icon": "🚩",
+        "name": "Customer Journey",
+        "question": "Where are we losing people between interest and purchase?",
+        "desc": "Maps the full buyer journey for each persona, surfaces drop-off points, and recommends fixes by stage."
+      },
+      {
+        "id": "virtual-focus-group",
+        "icon": "💬",
+        "name": "Virtual Focus Group",
+        "question": "Will this name, price, or positioning land?",
+        "desc": "Test packaging, taglines, pricing, and creative territories against research-grounded buyer personas."
+      },
+      {
+        "id": "living-intelligence",
+        "icon": "🔄",
+        "name": "Living Intelligence",
+        "question": "What changed in our market since we looked?",
+        "desc": "Monthly updates to your research base. Tracks competitors, regulatory shifts, and market changes so your intelligence stays current."
+      }
+    ],
+    "formLabel": "Brief Your Project",
+    "formTitle": "Tell us about the decision in front of you.",
+    "formSuccess": "Thanks. We will review your brief and get back to you within 24 hours.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "industry": "Industry",
+      "decision": "What decision is in front of you?",
+      "timeline": "Timeline: When do you need this?",
+      "timelineDefault": "Select a timeline",
+      "timelineOptions": [
+        "Within 2 weeks",
+        "Within a month",
+        "Within a quarter",
+        "No rush, exploring options"
+      ],
+      "referral": "How did you hear about us?",
+      "submit": "Submit Brief",
+      "sending": "Sending...",
+      "error": "Something went wrong. Please try again or email us directly."
+    },
+    "ctaTitle": "Not sure which path is right?",
+    "ctaSub": "Tell us the decision in front of you. We will recommend the right approach.",
     "ctaButton": "Talk to Us →"
   },
   "products": {
@@ -550,7 +666,7 @@
     "addOnsLabel": "Requires Market Research",
     "addOnsTitle": "Build on top of your research.",
     "ctaTitle": "Ready to deliver research to your clients?",
-    "ctaSub": "Tell us what your client needs. We'll match you to the right product and timeline. If you're a brand looking for research, connect with one of our operators — they deliver under their own brand, powered by Soundcheck.",
+    "ctaSub": "Tell us what your client needs. We'll match you to the right product and timeline.",
     "ctaButton": "Brief a Product →",
     "clientNote": "Looking for market research for your business? Our operators deliver these products under their own brand. Contact us and we'll connect you with the right partner.",
     "clientNoteLink": "Contact us →",

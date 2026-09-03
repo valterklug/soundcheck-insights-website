@@ -302,7 +302,7 @@ export default function HomePage() {
                       {t('modulesAddOns')}
                     </div>
                   </FadeIn>
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 2 }} className="addons-grid">
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: 2 }} className="addons-grid">
                     {addOns.map((m, i) => (
                       <FadeIn key={i} delay={i * 0.06}>
                         <Link href={m.link || '/products'} style={{ textDecoration: 'none', display: 'block', height: '100%' }}>
@@ -324,7 +324,7 @@ export default function HomePage() {
                 </div>
               </FadeIn>
             </div>
-            <style>{`@media(max-width:900px){.foundation-card{grid-template-columns:1fr!important;text-align:left!important}.addons-grid{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.addons-grid{grid-template-columns:repeat(2,1fr)!important}}`}</style>
+            <style>{`@media(max-width:900px){.foundation-card{grid-template-columns:1fr!important;text-align:left!important}.addons-grid{grid-template-columns:1fr!important}}@media(min-width:901px) and (max-width:1100px){.addons-grid{grid-template-columns:repeat(3,1fr)!important}}`}</style>
           </section>
         )
       })()}

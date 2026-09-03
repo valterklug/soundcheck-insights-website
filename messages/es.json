@@ -2,6 +2,8 @@
   "nav": {
     "howItWorks": "Cómo Funciona",
     "forAgencies": "Para Agencias",
+    "forConsultants": "Para Consultores",
+    "forBrands": "Para Marcas",
     "products": "Productos",
     "resources": "Recursos",
     "partnerWithUs": "Programa de Referidos",
@@ -259,7 +261,7 @@
         "label": "su tiempo por informe"
       },
       {
-        "value": "1 semana",
+        "value": "2 semanas",
         "label": "de solicitud a entrega"
       },
       {
@@ -272,7 +274,7 @@
       }
     ],
     "phasesLabel": "Las Cuatro Fases",
-    "phasesTitle": "De briefing a informe listo para el cliente en 1 semana.",
+    "phasesTitle": "De briefing a informe listo para el cliente en 2 semanas.",
     "phases": [
       {
         "num": "Fase 01",
@@ -527,17 +529,120 @@
     ],
     "notRight": "Probablemente no sea el ajuste correcto si:",
     "notRightItems": [
-      "Es una marca que busca investigación sobre su propio negocio (vea nuestros productos directos)",
+      "Eres una marca buscando investigación sobre tu propio negocio",
       "Está buscando una herramienta para reemplazar el juicio del analista por completo",
       "Necesita monitoreo de mercado en tiempo real o continuo",
       "Opera una empresa de investigación de mercado con su propia infraestructura de investigación"
     ],
+    "seeBrands": "Ver Para Marcas →",
     "notSureTitle": "¿No está seguro de si esto es lo correcto para usted?",
     "notSureDesc": "Cuéntenos sobre su práctica y le daremos una respuesta honesta.",
     "notSureLink": "Pregúntenos directamente →",
     "ctaTitle": "Mira la plataforma en acción.\nUna conversación es todo lo que necesitas.",
     "ctaSub": "Cuéntanos sobre tu práctica y te guiaremos a través de un compromiso real. Sin compromiso, sin tarifa de setup. Si encaja, encontraremos el nivel adecuado juntos.",
     "ctaButton": "Habla con Nosotros →"
+  },
+  "forBrands": {
+    "heroLabel": "Para Marcas y Empresas",
+    "heroTitle": "Investigación de grado decisional. Entregada a usted.",
+    "heroSub": "Ya sea que necesite un engagement único o inteligencia continua para todo su equipo, lo conectamos con el enfoque adecuado.",
+    "heroCta": "Habla con Nosotros",
+    "pathsLabel": "Dos Caminos",
+    "pathsTitle": "Elija el enfoque que se ajuste a su organización.",
+    "doneForYou": {
+      "label": "Camino 1",
+      "title": "Hecho para Usted",
+      "sub": "Un engagement de investigación dedicado, entregado según su cronograma.",
+      "desc": "Díganos la decisión que tiene por delante. Lo emparejamos con un estratega senior que ejecuta la investigación, valida el análisis y entrega un informe completo sobre el que puede actuar.",
+      "items": [
+        "Un estratega senior gestiona su engagement de principio a fin",
+        "Base de investigación completa: análisis de mercado, panorama competitivo, insights del consumidor",
+        "Entregables con su marca: documentos, presentaciones, panel interactivo",
+        "Plazo típico: 2 semanas desde el briefing hasta la entrega",
+        "Una ronda de revisión incluida"
+      ],
+      "cta": "Presente Su Proyecto ↓"
+    },
+    "enterprise": {
+      "label": "Camino 2",
+      "title": "Enterprise",
+      "sub": "Capacidad de investigación para toda su organización.",
+      "desc": "Una instancia dedicada de la plataforma Soundcheck configurada para su equipo. Múltiples usuarios, volumen anual, marca personalizada y soporte prioritario.",
+      "items": [
+        "Instancia dedicada de la plataforma con su marca",
+        "Múltiples puestos de usuario entre departamentos",
+        "Volumen anual con costo predecible",
+        "Configuración personalizada y soporte de integración",
+        "Suscripciones de Living Intelligence para monitoreo continuo",
+        "Soporte prioritario y un gerente de cuenta dedicado"
+      ],
+      "bestFor": "Organizaciones que ejecutan múltiples proyectos de investigación por trimestre, o equipos que necesitan inteligencia competitiva y de mercado siempre activa.",
+      "cta": "Hable con Nosotros sobre Enterprise"
+    },
+    "productsLabel": "Qué Investigamos",
+    "productsTitle": "Seis productos de investigación. Comience con la pregunta.",
+    "productsSub": "Cada engagement comienza con Market Research. Agregue lo que necesite.",
+    "products": [
+      {
+        "name": "Market Research",
+        "question": "¿Quién está comprando esto, y quién más lo está vendiendo?",
+        "desc": "Análisis de mercado, panorama competitivo e insights del consumidor. La base de cada engagement.",
+        "link": "/market-research"
+      },
+      {
+        "name": "GoGlobal Viability Analysis",
+        "question": "¿Deberíamos entrar a este mercado, y cómo?",
+        "desc": "Evaluación de viabilidad de expansión con Score CVE propietario y tres caminos estratégicos.",
+        "link": "/expansion-report"
+      },
+      {
+        "name": "Scale Assessment",
+        "question": "¿Por qué no estamos creciendo, y qué cambiamos?",
+        "desc": "Auditoría de preparación estructural con Score SRS y plan de crecimiento de 24 meses.",
+        "link": "/scale-assessment"
+      },
+      {
+        "name": "Customer Journey",
+        "question": "¿Dónde perdemos personas entre el interés y la compra?",
+        "desc": "Mapas de recorrido por persona a través de seis etapas, desde el conocimiento hasta la promoción.",
+        "link": "/consumer-journeys"
+      },
+      {
+        "name": "Virtual Focus Group",
+        "question": "¿Funcionará este nombre, precio o posicionamiento?",
+        "desc": "Prueba de concepto con IA contra su panel de personas aprobadas. Reformulaciones ilimitadas incluidas.",
+        "link": "/virtual-focus-groups"
+      },
+      {
+        "name": "Living Intelligence",
+        "question": "¿Qué cambió en nuestro mercado desde que miramos?",
+        "desc": "Actualizaciones mensuales sobre mercado, competencia y regulación. Su investigación se mantiene actual.",
+        "link": "/living-intelligence"
+      }
+    ],
+    "formLabel": "Presente Su Proyecto",
+    "formTitle": "Cuéntenos sobre la decisión que tiene por delante.",
+    "formName": "Nombre",
+    "formEmail": "Correo electrónico",
+    "formCompany": "Empresa",
+    "formIndustry": "Industria",
+    "formDecision": "¿Qué decisión tiene por delante?",
+    "formDecisionPlaceholder": "Estamos considerando entrar al mercado de EE.UU...",
+    "formTimeline": "¿Cuándo necesita esto?",
+    "formTimelineOptions": [
+      "En 2 semanas",
+      "En un mes",
+      "En un trimestre",
+      "Sin prisa, explorando opciones"
+    ],
+    "formHeardAbout": "¿Cómo se enteró de nosotros?",
+    "formSubmit": "Enviar Briefing",
+    "formSending": "Enviando...",
+    "formSuccess": "Gracias. Revisaremos su briefing y le responderemos dentro de 24 horas.",
+    "formError": "Algo salió mal. Envíenos un correo a info@soundcheckinsights.com.",
+    "ctaTitle": "¿No está seguro de qué camino es el adecuado?",
+    "ctaSub": "Cuéntenos la decisión que tiene por delante. Le recomendaremos el enfoque adecuado.",
+    "ctaButton": "Habla con Nosotros"
   },
   "products": {
     "heroLabel": "Productos de Investigación",
@@ -559,7 +664,7 @@
     "addOnsLabel": "Requiere Investigación de Mercado",
     "addOnsTitle": "Construya sobre su investigación.",
     "ctaTitle": "¿Listo para entregar investigación a tus clientes?",
-    "ctaSub": "Cuéntanos qué necesita tu cliente. Te conectamos con el producto y los tiempos adecuados. Si eres una marca buscando investigación, conéctate con uno de nuestros operadores — ellos entregan bajo su propia marca, con la tecnología de Soundcheck.",
+    "ctaSub": "Cuéntanos qué necesita tu cliente. Te conectamos con el producto y los tiempos adecuados.",
     "clientNote": "¿Buscas investigación de mercado para tu negocio? Nuestros operadores entregan estos productos bajo su propia marca. Contáctanos y te conectamos con el socio adecuado.",
     "clientNoteLink": "Contáctanos →",
     "ctaButton": "Briefear un Producto →",

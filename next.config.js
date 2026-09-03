@@ -25,6 +25,11 @@ const nextConfig = {
       { source: '/pt/investor-vetting', destination: '/pt/products', permanent: true },
       { source: '/pt/business-plan', destination: '/pt/products', permanent: true },
       { source: '/pt/growth-roadmap', destination: '/pt/scale-assessment', permanent: true },
+      // For Agencies → For Consultants rename
+      { source: '/for-agencies', destination: '/for-consultants', permanent: true },
+      { source: '/en/for-agencies', destination: '/en/for-consultants', permanent: true },
+      { source: '/es/for-agencies', destination: '/es/for-consultants', permanent: true },
+      { source: '/pt/for-agencies', destination: '/pt/for-consultants', permanent: true },
     ]
   },
 }

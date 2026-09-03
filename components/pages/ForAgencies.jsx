@@ -145,10 +145,13 @@ export default function ForAgencies() {
             </FadeIn>
             <FadeIn delay={0.1}>
               <div style={{fontFamily:"IBM Plex Sans,sans-serif",fontSize:10,fontWeight:500,letterSpacing:"0.12em",textTransform:"uppercase",color:"rgba(255,255,255,0.25)",marginBottom:12}}>{t('forAgencies.notRight')}</div>
-              {notRightItems.map(text=>(
+              {notRightItems.map((text, i)=>(
                 <div key={text} style={{display:"flex",gap:12,alignItems:"flex-start",background:"rgba(255,255,255,0.02)",border:"1px solid rgba(255,255,255,0.04)",padding:"12px 18px",marginBottom:2}}>
                   <div style={{color:"rgba(255,255,255,0.2)",flexShrink:0}}>✗</div>
-                  <div style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.3)",lineHeight:1.5}}>{text}</div>
+                  <div style={{fontFamily:"Inter,sans-serif",fontSize:12,color:"rgba(255,255,255,0.3)",lineHeight:1.5}}>
+                    {text}
+                    {i === 0 && <>{' · '}<Link href="/for-brands" style={{color:"var(--teal)",textDecoration:"underline",textUnderlineOffset:3}}>{t('forAgencies.seeBrands')}</Link></>}
+                  </div>
                 </div>
               ))}
               <div style={{background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.07)",padding:"22px 24px",marginTop:20}}>
