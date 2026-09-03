@@ -39,7 +39,7 @@
     "heroTitle4": "",
     "heroDesc": "Decision-grade market research, competitive analysis, and strategic intelligence. Powered by AI. Validated by a senior strategist. Delivered in days, not months.",
     "requestAccess": "Get Started →",
-    "seeHowItWorks": "See How It Works",
+    "seeHowItWorks": "See What You Get →",
     "stats": [
       { "value": "100+", "label": "Pages per report" },
       { "value": "Days", "label": "Not months" },
@@ -55,16 +55,16 @@
       { "icon": "⚡", "title": "Days, not months", "text": "From intake to delivery in one to two weeks. Traditional firms take 8 to 20 weeks for comparable depth." },
       { "icon": "🔒", "title": "Your data stays private", "text": "Client data never trains the AI. Source-tiered methodology ensures traceability and confidentiality." }
     ],
-    "howLabel": "How It Works",
-    "howTitle1": "AI does the heavy lifting.",
-    "howTitle2": "A senior strategist does the thinking.",
-    "howDesc": "Every Soundcheck engagement combines AI-powered research generation with human expert validation. The result: the depth of a top consulting firm at a fraction of the cost and timeline.",
-    "howLink": "See the Full Process →",
+    "howLabel": "Your Process",
+    "howTitle1": "Tell us the decision.",
+    "howTitle2": "We deliver the intelligence.",
+    "howDesc": "Every engagement starts with a 60-minute conversation about the decision in front of you. Two weeks later, you have decision-grade research: 100+ pages of structured analysis, validated by a senior strategist, ready for your board or your team.",
+    "howLink": "See What You Get →",
     "howSteps": [
-      { "num": "01", "title": "You brief us on the decision ahead", "tag": "60-minute intake call" },
-      { "num": "02", "title": "AI generates the research base", "tag": "100+ pages of structured analysis" },
-      { "num": "03", "title": "Senior strategist validates every finding", "tag": "Professional judgment on every claim" },
-      { "num": "04", "title": "You receive your deliverables", "tag": "Reports, dashboards, and action plans" }
+      { "num": "01", "title": "You tell us the decision ahead", "tag": "60-minute intake conversation" },
+      { "num": "02", "title": "AI builds the research base", "tag": "100+ pages of structured analysis" },
+      { "num": "03", "title": "A senior strategist validates every finding", "tag": "Professional judgment on every claim" },
+      { "num": "04", "title": "You receive decision-ready deliverables", "tag": "Reports, dashboards, and action plans" }
     ],
     "productsLabel": "What We Deliver",
     "productsTitle": "Five research products.\nEach built for a specific decision.",
@@ -182,22 +182,22 @@
       {
         "icon": "📐",
         "title": "Presentation Deck",
-        "sub": "Client-ready slides"
+        "sub": "Board-ready slides"
       },
       {
-        "icon": "🏷",
-        "title": "White-Labeled",
-        "sub": "Your brand throughout"
+        "icon": "🎯",
+        "title": "Action Plan",
+        "sub": "Prioritized next steps"
       },
       {
         "icon": "📊",
         "title": "Live Dashboard",
-        "sub": "Interactive, branded, shareable"
+        "sub": "Interactive and shareable"
       },
       {
         "icon": "🤖",
-        "title": "Client Q&A",
-        "sub": "Questions answered from your research"
+        "title": "Q&A Access",
+        "sub": "Ask questions about your research"
       }
     ],
     "sampleLabel": "SEE IT IN ACTION",
@@ -459,7 +459,7 @@
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Required for every engagement",
         "desc": "Three decision-grade reports plus a persona panel with 6, 12, or 20 buyer personas. The foundation every other product builds on.",
-        "delivery": "Operators usually deliver in 1 week",
+        "delivery": "Operators usually deliver in 2 weeks",
         "price": "Standard cost: $720 / $900 / $1,080",
         "link": "/research-platform"
       },
@@ -679,7 +679,7 @@
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
         "price": "Mini / Standard / Premium tiers available",
         "clientPrice": "Operators set their own client pricing",
-        "delivery": "Operators usually deliver in 1 week",
+        "delivery": "Operators usually deliver in 2 weeks",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
@@ -905,7 +905,7 @@
   "growthRoadmap": {
     "heroLabel": "Product Deep-Dive · US Growth Roadmap",
     "heroTitle": "Reignite Your Business Growth\nwith a Clear, Evidence-Based Roadmap",
-    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — operators usually deliver in 1 week.",
+    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — operators usually deliver in 2 weeks.",
     "briefButton": "Brief This Report →",
     "seeSegments": "See Both Segments →",
     "heroStats": [
@@ -1035,8 +1035,8 @@
     "perReport": "",
     "pricingDetails": [
       {
-        "title": "1-week delivery",
-        "sub": "Operators usually deliver in 1 week"
+        "title": "2-week delivery",
+        "sub": "Operators usually deliver in 2 weeks"
       },
       {
         "title": "White-label included",
@@ -1144,7 +1144,7 @@
       },
       {
         "q": "How is this different from hiring a consultant?",
-        "a": "A consultant gives you one opinion and charges monthly. This delivers a structured, evidence-based growth roadmap with ranked moves, investment estimates, and an action plan — in 1 week, at a fixed price. Every recommendation is sourced, not just experienced. And you get the full methodology, not a black box."
+        "a": "A consultant gives you one opinion and charges monthly. This delivers a structured, evidence-based growth roadmap with ranked moves, investment estimates, and an action plan — in 2 weeks, at a fixed price. Every recommendation is sourced, not just experienced. And you get the full methodology, not a black box."
       },
       {
         "q": "Is this only for US-based businesses?",
@@ -1932,7 +1932,7 @@
         "tag": "The foundation. Required for all other modules.",
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
-        "delivery": "Operators usually deliver in 1 week",
+        "delivery": "Operators usually deliver in 2 weeks",
         "pricing": "Mini (6 personas) · Standard (12 personas) · Premium (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
@@ -2333,7 +2333,7 @@
       },
       {
         "q": "How much time does each engagement take?",
-        "a": "About 6 to 10 hours of your time total. Around 1 hour for the client intake and 5 to 9 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 1-week delivery timeline gives you legroom to manage multiple projects."
+        "a": "About 6 to 10 hours of your time total. Around 1 hour for the client intake and 5 to 9 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 2-week delivery timeline gives you legroom to manage multiple projects."
       },
       {
         "q": "What kind of support do I get?",

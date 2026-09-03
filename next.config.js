@@ -30,6 +30,11 @@ const nextConfig = {
       { source: '/en/for-agencies', destination: '/en/for-consultants', permanent: true },
       { source: '/es/for-agencies', destination: '/es/for-consultants', permanent: true },
       { source: '/pt/for-agencies', destination: '/pt/for-consultants', permanent: true },
+      // How It Works → For Consultants (embedded)
+      { source: '/how-it-works', destination: '/for-consultants', permanent: true },
+      { source: '/en/how-it-works', destination: '/en/for-consultants', permanent: true },
+      { source: '/es/how-it-works', destination: '/es/for-consultants', permanent: true },
+      { source: '/pt/how-it-works', destination: '/pt/for-consultants', permanent: true },
     ]
   },
 }

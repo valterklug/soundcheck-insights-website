@@ -7,7 +7,6 @@ export default function Footer() {
   const t = useTranslations()
 
   const footerLinks = [
-    { label: t('nav.howItWorks'), to: '/how-it-works' },
     { label: t('nav.forConsultants'), to: '/for-consultants' },
     { label: t('nav.forBrands'), to: '/for-brands' },
     { label: t('nav.products'), to: '/products' },

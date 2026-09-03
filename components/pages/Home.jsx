@@ -135,7 +135,7 @@ export default function HomePage() {
               style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}
             >
               <Link href="/contact" className="btn btn-primary">{t('requestAccess')}</Link>
-              <Link href="/how-it-works" className="btn btn-secondary">{t('seeHowItWorks')}</Link>
+              <Link href="/products" className="btn btn-secondary">{t('seeHowItWorks')}</Link>
             </motion.div>
             <motion.div
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}
@@ -211,7 +211,7 @@ export default function HomePage() {
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 16 }}>
               {t('howDesc')}
             </p>
-            <Link href="/how-it-works" className="text-link" style={{ marginTop: 8 }}>{t('howLink')}</Link>
+            <Link href="/for-brands" className="text-link" style={{ marginTop: 8 }}>{t('howLink')}</Link>
           </FadeIn>
           <StaggerContainer>
             {howSteps.map(({num, title, tag}, i)=>(

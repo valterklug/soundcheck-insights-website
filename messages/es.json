@@ -39,7 +39,7 @@
     "heroTitle4": "",
     "heroDesc": "Investigación de mercado, análisis competitivo e inteligencia estratégica de nivel decisorio. Potenciada por IA. Validada por un estratega senior. Entregada en días, no meses.",
     "requestAccess": "Comenzar →",
-    "seeHowItWorks": "Ver Cómo Funciona",
+    "seeHowItWorks": "Ver lo que recibes →",
     "stats": [
       {
         "value": "100+",
@@ -80,16 +80,16 @@
         "text": "Los datos del cliente nunca entrenan la IA. La metodología de fuentes escalonadas asegura trazabilidad y confidencialidad."
       }
     ],
-    "howLabel": "Cómo Funciona",
-    "howTitle1": "La IA hace el trabajo pesado.",
-    "howTitle2": "Un estratega senior hace el análisis.",
-    "howDesc": "Cada proyecto de Soundcheck combina generación de investigación con IA y validación por expertos humanos. El resultado: la profundidad de una firma de consultoría de primer nivel a una fracción del costo y el tiempo.",
-    "howLink": "Ver el Proceso Completo →",
+    "howLabel": "Tu Proceso",
+    "howTitle1": "Cuéntanos la decisión.",
+    "howTitle2": "Nosotros entregamos la inteligencia.",
+    "howDesc": "Cada proyecto comienza con una conversación de 60 minutos sobre la decisión que enfrentas. Dos semanas después, tienes investigación de nivel decisorio: más de 100 páginas de análisis estructurado, validado por un estratega senior, listo para tu directorio o tu equipo.",
+    "howLink": "Ver lo que recibes →",
     "howSteps": [
       {
         "num": "01",
-        "title": "Usted nos presenta la decisión que enfrenta",
-        "tag": "Llamada de toma de requerimientos de 60 minutos"
+        "title": "Nos cuentas la decisión que enfrentas",
+        "tag": "Conversación de intake de 60 minutos"
       },
       {
         "num": "02",
@@ -103,7 +103,7 @@
       },
       {
         "num": "04",
-        "title": "Usted recibe sus entregables",
+        "title": "Recibes entregables listos para decidir",
         "tag": "Informes, dashboards y planes de acción"
       }
     ],
@@ -223,22 +223,22 @@
       {
         "icon": "📐",
         "title": "Presentación en Diapositivas",
-        "sub": "Diapositivas listas para cliente"
+        "sub": "Slides listas para presentar"
       },
       {
-        "icon": "🏷",
-        "title": "Etiquetado Blanco",
-        "sub": "Su marca en todo"
+        "icon": "🎯",
+        "title": "Plan de Acción",
+        "sub": "Próximos pasos priorizados"
       },
       {
         "icon": "📊",
         "title": "Panel en Vivo",
-        "sub": "Interactivo, con tu marca, compartible"
+        "sub": "Interactivo y compartible"
       },
       {
         "icon": "🤖",
-        "title": "Q&A del Cliente",
-        "sub": "Preguntas respondidas desde tu investigación"
+        "title": "Acceso Q&A",
+        "sub": "Haz preguntas sobre tu investigación"
       }
     ],
     "sampleLabel": "VÉALO EN ACCIÓN",
@@ -465,7 +465,7 @@
         "name": "Market Research (Mini / Standard / Premium)",
         "audience": "Requerido para cada proyecto",
         "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 12 o 20 buyer personas. La base sobre la que se construye cada otro producto.",
-        "delivery": "Los operadores suelen entregar en 1 semana",
+        "delivery": "Los operadores suelen entregar en 2 semanas",
         "price": "Costo estándar: $720 / $900 / $1,080",
         "link": "/research-platform"
       },
@@ -677,7 +677,7 @@
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
         "price": "Tiers Mini / Standard / Premium disponibles",
         "clientPrice": "Los operadores establecen su propio precio al cliente",
-        "delivery": "Los operadores suelen entregar en 1 semana",
+        "delivery": "Los operadores suelen entregar en 2 semanas",
         "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
           "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
@@ -902,7 +902,7 @@
   "growthRoadmap": {
     "heroLabel": "Profundización del producto · Hoja de ruta de crecimiento en EE.UU.",
     "heroTitle": "Reavive el crecimiento de su negocio\ncon una hoja de ruta clara basada en evidencia",
-    "heroSub": "La hoja de ruta de crecimiento en EE.UU. de Soundcheck está diseñada para pequeñas y medianas empresas que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacio en blanco, palancas de crecimiento clasificadas, estimaciones de inversión y un plan de acción de 90 días, entregado en 1 semana.",
+    "heroSub": "La hoja de ruta de crecimiento en EE.UU. de Soundcheck está diseñada para pequeñas y medianas empresas que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacio en blanco, palancas de crecimiento clasificadas, estimaciones de inversión y un plan de acción de 90 días, entregado en 2 semanas.",
     "briefButton": "Proponer este informe →",
     "seeSegments": "Ver ambos segmentos →",
     "heroStats": [
@@ -1032,8 +1032,8 @@
     "perReport": "",
     "pricingDetails": [
       {
-        "title": "Entrega en 1 semana",
-        "sub": "Los operadores suelen entregar en 1 semana"
+        "title": "Entrega en 2 semanas",
+        "sub": "Los operadores suelen entregar en 2 semanas"
       },
       {
         "title": "White-label incluido",
@@ -1141,7 +1141,7 @@
       },
       {
         "q": "¿Cómo es esto diferente a contratar un consultor?",
-        "a": "Un consultor le da su opinión y cobra mensualmente. Esto entrega una hoja de ruta de crecimiento estructurada y basada en evidencia con movimientos clasificados, estimaciones de inversión y un plan de acción — en 1 semana, a precio fijo. Cada recomendación está documentada, no solo experimentada. Y obtiene la metodología completa, no una caja negra."
+        "a": "Un consultor le da su opinión y cobra mensualmente. Esto entrega una hoja de ruta de crecimiento estructurada y basada en evidencia con movimientos clasificados, estimaciones de inversión y un plan de acción — en 2 semanas, a precio fijo. Cada recomendación está documentada, no solo experimentada. Y obtiene la metodología completa, no una caja negra."
       },
       {
         "q": "¿Es esto solo para negocios basados en EE.UU.?",
@@ -1157,7 +1157,7 @@
       },
       {
         "q": "¿Qué obtenemos al final?",
-        "a": "Dos entregables: un Informe Completo de Viabilidad de Crecimiento (40–60+ páginas, .docx, white-label) y una Presentación Ejecutiva para conversaciones de liderazgo o junta. Ambos se entregan en 1 semana. Se incluye una ronda de revisión."
+        "a": "Dos entregables: un Informe Completo de Viabilidad de Crecimiento (40–60+ páginas, .docx, white-label) y una Presentación Ejecutiva para conversaciones de liderazgo o junta. Ambos se entregan en 2 semanas. Se incluye una ronda de revisión."
       }
     ],
     "ctaTitle": "El crecimiento no reinicia por accidente.\nSepa exactamente dónde invertir a continuación.",
@@ -1956,7 +1956,7 @@
         "tag": "El cimiento. Requerido para todos los otros módulos.",
         "desc": "Tres informes de nivel decisivo generados a partir de una toma de requerimientos de 60 minutos: Análisis de Mercado, Análisis del Consumidor, y Paisaje Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y una clasificación de fuente. Incluye un panel de personas compradoras — 6, 12, o 20 personas según el nivel — fundamentadas en la investigación, no construidas a partir de suposiciones.",
         "whatYouGet": "3 informes de investigación marcados + panel de personas editable",
-        "delivery": "Los operadores suelen entregar en 1 semana",
+        "delivery": "Los operadores suelen entregar en 2 semanas",
         "pricing": "Mini (6 personas) · Standard (12 personas) · Premium (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalles completos →"
@@ -2357,7 +2357,7 @@
       },
       {
         "q": "¿Cuánto tiempo toma cada proyecto?",
-        "a": "Aproximadamente 6 a 10 horas de tu tiempo total. ~1 hora para el intake del cliente, y ~5 a 9 horas validando la investigación con tu juicio profesional. La plataforma genera la base de investigación completa en menos de 24 horas. El plazo de entrega de 1 semana te da margen para manejar múltiples proyectos."
+        "a": "Aproximadamente 6 a 10 horas de tu tiempo total. ~1 hora para el intake del cliente, y ~5 a 9 horas validando la investigación con tu juicio profesional. La plataforma genera la base de investigación completa en menos de 24 horas. El plazo de entrega de 2 semanas te da margen para manejar múltiples proyectos."
       },
       {
         "q": "¿Qué tipo de soporte recibo?",
