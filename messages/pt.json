@@ -20,16 +20,21 @@
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
-    "tagline": "Plataforma white-label de inteligência decisória para consultores.",
+    "tagline": "Pesquisa de mercado de nível decisório. Impulsionada por IA. Validada por especialistas.",
     "foundedBy": "Fundada por Valter Klug",
     "location": "Miami, FL",
     "platform": "Plataforma",
     "contact": "Contato",
     "startHere": "Comece Aqui",
     "requestAccess": "Solicitar Acesso à Plataforma →",
+    "getStarted": "Começar →",
     "briefProduct": "Solicitar uma Análise",
     "copyright": "© 2026 Soundcheck Insights. Todos os direitos reservados.",
     "domain": "soundcheckinsights.com"
+  },
+  "recognition": {
+    "text": "Selecionados para o Scale2Miami Cohort 3 pela Mana Tech, uma de 21 startups escolhidas entre aproximadamente 150 candidatas do mundo todo.",
+    "linkText": "Ver o anúncio"
   },
   "home": {
     "heroBadge": "Inteligência Decisória com IA",

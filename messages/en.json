@@ -20,16 +20,21 @@
     "virtualFocusGroups": "Virtual Focus Groups"
   },
   "footer": {
-    "tagline": "White-label decision intelligence platform for advisors.",
+    "tagline": "Decision-grade market research. Powered by AI. Validated by experts.",
     "foundedBy": "Founded by Valter Klug",
     "location": "Miami, FL",
     "platform": "Platform",
     "contact": "Contact",
     "startHere": "Start Here",
     "requestAccess": "Request Platform Access →",
+    "getStarted": "Get Started →",
     "briefProduct": "Brief a Product",
     "copyright": "© 2026 Soundcheck Insights. All rights reserved.",
     "domain": "soundcheckinsights.com"
+  },
+  "recognition": {
+    "text": "Selected for Scale2Miami Cohort 3 by Mana Tech, one of 21 startups chosen from around 150 applicants worldwide.",
+    "linkText": "See the announcement"
   },
   "home": {
     "heroBadge": "AI-Powered Decision Intelligence",
