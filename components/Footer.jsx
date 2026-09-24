@@ -68,8 +68,8 @@ export default function Footer() {
             letterSpacing: '0.15em', textTransform: 'uppercase', color: '#6B8098',
             display: 'block', marginBottom: 4,
           }}>{t('footer.startHere')}</span>
-          <Link href="/partner" className="btn btn-primary" style={{ fontSize: 13, padding: '12px 22px' }}>
-            {t('footer.requestAccess')}
+          <Link href="/contact" className="btn btn-primary" style={{ fontSize: 13, padding: '12px 22px' }}>
+            {t('footer.getStarted')}
           </Link>
           <Link href="/contact" className="btn btn-secondary" style={{ fontSize: 13, padding: '11px 22px' }}>
             {t('footer.briefProduct')}
