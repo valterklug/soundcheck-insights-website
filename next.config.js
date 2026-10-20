@@ -35,6 +35,10 @@ const nextConfig = {
       { source: '/en/how-it-works', destination: '/en/for-consultants', permanent: true },
       { source: '/es/how-it-works', destination: '/es/for-consultants', permanent: true },
       { source: '/pt/how-it-works', destination: '/pt/for-consultants', permanent: true },
+      // Para Agências is a Portuguese-only landing page
+      { source: '/para-agencias', destination: '/pt/para-agencias', permanent: false },
+      { source: '/en/para-agencias', destination: '/pt/para-agencias', permanent: false },
+      { source: '/es/para-agencias', destination: '/pt/para-agencias', permanent: false },
     ]
   },
 }

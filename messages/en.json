@@ -36,6 +36,13 @@
     "text": "Selected for Scale2Miami Cohort 3 by Mana Tech, one of 21 startups chosen from around 150 applicants worldwide.",
     "linkText": "See the announcement"
   },
+  "platformFilm": {
+    "label": "See it in three minutes",
+    "title": "From your client's question to a scored, audited answer.",
+    "desc": "You brief the project. The AI builds the research, a second AI audits it, and the result reaches your client under your brand.",
+    "play": "Watch the film",
+    "duration": "2:54"
+  },
   "home": {
     "heroBadge": "AI-Powered Decision Intelligence",
     "heroTitle1": "Test before",

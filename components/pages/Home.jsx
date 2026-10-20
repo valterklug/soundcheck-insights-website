@@ -7,6 +7,7 @@ import { PageWrapper, FadeIn, StaggerContainer, StaggerItem, HoverCard } from '@
 import DecisionGrid from '@/components/DecisionGrid'
 import Differentiators from '@/components/Differentiators'
 import Recognition from '@/components/Recognition'
+import PlatformFilm from '@/components/PlatformFilm'
 
 /* ── Network SVG Visualization ─────────────────────────────────────── */
 function NetworkViz() {
@@ -165,6 +166,9 @@ export default function HomePage() {
           @media(max-width:600px){ section[style*="90px 60px"]{padding:70px 24px 60px!important} .hero-stat{padding-right:18px!important;margin-right:18px!important} }
         `}</style>
       </section>
+
+      {/* ── PLATFORM FILM ────────────────────────────────────────────── */}
+      <PlatformFilm />
 
       {/* ── PROBLEM ──────────────────────────────────────────────────── */}
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}

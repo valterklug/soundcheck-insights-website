@@ -36,6 +36,13 @@
     "text": "Seleccionados para Scale2Miami Cohort 3 por Mana Tech, una de 21 startups elegidas entre aproximadamente 150 postulantes de todo el mundo.",
     "linkText": "Ver el anuncio"
   },
+  "platformFilm": {
+    "label": "Véalo en tres minutos",
+    "title": "De la pregunta de su cliente a una respuesta puntuada y auditada.",
+    "desc": "Usted define el proyecto. La IA construye la investigación, una segunda IA la audita y el resultado llega a su cliente con su marca. Video en inglés.",
+    "play": "Ver el video",
+    "duration": "2:54"
+  },
   "home": {
     "heroBadge": "Inteligencia de Decisiones con IA",
     "heroTitle1": "Prueba antes",

@@ -36,6 +36,68 @@
     "text": "Selecionados para o Scale2Miami Cohort 3 pela Mana Tech, uma de 21 startups escolhidas entre aproximadamente 150 candidatas do mundo todo.",
     "linkText": "Ver o anúncio"
   },
+  "platformFilm": {
+    "label": "Veja em três minutos",
+    "title": "Da pergunta do seu cliente a uma resposta pontuada e auditada.",
+    "desc": "Você faz o briefing do projeto. A IA constrói a pesquisa, uma segunda IA audita e o resultado chega ao seu cliente com a sua marca. Vídeo em inglês.",
+    "play": "Assistir ao vídeo",
+    "duration": "2:54"
+  },
+  "paraAgencias": {
+    "heroLabel": "Para agências",
+    "heroTitle1": "Pesquisa e teste de conceito dentro da sua agência.",
+    "heroTitle2": "Sem montar um time.",
+    "heroDesc": "Seu cliente pergunta qual campanha funciona. Com a Soundcheck, sua agência responde com evidência: pesquisa de mercado, personas e focus group virtual, tudo com a sua marca.",
+    "ctaDemo": "Agendar uma demonstração",
+    "playLabel": "Assistir ao vídeo",
+    "duration": "1:41",
+    "stepsLabel": "Como funciona",
+    "stepsTitle": "Do briefing ao teste em quatro passos.",
+    "steps": [
+      { "num": "01", "title": "O briefing", "text": "Você entrevista seu cliente por uma hora. A conversa é gravada, transcrita e vira a base do projeto." },
+      { "num": "02", "title": "Pesquisa de mercado", "text": "Três relatórios sobre a categoria do seu cliente: mercado, consumidor e concorrência. Cada dado com fonte e nível de confiança." },
+      { "num": "03", "title": "Personas", "text": "Da pesquisa nascem 6, 12 ou 20 personas. Você revisa e edita." },
+      { "num": "04", "title": "Focus group virtual", "text": "Coloque nomes, slogans, embalagens, campanhas e criativos na frente do painel. Ajustou a peça? Testa de novo." }
+    ],
+    "telegram": "E tem mais: você pode entrevistar o painel de personas pelo Telegram.",
+    "whiteLabelLabel": "White label",
+    "whiteLabelTitle": "Tudo sai com a marca da sua agência.",
+    "whiteLabelText": "Relatórios, personas e dashboard interativo chegam ao cliente com o nome da sua agência.",
+    "pricingLabel": "A conta",
+    "pricingTitle": "Você define o preço. A margem fica com você.",
+    "pricing": [
+      { "price": "US$ 1.190", "label": "por projeto: pesquisa de mercado + focus group" },
+      { "price": "US$ 490", "label": "cada nova rodada de teste" }
+    ],
+    "formLabel": "Demonstração",
+    "formTitle": "Agende uma demonstração.",
+    "formDesc": "Uma conversa rápida para ver a plataforma funcionando e entender se faz sentido para a sua agência.",
+    "form": {
+      "name": "Seu nome",
+      "namePlaceholder": "Maria Silva",
+      "email": "E-mail",
+      "emailPlaceholder": "maria@suaagencia.com.br",
+      "emailInvalid": "Digite um e-mail válido",
+      "agency": "Agência",
+      "agencyPlaceholder": "Nome da sua agência",
+      "whatsapp": "WhatsApp",
+      "whatsappPlaceholder": "+55 11 99999-9999",
+      "optional": "(opcional)",
+      "teamSize": "Tamanho da equipe",
+      "teamSizeOptions": ["Até 5 pessoas", "6 a 15 pessoas", "16 a 50 pessoas", "Mais de 50 pessoas"],
+      "period": "Melhor período",
+      "periodOptions": ["Manhã", "Tarde", "Tanto faz"],
+      "selectOne": "Selecione",
+      "message": "Algum cliente ou campanha em mente?",
+      "messagePlaceholder": "Conte o que você gostaria de testar.",
+      "required": "Campo obrigatório",
+      "submit": "Agendar demonstração →",
+      "sending": "Enviando…",
+      "note": "Sem compromisso. Respondemos em até 2 dias úteis para combinar o horário.",
+      "success": "Recebemos seu pedido. Vamos entrar em contato em até 2 dias úteis para marcar a demonstração.",
+      "error": "Algo deu errado. Escreva direto para"
+    }
+  },
   "home": {
     "heroBadge": "Inteligência Decisória com IA",
     "heroTitle1": "Teste antes",
