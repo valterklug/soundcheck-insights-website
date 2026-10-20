@@ -158,7 +158,7 @@ export default function Products() {
         </div>
       </section>
 
-      {/* ── Operator Notice Banner ── */}
+      {/* ── Consultant Notice Banner ── */}
       <div style={{
         background: 'rgba(0,196,212,0.06)',
         borderBottom: '1px solid rgba(0,196,212,0.12)',
@@ -171,10 +171,11 @@ export default function Products() {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 11, fontWeight: 600, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--teal)' }}>
-              For Operators
+              {t('products.operatorNoticeLabel')}
             </span>
             <span style={{ fontFamily: 'Inter, sans-serif', fontSize: 12, color: 'rgba(255,255,255,0.5)' }}>
-              {t('products.operatorNotice')}
+              {t('products.operatorNotice')}{' '}
+              <Link href="/pricing" style={{ color: 'var(--teal)', textDecoration: 'none' }}>{t('products.operatorNoticeLink')}</Link>
             </span>
           </div>
           {t('products.clientNote') && (

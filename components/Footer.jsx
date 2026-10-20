@@ -8,6 +8,7 @@ export default function Footer() {
 
   const footerLinks = [
     { label: t('nav.forConsultants'), to: '/for-consultants' },
+    { label: t('nav.pricing'), to: '/pricing' },
     { label: t('nav.forBrands'), to: '/for-brands' },
     { label: t('nav.products'), to: '/products' },
     { label: t('nav.resources'), to: '/resources' },

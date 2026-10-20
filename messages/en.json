@@ -17,7 +17,8 @@
     "standaloneProductsDesc": "Scoped, fixed-price deliverables. Commission one at a time.",
     "marketResearch": "Market Research",
     "consumerJourneys": "Customer Journeys",
-    "virtualFocusGroups": "Virtual Focus Groups"
+    "virtualFocusGroups": "Virtual Focus Groups",
+    "pricing": "Pricing"
   },
   "footer": {
     "tagline": "Decision-grade market research. Powered by AI. Validated by experts.",
@@ -94,7 +95,7 @@
         "for": "Market Expansion",
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap for market entry.",
-        "delivery": "Add-on to Market Research",
+        "delivery": "Builds on Market Research",
         "link": "/expansion-report"
       },
       {
@@ -102,7 +103,7 @@
         "for": "Growth Readiness",
         "name": "Scale Assessment",
         "desc": "Scale Diagnostic, competitive position, operational readiness, and a phased 24-month plan with go/no-go gates.",
-        "delivery": "Add-on to Market Research",
+        "delivery": "Builds on Market Research",
         "link": "/scale-assessment"
       },
       {
@@ -110,7 +111,7 @@
         "for": "Experience Mapping",
         "name": "Customer Journey Maps",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy. Visual dashboard and PDF export.",
-        "delivery": "Add-on to Market Research",
+        "delivery": "Runs on a persona panel",
         "link": "/consumer-journeys"
       },
       {
@@ -118,7 +119,7 @@
         "for": "Concept Testing",
         "name": "Virtual Focus Groups",
         "desc": "AI-powered focus group sessions testing concepts against your persona panel. Preference votes, verbatim quotes, and strategic insights.",
-        "delivery": "Add-on to Market Research",
+        "delivery": "Runs on a persona panel",
         "link": "/virtual-focus-groups"
       },
       {
@@ -132,7 +133,7 @@
     ],
     "viewAllProducts": "View All Products →",
     "modulesLabel": "What You Get",
-    "modulesTitle": "Every engagement starts with Market Research. Build from there.",
+    "modulesTitle": "Most projects start with Market Research. Build from there.",
     "modulesFoundation": "The Foundation",
     "modulesAddOns": "Add depth as you need it",
     "modules": [
@@ -225,7 +226,7 @@
     "heroTitle1": "The AI does the research.",
     "heroTitle2": "You",
     "heroTitle3": "deliver the intelligence.",
-    "heroSub": "How operators use Soundcheck to produce decision-grade market reports in 6 to 10 hours of their time, delivered under their brand.",
+    "heroSub": "How consultants use Soundcheck to produce decision-grade market reports in 6 to 10 hours of their time, delivered under their brand.",
     "chips": [
       {
         "value": "6–10h",
@@ -245,11 +246,11 @@
       }
     ],
     "phasesLabel": "The Four Phases",
-    "phasesTitle": "From brief to client-ready report in 2 weeks.",
+    "phasesTitle": "From brief to the report your client receives, in about two weeks.",
     "phases": [
       {
         "num": "Phase 01",
-        "label": "Operator briefs the project",
+        "label": "You brief the project",
         "timing": "Day 0 · Your time: ~1h",
         "title": "The most important hour in the process.",
         "body": "You lead a scoped conversation with your client: what market are they entering, what's the core business question, what decisions hang on the answer. You capture the brief and submit it through the platform — bringing the context no AI can infer.",
@@ -260,7 +261,7 @@
         "label": "Platform builds and audits the research",
         "timing": "Day 1 · Automated",
         "title": "Dual-AI architecture: Claude builds, OpenAI audits.",
-        "body": "Claude (Anthropic) generates the full research base — market data, competitive maps, viability scores, and 100+ pages of structured analysis. Then OpenAI independently audits every claim, flagging unsupported assertions and source gaps. The platform applies Decision Assurance: evidence governance, decision scores, hard gates, automated repair, and re-verification. Only work that passes the Operator Ready release gate moves forward.",
+        "body": "Claude (Anthropic) generates the full research base: market data, competitive maps, viability scores, and 100+ pages of structured analysis. Then OpenAI independently audits every claim, flagging unsupported assertions and source gaps. The platform repairs what was found and checks it again, automatically. Nothing comes back to you with a known problem left in it.",
         "tag": "Automated · Decision Assurance built in"
       },
       {
@@ -288,7 +289,7 @@
       "Competitive landscape mapping",
       "Decision scores and hard gates (CVE, SRS)",
       "Independent cross-model audit (Claude builds, OpenAI verifies)",
-      "Automated repair, re-verification, and Operator Ready release gate",
+      "Automated repair and re-verification. No report reaches you with a known problem in it",
       "Structured report assembly (100+ pages)"
     ],
     "youBring": "You bring",
@@ -313,7 +314,7 @@
       {
         "icon": "📐",
         "title": "Presentation Deck",
-        "sub": "Client-ready slides"
+        "sub": "Presentation slides under your brand"
       },
       {
         "icon": "🏷",
@@ -332,7 +333,7 @@
       }
     ],
     "ctaTitle": "Ready to run your first report?",
-    "ctaSub": "Most operators start on an existing client. Low risk, immediate value.",
+    "ctaSub": "Most consultants start with an existing client. Low risk, immediate value.",
     "ctaButton1": "Request Platform Access",
     "ctaButton2": "Explore the 5 Products"
   },
@@ -350,8 +351,8 @@
       },
       {
         "icon": "💰",
-        "value": "$3,800+",
-        "label": "margin per engagement"
+        "value": "$4,560",
+        "label": "kept on a $5,750 engagement"
       },
       {
         "icon": "🏷",
@@ -370,34 +371,34 @@
       }
     ],
     "businessCaseLabel": "The Business Case",
-    "businessCaseTitle": "This is how it works in practice today.",
+    "businessCaseTitle": "This is how it works in practice.",
     "businessCaseDesc1": "Before opening this as a platform, I ran every Soundcheck report myself. Not as a proof of concept — because the economics were too compelling not to prove first.",
     "businessCaseDesc2": "The platform handles the heavy analytical work: data aggregation, competitive mapping, viability scoring, report generation. Your role is to capture the right information from the client upfront, apply your professional judgment to the AI output, and present the findings with the strategic context that only a real expert can provide.",
     "businessCaseDesc3": "That's what your client is paying for.",
-    "economicsHeader": "Real Economics · Market Research Mini + GoGlobal ($5,000 engagement)",
+    "economicsHeader": "Worked example · Market Research (Standard) + GoGlobal at $5,750",
     "economicsRows": [
       [
         "Your client pays",
-        "$5,000+"
+        "$5,750"
       ],
       [
-        "Your platform cost",
-        "$1,200"
+        "Your cost, pay as you go",
+        "$1,190"
       ],
       [
         "You keep",
-        "$3,800+"
+        "$4,560"
       ],
       [
-        "Your time investment",
+        "Your time",
         "6–10 hours"
       ],
       [
-        "Effective hourly rate",
-        "~$380–$630/h"
+        "New headcount",
+        "None"
       ]
     ],
-    "economicsNote": "Platform cost is fixed per product at 24% of MSRP. You set the client price. You keep everything above your cost. No new headcount required.",
+    "economicsNote": "One flat price per project with up to two elements, or $495 a project on the Subscription. You set the client price and keep everything above your cost.",
     "partnershipLabel": "Five Ways to Work Together",
     "partnershipTitle": "Start with an introduction. Build toward a practice.",
     "partnershipLevels": [
@@ -414,21 +415,21 @@
       {
         "level": "03",
         "name": "White-label",
-        "desc": "Generate on the platform, validate and edit outside it, deliver under your brand. You pay the rate card, keep the rest."
+        "desc": "Generate on the platform, validate and edit outside it, deliver under your brand. You pay a flat price per project and keep the rest."
       },
       {
         "level": "04",
         "name": "Embed",
-        "desc": "Use the platform as working input inside a longer consulting engagement. Reports plus monthly updates as part of your retainer."
+        "desc": "Use the platform as working input inside a longer consulting engagement. Reports plus Living Intelligence monthly updates as part of your retainer."
       },
       {
         "level": "05",
         "name": "Enterprise",
-        "desc": "A dedicated version of the platform for your organization, with annual volume and custom configuration."
+        "desc": "An annual contract built for your organization: projects used when needed, seats for the whole team, onboarding and training, priority support."
       }
     ],
     "partnershipNote": "Levels 1 and 2 are on-ramps. Levels 3 to 5 are where the partnership is designed to live.",
-    "operatorLabel": "What You Get as an Operator",
+    "operatorLabel": "What You Get",
     "operatorTitle": "Everything you need to deliver intelligence\nat the level of a research firm.",
     "operatorItems": [
       {
@@ -448,31 +449,31 @@
       },
       {
         "icon": "📐",
-        "title": "Client-Ready Presentation Deck",
-        "desc": "Alongside the full report, every engagement includes a presentation-ready deck structured for your client briefing."
+        "title": "Presentation Deck",
+        "desc": "Alongside the full report, every project can produce a presentation deck structured for your client briefing."
       },
       {
         "icon": "🧠",
-        "title": "Operator Onboarding",
-        "desc": "Valter walks every new operator through the full workflow personally — including the first report briefing, validation, and delivery."
+        "title": "Onboarding, Your Way",
+        "desc": "The Soundcheck Academy and a short video beside every feature are free on every plan. Prefer a guide? Personal onboarding with Valter is optional: three 60-minute calls through your first live project."
       },
       {
         "icon": "📬",
         "title": "Monthly Intelligence Briefing",
-        "desc": "Operator-only market intelligence updates — category shifts, methodology improvements, and research signals."
+        "desc": "Partner-only market intelligence updates: category shifts, methodology improvements, and research signals."
       }
     ],
     "whiteLabelLabel": "White-Label Products",
-    "whiteLabelTitle": "Six modular products.\nMarket Research is the starting point.",
-    "whiteLabelSub": "Every engagement begins with Market Research. The other five products attach to a completed research project or its evidence base. Operators compose any combination.",
+    "whiteLabelTitle": "Six products.\nOne price per project.",
+    "whiteLabelSub": "A project is one client brand with up to two elements. Market Research is the foundation for GoGlobal and Scale. Focus groups and customer journeys can also run on a persona panel you already have. The prices below are what you can charge your client.",
     "whiteLabelProducts": [
       {
         "num": "01",
         "name": "Market Research (Mini / Standard / Premium)",
-        "audience": "Required for every engagement",
-        "desc": "Three decision-grade reports plus a persona panel with 6, 12, or 20 buyer personas. The foundation every other product builds on.",
-        "delivery": "Operators usually deliver in 2 weeks",
-        "price": "Standard cost: $720 / $900 / $1,080",
+        "audience": "The foundation",
+        "desc": "Three decision-grade reports (market, competitive, consumer) plus a persona panel with 6, 12, or 20 buyer personas. The foundation for GoGlobal and Scale.",
+        "delivery": "Usually delivered in 2 weeks",
+        "price": "Suggested client price: $3,000 / $3,750 / $4,500",
         "link": "/research-platform"
       },
       {
@@ -480,8 +481,8 @@
         "name": "GoGlobal Viability Analysis",
         "audience": "International Brands · Market Entry",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and phased roadmap. Attaches to Market Research.",
-        "delivery": "Operators usually deliver in 2 weeks (incl. Market Research)",
-        "price": "Standard cost: $480",
+        "delivery": "Usually delivered in 2 weeks (incl. Market Research)",
+        "price": "Suggested client price: +$2,000",
         "link": "/expansion-report"
       },
       {
@@ -489,26 +490,26 @@
         "name": "Scale Assessment",
         "audience": "Established Brands · Strategic Intelligence",
         "desc": "Scale Diagnostic, operational readiness, competitive position, phased 24-month plan with go/no-go gates, and 90-day intelligence layer.",
-        "delivery": "Operators usually deliver in 2 weeks (incl. Market Research)",
-        "price": "Standard cost: $480",
+        "delivery": "Usually delivered in 2 weeks (incl. Market Research)",
+        "price": "Suggested client price: +$2,000",
         "link": "/scale-assessment"
       },
       {
         "num": "04",
         "name": "Customer Journey Maps",
         "audience": "Consumer Intelligence",
-        "desc": "Per-persona journey maps showing awareness through advocacy, with friction and opportunity analysis.",
-        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "price": "Standard cost: $120/persona",
+        "desc": "Per-persona journey maps showing awareness through advocacy, with friction and opportunity analysis. Runs on any persona panel.",
+        "delivery": "Usually delivered in 7 business days",
+        "price": "Suggested client price: $500 per persona",
         "link": "/consumer-journeys"
       },
       {
         "num": "05",
         "name": "Virtual Focus Groups",
         "audience": "Consumer Intelligence",
-        "desc": "AI-powered concept testing against your persona panel. Preference votes, verbatim quotes, strategic insights.",
-        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "price": "Standard cost: $480/session · +$240 re-test",
+        "desc": "AI-powered concept testing against a persona panel. Preference votes, verbatim quotes, strategic insights. Run a new session whenever the concept changes.",
+        "delivery": "Usually delivered in 7 business days",
+        "price": "Suggested client price: $2,000 per session",
         "link": "/virtual-focus-groups"
       },
       {
@@ -517,7 +518,7 @@
         "audience": "Ongoing Engagements",
         "desc": "Recurring monthly refreshes on the market, regulatory, and competitive picture. A 'what changed' brief and the ability to ask questions against the project's evidence base.",
         "delivery": "Monthly, 3-month minimum per engagement",
-        "price": "Standard cost: $240/month",
+        "price": "Suggested client price: $1,000 per month",
         "link": "/living-intelligence"
       }
     ],
@@ -545,8 +546,9 @@
     "notSureDesc": "Tell us about your practice and we'll give you an honest answer.",
     "notSureLink": "Ask us directly →",
     "ctaTitle": "See the platform in action.\nOne conversation is all it takes.",
-    "ctaSub": "Tell us about your practice and we will walk you through a real engagement. No commitment, no setup fee. If it fits, we will find the right level together.",
-    "ctaButton": "Talk to Us →"
+    "ctaSub": "Tell us about your practice and we will walk you through a real project. No commitment, no setup fee. If it fits, we will find the right plan together.",
+    "ctaButton": "Talk to Us →",
+    "seePricing": "See pricing →"
   },
   "forBrands": {
     "heroLabel": "For Brands & Enterprises",
@@ -590,7 +592,7 @@
     },
     "gridLabel": "What We Research",
     "gridTitle": "Six research products. Start with the question.",
-    "gridSub": "Every engagement begins with Market Research. Add what you need.",
+    "gridSub": "Most engagements begin with Market Research. Add what you need.",
     "products": [
       {
         "id": "market-research",
@@ -664,8 +666,8 @@
   "products": {
     "heroLabel": "Research Products",
     "heroTitle": "Decision-grade intelligence.\nFixed scope. Modular delivery.",
-    "heroSub": "Six modular products. Every engagement starts with Market Research. The other five build on the same evidence base. Operators deliver through the Soundcheck platform under their own brand.",
-    "operatorNotice": "Operators set their own client pricing. Contact us for platform cost details.",
+    "heroSub": "Six modular products on one evidence base. Market Research is the foundation for GoGlobal and Scale; focus groups and customer journeys run on a persona panel. Consultants deliver them under their own brand.",
+    "operatorNotice": "You set your own client prices. One flat price per project on the platform.",
     "viewDeliverables": "View What's Delivered",
     "hideDeliverables": "Hide What's Delivered",
     "whatsDelivered": "What's Delivered",
@@ -680,7 +682,7 @@
     "ctaTitle": "Ready to deliver research to your clients?",
     "ctaSub": "Tell us what your client needs. We'll match you to the right product and timeline.",
     "ctaButton": "Brief a Product →",
-    "clientNote": "Looking for market research for your business? Our operators deliver these products under their own brand. Contact us and we'll connect you with the right partner.",
+    "clientNote": "Looking for market research for your business? Our partner consultants deliver these products under their own brand. Contact us and we'll connect you with the right partner.",
     "clientNoteLink": "Contact us →",
     "items": [
       {
@@ -690,8 +692,8 @@
         "tagline": "Research-grounded personas and decision-grade market intelligence.",
         "desc": "Three decision-grade reports — Market Analysis, Consumer Analysis, Competitive Landscape — plus a research-grounded persona panel with 6, 12, or 20 buyer personas depending on tier. Every other Soundcheck product consumes this as its evidence base.",
         "price": "Mini / Standard / Premium tiers available",
-        "clientPrice": "Operators set their own client pricing",
-        "delivery": "Operators usually deliver in 2 weeks",
+        "clientPrice": "Consultants set their own client pricing",
+        "delivery": "Usually delivered in 2 weeks",
         "ctaLabel": "See Market Research Details →",
         "deliverables": [
           "Market Analysis Report — sizing, trends, regulatory landscape, opportunity map",
@@ -704,12 +706,12 @@
       },
       {
         "num": "02",
-        "for": "Operators & Brands · Market Expansion",
+        "for": "Consultants & Brands · Market Expansion",
         "name": "GoGlobal Viability Analysis",
         "desc": "Decision-grade market entry intelligence for any company planning to expand into a new market. CVE Score, competitive landscape, regulatory snapshot, distribution channel map, strategic paths, and a phased roadmap. Attaches to a completed Market Research.",
-        "price": "Add-on to Market Research",
-        "clientPrice": "Operators set their own client pricing",
-        "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
+        "price": "Builds on Market Research",
+        "clientPrice": "Consultants set their own client pricing",
+        "delivery": "Usually delivered in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Report Details →",
         "deliverables": [
           "CVE Score (Coefficient of Viability of Expansion) — weighted scoring (0 to 100)",
@@ -728,9 +730,9 @@
         "name": "Scale Assessment",
         "tagline": "Growth is what they sold you. Scale is what you actually need.",
         "desc": "For established brands at strategic inflection points. SRS Score, operational readiness, competitive position analysis, and a phased 24-month plan with go/no-go gates. Includes a 90-day AI-augmented intelligence layer.",
-        "price": "Add-on to Market Research",
-        "clientPrice": "Operators set their own client pricing",
-        "delivery": "Operators usually deliver in 2 weeks · Includes Market Research",
+        "price": "Builds on Market Research",
+        "clientPrice": "Consultants set their own client pricing",
+        "delivery": "Usually delivered in 2 weeks · Includes Market Research",
         "ctaLabel": "See Full Assessment Details →",
         "deliverables": [
           "Scale Diagnostic — built to grow vs. built to scale (Too Small To Fall framework)",
@@ -746,43 +748,45 @@
       },
       {
         "num": "04",
-        "for": "Operators · Brands · Consumer Intelligence",
+        "for": "Consultants · Brands · Consumer Intelligence",
         "name": "Customer Journey Maps",
         "tagline": "See exactly where your brand connects — and where it loses people.",
         "desc": "Brand-specific journey maps showing how each persona moves from awareness to advocacy — and where the brand's touchpoints align, miss, or create friction. Attaches to a completed Market Research.",
-        "price": "Per-persona pricing · Add-on to Market Research",
-        "clientPrice": "Operators set their own client pricing",
-        "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
+        "price": "Per persona · Runs on a persona panel",
+        "clientPrice": "Consultants set their own client pricing",
+        "delivery": "Usually delivered in 7 business days",
         "ctaLabel": "See Journey Map Details →",
         "deliverables": [
           "Per-persona journey map — awareness through advocacy, brand-specific touchpoints",
           "Friction & opportunity analysis — where the brand loses or wins attention",
           "Visual dashboard + PDF export",
-          "Requires completed Market Research (persona panel)"
+          "Runs on a persona panel: from a Market Research or one you already have"
         ],
         "link": "/consumer-journeys"
       },
       {
         "num": "05",
-        "for": "Operators · Brands · Consumer Intelligence",
+        "for": "Consultants · Brands · Consumer Intelligence",
         "name": "Virtual Focus Groups",
         "tagline": "Test any concept against your actual target audience — in hours, not weeks.",
-        "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Add a re-test pack for iterative testing.",
-        "price": "Per-session pricing · Add-on to Market Research",
-        "clientPrice": "Operators set their own client pricing",
-        "delivery": "Operators usually deliver in 7 business days · Includes Market Research",
+        "desc": "AI-powered focus group sessions that test concepts, messaging, packaging, pricing, or positioning against the full persona panel. Preference votes, verbatim quotes, strategic insights. Run a new session whenever the concept changes.",
+        "price": "Per session · Runs on a persona panel",
+        "clientPrice": "Consultants set their own client pricing",
+        "delivery": "Usually delivered in 7 business days",
         "ctaLabel": "See Virtual Focus Group Details →",
         "deliverables": [
           "Full focus group session — test any concept against persona panel",
           "Preference votes + verbatim quotes from each persona",
           "Strategic insights and recommendation summary",
-          "Re-test pack available: adds 2 additional re-tests to the session",
+          "Changed the concept? Run a new session against the same panel",
           "Panels reusable across sessions and product lines",
-          "Requires completed Market Research (persona panel)"
+          "Runs on a persona panel: from a Market Research or one you already have"
         ],
         "link": "/virtual-focus-groups"
       }
-    ]
+    ],
+    "operatorNoticeLink": "See pricing →",
+    "operatorNoticeLabel": "For Consultants"
   },
   "contact": {
     "heroLabel": "Get in Touch",
@@ -804,8 +808,8 @@
   },
   "partner": {
     "heroLabel": "Partner with Us",
-    "heroTitle": "Refer clients to Soundcheck.\nEarn commission. Get referred back.",
-    "heroSub": "Know a founder or CMO facing a market decision? Refer them to Soundcheck. You earn a 20% referral commission on every engagement, and we add you to our recommended partner network — so when our clients need your expertise, we send them your way.",
+    "heroTitle": "Refer clients to Soundcheck.\nGet referred back.",
+    "heroSub": "Know a founder or CMO facing a market decision? Refer them to Soundcheck. You earn a referral fee on the engagement, and we add you to our recommended partner network, so when our clients need your expertise, we send them your way.",
     "formTitle": "Become a referral partner",
     "formSub": "Tell us about your practice and the types of clients you serve. Valter reviews every inquiry personally.",
     "submitButton": "Submit Partnership Inquiry →",
@@ -819,12 +823,12 @@
       {
         "num": "02",
         "title": "We handle the engagement",
-        "body": "Soundcheck runs the research through our operator network. You stay in the loop but don't need to deliver anything."
+        "body": "Soundcheck runs the research through our network of consultants. You stay in the loop but don't need to deliver anything."
       },
       {
         "num": "03",
-        "title": "You earn 20% commission",
-        "body": "For every engagement your referral generates, you earn 20% of the project value. Paid after client payment."
+        "title": "You earn a referral fee",
+        "body": "For every engagement your referral generates, you earn a referral fee, paid after the client pays. We agree the terms in a short call."
       },
       {
         "num": "04",
@@ -917,7 +921,7 @@
   "growthRoadmap": {
     "heroLabel": "Product Deep-Dive · US Growth Roadmap",
     "heroTitle": "Reignite Your Business Growth\nwith a Clear, Evidence-Based Roadmap",
-    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan — operators usually deliver in 2 weeks.",
+    "heroSub": "The Soundcheck US Growth Roadmap is built for small and mid-size businesses that have stalled. Market analysis, competitive intelligence, whitespace identification, ranked growth levers, investment estimates, and a 90-day action plan, usually delivered in 2 weeks.",
     "briefButton": "Brief This Report →",
     "seeSegments": "See Both Segments →",
     "heroStats": [
@@ -929,7 +933,7 @@
       {
         "num": "1",
         "label": "WEEK",
-        "sub": "operators usually deliver in"
+        "sub": "usually delivered in"
       },
       {
         "num": "100%",
@@ -1048,7 +1052,7 @@
     "pricingDetails": [
       {
         "title": "2-week delivery",
-        "sub": "Operators usually deliver in 2 weeks"
+        "sub": "Usually delivered in 2 weeks"
       },
       {
         "title": "White-label included",
@@ -1194,7 +1198,7 @@
       {
         "num": "2",
         "label": "WEEKS",
-        "sub": "operators usually deliver in (incl. Market Research)"
+        "sub": "usually delivered in (incl. Market Research)"
       },
       {
         "num": "100%",
@@ -1455,7 +1459,7 @@
     "pricingFeatures": [
       {
         "title": "2-week delivery",
-        "sub": "Operators usually deliver in 2 weeks (incl. Market Research)"
+        "sub": "Usually delivered in 2 weeks (incl. Market Research)"
       },
       {
         "title": "White-label included",
@@ -1512,7 +1516,7 @@
       {
         "num": "7",
         "label": "BUSINESS DAYS",
-        "sub": "operators usually deliver in (incl. Market Research)"
+        "sub": "usually delivered in (incl. Market Research)"
       },
       {
         "num": "3",
@@ -1537,7 +1541,7 @@
       },
       {
         "title": "Iteration",
-        "sub": "Re-test in minutes",
+        "sub": "Run it again in minutes",
         "desc": "Once personas exist, test a new concept today, a second one tomorrow. Feedback rework with a single chat prompt."
       },
       {
@@ -1562,7 +1566,7 @@
       "A single round — if the findings don't match your hypotheses, too bad, budget's gone."
     ],
     "processLabel": "How the Platform Works",
-    "processTitle": "A three-step product, run end-to-end in a single operator platform.",
+    "processTitle": "A three-step product, run end-to-end in a single platform.",
     "steps": [
       {
         "num": "01",
@@ -1608,7 +1612,7 @@
       }
     ],
     "fitLabel": "Who This Is For",
-    "fitTitle": "Built for two kinds of operators.",
+    "fitTitle": "Built for two kinds of buyers.",
     "forBrands": {
       "label": "For Brands",
       "title": "Pressure-test before you ship.",
@@ -1627,11 +1631,11 @@
       "desc": "Branding agencies, strategy consultancies, and creative studios use Soundcheck VFG to add insight to what they sell — without building an in-house research team or paying Nielsen's fees.",
       "items": [
         "Your brand on the deliverables. Logo on the platform nav, cover pages, page headers, and shared dashboards. Soundcheck attribution is configurable.",
-        "New revenue line, low lift. Charge your clients for research; the delivery is operated inside your own platform tenant.",
-        "Multi-client, multi-brand. Every client of yours gets its own persona library and focus-group history — scoped so operators only see what they should.",
+        "New revenue line, low lift. Charge your clients for research; the delivery runs inside your own platform workspace.",
+        "Multi-client, multi-brand. Every client of yours gets its own persona library and focus-group history, scoped so each person on your team only sees what they should.",
         "A research methodology you can defend. The same Product 04 methodology Soundcheck sells directly — you get the scale of a team of analysts."
       ],
-      "note": "Partnership model with fixed per-seat pricing. Contact the team for onboarding."
+      "note": "One flat price per project on every plan. See pricing for consultants."
     },
     "methodLabel": "Methodology",
     "methodTitle": "Decision-grade, honest about its limits.",
@@ -1668,7 +1672,7 @@
       },
       {
         "q": "Who sees our data?",
-        "a": "Only your agency tenant. Each operator gets a scoped workspace — your clients, your personas, your focus groups. Soundcheck staff can access data for support, but nothing is shared across tenants."
+        "a": "Only your agency workspace. Each consultant gets a scoped workspace: your clients, your personas, your focus groups. Soundcheck staff can access data for support, but nothing is shared across workspaces."
       },
       {
         "q": "What file formats can I test?",
@@ -1690,8 +1694,8 @@
       "includes": "Full panel test against all selected personas · Preference votes · Verbatim quotes · Strategic insights · Recommendation framework · 3 rounds of iterative feedback · Branded dashboard · Shareable link · White-label PDF report · 60-minute review call",
       "extra": "Additional feedback rounds beyond the 3 included are available.",
       "reuse": "Once a persona panel exists, run any number of sessions against it. New concept? New session. Same panel, no setup fee.",
-      "wholesale": "See partnership models and revenue splits.",
-      "projectNote": "Part of a larger project? See the project-size examples at /research-platform."
+      "wholesale": "See pricing for consultants.",
+      "projectNote": "Part of a larger project? A project covers up to two elements. See the examples at /research-platform."
     },
     "heroTitle": "Pressure-test your concept before you commit to production.",
     "prereqTitle": "Before you run a session",
@@ -1731,7 +1735,7 @@
       {
         "num": "2",
         "label": "WEEKS",
-        "sub": "operators usually deliver in (incl. Market Research)"
+        "sub": "usually delivered in (incl. Market Research)"
       },
       {
         "num": "Fixed",
@@ -1883,7 +1887,7 @@
     "pricingDetails": [
       {
         "title": "2-week delivery",
-        "sub": "Operators usually deliver in 2 weeks (incl. Market Research)"
+        "sub": "Usually delivered in 2 weeks (incl. Market Research)"
       },
       {
         "title": "White-label included",
@@ -1894,9 +1898,6 @@
         "sub": "Included in the base price"
       }
     ],
-    "introLabel": "Introductory Offer",
-    "introTitle": "Founding customer rate available.",
-    "introSub": "The first 5–10 customers receive the assessment at a preferred rate in exchange for: written testimonial within 30 days, public case study rights, and reference customer status.",
     "faqLabel": "Common questions",
     "faqTitle": "Straight answers.",
     "faqs": [
@@ -1935,7 +1936,7 @@
     "heroSub": "Three modules. One workflow. As much or as little as the project needs.",
     "heroDesc": "Commission Market Research and get a research-grounded persona panel. Map how each persona buys with Customer Journey Maps. Pressure-test your concepts with Virtual Focus Group Sessions. Each module stands alone. All three compound.",
     "ctaButton": "Request Access →",
-    "seePricing": "See Project Sizes ↓",
+    "seePricing": "See Project Examples ↓",
     "modulesTitle": "How the modules connect",
     "modules": [
       {
@@ -1944,7 +1945,7 @@
         "tag": "The foundation. Required for all other modules.",
         "desc": "Three decision-grade reports generated from a 60-minute intake: Market Analysis, Consumer Analysis, and Competitive Landscape. Every claim tagged with a confidence label and source tier. Includes a buyer persona panel — 6, 12, or 20 personas depending on tier — grounded in the research, not built from assumptions.",
         "whatYouGet": "3 branded research reports + editable persona panel",
-        "delivery": "Operators usually deliver in 2 weeks",
+        "delivery": "Usually delivered in 2 weeks",
         "pricing": "Mini (6 personas) · Standard (12 personas) · Premium (20 personas)",
         "link": "/market-research",
         "linkLabel": "See full details →"
@@ -1955,7 +1956,7 @@
         "tag": "Add-on. Requires Market Research.",
         "desc": "Brand-specific journey maps that show how each selected persona moves from first awareness to brand advocacy — and where your current or planned touchpoints meet them or miss them. Built from your market research and persona panel. A short brand intake (~15 minutes) captures your channel strategy. The system generates a visual journey map for each persona selected.",
         "whatYouGet": "Funnel overview + per-persona timeline + gap analysis + PDF export",
-        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
+        "delivery": "Usually delivered in 7 business days",
         "pricing": "Per-persona pricing · pick any number from your panel",
         "link": "/consumer-journeys",
         "linkLabel": "See full details →"
@@ -1966,60 +1967,60 @@
         "tag": "Add-on. Requires Market Research.",
         "desc": "Test packaging, taglines, creative territories, product concepts, or pricing claims against your full persona panel. Each session includes three rounds of iterative feedback — refine the concept between rounds without starting a new session. Panels are reusable across multiple sessions and product lines.",
         "whatYouGet": "Dashboard with preference votes, verbatim quotes, strategic insights + 3 feedback rounds",
-        "delivery": "Operators usually deliver in 7 business days (incl. Market Research)",
-        "pricing": "Per-session pricing · re-test pack available",
+        "delivery": "Usually delivered in 7 business days",
+        "pricing": "Per-session pricing · run it again after changes",
         "link": "/virtual-focus-groups",
         "linkLabel": "See full details →"
       }
     ],
     "pricingLabel": "Build your project",
-    "pricingSub": "Each module is priced independently. Start with research and add depth as the project grows. You never pay for more than you need.",
+    "pricingSub": "A project is one client brand with up to two elements. Start with research and add depth as the project grows. A focus group or customer journeys can also run on a persona panel you already have.",
     "pricingColumns": [
-      "Project Size",
+      "Example",
       "Market Research",
       "Customer Journeys",
-      "VFG Session",
-      "Modules"
+      "Focus Group",
+      "Charged as"
     ],
     "pricingRows": [
       {
-        "name": "Starter",
-        "research": "Research Mini",
-        "journeys": "6 personas",
-        "vfg": "1 session",
-        "total": "3 modules"
-      },
-      {
-        "name": "Growth",
-        "research": "Research Standard",
-        "journeys": "8 personas",
-        "vfg": "1 session",
-        "total": "3 modules"
-      },
-      {
-        "name": "Full Scale",
-        "research": "Research Premium",
-        "journeys": "10 personas",
-        "vfg": "1 session",
-        "total": "3 modules"
-      },
-      {
-        "name": "Research Only",
+        "name": "Research only",
         "research": "Research Mini",
         "journeys": "—",
         "vfg": "—",
-        "total": "1 module"
+        "total": "1 project"
       },
       {
         "name": "Research + Journeys",
         "research": "Research Standard",
-        "journeys": "6 personas",
+        "journeys": "Whole panel",
         "vfg": "—",
-        "total": "2 modules"
+        "total": "1 project"
+      },
+      {
+        "name": "Research + Focus Group",
+        "research": "Research Premium",
+        "journeys": "—",
+        "vfg": "1 session",
+        "total": "1 project"
+      },
+      {
+        "name": "Focus groups on your panel",
+        "research": "Existing panel",
+        "journeys": "—",
+        "vfg": "2 sessions",
+        "total": "1 project"
+      },
+      {
+        "name": "Full",
+        "research": "Research Standard",
+        "journeys": "Whole panel",
+        "vfg": "1 session",
+        "total": "1 project + 1 extra element"
       }
     ],
-    "pricingNote": "Operators set their own client pricing. Contact us for platform cost details.",
-    "whoTitle": "Built for two kinds of operators",
+    "pricingNote": "Consultants set their own client prices. See what a project costs on the pricing page.",
+    "whoTitle": "Built for two kinds of buyers",
     "whoAgenciesTitle": "For Agencies & Consultancies",
     "whoAgenciesDesc": "Add a structured consumer intelligence layer to what you sell — without building an in-house research team. Run one module for a quick-turnaround client. Chain all three for a full strategic engagement. White-label throughout.",
     "whoBrandsTitle": "For Brands & Marketing Teams",
@@ -2040,7 +2041,7 @@
       {
         "num": "7",
         "label": "BUSINESS DAYS",
-        "sub": "operators usually deliver in (incl. Market Research)"
+        "sub": "usually delivered in (incl. Market Research)"
       },
       {
         "num": "6",
@@ -2111,7 +2112,7 @@
     "pricingSub": "Select any number of personas from your panel. No minimum.",
     "pricingIncludes": "Brand Touchpoint Intake (guided form, ~15 min) · Full journey generation · Funnel Overview dashboard · Per-persona journey cards · Gap Analysis with severity scores · Executive summary · White-label PDF export · Version history",
     "pricingExamples": "Select 6, 10, or all 20 personas from your panel",
-    "pricingNote": "Operators set their own client pricing. Contact us for platform cost details.",
+    "pricingNote": "Consultants set their own client prices. See what a project costs on the pricing page.",
     "faqTitle": "Common questions",
     "faqs": [
       {
@@ -2137,236 +2138,12 @@
     ]
   },
   "foundingCohort": {
-    "heroLabel": "Founding Operator Cohort · 10 Seats · Application Only",
-    "heroTitle1": "Build a research practice.",
-    "heroTitle2": "At the best rate we will ever offer.",
-    "heroSub": "Generate white-label decision intelligence on the Soundcheck platform. You run the research. You set the price. You keep everything above your platform cost. Founding operators lock the lowest rate we will ever offer. For life.",
-    "chipSeats": "seats available",
-    "chipSetup": "setup fee",
-    "chipRate": "Lowest rate, locked for life",
-    "heroCta": "Apply Now →",
-    "howLabel": "How It Works",
-    "howTitle": "Self-serve research. Your brand. Your price.",
-    "howSteps": [
-      {
-        "num": "01",
-        "title": "Generate",
-        "desc": "Log in to the platform. Run the client intake. Generate the full research base: Market Analysis, Consumer Analysis, Competitive Landscape, and a research-grounded persona panel. Output is ready in under 24 hours."
-      },
-      {
-        "num": "02",
-        "title": "Augment",
-        "desc": "Review and validate with your professional judgment. Your senior expertise is what separates this from raw AI output, and what justifies the price you charge your client. About 5 to 9 hours per project."
-      },
-      {
-        "num": "03",
-        "title": "Deliver",
-        "desc": "White-label from the moment it generates. Your brand, your cover page, your client relationship. Soundcheck is the infrastructure. You are the intelligence partner."
-      }
-    ],
-    "pricingLabel": "Founding Operator Pricing",
-    "pricingTitle": "Your cost per project. You set the client price.",
-    "pricingDesc": "You pay a flat platform fee per product. Charge your client whatever the engagement is worth. Keep the difference. Founding operators start with a free test project and progress through discounted tiers during a four-week onboarding with personal guidance from Valter.",
-    "benefits": [
-      {
-        "stat": "Free",
-        "title": "Your first project",
-        "desc": "Your first project is on us. Test the platform with a real client engagement — zero cost, zero risk. Learn the full workflow with Valter's personal guidance: intake, generation, validation, and delivery."
-      },
-      {
-        "stat": "1/3 of standard",
-        "title": "Your next 2 projects",
-        "desc": "Your platform cost drops to one-third of the standard rate. A GoGlobal Viability Analysis costs you $200 (added to the market research cost). Standard operators pay $600. Zero setup fee."
-      },
-      {
-        "stat": "Half of standard",
-        "title": "Remaining onboarding (4 weeks)",
-        "desc": "After your first three projects, your cost moves to half of the standard rate for the rest of your 4-week onboarding period. This is also when you share feedback and report bugs to help us refine the platform."
-      },
-      {
-        "stat": "20% off standard",
-        "title": "After onboarding, for life",
-        "desc": "Your permanent platform cost locks at 20% below standard. Not for a contract term. Not until a pricing review. This rate is frozen at today's prices and never increases. Only this first cohort gets it."
-      }
-    ],
-    "mathLabel": "The Math",
-    "mathTitle": "What a single engagement looks like in dollars.",
-    "mathDesc": "Take a typical engagement: Market Research Standard + GoGlobal Viability Analysis. You generate the research on the platform. You charge your client. You keep everything above your platform cost.",
-    "mathTableHeader": "MR Standard + GoGlobal",
-    "mathColTest": "First Test",
-    "mathColFounding": "Next 2 Projects",
-    "mathColOnboarding": "Onboarding (4 wks)",
-    "mathColForLife": "After Onboarding",
-    "mathColStandard": "Standard",
-    "mathRows": [
-      [
-        "Your platform cost",
-        "$0",
-        "$550",
-        "$825",
-        "$1,320",
-        "$1,650"
-      ],
-      [
-        "You charge your client",
-        "$5,500+",
-        "$5,500+",
-        "$5,500+",
-        "$5,500+",
-        "$5,500+"
-      ],
-      [
-        "You keep the difference",
-        "$5,500+",
-        "$4,950+",
-        "$4,675+",
-        "$4,180+",
-        "$3,850+"
-      ],
-      [
-        "Your time investment",
-        "~5 hours",
-        "~5 hours",
-        "~5 hours",
-        "~5 hours",
-        "~5 hours"
-      ]
-    ],
-    "mathEffectiveRate": "Effective hourly rate (~5h)",
-    "mathRateTest": "~$1,100/hr",
-    "mathRateFounding": "~$990/hr",
-    "mathRateOnboarding": "~$935/hr",
-    "mathRateForLife": "~$836/hr",
-    "mathRateStandard": "~$770/hr",
-    "mathFootnote": "First project free. Next 2 projects at 1/3 of standard. Remaining onboarding (4 weeks) at half of standard. Every project after onboarding: 20% off standard, locked for life. Operator time: ~1 hour intake + ~4 hours validation. Platform generates the research base in under 24 hours.",
-    "whyLabel": "Why This Cohort",
-    "whyTitle": "Three reasons to apply now.",
-    "whyReasons": [
-      {
-        "stat": "LOCKED",
-        "title": "Lifetime pricing, frozen today",
-        "desc": "Your founding rate is frozen at today's platform cost. Standard rates will increase as the platform matures. Founding operators never see those increases. The rate you lock today stays with you for every project you ever deliver."
-      },
-      {
-        "stat": "1:1",
-        "title": "Founder access",
-        "desc": "Direct access to Valter Klug, who delivered 20+ engagements as Operator Zero before opening the platform. Hands-on support through your first two projects. Cohort peer group."
-      },
-      {
-        "stat": "FIRST",
-        "title": "First-mover status",
-        "desc": "Founding Operator credentialing. You are in the first cohort of a platform built to scale. Early operators shape the methodology and the community."
-      }
-    ],
-    "toolkitLabel": "Your Product Toolkit",
-    "toolkitTitle": "Six products. You generate. You price. You deliver.",
-    "toolkitDesc": "Every engagement starts with Market Research as the foundation. Stack add-ons based on what your client needs. You generate the research on the platform, validate it with your expertise, and deliver under your brand. These are your founding platform costs after the onboarding period — locked at 20% off standard, for life.",
-    "toolkitItems": [
-      {
-        "label": "Foundation",
-        "name": "Market Research",
-        "cost": "Your cost: $720 – $960",
-        "sells": "Clients pay $3,000 – $4,000+",
-        "color": "#94A3B8"
-      },
-      {
-        "label": "Add-on",
-        "name": "GoGlobal",
-        "cost": "Your cost: $480",
-        "sells": "Clients pay $2,000+",
-        "color": "#2DD4BF"
-      },
-      {
-        "label": "Add-on",
-        "name": "Scale Assessment",
-        "cost": "Your cost: $960",
-        "sells": "Clients pay $4,000+",
-        "color": "#FF6B47"
-      },
-      {
-        "label": "Add-on",
-        "name": "Customer Journey",
-        "cost": "Your cost: $120/persona",
-        "sells": "Clients pay $500+/persona",
-        "color": "#A78BFA"
-      },
-      {
-        "label": "Add-on",
-        "name": "Virtual Focus Group",
-        "cost": "Your cost: $720",
-        "sells": "Clients pay $3,000+",
-        "color": "#FBBF24"
-      },
-      {
-        "label": "Add-on",
-        "name": "Monthly Updates",
-        "cost": "Your cost: $200/mo per project",
-        "sells": "Clients pay $500+/mo",
-        "color": "#38BDF8"
-      }
-    ],
-    "toolkitTypical": "Typical engagement: $5,000–$12,000 client price. Your platform cost: $1,200–$2,760. You keep the difference.",
-    "profileLabel": "Who This Is For",
-    "profileTitle": "You might be a Founding Operator if...",
-    "profileItems": [
-      "You run a boutique agency (1-20 people), an independent strategy consultancy, or a fractional CMO/CSO/CGO practice",
-      "You have 10-25 years of senior brand, strategy, or marketing experience",
-      "You are currently serving 3-8 active clients who regularly face strategic decisions about markets, positioning, or growth",
-      "Your clients ask research questions you cannot answer credibly without tools you do not have",
-      "You have lost RFPs to bigger firms with research arms, or you have skipped the research entirely",
-      "You are part of (or adjacent to) Pavilion, Mana Tech, or boutique-agency peer communities"
-    ],
-    "selectionLabel": "Selection Criteria",
-    "selectionTitle": "What we are looking for.",
-    "selectionItems": [
-      "Clients in your pipeline who would benefit from decision intelligence. You have a real engagement in mind, not a theoretical one",
-      "Methodology fit. You think strategically, not just executionally. You are comfortable validating research and adding professional judgment",
-      "Willingness to deliver at quality. The Soundcheck methodology has standards, and you will uphold them",
-      "Ambition to build a recurring research practice, not just run a one-off project"
-    ],
-    "faqLabel": "Common Questions",
-    "faqTitle": "Before you apply.",
-    "faqItems": [
-      {
-        "q": "Do I need to pay anything upfront?",
-        "a": "No. There is no setup fee, and your first project is completely free. After that, you pay only the platform cost per product, per project, when you deliver. No subscription, no minimum commitment, no upfront investment."
-      },
-      {
-        "q": "What does 'for life' actually mean?",
-        "a": "Your founding rate is frozen at today's standard pricing and locked permanently after onboarding. Not for a contract term. Not until a pricing review. When standard rates increase in the future, your platform cost stays the same. Only this first cohort gets this lock."
-      },
-      {
-        "q": "What if I do not have a client ready right now?",
-        "a": "You should have one in mind, even if not confirmed yet. The Founding Cohort is designed for operators who will deliver their first engagement within 60-90 days of joining. If you are more exploratory, consider applying for a future cohort when you have a real project."
-      },
-      {
-        "q": "Do my clients see Soundcheck's brand?",
-        "a": "No. Everything is white-label from the moment you generate it. Your client sees your brand, your cover page, your agency name on the deliverable. Soundcheck is the infrastructure. You are the intelligence partner."
-      },
-      {
-        "q": "How much time does each engagement take?",
-        "a": "About 6 to 10 hours of your time total. Around 1 hour for the client intake and 5 to 9 hours validating the research output with your professional judgment. The platform generates the full research base in under 24 hours. The 2-week delivery timeline gives you legroom to manage multiple projects."
-      },
-      {
-        "q": "What kind of support do I get?",
-        "a": "Direct access to Valter Klug (founder, Operator Zero) throughout your four-week onboarding. That means personal demos, hands-on guidance through intake, validation, and delivery, and dedicated support. Plus cohort peer group access. The onboarding phase is also your time to share feedback and report bugs."
-      },
-      {
-        "q": "Can I set my own pricing?",
-        "a": "Yes. You charge your client whatever the work is worth. Your platform cost is fixed per product. Everything above that cost is yours. Many operators add a strategy markup or bundle Soundcheck deliverables into larger engagements."
-      },
-      {
-        "q": "How is this different from the standard rate?",
-        "a": "Standard operators pay the full platform cost per product. Founding Operators lock in Practice rates (20% off Standard) with no quarterly fee, for life. The Founding Cohort also includes a free first project, founder access, personal demos, and hands-on onboarding support."
-      }
-    ],
-    "formLabel": "Apply Now",
-    "formTitle": "Founding Operator Cohort Application",
-    "formDesc": "10 seats. We review every application personally. If you have clients who need decision intelligence and you are ready to deliver, tell us about your practice.",
-    "formButton": "Submit Application →",
-    "ctaTitle": "10 seats. This rate will not be repeated.",
-    "ctaSub": "The Founding Operator Cohort is a one-time offer. First project free. Lock 20% below standard for life. Four weeks of personal onboarding with Valter. Once the 10 seats are filled, the next cohort starts at standard rates.",
-    "ctaButton": "Apply Now →"
+    "heroLabel": "Founding Cohort",
+    "heroTitle": "The Founding Cohort is full.",
+    "heroSub": "Thank you to the consultants who joined first and helped shape the platform. New partners join on the standard plans: pay as you go, the Subscription, or Enterprise.",
+    "pricingLink": "See pricing →",
+    "consultantsLink": "For consultants →",
+    "contactLink": "Talk to us"
   },
   "partnerships": {
     "heroLabel": "For Trade Organizations, Chambers & Accelerators",
@@ -2408,7 +2185,7 @@
     "pathsTitle": "Choose the path that fits how your organization operates.",
     "path1Label": "Member Rate",
     "path1Title": "Done for you. 25% off for your members.",
-    "path1Desc": "Your members get preferred pricing on any Soundcheck engagement. Research is delivered by an experienced operator. Your organization makes no operational commitment. You add a high-value member benefit with zero lift.",
+    "path1Desc": "Your members get preferred pricing on any Soundcheck engagement. Research is delivered by an experienced consultant from our network. Your organization makes no operational commitment. You add a high-value member benefit with zero lift.",
     "path1Stats": [
       { "value": "25%", "label": "off MSRP on every engagement" },
       { "value": "25%", "label": "discount on every product" },
@@ -2421,13 +2198,22 @@
       "Networks that want to add value without adding operations",
       "Organizations that don't have consulting or research arms"
     ],
-    "path2Label": "Platform Access",
-    "path2Title": "Run it yourself. 20% off for life.",
-    "path2Desc": "Your organization gets access to the Soundcheck platform as an operator. White-label under your brand. Run intake with your team's expertise, validate with your market knowledge, deliver under your name. The rate is locked at 20% below standard for as long as you operate.",
+    "path2Label": "Enterprise",
+    "path2Title": "Run it yourself. An annual contract built for you.",
+    "path2Desc": "Your organization uses the Soundcheck platform directly, white-labeled under your brand. Your team runs intake, validates with its market knowledge, and delivers under your name. Enterprise is an annual contract built for each organization, with terms agreed case by case.",
     "path2Stats": [
-      { "value": "20%", "label": "off standard operator rate, locked for life" },
-      { "value": "100%", "label": "white-labeled under your brand" },
-      { "value": "5", "label": "products you can deliver" }
+      {
+        "value": "Annual",
+        "label": "contract, built for your organization"
+      },
+      {
+        "value": "100%",
+        "label": "white-labeled under your brand"
+      },
+      {
+        "value": "6",
+        "label": "products you can deliver"
+      }
     ],
     "path2BestFor": "Best for:",
     "path2BestForItems": [
@@ -2467,14 +2253,14 @@
       {
         "level": "05",
         "name": "Enterprise",
-        "desc": "A dedicated instance of the platform for your organization, with annual volume, custom configuration, and member-level access.",
+        "desc": "An annual contract for your organization: projects used when needed, seats for the whole team, onboarding and training, and priority support.",
         "fit": "Large trade organizations and multi-country chambers"
       }
     ],
     "levelsNote": "Most partnerships begin at Level 1 or 2. The platform is designed to grow with you.",
     "productsLabel": "What Your Members Get",
     "productsTitle": "Five research products at member rates.",
-    "productsSub": "Every engagement starts with Market Research. The other four products build on it. Prices shown are the 25% member discount off MSRP.",
+    "productsSub": "Market Research is the foundation. The other four products build on it. Members get 25% off the suggested price of every product.",
     "products": [
       {
         "num": "01",
@@ -2486,25 +2272,25 @@
         "num": "02",
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, competitive landscape, regulatory snapshot, distribution map, and phased entry roadmap.",
-        "price": "Add-on to Market Research · member rate"
+        "price": "Builds on Market Research · member rate"
       },
       {
         "num": "03",
         "name": "Scale Assessment",
         "desc": "Scale diagnostic, competitive position, operational readiness, and a 24-month phased plan with go/no-go gates.",
-        "price": "Add-on to Market Research · member rate"
+        "price": "Builds on Market Research · member rate"
       },
       {
         "num": "04",
         "name": "Customer Journey Maps",
         "desc": "Per-persona journey maps from awareness to advocacy, with friction and opportunity analysis.",
-        "price": "Per-persona pricing · Add-on to Market Research · member rate"
+        "price": "Per persona · runs on a persona panel · member rate"
       },
       {
         "num": "05",
         "name": "Virtual Focus Groups",
         "desc": "AI-powered concept testing against a research-grounded persona panel. Three rounds of feedback per session.",
-        "price": "Per-session pricing · Add-on to Market Research · member rate"
+        "price": "Per session · runs on a persona panel · member rate"
       }
     ],
     "whoLabel": "Who This Is For",
@@ -2526,12 +2312,12 @@
     "howPath1Title": "Member Rate path",
     "howPath1Steps": [
       { "num": "01", "title": "We agree on terms", "desc": "Your organization signs a partnership agreement. Your members get 25% off MSRP on any Soundcheck product." },
-      { "num": "02", "title": "Members engage directly", "desc": "When a member needs decision intelligence, they engage through Soundcheck or an assigned operator. Your org makes the introduction." },
-      { "num": "03", "title": "Research is delivered", "desc": "The operator runs intake, the platform generates the report, the operator validates and delivers. Your member gets decision-grade intelligence at a preferred rate." }
+      { "num": "02", "title": "Members engage directly", "desc": "When a member needs decision intelligence, they engage through Soundcheck or an assigned consultant. Your org makes the introduction." },
+      { "num": "03", "title": "Research is delivered", "desc": "The consultant runs intake, the platform generates the report, and the consultant validates and delivers. Your member gets decision-grade intelligence at a preferred rate." }
     ],
-    "howPath2Title": "Platform Access path",
+    "howPath2Title": "Enterprise path",
     "howPath2Steps": [
-      { "num": "01", "title": "Your team gets onboarded", "desc": "Valter walks your team through the full platform workflow. You learn intake, validation, and delivery." },
+      { "num": "01", "title": "Your team gets onboarded", "desc": "Onboarding and team training are part of every Enterprise contract. Your team learns intake, validation, and delivery." },
       { "num": "02", "title": "You run it under your brand", "desc": "Your team conducts intake with member companies, the platform generates reports, your team validates and delivers under your brand." },
       { "num": "03", "title": "Your program scales", "desc": "Every member engagement strengthens your program. You build a research capability without hiring researchers." }
     ],
@@ -2628,7 +2414,7 @@
       { "label": "Hard gates that scores cannot override", "values": [false, false, true] },
       { "label": "Independent cross-model audit", "values": [false, false, true] },
       { "label": "Automated repair and re-verification", "values": [false, false, true] },
-      { "label": "Operator Ready release gate", "values": [false, false, true] },
+      { "label": "Nothing released with a known problem in it", "values": [false, false, true] },
       { "label": "Current vs. optimized architecture", "values": [false, false, true] },
       { "label": "Senior strategist validates every finding", "values": [false, true, true] },
       { "label": "White-label, delivered under your brand", "values": [false, false, true] },
@@ -2638,7 +2424,7 @@
     "footer": "The point isn't being faster or cheaper. It's being the only option that delivers all three:"
   },
   "livingIntelligence": {
-    "heroLabel": "Monthly Subscription Add-On",
+    "heroLabel": "Monthly Add-On",
     "heroTitle": "Your research doesn't expire.",
     "heroSub": "Living Intelligence keeps your market picture current with monthly updates on what changed and what it means.",
     "cta": "Talk to Us",
@@ -2695,7 +2481,7 @@
       ]
     },
     "forAgencies": {
-      "label": "For Agencies & Operators",
+      "label": "For Agencies & Consultants",
       "title": "Turn one-off projects into ongoing relationships.",
       "desc": "Living Intelligence gives you a reason to stay engaged after delivery. Monthly updates keep your clients informed and keep your advisory relationship active.",
       "items": [
@@ -2730,5 +2516,259 @@
     "title": "See a sample report.",
     "desc": "These samples were generated for fictional companies to demonstrate the depth and quality of Soundcheck output.",
     "viewAll": "View all samples →"
+  },
+  "pricing": {
+    "heroLabel": "Pricing",
+    "heroTitle": "One price per project.",
+    "heroSub": "Three plans. Every plan includes every product, white-labeled under your brand. You set what your client pays.",
+    "introBadge": "Introductory price",
+    "plans": [
+      {
+        "name": "Pay as you go",
+        "price": "$1,190",
+        "per": "per project",
+        "fit": "For projects here and there.",
+        "items": [
+          "One project: one client brand, up to two elements",
+          "Pay when you open it, nothing in between",
+          "Extra element: $490",
+          "Every product, white-label on everything"
+        ],
+        "cta": "Get Started →"
+      },
+      {
+        "name": "Subscription",
+        "price": "$990",
+        "per": "per month",
+        "regular": "Regular price $1,490",
+        "fit": "For a project a month or more.",
+        "items": [
+          "2 projects a month, up to two elements each",
+          "Extra projects $990 each",
+          "Living Intelligence on 1 project included",
+          "4 seats",
+          "Three-month minimum, then cancel at the end of any month",
+          "Annual option: pay 11 months, the 12th is free"
+        ],
+        "note": "Subscribe at the introductory price and you keep it for as long as you stay subscribed.",
+        "cta": "Get Started →"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Case by case",
+        "per": "annual contract",
+        "fit": "For organizations with a team and an annual budget: larger agencies, chambers of commerce, trade bodies, government agencies.",
+        "items": [
+          "An annual contract built for your organization",
+          "Projects used when needed",
+          "Seats for the whole team",
+          "Onboarding and team training",
+          "Priority support"
+        ],
+        "cta": "Talk to Us →"
+      }
+    ],
+    "projectLabel": "What a project is",
+    "projectTitle": "One client brand, up to two elements.",
+    "projectDesc": "An element is a Market Research, a GoGlobal, a Scale, Customer Journeys on the panel, or a focus group session. You choose them when you open the project.",
+    "examplesHead": [
+      "What you run",
+      "Charged as"
+    ],
+    "examples": [
+      [
+        "Market Research + GoGlobal (entering a new market)",
+        "1 project"
+      ],
+      [
+        "Market Research + Scale (growing in the current market)",
+        "1 project"
+      ],
+      [
+        "Market Research + one focus group",
+        "1 project"
+      ],
+      [
+        "Market Research + Customer Journeys on the whole panel",
+        "1 project"
+      ],
+      [
+        "Two focus group sessions on a persona panel you already have",
+        "1 project"
+      ],
+      [
+        "A third element on the same brand",
+        "1 project + $490"
+      ]
+    ],
+    "projectNotes": [
+      "GoGlobal and Scale each need a Market Research for their market in the same project. Both can share one project.",
+      "Focus groups and Customer Journeys can run on a persona panel you already have, from an earlier project or written by hand.",
+      "Mini (6 personas), Standard (12) or Premium (20): the panel size changes the depth, never the price.",
+      "Reworks, regenerations, persona edits, dashboards, share links and exports are unlimited inside a project."
+    ],
+    "extrasLabel": "Extras",
+    "extrasTitle": "Add only what you need.",
+    "extras": [
+      {
+        "name": "Extra element",
+        "price": "$490",
+        "desc": "Any plan. A third element on a project, or a focus group added later."
+      },
+      {
+        "name": "Living Intelligence",
+        "price": "$190 / month",
+        "desc": "Monthly updates on a delivered project. Per project, three-month minimum."
+      },
+      {
+        "name": "Personal onboarding",
+        "price": "$790 one-time",
+        "desc": "Optional. Three 60-minute calls: setup and your first brief, a guided first live project, and a review before it goes to your client. Included on Enterprise."
+      },
+      {
+        "name": "Academy and help videos",
+        "price": "Free",
+        "desc": "The Soundcheck Academy, a short video beside every feature, and email and WhatsApp support, on every plan."
+      }
+    ],
+    "resaleLabel": "What you can charge",
+    "resaleTitle": "Suggested client prices.",
+    "resaleDesc": "Guidance for what your client pays. You set the price and keep everything above your cost.",
+    "resaleRows": [
+      [
+        "Market Research",
+        "$3,000 / $3,750 / $4,500 (Mini / Standard / Premium)"
+      ],
+      [
+        "GoGlobal",
+        "+$2,000"
+      ],
+      [
+        "Scale",
+        "+$2,000"
+      ],
+      [
+        "Customer Journey",
+        "$500 per persona"
+      ],
+      [
+        "Virtual Focus Group",
+        "$2,000 per session"
+      ],
+      [
+        "Living Intelligence",
+        "$1,000 per month"
+      ]
+    ],
+    "exampleTitle": "Worked example · Market Research (Standard) + GoGlobal",
+    "exampleRows": [
+      [
+        "Your client pays",
+        "$5,750"
+      ],
+      [
+        "Your cost, pay as you go",
+        "$1,190"
+      ],
+      [
+        "You keep",
+        "$4,560"
+      ],
+      [
+        "Your cost on the Subscription",
+        "$495"
+      ]
+    ],
+    "ctaTitle": "Not sure which plan fits?",
+    "ctaSub": "Tell us how many projects you expect and we'll tell you honestly which plan costs less.",
+    "ctaButton": "Talk to Us →"
+  },
+  "planCalculator": {
+    "label": "Plan calculator",
+    "title": "Pay as you go, or <em>subscribe?</em>",
+    "lead": "Tell us how you expect to use Soundcheck over the next twelve months. The calculator prices every option against your pattern and points you to the cheaper one. Prices in US dollars.",
+    "volQ": "How many projects do you expect to run per year?",
+    "volSub": "{count, plural, one {project} other {projects}} a year · {pace}",
+    "paceMonthly": "about {n} a month",
+    "paceOneAMonth": "about 1 a month",
+    "paceEvery": "about 1 every {n} months",
+    "volHint": "A project is one client brand with up to two elements: for example a Market Research plus a GoGlobal, or two focus groups on a persona panel you already have.",
+    "evenQ": "How even is your usage month by month?",
+    "evenSteady": "Steady",
+    "evenSeasonal": "Seasonal",
+    "evenBursts": "In bursts",
+    "evenSub": "projects land in about {n} of 12 months",
+    "evenScale": [
+      "In bursts",
+      "Seasonal",
+      "Same every month"
+    ],
+    "liQ": "How many delivered projects will you keep on Living Intelligence?",
+    "liSubNone": "optional · monthly updates on a project",
+    "liSub": "projects updated monthly · {price} each a month",
+    "optionsQ": "Options",
+    "annualTitle": "Show annual prepay",
+    "annualDesc": "Pay 11 months upfront, the 12th is free, unused projects roll over through the 12 months",
+    "regularTitle": "Use the regular Subscription price",
+    "regularDesc": "{regular} a month instead of the introductory {intro}",
+    "optionsHint": "Subscribe at the introductory price and you keep it for as long as you stay subscribed.",
+    "suggestion": "Our suggestion",
+    "compareTitle": "Twelve-month cost by option",
+    "compareSub": "Everything you'd pay over a year for {count, plural, one {# project} other {# projects}}{li, plural, =0 {} one { and # on Living Intelligence} other { and # on Living Intelligence}}.",
+    "chartTitle": "Your year, month by month",
+    "chartSub": "One way {n} projects could fall across your year. Lighter bars are projects beyond what the Subscription includes that month.",
+    "chartLegend": "The Subscription includes 2 a month",
+    "chartAria": "Projects per month against the Subscription allowance",
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "optPayg": "Pay as you go",
+    "optPaygNote": "{price} per project",
+    "optSub": "Subscription, monthly",
+    "optSubNote": "{fee} a month · 2 projects",
+    "optSubNoteIntro": "<s>{regular}</s> {fee} a month · 2 projects",
+    "optSubA": "Subscription, annual prepay",
+    "optSubANote": "{upfront} upfront · 24 projects pooled",
+    "perProject": "{price} per project",
+    "extras": "{count, plural, one {# extra project} other {# extra projects}} at {price}",
+    "unusedExpire": "{count, plural, one {# included project expires unused} other {# included projects expire unused}}",
+    "unusedLeft": "{count, plural, one {# included project left unused} other {# included projects left unused}}",
+    "perMonthAvg": "{price} / mo avg",
+    "ourPick": "Our pick",
+    "recPaygHead": "Go with <em>pay as you go</em>.",
+    "recPaygBody": "At {n} projects a year, paying per project costs {gap} less than the next best option, {next}. You pay only when a client project starts, and quiet months cost nothing.",
+    "recCloseBody": "{best} would save {save} a year, under 8% of the total. That is too thin to commit to a plan: pay as you go keeps you free to slow down without paying for projects you don't run. Revisit once your volume is clearer.",
+    "recSubHead": "Go with <em>the Subscription</em>.",
+    "recSubAHead": "Go with <em>the Subscription, paid annually</em>.",
+    "recSubSave": "It saves {save} a year against pay as you go ({pct}% less).",
+    "recSubAOnly": "Billed month to month, a plan would cost you more than paying per project, because busy months go over the allowance while quiet months let it expire. Paying the year upfront pools 24 projects across the twelve months, so the quiet months fund the busy ones. If you'd rather not pay upfront, stay on pay as you go.",
+    "recSubABoth": "Paying the year upfront makes the 12th month free ({fee}). Billed monthly instead, the Subscription still saves {monthlySave} against pay as you go.",
+    "recPool": "Pooling the allowance also lets quiet months cover busy ones (another {pool}).",
+    "recUnused": "You'd leave about {count, plural, one {# included project} other {# included projects}} unused over the year; it still comes out ahead.",
+    "recFull": "Your volume uses the full allowance every month.",
+    "chipTotal": "<b>{price}</b> over 12 months",
+    "chipPerProject": "<b>{price}</b> per project",
+    "chipUpfront": "<b>{price}</b> paid upfront",
+    "chipLocked": "<b>{price}</b> a month locked while you stay subscribed",
+    "chipTerm12": "<b>12-month</b> term",
+    "chipMin3": "<b>3-month</b> minimum",
+    "chipEnterprise": "<b>More than 36 a year, or more than 4 people?</b> Ask about Enterprise",
+    "note": "Standard prices. A third element on a project ($490) and optional personal onboarding ($790) cost the same on both plans, so they don't change which one is cheaper. Enterprise is built case by case, so it isn't priced here.",
+    "money": {
+      "prefix": "$",
+      "sep": ",",
+      "decimal": "."
+    }
   }
 }

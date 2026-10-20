@@ -17,7 +17,8 @@
     "standaloneProductsDesc": "Entregas de alcance fijo y precio fijo. Encarga una a la vez.",
     "marketResearch": "Investigación de Mercado",
     "consumerJourneys": "Mapas de Viaje del Cliente",
-    "virtualFocusGroups": "Sesiones de Grupos Focales Virtuales"
+    "virtualFocusGroups": "Sesiones de Grupos Focales Virtuales",
+    "pricing": "Precios"
   },
   "footer": {
     "tagline": "Investigación de mercado de nivel decisorio. Impulsada por IA. Validada por expertos.",
@@ -135,7 +136,7 @@
         "for": "Expansión de Mercado",
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, panorama competitivo, resumen regulatorio, mapa de canales de distribución, rutas estratégicas y hoja de ruta por fases para la entrada al mercado.",
-        "delivery": "Complemento de Investigación de Mercado",
+        "delivery": "Se basa en la Investigación de Mercado",
         "link": "/expansion-report"
       },
       {
@@ -143,7 +144,7 @@
         "for": "Preparación para el Crecimiento",
         "name": "Scale Assessment",
         "desc": "Diagnóstico de Escala, posición competitiva, preparación operacional y un plan de 24 meses por fases con puertas de go/no-go.",
-        "delivery": "Complemento de Investigación de Mercado",
+        "delivery": "Se basa en la Investigación de Mercado",
         "link": "/scale-assessment"
       },
       {
@@ -151,7 +152,7 @@
         "for": "Mapeo de Experiencia",
         "name": "Mapas de Viaje del Cliente",
         "desc": "Mapas de viaje específicos de la marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy. Dashboard visual y exportación PDF.",
-        "delivery": "Complemento de Investigación de Mercado",
+        "delivery": "Funciona sobre un panel de personas",
         "link": "/consumer-journeys"
       },
       {
@@ -159,7 +160,7 @@
         "for": "Prueba de Conceptos",
         "name": "Focus Groups Virtuales",
         "desc": "Sesiones de focus group con IA testando conceptos contra su panel de personas. Votos de preferencia, citas textuales e insights estratégicos.",
-        "delivery": "Complemento de Investigación de Mercado",
+        "delivery": "Funciona sobre un panel de personas",
         "link": "/virtual-focus-groups"
       },
       {
@@ -173,7 +174,7 @@
     ],
     "viewAllProducts": "Ver Todos los Productos →",
     "modulesLabel": "Lo Que Obtiene",
-    "modulesTitle": "Cada proyecto comienza con Investigación de Mercado. Construya a partir de ahí.",
+    "modulesTitle": "La mayoría de los proyectos comienzan con Investigación de Mercado. Construya a partir de ahí.",
     "modulesFoundation": "La Base",
     "modulesAddOns": "Agregue profundidad según la necesite",
     "modules": [
@@ -266,7 +267,7 @@
     "heroTitle1": "La IA realiza la investigación.",
     "heroTitle2": "Usted",
     "heroTitle3": "entrega la inteligencia.",
-    "heroSub": "Cómo las agencias usan Soundcheck para producir informes de mercado de grado decisión — en 6 a 10 horas de su tiempo, entregados bajo su marca.",
+    "heroSub": "Cómo los consultores usan Soundcheck para producir informes de mercado de nivel decisorio en 6 a 10 horas de su tiempo, entregados bajo su marca.",
     "chips": [
       {
         "value": "6–10h",
@@ -286,11 +287,11 @@
       }
     ],
     "phasesLabel": "Las Cuatro Fases",
-    "phasesTitle": "De briefing a informe listo para el cliente en 2 semanas.",
+    "phasesTitle": "Del briefing al informe que recibe su cliente, en unas dos semanas.",
     "phases": [
       {
         "num": "Fase 01",
-        "label": "El operador presenta el proyecto",
+        "label": "Usted presenta el proyecto",
         "timing": "Día 0 · Su tiempo: ~1h",
         "title": "La hora más importante en el proceso.",
         "body": "Usted lidera una conversación acotada con su cliente: qué mercado están entrando, cuál es la pregunta de negocio central, qué decisiones dependen de la respuesta. Usted captura el brief y lo envía a través de la plataforma — aportando el contexto que ninguna IA puede inferir.",
@@ -301,7 +302,7 @@
         "label": "La plataforma construye y audita la investigación",
         "timing": "Día 1 · Automatizado",
         "title": "Arquitectura dual de IA: Claude construye, OpenAI audita.",
-        "body": "Claude (Anthropic) genera la base de investigación completa — datos de mercado, mapas competitivos, puntuaciones de viabilidad y 100+ páginas de análisis estructurado. Luego OpenAI audita independientemente cada afirmación, señalando aserciones sin respaldo y brechas de fuente. La plataforma aplica Decision Assurance: gobernanza de evidencia, puntuaciones de decisión, puertas duras, reparación automatizada y re-verificación. Solo el trabajo que pasa la puerta de liberación Operator Ready avanza.",
+        "body": "Claude (Anthropic) genera la base de investigación completa: datos de mercado, mapas competitivos, puntuaciones de viabilidad y 100+ páginas de análisis estructurado. Luego OpenAI audita de forma independiente cada afirmación y señala aserciones sin respaldo y brechas de fuente. La plataforma repara lo que encontró y lo vuelve a verificar, de forma automática. Nada le llega de vuelta con un problema conocido sin resolver.",
         "tag": "Automatizado · Decision Assurance integrado"
       },
       {
@@ -329,7 +330,7 @@
       "Mapeo de panorama competitivo",
       "Puntuaciones de decisión y puertas duras (CVE, SRS)",
       "Auditoría independiente entre modelos (Claude construye, OpenAI verifica)",
-      "Reparación automatizada, re-verificación y puerta de liberación Operator Ready",
+      "Reparación automatizada y re-verificación. Ningún informe le llega con un problema conocido",
       "Montaje de informes estructurados (100+ páginas)"
     ],
     "youBring": "Usted aporta",
@@ -354,7 +355,7 @@
       {
         "icon": "📐",
         "title": "Presentación en Diapositivas",
-        "sub": "Diapositivas listas para cliente"
+        "sub": "Diapositivas de presentación con su marca"
       },
       {
         "icon": "🏷",
@@ -373,7 +374,7 @@
       }
     ],
     "ctaTitle": "¿Listo para ejecutar su primer informe?",
-    "ctaSub": "La mayoría de operadores comienzan con un cliente existente. Bajo riesgo, valor inmediato.",
+    "ctaSub": "La mayoría de los consultores comienzan con un cliente existente. Bajo riesgo, valor inmediato.",
     "ctaButton1": "Solicitar Acceso a la Plataforma",
     "ctaButton2": "Explorar los 6 Productos"
   },
@@ -391,8 +392,8 @@
       },
       {
         "icon": "💰",
-        "value": "$3,800+",
-        "label": "margen por compromiso"
+        "value": "US$4.560",
+        "label": "que conserva de un proyecto de US$5.750"
       },
       {
         "icon": "🏷",
@@ -411,30 +412,45 @@
       }
     ],
     "businessCaseLabel": "El Caso de Negocio",
-    "businessCaseTitle": "Así es como funciona en la práctica:",
+    "businessCaseTitle": "Así funciona en la práctica.",
     "businessCaseDesc1": "Antes de abrir esto como una plataforma, ejecuté cada informe de Soundcheck yo mismo. No como prueba de concepto, sino porque la economía era demasiado convincente como para no probar primero.",
     "businessCaseDesc2": "La plataforma maneja el trabajo analítico pesado: agregación de datos, mapeo competitivo, calificación de viabilidad, generación de informes. Su función es capturar la información correcta del cliente por adelantado, aplicar su criterio profesional a los resultados de la IA y presentar los hallazgos con el contexto estratégico que solo un experto real puede proporcionar.",
     "businessCaseDesc3": "Eso es lo que su cliente está pagando.",
-    "economicsHeader": "Economía Real · Market Research Mini + GoGlobal (compromiso de $5,000)",
+    "economicsHeader": "Ejemplo práctico · Market Research (Standard) + GoGlobal por US$5.750",
     "economicsRows": [
-      ["Tu cliente paga", "$5,000+"],
-      ["Tu costo de plataforma", "$1,200"],
-      ["Tú conservas", "$3,800+"],
-      ["Tu inversión de tiempo", "6–10 horas"],
-      ["Tarifa efectiva por hora", "~$380–$630/h"]
+      [
+        "Su cliente paga",
+        "US$5.750"
+      ],
+      [
+        "Su costo, con Pago por proyecto",
+        "US$1.190"
+      ],
+      [
+        "Usted conserva",
+        "US$4.560"
+      ],
+      [
+        "Su tiempo",
+        "6–10 horas"
+      ],
+      [
+        "Nuevas contrataciones",
+        "Ninguna"
+      ]
     ],
-    "economicsNote": "El costo de plataforma es fijo por producto al 24% del MSRP. Tú defines el precio al cliente. Te quedas con todo por encima de tu costo. Sin necesidad de contratar personal adicional.",
+    "economicsNote": "Un precio fijo por proyecto con hasta dos elementos, o US$495 por proyecto con la Suscripción. Usted define el precio al cliente y conserva todo lo que supere su costo.",
     "partnershipLabel": "Cinco Formas de Trabajar Juntos",
     "partnershipTitle": "Comienza con una presentación. Construye hacia una práctica.",
     "partnershipLevels": [
       {"level": "01", "name": "Referir", "desc": "Presenta un cliente. Soundcheck vende y entrega. Tú ganas una comisión de referencia."},
       {"level": "02", "name": "Co-entregar", "desc": "Vende y entrega junto con nosotros, bajo tu marca o la nuestra. Tú eliges."},
-      {"level": "03", "name": "White-label", "desc": "Genera en la plataforma, valida y edita fuera de ella, entrega bajo tu marca. Pagas la tarjeta de tarifas, conservas el resto."},
-      {"level": "04", "name": "Integrar", "desc": "Usa la plataforma como insumo de trabajo dentro de un compromiso de consultoría más largo. Reportes más actualizaciones mensuales como parte de tu retainer."},
-      {"level": "05", "name": "Enterprise", "desc": "Una versión dedicada de la plataforma para tu organización, con volumen anual y configuración personalizada."}
+      {"level": "03", "name": "White-label", "desc": "Genere en la plataforma, valide y edite fuera de ella, entregue bajo su marca. Usted paga un precio fijo por proyecto y conserva el resto."},
+      {"level": "04", "name": "Integrar", "desc": "Use la plataforma como insumo de trabajo dentro de un trabajo de consultoría más largo. Informes más actualizaciones mensuales de Living Intelligence como parte de su retainer."},
+      {"level": "05", "name": "Enterprise", "desc": "Un contrato anual diseñado para su organización: proyectos que usa cuando los necesita, puestos de usuario para todo el equipo, onboarding y capacitación, soporte prioritario."}
     ],
     "partnershipNote": "Los niveles 1 y 2 son puntos de entrada. Los niveles 3 al 5 son donde la alianza está diseñada para funcionar.",
-    "operatorLabel": "Lo que obtiene como operador",
+    "operatorLabel": "Lo que obtiene",
     "operatorTitle": "Todo lo que necesita para entregar inteligencia al nivel de una firma de investigación.",
     "operatorItems": [
       {
@@ -454,31 +470,31 @@
       },
       {
         "icon": "📐",
-        "title": "Presentación Lista para Clientes",
-        "desc": "Junto con el informe completo, cada compromiso incluye un conjunto de presentación estructurado para la presentación a su cliente."
+        "title": "Presentación en Diapositivas",
+        "desc": "Junto con el informe completo, cada proyecto puede generar una presentación en diapositivas estructurada para la reunión con su cliente."
       },
       {
         "icon": "🧠",
-        "title": "Capacitación de Operadores",
-        "desc": "Valter guía a cada nuevo operador a través del flujo de trabajo completo personalmente, incluida la primera presentación de informe, validación y entrega."
+        "title": "Onboarding a Su Medida",
+        "desc": "La Soundcheck Academy y un video corto junto a cada función son gratuitos en todos los planes. ¿Prefiere que alguien lo guíe? El onboarding personal con Valter es opcional: tres llamadas de 60 minutos a lo largo de su primer proyecto real."
       },
       {
         "icon": "📬",
         "title": "Resumen de Inteligencia Mensual",
-        "desc": "Actualizaciones de inteligencia de mercado exclusivas para operadores: cambios de categoría, mejoras metodológicas y señales de investigación."
+        "desc": "Actualizaciones de inteligencia de mercado exclusivas para socios: cambios de categoría, mejoras metodológicas y señales de investigación."
       }
     ],
     "whiteLabelLabel": "Productos White-Label",
-    "whiteLabelTitle": "Seis productos modulares.\nMarket Research es el punto de partida.",
-    "whiteLabelSub": "Cada producto está diseñado para entrega white-label. Su marca, su portada, su relación con el cliente. Usted define el precio y conserva el margen. Cinco productos de investigación más Living Intelligence para inteligencia continua — todos construidos sobre una base de evidencia compartida.",
+    "whiteLabelTitle": "Seis productos.\nUn precio por proyecto.",
+    "whiteLabelSub": "Un proyecto es una marca de cliente con hasta dos elementos. Market Research es la base para GoGlobal y Scale. Los focus groups y los mapas de viaje del cliente también pueden ejecutarse sobre un panel de personas que usted ya tiene. Los precios a continuación son lo que puede cobrarle a su cliente.",
     "whiteLabelProducts": [
       {
         "num": "01",
         "name": "Market Research (Mini / Standard / Premium)",
-        "audience": "Requerido para cada proyecto",
-        "desc": "Tres informes de nivel decisorio más un panel de personas con 6, 12 o 20 buyer personas. La base sobre la que se construye cada otro producto.",
-        "delivery": "Los operadores suelen entregar en 2 semanas",
-        "price": "Costo estándar: $720 / $900 / $1,080",
+        "audience": "La base",
+        "desc": "Tres informes de nivel decisorio (mercado, competencia, consumidor) más un panel de personas con 6, 12 o 20 buyer personas. La base para GoGlobal y Scale.",
+        "delivery": "Normalmente se entrega en 2 semanas",
+        "price": "Precio sugerido al cliente: US$3.000 / US$3.750 / US$4.500",
         "link": "/research-platform"
       },
       {
@@ -486,8 +502,8 @@
         "name": "GoGlobal Viability Analysis",
         "audience": "Marcas Internacionales · Entrada en el Mercado",
         "desc": "CVE Score, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, caminos estratégicos y hoja de ruta por fases. Se adjunta a Market Research.",
-        "delivery": "Los operadores suelen entregar en 2 semanas (incl. Market Research)",
-        "price": "Costo estándar: $480",
+        "delivery": "Normalmente se entrega en 2 semanas (incl. Market Research)",
+        "price": "Precio sugerido al cliente: +US$2.000",
         "link": "/expansion-report"
       },
       {
@@ -495,26 +511,26 @@
         "name": "Scale Assessment",
         "audience": "Marcas Establecidas · Inteligencia Estratégica",
         "desc": "Scale Diagnostic, preparación operacional, posición competitiva, plan por fases de 24 meses con puertas de go/no-go, y capa de inteligencia de 90 días.",
-        "delivery": "Los operadores suelen entregar en 2 semanas (incl. Market Research)",
-        "price": "Costo estándar: $480",
+        "delivery": "Normalmente se entrega en 2 semanas (incl. Market Research)",
+        "price": "Precio sugerido al cliente: +US$2.000",
         "link": "/scale-assessment"
       },
       {
         "num": "04",
         "name": "Mapas de Viaje del Cliente",
         "audience": "Inteligencia del Consumidor",
-        "desc": "Mapas de viaje por persona mostrando desde el awareness hasta la advocacy, con análisis de fricción y oportunidad.",
-        "delivery": "Los operadores suelen entregar en 7 días hábiles (incl. Market Research)",
-        "price": "Costo estándar: $120/persona",
+        "desc": "Mapas de viaje por persona que muestran desde el awareness hasta la advocacy, con análisis de fricción y oportunidad. Funciona sobre cualquier panel de personas.",
+        "delivery": "Normalmente se entrega en 7 días hábiles",
+        "price": "Precio sugerido al cliente: US$500 por persona",
         "link": "/consumer-journeys"
       },
       {
         "num": "05",
         "name": "Focus Groups Virtuales",
         "audience": "Prueba de Concepto · Investigación del Consumidor",
-        "desc": "Prueba packaging, conceptos, precios y territorios creativos contra tu panel de personas. Tres rondas de feedback iterativo por sesión.",
-        "delivery": "Los operadores suelen entregar en 7 días hábiles (incl. Market Research)",
-        "price": "Costo estándar: $480/sesión · +$240 re-test",
+        "desc": "Pruebas de concepto con IA contra un panel de personas. Votos de preferencia, citas textuales, insights estratégicos. Ejecute una nueva sesión cada vez que cambie el concepto.",
+        "delivery": "Normalmente se entrega en 7 días hábiles",
+        "price": "Precio sugerido al cliente: US$2.000 por sesión",
         "link": "/virtual-focus-groups"
       },
       {
@@ -523,7 +539,7 @@
         "audience": "Compromisos Continuos",
         "desc": "Actualizaciones mensuales recurrentes sobre el panorama de mercado, regulatorio y competitivo. Un resumen de 'qué cambió' y la capacidad de hacer preguntas contra la base de evidencia del proyecto.",
         "delivery": "Mensual, mínimo de 3 meses por compromiso",
-        "price": "Costo estándar: $240/mes",
+        "price": "Precio sugerido al cliente: US$1.000 por mes",
         "link": "/living-intelligence"
       }
     ],
@@ -551,8 +567,9 @@
     "notSureDesc": "Cuéntenos sobre su práctica y le daremos una respuesta honesta.",
     "notSureLink": "Pregúntenos directamente →",
     "ctaTitle": "Mira la plataforma en acción.\nUna conversación es todo lo que necesitas.",
-    "ctaSub": "Cuéntanos sobre tu práctica y te guiaremos a través de un compromiso real. Sin compromiso, sin tarifa de setup. Si encaja, encontraremos el nivel adecuado juntos.",
-    "ctaButton": "Habla con Nosotros →"
+    "ctaSub": "Cuéntenos sobre su práctica y le mostraremos un proyecto real paso a paso. Sin compromiso, sin tarifa de configuración. Si encaja, encontraremos juntos el plan adecuado.",
+    "ctaButton": "Habla con Nosotros →",
+    "seePricing": "Ver precios →"
   },
   "forBrands": {
     "heroLabel": "Para Marcas y Empresas",
@@ -573,7 +590,9 @@
         "Plazo típico: 2 semanas desde el briefing hasta la entrega",
         "Una ronda de revisión incluida"
       ],
-      "cta": "Presente Su Proyecto ↓"
+      "cta": "Presente Su Proyecto ↓",
+      "whatYouGet": "Qué Recibe",
+      "subtitle": "Un proyecto de investigación dedicado, entregado en sus plazos."
     },
     "enterprise": {
       "label": "Camino 2",
@@ -589,7 +608,9 @@
         "Soporte prioritario y un gerente de cuenta dedicado"
       ],
       "bestFor": "Organizaciones que ejecutan múltiples proyectos de investigación por trimestre, o equipos que necesitan inteligencia competitiva y de mercado siempre activa.",
-      "cta": "Hable con Nosotros sobre Enterprise"
+      "cta": "Hable con Nosotros sobre Enterprise",
+      "subtitle": "Capacidad de investigación para toda su organización.",
+      "featuresLabel": "Qué Incluye"
     },
     "productsLabel": "Qué Investigamos",
     "productsTitle": "Seis productos de investigación. Comience con la pregunta.",
@@ -654,13 +675,36 @@
     "formError": "Algo salió mal. Envíenos un correo a info@soundcheckinsights.com.",
     "ctaTitle": "¿No está seguro de qué camino es el adecuado?",
     "ctaSub": "Cuéntenos la decisión que tiene por delante. Le recomendaremos el enfoque adecuado.",
-    "ctaButton": "Habla con Nosotros"
+    "ctaButton": "Habla con Nosotros",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "company": "Empresa",
+      "industry": "Industria",
+      "decision": "¿Qué decisión tiene por delante?",
+      "timeline": "Plazo: ¿cuándo lo necesita?",
+      "timelineDefault": "Seleccione un plazo",
+      "timelineOptions": [
+        "En 2 semanas",
+        "En un mes",
+        "En un trimestre",
+        "Sin prisa, explorando opciones"
+      ],
+      "referral": "¿Cómo nos conoció?",
+      "submit": "Enviar brief",
+      "sending": "Enviando...",
+      "error": "Algo salió mal. Intente de nuevo o escríbanos directamente."
+    },
+    "gridTitle": "Seis productos de investigación. Comience con la pregunta.",
+    "gridLabel": "Qué Investigamos",
+    "heroSecondary": "Envíe su brief",
+    "gridSub": "La mayoría de los proyectos comienzan con Market Research. Agregue lo que necesite."
   },
   "products": {
     "heroLabel": "Productos de Investigación",
     "heroTitle": "Inteligencia de nivel decisorio.\nAlcance fijo. Precio fijo.",
-    "heroSub": "Seis productos modulares. Cada proyecto comienza con Market Research — los otros cinco se integran a él. Esta página es para operadores que entregan a través de la plataforma Soundcheck. Los precios mostrados son tu costo de plataforma, no lo que cobras a los clientes.",
-    "operatorNotice": "Los precios en esta página son costos de plataforma para operadores — lo que pagas para generar la investigación. Tú defines el precio al cliente.",
+    "heroSub": "Seis productos modulares sobre una misma base de evidencia. Market Research es el cimiento de GoGlobal y Scale; los focus groups y los mapas de viaje del cliente funcionan sobre un panel de personas. Los consultores los entregan bajo su propia marca.",
+    "operatorNotice": "Usted define sus propios precios al cliente. Un precio fijo por proyecto en la plataforma.",
     "viewDeliverables": "Ver lo que se entrega",
     "hideDeliverables": "Ocultar lo que se entrega",
     "whatsDelivered": "Lo que se entrega",
@@ -677,7 +721,7 @@
     "addOnsTitle": "Construya sobre su investigación.",
     "ctaTitle": "¿Listo para entregar investigación a tus clientes?",
     "ctaSub": "Cuéntanos qué necesita tu cliente. Te conectamos con el producto y los tiempos adecuados.",
-    "clientNote": "¿Buscas investigación de mercado para tu negocio? Nuestros operadores entregan estos productos bajo su propia marca. Contáctanos y te conectamos con el socio adecuado.",
+    "clientNote": "¿Busca investigación de mercado para su negocio? Nuestros consultores asociados entregan estos productos bajo su propia marca. Contáctenos y lo conectamos con el socio adecuado.",
     "clientNoteLink": "Contáctanos →",
     "ctaButton": "Briefear un Producto →",
     "items": [
@@ -688,8 +732,8 @@
         "tagline": "Personas basadas en investigación e inteligencia de mercado de nivel decisorio.",
         "desc": "Tres informes de nivel decisorio — Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo — más un panel de personas con 6, 12 o 20 buyer personas según el nivel.",
         "price": "Tiers Mini / Standard / Premium disponibles",
-        "clientPrice": "Los operadores establecen su propio precio al cliente",
-        "delivery": "Los operadores suelen entregar en 2 semanas",
+        "clientPrice": "Los consultores establecen su propio precio al cliente",
+        "delivery": "Normalmente se entrega en 2 semanas",
         "ctaLabel": "Ver Detalles de Investigación →",
         "deliverables": [
           "Informe de Análisis de Mercado — dimensionamiento, tendencias, panorama regulatorio",
@@ -702,12 +746,12 @@
       },
       {
         "num": "02",
-        "for": "Marcas y Agencias · Expansión de Mercado",
+        "for": "Consultores y Marcas · Expansión de Mercado",
         "name": "GoGlobal Viability Analysis",
         "desc": "Inteligencia de entrada al mercado para cualquier empresa que planea expandirse a un nuevo mercado. CVE Score propietario, panorama competitivo, snapshot regulatorio, mapa de canales de distribución, tres caminos estratégicos y hoja de ruta por fases.",
-        "price": "Complemento de Market Research",
-        "clientPrice": "Los operadores establecen su propio precio al cliente",
-        "delivery": "Los operadores suelen entregar en 2 semanas · Incluye Market Research",
+        "price": "Se basa en Market Research",
+        "clientPrice": "Los consultores establecen su propio precio al cliente",
+        "delivery": "Normalmente se entrega en 2 semanas · Incluye Market Research",
         "ctaLabel": "Ver Detalles del Informe →",
         "deliverables": [
           "CVE Score — puntuación ponderada de 3 dimensiones (0 a 100)",
@@ -726,9 +770,9 @@
         "name": "Scale Assessment",
         "tagline": "Crecimiento es lo que te vendieron. Escala es lo que realmente necesitas.",
         "desc": "Para marcas establecidas en puntos de inflexión estratégicos. Responde si estás construido para escalar de manera durable — y qué necesitas construir primero si no lo estás.",
-        "price": "Complemento de Market Research",
-        "clientPrice": "Los operadores establecen su propio precio al cliente",
-        "delivery": "Los operadores suelen entregar en 2 semanas · Incluye Market Research",
+        "price": "Se basa en Market Research",
+        "clientPrice": "Los consultores establecen su propio precio al cliente",
+        "delivery": "Normalmente se entrega en 2 semanas · Incluye Market Research",
         "ctaLabel": "Ver Detalles del Assessment →",
         "deliverables": [
           "Scale Diagnostic — construido para crecer vs. construido para escalar",
@@ -743,43 +787,45 @@
       },
       {
         "num": "04",
-        "for": "Operadores · Marcas · Inteligencia del Consumidor",
+        "for": "Consultores · Marcas · Inteligencia del Consumidor",
         "name": "Mapas de Jornada del Cliente",
         "tagline": "Vea exactamente dónde su marca conecta — y dónde pierde personas.",
         "desc": "Mapas de jornada específicos por marca mostrando cómo cada persona se mueve desde el awareness hasta la advocacy — y dónde los touchpoints de la marca se alinean, fallan o crean fricción.",
-        "price": "Precio por persona · Complemento de Market Research",
-        "clientPrice": "Los operadores establecen su propio precio al cliente",
-        "delivery": "Los operadores suelen entregar en 7 días hábiles · Incluye Market Research",
+        "price": "Por persona · Funciona sobre un panel de personas",
+        "clientPrice": "Los consultores establecen su propio precio al cliente",
+        "delivery": "Normalmente se entrega en 7 días hábiles",
         "ctaLabel": "Ver Detalles de Mapas de Jornada →",
         "deliverables": [
           "Mapa de jornada por persona — awareness hasta advocacy, touchpoints específicos",
           "Análisis de fricción y oportunidades",
           "Dashboard visual + exportación PDF",
-          "Requiere Investigación de Mercado completada (panel de personas)"
+          "Funciona sobre un panel de personas: de una Investigación de Mercado o uno que usted ya tenga"
         ],
         "link": "/consumer-journeys"
       },
       {
         "num": "05",
-        "for": "Operadores · Marcas · Inteligencia del Consumidor",
+        "for": "Consultores · Marcas · Inteligencia del Consumidor",
         "name": "Focus Groups Virtuales",
         "tagline": "Pruebe cualquier concepto contra su audiencia real — en horas, no semanas.",
-        "desc": "Sesiones de focus group con IA que prueban conceptos, mensajes, packaging, precios o posicionamiento contra el panel completo de personas. Votos de preferencia, citas textuales e insights estratégicos.",
-        "price": "Precio por sesión · Complemento de Market Research",
-        "clientPrice": "Los operadores establecen su propio precio al cliente",
-        "delivery": "Los operadores suelen entregar en 7 días hábiles · Incluye Market Research",
+        "desc": "Sesiones de focus group con IA que prueban conceptos, mensajes, packaging, precios o posicionamiento contra el panel completo de personas. Votos de preferencia, citas textuales e insights estratégicos. Ejecute una nueva sesión cada vez que cambie el concepto.",
+        "price": "Por sesión · Funciona sobre un panel de personas",
+        "clientPrice": "Los consultores establecen su propio precio al cliente",
+        "delivery": "Normalmente se entrega en 7 días hábiles",
         "ctaLabel": "Ver Detalles de Focus Groups →",
         "deliverables": [
           "Sesión completa de focus group — pruebe cualquier concepto",
           "Votos de preferencia + citas textuales de cada persona",
           "Insights estratégicos y resumen de recomendaciones",
-          "Tres rondas de feedback iterativo por sesión",
+          "¿Cambió el concepto? Ejecute una nueva sesión con el mismo panel",
           "Paneles reutilizables entre sesiones y líneas de producto",
-          "Requiere Investigación de Mercado completada (panel de personas)"
+          "Funciona sobre un panel de personas: de una Investigación de Mercado o uno que usted ya tenga"
         ],
         "link": "/virtual-focus-groups"
       }
-    ]
+    ],
+    "operatorNoticeLink": "Ver precios →",
+    "operatorNoticeLabel": "Para Consultores"
   },
   "contact": {
     "heroLabel": "Póngase en contacto",
@@ -801,8 +847,8 @@
   },
   "partner": {
     "heroLabel": "Sea Nuestro Socio",
-    "heroTitle": "Refiere clientes a Soundcheck.\nGana comisión. Recibe referidos.",
-    "heroSub": "¿Conoces un fundador o CMO enfrentando una decisión de mercado? Refiérelo a Soundcheck. Ganas una comisión de referido del 20% en cada proyecto, y te agregamos a nuestra red de socios recomendados — para que cuando nuestros clientes necesiten tu expertise, los enviemos a ti.",
+    "heroTitle": "Refiera clientes a Soundcheck.\nReciba referidos a cambio.",
+    "heroSub": "¿Conoce a un fundador o CMO que enfrenta una decisión de mercado? Refiéralo a Soundcheck. Usted recibe un pago por referido sobre el proyecto, y lo agregamos a nuestra red de socios recomendados, para que cuando nuestros clientes necesiten su experiencia, se los enviemos a usted.",
     "formTitle": "Conviértete en socio de referidos",
     "formSub": "Cuéntanos sobre tu práctica y los tipos de clientes que atiendes. Valter revisa cada solicitud personalmente.",
     "submitButton": "Enviar consulta de asociación →",
@@ -816,12 +862,12 @@
       {
         "num": "02",
         "title": "Nosotros manejamos el proyecto",
-        "body": "Soundcheck ejecuta la investigación a través de nuestra red de operadores. Tú te mantienes informado pero no necesitas entregar nada."
+        "body": "Soundcheck ejecuta la investigación a través de nuestra red de consultores. Usted se mantiene informado, pero no necesita entregar nada."
       },
       {
         "num": "03",
-        "title": "Tú ganas 20% de comisión",
-        "body": "Por cada proyecto que genere tu referido, ganas el 20% del valor del proyecto. Pagado después del pago del cliente."
+        "title": "Usted recibe un pago por referido",
+        "body": "Por cada proyecto que genere su referido, usted recibe un pago, que se abona después de que el cliente paga. Acordamos los términos en una llamada breve."
       },
       {
         "num": "04",
@@ -914,7 +960,7 @@
   "growthRoadmap": {
     "heroLabel": "Profundización del producto · Hoja de ruta de crecimiento en EE.UU.",
     "heroTitle": "Reavive el crecimiento de su negocio\ncon una hoja de ruta clara basada en evidencia",
-    "heroSub": "La hoja de ruta de crecimiento en EE.UU. de Soundcheck está diseñada para pequeñas y medianas empresas que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacio en blanco, palancas de crecimiento clasificadas, estimaciones de inversión y un plan de acción de 90 días, entregado en 2 semanas.",
+    "heroSub": "La hoja de ruta de crecimiento en EE.UU. de Soundcheck está diseñada para pequeñas y medianas empresas que se han estancado. Análisis de mercado, inteligencia competitiva, identificación de espacio en blanco, palancas de crecimiento clasificadas, estimaciones de inversión y un plan de acción de 90 días, que normalmente se entrega en 2 semanas.",
     "briefButton": "Proponer este informe →",
     "seeSegments": "Ver ambos segmentos →",
     "heroStats": [
@@ -926,7 +972,7 @@
       {
         "num": "1",
         "label": "SEMANA",
-        "sub": "los operadores suelen entregar en"
+        "sub": "plazo habitual de entrega"
       },
       {
         "num": "100%",
@@ -1045,7 +1091,7 @@
     "pricingDetails": [
       {
         "title": "Entrega en 2 semanas",
-        "sub": "Los operadores suelen entregar en 2 semanas"
+        "sub": "Normalmente se entrega en 2 semanas"
       },
       {
         "title": "White-label incluido",
@@ -1191,7 +1237,7 @@
       {
         "num": "2",
         "label": "SEMANAS",
-        "sub": "los operadores suelen entregar en (incl. Market Research)"
+        "sub": "plazo habitual de entrega (incl. Market Research)"
       },
       {
         "num": "100%",
@@ -1452,7 +1498,7 @@
     "pricingFeatures": [
       {
         "title": "Entrega en 2 semanas",
-        "sub": "Los operadores suelen entregar en 2 semanas (incl. Market Research)"
+        "sub": "Normalmente se entrega en 2 semanas (incl. Market Research)"
       },
       {
         "title": "White-label incluido",
@@ -1512,7 +1558,7 @@
       {
         "num": "7",
         "label": "DÍAS HÁBILES",
-        "sub": "los operadores suelen entregar en (incl. Market Research)"
+        "sub": "plazo habitual de entrega (incl. Market Research)"
       },
       {
         "num": "3",
@@ -1537,7 +1583,7 @@
       },
       {
         "title": "Iteración",
-        "sub": "Re-probar en minutos",
+        "sub": "Repetir en minutos",
         "desc": "Una vez que las personas existen, pruebe un concepto nuevo hoy, otro mañana. Rework de retroalimentación con un solo prompt de chat."
       },
       {
@@ -1562,7 +1608,7 @@
       "Una sola ronda — si los hallazgos no coinciden con sus hipótesis, demasiado malo, el presupuesto se fue."
     ],
     "processLabel": "Cómo Funciona la Plataforma",
-    "processTitle": "Un producto de tres pasos, ejecutado de principio a fin en una sola plataforma de operador.",
+    "processTitle": "Un producto de tres pasos, ejecutado de principio a fin en una sola plataforma.",
     "steps": [
       {
         "num": "01",
@@ -1608,7 +1654,7 @@
       }
     ],
     "fitLabel": "Para Quién Es",
-    "fitTitle": "Construido para dos tipos de operadores.",
+    "fitTitle": "Construido para dos tipos de compradores.",
     "forBrands": {
       "label": "Para Marcas",
       "title": "Pruebe bajo presión antes de lanzar.",
@@ -1627,11 +1673,11 @@
       "desc": "Las agencias de branding, consultorías de estrategia y estudios creativos utilizan Soundcheck VFG para agregar información a lo que venden — sin construir un equipo de investigación interno o pagar las tarifas de Nielsen.",
       "items": [
         "Su marca en los entregables. Logo en la navegación de la plataforma, páginas de portada, encabezados de página y paneles compartidos. La atribución de Soundcheck es configurable.",
-        "Nueva línea de ingresos, bajo esfuerzo. Cobre a sus clientes por investigación; la entrega se opera dentro de su propio tenant de plataforma.",
-        "Multi-cliente, multi-marca. Cada cliente suyo obtiene su propia biblioteca de personas y historial de grupos de enfoque — limitado para que los operadores solo vean lo que deben.",
+        "Nueva línea de ingresos, bajo esfuerzo. Cobre a sus clientes por investigación; la entrega se ejecuta dentro de su propio espacio de trabajo en la plataforma.",
+        "Multi-cliente, multi-marca. Cada cliente suyo obtiene su propia biblioteca de personas e historial de grupos de enfoque, con acceso limitado para que cada miembro de su equipo solo vea lo que debe.",
         "Una metodología de investigación que puede defender. La misma metodología del Producto 04 que Soundcheck vende directamente — obtiene la escala de un equipo de analistas."
       ],
-      "note": "Modelo de asociación con precios fijos por asiento. Póngase en contacto con el equipo para la incorporación."
+      "note": "Un precio fijo por proyecto en todos los planes. Vea los precios para consultores."
     },
     "methodLabel": "Metodología",
     "methodTitle": "De calidad decisional, honesto sobre sus límites.",
@@ -1668,7 +1714,7 @@
       },
       {
         "q": "¿Quién ve nuestros datos?",
-        "a": "Solo su tenant de agencia. Cada operador obtiene un espacio de trabajo limitado — sus clientes, sus personas, sus grupos de enfoque. El personal de Soundcheck puede acceder a los datos para soporte, pero nada se comparte entre tenants."
+        "a": "Solo el espacio de trabajo de su agencia. Cada consultor obtiene un espacio de trabajo limitado: sus clientes, sus personas, sus grupos de enfoque. El personal de Soundcheck puede acceder a los datos para soporte, pero nada se comparte entre espacios de trabajo."
       },
       {
         "q": "¿Qué formatos de archivo puedo probar?",
@@ -1709,13 +1755,13 @@
         }
       ],
       "includes": "Prueba de panel completo contra todas las personas seleccionadas · Votos de preferencia · Citas textuales · Perspectivas estratégicas · Marco de recomendaciones · 3 rondas de retroalimentación iterativa · Panel blanco · Enlace compartible · Informe PDF white-label · Llamada de revisión de 60 minutos",
-      "wholesale": "Vea los modelos de partnership y divisiones de ingresos.",
+      "wholesale": "Vea los precios para consultores.",
       "note": "White-label incluido. Todos los tiers incluyen informe de marca + llamada de revisión de 60 minutos.",
       "amount": "Precio por sesión",
       "sub": "Tres tiers según el tamaño de tu panel y el alcance del proyecto.",
       "extra": "Rondas de retroalimentación adicionales más allá de 3 incluidas están disponibles.",
       "reuse": "Una vez que existe un panel de personas, ejecuta cualquier número de sesiones contra él. ¿Nuevo concepto? Nueva sesión. Mismo panel, sin tarifa de configuración.",
-      "projectNote": "¿Parte de un proyecto más grande? Consulta los ejemplos de tamaño de proyecto en /research-platform."
+      "projectNote": "¿Parte de un proyecto más grande? Un proyecto cubre hasta dos elementos. Vea los ejemplos en /research-platform."
     },
     "heroTitle": "Presiona tu concepto antes de comprometerte con la producción.",
     "prereqTitle": "Antes de ejecutar una sesión",
@@ -1755,7 +1801,7 @@
       {
         "num": "2",
         "label": "SEMANAS",
-        "sub": "los operadores suelen entregar en (incl. Market Research)"
+        "sub": "plazo habitual de entrega (incl. Market Research)"
       },
       {
         "num": "Fijo",
@@ -1907,7 +1953,7 @@
     "pricingDetails": [
       {
         "title": "Entrega en 2 semanas",
-        "sub": "Los operadores suelen entregar en 2 semanas (incl. Market Research)"
+        "sub": "Normalmente se entrega en 2 semanas (incl. Market Research)"
       },
       {
         "title": "White-label incluido",
@@ -1918,9 +1964,6 @@
         "sub": "Incluido en cada proyecto"
       }
     ],
-    "introLabel": "Oferta Introductoria",
-    "introTitle": "Tarifa de cliente fundador disponible.",
-    "introSub": "Los primeros 5–10 clientes reciben el assessment a una tarifa preferencial a cambio de: testimonio escrito dentro de 30 días, derechos de caso de estudio público, y estatus de cliente de referencia.",
     "faqLabel": "Preguntas comunes",
     "faqTitle": "Respuestas directas.",
     "faqs": [
@@ -1959,7 +2002,7 @@
     "heroSub": "Tres módulos. Un flujo de trabajo. Tan completo o simple como el proyecto requiera.",
     "heroDesc": "Encarga Investigación de Mercado y obtén un panel de personas basadas en investigación. Mapea cómo cada persona compra con Mapas de Viaje del Cliente. Prueba tus conceptos con Sesiones de Grupos Focales Virtuales. Cada módulo se sostiene por sí solo. Los tres en conjunto se potencian mutuamente.",
     "ctaButton": "Solicitar Acceso →",
-    "seePricing": "Ver Tamaños de Proyecto ↓",
+    "seePricing": "Ver Ejemplos de Proyecto ↓",
     "modulesTitle": "Cómo se conectan los módulos",
     "modules": [
       {
@@ -1968,7 +2011,7 @@
         "tag": "El cimiento. Requerido para todos los otros módulos.",
         "desc": "Tres informes de nivel decisivo generados a partir de una toma de requerimientos de 60 minutos: Análisis de Mercado, Análisis del Consumidor, y Paisaje Competitivo. Cada afirmación está etiquetada con una etiqueta de confianza y una clasificación de fuente. Incluye un panel de personas compradoras — 6, 12, o 20 personas según el nivel — fundamentadas en la investigación, no construidas a partir de suposiciones.",
         "whatYouGet": "3 informes de investigación marcados + panel de personas editable",
-        "delivery": "Los operadores suelen entregar en 2 semanas",
+        "delivery": "Normalmente se entrega en 2 semanas",
         "pricing": "Mini (6 personas) · Standard (12 personas) · Premium (20 personas)",
         "link": "/market-research",
         "linkLabel": "Ver detalles completos →"
@@ -1979,7 +2022,7 @@
         "tag": "Complemento. Requiere Investigación de Mercado.",
         "desc": "Mapas de viaje específicos de marca que muestran cómo cada persona seleccionada se mueve desde la primera conciencia hasta la defensa de la marca — y dónde tus puntos de contacto actuales o planeados se alinean con ellos o no. Construido a partir de tu investigación de mercado y panel de personas. Una breve toma de requerimientos de marca (~15 minutos) captura tu estrategia go-to-market. El sistema genera un mapa de viaje visual para cada persona seleccionada.",
         "whatYouGet": "Visión general del embudo + línea temporal por persona + análisis de brechas + exportación PDF",
-        "delivery": "Los operadores suelen entregar en 7 días hábiles (incl. Market Research)",
+        "delivery": "Normalmente se entrega en 7 días hábiles",
         "pricing": "Precio por persona · elige cualquier número de tu panel",
         "link": "/consumer-journeys",
         "linkLabel": "Ver detalles completos →"
@@ -1990,60 +2033,60 @@
         "tag": "Complemento. Requiere Investigación de Mercado.",
         "desc": "Prueba empaques, eslóganes, territorios creativos, conceptos de productos, o afirmaciones de precios contra tu panel completo de personas. Cada sesión incluye tres rondas de retroalimentación iterativa — refina el concepto entre rondas sin iniciar una nueva sesión. Los paneles son reutilizables en múltiples sesiones y líneas de productos.",
         "whatYouGet": "Panel con votos de preferencia, citas textuales, perspectivas estratégicas + 3 rondas de retroalimentación",
-        "delivery": "Los operadores suelen entregar en 7 días hábiles (incl. Market Research)",
-        "pricing": "Precio por sesión · pack de re-test disponible",
+        "delivery": "Normalmente se entrega en 7 días hábiles",
+        "pricing": "Precio por sesión · vuelva a ejecutarla después de cada cambio",
         "link": "/virtual-focus-groups",
         "linkLabel": "Ver detalles completos →"
       }
     ],
     "pricingLabel": "Construye tu proyecto",
-    "pricingSub": "Cada módulo tiene precios independientes. Comienza con investigación y agrega profundidad según el proyecto avanza. Nunca pagas más de lo que necesitas.",
+    "pricingSub": "Un proyecto es una marca de cliente con hasta dos elementos. Comience con investigación y agregue profundidad a medida que el proyecto crece. Un focus group o los mapas de viaje del cliente también pueden ejecutarse sobre un panel de personas que usted ya tiene.",
     "pricingColumns": [
-      "Tamaño del Proyecto",
+      "Ejemplo",
       "Investigación de Mercado",
       "Mapas de Viaje del Cliente",
-      "Sesión VFG",
-      "Módulos"
+      "Focus Group",
+      "Se cobra como"
     ],
     "pricingRows": [
       {
-        "name": "Iniciador",
-        "research": "Investigación Mini",
-        "journeys": "6 personas",
-        "vfg": "1 sesión",
-        "total": "3 módulos"
-      },
-      {
-        "name": "Crecimiento",
-        "research": "Investigación Standard",
-        "journeys": "8 personas",
-        "vfg": "1 sesión",
-        "total": "3 módulos"
-      },
-      {
-        "name": "Escala Completa",
-        "research": "Investigación Premium",
-        "journeys": "10 personas",
-        "vfg": "1 sesión",
-        "total": "3 módulos"
-      },
-      {
-        "name": "Solo Investigación",
+        "name": "Solo investigación",
         "research": "Investigación Mini",
         "journeys": "—",
         "vfg": "—",
-        "total": "1 módulo"
+        "total": "1 proyecto"
       },
       {
-        "name": "Investigación + Viajes",
+        "name": "Investigación + Mapas de viaje",
         "research": "Investigación Standard",
-        "journeys": "6 personas",
+        "journeys": "Todo el panel",
         "vfg": "—",
-        "total": "2 módulos"
+        "total": "1 proyecto"
+      },
+      {
+        "name": "Investigación + Focus Group",
+        "research": "Investigación Premium",
+        "journeys": "—",
+        "vfg": "1 sesión",
+        "total": "1 proyecto"
+      },
+      {
+        "name": "Focus groups sobre su panel",
+        "research": "Panel existente",
+        "journeys": "—",
+        "vfg": "2 sesiones",
+        "total": "1 proyecto"
+      },
+      {
+        "name": "Completo",
+        "research": "Investigación Standard",
+        "journeys": "Todo el panel",
+        "vfg": "1 sesión",
+        "total": "1 proyecto + 1 elemento adicional"
       }
     ],
-    "pricingNote": "Los operadores establecen su propio precio al cliente. Contáctenos para detalles del costo de plataforma.",
-    "whoTitle": "Construido para dos tipos de operadores",
+    "pricingNote": "Los consultores establecen su propio precio al cliente. Vea cuánto cuesta un proyecto en la página de precios.",
+    "whoTitle": "Construido para dos tipos de compradores",
     "whoAgenciesTitle": "Para Agencias y Consultoras",
     "whoAgenciesDesc": "Agrega una capa de inteligencia del consumidor estructurada a lo que vendes — sin construir un equipo de investigación interno. Ejecuta un módulo para un cliente de entrega rápida. Encadena los tres para un compromiso estratégico completo. White-label en todo.",
     "whoBrandsTitle": "Para Marcas y Equipos de Marketing",
@@ -2064,7 +2107,7 @@
       {
         "num": "7",
         "label": "DÍAS HÁBILES",
-        "sub": "los operadores suelen entregar en (incl. Market Research)"
+        "sub": "plazo habitual de entrega (incl. Market Research)"
       },
       {
         "num": "6",
@@ -2135,7 +2178,7 @@
     "pricingSub": "Selecciona cualquier número de personas de tu panel. Sin mínimo.",
     "pricingIncludes": "Toma de Requerimientos de Puntos de Contacto de Marca (formulario guiado, ~15 min) · Generación de viaje completo · Panel de Control de Visión General del Embudo · Tarjetas de Viaje por Persona · Análisis de Brechas con Puntuaciones de Severidad · Resumen ejecutivo · Exportación PDF white-label · Historial de versiones",
     "pricingExamples": "Selecciona 6, 10 o las 20 personas de tu panel",
-    "pricingNote": "Los operadores establecen su propio precio al cliente. Contáctenos para detalles del costo de plataforma.",
+    "pricingNote": "Los consultores establecen su propio precio al cliente. Vea cuánto cuesta un proyecto en la página de precios.",
     "faqTitle": "Preguntas comunes",
     "faqs": [
       {
@@ -2161,236 +2204,12 @@
     ]
   },
   "foundingCohort": {
-    "heroLabel": "Cohorte de Operadores Fundadores · 10 Plazas · Solo por Aplicación",
-    "heroTitle1": "Construye una práctica de investigación.",
-    "heroTitle2": "A la mejor tarifa que jamás ofreceremos.",
-    "heroSub": "Genera inteligencia de decisiones white-label en la plataforma Soundcheck. Tú ejecutas la investigación. Tú defines el precio. Tú te quedas con todo lo que supere tu costo de plataforma. Los operadores fundadores fijan la tarifa más baja que jamás ofreceremos. De por vida.",
-    "chipSeats": "plazas disponibles",
-    "chipSetup": "tarifa de activación",
-    "chipRate": "Menor tarifa, fijada de por vida",
-    "heroCta": "Aplicar Ahora →",
-    "howLabel": "Cómo Funciona",
-    "howTitle": "Investigación self-serve. Tu marca. Tu precio.",
-    "howSteps": [
-      {
-        "num": "01",
-        "title": "Genera",
-        "desc": "Inicia sesión en la plataforma. Ejecuta el intake del cliente. Genera la base de investigación completa: Análisis de Mercado, Análisis del Consumidor, Panorama Competitivo, y un panel de personas basado en investigación. Resultado listo en menos de 24 horas."
-      },
-      {
-        "num": "02",
-        "title": "Aumenta",
-        "desc": "Revisa y valida con tu juicio profesional. Tu experiencia senior es lo que separa esto del output bruto de IA, y lo que justifica el precio que cobras a tu cliente. Aproximadamente 5 a 9 horas por proyecto."
-      },
-      {
-        "num": "03",
-        "title": "Entrega",
-        "desc": "White-label desde el momento en que se genera. Tu marca, tu portada, tu relación con el cliente. Soundcheck es la infraestructura. Tú eres el socio de inteligencia."
-      }
-    ],
-    "pricingLabel": "Precios del Operador Fundador",
-    "pricingTitle": "Tu costo por proyecto. Tú defines el precio al cliente.",
-    "pricingDesc": "Pagas una tarifa fija de plataforma por producto. Cobra a tu cliente lo que el proyecto valga. Quédate con la diferencia. Los Founding Operators comienzan con un proyecto de prueba gratuito y progresan a través de niveles con descuento durante un onboarding de cuatro semanas con guía personal de Valter.",
-    "benefits": [
-      {
-        "stat": "Gratis",
-        "title": "Tu primer proyecto",
-        "desc": "Tu primer proyecto es por nuestra cuenta. Prueba la plataforma con un proyecto real de cliente — costo cero, riesgo cero. Aprende todo el flujo de trabajo con la guía personal de Valter: intake, generación, validación y entrega."
-      },
-      {
-        "stat": "1/3 del estándar",
-        "title": "Tus próximos 2 proyectos",
-        "desc": "Tu costo de plataforma baja a un tercio de la tarifa estándar. Un GoGlobal Viability Analysis te cuesta $200 (sumado al costo del Market Research). Los operadores estándar pagan $600. Sin cuota de configuración."
-      },
-      {
-        "stat": "Mitad del estándar",
-        "title": "Resto del onboarding (4 semanas)",
-        "desc": "Después de tus primeros tres proyectos, tu costo pasa a la mitad de la tarifa estándar durante el resto de tu período de onboarding de 4 semanas. Este también es el momento de compartir feedback y reportar bugs para ayudarnos a mejorar la plataforma."
-      },
-      {
-        "stat": "20% menos que el estándar",
-        "title": "Después del onboarding, de por vida",
-        "desc": "Tu costo permanente de plataforma se fija en 20% menos que el estándar. No por un período de contrato. No hasta una revisión de precios. Esta tarifa se congela a los precios de hoy y nunca aumenta. Solo esta primera cohorte lo obtiene."
-      }
-    ],
-    "mathLabel": "Las Cuentas",
-    "mathTitle": "Cómo se ve un proyecto en dólares.",
-    "mathDesc": "Toma un proyecto típico: Market Research Standard + GoGlobal Viability Analysis. Generas la investigación en la plataforma. Cobras a tu cliente. Te quedas con todo lo que supere tu costo de plataforma.",
-    "mathTableHeader": "MR Standard + GoGlobal",
-    "mathColTest": "Prueba Inicial",
-    "mathColFounding": "Próximos 2 Proyectos",
-    "mathColOnboarding": "Onboarding (4 sem.)",
-    "mathColForLife": "Después del Onboarding",
-    "mathColStandard": "Estándar",
-    "mathRows": [
-      [
-        "Tu costo de plataforma",
-        "$0",
-        "$550",
-        "$825",
-        "$1.320",
-        "$1.650"
-      ],
-      [
-        "Tú cobras a tu cliente",
-        "$5.500+",
-        "$5.500+",
-        "$5.500+",
-        "$5.500+",
-        "$5.500+"
-      ],
-      [
-        "Tú te quedas con la diferencia",
-        "$5.500+",
-        "$4.950+",
-        "$4.675+",
-        "$4.180+",
-        "$3.850+"
-      ],
-      [
-        "Tu inversión de tiempo",
-        "~5 horas",
-        "~5 horas",
-        "~5 horas",
-        "~5 horas",
-        "~5 horas"
-      ]
-    ],
-    "mathEffectiveRate": "Tarifa por hora efectiva (~5h)",
-    "mathRateTest": "~$1.100/h",
-    "mathRateStandard": "~$770/hr",
-    "mathRateFounding": "~$990/hr",
-    "mathRateOnboarding": "~$935/h",
-    "mathRateForLife": "~$836/h",
-    "mathFootnote": "Primer proyecto gratis. Próximos 2 proyectos a 1/3 del costo estándar. Resto del onboarding (4 semanas) a mitad del estándar. Cada proyecto después del onboarding: 20% menos que el estándar, fijado de por vida. Tiempo del operador: ~1 hora de intake + ~4 horas de validación. La plataforma genera la base de investigación en menos de 24 horas.",
-    "whyLabel": "Por Qué Esta Cohorte",
-    "whyTitle": "Tres razones para aplicar ahora.",
-    "whyReasons": [
-      {
-        "stat": "FIJADO",
-        "title": "Precios de por vida, congelados hoy",
-        "desc": "Tu tarifa fundadora se congela al costo de plataforma de hoy. Las tarifas estándar aumentarán conforme la plataforma madure. Los operadores fundadores nunca ven esos aumentos. La tarifa que fijas hoy se mantiene para cada proyecto que entregues."
-      },
-      {
-        "stat": "1:1",
-        "title": "Acceso al fundador",
-        "desc": "Acceso directo a Valter Klug, quien entregó 20+ proyectos como Operador Cero antes de abrir la plataforma. Soporte personalizado en tus primeros dos proyectos. Grupo de pares de la cohorte."
-      },
-      {
-        "stat": "PRIMERO",
-        "title": "Estatus de primer movedor",
-        "desc": "Credencial de Operador Fundador. Estás en la primera cohorte de una plataforma construida para escalar. Los primeros operadores dan forma a la metodología y la comunidad."
-      }
-    ],
-    "toolkitLabel": "Tu Kit de Productos",
-    "toolkitTitle": "Seis productos. Tú generas. Tú pones el precio. Tú entregas.",
-    "toolkitDesc": "Cada proyecto comienza con Market Research como base. Agrega módulos según las necesidades de tu cliente. Generas la investigación en la plataforma, la validas con tu expertise y entregas con tu marca. Estos son tus costos de plataforma como Founding Operator después del período de onboarding — fijados en 20% menos que el estándar, de por vida.",
-    "toolkitItems": [
-      {
-        "label": "Base",
-        "name": "Market Research",
-        "cost": "Tu costo: $720 – $960",
-        "sells": "Clientes pagan $3,000 – $4,000+",
-        "color": "#94A3B8"
-      },
-      {
-        "label": "Módulo",
-        "name": "GoGlobal",
-        "cost": "Tu costo: $480",
-        "sells": "Clientes pagan $2,000+",
-        "color": "#2DD4BF"
-      },
-      {
-        "label": "Módulo",
-        "name": "Scale Assessment",
-        "cost": "Tu costo: $960",
-        "sells": "Clientes pagan $4,000+",
-        "color": "#FF6B47"
-      },
-      {
-        "label": "Módulo",
-        "name": "Customer Journey",
-        "cost": "Tu costo: $120/persona",
-        "sells": "Clientes pagan $500+/persona",
-        "color": "#A78BFA"
-      },
-      {
-        "label": "Módulo",
-        "name": "Virtual Focus Group",
-        "cost": "Tu costo: $720",
-        "sells": "Clientes pagan $3,000+",
-        "color": "#FBBF24"
-      },
-      {
-        "label": "Add-on",
-        "name": "Monthly Updates",
-        "cost": "Tu costo: $200/mes por proyecto",
-        "sells": "Clientes pagan $500+/mes",
-        "color": "#38BDF8"
-      }
-    ],
-    "toolkitTypical": "Compromiso típico: $5,000–$12,000 precio al cliente. Tu costo de plataforma: $1,200–$2,760. Tú conservas la diferencia.",
-    "profileLabel": "Para Quién Es",
-    "profileTitle": "Podrías ser un Operador Fundador si...",
-    "profileItems": [
-      "Diriges una agencia boutique (1-20 personas), una consultoría estratégica independiente, o una práctica de CMO/CSO/CGO fraccional",
-      "Tienes 10-25 años de experiencia senior en branding, estrategia o marketing",
-      "Actualmente atiendes 3-8 clientes activos que regularmente enfrentan decisiones estratégicas sobre mercados, posicionamiento o crecimiento",
-      "Tus clientes hacen preguntas de investigación que no puedes responder con credibilidad sin herramientas que no tienes",
-      "Has perdido RFPs ante firmas más grandes con departamentos de investigación, o simplemente omitiste la investigación",
-      "Formas parte de (o estás cerca de) Pavilion, Mana Tech, o comunidades de agencias boutique"
-    ],
-    "selectionLabel": "Criterios de Selección",
-    "selectionTitle": "Lo que buscamos.",
-    "selectionItems": [
-      "Clientes en tu pipeline que se beneficiarían de inteligencia de decisiones. Tienes un proyecto real en mente, no uno teórico",
-      "Afinidad metodológica. Piensas estratégicamente, no solo en ejecución. Te sientes cómodo validando investigación y agregando juicio profesional",
-      "Disposición para entregar con calidad. La metodología de Soundcheck tiene estándares, y tú los mantendrás",
-      "Ambición de construir una práctica de investigación recurrente, no solo ejecutar un proyecto único"
-    ],
-    "faqLabel": "Preguntas Frecuentes",
-    "faqTitle": "Antes de aplicar.",
-    "faqItems": [
-      {
-        "q": "¿Necesito pagar algo por adelantado?",
-        "a": "No. No hay cuota de configuración, y tu primer proyecto es completamente gratis. Después de eso, pagas solo el costo de plataforma por producto, por proyecto, cuando entregas. Sin suscripción, sin compromiso mínimo, sin inversión inicial."
-      },
-      {
-        "q": "¿Qué significa realmente 'de por vida'?",
-        "a": "Tu tarifa fundadora se congela al precio estándar de hoy y se fija permanentemente después del onboarding. No por un plazo de contrato. No hasta una revisión de precios. Cuando las tarifas estándar aumenten en el futuro, tu costo de plataforma se mantiene igual. Solo esta primera cohorte obtiene este bloqueo."
-      },
-      {
-        "q": "¿Qué pasa si no tengo un cliente listo ahora?",
-        "a": "Deberías tener uno en mente, aunque no esté confirmado aún. La Cohorte Fundadora está diseñada para operadores que entregarán su primer proyecto en 60-90 días. Si estás más en modo exploratorio, considera aplicar a una cohorte futura cuando tengas un proyecto real."
-      },
-      {
-        "q": "¿Mis clientes ven la marca de Soundcheck?",
-        "a": "No. Todo es white-label desde el momento en que se genera. Tu cliente ve tu marca, tu portada, el nombre de tu agencia en el entregable. Soundcheck es la infraestructura. Tú eres el socio de inteligencia."
-      },
-      {
-        "q": "¿Cuánto tiempo toma cada proyecto?",
-        "a": "Aproximadamente 6 a 10 horas de tu tiempo total. ~1 hora para el intake del cliente, y ~5 a 9 horas validando la investigación con tu juicio profesional. La plataforma genera la base de investigación completa en menos de 24 horas. El plazo de entrega de 2 semanas te da margen para manejar múltiples proyectos."
-      },
-      {
-        "q": "¿Qué tipo de soporte recibo?",
-        "a": "Acceso directo a Valter Klug (fundador, Operator Zero) durante todo tu onboarding de cuatro semanas. Eso significa demos personales, guía práctica en intake, validación y entrega, y soporte dedicado. Más acceso al grupo de pares de la cohorte. La fase de onboarding también es tu momento para compartir feedback y reportar bugs."
-      },
-      {
-        "q": "¿Puedo poner mi propio precio?",
-        "a": "Sí. Cobras a tu cliente lo que el trabajo vale. Tu costo de plataforma es fijo por producto. Todo lo que supere ese costo es tuyo. Muchos operadores agregan un markup estratégico o empaquetan los entregables de Soundcheck en proyectos más grandes."
-      },
-      {
-        "q": "¿En qué se diferencia de la tarifa estándar?",
-        "a": "Los operadores estándar pagan el costo completo de plataforma por producto. Los Operadores Fundadores aseguran tarifas Practice (20% de descuento sobre Estándar) sin cuota trimestral, de por vida. El Cohort Fundador también incluye un primer proyecto gratuito, acceso al fundador, demos personales y soporte de onboarding dedicado."
-      }
-    ],
-    "formLabel": "Aplicar Ahora",
-    "formTitle": "Aplicación a la Cohorte de Operadores Fundadores",
-    "formDesc": "10 plazas. Revisamos cada aplicación personalmente. Si tienes clientes que necesitan inteligencia de decisiones y estás listo para entregar, cuéntanos sobre tu práctica.",
-    "formButton": "Enviar Aplicación →",
-    "ctaTitle": "10 plazas. Esta tarifa no se repetirá.",
-    "ctaSub": "La Founding Operator Cohort es una oferta única. Primer proyecto gratis. Fija 20% menos que el estándar de por vida. Cuatro semanas de onboarding personal con Valter. Una vez que los 10 asientos se llenen, la próxima cohorte comienza a tarifas estándar.",
-    "ctaButton": "Aplicar Ahora →"
+    "heroLabel": "Cohorte Fundadora",
+    "heroTitle": "La Cohorte Fundadora está completa.",
+    "heroSub": "Gracias a los consultores que se sumaron primero y ayudaron a dar forma a la plataforma. Los nuevos socios se suman con los planes estándar: Pago por proyecto, Suscripción o Enterprise.",
+    "pricingLink": "Ver precios →",
+    "consultantsLink": "Para consultores →",
+    "contactLink": "Hable con nosotros"
   },
   "partnerships": {
     "heroLabel": "Para Organizaciones Comerciales, Cámaras y Aceleradoras",
@@ -2444,7 +2263,7 @@
     "pathsTitle": "Elija el camino que se ajusta a cómo opera su organización.",
     "path1Label": "Tarifa para Miembros",
     "path1Title": "Nosotros lo hacemos. 25% de descuento para sus miembros.",
-    "path1Desc": "Sus miembros obtienen precios preferenciales en cualquier proyecto de Soundcheck. La investigación es entregada por un operador experimentado. Su organización no asume ningún compromiso operativo. Usted agrega un beneficio de alto valor para sus miembros sin esfuerzo adicional.",
+    "path1Desc": "Sus miembros obtienen precios preferenciales en cualquier proyecto de Soundcheck. La investigación la entrega un consultor experimentado de nuestra red. Su organización no asume ningún compromiso operativo. Usted agrega un beneficio de alto valor para sus miembros sin esfuerzo adicional.",
     "path1Stats": [
       {
         "value": "25%",
@@ -2466,13 +2285,13 @@
       "Redes que quieren agregar valor sin agregar operaciones",
       "Organizaciones que no tienen brazos de consultoría o investigación"
     ],
-    "path2Label": "Acceso a la Plataforma",
-    "path2Title": "Opérelo usted mismo. 20% de descuento de por vida.",
-    "path2Desc": "Su organización obtiene acceso a la plataforma Soundcheck como operador. White-label bajo su marca. Ejecute la toma de requerimientos con la experiencia de su equipo, valide con su conocimiento de mercado, entregue bajo su nombre. La tarifa queda fijada en 20% por debajo del estándar mientras opere.",
+    "path2Label": "Enterprise",
+    "path2Title": "Hágalo usted mismo. Un contrato anual diseñado para usted.",
+    "path2Desc": "Su organización usa la plataforma Soundcheck directamente, en white-label bajo su marca. Su equipo realiza la toma de requerimientos, valida con su conocimiento de mercado y entrega bajo su nombre. Enterprise es un contrato anual diseñado para cada organización, con términos acordados caso por caso.",
     "path2Stats": [
       {
-        "value": "20%",
-        "label": "de descuento fijado de por vida"
+        "value": "Anual",
+        "label": "contrato, diseñado para su organización"
       },
       {
         "value": "100%",
@@ -2520,15 +2339,15 @@
       },
       {
         "level": "05",
-        "name": "Empresarial",
-        "desc": "Una instancia dedicada de la plataforma para su organización, con volumen anual, configuración personalizada y acceso a nivel de miembros.",
+        "name": "Enterprise",
+        "desc": "Un contrato anual para su organización: proyectos que usa cuando los necesita, puestos de usuario para todo el equipo, onboarding y capacitación, y soporte prioritario.",
         "fit": "Grandes organizaciones gremiales y cámaras multinacionales"
       }
     ],
     "levelsNote": "La mayoría de las asociaciones comienzan en el Nivel 1 o 2. La plataforma está diseñada para crecer con usted.",
     "productsLabel": "Lo Que Reciben Sus Miembros",
     "productsTitle": "Seis productos de investigación a tarifas para miembros.",
-    "productsSub": "Todo proyecto comienza con Market Research. Los otros cinco productos se construyen sobre él. Los precios mostrados reflejan el 25% de descuento para miembros sobre el precio de lista.",
+    "productsSub": "Market Research es la base. Los otros cuatro productos se construyen sobre él. Los miembros obtienen 25% de descuento sobre el precio sugerido de cada producto.",
     "products": [
       {
         "num": "01",
@@ -2540,25 +2359,25 @@
         "num": "02",
         "name": "GoGlobal Viability Analysis",
         "desc": "CVE Score, panorama competitivo, resumen regulatorio, mapa de distribución y hoja de ruta de entrada por fases.",
-        "price": "Complemento de Market Research · tarifa de miembro"
+        "price": "Se basa en Market Research · tarifa de miembro"
       },
       {
         "num": "03",
         "name": "Scale Assessment",
         "desc": "Diagnóstico de escala, posición competitiva, preparación operativa y plan de 24 meses con puertas de go/no-go.",
-        "price": "Complemento de Market Research · tarifa de miembro"
+        "price": "Se basa en Market Research · tarifa de miembro"
       },
       {
         "num": "04",
         "name": "Customer Journey Maps",
         "desc": "Mapas de viaje por persona desde el awareness hasta la advocacy, con análisis de fricción y oportunidad.",
-        "price": "Precio por persona · Complemento de Market Research · tarifa de miembro"
+        "price": "Por persona · funciona sobre un panel de personas · tarifa de miembro"
       },
       {
         "num": "05",
         "name": "Virtual Focus Groups",
         "desc": "Prueba de concepto con IA contra un panel de personas basado en investigación. Tres rondas de feedback por sesión.",
-        "price": "Precio por sesión · Complemento de Market Research · tarifa de miembro"
+        "price": "Por sesión · funciona sobre un panel de personas · tarifa de miembro"
       }
     ],
     "whoLabel": "Para Quién Es",
@@ -2617,20 +2436,20 @@
       {
         "num": "02",
         "title": "Los miembros participan directamente",
-        "desc": "Cuando un miembro necesita inteligencia de decisiones, se conecta a través de Soundcheck o un operador asignado. Su organización hace la presentación."
+        "desc": "Cuando un miembro necesita inteligencia de decisiones, se conecta a través de Soundcheck o de un consultor asignado. Su organización hace la presentación."
       },
       {
         "num": "03",
         "title": "Se entrega la investigación",
-        "desc": "El operador ejecuta el intake, la plataforma genera el informe, el operador valida y entrega. Su miembro recibe inteligencia de nivel decisorio a una tarifa preferencial."
+        "desc": "El consultor realiza el intake, la plataforma genera el informe y el consultor valida y entrega. Su miembro recibe inteligencia de nivel decisorio a una tarifa preferencial."
       }
     ],
-    "howPath2Title": "Camino de Acceso a la Plataforma",
+    "howPath2Title": "Camino Enterprise",
     "howPath2Steps": [
       {
         "num": "01",
         "title": "Su equipo recibe capacitación",
-        "desc": "Valter guía a su equipo a través del flujo de trabajo completo de la plataforma. Aprenden la toma de requerimientos, validación y entrega."
+        "desc": "El onboarding y la capacitación del equipo forman parte de cada contrato Enterprise. Su equipo aprende la toma de requerimientos, la validación y la entrega."
       },
       {
         "num": "02",
@@ -2736,7 +2555,7 @@
       { "label": "Puertas duras que las puntuaciones no pueden anular", "values": [false, false, true] },
       { "label": "Auditoría independiente entre modelos de IA", "values": [false, false, true] },
       { "label": "Reparación automatizada y re-verificación", "values": [false, false, true] },
-      { "label": "Puerta de liberación Operator Ready", "values": [false, false, true] },
+      { "label": "Nada se entrega con un problema conocido", "values": [false, false, true] },
       { "label": "Arquitectura actual vs. optimizada", "values": [false, false, true] },
       { "label": "Estratega senior valida cada hallazgo", "values": [false, true, true] },
       { "label": "White-label, entregado bajo su marca", "values": [false, false, true] },
@@ -2746,7 +2565,7 @@
     "footer": "El punto no es ser más rápido o más barato. Es ser la única opción que entrega las tres cosas:"
   },
   "livingIntelligence": {
-    "heroLabel": "Suscripción Mensual Complementaria",
+    "heroLabel": "Complemento Mensual",
     "heroTitle": "Tu investigación no caduca.",
     "heroSub": "Living Intelligence mantiene tu panorama de mercado actualizado con informes mensuales sobre qué cambió y qué significa.",
     "cta": "Habla con Nosotros",
@@ -2803,7 +2622,7 @@
       ]
     },
     "forAgencies": {
-      "label": "Para Agencias y Operadores",
+      "label": "Para Agencias y Consultores",
       "title": "Convierte proyectos únicos en relaciones continuas.",
       "desc": "Living Intelligence te da una razón para seguir comprometido después de la entrega. Las actualizaciones mensuales mantienen informados a tus clientes y activa tu relación de asesoría.",
       "items": [
@@ -2838,5 +2657,259 @@
     "title": "Vea un informe de muestra.",
     "desc": "Estas muestras fueron generadas para empresas ficticias para demostrar la profundidad y calidad del output de Soundcheck.",
     "viewAll": "Ver todas las muestras →"
+  },
+  "pricing": {
+    "heroLabel": "Precios",
+    "heroTitle": "Un precio por proyecto.",
+    "heroSub": "Tres planes. Todos los planes incluyen todos los productos, en white-label bajo su marca. Usted define lo que paga su cliente.",
+    "introBadge": "Precio de lanzamiento",
+    "plans": [
+      {
+        "name": "Pago por proyecto",
+        "price": "US$1.190",
+        "per": "por proyecto",
+        "fit": "Para proyectos de vez en cuando.",
+        "items": [
+          "Un proyecto: una marca de cliente, hasta dos elementos",
+          "Se paga al abrir el proyecto, nada entre proyectos",
+          "Elemento adicional: US$490",
+          "Todos los productos, con white-label en todo"
+        ],
+        "cta": "Comenzar →"
+      },
+      {
+        "name": "Suscripción",
+        "price": "US$990",
+        "per": "por mes",
+        "regular": "Precio regular US$1.490",
+        "fit": "Para un proyecto al mes o más.",
+        "items": [
+          "2 proyectos al mes, hasta dos elementos cada uno",
+          "Proyectos adicionales a US$990 cada uno",
+          "Living Intelligence incluido en 1 proyecto",
+          "4 puestos de usuario",
+          "Mínimo de tres meses; luego puede cancelar al final de cualquier mes",
+          "Opción anual: pague 11 meses, el mes 12 es gratis"
+        ],
+        "note": "Suscríbase al precio de lanzamiento y lo conserva mientras mantenga su suscripción.",
+        "cta": "Comenzar →"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Caso por caso",
+        "per": "contrato anual",
+        "fit": "Para organizaciones con un equipo y un presupuesto anual: agencias más grandes, cámaras de comercio, asociaciones gremiales, organismos gubernamentales.",
+        "items": [
+          "Un contrato anual diseñado para su organización",
+          "Proyectos que usa cuando los necesita",
+          "Puestos de usuario para todo el equipo",
+          "Onboarding y capacitación del equipo",
+          "Soporte prioritario"
+        ],
+        "cta": "Hable con Nosotros →"
+      }
+    ],
+    "projectLabel": "Qué es un proyecto",
+    "projectTitle": "Una marca de cliente, hasta dos elementos.",
+    "projectDesc": "Un elemento es un Market Research, un GoGlobal, un Scale, los Mapas de Viaje del Cliente sobre el panel o una sesión de focus group. Usted los elige al abrir el proyecto.",
+    "examplesHead": [
+      "Lo que ejecuta",
+      "Se cobra como"
+    ],
+    "examples": [
+      [
+        "Market Research + GoGlobal (entrada a un nuevo mercado)",
+        "1 proyecto"
+      ],
+      [
+        "Market Research + Scale (crecimiento en el mercado actual)",
+        "1 proyecto"
+      ],
+      [
+        "Market Research + un focus group",
+        "1 proyecto"
+      ],
+      [
+        "Market Research + Mapas de Viaje del Cliente para todo el panel",
+        "1 proyecto"
+      ],
+      [
+        "Dos sesiones de focus group sobre un panel de personas que ya tiene",
+        "1 proyecto"
+      ],
+      [
+        "Un tercer elemento para la misma marca",
+        "1 proyecto + US$490"
+      ]
+    ],
+    "projectNotes": [
+      "GoGlobal y Scale requieren cada uno un Market Research de su mercado en el mismo proyecto. Ambos pueden compartir un proyecto.",
+      "Los focus groups y los Mapas de Viaje del Cliente pueden ejecutarse sobre un panel de personas que usted ya tiene, de un proyecto anterior o escrito a mano.",
+      "Mini (6 personas), Standard (12) o Premium (20): el tamaño del panel cambia la profundidad, nunca el precio.",
+      "Los ajustes, regeneraciones, ediciones de personas, dashboards, enlaces para compartir y exportaciones son ilimitados dentro de un proyecto."
+    ],
+    "extrasLabel": "Extras",
+    "extrasTitle": "Agregue solo lo que necesita.",
+    "extras": [
+      {
+        "name": "Elemento adicional",
+        "price": "US$490",
+        "desc": "Cualquier plan. Un tercer elemento en un proyecto, o un focus group que se agrega después."
+      },
+      {
+        "name": "Living Intelligence",
+        "price": "US$190 / mes",
+        "desc": "Actualizaciones mensuales sobre un proyecto entregado. Por proyecto, mínimo de tres meses."
+      },
+      {
+        "name": "Onboarding personal",
+        "price": "US$790, pago único",
+        "desc": "Opcional. Tres llamadas de 60 minutos: configuración y su primer brief, un primer proyecto real guiado y una revisión antes de que llegue a su cliente. Incluido en Enterprise."
+      },
+      {
+        "name": "Academy y videos de ayuda",
+        "price": "Gratis",
+        "desc": "La Soundcheck Academy, un video corto junto a cada función y soporte por email y WhatsApp, en todos los planes."
+      }
+    ],
+    "resaleLabel": "Lo que puede cobrar",
+    "resaleTitle": "Precios sugeridos al cliente.",
+    "resaleDesc": "Una guía de lo que paga su cliente. Usted define el precio y conserva todo lo que supere su costo.",
+    "resaleRows": [
+      [
+        "Market Research",
+        "US$3.000 / US$3.750 / US$4.500 (Mini / Standard / Premium)"
+      ],
+      [
+        "GoGlobal",
+        "+US$2.000"
+      ],
+      [
+        "Scale",
+        "+US$2.000"
+      ],
+      [
+        "Mapas de Viaje del Cliente",
+        "US$500 por persona"
+      ],
+      [
+        "Focus Group Virtual",
+        "US$2.000 por sesión"
+      ],
+      [
+        "Living Intelligence",
+        "US$1.000 por mes"
+      ]
+    ],
+    "exampleTitle": "Ejemplo práctico · Market Research (Standard) + GoGlobal",
+    "exampleRows": [
+      [
+        "Su cliente paga",
+        "US$5.750"
+      ],
+      [
+        "Su costo, con Pago por proyecto",
+        "US$1.190"
+      ],
+      [
+        "Usted conserva",
+        "US$4.560"
+      ],
+      [
+        "Su costo con la Suscripción",
+        "US$495"
+      ]
+    ],
+    "ctaTitle": "¿No está seguro de qué plan le conviene?",
+    "ctaSub": "Díganos cuántos proyectos espera y le diremos con honestidad qué plan cuesta menos.",
+    "ctaButton": "Hable con Nosotros →"
+  },
+  "planCalculator": {
+    "label": "Calculadora de planes",
+    "title": "¿Pago por proyecto o <em>suscripción?</em>",
+    "lead": "Cuéntenos cómo espera usar Soundcheck en los próximos doce meses. La calculadora pone precio a cada opción según su ritmo y le indica la más económica. Precios en dólares estadounidenses.",
+    "volQ": "¿Cuántos proyectos espera realizar al año?",
+    "volSub": "{count, plural, one {proyecto} other {proyectos}} al año · {pace}",
+    "paceMonthly": "unos {n} al mes",
+    "paceOneAMonth": "alrededor de 1 al mes",
+    "paceEvery": "alrededor de 1 cada {n} meses",
+    "volHint": "Un proyecto es una marca cliente con hasta dos elementos: por ejemplo, una Investigación de Mercado más un GoGlobal, o dos focus groups sobre un panel de personas que usted ya tiene.",
+    "evenQ": "¿Qué tan pareja es su demanda mes a mes?",
+    "evenSteady": "Constante",
+    "evenSeasonal": "Estacional",
+    "evenBursts": "Por picos",
+    "evenSub": "los proyectos caen en unos {n} de los 12 meses",
+    "evenScale": [
+      "Por picos",
+      "Estacional",
+      "Igual cada mes"
+    ],
+    "liQ": "¿Cuántos proyectos entregados mantendrá con Living Intelligence?",
+    "liSubNone": "opcional · actualizaciones mensuales de un proyecto",
+    "liSub": "proyectos actualizados cada mes · {price} cada uno al mes",
+    "optionsQ": "Opciones",
+    "annualTitle": "Mostrar el pago anual anticipado",
+    "annualDesc": "Pague 11 meses por adelantado, el 12.º es gratis y los proyectos no usados se acumulan durante los 12 meses",
+    "regularTitle": "Usar el precio regular de la Suscripción",
+    "regularDesc": "{regular} al mes en lugar del precio de lanzamiento de {intro}",
+    "optionsHint": "Si se suscribe al precio de lanzamiento, lo conserva mientras siga suscrito.",
+    "suggestion": "Nuestra sugerencia",
+    "compareTitle": "Costo a doce meses por opción",
+    "compareSub": "Todo lo que pagaría en un año por {count, plural, one {# proyecto} other {# proyectos}}{li, plural, =0 {} one { y # con Living Intelligence} other { y # con Living Intelligence}}.",
+    "chartTitle": "Su año, mes a mes",
+    "chartSub": "Una forma en que {n} proyectos podrían repartirse en su año. Las barras más claras son proyectos que superan lo que la Suscripción incluye ese mes.",
+    "chartLegend": "La Suscripción incluye 2 al mes",
+    "chartAria": "Proyectos por mes frente a lo que incluye la Suscripción",
+    "months": [
+      "Ene",
+      "Feb",
+      "Mar",
+      "Abr",
+      "May",
+      "Jun",
+      "Jul",
+      "Ago",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dic"
+    ],
+    "optPayg": "Pago por proyecto",
+    "optPaygNote": "{price} por proyecto",
+    "optSub": "Suscripción, mensual",
+    "optSubNote": "{fee} al mes · 2 proyectos",
+    "optSubNoteIntro": "<s>{regular}</s> {fee} al mes · 2 proyectos",
+    "optSubA": "Suscripción, pago anual anticipado",
+    "optSubANote": "{upfront} por adelantado · 24 proyectos acumulados",
+    "perProject": "{price} por proyecto",
+    "extras": "{count, plural, one {# proyecto adicional} other {# proyectos adicionales}} a {price}",
+    "unusedExpire": "{count, plural, one {# proyecto incluido vence sin usar} other {# proyectos incluidos vencen sin usar}}",
+    "unusedLeft": "{count, plural, one {# proyecto incluido queda sin usar} other {# proyectos incluidos quedan sin usar}}",
+    "perMonthAvg": "{price} / mes en promedio",
+    "ourPick": "Recomendado",
+    "recPaygHead": "Elija <em>pago por proyecto</em>.",
+    "recPaygBody": "Con {n} proyectos al año, pagar por proyecto cuesta {gap} menos que la siguiente mejor opción, {next}. Solo paga cuando empieza un proyecto con un cliente, y los meses tranquilos no cuestan nada.",
+    "recCloseBody": "{best} le ahorraría {save} al año, menos del 8% del total. Es demasiado poco para comprometerse con un plan: el pago por proyecto le deja bajar el ritmo sin pagar proyectos que no realiza. Revíselo cuando su volumen esté más claro.",
+    "recSubHead": "Elija <em>la Suscripción</em>.",
+    "recSubAHead": "Elija <em>la Suscripción con pago anual</em>.",
+    "recSubSave": "Le ahorra {save} al año frente al pago por proyecto ({pct}% menos).",
+    "recSubAOnly": "Con facturación mensual, un plan le costaría más que pagar por proyecto, porque los meses intensos superan lo incluido y en los tranquilos lo incluido vence. Pagar el año por adelantado acumula 24 proyectos durante los doce meses, así los meses tranquilos financian los intensos. Si prefiere no pagar por adelantado, quédese con el pago por proyecto.",
+    "recSubABoth": "Pagar el año por adelantado hace gratis el 12.º mes ({fee}). Con facturación mensual, la Suscripción igual le ahorra {monthlySave} frente al pago por proyecto.",
+    "recPool": "Acumular lo incluido también permite que los meses tranquilos cubran los intensos (otros {pool}).",
+    "recUnused": "Le quedarían unos {count, plural, one {# proyecto incluido} other {# proyectos incluidos}} sin usar en el año; aun así sale ganando.",
+    "recFull": "Su volumen usa todo lo incluido cada mes.",
+    "chipTotal": "<b>{price}</b> en 12 meses",
+    "chipPerProject": "<b>{price}</b> por proyecto",
+    "chipUpfront": "<b>{price}</b> por adelantado",
+    "chipLocked": "<b>{price}</b> al mes, fijo mientras siga suscrito",
+    "chipTerm12": "Plazo de <b>12 meses</b>",
+    "chipMin3": "Mínimo de <b>3 meses</b>",
+    "chipEnterprise": "<b>¿Más de 36 al año o más de 4 personas?</b> Consulte por Enterprise",
+    "note": "Precios estándar. Un tercer elemento en un proyecto (US$490) y el onboarding personal opcional (US$790) cuestan lo mismo en ambos planes, así que no cambian cuál es más económico. Enterprise se arma caso por caso, por eso no tiene precio aquí.",
+    "money": {
+      "prefix": "US$",
+      "sep": ".",
+      "decimal": ","
+    }
   }
 }

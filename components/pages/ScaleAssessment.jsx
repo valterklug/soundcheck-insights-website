@@ -168,21 +168,6 @@ export default function ScaleAssessment() {
         <style>{"@media(max-width:900px){.grid-2{grid-template-columns:1fr!important}}"}</style>
       </section>
 
-      {/* Introductory Pricing Callout */}
-      <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
-        <div style={{ maxWidth: 800, margin: '0 auto', textAlign: 'center' }}>
-          <FadeIn>
-            <span className="sc-label">{t('scaleAssessment.introLabel')}</span>
-            <h2 style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 'clamp(1.5rem,3vw,2.2rem)', fontWeight: 300, letterSpacing: '-.015em', marginBottom: 24, lineHeight: 1.1 }}>
-              {t('scaleAssessment.introTitle')}
-            </h2>
-            <p style={{ fontFamily: 'Inter, sans-serif', fontSize: '0.9375rem', color: 'rgba(255,255,255,0.5)', lineHeight: 1.75, marginBottom: 32 }}>
-              {t('scaleAssessment.introSub')}
-            </p>
-          </FadeIn>
-        </div>
-      </section>
-
       {/* Deliverables */}
       <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
         <div style={{ maxWidth: 1200, margin: '0 auto' }}>

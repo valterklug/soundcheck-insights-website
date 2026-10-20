@@ -200,9 +200,9 @@ export default function ContactForm({ dark = false, fields = 'contact', buttonLa
             <label className={labelClass}>Partnership model you&apos;re interested in</label>
             <select className={fieldClass} style={dark ? { color: 'rgba(255,255,255,0.7)' } : {}} {...register('partnershipModel')}>
               <option value="">Select one</option>
-              <option>On-Demand (per project)</option>
-              <option>White-Label Partner (monthly)</option>
-              <option>Embedded Intelligence (custom)</option>
+              <option>Pay as you go (per project)</option>
+              <option>Subscription (monthly)</option>
+              <option>Enterprise (annual contract)</option>
               <option>Not sure - let&apos;s talk</option>
             </select>
           </div>

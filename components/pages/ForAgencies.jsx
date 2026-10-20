@@ -60,6 +60,7 @@ export default function ForAgencies() {
               </div>
             ))}
             <p style={{fontFamily:"Inter,sans-serif",fontSize:11,color:"rgba(255,255,255,0.3)",lineHeight:1.6,marginTop:12}}>{t('forAgencies.economicsNote')}</p>
+            <Link href="/pricing" className="text-link" style={{marginTop:4}}>{t('forAgencies.seePricing')}</Link>
 
             {/* Five partnership levels */}
             <div style={{marginTop:36}}>

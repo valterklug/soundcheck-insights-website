@@ -26,6 +26,7 @@ export default function Nav() {
   const links = [
     { label: t('products'), to: '/products' },
     { label: t('forConsultants'), to: '/for-consultants' },
+    { label: t('pricing'), to: '/pricing' },
     { label: t('forBrands'), to: '/for-brands' },
     { label: t('partnerWithUs'), to: '/partner' },
     { label: t('partnerships'), to: '/partnerships' },
