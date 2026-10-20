@@ -4,8 +4,12 @@ import { useTranslations } from 'next-intl'
 import { FadeIn } from '@/components/Animate'
 import FilmPlayer from '@/components/FilmPlayer'
 
-export default function PlatformFilm() {
-  const t = useTranslations('platformFilm')
+export default function PlatformFilm({
+  namespace = 'platformFilm',
+  src = '/videos/soundcheck-platform-film.mp4',
+  poster = '/videos/soundcheck-platform-film-poster.jpg',
+}) {
+  const t = useTranslations(namespace)
 
   return (
     <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
@@ -23,8 +27,8 @@ export default function PlatformFilm() {
         </FadeIn>
         <FadeIn>
           <FilmPlayer
-            src="/videos/soundcheck-platform-film.mp4"
-            poster="/videos/soundcheck-platform-film-poster.jpg"
+            src={src}
+            poster={poster}
             playLabel={t('play')}
             duration={t('duration')}
           />

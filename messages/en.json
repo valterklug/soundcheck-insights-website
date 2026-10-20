@@ -661,7 +661,14 @@
     },
     "ctaTitle": "Not sure which path is right?",
     "ctaSub": "Tell us the decision in front of you. We will recommend the right approach.",
-    "ctaButton": "Talk to Us →"
+    "ctaButton": "Talk to Us →",
+    "film": {
+      "label": "See it in two minutes",
+      "title": "Research, personas and tests, ready when your team needs them.",
+      "desc": "One briefing call becomes market research, a persona panel and virtual focus groups, with GoGlobal and Scale when the decision is bigger. On the Enterprise plan, the whole team works under one annual contract. Film in Portuguese.",
+      "play": "Watch the film",
+      "duration": "2:07"
+    }
   },
   "products": {
     "heroLabel": "Research Products",

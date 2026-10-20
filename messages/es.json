@@ -617,36 +617,42 @@
     "productsSub": "Cada engagement comienza con Market Research. Agregue lo que necesite.",
     "products": [
       {
+        "id": "market-research",
         "name": "Market Research",
         "question": "¿Quién está comprando esto, y quién más lo está vendiendo?",
         "desc": "Análisis de mercado, panorama competitivo e insights del consumidor. La base de cada engagement.",
         "link": "/market-research"
       },
       {
+        "id": "goglobal",
         "name": "GoGlobal Viability Analysis",
         "question": "¿Deberíamos entrar a este mercado, y cómo?",
         "desc": "Evaluación de viabilidad de expansión con Score CVE propietario y tres caminos estratégicos.",
         "link": "/expansion-report"
       },
       {
+        "id": "scale",
         "name": "Scale Assessment",
         "question": "¿Por qué no estamos creciendo, y qué cambiamos?",
         "desc": "Auditoría de preparación estructural con Score SRS y plan de crecimiento de 24 meses.",
         "link": "/scale-assessment"
       },
       {
+        "id": "customer-journey",
         "name": "Customer Journey",
         "question": "¿Dónde perdemos personas entre el interés y la compra?",
         "desc": "Mapas de recorrido por persona a través de seis etapas, desde el conocimiento hasta la promoción.",
         "link": "/consumer-journeys"
       },
       {
+        "id": "virtual-focus-group",
         "name": "Virtual Focus Group",
         "question": "¿Funcionará este nombre, precio o posicionamiento?",
         "desc": "Prueba de concepto con IA contra su panel de personas aprobadas. Reformulaciones ilimitadas incluidas.",
         "link": "/virtual-focus-groups"
       },
       {
+        "id": "living-intelligence",
         "name": "Living Intelligence",
         "question": "¿Qué cambió en nuestro mercado desde que miramos?",
         "desc": "Actualizaciones mensuales sobre mercado, competencia y regulación. Su investigación se mantiene actual.",
@@ -698,7 +704,14 @@
     "gridTitle": "Seis productos de investigación. Comience con la pregunta.",
     "gridLabel": "Qué Investigamos",
     "heroSecondary": "Envíe su brief",
-    "gridSub": "La mayoría de los proyectos comienzan con Market Research. Agregue lo que necesite."
+    "gridSub": "La mayoría de los proyectos comienzan con Market Research. Agregue lo que necesite.",
+    "film": {
+      "label": "Véalo en dos minutos",
+      "title": "Investigación, personas y pruebas, listas cuando su equipo las necesite.",
+      "desc": "Una llamada de briefing se convierte en investigación de mercado, un panel de personas y focus groups virtuales, con GoGlobal y Scale cuando la decisión es mayor. Con el plan Enterprise, todo el equipo trabaja bajo un solo contrato anual. Video en portugués.",
+      "play": "Ver el video",
+      "duration": "2:07"
+    }
   },
   "products": {
     "heroLabel": "Productos de Investigación",

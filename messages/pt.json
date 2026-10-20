@@ -672,36 +672,42 @@
     "productsSub": "Todo engagement começa com Market Research. Adicione o que precisar.",
     "products": [
       {
+        "id": "market-research",
         "name": "Market Research",
         "question": "Quem está comprando isso, e quem mais está vendendo?",
         "desc": "Análise de mercado, panorama competitivo e insights do consumidor. A base de cada engagement.",
         "link": "/market-research"
       },
       {
+        "id": "goglobal",
         "name": "GoGlobal Viability Analysis",
         "question": "Devemos entrar neste mercado, e como?",
         "desc": "Avaliação de viabilidade de expansão com Score CVE proprietário e três caminhos estratégicos.",
         "link": "/expansion-report"
       },
       {
+        "id": "scale",
         "name": "Scale Assessment",
         "question": "Por que não estamos crescendo, e o que mudamos?",
         "desc": "Auditoria de prontidão estrutural com Score SRS e plano de crescimento de 24 meses.",
         "link": "/scale-assessment"
       },
       {
+        "id": "customer-journey",
         "name": "Customer Journey",
         "question": "Onde perdemos pessoas entre o interesse e a compra?",
         "desc": "Mapas de jornada por persona através de seis etapas, do conhecimento à promoção.",
         "link": "/consumer-journeys"
       },
       {
+        "id": "virtual-focus-group",
         "name": "Virtual Focus Group",
         "question": "Esse nome, preço ou posicionamento vai funcionar?",
         "desc": "Teste de conceito com IA contra seu painel de personas aprovadas. Reformulações ilimitadas incluídas.",
         "link": "/virtual-focus-groups"
       },
       {
+        "id": "living-intelligence",
         "name": "Living Intelligence",
         "question": "O que mudou no nosso mercado desde que olhamos?",
         "desc": "Atualizações mensais sobre mercado, concorrência e regulação. Sua pesquisa se mantém atual.",
@@ -753,7 +759,14 @@
     },
     "gridTitle": "Seis produtos de pesquisa. Comece pela pergunta.",
     "gridLabel": "O Que Pesquisamos",
-    "heroSecondary": "Envie seu briefing"
+    "heroSecondary": "Envie seu briefing",
+    "film": {
+      "label": "Veja em dois minutos",
+      "title": "Pesquisa, personas e testes, prontos quando o seu time precisar.",
+      "desc": "Uma conversa de briefing vira pesquisa de mercado, painel de personas e focus groups virtuais, com GoGlobal e Scale quando a decisão é maior. No plano Enterprise, o time inteiro trabalha com um único contrato anual.",
+      "play": "Assistir ao vídeo",
+      "duration": "2:07"
+    }
   },
   "products": {
     "heroLabel": "Produtos de Pesquisa",

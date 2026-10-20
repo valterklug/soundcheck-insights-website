@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
+import PlatformFilm from '@/components/PlatformFilm'
 
 const productLinks = {
   'market-research': '/market-research',
@@ -63,6 +64,12 @@ export default function ForBrands() {
           </div>
         </div>
       </section>
+
+      <PlatformFilm
+        namespace="forBrands.film"
+        src="/videos/soundcheck-para-empresas.mp4"
+        poster="/videos/soundcheck-para-empresas-poster.jpg"
+      />
 
       {/* Two Paths */}
       <section style={{ background: 'var(--navy-2)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
