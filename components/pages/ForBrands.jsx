@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Link } from '@/i18n/navigation'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
 import PlatformFilm from '@/components/PlatformFilm'
 
@@ -18,6 +18,7 @@ const productLinks = {
 export default function ForBrands() {
   const t = useTranslations()
   const [formState, setFormState] = useState('idle')
+  const film = useLocale() === 'pt' ? 'soundcheck-para-empresas' : 'soundcheck-for-enterprise'
 
   const doneForYouItems = t.raw('forBrands.doneForYou.items')
   const enterpriseItems = t.raw('forBrands.enterprise.items')
@@ -67,8 +68,8 @@ export default function ForBrands() {
 
       <PlatformFilm
         namespace="forBrands.film"
-        src="/videos/soundcheck-para-empresas.mp4"
-        poster="/videos/soundcheck-para-empresas-poster.jpg"
+        src={`/videos/${film}.mp4`}
+        poster={`/videos/${film}-poster.jpg`}
       />
 
       {/* Two Paths */}

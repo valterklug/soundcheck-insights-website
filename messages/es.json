@@ -38,11 +38,11 @@
     "linkText": "Ver el anuncio"
   },
   "platformFilm": {
-    "label": "Véalo en tres minutos",
+    "label": "Véalo en menos de tres minutos",
     "title": "De la pregunta de su cliente a una respuesta puntuada y auditada.",
     "desc": "Usted define el proyecto. La IA construye la investigación, una segunda IA la audita y el resultado llega a su cliente con su marca. Video en inglés.",
     "play": "Ver el video",
-    "duration": "2:54"
+    "duration": "2:21"
   },
   "home": {
     "heroBadge": "Inteligencia de Decisiones con IA",
@@ -569,7 +569,14 @@
     "ctaTitle": "Mira la plataforma en acción.\nUna conversación es todo lo que necesitas.",
     "ctaSub": "Cuéntenos sobre su práctica y le mostraremos un proyecto real paso a paso. Sin compromiso, sin tarifa de configuración. Si encaja, encontraremos juntos el plan adecuado.",
     "ctaButton": "Habla con Nosotros →",
-    "seePricing": "Ver precios →"
+    "seePricing": "Ver precios →",
+    "film": {
+      "label": "Véalo en menos de dos minutos",
+      "title": "Investigación y pruebas de concepto dentro de su agencia.",
+      "desc": "Usted entrevista a su cliente en una llamada de una hora. Luego vienen la investigación de mercado, las personas y los focus groups virtuales, y todo sale con la marca de su agencia. Usted fija el precio y se queda con el margen. Video en inglés.",
+      "play": "Ver el video",
+      "duration": "1:45"
+    }
   },
   "forBrands": {
     "heroLabel": "Para Marcas y Empresas",
@@ -708,9 +715,9 @@
     "film": {
       "label": "Véalo en dos minutos",
       "title": "Investigación, personas y pruebas, listas cuando su equipo las necesite.",
-      "desc": "Una llamada de briefing se convierte en investigación de mercado, un panel de personas y focus groups virtuales, con GoGlobal y Scale cuando la decisión es mayor. Con el plan Enterprise, todo el equipo trabaja bajo un solo contrato anual. Video en portugués.",
+      "desc": "Una llamada de briefing se convierte en investigación de mercado, un panel de personas y focus groups virtuales, con GoGlobal y Scale cuando la decisión es mayor. Con el plan Enterprise, todo el equipo trabaja bajo un solo contrato anual. Video en inglés.",
       "play": "Ver el video",
-      "duration": "2:07"
+      "duration": "2:10"
     }
   },
   "products": {

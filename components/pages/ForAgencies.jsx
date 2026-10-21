@@ -2,12 +2,14 @@
 
 import { Link } from '@/i18n/navigation'
 
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { PageWrapper, FadeIn, StaggerContainer, StaggerItem } from '@/components/Animate'
 import Differentiators from '@/components/Differentiators'
+import PlatformFilm from '@/components/PlatformFilm'
 
 export default function ForAgencies() {
   const t = useTranslations()
+  const film = useLocale() === 'pt' ? 'soundcheck-para-agencias' : 'soundcheck-for-agencies'
 
   const chips = t.raw('forAgencies.chips')
   const operatorItems = t.raw('forAgencies.operatorItems')
@@ -36,6 +38,13 @@ export default function ForAgencies() {
           </div>
         </div>
       </section>
+
+      <PlatformFilm
+        namespace="forAgencies.film"
+        src={`/videos/${film}.mp4`}
+        poster={`/videos/${film}-poster.jpg`}
+        background="var(--navy-2)"
+      />
 
       <section style={{background:"var(--navy)",padding:"80px 60px"}} className="section-pad">
         <div style={{maxWidth:1200,margin:"0 auto",display:"grid",gridTemplateColumns:"1fr 1fr",gap:80,alignItems:"start"}} className="grid-2">

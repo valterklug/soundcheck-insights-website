@@ -8,11 +8,12 @@ export default function PlatformFilm({
   namespace = 'platformFilm',
   src = '/videos/soundcheck-platform-film.mp4',
   poster = '/videos/soundcheck-platform-film-poster.jpg',
+  background = 'var(--navy)',
 }) {
   const t = useTranslations(namespace)
 
   return (
-    <section style={{ background: 'var(--navy)', padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
+    <section style={{ background, padding: '80px 60px', borderTop: '1px solid var(--border)' }} className="section-pad">
       <div style={{ maxWidth: 1000, margin: '0 auto' }}>
         <FadeIn>
           <div style={{ textAlign: 'center', marginBottom: 40 }}>

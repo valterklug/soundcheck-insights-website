@@ -38,11 +38,11 @@
     "linkText": "Ver o anúncio"
   },
   "platformFilm": {
-    "label": "Veja em três minutos",
+    "label": "Veja em menos de três minutos",
     "title": "Da pergunta do seu cliente a uma resposta pontuada e auditada.",
     "desc": "Você faz o briefing do projeto. A IA constrói a pesquisa, uma segunda IA audita e o resultado chega ao seu cliente com a sua marca. Vídeo em inglês.",
     "play": "Assistir ao vídeo",
-    "duration": "2:54"
+    "duration": "2:21"
   },
   "paraAgencias": {
     "heroLabel": "Para agências",
@@ -624,7 +624,14 @@
     "ctaTitle": "Veja a plataforma em ação.\nUma conversa é tudo o que precisa.",
     "ctaSub": "Conte sobre o seu negócio e mostramos um projeto real, passo a passo. Sem compromisso, sem taxa de setup. Se fizer sentido, encontramos juntos o plano certo.",
     "ctaButton": "Fale Conosco →",
-    "seePricing": "Ver preços →"
+    "seePricing": "Ver preços →",
+    "film": {
+      "label": "Veja em menos de dois minutos",
+      "title": "Pesquisa e teste de conceito dentro da sua agência.",
+      "desc": "Você entrevista seu cliente em uma conversa de uma hora. Depois vêm a pesquisa de mercado, as personas e o focus group virtual, e tudo sai com a marca da sua agência. Você define o preço e fica com a margem.",
+      "play": "Assistir ao vídeo",
+      "duration": "1:41"
+    }
   },
   "forBrands": {
     "heroLabel": "Para Marcas e Empresas",
